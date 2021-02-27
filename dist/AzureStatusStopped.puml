@@ -1,9 +1,0 @@
-sprite $AzureStatusStopped [70x70/16z] {
-xTYt6K8n301XEXzH-szBJNX1wCYw0VxFZPDYEgwAT4ma61c7nHG416FPWJgp1SeEoHG450GK11I4hQAW8A0W82iWC3jAxOobWACmXOp94ihOJ3RkAzGLVb11
-KExLIYkjjDBdxeGI1KMzOJ_epQ2yWb1UP9_qnZGO_mKVMqM9Hn61aNvy0kFzXFrVUPwHfXLbPcTDSOfEf4i8Pm
-}
-
-AzureEntityColoring(AzureStatusStopped)
-!define AzureStatusStopped(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusStopped, AzureStatusStopped)
-!define AzureStatusStopped(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusStopped, AzureStatusStopped)
-

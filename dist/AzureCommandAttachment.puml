@@ -1,6 +1,0 @@
-sprite $AzureCommandAttachment [70x70/16z] xS6100000CCWXFlR7cJLuW00003W
-
-AzureEntityColoring(AzureCommandAttachment)
-!define AzureCommandAttachment(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAttachment, AzureCommandAttachment)
-!define AzureCommandAttachment(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAttachment, AzureCommandAttachment)
-

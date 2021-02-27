@@ -6,6 +6,7 @@ $sourceCollection = "https://github.com/benc-uk/icon-collection"
 $iconFolder = "icon-collection"
 $iconPath = "$($iconFolder)/azure-cds/*.svg"
 $dist = "dist"
+$imgUrlSource = "https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist"
 
 if(!(Test-Path $iconFolder)) {
     git clone $sourceCollection $iconFolder
@@ -26,18 +27,34 @@ Get-ChildItem $iconPath | ForEach-Object {
         $serviceId = "Azure" + $serviceId
     }
     
-    Write-Host "Processing $($serviceId)"
+    Write-Host $serviceId
 
-    $pngOutput = $dist + "/$($serviceId).png"
+    $pngWbg = "$($serviceId)_wbg.png"
+    $pngTbg = "$($serviceId)_tbg.png"
+    $pngWbgPath = $dist + "/" + $pngWbg
+    $pngTbgPath = $dist + "/" + $pngTbg
+
     $pumlOutput = $dist + "/$($serviceId).puml"
     
-    #inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngOutput
+    inkscape --export-background="white" --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngWbgPath
+    inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngTbgPath
+    
+    $colored = $serviceId
+    $monochromatic = $serviceId + "_m"
+    
+    $spriteId = "$($serviceId)SPRITE"
 
-    $sprite = ((java -jar "$($plantUmlPath)" -encodesprite "16z" "$($pngOutput)") | Out-String) -replace "`r", ""
+    $sprite = ((java -jar "$($plantUmlPath)" -encodesprite "16z" "$($pngWbgPath)") | Out-String) -replace "`r", ""
+    $sprite = $sprite -replace "`$$($serviceId)_wbg", "`$$($spriteId)"
+    
     $puml = $sprite
-    $puml += "AzureEntityColoring($($serviceId))`n"
-    $puml += "!define $($serviceId)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($serviceId), $($serviceId))`n"
-    $puml += "!define $($serviceId)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($serviceId), $($serviceId))`n`n"
+    $puml += "AzureImage($($colored))`n"
+    $puml += "!define $($colored)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, ""$($imgUrlSource)/$($pngTbg)"", $($colored))`n"
+    $puml += "!define $($colored)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, ""$($imgUrlSource)/$($pngTbg)"", $($colored))`n"
+    
+    $puml += "AzureEntity($($monochromatic))`n"
+    $puml += "!define $($monochromatic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n"
+    $puml += "!define $($monochromatic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n`n"
     $puml | Out-File $pumlOutput -NoNewLine
 }
 
@@ -51,10 +68,7 @@ Get-ChildItem ($dist + "/*.puml") | ForEach-Object {
 }
 $allPuml | Out-File "dist/all.puml" -NoNewLine
 
-Copy-Item "AzureC4Integration.puml" "$($dist)/AzureC4Integration.puml"
 Copy-Item "AzureCommon.puml" "$($dist)/AzureCommon.puml"
-Copy-Item "AzureRaw.puml" "$($dist)/AzureRaw.puml"
-Copy-Item "AzureSimplified.puml" "$($dist)/AzureSimplified.puml"
 
 $markdownList = "Macro (Name) | Url`n"
 $markdownList += "--- | ---`n"
@@ -64,6 +78,6 @@ Get-ChildItem ($dist + "/*.puml") | ForEach-Object {
         return
     }
     $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-    $markdownList +="$($serviceId) | ![$($serviceId)](dist/$($serviceId).png) |`n"
+    $markdownList +="$($serviceId) | ![$($serviceId)](dist/$($serviceId)_tbg.png) |`n"
 }
 $markdownList | Out-File "table.md" -NoNewLine

@@ -1,6 +1,0 @@
-sprite $AzureCommandArrowDown [70x70/16z] xS6100000CCWXFlR7cJLuW00003W
-
-AzureEntityColoring(AzureCommandArrowDown)
-!define AzureCommandArrowDown(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandArrowDown, AzureCommandArrowDown)
-!define AzureCommandArrowDown(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandArrowDown, AzureCommandArrowDown)
-

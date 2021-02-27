@@ -1,9 +1,0 @@
-sprite $AzureOtherHosts [70x70/16z] {
-xTMreGL134FHO6nfFhh_QXylivVXH8fkAjiWKO-QoFYCJbA1qvYAX13q51KE0u0lOofFMwbe206JLBIc4WTvLl1QwrSYoJYwyZHVnRvyh5ycyg6fyMqzuSb6
-kYfQ3q_Qe2RYOKTvDHMHSxmQE0HK5Qznb5U3Y5olLaK0MtyrVldq_CRNiJT6Dli1L-MgAFHXP0UfyP6NrIjC8PeNSx2XYhanfcX-DP4H6SB6uQD1sv4x
-}
-
-AzureEntityColoring(AzureOtherHosts)
-!define AzureOtherHosts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherHosts, AzureOtherHosts)
-!define AzureOtherHosts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherHosts, AzureOtherHosts)
-
