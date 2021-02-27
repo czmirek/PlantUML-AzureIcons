@@ -1,5 +1,5 @@
 # Macros for Azure Images in plantUML
-This document contains a list of macros for Azure Icons of this repository. See README.md for more info.
+This document contains a list of macros for Azure Icons of this repository. See [README.md](README.md) for more info.
 
 There are two variants for each image.
 ## Colored image 
