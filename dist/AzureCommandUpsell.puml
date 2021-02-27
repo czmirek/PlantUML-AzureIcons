@@ -1,0 +1,8 @@
+sprite $AzureCommandUpsell [70x70/16z] {
+xTC5iWGn28JX9ep4OEv_skUoBjakc-8_m1S5NsqljbV5AOfHb4PH2aLPA8fI572KHb5MYY8K1PsYB1G5Jb5MYWAdA0j5GQSeEaZa_AUCNx0jsuB3seXIjuQZ
+n4OOmqd9dqSyuJHb883wC39-A4kudFJ7aIQuMduKMN4hjKSCKznflMluYll9dMDbmKF9QjT71q-asIuGMV5iQSxD_u2MPy5uwIF1RegYA8gYA7e7
+}
+
+AzureEntityColoring(AzureCommandUpsell)
+!define AzureCommandUpsell(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUpsell, AzureCommandUpsell)
+!define AzureCommandUpsell(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUpsell, AzureCommandUpsell)

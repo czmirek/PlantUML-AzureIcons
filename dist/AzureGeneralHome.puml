@@ -1,0 +1,11 @@
+sprite $AzureGeneralHome [70x70/16z] {
+xT7NWiGW28NXWo8Wll_xhd5BXcaPuyssFz7Bp-RDUxLdFUr9hBPcSbIxKu3D_PGIwqPPLjn5U5MfjUcoqf5DuIN5Ej94EAqePdtohc11KHk7sXG-gtX7jcnJ
+Q5g9I9LDGJcbkEhdJeP2PvGgEp8Kv7d5YlgE30LbLb6KJsHNCAa8u0EJeD2KKe0Qa4qPbGcbaer7aXi5PU94x3iI5UIN5GPL4xs8iSUYDqcwTotWbA9oMPP8
+b0JSHPgd4fGOvI8V0dS2DueCfCT1kLVA6Dqg2g1yU4SAADrN382qZu9om0I40BqutO7IIxTAJKGQpgTse80m2aYo5l9S3XHGLBmZDIAL06Gk6KVC4yJmKZGK
+IzAHJDc3uOpNgqf4sQuH5yoKQAjwgMtF67CDn9eH9HOrCvMCwJwHoqufsfIMbSHCjCXGQ5M9VIU5rfNHTrBeEodqdPHrPXvTHqOBHcW12HqQgmxcMYNkI_Yh
+_VVVVsy
+}
+
+AzureEntityColoring(AzureGeneralHome)
+!define AzureGeneralHome(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralHome, AzureGeneralHome)
+!define AzureGeneralHome(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralHome, AzureGeneralHome)

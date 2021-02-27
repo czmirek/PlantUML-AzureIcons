@@ -1,0 +1,9 @@
+sprite $AzureIotDigitalTwins [70x70/16z] {
+xSu5qeCX38JX0BlXk_-5VyqKRMdgzevY3n4hiKj_AqiSR8werHFfi397j1X-HKl5y2fQHKnRArg7YoWyKT6sooYyew9zzrDqY1THrA_e968i9jIbqnI8xA0K
+WwmLXJN-7dwIgW5P3HDbpAyWE1N5h3GYGIt7CF4Y2e9FKSmxKY4jMoA6kcCL_BTJXeSU1RPCSW45Sfx2YoYufPB_swlm8WeyIhwoGe-IHyMwWvBtARo80eVI
+CQt2bRALAYPdbEXHQYPlcONnAON9FmlrAgMYL0wzofPDCPJuInPjKoRNQpAj56mpnnIBiYnoJ9kGKfJJYjXPJ47EAOGWhzUdJvy-VVe6
+}
+
+AzureEntityColoring(AzureIotDigitalTwins)
+!define AzureIotDigitalTwins(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotDigitalTwins, AzureIotDigitalTwins)
+!define AzureIotDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotDigitalTwins, AzureIotDigitalTwins)

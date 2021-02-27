@@ -1,0 +1,8 @@
+sprite $AzureCommandHelp [70x70/16z] {
+xSo7OSKW38R13mjNEMZ_QTDx1_-fZnlWU5UULY_5robpm1htV9GqKTR4SuDbItLDbCmZjfxTzNnaYyTcxkGz7b3PEDUInsFKDXk0bNY2wcO2YsUeRooLfkLf
+K_PuZeRc9IGDaWP9WwH1qY1fa3H86YGDaWP9WwH1qY1fa3IqyMUBf47I86cGDBIR9CiWMTWbIvOiB9A5JRAmI1PiKon0za31-GEwhkkwBasN4WTPNBBJMou
+}
+
+AzureEntityColoring(AzureCommandHelp)
+!define AzureCommandHelp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandHelp, AzureCommandHelp)
+!define AzureCommandHelp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandHelp, AzureCommandHelp)

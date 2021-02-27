@@ -1,0 +1,8 @@
+sprite $AzureGeneralDashboard [70x70/16z] {
+xT750GHH309G8h__ajVjicDad7UFWYqHiM7GhGrJqYNHBTiGNjB5IhgWXtUBTXVWnEiWpYiXZdqIuWy2wP2h13XUTu-1azjvocQQHDLFqa2n9AwfNCGBFkAt
+OzB1YZ3y4X4H4P4h
+}
+
+AzureEntityColoring(AzureGeneralDashboard)
+!define AzureGeneralDashboard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralDashboard, AzureGeneralDashboard)
+!define AzureGeneralDashboard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralDashboard, AzureGeneralDashboard)

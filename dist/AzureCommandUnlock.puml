@@ -1,0 +1,10 @@
+sprite $AzureCommandUnlock [52x70/16z] {
+xTK5aeGm48NXZc8Xx_wdNUsfsPVfhQ9PbxyC-t28S1474cxpcmI_sVmcmc-c4wRvJO3Vv1EcdZ0B_itqISydd33ohSs_AP_qZhOJ1WUhBrgqZgVwmcsN9RZM
+HHldjJG7USem2Hg9K5VHZ6kReSKWMgmRq2mJXjiteRVjeHrFaIbyhxjQcMu7jFLg-AHsHVM0oM2K3nW1esIRG6PX56spaeaW54oJGKOMHfO9VJ2X4p9Cs34O
+AM0qclP4sCXCQ3IjWeos4YBJgnJJoF8QIb46Om_VxOho9cIus6vHMD3OZ9N6A4mTbk7Il5zGB2i0orYkr5foJC0XmzPd5FcC8fzHv3EAV4QHpoZQ_4R22IE_
+sIprS0j-OVS
+}
+
+AzureEntityColoring(AzureCommandUnlock)
+!define AzureCommandUnlock(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUnlock, AzureCommandUnlock)
+!define AzureCommandUnlock(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUnlock, AzureCommandUnlock)

@@ -1,0 +1,9 @@
+sprite $AzureCommandBacklog [70x52/16z] {
+pTS5RWGn38NXPyZmnFU_RPLQ8nT4YTFk_al2Rsb2G4GN8ntTLda2Oixaa9IojYUkWO3FlWfmsCrmnCHTiRvM76PMIo13YbYa65MWln7mtfS26aWcPmgIgIDv
+Pi6422s-1SdyyaqpKkF2IoALCDXEWR2BLryBS5gLG0P7mFdvOevaHwCZemh4dWHFjFOb_hjE-uyLo3AEf9aSCX-J6R-EckKPiTPD68iEzayIYDI-Lj1bfe6C
+ZG1VvFT0XXIkKqPZOtuWeAKlWJEEP796tc89YUMCCA5YPGPYjkIHbiv0JWn6b-11hj5hjmsa4aXc71sE459ZEePquXlzG43Q5-DXAiqxqkIFLsdcJ28V
+}
+
+AzureEntityColoring(AzureCommandBacklog)
+!define AzureCommandBacklog(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandBacklog, AzureCommandBacklog)
+!define AzureCommandBacklog(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandBacklog, AzureCommandBacklog)

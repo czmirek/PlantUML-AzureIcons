@@ -1,0 +1,9 @@
+sprite $AzureIotEventHubs [70x70/16z] {
+xTRLeIfH40NHQiq_OzmTUZ-vKjZV0cQEzQIqo5f_jg2avmK2nG45CbSo54gNHd635lIhN5UPELSC62k5GWc9Wa89YO922OLIA1HJA850IGHASP84GO8mGCOA
+4iKbIl3_N9VMAFQnKfQzBmQ_nLqoweBeRHEb4wAkByn7zzWyPagNSTrW-C-K3edIoVyqZzeaIZl8TvBFgvboFG1xLAuAm7eQwrnoo2HwaiES2PWp0NF6ESl7
+SobNnITCxWFO3SASZPZzXB3grwkyL8fT-TQzyJnL4dZFINPPPEsKiooV6yPv1jT5zVqgU3MBcXBdVtbNLORnSRQE7zWI
+}
+
+AzureEntityColoring(AzureIotEventHubs)
+!define AzureIotEventHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotEventHubs, AzureIotEventHubs)
+!define AzureIotEventHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotEventHubs, AzureIotEventHubs)

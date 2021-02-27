@@ -1,0 +1,8 @@
+sprite $AzureCommandAllServices [70x70/16z] {
+xTRL0O0m54FHFDpPVrhStJLdWFn0suj1v1HCD8YpKbZmqA24Apr-HRoLXbRM-zwAKX0GRVrVb6LGsdKpQ3zRWRQCVFMMQhwDJqOiCXs5NNUTzRuLyIOPCoii
+CXOPiSXOP2moYW4
+}
+
+AzureEntityColoring(AzureCommandAllServices)
+!define AzureCommandAllServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAllServices, AzureCommandAllServices)
+!define AzureCommandAllServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAllServices, AzureCommandAllServices)

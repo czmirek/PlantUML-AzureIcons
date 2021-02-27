@@ -1,0 +1,5 @@
+sprite $AzureComputeCloudServices_Classic [70x70/16z] xSov0O104090xZ_ils1JJLtycG86JsDcPcPcPcO92XKA4mA549YAfL6m59A2HB1KnfSq65vI8sDBocsGiILDxa3IuA34PGEI1f86aWQI1f86acO5
+
+AzureEntityColoring(AzureComputeCloudServices_Classic)
+!define AzureComputeCloudServices_Classic(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeCloudServices_Classic, AzureComputeCloudServices_Classic)
+!define AzureComputeCloudServices_Classic(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeCloudServices_Classic, AzureComputeCloudServices_Classic)

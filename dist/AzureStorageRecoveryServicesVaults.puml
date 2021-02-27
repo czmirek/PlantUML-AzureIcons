@@ -1,0 +1,8 @@
+sprite $AzureStorageRecoveryServicesVaults [70x70/16z] {
+xTIt5GD130FHMqE2tFxxbKta7V4KOGhuuMpSb59AAQMKQXJ5A4eo46SeOoq2aWJ5rgefRRgrhVM9aZ7Rzh-KZa9XfZUAmc0C830E1eDJHMQ0mNYSAp4zWi0W
+28n7r1dFg-8NfY5lGllQiBmFtmXz63ApoBJ8P-q1
+}
+
+AzureEntityColoring(AzureStorageRecoveryServicesVaults)
+!define AzureStorageRecoveryServicesVaults(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageRecoveryServicesVaults, AzureStorageRecoveryServicesVaults)
+!define AzureStorageRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageRecoveryServicesVaults, AzureStorageRecoveryServicesVaults)

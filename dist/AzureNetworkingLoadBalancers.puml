@@ -1,0 +1,9 @@
+sprite $AzureNetworkingLoadBalancers [70x70/16z] {
+xPO5ZaCn34JDll-9o-3rDY0bY_KJ5PzcVf3jZF84q85d9GW33OyX632X88GHj1u40DSUoOqj4fpginu5lYiAxOW2Kr7MBRZ50l_DGh_QKcCqFtTfo-F5JPNU
+Bum8hGwJs1d5fKfYDtWeSSd_rIGvWIE9MxAOtpJwj2XqCVSKHjnl6WjmFutcCEedJ3uKilDx1EnsqcZnAveiexM96ZNgDnYZPMA9eqYASXdR44Rva-QLC4RH
+ssyn5ieQwarXGWoV9SbJGznRK9IhNke8Hn2fjz9VVdd9XXJlczYHf2UszhDrYg8eYg8u0W
+}
+
+AzureEntityColoring(AzureNetworkingLoadBalancers)
+!define AzureNetworkingLoadBalancers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingLoadBalancers, AzureNetworkingLoadBalancers)
+!define AzureNetworkingLoadBalancers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingLoadBalancers, AzureNetworkingLoadBalancers)

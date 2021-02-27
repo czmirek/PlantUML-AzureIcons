@@ -1,0 +1,9 @@
+sprite $AzureSecurityAzureAttestation [70x70/16z] {
+xTA7TGKX34JHKQR_XXrOQvq3ICx_5l0E3E1L5nTCgACnmas56GKn4c6RUToO5UmYypGS7oF6pqwIOYW-oFrfnrDyV1Rs6ofCd34-BnJuCFMK6LsvKFAakBDo
+eSGU1pidZrl3i8BZu4W-AuGb4WSaoQFiPF3eC8IjZEEaCGJhD28K9ng67HgE1mnxbF2-2q87CK8THpHqAAAXGp5fIoL-KCLRAeOIRbbNOcAKQCUui8vP49Eq
+F14wnjMMMQXZ5csv48ey7wZyGewERQdZADAnYg58EaP1ZbAUbb6a7H4kF4zlX3gkGzwpYNUyZXDgo3g-lKSeQjXlIBKHxhL9I6P3iO_5V6Bi8nQrXODKNGC
+}
+
+AzureEntityColoring(AzureSecurityAzureAttestation)
+!define AzureSecurityAzureAttestation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityAzureAttestation, AzureSecurityAzureAttestation)
+!define AzureSecurityAzureAttestation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityAzureAttestation, AzureSecurityAzureAttestation)

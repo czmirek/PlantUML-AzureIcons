@@ -1,0 +1,9 @@
+sprite $AzureCommandLink [70x43/16z] {
+xTJ5WKCn40JHbkQBeVFFTcVDR8_fv1T07GjVylFpu_0MXRFN92ys2zTwqeIyMb4zH1oJOAweSfYHEabiICobrbfok5-PdBqtWVADL51B7jp9Tofxsbcu1fSd
+3xcxbRtEZSfZ5LSg9lAEIiSxAW6NLHfCN2ID5Wd7dAYbqGOd8ccNtrBnxwXKlACYK357Zwr4imweJ79aXvLAix2hgEgX1gqc3Yeg0w1PEgbmYD0C9nNLQ5Ns
+bHVuYvNgJMUe02JLCGyB9CLK4PS6ZomGajCPAZrEdcW-KjMJYjaWbUmhBsWFLFu
+}
+
+AzureEntityColoring(AzureCommandLink)
+!define AzureCommandLink(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandLink, AzureCommandLink)
+!define AzureCommandLink(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandLink, AzureCommandLink)

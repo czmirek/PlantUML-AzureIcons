@@ -1,0 +1,9 @@
+sprite $AzureGeneralMarketplace [70x70/16z] {
+xTLL0iCW44NHiJUm_mrN8rMytXlxEt707FLKg_mLHeZ1k4-nU4oh55KLfYMDSrAZJDbanQLGgQmfufgqAWXnpOOf3kbKzFYOdBiKsfLvG28vnIOboP2b5T2-
+_4jFAo6uCULV5oUKAPr9IZ9-KJWFOKgFiOZi3-UEULrYPd1NEk_p5IjH_WgtAVXsHTeKBr7-Ydw1mc-hs1SeyhOAla3HDWL354yf_bp5pXLhKtI4eYCKo005
+qgy0gfSAwgPf68w77cLDbmn0fxBsGiKk46cRfYyKNXLMCw1CmRrBMMCMqGnf2QI2j0haaXIHWuZ54UgAcHxI5W
+}
+
+AzureEntityColoring(AzureGeneralMarketplace)
+!define AzureGeneralMarketplace(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralMarketplace, AzureGeneralMarketplace)
+!define AzureGeneralMarketplace(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralMarketplace, AzureGeneralMarketplace)

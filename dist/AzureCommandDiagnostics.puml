@@ -1,0 +1,11 @@
+sprite $AzureCommandDiagnostics [70x70/16z] {
+xTU7KWCX08JXetVs_P_MmgsDCF7WxEQtY_EDi-dux6vj9_e1oaqH7wAeZr3KXoZf8tQnnnNNCjjb4kwmmYuN41Ngi5BvnVL8GTqEAo9ZvAWAf9bhdGUhzldS
+0O2TKJOPmOfjfwQqd-JaBK2u33f6-Nqgpk8EAanRvvtLGYQUnFRhkdgjKxjZcmsrfD3XB1vkHM4wr_Or8wufpChz3-if9I3AJGEGPvGA80IklAh8TgfiHJwX
+MF3KLhskH02yFJhioKc5iu3N5U71doOLphArwEHfnVQ78W1YLk4iZ8wTLUheRagQEKMDBvHQp8pYWD4jA01PNrL4UrXYYNTJNHfzlL80mFC7S9Q-zvG4a1dE
+mYB6zST-F0lpLnMUak4iG-LeVZ3BE8podbyvoxJ2_o6WLJZBf49aPrYSKJpZ2WbWTksPQiV8DOLbWBESKSZ4auee0A3M5JBUU_FJNvFSb9lYc6M6QQQOP89H
+-TnktGC
+}
+
+AzureEntityColoring(AzureCommandDiagnostics)
+!define AzureCommandDiagnostics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandDiagnostics, AzureCommandDiagnostics)
+!define AzureCommandDiagnostics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandDiagnostics, AzureCommandDiagnostics)

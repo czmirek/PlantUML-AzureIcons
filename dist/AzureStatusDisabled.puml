@@ -1,0 +1,9 @@
+sprite $AzureStatusDisabled [70x70/16z] {
+tPW7ae0m24NLO13-_U-xJfUTCOs_zHtW3oMXRUySSggPtvZfASSsZwZZ4wuo9L62H10gmng61YQh6X7hshCh1j2zROXZ26-PKp6ClefScE1w2ObX2jiR8ZaP
+mpJMY4aYDXLBrFXEi4XvHjQnY3yYh5X6epzfdmm9B9YIDSQGme8f2MD2WZ9fSYJnMqIGHe932PSSQNmxG60N490Qgiu4U71gi6mRPW_XDOQASLISeUB_J-Kt
+vOZpwZW_WFCREPM1KgKu5PDJlIcTXDFLE1sMqkrPaqVU6EDCP9Jfa3EfKgPcoWHFsIOecmrdow9jVFpjSpvJbRALSoy4_6j5rBcQ6iAxul0lIctsUDrgHVG3
+}
+
+AzureEntityColoring(AzureStatusDisabled)
+!define AzureStatusDisabled(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusDisabled, AzureStatusDisabled)
+!define AzureStatusDisabled(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusDisabled, AzureStatusDisabled)

@@ -1,0 +1,9 @@
+sprite $AzureCommandSad [70x70/16z] {
+xTQ5iU0m34LHcTcl_svtSCCeVVOfu4vYnaAbBODh3NEEjZAk5KoIeIs5PpBjYNWaqYuyqmpj203uNzC0i3_70G3xSofUgNgrubuAwnN7_Hm53Z-jE8wYfnN7
+_Pm0jgAeWQydt38CGm4BQUkSisHP7VglY5IeYbHKvLGcHQH2KQH2jd4gao1I8HKwfpAnzLN5q89_yIqwTZ3VFEJh-iSitbf5s1K3WOhk0XNL850f4AWa25Gy
+12e60XNL9Ie50fK0WOg1HAL9L184M4Xe-1w6OVW7
+}
+
+AzureEntityColoring(AzureCommandSad)
+!define AzureCommandSad(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSad, AzureCommandSad)
+!define AzureCommandSad(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSad, AzureCommandSad)

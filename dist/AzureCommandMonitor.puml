@@ -1,0 +1,9 @@
+sprite $AzureCommandMonitor [70x70/16z] {
+xT3LOGKW58FXG77B_jFMs-i6UUGRu3_2OvaAS9thte0uk2hWKwXSa_7Dk5Jx6BrpIiE9o3auPZZ9uaZc98SZd1Ln43Yhug1oMX0STFmPnnMjfEWC4Bbkr8ct
+RDksRTksjKW12yTb7e2fN9FmBGmkoFXbaY3otPdS9-2Kd_XFjxZaKZrQQHG-WfkiyzuxPm7m4Oidy14lgIH9fKegGrAXaLISf18bbIAfT4bbI2fUKMbGLAoY
+uY6e90Wg6S_v
+}
+
+AzureEntityColoring(AzureCommandMonitor)
+!define AzureCommandMonitor(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandMonitor, AzureCommandMonitor)
+!define AzureCommandMonitor(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandMonitor, AzureCommandMonitor)

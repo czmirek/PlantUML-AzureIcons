@@ -1,0 +1,8 @@
+sprite $AzureOtherCloud [70x70/16z] {
+xTAt0SGm509Gb2Ns7_WgrMSRIju0Fu8l8Y8Y8Y8Y2fwBVBh3OS6W71XCHvLw75MseyeY2TMaNgKiwbNweLobRrAgKjfOXnIgt3hpQ5MkjcyLotbXUJKiiOEb
+p0y
+}
+
+AzureEntityColoring(AzureOtherCloud)
+!define AzureOtherCloud(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherCloud, AzureOtherCloud)
+!define AzureOtherCloud(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherCloud, AzureOtherCloud)

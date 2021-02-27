@@ -1,0 +1,9 @@
+sprite $AzureCommandDownload [70x70/16z] {
+xTC54eD038NXjuh3_KzRIz7Ch8vKybVm3qSaipmoYFJjYYYYY2AAAAA88efnSSMP-AvjJB6qJkJuBLSkI9ZHooiRKYojemDCVs6uOcYD7eWpXYav2D0T6AwO
+cI4nXYkQa0v8P6RDb1m4Q3TcKnYInspAXhH0FhCfAXS1cfNP53LjI2upgLLXI1v3oXjfa9idXjwzaI5vpBpzBHueP2Y653CUfJc6r34Eg6SSwh8CAMCOKiPO
+6h8aoVgaR5WPbgI6drVk
+}
+
+AzureEntityColoring(AzureCommandDownload)
+!define AzureCommandDownload(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandDownload, AzureCommandDownload)
+!define AzureCommandDownload(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandDownload, AzureCommandDownload)

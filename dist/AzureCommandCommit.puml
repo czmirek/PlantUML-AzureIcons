@@ -1,0 +1,9 @@
+sprite $AzureCommandCommit [56x70/16z] {
+xT05RiOm38RXBrps_M-xHHwvanNOVivR4Fbfaq0l9VIKY58VOzZCUc1anh2HSR6HjKDcxP3Pngzw62Ytslos2-L2FGCxh0mhsOPFXurX9VjoTT1JRZVVJe4A
+4yxibFCLJ3W1LNPOI9VX8Q7Ef8FLePDCEXqo8uUpqw5aqkaJd3mnwUHfIsSsPhfZk1kSMYb0SrzmnUyS52T7z7I75tN33MVYUmQFdk-CNg1ecugVpgCf_tzk
+kE66csDJCxr0Rm
+}
+
+AzureEntityColoring(AzureCommandCommit)
+!define AzureCommandCommit(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCommit, AzureCommandCommit)
+!define AzureCommandCommit(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCommit, AzureCommandCommit)

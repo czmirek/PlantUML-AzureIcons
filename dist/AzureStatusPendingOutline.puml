@@ -1,0 +1,9 @@
+sprite $AzureStatusPendingOutline [70x70/16z] {
+xTP5UWGn34HXIsRL_SyRHja3DL5sVkl-_YPJ-eTEfrC9C7HOW3A162M7A2r4iH059KIP8GfwUgJY5DI77a2SWiOZYkmL366LXhOeCFPn3DCh_3TM0EeKdga0
+cbDufWEmhO9E3hJg59h1QoPE8Hd5MoFHUSMFUhwCZtA8OXgXm7A40hI_VTtFXaOeiF6Qm-IjwmmsjMMEGE-O0IuJpumxPkDIzzVe7Il3MY5F4efD_E2nFLFO
+rNjV5tB4xBEcxBQwpqPlxJwbu5fJY8SX4EPX-9LqO8rVAzImQv93hsBDQc8RYz4aqOdXPwEmWFyqrekaHvFwKYbA276TJgTd
+}
+
+AzureEntityColoring(AzureStatusPendingOutline)
+!define AzureStatusPendingOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusPendingOutline, AzureStatusPendingOutline)
+!define AzureStatusPendingOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusPendingOutline, AzureStatusPendingOutline)

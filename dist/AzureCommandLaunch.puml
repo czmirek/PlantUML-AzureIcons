@@ -1,0 +1,10 @@
+sprite $AzureCommandLaunch [70x65/16z] {
+xTL7bYGX34NHZxT2-rzjUwU3aWwgDCmt2tV3G-gq-7i9S7aGLxogy8FIvEyrgAN1DmtikRhuBi9MvViSP6cnRAK_4RygGzHP99vSut-IuiG_UUAje227lO2m
+U6lAgvoiD_yYh1G4KlB_denVlDSa0g68FBxdYFS84Zaev01WyDxo4ZafF1sG7o1dXIau3HT8Xb3Kgh8AEt9M2BwpgFjVoFY5F50I09S7_sfa1mqvAmk_yl5R
+7e2Ed9KA9GKvA_uPSbRe8N9MsXbvgEG3ag0hVLF24T6LN9Xbxe1eIkfpPNIM7H1LKISBmjRK49sKoZq2kAPE0tU8-Fde6f65c4gRf24Hjp7rcgF3zzn74H3_
+Z4OhT8ES9-THeiTjXRLer8oBmkt0exTCb6QY11C5qqH99WgcYH9D53GJnIqB1Tv4GJ9Ha4qK51C5oKH1M1OANBTGW4WM2f39GW5YLvNxKfsgSf-B-7Jltdq5
+}
+
+AzureEntityColoring(AzureCommandLaunch)
+!define AzureCommandLaunch(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandLaunch, AzureCommandLaunch)
+!define AzureCommandLaunch(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandLaunch, AzureCommandLaunch)

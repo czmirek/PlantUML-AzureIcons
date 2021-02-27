@@ -1,0 +1,9 @@
+sprite $AzureCommandTrendUp [70x48/16z] {
+xSy5SiGm40NHaPbz_zE6aowOQ4hw3kws6VHAih86lqBbzBj4kIjjIzs1KjzseWW82OYkf7VaGAb7XWMb7Z4K0K4H41G5YPKcHcAbFuS8YPMU7pD8eFJyca42
+fUFdB8BY8mxZ82Wk0fD1K7p4OzBk8DPFptsAm3X8M7k-jZSiWEMK8icCWPKpsPAPmIW8pF5sxIiGc2Ba085H41W9WIb16WU14H0O1O5H4Ee4XFuMaYv1zXz6
+Q7j3J2hjp4HYG2HcimjAEl48
+}
+
+AzureEntityColoring(AzureCommandTrendUp)
+!define AzureCommandTrendUp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandTrendUp, AzureCommandTrendUp)
+!define AzureCommandTrendUp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandTrendUp, AzureCommandTrendUp)

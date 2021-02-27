@@ -1,0 +1,9 @@
+sprite $AzureStorageStorageAccounts_Classic [70x70/16z] {
+xS-7iSGm489XTXSkz5_moy7PbiJa-mlu1lXVgJbM101majggm6-z1XF0eC80XfN48hOp38mh1OmhYKD5zok9YsgXFBkIHQ55oRd2BkG1XtApABGeiL2gxv13
+IOToXqCfXtA7Gqc7SillXfI7VXfIRWxbfatbtfIuhQ2ji2XqA2c78eTI3YNaKEHGw50eWqADAr7yRbl9jYnAoQ78eSYXS4zX4s9GA8D2ZIibZIkb3QKcIbs8
+sbB0tcPA32D2DwD9w6MqKe0QGeGkfdYRXT-o0KcWjAaWYjUg031tW5Od9_Et523hel4FwL-vkASI6qKarcNj486s8gjRM2_zB2R0grVl
+}
+
+AzureEntityColoring(AzureStorageStorageAccounts_Classic)
+!define AzureStorageStorageAccounts_Classic(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageStorageAccounts_Classic, AzureStorageStorageAccounts_Classic)
+!define AzureStorageStorageAccounts_Classic(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageStorageAccounts_Classic, AzureStorageStorageAccounts_Classic)

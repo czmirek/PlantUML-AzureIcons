@@ -1,0 +1,9 @@
+sprite $AzureGeneralTags [70x70/16z] {
+xT17bWCX303HaiZc_kTradFMm9iLjUi6Fe7uOq7GVU6G_KZzKao_fO1eJDTol-P04BXnDcv5EIOA4fwFqZq8I1HE1ofUHRcawUX8IDMfADmoAGK1z9Rn8SRi
+Yq7bXl4YnbZjPqNX1yQ1V60yo3EJZQdvKrVaYSdMWMdPZrYQSuvYd0DvPWAwQIeZ22YXxzEGFoLyJeizh8mWb6x921BwAHr0e5irZI0aK_8G0d7JUulvKF8Z
+rrH0ZolAOrbmfRaeemXeW574ce8m1M4AmXCog6J-tXI4AGXJ4AOWJ46e-pAZJK4eCn0ayK-jLglLQhLQxG
+}
+
+AzureEntityColoring(AzureGeneralTags)
+!define AzureGeneralTags(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralTags, AzureGeneralTags)
+!define AzureGeneralTags(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralTags, AzureGeneralTags)

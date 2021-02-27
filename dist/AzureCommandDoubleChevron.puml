@@ -1,0 +1,9 @@
+sprite $AzureCommandDoubleChevron [70x70/16z] {
+rSm5hW9G34N1Vi5j_wl5UV79JV4JhqnzLRFP8v3T3aoEWCaHC3a29aVCvCXg1IP6gi3a29WS0PCZPdB4J8wOoH4pHi0q43D6oFGHCqRC6EapHimOCMEapnWn
+OyICa1vZn0oG9cF4396S8P8p6R9UHypQo6udPcn_raRCR7xgoco4c1d8aH5YvgT6HCoao6G29aQgmEG8c1m1aoDcSiHCZfZ94JD6m3GGCqR8z14pHimOwJD6
+p1WnOwJF635Zn8oG7cF4390cOyGCa0O396UCvCmSIC3CQp10p0pao0WnCwzFwm
+}
+
+AzureEntityColoring(AzureCommandDoubleChevron)
+!define AzureCommandDoubleChevron(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandDoubleChevron, AzureCommandDoubleChevron)
+!define AzureCommandDoubleChevron(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandDoubleChevron, AzureCommandDoubleChevron)

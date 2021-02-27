@@ -1,0 +1,8 @@
+sprite $AzureCommandChevronUp [70x37/16z] {
+fSp50SDG04CnXpdPVzfoVN7nVGqWVTKkufmSHpGaAM-wQ-A69z7Wn0rFzkMucikIHdCq894RdDHID2ZXJUya6vwuWOajRbYI3K_SW0GqaT1cS0ARJDutDCc6
+9sucd6J3asmosIg9D9dmPdG26fYuGKasCB7LJIImuOcRI5ZZP7K2cb5gTYUqQNHjdB2cqLMpE06MQt86
+}
+
+AzureEntityColoring(AzureCommandChevronUp)
+!define AzureCommandChevronUp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandChevronUp, AzureCommandChevronUp)
+!define AzureCommandChevronUp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandChevronUp, AzureCommandChevronUp)

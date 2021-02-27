@@ -1,0 +1,8 @@
+sprite $AzureCommandSmileyNeutral [70x70/16z] {
+xTHLGi0m0C1Gkhhc_hVb7vVWv7zlzPjdYppVyyemb82XD4N1KAgYR4F96Ceob8YX34C964fJ50obAiesb8oXB4E96Cemb0j3QOg2eLH5EOQICPHbA1536I_-
+_4evv_JE4_VC6oSe64fLb6Ce6K6924hwWWkK30HskOyKNjzfuLqZUNXv4eAI49I8e5p7K3Q2CX6KZg0K12KYAE4OoaHGAe8ICPHjA1sXXD7cU_JVV__T0W
+}
+
+AzureEntityColoring(AzureCommandSmileyNeutral)
+!define AzureCommandSmileyNeutral(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSmileyNeutral, AzureCommandSmileyNeutral)
+!define AzureCommandSmileyNeutral(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSmileyNeutral, AzureCommandSmileyNeutral)

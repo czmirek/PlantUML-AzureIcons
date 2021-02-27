@@ -1,0 +1,10 @@
+sprite $AzureNetworkingRouteFilters [70x70/16z] {
+xTG5aiCm341HsHRV_y0xuHG2QhJSFrZ8cnWXL1DahSXYVOmGZyox6fjv7rFOQEP3HkIZOk4NyJcUtegzlenuzmRLNb3GrtNJ8V4H5VDrLW5Qft18uUxHEmRD
+CVOgtOFcgungQHPJq9yNKoH5iHJ53vM6Xv4CsQQ27CYs5Fwx2hOnlA0Gp66Aqauhcg8ufYYMeZYbA5Oo59SKnMkAeck5Qnch75AyNJX7IxQlj395UuhZhW9p
+RLUn0hBPMjcuCiSuHR6IeRYaA1fID6L4eXbh921FaNCABb-XtICLzXHXd98n182gzs-oLjfo6ZVT1brDxn5u-lvRrVb4s0g9AtCLMLGBN52Mla1vApecC4Uw
+rQ6YZ6Ca5vHLlrkX02Am6VBPgC1FxzsxTny
+}
+
+AzureEntityColoring(AzureNetworkingRouteFilters)
+!define AzureNetworkingRouteFilters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingRouteFilters, AzureNetworkingRouteFilters)
+!define AzureNetworkingRouteFilters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingRouteFilters, AzureNetworkingRouteFilters)

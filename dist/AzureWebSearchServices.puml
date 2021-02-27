@@ -1,0 +1,8 @@
+sprite $AzureWebSearchServices [70x70/16z] {
+xTI54GCn34HHhM0SfVz-muV3NeVr2lXcoxELKaefK5K8Hpskt8HWCN5GaObB9uq9a_7OWFH0R1cn87P9zkRA-1KXjfIuTFHzWLDJcUZkjj2pCVvhS8DygL9A
+WGmG3KApp3OYaYaaJxw2bdG5aSbLeDuokGeEkI5ziAiCoSYGZ0p929CvJiu
+}
+
+AzureEntityColoring(AzureWebSearchServices)
+!define AzureWebSearchServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebSearchServices, AzureWebSearchServices)
+!define AzureWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebSearchServices, AzureWebSearchServices)

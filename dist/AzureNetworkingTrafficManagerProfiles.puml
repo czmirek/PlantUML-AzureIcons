@@ -1,0 +1,5 @@
+sprite $AzureNetworkingTrafficManagerProfiles [70x70/16z] xT950eG030F0fFB_9-_Yxd22pBrUBBCeEGuYbZ0gJapPYIoH5SCGQGKSvbaZRh2i1Px8OhY55bKhjz6JU03n6Xx4fuYUNaH4H4H4HFu
+
+AzureEntityColoring(AzureNetworkingTrafficManagerProfiles)
+!define AzureNetworkingTrafficManagerProfiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingTrafficManagerProfiles, AzureNetworkingTrafficManagerProfiles)
+!define AzureNetworkingTrafficManagerProfiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingTrafficManagerProfiles, AzureNetworkingTrafficManagerProfiles)

@@ -1,0 +1,10 @@
+sprite $AzureComputeVMScaleSets [70x70/16z] {
+rTC5SiGm38LXSMJt_kSjDqlA9DfzfNyW_8Lise_LOyagOJgMU6vt3E6Ig1M9ZN8lEciybOriARCoviZ7bS9eA_COijJADj9NPXui2gL0-aeVITzKiX56iIrb
+89IPdNH36GXbPYkfbP6jk5H6_eP2bJ8JeGo8aWXbPhEbKiRlA54fYL1cTdCwJxEefwnvThDlKoAxAKG9_ymUKPRuYi6AGnJBRb4e2b44yaRKLzREb0MYE4GH
+Y48OnI4AvxsTAnGGHI0A1KHXY48EK9hJOAnTAz94QeKCef1350g0SfWPEmf5Lw4otvl6-PgjCTLfbldPuQ3zE9QYLLdNzzAupUWZELllEtgcA1rD_JAXpznT
+wNYiTjQ9DnDgnQ8VbD8fCQPxOledlG
+}
+
+AzureEntityColoring(AzureComputeVMScaleSets)
+!define AzureComputeVMScaleSets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeVMScaleSets, AzureComputeVMScaleSets)
+!define AzureComputeVMScaleSets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeVMScaleSets, AzureComputeVMScaleSets)

@@ -1,0 +1,8 @@
+sprite $AzureCommandCopy [61x70/16z] {
+xTBLOGKn30NHPPRTVxLXqD8azp5u_ezHaHeoBWeQC6Z4h1dtpMRTbsPSPzire063PknhGGCcpPWrOzQCMJDcpRYrLV6ZO6PJphYFL2W431emQSQXsshyr9Op
+dc3ItTugzbh7mPrSnQ5qMiQPqpfsMiTEwzXf5SVnFOkVMiK-ax7lKhZgNIDZhdu4d7322ISyjAv9mElk0jio1MVB-gV12LlpP_qE_bztZ5y1
+}
+
+AzureEntityColoring(AzureCommandCopy)
+!define AzureCommandCopy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCopy, AzureCommandCopy)
+!define AzureCommandCopy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCopy, AzureCommandCopy)

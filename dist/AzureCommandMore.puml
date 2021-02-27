@@ -1,0 +1,10 @@
+sprite $AzureCommandMore [70x70/16z] {
+xT55ZYKn60JXtupbklzf1nxBsJ7GwufjIfyC1brTNLrTNLtvljQ8zbLrdJFRL-Lvhlg9dBUIQSTjQQRrspBjrJplEJt9Oz5pniTIFuv2XrcFfS5HplEmH-6f
+5DjxBaEMyPpaB17FKl4iqnwvZyFfuzxoihJ7ahTphw3AmDyhyc2_pzsBW-ySrPkMVz-cHNitdxUHwlF_fIX77AWKL88e3PM4YXEbeX9HCL4oAfwLjIi95SVA
+iIi15MDbx8fdPQ7ITyLOcQZK_r06AaMK0vM6IX9beb9HYQ9qL38gNfIAIaB5YL9G2QYOA1aLpyhQbOYAiJ9tnNz76RlYM3bGQRjYh0nKgYWBbOvA5cMYKb69
+eWnK2Yf1b8PAHiM9Kb69g9We6HNFojgLX8fZvTYLW8gnCdR5ix9GwRjYh4nKwdye0vKYoa2beP94wQXKLA8e5PMCYXUbe99GSJVb9m
+}
+
+AzureEntityColoring(AzureCommandMore)
+!define AzureCommandMore(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandMore, AzureCommandMore)
+!define AzureCommandMore(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandMore, AzureCommandMore)

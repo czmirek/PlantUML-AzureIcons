@@ -1,0 +1,9 @@
+sprite $AzureNetworkingDNSZones [70x70/16z] {
+pTWtWW8n30LGMrc-_tqtBmAc6laN_XNLGucuAZowaK9oj3DBiT5FAG9H2A7aG2W1KHoYs46A7gJOGKgCSsvtJKWj354Ke6H67vcbv6mhN4XAMz5I-YrDAoJR
+Mv8NnRkbM27jOkHDYLufxqgd6BqeZMMp_Ig5X3MceXUbkILwLRg7zwPCYC8GHI2AGHH7ABKaehvIIsBjA16H4RKaThgdfF5l1IGUyb3aZl9w8YJ_3sxTt-KP
+QI3Y4CO2mMWW68cmVON2ntvc469HCX2P1oaCKUIWMWY2A48n8q0f6Gme9HFGKcRw_ffNPcuhlbRct5Mo_aBfXxV_jwWlzBO_bhLY0iQolMXQAsLiHwNNpIS
+}
+
+AzureEntityColoring(AzureNetworkingDNSZones)
+!define AzureNetworkingDNSZones(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingDNSZones, AzureNetworkingDNSZones)
+!define AzureNetworkingDNSZones(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingDNSZones, AzureNetworkingDNSZones)

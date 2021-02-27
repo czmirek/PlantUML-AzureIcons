@@ -1,0 +1,9 @@
+sprite $AzureGeneralAllServices [70x49/16z] {
+pTJPTKKX34DHsSPI_nrdcG_8d81VXbt0kID26IeacRWNgq9S6C8qElSo9EnCLG9sZAk2c9KqwWPsvZuYB15k5CSDO9jt4cWQAl-ZuXL9T4L5_W5pGvTJ4gCP
+KI47EZIHzFQ-YBsR6Qj2NB10CQfShfHBM9dh9yggx0n9ypocgkmC6MXkdL7f23Kg2qMtSsz_71gQgFvcmbJ6G-x5q9Mau-yPsYmbqH-pTO6EjGpsZxOkSSDV
+LPXXE6GKYk_A3DrjdMdYaYE-ZrKfgx9Th5I-hV2yCjwfCFpRCFbx5JeEhKehmrNfPFBz2kty9F6jF9y6lYFm7Ky
+}
+
+AzureEntityColoring(AzureGeneralAllServices)
+!define AzureGeneralAllServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralAllServices, AzureGeneralAllServices)
+!define AzureGeneralAllServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralAllServices, AzureGeneralAllServices)

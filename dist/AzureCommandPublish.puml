@@ -1,0 +1,9 @@
+sprite $AzureCommandPublish [70x61/16z] {
+xTG5SW0X44JHHjPX-lwdZNioYqsbZ7U0ZuEYn3AKR3IeE5fKZl5AE5QEL6ACmIk9-ih95g9KThQ8IcLXWmCApthYe66z5QhCMWBTnMfvSp0vQYZ4eX9fKTbD
+Ad6LfehcCgdi9fLrlE93CAXSh2HhrYk9bJAm9AsI6of0E0VlVyPlSJ-J22dihRWriGE-2YVxE7pm5tjvvSDli-ET4_RBtc8ovARS-4OdNdaEIQ-Hn37ALzrU
+MJZC94946d120ud_QPgcQNe4
+}
+
+AzureEntityColoring(AzureCommandPublish)
+!define AzureCommandPublish(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPublish, AzureCommandPublish)
+!define AzureCommandPublish(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPublish, AzureCommandPublish)

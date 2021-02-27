@@ -1,0 +1,9 @@
+sprite $AzureIntuneSoftwareUpdates [70x70/16z] {
+xTS5bkCm44NHmX_O_tvdkXK5LF6nv7AQTSFqOWPQDXbsCy9vrQawhqBdS-V2ElzrkJ-ctOV2E2KCfl0UdrwPbLcHhwxCogpC2XMvYhoxD2hVM55p5AxqG4_Z
+5L47AgE63bV4SKS11YkA1qe1bqgNuX4z2PMHY2ShQ5YkucXegc9unR0Wy4n54LcYukXd-XKiq5mbqeqLHM6EXgGgu93XMB6HYlBAm7GFu0-uS38y2cFKSK8b
+4cQst2l7uOfH627biD5SSy3IzEKoB7SykZAgjPEbXWO1rVEcryOpXYeCoqQe_A7Bj9M49Oq1IFvisMerLo5lLvuwSjcXKIfOAKTHq4viSKtETvnUW8LftFGV
+}
+
+AzureEntityColoring(AzureIntuneSoftwareUpdates)
+!define AzureIntuneSoftwareUpdates(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneSoftwareUpdates, AzureIntuneSoftwareUpdates)
+!define AzureIntuneSoftwareUpdates(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneSoftwareUpdates, AzureIntuneSoftwareUpdates)

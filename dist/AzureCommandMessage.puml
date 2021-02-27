@@ -1,0 +1,8 @@
+sprite $AzureCommandMessage [70x65/16z] {
+xS-54GDH609Xulw__gkD4zVR6sSB-0OclTJUbgO2JNjNeaI94YLAb2XHeaHvrLpd1flMlJb4h1X1IXTaSbjP6LRRLzF9Z-csa-8bDLA7h234YkyCHHI4M5aQ
+GKgZY8eYLZYYCa8LZgYCK8KZAYDCCO9Q6q4DrB4T
+}
+
+AzureEntityColoring(AzureCommandMessage)
+!define AzureCommandMessage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandMessage, AzureCommandMessage)
+!define AzureCommandMessage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandMessage, AzureCommandMessage)

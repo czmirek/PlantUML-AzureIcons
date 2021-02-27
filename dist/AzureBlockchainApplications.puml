@@ -1,0 +1,10 @@
+sprite $AzureBlockchainApplications [70x70/16z] {
+xTS5hkGm48JXXgg0xt_V1LkhuUcCk_VnBmnzKbaO-MHPYU9mGBEAyc-UPJXABdC2VvdyBA-P1PwSF0ChOGXDC_bPod_12fJ7ipnMx8GyciLOSPwtJoeu4TXQ
+oofOMfjMJcFQ8sM9bTEOXABTMBlmKD58iN4WpnMF52Vt5YaCbQsrK5aYfIDfPIzHsY554yfRdmkFA8mKFQ0G4hN5YdfWc31Kucor0aNRkkSLQRsiifKeQuco
+b2WiKL2YM8cY9OfS8lkaifyZYqosdfXLPJO3XxExI4B1zjUWPDAkh2ffPJF91a3o0Ihv_BqKW-OLXzt2V47HyOda50uWgn3NdxkxcUCrXRJxVm1sNBdz03FA
+qgETtnczgFH07mUnJ2ZBHIIGLdfroe_Y3n7AtNu3
+}
+
+AzureEntityColoring(AzureBlockchainApplications)
+!define AzureBlockchainApplications(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainApplications, AzureBlockchainApplications)
+!define AzureBlockchainApplications(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainApplications, AzureBlockchainApplications)

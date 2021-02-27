@@ -1,0 +1,10 @@
+sprite $AzureIntuneClientApps [70x70/16z] {
+xTG7TkKm28NXIn72tl-2vp1fEBoENufF_WLywX8TzZ_S7mdZ9OiUK5Y6sK1HxXGYAGhTAEYmzpWhDG7OIWo8vVIpCXvHZFfA9Cnz9TfVqISeVyfyJMocGfcb
+K6Rffohy14NFAVfx5Df5KSanG58YWAMKbOb6Eok3SmI0Im28Irb1OtSFhSmT53kEuYyDJ4-5ugLGl7HeHG-doE4K6y8f0eXBTFR7J6IZ_HHLdJuqnG1fYIuf
+4y3qJGg8b-IIudrbMHOFRDaq05bAJrU26TnN8eXvMt400VML1FMKYCqVLIPoFBIjH3f5-qeGzolMLznsKM1T1IG2o0DAJGMRT3tLLMNL6nGVZ8iHYQUMzKoB
+Rx82iQ_tPa3DxZFExJRxWnFv1m
+}
+
+AzureEntityColoring(AzureIntuneClientApps)
+!define AzureIntuneClientApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneClientApps, AzureIntuneClientApps)
+!define AzureIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneClientApps, AzureIntuneClientApps)

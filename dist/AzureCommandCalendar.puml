@@ -1,0 +1,8 @@
+sprite $AzureCommandCalendar [70x65/16z] {
+xTK53iGW50JGsYTbaBd_RTVTTsB8YrQmBs6ubackmqShoJnSgsyMNEDMmaU9MxZ6AaKbBf57JicHgtaMGSMpH0WYgwJ7fLVTFxD4aZWzW6IywUbcPvdDR7xw
+C6qVbfRgPJ6pIOhB-IOHSbJTB88MPl40x1p3xSFvYzi-dEDksmVVKhteSUbL9-IenbdqEw2rUl4cy7ofsm
+}
+
+AzureEntityColoring(AzureCommandCalendar)
+!define AzureCommandCalendar(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCalendar, AzureCommandCalendar)
+!define AzureCommandCalendar(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCalendar, AzureCommandCalendar)

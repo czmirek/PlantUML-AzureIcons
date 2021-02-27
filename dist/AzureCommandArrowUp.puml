@@ -1,0 +1,8 @@
+sprite $AzureCommandArrowUp [50x70/16z] {
+xT9L4iCm38JX3NDo_zEMF7Bfdwf-ZZOCdrdYj8lAqXx7KWgEOou3G1n0n0TC6EHC1O090o0-ME-dBTsF_u2vkP-NXWW39I4Y34pOcy459eWmU0frG02O08BW
+NHZfVu5teTu80XAP461Xf2F0GeCH02mo8S12O_ghPP05an402KrvLOu6MBoJCTLdWCGx6PNIoHNyeozqLX4YH8WG8KA4k08
+}
+
+AzureEntityColoring(AzureCommandArrowUp)
+!define AzureCommandArrowUp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandArrowUp, AzureCommandArrowUp)
+!define AzureCommandArrowUp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandArrowUp, AzureCommandArrowUp)

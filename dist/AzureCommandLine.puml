@@ -1,0 +1,5 @@
+sprite $AzureCommandLine [70x70/16z] xSn10G0G50Km2A1_MngyA_uMO2sOwvWjU7UnM2mMYyLYiLWi5el5Oh5ODW
+
+AzureEntityColoring(AzureCommandLine)
+!define AzureCommandLine(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandLine, AzureCommandLine)
+!define AzureCommandLine(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandLine, AzureCommandLine)

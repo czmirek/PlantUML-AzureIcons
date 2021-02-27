@@ -1,0 +1,8 @@
+sprite $AzureCommandFile [56x70/16z] {
+xSj50WCn30D0PvaI__-rPLH9BfogkOypIZBab9o8HqKFH7nZzynyZl0QUsPmYFJ3oB_YMqkAlgM6o3uxnF23o3zh3Z7sCFBl6EVGWqW_YC5dxI6Ih_H7oo5I
+xzR4FlIxrsTGuB4QFJsEdfwUdfwUtjY5ZFu7rW
+}
+
+AzureEntityColoring(AzureCommandFile)
+!define AzureCommandFile(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandFile, AzureCommandFile)
+!define AzureCommandFile(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandFile, AzureCommandFile)

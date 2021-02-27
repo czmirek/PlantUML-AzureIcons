@@ -7,9 +7,11 @@ $iconFolder = "icon-collection"
 $iconPath = "$($iconFolder)/azure-cds/*.svg"
 $dist = "dist"
 
-<#
-Remove-Item $dist -Recurse -Force -Confirm:$false
-New-Item $dist -ItemType "directory"
+try {
+    Remove-Item $dist -Recurse -Force -Confirm:$false
+    New-Item $dist -ItemType "directory"
+} catch {}
+
 
 if(!(Test-Path $iconFolder)) {
     git clone $sourceCollection $iconFolder
@@ -78,7 +80,7 @@ Copy-Item "AzureC4Integration.puml" "$($dist)/AzureC4Integration.puml"
 Copy-Item "AzureCommon.puml" "$($dist)/AzureCommon.puml"
 Copy-Item "AzureRaw.puml" "$($dist)/AzureRaw.puml"
 Copy-Item "AzureSimplified.puml" "$($dist)/AzureSimplified.puml"
-#>
+
 $markdownList = "Macro (Name) | Url`n"
 $markdownList += "--- | ---`n"
 Get-ChildItem ($dist + "/*.puml") | ForEach-Object { 

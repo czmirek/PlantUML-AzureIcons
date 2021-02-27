@@ -1,0 +1,10 @@
+sprite $AzureStatusCancelled [70x70/16z] {
+hD87YeOn28HXKzJt_YTU-eyGcIzBXfhsf6bznjeUcP0PljUm-onFg4bVLyHqclZyR0JqYVN9I4HIdyT1nyVjGUwFi_aSRv7W8l40QPdaCYbESd4QYTmpctzb
+5sJMBQ2c7vpsoyXQ2fCsqxnxOQ-8zSmyp2xtATspHtvClLCUxDaZbScoe3jWHGfJUkDS0FECD6jcDtCUaMQDDtELNry112CGCBE5O2J2CdC48n7SB16CH4WR
+81Y9m5X8HYAiZMGamdOKen4yK8n6Y4Gn6Y4JnMY41CLe1DueRsxqvdNV_FIRgljhnJu8002000Bgdrg9w_03PWFCDfhBGAwKkPZcUfDFOhwQ-R3asnlo81Ha
+YCpIOG5I1TGC21xO130RObd4-8Xz4XCcLauAWQWLefpGYkEBagbR0m
+}
+
+AzureEntityColoring(AzureStatusCancelled)
+!define AzureStatusCancelled(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusCancelled, AzureStatusCancelled)
+!define AzureStatusCancelled(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusCancelled, AzureStatusCancelled)

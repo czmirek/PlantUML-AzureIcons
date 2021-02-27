@@ -1,0 +1,9 @@
+sprite $AzureCommandUpload [70x70/16z] {
+xSm5TeL044JH6lruxt-rCUoay0xnVkZOnVjgELKDwgyhCPygOZtBYl4EH2JTWNoSIIB4w11Yj4XVLYDPX1WTGemQwVgNbdd8QsryVST6Ndje4HTUFy6rFQD4
+q2iOc4A1T1wZec6A4PaLkAvdDCYim1Dp0PcKcIbF8UM8iCBCCI81f11p0M45eMUg0wGY1867nEmW4QnSOJmZImMnt-Dtc30Yh30JiLVW3Qpq32DSI3XIa08k
+H0hrcnLJJ37555DCCSMKPm
+}
+
+AzureEntityColoring(AzureCommandUpload)
+!define AzureCommandUpload(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUpload, AzureCommandUpload)
+!define AzureCommandUpload(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUpload, AzureCommandUpload)

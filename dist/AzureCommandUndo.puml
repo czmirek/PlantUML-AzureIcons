@@ -1,0 +1,9 @@
+sprite $AzureCommandUndo [52x70/16z] {
+xT5LOWKW34JHmPtiVxNrvvgfjznl3fP-fLQIjzYhoPtri25UxcycysA6gAeM2A8jeekw9h-bEcLJj-K-4n2glDG0k7wNsOohugLubsdoNC5RfjushqioThbn
+m_GDsI_9xGgECbL3Dldh5-n-FwkuuAQAJRRf3U2dtW2PC2SNDEV2SM7k6znP9Wpiq1i4me0nXJ26C2Y4CLDl40c3HXWpzGQEC0WReqHGvma32xxLQhMo19a4
+4O88GOGWGX0XIDMJzcNa4G
+}
+
+AzureEntityColoring(AzureCommandUndo)
+!define AzureCommandUndo(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUndo, AzureCommandUndo)
+!define AzureCommandUndo(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUndo, AzureCommandUndo)

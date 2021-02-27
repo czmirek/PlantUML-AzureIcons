@@ -1,0 +1,5 @@
+sprite $AzureCommandPaused [35x70/16z] umS1NWRiW1SiIrCbeqf6bOmg6LKogcHKoQYIKIMZIW
+
+AzureEntityColoring(AzureCommandPaused)
+!define AzureCommandPaused(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPaused, AzureCommandPaused)
+!define AzureCommandPaused(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPaused, AzureCommandPaused)

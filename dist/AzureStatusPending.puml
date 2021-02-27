@@ -1,0 +1,11 @@
+sprite $AzureStatusPending [70x70/16z] {
+xTK7bkCu38JX0XC8rFtFsubUHyXDYNfXP-OxmFyA3XB-KF_y8nbRac2QMSj9mehX18dzb0hRAHNcKoekPrIefrIOJwdOSkL-J5khZ37ProfZZ5BMAeelpeI0
+ocp50HIoueKOJIOhB80o-5DL9saoML70nwGxgJb_cCnL76bC6eggzf68Ct65KiZRIOrFJAOgfV9R2YfX9gvKvTsON5-KcOhQPHFcn9L-gRYiLCmvz9MAEo_Q
+AHMsKofinol6cou7AsQyuoNza9sLhWme7fKQKVv7AmF-D4QCRzN2ICEkJ4aCfLqPWJDYiYFZW3BKCPzHe70vKm0uOvQUCxvv4A3SqWHtYcyV16HkqoBtxuLO
+nZVZEsxTZ6yOVcGkoHYC2mmNUNNAe3nCWr_2hFZVdrVl6HeFQNZKUK07rZE65sAx8u9NqfSZ-u_gsD8uhM5RTaxnZ7T4EK45lyZ6NrZ6XDpVDWecPNM6N3Fs
+AEglYOBzf5Jjvb-iQos2RPy
+}
+
+AzureEntityColoring(AzureStatusPending)
+!define AzureStatusPending(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusPending, AzureStatusPending)
+!define AzureStatusPending(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusPending, AzureStatusPending)

@@ -1,0 +1,9 @@
+sprite $AzureCommandRetain [65x70/16z] {
+xSy5RiHG34NHmIGVAkz_jIMdT6MzeB1-mt2FyYzorSpgPUKII22111AulMyduB6zxxaJU9hlR22119uhWAS09kkBGBSI0_vt5mJG_9iG6ErZJG3UcutY2bm8
+0VyihW2_0y3l0FYF62ZVlnBW6Ki859oG00K24te042O0w0E0mWXWH4yW5Xn0Bm0AFy30da0e33E0NW0KdWxCV-mN2SJ29y0-1hXk7tln1te5KF2nrm05zXgW
+m5u3N4Sl02dqwrx01VOQuBht-u5hGIy0iNy19526VIkUvzu
+}
+
+AzureEntityColoring(AzureCommandRetain)
+!define AzureCommandRetain(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandRetain, AzureCommandRetain)
+!define AzureCommandRetain(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandRetain, AzureCommandRetain)

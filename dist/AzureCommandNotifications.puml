@@ -1,0 +1,10 @@
+sprite $AzureCommandNotifications [70x70/16z] {
+tTC5ajum343XPuXHjkv_sZBNEwr_QMZVOEXBOk3NjlwP040iNRQghg77_g5e2xdq7-Uplg98YR-TcoyeBV0iFNIXD8YYQb9cXA9gKohGrQXaGDIcx7X0xfGp
+SgyaeAjHAK1HepA0g4Pb1q2iIW4UDIeRO1cLuwVSAm1YLJgGrAfae5cL1R2iIWU2MfK2F6RbjM7PFVscH63U4P83V_J27XeSsth910xfRVlnK5IRYwBzD2xt
+yMVYeamNfRaeZuiIN1J4HMakIdHHc2vATb4G5oMxA0mN9MmFXUoYK5qKnhLYPt1XUBlgef2tXq8O7WeayL0W3Gy5GX471P1Tbtvjhw_jUwK9NJybBV6zSgsa
+pyeiuVUJ-r9vTilyLLmtIYWg71l_hyIicZZNBlue1DxgEIdtnUMX4AQ70jr5eV3k-WW
+}
+
+AzureEntityColoring(AzureCommandNotifications)
+!define AzureCommandNotifications(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandNotifications, AzureCommandNotifications)
+!define AzureCommandNotifications(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandNotifications, AzureCommandNotifications)

@@ -1,0 +1,8 @@
+sprite $AzureCommandSwap [65x70/16z] {
+xPPL4iGm3CLSyWRdtV-qoypkoqnH_r8XA0RK2uK2dlIvWiS1HnH2qS9Qs0nQY4KBQq7bJEsj13mK6lH5sG1QCk3FRv3DtFn-k85zNyHtW_bX_3w_ZhNX_0ve
+IHzeI1zHtf1mGF_nqzld6_nAtj0G_hb0-EV23x_5WNpsRGplhtupiD_YY5CZBNkqfvjF1IIn0Kbiu5pGoiYRpSh8g0l3Nt_vWtij-44Blan1XIkeK7YJlmC
+}
+
+AzureEntityColoring(AzureCommandSwap)
+!define AzureCommandSwap(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSwap, AzureCommandSwap)
+!define AzureCommandSwap(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSwap, AzureCommandSwap)

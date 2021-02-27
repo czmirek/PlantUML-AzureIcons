@@ -1,0 +1,10 @@
+sprite $AzureCommandTrashOutline [70x70/16z] {
+xT05egKm44JHIdTSzx_R8IFFFJNVBsu72BOqv3eUIp6p8TU-7NdyovNnH0BZTs-iEsGyr-4xYtbCYIUrmpCMU4XfwI07hQFWe0ULf3wrtK6Om_cqCgjHZOjp
+E7kQn-OLPTQpCx3PXpcUU5MPrVHdwvQKNIrxMLTclGHTKtQLQ0dAh2PdrXKLaSjAUq8n02uhpbCKI64eW1Q60XXV-heoCw8gfYyekznOKsGBo8lAF0WO3CLI
+b4XH2aNf32KEXf8eIg4ezKUvg6IA4YbAu2YDeYIAuYcAeIYe52LG54DHa2cAKXGKYgAVG_bHAaNHJ56GNbDgQyq3aBObW7zMkPmsXW8aYW8j30MmvRBYwpCA
+8B5TK03nkJ-ip2JalbCECzQ7c58CWiSoQZq-Kp_z0W
+}
+
+AzureEntityColoring(AzureCommandTrashOutline)
+!define AzureCommandTrashOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandTrashOutline, AzureCommandTrashOutline)
+!define AzureCommandTrashOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandTrashOutline, AzureCommandTrashOutline)

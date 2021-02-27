@@ -1,0 +1,10 @@
+sprite $AzureCommandRedo [52x70/16z] {
+tTK5ilGW40JW9h1ecBx_QN_XiLvKXYb_lHBz8YXUugdBgoa68_l6Sz-W6umt65I3SGQ3P33e1XCC1jLWdC4W6GowmGI3GJKOjsbS343QCR6npcBGcLibsN-i
+oeJA4O-HQnEApAsgAZhu0MQE8Vp50DJUDiPxTLxazhO1X9ENUIrNWQjKvBK2wqseCWSVEQdBIwM7fZPrhdbqjSbZANvdZ4-FHaDbPeECs3A9PDwS5mhPCTBK
+ff77xjmepFX9r9g3WXcdBuEuEpa2BZrCqhU39n9r6JnHrfb8Ff4JbMcSI3N0zrOZG4vqKQzI_U40d04tFj5L0yeEA0mlRnqdEjT8OY43JduYrzOe1c40-Ora
+8SG3Ht-Q9tATYuHns8DVQ4dch54TFr5TYebQNutvQzIu6symulSDfVEtHGoc6Kmo66ym48Cf1kCD1jrWuhRv2m
+}
+
+AzureEntityColoring(AzureCommandRedo)
+!define AzureCommandRedo(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandRedo, AzureCommandRedo)
+!define AzureCommandRedo(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandRedo, AzureCommandRedo)

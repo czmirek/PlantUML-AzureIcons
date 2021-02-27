@@ -1,0 +1,8 @@
+sprite $AzureCommandCheck [70x48/16z] {
+xTE50G9130NHdFkb_sfn-C5bS9W2tceCLZR6Azt508GpbI-gxu6CwHiYVwH-O-IFD5SYVwGg2AAtA--1p1Y2QCQhCqXx4h5qz4KrG293434DG293434jG293
+436TxTO9kO8XY5ao-A8U8941I6GIW4G686A61221IG4YPam18iQ504O8PiRC331222C4CK88qmiXJ7SLCWK
+}
+
+AzureEntityColoring(AzureCommandCheck)
+!define AzureCommandCheck(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCheck, AzureCommandCheck)
+!define AzureCommandCheck(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCheck, AzureCommandCheck)

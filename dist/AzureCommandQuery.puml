@@ -1,0 +1,8 @@
+sprite $AzureCommandQuery [70x70/16z] {
+xTR50GH124JHqNR9Fzfrzs9zg1_0kxH0SrYfmXGeqM3vYufhiCpFAs70Si0PyTRv3iigkNKhXKftM2gbkEwXsYD5Mb6Wk04hN5HCW-L-Nl46A-guBtWVFsag
+LFnI6JOvgPBgfQYipgWxJ7xIXr6XSZ4gLF2Dx9A2fq2P0m
+}
+
+AzureEntityColoring(AzureCommandQuery)
+!define AzureCommandQuery(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandQuery, AzureCommandQuery)
+!define AzureCommandQuery(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandQuery, AzureCommandQuery)

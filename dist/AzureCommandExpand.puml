@@ -1,0 +1,10 @@
+sprite $AzureCommandExpand [70x70/16z] {
+hSy5iWCX48JXGOFt_K_xD39n0lsNxW9VLSjK4Q-RGW88YWT1iM0edQ5OC9H0KH95gHHbC1G3Xk8eIgGecQ8qYe9z9OhTLnfIs5OQWBQh51pRKkoOLoYCK1YX
+CFAwmb1C8oYkWw1q49GCWk91KCnWA0K49O2WcC5GAWXA146nO2WDv_goSi2vQ1OLlIU8n4MbQKIaBYa9EERbDxUYk1l4ZXMbto4BIbf0y7IFqqYoVLRHUyOr
+8cBg1qf-ZFmMfnL_HEmz8cBBd6B64-IOgpDAqOYK8wAp-QqIy5ktSgnT45N87RfHehdRqzMlfX2TyJ6LKch91s_bkdf4L54-BHwHhUmlqZOHQGpam43iBoAx
+DGQIWBgDE0OYdO4ab7t4CH3fcO1a1k8PY8b2o0gZRm
+}
+
+AzureEntityColoring(AzureCommandExpand)
+!define AzureCommandExpand(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandExpand, AzureCommandExpand)
+!define AzureCommandExpand(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandExpand, AzureCommandExpand)

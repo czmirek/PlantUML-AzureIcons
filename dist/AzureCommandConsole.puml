@@ -1,0 +1,8 @@
+sprite $AzureCommandConsole [70x70/16z] {
+xT3L0G9148FXdFkc_shHDnooWrt-0huHvAgkeDUIEjEJJALw3fc3wLvcp9XPYbKnPkRhZ1a4CsQcQCRCA2hj3SM8K1E36AbZ42FLEM8a_HLI6jbdPBnPMooF
+80LlrfVfY6WAYlc8Q0hGuPZm5sHf2m
+}
+
+AzureEntityColoring(AzureCommandConsole)
+!define AzureCommandConsole(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandConsole, AzureCommandConsole)
+!define AzureCommandConsole(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandConsole, AzureCommandConsole)

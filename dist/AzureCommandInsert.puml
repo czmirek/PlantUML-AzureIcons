@@ -1,0 +1,8 @@
+sprite $AzureCommandInsert [70x70/16z] {
+xTW34WGn54NHFsmcsVzgX-NOUhTHFcsIgeVmwvn9URfrcXLoQykiG8421SepXNA89LxvpfTOPH7VbaZbol-Ch1nkyTyMIKpGyqXYWXI92LHavhRvjP3413Ki
+8oj0uiyw2QbuDSRV6TBTfHO9YRnxrt-I43tdVTf3WG85IlpV2lmBUWC
+}
+
+AzureEntityColoring(AzureCommandInsert)
+!define AzureCommandInsert(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandInsert, AzureCommandInsert)
+!define AzureCommandInsert(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandInsert, AzureCommandInsert)

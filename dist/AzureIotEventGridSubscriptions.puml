@@ -1,0 +1,9 @@
+sprite $AzureIotEventGridSubscriptions [70x70/16z] {
+xTX5eke040NHQjt_Zd5tkFtbIK6IsObhAwL5rdhQ0oMj5mme3amWkf8neNJDA6xG0_qgrrLcwee1ib9CA36YCA74YCA44XDACQ7OX18CACc0KfmqWZ22822g
+aameLIuhjIv4fRQPejI--FTAwue3eM-N0BpMfRAF4eWTecnTmCFLOxSC63W3V4JfWF_ddEvIbLqsehJ3-9tayqfLBW_0bifL0LYhiSv77Z892N7GcG2T2T0P
+vooNpwLS5PymkGzWTn2cTiJiJmYhVhtAIwNObU_Tb_9KIU0z9zcr-rZ1PPRF3UCyuqPH3uWANisYHE9YbNTLPHWVP-luWIq1
+}
+
+AzureEntityColoring(AzureIotEventGridSubscriptions)
+!define AzureIotEventGridSubscriptions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotEventGridSubscriptions, AzureIotEventGridSubscriptions)
+!define AzureIotEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotEventGridSubscriptions, AzureIotEventGridSubscriptions)

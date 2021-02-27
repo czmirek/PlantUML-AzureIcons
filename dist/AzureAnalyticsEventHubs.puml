@@ -1,0 +1,9 @@
+sprite $AzureAnalyticsEventHubs [70x70/16z] {
+xTQ5GG1H38FXD6rk_utHu4wAym_mdJmzegPPE2j3u2Ablv727QMgh8HfKydxAELVMPalmeRIAmesb5bHli_-8cmet50Q2ugGAaPofJQKGgwea2i2ScMGAo9o
+fO5SQNmBHSmKfvfCSIGZnJMd4iNfh6Q5YcT_FdShL1n3nNMek0aLfr1ngb1n1BPFjQ095QS-Ym1uf15dJOZqjxcJpVeevGXMfXtcFBq36JfSLmfllQuJvLsl
+eqBD0yLHRxfxLClAlLglDLoHZOVLl30mU6KzAU7OzwQGfebtLMIVHnR-MgS
+}
+
+AzureEntityColoring(AzureAnalyticsEventHubs)
+!define AzureAnalyticsEventHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsEventHubs, AzureAnalyticsEventHubs)
+!define AzureAnalyticsEventHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsEventHubs, AzureAnalyticsEventHubs)

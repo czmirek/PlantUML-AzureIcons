@@ -1,0 +1,10 @@
+sprite $AzureOtherMindaro [70x70/16z] {
+hPK7igD030ML1-v_uTNwopa8vasNA-EkrqHg4JFt-08TGkh_W8Kj6hntUBHe9waTK9344QmTWa_nOn9U8P454fzVub6u02VMpI9CX1eKljKIZXKMNs6HM65X
+V0j-Tky8Rgagt59Lk8K4jrGLRacqiS1LHWbSvPJWLPJWLN9Imzua8LLyMYFDjGQgQ09jninMkJ8jg38Jci1UnbXwy2fBbD4gkw3WjNBxGx0gAvI1gXepbyNs
+PabulihkoForSiHohm8iLJKIr99LQGdKabMfGIs9Zk6uXJW2jYIynA9Ru1RPjg6eXKTQl2o89Av90aZojy6MiIS15ctxVpR88YcvK1RcYI6sNncrXNbkI54l
+yBCULd_aVbRuk8V5db5ApdbONntySa1oqb4nBvfU98tZvX4JvdvEnNppQ8HpazL-djEYr6T9TmmbPu_v1m
+}
+
+AzureEntityColoring(AzureOtherMindaro)
+!define AzureOtherMindaro(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherMindaro, AzureOtherMindaro)
+!define AzureOtherMindaro(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherMindaro, AzureOtherMindaro)

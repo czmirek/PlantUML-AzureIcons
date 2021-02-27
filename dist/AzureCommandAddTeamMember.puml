@@ -1,0 +1,10 @@
+sprite $AzureCommandAddTeamMember [70x70/16z] {
+jTO5iYqX38JXHcUmzFvN-rpA8Ab3xh-0RmI5LXayD8K_mxcyU2msNGcTvnQggiH5fOQiAEKHQbKaHSdKoweog9SqfT9GrFwBq511EIgLbbuy92dOD6cfeP6Z
+O5EWgRUNY7sLfaPv0lOrevB9MPN9eYR2dpNbvnhxKcNSAW50MRTA2Q-GbqgSLDALqCXhvIKTbCgVoQM2JfBFhO95CerR9GgPWrmg29CPwLO1MWJo1yerizaj
+L--ZvX3wnqhXx-fXSUjAvvzcGfcVAb7uEtciCmTRPbNxyiIMUM4_Qh5dWdsTOyyq-p690nF_ZvaI3ip0hv91EJ79-dznOgRrWeSZausB04TcMCVep6IWMXIr
+vg2KC1qKJF5G7dee41Ubk2YOBafsKJ1SbEIYeBieqKL1Sr62YuB7HO6uADL5mN9HYek2wQ8a5mN3HOak2fgB4hZhEm
+}
+
+AzureEntityColoring(AzureCommandAddTeamMember)
+!define AzureCommandAddTeamMember(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAddTeamMember, AzureCommandAddTeamMember)
+!define AzureCommandAddTeamMember(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAddTeamMember, AzureCommandAddTeamMember)

@@ -1,0 +1,9 @@
+sprite $AzureCommandRelease [65x70/16z] {
+xTD70eCm34JHeNUu_scfa-fO8B6C9ZtmtywGb_GfxYmPfZ6zrqyKpFsw8RdNKx3t5Emz1NjFmTOFV55GzrcxlhMPNaZwlScn0v04kIU0d8AkB_04K53GzWIU
+Gdz9EFeI7m1A2hgUW4PWNo40Ga7kGm3L8LpeQ_m4K5Cuwni4W208VGYW4OMAlG1Gg292pTkZ0Fzf45ivTH00_bKYlWod038eHa1Qloup0jaMy-0P01vH3U20
+0muuu8033ZJ3C3HsWFiJm86cjAqvSjy2
+}
+
+AzureEntityColoring(AzureCommandRelease)
+!define AzureCommandRelease(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandRelease, AzureCommandRelease)
+!define AzureCommandRelease(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandRelease, AzureCommandRelease)

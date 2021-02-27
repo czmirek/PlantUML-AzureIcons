@@ -1,0 +1,8 @@
+sprite $AzureCommandGo [70x70/16z] {
+xTFLOG0X54JHmHtwxpP_wxuJvnPmq8UZLBiOZWeCHJI6OYbAf2YDeIYAuYXAf2YPebIAqXYAwCfs7AN-e5yNVj0qAee2Zf8eYg4eA1IbCXJL68hxGRShAGgU
+Ab9DorULIz-rArBDAnULupH5GQ8eagB0KXH4Ye9CKKGXA2Fp4vJGNYhZrwlFbP7H2AyLA01opyaQTnAkh8WQ56udNQmZaRt6uwGsncWbyDdrUhtU1m
+}
+
+AzureEntityColoring(AzureCommandGo)
+!define AzureCommandGo(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandGo, AzureCommandGo)
+!define AzureCommandGo(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandGo, AzureCommandGo)

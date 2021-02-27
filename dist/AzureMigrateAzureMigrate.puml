@@ -1,0 +1,8 @@
+sprite $AzureMigrateAzureMigrate [70x70/16z] {
+xT65OGGn34JH4MxE_VSRnZKSJLYlW6zBmazNIYcbb58iJ2YPSELqmfNJuKn62LayKLn1yiKrAufy9rnm2S-TIoQpx0ZEfTdH2pRRiHyRCSfEjlEl4u8TFM0j
+Si_HkMc42sTRLSHFkassLSMtdM53jZQlYESf3VYXJIiQkqIOO4_Kyh4nhPX7Reyo_B7GY_O65-Wpe6H0oO2I0IK3IWQK32WPK3AWPC0GeBW3
+}
+
+AzureEntityColoring(AzureMigrateAzureMigrate)
+!define AzureMigrateAzureMigrate(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateAzureMigrate, AzureMigrateAzureMigrate)
+!define AzureMigrateAzureMigrate(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateAzureMigrate, AzureMigrateAzureMigrate)

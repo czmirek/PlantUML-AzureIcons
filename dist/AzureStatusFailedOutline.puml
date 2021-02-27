@@ -1,0 +1,10 @@
+sprite $AzureStatusFailedOutline [70x70/16z] {
+xPQ7RS0m30IVCkNot7_Uz2Q0DlH4Ud8372HswFnZpRkxeOxvndY0POtlyKfHuuo1e-eOsI1YUoHu_I7bqAoHeFvfYrCQPjdZd5rzIKwJOrAFZCSrn0J6U84B
+YpMp3yLXBCNN1mbWh7o9emGmwfO-I58DJNZA0gGQcXQLL4FJId_GA1ABkDRGfBBDDJIX3NFDh0ICAysan2AkD8Ofbib1QzfCo3NMfyh_McDqPSZb6cCqmP9h
+Z46yXsN3U_p8yHxH1KgPrcY2vDqxGE_6zvqCxp-bz8c916rww_T2BZcG86orGQnls5nIt_P78f4lZnq9wXMq8a6yo8u52Te-OOVE6WDS3GbIK-wE12N2tDo0
+EjwxDyCNyCy__zm2
+}
+
+AzureEntityColoring(AzureStatusFailedOutline)
+!define AzureStatusFailedOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusFailedOutline, AzureStatusFailedOutline)
+!define AzureStatusFailedOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusFailedOutline, AzureStatusFailedOutline)

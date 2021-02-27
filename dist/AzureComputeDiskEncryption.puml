@@ -1,0 +1,9 @@
+sprite $AzureComputeDiskEncryption [70x70/16z] {
+xTJ5OK0n40FH_MX9_VSRy2MCE-5C0SziFPbpdMshbMFPIPEPnbIw-JfzHXPH1EGWI10aX94WI0WZwLthff9PLp6Yo8WY8ueOnOWY8ueOnOWYHZ6YY57yZHGn
+Yh-H8aRnhrFqdHJ_A__AMqh6gMv7KlLDb1rHDaHPRK2fghuo4EL0bAtMjQyiQz9MHX7AZYWheOmYb1rH5aAPLsxVcyfQivvo5g4i1QpeNDUgwlvIZYRIKcoF
+jdBMhHfRUwjB
+}
+
+AzureEntityColoring(AzureComputeDiskEncryption)
+!define AzureComputeDiskEncryption(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeDiskEncryption, AzureComputeDiskEncryption)
+!define AzureComputeDiskEncryption(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeDiskEncryption, AzureComputeDiskEncryption)

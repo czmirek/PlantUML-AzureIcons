@@ -1,1 +1,0 @@
-# PlantUML Azure icons

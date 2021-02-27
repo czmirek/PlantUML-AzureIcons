@@ -1,0 +1,11 @@
+sprite $AzureIdentityUsers [70x70/16z] {
+vTPLOcj138DXa-JkVyDbpXoF0XVxlPJ_ScGRHHOULOPToWkVb5_HkAwJM4WxJs6fperSdqdW-anWa2R2o4rI69Kf71ik_cXdTTrFXIzm_ZV41RUj07VIjf9R
+PLl5BVoKokr_ki6jj3rkkUs1A_s19aY-wRKq1NjcaknHcOOze8cy1s6gw4DfkfmYkfWYEcUVeDjPeYgolq5Ld3tJ5Sc-UzLCTpoAywU-iWf4LVgZr6yXntV-
+fkIzJnnMGXx7md4b8MOAGqMTwi9G2MYPn5Buiz9Egi1OqQuO1zTUAgdDIN6iWD_5MJEK_YYqXSHSALBuOf9pHPjhy52vUqeR6PmhaFOQSoMq2uG3k9Sq-xcf
+Q2S8-ABItToplbPIEuVu177mrJbuvFludFp0grynjFEXbbCJRvNIHXlDQH-fhNPpc5drbl4EMwlUmESv7UyXyIHAEvJRIhwDTzYndfLsNs6EMB-uwjuqiU8z
+ABLYTuCmwvVd_dobRbBfzpS_
+}
+
+AzureEntityColoring(AzureIdentityUsers)
+!define AzureIdentityUsers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityUsers, AzureIdentityUsers)
+!define AzureIdentityUsers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityUsers, AzureIdentityUsers)

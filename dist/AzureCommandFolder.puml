@@ -1,0 +1,8 @@
+sprite $AzureCommandFolder [70x52/16z] {
+xT254G9H303Hd7sN_gl5OOpCufeju4M4cpfs6S8A8nmZ62jptrONlRXN62c3wBcJmWWhZA2ow3b4zWe4oELA4M65crcvWc75oTc62Wmem80232lCi49CqYkW
+x9dI8L200GKOK5GcfZl_mhbFKamnnHHJJ34bBdSKkvgr1W
+}
+
+AzureEntityColoring(AzureCommandFolder)
+!define AzureCommandFolder(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandFolder, AzureCommandFolder)
+!define AzureCommandFolder(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandFolder, AzureCommandFolder)

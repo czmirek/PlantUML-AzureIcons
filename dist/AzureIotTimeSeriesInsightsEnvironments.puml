@@ -1,0 +1,9 @@
+sprite $AzureIotTimeSeriesInsightsEnvironments [70x70/16z] {
+xSzNTaDH24DH8ShyPvpUStbARDnz_jbBnDxXgVqL6r4uelY84kUas1afFAgIcrsY4aTGx6YAPZ2Xn8ZYq8fcEABOY0AX26PI2MX5CpwYS4I1LZGJ8mf752X5
+Cv6nln9CKuhEFTnDAPcX9RcbIYkcbAnAFKKfLNeCb99LSWpn6fzQ6a-87eClMVEF7eEliM74c0feHYdrgKWcM-INqZ2vCQPM2gnZiaNAyRjOv4yr-YUYloB0
+DPA69byoIuFeinN3NqOGsvd_ThuOduIAqULEmz_ZpqNDkSxC-98PBhfxz-xTUmG
+}
+
+AzureEntityColoring(AzureIotTimeSeriesInsightsEnvironments)
+!define AzureIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesInsightsEnvironments, AzureIotTimeSeriesInsightsEnvironments)
+!define AzureIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesInsightsEnvironments, AzureIotTimeSeriesInsightsEnvironments)

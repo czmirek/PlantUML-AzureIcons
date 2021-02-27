@@ -1,0 +1,10 @@
+sprite $AzurestackOffers [70x70/16z] {
+xT9dWiGW28RX3n48oVtlkqmttNNABvy3l1O0iZOHCP-kt0n96-NfOJHe8vjUdBMHJuLthl9-PVX4nTwgf7l4p9ih0hutWZTM67Wq5XcjHq0g8lRwcr5hPGIs
+akf_8ma8OZEuPfoWLOHmfJQJe6uCr5KOTpOpZDDeG5r5WEsAJS7hAXcx5Pz2hgaa5DJcngZeUKK89R62kzTLCkPuUP6GpYe92sIhrHKSLmHhEiluE2GSLnWR
+k8m4nN65i4dBI3YiPEoWiX7ue9AmYuj6aDsA472O6Lvihy8unZOKQBkIS8RAJDwg26haLqStAenAhEN777xhCKg1iAnaj5fywxiL0TwlCDx16am9xv68PBoB
+L1dlIuIVwBgkwxgk-mC
+}
+
+AzureEntityColoring(AzurestackOffers)
+!define AzurestackOffers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackOffers, AzurestackOffers)
+!define AzurestackOffers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackOffers, AzurestackOffers)

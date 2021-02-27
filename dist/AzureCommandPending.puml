@@ -1,0 +1,5 @@
+sprite $AzureCommandPending [70x70/16z] xT750G9H54FHxoxzLuklWN6xAU0yYVZ4z2dPLa51GK51GK51GK51GK69eSsWMDFdKEeSIZbKHoWeRRfIWqvJ5Q-4B9Cl4aBMwNzvRJ9ToNDq57ytVGS
+
+AzureEntityColoring(AzureCommandPending)
+!define AzureCommandPending(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPending, AzureCommandPending)
+!define AzureCommandPending(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPending, AzureCommandPending)

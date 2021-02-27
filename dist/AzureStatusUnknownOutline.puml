@@ -1,0 +1,10 @@
+sprite $AzureStatusUnknownOutline [70x70/16z] {
+xTS5aYCn30LGiVxzBppeYjpbXLPfUVC6mZyo9zJnn49ZcZRFI8n3E82W8GEGD1Hu8pJ2YJTE8v9unxCG0FDI75NAj6kJXXXlZAQa6ZHXimO5hyiOX2ZoCuOd
+tP9OCHEADoaqa_XWytaoBiVn43neK54wYJKQL7qZme-pmEBUX5Pi_37o6PbOkDKjG5PvcrNOlMwfjrMS1PBHD-12pm9pbU9tExVEeZX6F-oxsstX2h_46hIH
+OdN_DGJSIC5-J2At6zH9SLhYsjdUIW5lHsM5G7ifKG_5zfHxowWOBUPLYjCtuL35IyqTlhin53aEpMYinYE6yysPUrAKejT7lRLB5TzBpTQEkKkjXxMvJUr2
+LgtUtNXnJcEDpY5milO9MufGHpPI-iKujKIZOvh3r3_-RL99YNd6EKwXWoya7z9ry25FpKnLw7TuUdfw1G
+}
+
+AzureEntityColoring(AzureStatusUnknownOutline)
+!define AzureStatusUnknownOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusUnknownOutline, AzureStatusUnknownOutline)
+!define AzureStatusUnknownOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusUnknownOutline, AzureStatusUnknownOutline)

@@ -1,0 +1,9 @@
+sprite $AzureStatusSuccessOutline [70x70/16z] {
+xTK5Skj060DW_Np_4pyejofOkodxAsHG4yjU6GjE7X6E7L5phGsB_2fYBoPw7cdeOaX1P3N30XAVvna4EKI_ffeN-K88gvKGPahA_fVfUGqEidbDI4_B_iqE
+zPBqXWs7jLQCtd22wGtx9Kva9eZSS4L3qiFQHqonOTwKeZUSFPGYDzmzb28tt7oGz8QZwQcJ6ouhEW5gmsK8EerQmvq6cBuCi72x-lH8UzHGhRrW-_7TShpA
+SCEpQIFpwDJ5JFypBE6yBlfcfx2NSq3X4YccpnAhXRSG0zClAVGTOALl6siSqsA8tcyRZf92z2zJ-bopb7UMjUixInAwtCtWQZf0j9YkC6pm33TyXjFfz1S
+}
+
+AzureEntityColoring(AzureStatusSuccessOutline)
+!define AzureStatusSuccessOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusSuccessOutline, AzureStatusSuccessOutline)
+!define AzureStatusSuccessOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusSuccessOutline, AzureStatusSuccessOutline)

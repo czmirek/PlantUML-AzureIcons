@@ -1,0 +1,10 @@
+sprite $AzureGeneralAllResources [70x70/16z] {
+tT17eYiX34JHKYhO_uQVimsTQUl7EuO3aXa061tZgGaUaG2KD8mb5gJWhGHWOugOyrRWez24nnLHvojl5GRfvcq0p6S123P5gznIOrjplh_4BfqeucSKMgzW
+GEdpZn8f2Zr5OQGeag90KnHuYe98KIH5WQKeY1H5lbG2zon5GQGeo57ihDAdE15dvIX-Nd5yyjDxCJJbA9AYm58Ko9B2TQKyKdG546KQ0PHP6mejHQ5aA8Ld
+59agnLCKYHG575Qme6YA0azHm1H5KnJuaC8L1HnIj8-bcDwoy4y0V9PXXiyp7Adi9GCA-ng5ycvFYVbsv_5VKXnzvPzNx3zIwhsPKXVQLVJtAUKtAAnLlbVC
+ZobLiPOv5N5CATZE3Yari5dnGqfLR6KctbPNAjvdc2IimmNc-IXYM4hBY162TnS
+}
+
+AzureEntityColoring(AzureGeneralAllResources)
+!define AzureGeneralAllResources(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralAllResources, AzureGeneralAllResources)
+!define AzureGeneralAllResources(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralAllResources, AzureGeneralAllResources)

@@ -1,0 +1,9 @@
+sprite $AzureIotNotificationHubs [70x70/16z] {
+xTO7QWKn38JX6Oro_oldcNYVC1XaoVJiJzlwRIzMYXWPld5EAJLNVGWJKLS8H2QffQp628-2uqZCAFMLPK_k5Kp4GYaNEyCxXMs5cvsH6LbIR24LrHG2KLjP
+67QLbUahKZXseIYWlk8Zc-C-AocSoiFmKd5Xf8w2K5mSR4lXLBv7fOw2gNmPQocGUoIWfz2NQA5SC8lIPq8fPbk5XKoVNCR1aGgbadpNg-XdLoY7z_-z0cw4
+LI4EyaGvOonH3XbFb55ZPqAfC9uePqV5H3bab2Xz9fG8IPueNGQVc1nIpk0lFk4iRPH6l58Y9KhTmLNczqhyZE1VzFRszlOB
+}
+
+AzureEntityColoring(AzureIotNotificationHubs)
+!define AzureIotNotificationHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotNotificationHubs, AzureIotNotificationHubs)
+!define AzureIotNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotNotificationHubs, AzureIotNotificationHubs)

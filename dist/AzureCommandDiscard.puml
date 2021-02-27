@@ -1,0 +1,10 @@
+sprite $AzureCommandDiscard [70x70/16z] {
+dTO5ZiKm4C1Gbxcv_srNMHgDb4zsIVZARO3-wF1DErJaBbVdaLBs7wIKi_D8PIfI6OzKvYZ5CsFvhJk3qSX2C1gP0IGp92IOmoEr8nY9PCOWcXdkyjC4BMON
+Y6FwX3nXB09xC6yX8pnZDezanYEPyGXipvdkBIIOjObSWLWca04-O3m2Qp0jv0xaBMPf8Zr89YEQwSxF4LY2yKWmCxM4A2OZdl48CFyor--c0pmJY6S2qKq9
+qLtntFZEqlW7UiGpNI31MEHQF4CN3ziSbzWZ12EHkoB1h0xfeS5819PWD98PZmIplONqRGJM3vZ-3aGo6P5C86M09yp-DgAPuHK2Mp0QoOn7WZdQI7bpkBK7
+Ov7CU2Gp7Wdc1ABnCmIEO9g8PGAPG38PCKm7C2N4CHw1yv_vHsRGpBKbn3BiWMXcf38QeJj_aCeiu9cAV04
+}
+
+AzureEntityColoring(AzureCommandDiscard)
+!define AzureCommandDiscard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandDiscard, AzureCommandDiscard)
+!define AzureCommandDiscard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandDiscard, AzureCommandDiscard)

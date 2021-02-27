@@ -1,0 +1,10 @@
+sprite $AzureCommandCode [70x52/16z] {
+vTK5TkH040JH4dMBy_wdtJKCntEb6VEXwNj26C_T96cDjswNLDwAz9BKXDcV2vebBJypQ2W-g0mEaORWT1dK8uw8rF7Rbq6Tb3D5zzloe4raYAZBWxeT397T
+11dcWBJ-acl14E7m9osE3P0qwB3cp13PckIIyqmbmg1hPjNzAf0L288ove2OXmAsN35063I4OGx8ajvQ4JbpGEQ8v3UNI6gb4KWQn4sF31KVHCKTbWN_WqKL
+HzS4kPEqcg0tN30C8kBlW0P1l0FyBLsU36es861Ca7d0xAq90f8mBgW50iO7yUbDfdD17H4owX3a4J9R7eHZahtj3q4zFuk8a1dS6UfniCWKVyaL8Xo2th13
+q5ktIfh2xFE2zjyKLByWw3y
+}
+
+AzureEntityColoring(AzureCommandCode)
+!define AzureCommandCode(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCode, AzureCommandCode)
+!define AzureCommandCode(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCode, AzureCommandCode)

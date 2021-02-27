@@ -1,0 +1,9 @@
+sprite $AzureStatusStoppedOutline [70x70/16z] {
+xTQ5OGGn34HHoQBfl-4mBtfEuNi5_0MZ_2CwXkg5YIWyg0msPOKtIkd6XHbDBAHCSgm9cP9OPtAU5hQed3KM4UAR1lOCudEMaeYmBvCu4CmyMP93YcD6V0_n
+Vmrdo8726ThnAh2ELu7F3b3w2fCziV7OETLHKNHKhAKIBPLggQ2ZeYsLyUChrugYUTPz_mg87xGpABvtn-HtR_uaCUAJ5eeQ9VRgNUSY_CiaUUVc1qkngePC
+yPwLdNnZUvpIXA8lcGfJePcxcmtv3bTNLxS
+}
+
+AzureEntityColoring(AzureStatusStoppedOutline)
+!define AzureStatusStoppedOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusStoppedOutline, AzureStatusStoppedOutline)
+!define AzureStatusStoppedOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusStoppedOutline, AzureStatusStoppedOutline)

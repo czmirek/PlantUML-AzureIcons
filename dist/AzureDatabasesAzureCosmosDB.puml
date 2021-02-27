@@ -1,0 +1,9 @@
+sprite $AzureDatabasesAzureCosmosDB [70x70/16z] {
+xTRLWSD034NH1mfD__qkonCsBKVdotZD40-Z52i-m-TK7D-gb5Bg_MryJaMndZwbOZj-hrAAhVKD0ewr1CPwPlmbfFm9F_K0GTrE0LCwnWVAlbe1w1X348aH
+lb81g1W18r74sPb26Zc1qh2Oy25scrwP53A67U1GQQtjv9FAtVDdqyxUIGK0XUj89P9umGpgfBB5F5aXabyg6ypJ3oZffMBCe_C30W-jSLc5wFRjW9cO1zHj
+stPPXK3dWpwXWXnx1W
+}
+
+AzureEntityColoring(AzureDatabasesAzureCosmosDB)
+!define AzureDatabasesAzureCosmosDB(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureCosmosDB, AzureDatabasesAzureCosmosDB)
+!define AzureDatabasesAzureCosmosDB(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureCosmosDB, AzureDatabasesAzureCosmosDB)

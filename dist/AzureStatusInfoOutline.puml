@@ -1,0 +1,10 @@
+sprite $AzureStatusInfoOutline [70x70/16z] {
+xTLL5iCm34JHiQjOjcR_woqpHAhBSB_RTv89uNf_ASjSkgKWQbooxenKRdHdfF50wsaOZockb2hFaFu3wPwcy095dFAYZAZAo-fDHz9KctCmxYPj-T_Smil8
+kGZM6ca8I4OUiuor7BndwlYYbTI-y-60hI5qIkPNcE4Ol1jM8yCOpx737vIULVR_fv7Rjt8yKnYe95xKYaYnq2jF668OfNUf64DQV9RkLqncZ7QEsz9QetlN
+3VuIrV-Sb60btwDYk4T5xr8Ht65TmpW9LHJZSgYICIv5AXKU2rGoFEfN52xnAmckv5Oc2AZE6oL6xbA1tQKotAK2kqj5xb91lKibcVFMZvdmc0suNZbgb8GU
+ofqgS7WBcqh23IQ3I4vuWR-_lna
+}
+
+AzureEntityColoring(AzureStatusInfoOutline)
+!define AzureStatusInfoOutline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusInfoOutline, AzureStatusInfoOutline)
+!define AzureStatusInfoOutline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusInfoOutline, AzureStatusInfoOutline)

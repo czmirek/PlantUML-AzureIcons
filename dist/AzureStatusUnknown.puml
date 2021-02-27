@@ -1,0 +1,11 @@
+sprite $AzureStatusUnknown [70x70/16z] {
+hPZPhdKX28CLAFJzN_WVpcZCqdA6xzeqxTvbHHndfWSowp-9y3c-ZgD8Pl6JWe-lOE1_Aha3QsiaNm4VI6zf5Dz0yf7IVi1tQYGFO3QDa7vGaNPYFJX6yWp6
+YToE9IzaHuHsK14oHQvCfS8wE14gsarIgcYPu8urL1XZnSWTxwXmxSsiHxT9afM8G9R-XS47viXrzARNlNrsQ6Tiu-BNJAKpdvFNrGfPioLZUrMqZ9zAOppZ
+O-UK7BoGkmuEVnC5YV1RoSajgQweuJats02tnX1RMPHA7CPWieEFQocciyDxwVYCHzVAhHG1QY16XKXAGamjcTM98-QDLRyWGYa2BQAfdaZrhDHTf5fZ2E5O
+n9rBPyyaEjKtta5qL5prqdz3nISbcZcA6bqgKA21ojp-4iek90Mobz6eBbIbh3EB9exaSiDHXqpa4ODaQkpHKAd5hpZXdLicHAHPlDfLcTB6c27oY4mQ4pVu
+5Y6s2O5SIlgath8q9JO-WLmS-wJUX3MGMxccJBuGQ327mAfZH6CfDeCc1Xw0VVb5QK6yAAdNhIfIlsxz1G
+}
+
+AzureEntityColoring(AzureStatusUnknown)
+!define AzureStatusUnknown(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusUnknown, AzureStatusUnknown)
+!define AzureStatusUnknown(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusUnknown, AzureStatusUnknown)

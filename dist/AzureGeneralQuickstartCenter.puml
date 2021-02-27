@@ -1,0 +1,9 @@
+sprite $AzureGeneralQuickstartCenter [70x70/16z] {
+xT87aWKX28HX0zrm_mjldB29DrYusVy0NxMK-9cjLglLIbgjjMUHMXwhaaSU6IHgPI_pg6rASapvGShvefPG93bbgs-8vBzTROAVraen8TeCHcq6OsP4Div0
+e3CGJ450_9IKo4VQOocB16rBCwzHEy95T16OXHdIGs1nXgGZyvMYLmgzxnyVGvSnYu-Xnz0iFeOUeqEAnzZR23yw3CSKXz4nnM5iNDcwhI2eyDPPDAYSZ8Xp
+bh0YZs5i2buHiiUnANXDR4774EWJ8Qy2e65aKo3z7G8mTfCjwVqjiaNT3E8o1zaY4UeU
+}
+
+AzureEntityColoring(AzureGeneralQuickstartCenter)
+!define AzureGeneralQuickstartCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralQuickstartCenter, AzureGeneralQuickstartCenter)
+!define AzureGeneralQuickstartCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralQuickstartCenter, AzureGeneralQuickstartCenter)

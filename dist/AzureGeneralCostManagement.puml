@@ -1,0 +1,9 @@
+sprite $AzureGeneralCostManagement [70x70/16z] {
+xTE5bKCn34JH4Kt_7Iyw3B9Fae-w1JoZe6p2JGL7paS2Dun7nvOAX1ofS9pVhLXmYDwh1A137TnY233KSTnIDEhiW-UagsD0LoVoy-ITi5SYZS1UESw9yyI3
+HouO8SOZY4MGuOQJuOxZ9Qr3mMiisWY_IECqVQzsWDSf3Hb3HaXaA4X4nskdJ-0zhvqjf5tpGzAJI1WooISN4NJWhn2yXd_q7HN7EofuHqNmAYSDhxF0yfHI
+IYcbbF8D
+}
+
+AzureEntityColoring(AzureGeneralCostManagement)
+!define AzureGeneralCostManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralCostManagement, AzureGeneralCostManagement)
+!define AzureGeneralCostManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralCostManagement, AzureGeneralCostManagement)

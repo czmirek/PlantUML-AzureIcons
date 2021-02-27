@@ -1,0 +1,9 @@
+sprite $AzureManageServiceCatalogMAD [70x70/16z] {
+xTG7RWCn34HHiSmukV-50y9qkWW5LBe-Yki-DUoEMVR-jpesH7eVCPAGhW96saEKtC1uAcWfpBm-q3hZR4Ny00DcyjRtLKIc2ngYXAxkxVI8H9I4oOB2-Gb9
+C17S7RQo87rN4GMpbHF2U4-9al5gAfwAJ9Laf51k4xOnKvB1mZs4KIanuN9lBP5I2QQSYkUQAoNUb5DH958hGygfwEqfLojrQhadFSLfewkefj5HylVsYhv4
+mHQ5sAAGsbSkbmjjXn9ENubiY-BVhHpbA4Uvk_PVbAFWA2-xl_Q5ob6E0f0aRBpez
+}
+
+AzureEntityColoring(AzureManageServiceCatalogMAD)
+!define AzureManageServiceCatalogMAD(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageServiceCatalogMAD, AzureManageServiceCatalogMAD)
+!define AzureManageServiceCatalogMAD(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageServiceCatalogMAD, AzureManageServiceCatalogMAD)

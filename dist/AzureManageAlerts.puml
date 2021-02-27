@@ -1,0 +1,9 @@
+sprite $AzureManageAlerts [70x70/16z] {
+xT1LOiKm34JHqMZaTlyRBlcXqb2jSkvNm3u6l4MHXWtHyxlhCb7nckGhbeTkYJxDq6FS9kSS5bV5F7fdHOffajk2ud4fiId3hCAu2UUqXh3V64EJuSAbEIHT
+lqkMa73CCqHIPkFyE66piZ3GaXBpEUSOnrJPlniRKA3M2-JQKaXv_-n8sReoPJYeTCQGuZwbJy2m0iuST9y2bYWmvFG1fLUln0zIsdiTYZqizgKAQvIGqpYe
+zAn4GIjHLAAmH44hKRn4GOtY9GfQYM8b2bIY84eKj185hKH1b2XGYGAMA80AbEuydi9GZ0vXD7D5mx_ewEZew1a
+}
+
+AzureEntityColoring(AzureManageAlerts)
+!define AzureManageAlerts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageAlerts, AzureManageAlerts)
+!define AzureManageAlerts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageAlerts, AzureManageAlerts)

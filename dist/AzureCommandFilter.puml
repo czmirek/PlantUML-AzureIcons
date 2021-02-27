@@ -1,0 +1,8 @@
+sprite $AzureCommandFilter [70x61/16z] {
+xSp50SGm34L1XJdklzfb-V2Ndu_H533fhJ1r1IPVUYlG9zSQrjo2hQnfxqbLr3IFnAerDpmnQM32cpOdkF5azKGQa4W34srWeWrCjA69yuObsj146vvemnDl
+EfvemnDjtYUyySGSQd826qruqta26qruanFIqCGjwMAoXmaaDvikcm6hBkkHbbXYYIMMMDRkOUMBEDHo1W
+}
+
+AzureEntityColoring(AzureCommandFilter)
+!define AzureCommandFilter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandFilter, AzureCommandFilter)
+!define AzureCommandFilter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandFilter, AzureCommandFilter)

@@ -1,0 +1,8 @@
+sprite $AzureNetworkingCDNProfiles [70x70/16z] {
+xTM5cSGm34JXCKlNVx-tZ45zdcNz1Rp4ZD_Wd7FEkP3kHPY5F9HW5VE85_qB8Y4ov4Ay1xjKXc1MHiGNLM8Po81Tk0F7dfug0n5MIOOghB8CDQoMi1TaA6Er
+ndX9ae9069MgoeZqLqBJxaeegdsLc7BJevxvk00b0qe6b0owrBy3K3AWP439W9819GDAPWC
+}
+
+AzureEntityColoring(AzureNetworkingCDNProfiles)
+!define AzureNetworkingCDNProfiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingCDNProfiles, AzureNetworkingCDNProfiles)
+!define AzureNetworkingCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingCDNProfiles, AzureNetworkingCDNProfiles)

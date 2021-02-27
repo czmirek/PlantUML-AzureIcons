@@ -1,0 +1,11 @@
+sprite $AzureManageEducation [70x70/16z] {
+xTO7pkCW48RX3wRFtl--IogEyYDSKC-JulvAesQmqCyF0KKABc6FLX2lrneH3C1CtFbaum50zHl2OUGl1C2yqSCDypT54JLtbzEDHiIj56z_fnj6G2MqFpxT
+a8epgdh7ED_eZ4yrx4jTq6WO1nIn0RdGwDn4k5ni_7kmUOLcaIOmLUULn9pOGBmYz3L19RwZMl1Knvt8S6NwJ11_83mLLXlHGbp7ZGOTwKW1UeNu6xQgw9zQ
+ujKft0mhVR0_qBt2LDhVh38UZ773pCJJodWm7Wmpg8W_cEcM-TtUYkPBk7QUTtwWqZlMAmzweDB5inElu-ELFfZbYnskzC6y7yd9IXFvvkShMxga4aigQKig
+AKigiQIIkgGIigAIlgIIkgGIIoffIoeXAohfl4NumBaNyKR59yzz7DnzBmLyNwIWZ2EDvPoXeN6a8PyqdBOlkOe1iXmpmbEbvmfeY3NoMoWN75E8nTmZCiBT
+XAbWXP-V_m
+}
+
+AzureEntityColoring(AzureManageEducation)
+!define AzureManageEducation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageEducation, AzureManageEducation)
+!define AzureManageEducation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageEducation, AzureManageEducation)

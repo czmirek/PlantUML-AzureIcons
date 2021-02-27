@@ -1,0 +1,11 @@
+sprite $AzureCommandSupport [56x70/16z] {
+dTPNeeGW38NX4q2aICx-LtjxaHcK3D_xVmib6F3FAoySWWS7_coyfWuzUlo8f3q44xu5tbFfkuOlZZD7tn5V6gTItta0I3JmNRS145eSNHS1P9g4XqveKn_-
+paWZwTUbqYZs-q2hqksxfvLsvopIJF23hjjqyzRNRlViEnX4fD9imm--OhqBYvrVx6IjKwnrPR6BYntMkhBO-RMkOArpQzsELplDfR7Y99lddoyUVqgbHGAS
+aaNmBJ7JmlyynUhnQISt6YZYUGS_6qU3LC_FRY2fi2mcJmwd9DEqgviqddrcz7UTjX8mV3mQm1lP0NACfnglr2W0DhsO5Xmvzl0PkRrT3b6ErHIBtZtpTwF4
+xwLTtTus6q6-Z6TXddJfwcl4jvlE7pUVJR5T31DNXglvRwjy8g5oGD6HVjsrnCIXX2SIufu-n200H3cWcDeui64kJMQXFTnX4vGd6c2M_giT9Y64cBA3JwNM
+iWSOHP8Cw5Z33IkuOqd2aj168cPguy2yQvK30JCvSW1JCkeo33AV20n45o-4k_poUGS
+}
+
+AzureEntityColoring(AzureCommandSupport)
+!define AzureCommandSupport(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSupport, AzureCommandSupport)
+!define AzureCommandSupport(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSupport, AzureCommandSupport)

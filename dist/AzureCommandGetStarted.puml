@@ -1,0 +1,8 @@
+sprite $AzureCommandGetStarted [70x48/16z] {
+xTUr0GD144FHkMLM_zMQsTcEpFu5l5YI5-GI0Gc0dac0dYa0WV7O5n_D_9dm5epxPiR_cRiid_7pPUnp8Y3aA0eS65KA8ds-SK8q5GPItmPf16Gv84M5z7T1
+30KPxu9O2e9z-UM8Unl4Cn0fUcHRsYEC1Kz-4_pM
+}
+
+AzureEntityColoring(AzureCommandGetStarted)
+!define AzureCommandGetStarted(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandGetStarted, AzureCommandGetStarted)
+!define AzureCommandGetStarted(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandGetStarted, AzureCommandGetStarted)

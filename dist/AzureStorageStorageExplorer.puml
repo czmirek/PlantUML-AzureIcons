@@ -1,0 +1,9 @@
+sprite $AzureStorageStorageExplorer [70x70/16z] {
+xTO5TiGW543H_x2n_Q-ttdBWJ_0wxsZinXD419pFSWOa3K2E0i2hBAZL-XK7ofXKMA6mGc65mbzJc5IWKt5AiRmcLI4gnfhdRCoG9NL5NmHzUAvPYOm9Ajkg
+HCPEAI9pIkn0STILjFiAqAM8EL1WZG9h59XKOciKQ52eAr1LnAcelKZ-b6UaEwwg8FrfvVGhbArinP-p-jwZ7JO96Sg792z3XQojRAMKIn4dVpwh1hTwLlsw
+N6z9rxPPCyfMjdAw9ftkpmfgFFjNUmG
+}
+
+AzureEntityColoring(AzureStorageStorageExplorer)
+!define AzureStorageStorageExplorer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageStorageExplorer, AzureStorageStorageExplorer)
+!define AzureStorageStorageExplorer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageStorageExplorer, AzureStorageStorageExplorer)
