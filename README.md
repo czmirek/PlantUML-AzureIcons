@@ -8,7 +8,7 @@ There are several important changes.
 - The code in [`AzureCommon.yaml`](https://github.com/czmirek/PlantUML-AzureIcons/blob/main/AzureCommon.puml) is mostly the same from the [original](https://github.com/plantuml-stdlib/Azure-PlantUML) file but all other options were removed/reworked.
 
 ## Usage
-Put this into your PUML to include add support for all images.
+Put this into your PUML to add support for all images.
 
 ```puml
 !define AzurePuml https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist
