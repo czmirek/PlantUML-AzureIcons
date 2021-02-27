@@ -1,11 +1,10 @@
 # Azure Icons for PlantUML
-This project is completely reworked "fork" of [RicardoNiepel/Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML). Some documentation from there still applies also to this project and the box styles are the same.
+This project is reworked fork of [RicardoNiepel/Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML) with different icon set and build process.
 
 There are several important changes.
 
 - It uses the ['CDS' Azure Icons Set](https://github.com/benc-uk/icon-collection) from the [benc-uk/icon-collection](https://github.com/benc-uk/icon-collection) repository which is much more complete icon collection.
-
-- The code in [`AzureCommon.yaml`](https://github.com/czmirek/PlantUML-AzureIcons/blob/main/AzureCommon.puml) is mostly the same from the [original](https://github.com/plantuml-stdlib/Azure-PlantUML) file but all other options were removed/reworked.
+- Macros are not picked from hand written configuration but generated from image names.
 
 ## Usage
 Put this into your PUML to add support for all images.
