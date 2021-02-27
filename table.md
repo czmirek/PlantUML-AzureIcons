@@ -1,464 +1,463 @@
-Macro (Name) | Url
+Macro (Name) | Image
 --- | ---
-AzureAnalyticsAnalysisServices | ![AzureAnalyticsAnalysisServices](dist/AzureAnalyticsAnalysisServices_tbg.png) |
-AzureAnalyticsAzureDataExplorerClusters | ![AzureAnalyticsAzureDataExplorerClusters](dist/AzureAnalyticsAzureDataExplorerClusters_tbg.png) |
-AzureAnalyticsDataFactory | ![AzureAnalyticsDataFactory](dist/AzureAnalyticsDataFactory_tbg.png) |
-AzureAnalyticsDataLakeAnalytics | ![AzureAnalyticsDataLakeAnalytics](dist/AzureAnalyticsDataLakeAnalytics_tbg.png) |
-AzureAnalyticsDataLakeStoreGen1 | ![AzureAnalyticsDataLakeStoreGen1](dist/AzureAnalyticsDataLakeStoreGen1_tbg.png) |
-AzureAnalyticsEventHubClusters | ![AzureAnalyticsEventHubClusters](dist/AzureAnalyticsEventHubClusters_tbg.png) |
-AzureAnalyticsEventHubs | ![AzureAnalyticsEventHubs](dist/AzureAnalyticsEventHubs_tbg.png) |
-AzureAnalyticsHDInsightClusters | ![AzureAnalyticsHDInsightClusters](dist/AzureAnalyticsHDInsightClusters_tbg.png) |
-AzureAnalyticsLogAnalyticsWorkspaces | ![AzureAnalyticsLogAnalyticsWorkspaces](dist/AzureAnalyticsLogAnalyticsWorkspaces_tbg.png) |
-AzureAnalyticsSQLDataWarehouses | ![AzureAnalyticsSQLDataWarehouses](dist/AzureAnalyticsSQLDataWarehouses_tbg.png) |
-AzureAnalyticsStreamAnalytics | ![AzureAnalyticsStreamAnalytics](dist/AzureAnalyticsStreamAnalytics_tbg.png) |
-AzureBlockchainABSMember | ![AzureBlockchainABSMember](dist/AzureBlockchainABSMember_tbg.png) |
-AzureBlockchainApplications | ![AzureBlockchainApplications](dist/AzureBlockchainApplications_tbg.png) |
-AzureBlockchainAzureBlockchainService | ![AzureBlockchainAzureBlockchainService](dist/AzureBlockchainAzureBlockchainService_tbg.png) |
-AzureBlockchainAzureTokenService | ![AzureBlockchainAzureTokenService](dist/AzureBlockchainAzureTokenService_tbg.png) |
-AzureBlockchainBCDevKit | ![AzureBlockchainBCDevKit](dist/AzureBlockchainBCDevKit_tbg.png) |
-AzureBlockchainConsortium | ![AzureBlockchainConsortium](dist/AzureBlockchainConsortium_tbg.png) |
-AzureBlockchainOutboundConnection | ![AzureBlockchainOutboundConnection](dist/AzureBlockchainOutboundConnection_tbg.png) |
-AzureBlockchainStreamingService | ![AzureBlockchainStreamingService](dist/AzureBlockchainStreamingService_tbg.png) |
-AzureCommandAdd | ![AzureCommandAdd](dist/AzureCommandAdd_tbg.png) |
-AzureCommandAddTeamMember | ![AzureCommandAddTeamMember](dist/AzureCommandAddTeamMember_tbg.png) |
-AzureCommandAddTile | ![AzureCommandAddTile](dist/AzureCommandAddTile_tbg.png) |
-AzureCommandAllServices | ![AzureCommandAllServices](dist/AzureCommandAllServices_tbg.png) |
-AzureCommandApplySplitting | ![AzureCommandApplySplitting](dist/AzureCommandApplySplitting_tbg.png) |
-AzureCommandArrowDown | ![AzureCommandArrowDown](dist/AzureCommandArrowDown_tbg.png) |
-AzureCommandArrowLeft | ![AzureCommandArrowLeft](dist/AzureCommandArrowLeft_tbg.png) |
-AzureCommandArrowRight | ![AzureCommandArrowRight](dist/AzureCommandArrowRight_tbg.png) |
-AzureCommandArrowUp | ![AzureCommandArrowUp](dist/AzureCommandArrowUp_tbg.png) |
-AzureCommandAttachment | ![AzureCommandAttachment](dist/AzureCommandAttachment_tbg.png) |
-AzureCommandAvatarDefault | ![AzureCommandAvatarDefault](dist/AzureCommandAvatarDefault_tbg.png) |
-AzureCommandAvatarUnknown | ![AzureCommandAvatarUnknown](dist/AzureCommandAvatarUnknown_tbg.png) |
-AzureCommandAzurePortal | ![AzureCommandAzurePortal](dist/AzureCommandAzurePortal_tbg.png) |
-AzureCommandAzureQuickstart | ![AzureCommandAzureQuickstart](dist/AzureCommandAzureQuickstart_tbg.png) |
-AzureCommandBacklog | ![AzureCommandBacklog](dist/AzureCommandBacklog_tbg.png) |
-AzureCommandBook | ![AzureCommandBook](dist/AzureCommandBook_tbg.png) |
-AzureCommandBug | ![AzureCommandBug](dist/AzureCommandBug_tbg.png) |
-AzureCommandCalendar | ![AzureCommandCalendar](dist/AzureCommandCalendar_tbg.png) |
-AzureCommandCancelled | ![AzureCommandCancelled](dist/AzureCommandCancelled_tbg.png) |
-AzureCommandCapture | ![AzureCommandCapture](dist/AzureCommandCapture_tbg.png) |
-AzureCommandClock | ![AzureCommandClock](dist/AzureCommandClock_tbg.png) |
-AzureCommandCode | ![AzureCommandCode](dist/AzureCommandCode_tbg.png) |
-AzureCommandCollapse | ![AzureCommandCollapse](dist/AzureCommandCollapse_tbg.png) |
-AzureCommandColumns | ![AzureCommandColumns](dist/AzureCommandColumns_tbg.png) |
-AzureCommandCommit | ![AzureCommandCommit](dist/AzureCommandCommit_tbg.png) |
-AzureCommandConnect | ![AzureCommandConnect](dist/AzureCommandConnect_tbg.png) |
-AzureCommandConsole | ![AzureCommandConsole](dist/AzureCommandConsole_tbg.png) |
-AzureCommandCopy | ![AzureCommandCopy](dist/AzureCommandCopy_tbg.png) |
-AzureCommandCustomizeTile | ![AzureCommandCustomizeTile](dist/AzureCommandCustomizeTile_tbg.png) |
-AzureCommandDescriptionInfo | ![AzureCommandDescriptionInfo](dist/AzureCommandDescriptionInfo_tbg.png) |
-AzureCommandDetails | ![AzureCommandDetails](dist/AzureCommandDetails_tbg.png) |
-AzureCommandDiagnostics | ![AzureCommandDiagnostics](dist/AzureCommandDiagnostics_tbg.png) |
-AzureCommandDisable | ![AzureCommandDisable](dist/AzureCommandDisable_tbg.png) |
-AzureCommandDiscard | ![AzureCommandDiscard](dist/AzureCommandDiscard_tbg.png) |
-AzureCommandDisconnect | ![AzureCommandDisconnect](dist/AzureCommandDisconnect_tbg.png) |
-AzureCommandDoubleChevron | ![AzureCommandDoubleChevron](dist/AzureCommandDoubleChevron_tbg.png) |
-AzureCommandDownload | ![AzureCommandDownload](dist/AzureCommandDownload_tbg.png) |
-AzureCommandEdit | ![AzureCommandEdit](dist/AzureCommandEdit_tbg.png) |
-AzureCommandEditorColumn | ![AzureCommandEditorColumn](dist/AzureCommandEditorColumn_tbg.png) |
-AzureCommandError | ![AzureCommandError](dist/AzureCommandError_tbg.png) |
-AzureCommandExpand | ![AzureCommandExpand](dist/AzureCommandExpand_tbg.png) |
-AzureCommandFavorite | ![AzureCommandFavorite](dist/AzureCommandFavorite_tbg.png) |
-AzureCommandFeedback | ![AzureCommandFeedback](dist/AzureCommandFeedback_tbg.png) |
-AzureCommandFile | ![AzureCommandFile](dist/AzureCommandFile_tbg.png) |
-AzureCommandFilter | ![AzureCommandFilter](dist/AzureCommandFilter_tbg.png) |
-AzureCommandFilterRemove | ![AzureCommandFilterRemove](dist/AzureCommandFilterRemove_tbg.png) |
-AzureCommandFolder | ![AzureCommandFolder](dist/AzureCommandFolder_tbg.png) |
-AzureCommandGear | ![AzureCommandGear](dist/AzureCommandGear_tbg.png) |
-AzureCommandGetMoreLicenses | ![AzureCommandGetMoreLicenses](dist/AzureCommandGetMoreLicenses_tbg.png) |
-AzureCommandGetStarted | ![AzureCommandGetStarted](dist/AzureCommandGetStarted_tbg.png) |
-AzureCommandGlobe | ![AzureCommandGlobe](dist/AzureCommandGlobe_tbg.png) |
-AzureCommandGo | ![AzureCommandGo](dist/AzureCommandGo_tbg.png) |
-AzureCommandGuide | ![AzureCommandGuide](dist/AzureCommandGuide_tbg.png) |
-AzureCommandHamburger | ![AzureCommandHamburger](dist/AzureCommandHamburger_tbg.png) |
-AzureCommandHappy | ![AzureCommandHappy](dist/AzureCommandHappy_tbg.png) |
-AzureCommandHeartpulse | ![AzureCommandHeartpulse](dist/AzureCommandHeartpulse_tbg.png) |
-AzureCommandHelp | ![AzureCommandHelp](dist/AzureCommandHelp_tbg.png) |
-AzureCommandHide | ![AzureCommandHide](dist/AzureCommandHide_tbg.png) |
-AzureCommandHistory | ![AzureCommandHistory](dist/AzureCommandHistory_tbg.png) |
-AzureCommandCheck | ![AzureCommandCheck](dist/AzureCommandCheck_tbg.png) |
-AzureCommandChevronDown | ![AzureCommandChevronDown](dist/AzureCommandChevronDown_tbg.png) |
-AzureCommandChevronUp | ![AzureCommandChevronUp](dist/AzureCommandChevronUp_tbg.png) |
-AzureCommandInactive | ![AzureCommandInactive](dist/AzureCommandInactive_tbg.png) |
-AzureCommandInsert | ![AzureCommandInsert](dist/AzureCommandInsert_tbg.png) |
-AzureCommandKey | ![AzureCommandKey](dist/AzureCommandKey_tbg.png) |
-AzureCommandLaunch | ![AzureCommandLaunch](dist/AzureCommandLaunch_tbg.png) |
-AzureCommandLine | ![AzureCommandLine](dist/AzureCommandLine_tbg.png) |
-AzureCommandLink | ![AzureCommandLink](dist/AzureCommandLink_tbg.png) |
-AzureCommandLock | ![AzureCommandLock](dist/AzureCommandLock_tbg.png) |
-AzureCommandLog | ![AzureCommandLog](dist/AzureCommandLog_tbg.png) |
-AzureCommandMail | ![AzureCommandMail](dist/AzureCommandMail_tbg.png) |
-AzureCommandMessage | ![AzureCommandMessage](dist/AzureCommandMessage_tbg.png) |
-AzureCommandMonitor | ![AzureCommandMonitor](dist/AzureCommandMonitor_tbg.png) |
-AzureCommandMore | ![AzureCommandMore](dist/AzureCommandMore_tbg.png) |
-AzureCommandMove | ![AzureCommandMove](dist/AzureCommandMove_tbg.png) |
-AzureCommandNotifications | ![AzureCommandNotifications](dist/AzureCommandNotifications_tbg.png) |
-AzureCommandPaused | ![AzureCommandPaused](dist/AzureCommandPaused_tbg.png) |
-AzureCommandPending | ![AzureCommandPending](dist/AzureCommandPending_tbg.png) |
-AzureCommandPerson | ![AzureCommandPerson](dist/AzureCommandPerson_tbg.png) |
-AzureCommandPersonWithFriend | ![AzureCommandPersonWithFriend](dist/AzureCommandPersonWithFriend_tbg.png) |
-AzureCommandPin | ![AzureCommandPin](dist/AzureCommandPin_tbg.png) |
-AzureCommandPostpone | ![AzureCommandPostpone](dist/AzureCommandPostpone_tbg.png) |
-AzureCommandPowerUp | ![AzureCommandPowerUp](dist/AzureCommandPowerUp_tbg.png) |
-AzureCommandProperties | ![AzureCommandProperties](dist/AzureCommandProperties_tbg.png) |
-AzureCommandPublish | ![AzureCommandPublish](dist/AzureCommandPublish_tbg.png) |
-AzureCommandQuery | ![AzureCommandQuery](dist/AzureCommandQuery_tbg.png) |
-AzureCommandQuestion | ![AzureCommandQuestion](dist/AzureCommandQuestion_tbg.png) |
-AzureCommandQueued | ![AzureCommandQueued](dist/AzureCommandQueued_tbg.png) |
-AzureCommandRedo | ![AzureCommandRedo](dist/AzureCommandRedo_tbg.png) |
-AzureCommandRefresh | ![AzureCommandRefresh](dist/AzureCommandRefresh_tbg.png) |
-AzureCommandReimage | ![AzureCommandReimage](dist/AzureCommandReimage_tbg.png) |
-AzureCommandRelease | ![AzureCommandRelease](dist/AzureCommandRelease_tbg.png) |
-AzureCommandRepair | ![AzureCommandRepair](dist/AzureCommandRepair_tbg.png) |
-AzureCommandRequest | ![AzureCommandRequest](dist/AzureCommandRequest_tbg.png) |
-AzureCommandResource | ![AzureCommandResource](dist/AzureCommandResource_tbg.png) |
-AzureCommandRetain | ![AzureCommandRetain](dist/AzureCommandRetain_tbg.png) |
-AzureCommandSad | ![AzureCommandSad](dist/AzureCommandSad_tbg.png) |
-AzureCommandSave | ![AzureCommandSave](dist/AzureCommandSave_tbg.png) |
-AzureCommandSaveAll | ![AzureCommandSaveAll](dist/AzureCommandSaveAll_tbg.png) |
-AzureCommandSearch | ![AzureCommandSearch](dist/AzureCommandSearch_tbg.png) |
-AzureCommandShow | ![AzureCommandShow](dist/AzureCommandShow_tbg.png) |
-AzureCommandSignOut | ![AzureCommandSignOut](dist/AzureCommandSignOut_tbg.png) |
-AzureCommandSmileyNeutral | ![AzureCommandSmileyNeutral](dist/AzureCommandSmileyNeutral_tbg.png) |
-AzureCommandSplitAvailable | ![AzureCommandSplitAvailable](dist/AzureCommandSplitAvailable_tbg.png) |
-AzureCommandStart | ![AzureCommandStart](dist/AzureCommandStart_tbg.png) |
-AzureCommandStop | ![AzureCommandStop](dist/AzureCommandStop_tbg.png) |
-AzureCommandSubtract | ![AzureCommandSubtract](dist/AzureCommandSubtract_tbg.png) |
-AzureCommandSupport | ![AzureCommandSupport](dist/AzureCommandSupport_tbg.png) |
-AzureCommandSwap | ![AzureCommandSwap](dist/AzureCommandSwap_tbg.png) |
-AzureCommandTable | ![AzureCommandTable](dist/AzureCommandTable_tbg.png) |
-AzureCommandTags | ![AzureCommandTags](dist/AzureCommandTags_tbg.png) |
-AzureCommandTasks | ![AzureCommandTasks](dist/AzureCommandTasks_tbg.png) |
-AzureCommandThumbsDown | ![AzureCommandThumbsDown](dist/AzureCommandThumbsDown_tbg.png) |
-AzureCommandThumbsUp | ![AzureCommandThumbsUp](dist/AzureCommandThumbsUp_tbg.png) |
-AzureCommandTools | ![AzureCommandTools](dist/AzureCommandTools_tbg.png) |
-AzureCommandTooltip | ![AzureCommandTooltip](dist/AzureCommandTooltip_tbg.png) |
-AzureCommandTrashOutline | ![AzureCommandTrashOutline](dist/AzureCommandTrashOutline_tbg.png) |
-AzureCommandTrendDown | ![AzureCommandTrendDown](dist/AzureCommandTrendDown_tbg.png) |
-AzureCommandTrendUp | ![AzureCommandTrendUp](dist/AzureCommandTrendUp_tbg.png) |
-AzureCommandTriangle | ![AzureCommandTriangle](dist/AzureCommandTriangle_tbg.png) |
-AzureCommandUndo | ![AzureCommandUndo](dist/AzureCommandUndo_tbg.png) |
-AzureCommandUnlock | ![AzureCommandUnlock](dist/AzureCommandUnlock_tbg.png) |
-AzureCommandUnpin | ![AzureCommandUnpin](dist/AzureCommandUnpin_tbg.png) |
-AzureCommandUpload | ![AzureCommandUpload](dist/AzureCommandUpload_tbg.png) |
-AzureCommandUpsell | ![AzureCommandUpsell](dist/AzureCommandUpsell_tbg.png) |
-AzureCommandVariables | ![AzureCommandVariables](dist/AzureCommandVariables_tbg.png) |
-AzureCommandWarning | ![AzureCommandWarning](dist/AzureCommandWarning_tbg.png) |
-AzureCommandWrench | ![AzureCommandWrench](dist/AzureCommandWrench_tbg.png) |
-AzureCommon | ![AzureCommon](dist/AzureCommon_tbg.png) |
-AzureComputeAppServices | ![AzureComputeAppServices](dist/AzureComputeAppServices_tbg.png) |
-AzureComputeAvailabilitySets | ![AzureComputeAvailabilitySets](dist/AzureComputeAvailabilitySets_tbg.png) |
-AzureComputeBatchAccounts | ![AzureComputeBatchAccounts](dist/AzureComputeBatchAccounts_tbg.png) |
-AzureComputeCloudServices_Classic | ![AzureComputeCloudServices_Classic](dist/AzureComputeCloudServices_Classic_tbg.png) |
-AzureComputeContainerInstances | ![AzureComputeContainerInstances](dist/AzureComputeContainerInstances_tbg.png) |
-AzureComputeContainerServices_Deprecated | ![AzureComputeContainerServices_Deprecated](dist/AzureComputeContainerServices_Deprecated_tbg.png) |
-AzureComputeDiskEncryption | ![AzureComputeDiskEncryption](dist/AzureComputeDiskEncryption_tbg.png) |
-AzureComputeDisks_Classic | ![AzureComputeDisks_Classic](dist/AzureComputeDisks_Classic_tbg.png) |
-AzureComputeDisks | ![AzureComputeDisks](dist/AzureComputeDisks_tbg.png) |
-AzureComputeDisksSnapshots | ![AzureComputeDisksSnapshots](dist/AzureComputeDisksSnapshots_tbg.png) |
-AzureComputeFunctionApps | ![AzureComputeFunctionApps](dist/AzureComputeFunctionApps_tbg.png) |
-AzureComputeImageDefinitions | ![AzureComputeImageDefinitions](dist/AzureComputeImageDefinitions_tbg.png) |
-AzureComputeImages | ![AzureComputeImages](dist/AzureComputeImages_tbg.png) |
-AzureComputeImageVersions | ![AzureComputeImageVersions](dist/AzureComputeImageVersions_tbg.png) |
-AzureComputeKubernetesServices | ![AzureComputeKubernetesServices](dist/AzureComputeKubernetesServices_tbg.png) |
-AzureComputeMeshApplications | ![AzureComputeMeshApplications](dist/AzureComputeMeshApplications_tbg.png) |
-AzureComputeOSImages_Classic | ![AzureComputeOSImages_Classic](dist/AzureComputeOSImages_Classic_tbg.png) |
-AzureComputeServiceFabricClusters | ![AzureComputeServiceFabricClusters](dist/AzureComputeServiceFabricClusters_tbg.png) |
-AzureComputeSharedImageGalleries | ![AzureComputeSharedImageGalleries](dist/AzureComputeSharedImageGalleries_tbg.png) |
-AzureComputeSSHKeys | ![AzureComputeSSHKeys](dist/AzureComputeSSHKeys_tbg.png) |
-AzureComputeVirtualMachine | ![AzureComputeVirtualMachine](dist/AzureComputeVirtualMachine_tbg.png) |
-AzureComputeVirtualMachines_Classic | ![AzureComputeVirtualMachines_Classic](dist/AzureComputeVirtualMachines_Classic_tbg.png) |
-AzureComputeVMImages_Classic | ![AzureComputeVMImages_Classic](dist/AzureComputeVMImages_Classic_tbg.png) |
-AzureComputeVMScaleSets | ![AzureComputeVMScaleSets](dist/AzureComputeVMScaleSets_tbg.png) |
-AzureContainersAppServices | ![AzureContainersAppServices](dist/AzureContainersAppServices_tbg.png) |
-AzureContainersBatchAccounts | ![AzureContainersBatchAccounts](dist/AzureContainersBatchAccounts_tbg.png) |
-AzureContainersContainerInstances | ![AzureContainersContainerInstances](dist/AzureContainersContainerInstances_tbg.png) |
-AzureContainersContainerRegistries | ![AzureContainersContainerRegistries](dist/AzureContainersContainerRegistries_tbg.png) |
-AzureContainersContainerServices_Deprecated | ![AzureContainersContainerServices_Deprecated](dist/AzureContainersContainerServices_Deprecated_tbg.png) |
-AzureContainersKubernetesServices | ![AzureContainersKubernetesServices](dist/AzureContainersKubernetesServices_tbg.png) |
-AzureContainersServiceFabricClusters | ![AzureContainersServiceFabricClusters](dist/AzureContainersServiceFabricClusters_tbg.png) |
-AzureDatabasesAzureCosmosDB | ![AzureDatabasesAzureCosmosDB](dist/AzureDatabasesAzureCosmosDB_tbg.png) |
-AzureDatabasesAzureDatabaseMariaDBServer | ![AzureDatabasesAzureDatabaseMariaDBServer](dist/AzureDatabasesAzureDatabaseMariaDBServer_tbg.png) |
-AzureDatabasesAzureDatabaseMigrationServices | ![AzureDatabasesAzureDatabaseMigrationServices](dist/AzureDatabasesAzureDatabaseMigrationServices_tbg.png) |
-AzureDatabasesAzureDatabaseMySQLServer | ![AzureDatabasesAzureDatabaseMySQLServer](dist/AzureDatabasesAzureDatabaseMySQLServer_tbg.png) |
-AzureDatabasesAzureDatabasePostgreSQLServer | ![AzureDatabasesAzureDatabasePostgreSQLServer](dist/AzureDatabasesAzureDatabasePostgreSQLServer_tbg.png) |
-AzureDatabasesAzureSQLDataWarehouse | ![AzureDatabasesAzureSQLDataWarehouse](dist/AzureDatabasesAzureSQLDataWarehouse_tbg.png) |
-AzureDatabasesAzureSQLServerStretchDatabases | ![AzureDatabasesAzureSQLServerStretchDatabases](dist/AzureDatabasesAzureSQLServerStretchDatabases_tbg.png) |
-AzureDatabasesAzureSQLVM | ![AzureDatabasesAzureSQLVM](dist/AzureDatabasesAzureSQLVM_tbg.png) |
-AzureDatabasesAzureSynapse | ![AzureDatabasesAzureSynapse](dist/AzureDatabasesAzureSynapse_tbg.png) |
-AzureDatabasesCacheRedis | ![AzureDatabasesCacheRedis](dist/AzureDatabasesCacheRedis_tbg.png) |
-AzureDatabasesDataFactory | ![AzureDatabasesDataFactory](dist/AzureDatabasesDataFactory_tbg.png) |
-AzureDatabasesElasticJobAgents | ![AzureDatabasesElasticJobAgents](dist/AzureDatabasesElasticJobAgents_tbg.png) |
-AzureDatabasesInstancePools | ![AzureDatabasesInstancePools](dist/AzureDatabasesInstancePools_tbg.png) |
-AzureDatabasesManagedDatabase | ![AzureDatabasesManagedDatabase](dist/AzureDatabasesManagedDatabase_tbg.png) |
-AzureDatabasesSQLDatabase | ![AzureDatabasesSQLDatabase](dist/AzureDatabasesSQLDatabase_tbg.png) |
-AzureDatabasesSQLElasticPools | ![AzureDatabasesSQLElasticPools](dist/AzureDatabasesSQLElasticPools_tbg.png) |
-AzureDatabasesSQLManagedInstance | ![AzureDatabasesSQLManagedInstance](dist/AzureDatabasesSQLManagedInstance_tbg.png) |
-AzureDatabasesSQLServer | ![AzureDatabasesSQLServer](dist/AzureDatabasesSQLServer_tbg.png) |
-AzureDatabasesVirtualClusters | ![AzureDatabasesVirtualClusters](dist/AzureDatabasesVirtualClusters_tbg.png) |
-AzureDevopsAPIManagementServices | ![AzureDevopsAPIManagementServices](dist/AzureDevopsAPIManagementServices_tbg.png) |
-AzureDevopsApplicationInsights | ![AzureDevopsApplicationInsights](dist/AzureDevopsApplicationInsights_tbg.png) |
-AzureDevopsAzureDevOps | ![AzureDevopsAzureDevOps](dist/AzureDevopsAzureDevOps_tbg.png) |
-AzureDevopsDevTestLabs | ![AzureDevopsDevTestLabs](dist/AzureDevopsDevTestLabs_tbg.png) |
-AzureDevopsLabServices | ![AzureDevopsLabServices](dist/AzureDevopsLabServices_tbg.png) |
-AzureGeneralAllResources | ![AzureGeneralAllResources](dist/AzureGeneralAllResources_tbg.png) |
-AzureGeneralAllServices | ![AzureGeneralAllServices](dist/AzureGeneralAllServices_tbg.png) |
-AzureGeneralBilling | ![AzureGeneralBilling](dist/AzureGeneralBilling_tbg.png) |
-AzureGeneralCostManagement | ![AzureGeneralCostManagement](dist/AzureGeneralCostManagement_tbg.png) |
-AzureGeneralDashboard | ![AzureGeneralDashboard](dist/AzureGeneralDashboard_tbg.png) |
-AzureGeneralFreeServices | ![AzureGeneralFreeServices](dist/AzureGeneralFreeServices_tbg.png) |
-AzureGeneralHelpandSupport | ![AzureGeneralHelpandSupport](dist/AzureGeneralHelpandSupport_tbg.png) |
-AzureGeneralHome | ![AzureGeneralHome](dist/AzureGeneralHome_tbg.png) |
-AzureGeneralInformation | ![AzureGeneralInformation](dist/AzureGeneralInformation_tbg.png) |
-AzureGeneralManagementGroups | ![AzureGeneralManagementGroups](dist/AzureGeneralManagementGroups_tbg.png) |
-AzureGeneralMarketplace | ![AzureGeneralMarketplace](dist/AzureGeneralMarketplace_tbg.png) |
-AzureGeneralQuickstartCenter | ![AzureGeneralQuickstartCenter](dist/AzureGeneralQuickstartCenter_tbg.png) |
-AzureGeneralRecent | ![AzureGeneralRecent](dist/AzureGeneralRecent_tbg.png) |
-AzureGeneralReservations | ![AzureGeneralReservations](dist/AzureGeneralReservations_tbg.png) |
-AzureGeneralResourceGroups | ![AzureGeneralResourceGroups](dist/AzureGeneralResourceGroups_tbg.png) |
-AzureGeneralServiceHealth | ![AzureGeneralServiceHealth](dist/AzureGeneralServiceHealth_tbg.png) |
-AzureGeneralSubscriptions | ![AzureGeneralSubscriptions](dist/AzureGeneralSubscriptions_tbg.png) |
-AzureGeneralTags | ![AzureGeneralTags](dist/AzureGeneralTags_tbg.png) |
-AzureGeneralTemplates | ![AzureGeneralTemplates](dist/AzureGeneralTemplates_tbg.png) |
-AzureIcon691DataBoxGateway | ![AzureIcon691DataBoxGateway](dist/AzureIcon691DataBoxGateway_tbg.png) |
-AzureIdentityActiveDirectoryConnectHealth | ![AzureIdentityActiveDirectoryConnectHealth](dist/AzureIdentityActiveDirectoryConnectHealth_tbg.png) |
-AzureIdentityAppRegistrations | ![AzureIdentityAppRegistrations](dist/AzureIdentityAppRegistrations_tbg.png) |
-AzureIdentityAzureActiveDirectory | ![AzureIdentityAzureActiveDirectory](dist/AzureIdentityAzureActiveDirectory_tbg.png) |
-AzureIdentityAzureADB2C | ![AzureIdentityAzureADB2C](dist/AzureIdentityAzureADB2C_tbg.png) |
-AzureIdentityAzureADDomainServices | ![AzureIdentityAzureADDomainServices](dist/AzureIdentityAzureADDomainServices_tbg.png) |
-AzureIdentityAzureADIdentityProtection | ![AzureIdentityAzureADIdentityProtection](dist/AzureIdentityAzureADIdentityProtection_tbg.png) |
-AzureIdentityAzureADPrivilegeIdentityMapping | ![AzureIdentityAzureADPrivilegeIdentityMapping](dist/AzureIdentityAzureADPrivilegeIdentityMapping_tbg.png) |
-AzureIdentityAzureInformationProtection | ![AzureIdentityAzureInformationProtection](dist/AzureIdentityAzureInformationProtection_tbg.png) |
-AzureIdentityConditionalAccess | ![AzureIdentityConditionalAccess](dist/AzureIdentityConditionalAccess_tbg.png) |
-AzureIdentityEnterpriseApplications | ![AzureIdentityEnterpriseApplications](dist/AzureIdentityEnterpriseApplications_tbg.png) |
-AzureIdentityGroups | ![AzureIdentityGroups](dist/AzureIdentityGroups_tbg.png) |
-AzureIdentityIdentityGovernance | ![AzureIdentityIdentityGovernance](dist/AzureIdentityIdentityGovernance_tbg.png) |
-AzureIdentityManagedIdentities | ![AzureIdentityManagedIdentities](dist/AzureIdentityManagedIdentities_tbg.png) |
-AzureIdentityUsers | ![AzureIdentityUsers](dist/AzureIdentityUsers_tbg.png) |
-AzureIntegrationAPIManagementServices | ![AzureIntegrationAPIManagementServices](dist/AzureIntegrationAPIManagementServices_tbg.png) |
-AzureIntegrationAppConfiguration | ![AzureIntegrationAppConfiguration](dist/AzureIntegrationAppConfiguration_tbg.png) |
-AzureIntegrationAzureAPIforFHIR | ![AzureIntegrationAzureAPIforFHIR](dist/AzureIntegrationAzureAPIforFHIR_tbg.png) |
-AzureIntegrationAzureDataCatalog | ![AzureIntegrationAzureDataCatalog](dist/AzureIntegrationAzureDataCatalog_tbg.png) |
-AzureIntegrationAzureServiceBus | ![AzureIntegrationAzureServiceBus](dist/AzureIntegrationAzureServiceBus_tbg.png) |
-AzureIntegrationAzureServiceBusRelays | ![AzureIntegrationAzureServiceBusRelays](dist/AzureIntegrationAzureServiceBusRelays_tbg.png) |
-AzureIntegrationAzureStorSimpleDeviceManagers | ![AzureIntegrationAzureStorSimpleDeviceManagers](dist/AzureIntegrationAzureStorSimpleDeviceManagers_tbg.png) |
-AzureIntegrationDataBoxEdge | ![AzureIntegrationDataBoxEdge](dist/AzureIntegrationDataBoxEdge_tbg.png) |
-AzureIntegrationDataFactories | ![AzureIntegrationDataFactories](dist/AzureIntegrationDataFactories_tbg.png) |
-AzureIntegrationEventGridDomains | ![AzureIntegrationEventGridDomains](dist/AzureIntegrationEventGridDomains_tbg.png) |
-AzureIntegrationEventGridSubscriptions | ![AzureIntegrationEventGridSubscriptions](dist/AzureIntegrationEventGridSubscriptions_tbg.png) |
-AzureIntegrationEventGridTopics | ![AzureIntegrationEventGridTopics](dist/AzureIntegrationEventGridTopics_tbg.png) |
-AzureIntegrationIntegrationAccounts | ![AzureIntegrationIntegrationAccounts](dist/AzureIntegrationIntegrationAccounts_tbg.png) |
-AzureIntegrationIntegrationServiceEnvironments | ![AzureIntegrationIntegrationServiceEnvironments](dist/AzureIntegrationIntegrationServiceEnvironments_tbg.png) |
-AzureIntegrationLogicApps | ![AzureIntegrationLogicApps](dist/AzureIntegrationLogicApps_tbg.png) |
-AzureIntegrationLogicAppsCustomConnector | ![AzureIntegrationLogicAppsCustomConnector](dist/AzureIntegrationLogicAppsCustomConnector_tbg.png) |
-AzureIntegrationSendGridAccounts | ![AzureIntegrationSendGridAccounts](dist/AzureIntegrationSendGridAccounts_tbg.png) |
-AzureIntegrationSoftwareasaService | ![AzureIntegrationSoftwareasaService](dist/AzureIntegrationSoftwareasaService_tbg.png) |
-AzureIntegrationSQLServerStretchDatabases | ![AzureIntegrationSQLServerStretchDatabases](dist/AzureIntegrationSQLServerStretchDatabases_tbg.png) |
-AzureIntuneClientApps | ![AzureIntuneClientApps](dist/AzureIntuneClientApps_tbg.png) |
-AzureIntuneDeviceCompliance | ![AzureIntuneDeviceCompliance](dist/AzureIntuneDeviceCompliance_tbg.png) |
-AzureIntuneDeviceConfiguration | ![AzureIntuneDeviceConfiguration](dist/AzureIntuneDeviceConfiguration_tbg.png) |
-AzureIntuneDeviceEnrollment | ![AzureIntuneDeviceEnrollment](dist/AzureIntuneDeviceEnrollment_tbg.png) |
-AzureIntuneDevices | ![AzureIntuneDevices](dist/AzureIntuneDevices_tbg.png) |
-AzureIntuneeBooks | ![AzureIntuneeBooks](dist/AzureIntuneeBooks_tbg.png) |
-AzureIntuneExchangeAccess | ![AzureIntuneExchangeAccess](dist/AzureIntuneExchangeAccess_tbg.png) |
-AzureIntuneExchangeOnPremisesAccess | ![AzureIntuneExchangeOnPremisesAccess](dist/AzureIntuneExchangeOnPremisesAccess_tbg.png) |
-AzureIntuneIntune | ![AzureIntuneIntune](dist/AzureIntuneIntune_tbg.png) |
-AzureIntuneIntuneAppProtection | ![AzureIntuneIntuneAppProtection](dist/AzureIntuneIntuneAppProtection_tbg.png) |
-AzureIntuneIntuneForEducation | ![AzureIntuneIntuneForEducation](dist/AzureIntuneIntuneForEducation_tbg.png) |
-AzureIntuneRoles | ![AzureIntuneRoles](dist/AzureIntuneRoles_tbg.png) |
-AzureIntuneSecurityBaselines | ![AzureIntuneSecurityBaselines](dist/AzureIntuneSecurityBaselines_tbg.png) |
-AzureIntuneSoftwareUpdates | ![AzureIntuneSoftwareUpdates](dist/AzureIntuneSoftwareUpdates_tbg.png) |
-AzureIntuneTenantStatus | ![AzureIntuneTenantStatus](dist/AzureIntuneTenantStatus_tbg.png) |
-AzureIntuneTroubleshoot | ![AzureIntuneTroubleshoot](dist/AzureIntuneTroubleshoot_tbg.png) |
-AzureIotAzureCosmosDB | ![AzureIotAzureCosmosDB](dist/AzureIotAzureCosmosDB_tbg.png) |
-AzureIotAzureMapsAccounts | ![AzureIotAzureMapsAccounts](dist/AzureIotAzureMapsAccounts_tbg.png) |
-AzureIotAzureSphere | ![AzureIotAzureSphere](dist/AzureIotAzureSphere_tbg.png) |
-AzureIotDataBoxEdge | ![AzureIotDataBoxEdge](dist/AzureIotDataBoxEdge_tbg.png) |
-AzureIotDeviceProvisioningServices | ![AzureIotDeviceProvisioningServices](dist/AzureIotDeviceProvisioningServices_tbg.png) |
-AzureIotDigitalTwins | ![AzureIotDigitalTwins](dist/AzureIotDigitalTwins_tbg.png) |
-AzureIotEventGridSubscriptions | ![AzureIotEventGridSubscriptions](dist/AzureIotEventGridSubscriptions_tbg.png) |
-AzureIotEventHubs | ![AzureIotEventHubs](dist/AzureIotEventHubs_tbg.png) |
-AzureIotFunctionApp | ![AzureIotFunctionApp](dist/AzureIotFunctionApp_tbg.png) |
-AzureIotIoTCentralApplications | ![AzureIotIoTCentralApplications](dist/AzureIotIoTCentralApplications_tbg.png) |
-AzureIotIoTEdge | ![AzureIotIoTEdge](dist/AzureIotIoTEdge_tbg.png) |
-AzureIotIoTHub | ![AzureIotIoTHub](dist/AzureIotIoTHub_tbg.png) |
-AzureIotLogicApps | ![AzureIotLogicApps](dist/AzureIotLogicApps_tbg.png) |
-AzureIotMachineLearningStudioWebServicePlans | ![AzureIotMachineLearningStudioWebServicePlans](dist/AzureIotMachineLearningStudioWebServicePlans_tbg.png) |
-AzureIotMachineLearningStudioWebServices | ![AzureIotMachineLearningStudioWebServices](dist/AzureIotMachineLearningStudioWebServices_tbg.png) |
-AzureIotMachineLearningStudioWorkspaces | ![AzureIotMachineLearningStudioWorkspaces](dist/AzureIotMachineLearningStudioWorkspaces_tbg.png) |
-AzureIotmanage | ![AzureIotmanage](dist/AzureIotmanage_tbg.png) |
-AzureIotNotificationHubNamespaces | ![AzureIotNotificationHubNamespaces](dist/AzureIotNotificationHubNamespaces_tbg.png) |
-AzureIotNotificationHubs | ![AzureIotNotificationHubs](dist/AzureIotNotificationHubs_tbg.png) |
-AzureIotRTOS | ![AzureIotRTOS](dist/AzureIotRTOS_tbg.png) |
-AzureIotStreamAnalyticsJobs | ![AzureIotStreamAnalyticsJobs](dist/AzureIotStreamAnalyticsJobs_tbg.png) |
-AzureIotTimeSeriesDataSets | ![AzureIotTimeSeriesDataSets](dist/AzureIotTimeSeriesDataSets_tbg.png) |
-AzureIotTimeSeriesInsightsAccessPolicies | ![AzureIotTimeSeriesInsightsAccessPolicies](dist/AzureIotTimeSeriesInsightsAccessPolicies_tbg.png) |
-AzureIotTimeSeriesInsightsEnvironments | ![AzureIotTimeSeriesInsightsEnvironments](dist/AzureIotTimeSeriesInsightsEnvironments_tbg.png) |
-AzureIotTimeSeriesInsightsEventSources | ![AzureIotTimeSeriesInsightsEventSources](dist/AzureIotTimeSeriesInsightsEventSources_tbg.png) |
-AzureIotWindows10CoreServices | ![AzureIotWindows10CoreServices](dist/AzureIotWindows10CoreServices_tbg.png) |
-AzureMachinelearningBatchAI | ![AzureMachinelearningBatchAI](dist/AzureMachinelearningBatchAI_tbg.png) |
-AzureMachinelearningBotServices | ![AzureMachinelearningBotServices](dist/AzureMachinelearningBotServices_tbg.png) |
-AzureMachinelearningCognitiveServices | ![AzureMachinelearningCognitiveServices](dist/AzureMachinelearningCognitiveServices_tbg.png) |
-AzureMachinelearningGenomics | ![AzureMachinelearningGenomics](dist/AzureMachinelearningGenomics_tbg.png) |
-AzureMachinelearningMachineLearningServiceWorkspaces | ![AzureMachinelearningMachineLearningServiceWorkspaces](dist/AzureMachinelearningMachineLearningServiceWorkspaces_tbg.png) |
-AzureMachinelearningMachineLearningStudioWebServicePlans | ![AzureMachinelearningMachineLearningStudioWebServicePlans](dist/AzureMachinelearningMachineLearningStudioWebServicePlans_tbg.png) |
-AzureMachinelearningMachineLearningStudioWebServices | ![AzureMachinelearningMachineLearningStudioWebServices](dist/AzureMachinelearningMachineLearningStudioWebServices_tbg.png) |
-AzureMachinelearningMachineLearningStudioWorkspaces | ![AzureMachinelearningMachineLearningStudioWorkspaces](dist/AzureMachinelearningMachineLearningStudioWorkspaces_tbg.png) |
-AzureMachinelearningremoterendering | ![AzureMachinelearningremoterendering](dist/AzureMachinelearningremoterendering_tbg.png) |
-AzureManageActivityLog | ![AzureManageActivityLog](dist/AzureManageActivityLog_tbg.png) |
-AzureManageAdvisor | ![AzureManageAdvisor](dist/AzureManageAdvisor_tbg.png) |
-AzureManageAlerts | ![AzureManageAlerts](dist/AzureManageAlerts_tbg.png) |
-AzureManageApplicationInsights | ![AzureManageApplicationInsights](dist/AzureManageApplicationInsights_tbg.png) |
-AzureManageAutomationAccounts | ![AzureManageAutomationAccounts](dist/AzureManageAutomationAccounts_tbg.png) |
-AzureManageAzureArc | ![AzureManageAzureArc](dist/AzureManageAzureArc_tbg.png) |
-AzureManageBlueprints | ![AzureManageBlueprints](dist/AzureManageBlueprints_tbg.png) |
-AzureManageCompliance | ![AzureManageCompliance](dist/AzureManageCompliance_tbg.png) |
-AzureManageCostManagementandBilling | ![AzureManageCostManagementandBilling](dist/AzureManageCostManagementandBilling_tbg.png) |
-AzureManageCustomerLockboxforMicrosoftAzure | ![AzureManageCustomerLockboxforMicrosoftAzure](dist/AzureManageCustomerLockboxforMicrosoftAzure_tbg.png) |
-AzureManageDiagnosticsSettings | ![AzureManageDiagnosticsSettings](dist/AzureManageDiagnosticsSettings_tbg.png) |
-AzureManageEducation | ![AzureManageEducation](dist/AzureManageEducation_tbg.png) |
-AzureManageLogAnalyticsWorkspaces | ![AzureManageLogAnalyticsWorkspaces](dist/AzureManageLogAnalyticsWorkspaces_tbg.png) |
-AzureManageMachinesAzureArc | ![AzureManageMachinesAzureArc](dist/AzureManageMachinesAzureArc_tbg.png) |
-AzureManageManagedApplicationsCenter | ![AzureManageManagedApplicationsCenter](dist/AzureManageManagedApplicationsCenter_tbg.png) |
-AzureManageManagedDesktop | ![AzureManageManagedDesktop](dist/AzureManageManagedDesktop_tbg.png) |
-AzureManageMetrics | ![AzureManageMetrics](dist/AzureManageMetrics_tbg.png) |
-AzureManageMonitor | ![AzureManageMonitor](dist/AzureManageMonitor_tbg.png) |
-AzureManageMyCustomers | ![AzureManageMyCustomers](dist/AzureManageMyCustomers_tbg.png) |
-AzureManageNetworkWatcher | ![AzureManageNetworkWatcher](dist/AzureManageNetworkWatcher_tbg.png) |
-AzureManageOperationLog_Classic | ![AzureManageOperationLog_Classic](dist/AzureManageOperationLog_Classic_tbg.png) |
-AzureManagePolicy | ![AzureManagePolicy](dist/AzureManagePolicy_tbg.png) |
-AzureManageRecoveryServicesVaults | ![AzureManageRecoveryServicesVaults](dist/AzureManageRecoveryServicesVaults_tbg.png) |
-AzureManageResourceGraphExplorer | ![AzureManageResourceGraphExplorer](dist/AzureManageResourceGraphExplorer_tbg.png) |
-AzureManageServiceCatalogMAD | ![AzureManageServiceCatalogMAD](dist/AzureManageServiceCatalogMAD_tbg.png) |
-AzureManageServiceProviders | ![AzureManageServiceProviders](dist/AzureManageServiceProviders_tbg.png) |
-AzureManageSchedulerJobCollections | ![AzureManageSchedulerJobCollections](dist/AzureManageSchedulerJobCollections_tbg.png) |
-AzureManageSolutions | ![AzureManageSolutions](dist/AzureManageSolutions_tbg.png) |
-AzureManageUserPrivacy | ![AzureManageUserPrivacy](dist/AzureManageUserPrivacy_tbg.png) |
-AzureMigrateAzureDatabaseMigrationServices | ![AzureMigrateAzureDatabaseMigrationServices](dist/AzureMigrateAzureDatabaseMigrationServices_tbg.png) |
-AzureMigrateAzureMigrate | ![AzureMigrateAzureMigrate](dist/AzureMigrateAzureMigrate_tbg.png) |
-AzureMigrateCostManagementandBilling | ![AzureMigrateCostManagementandBilling](dist/AzureMigrateCostManagementandBilling_tbg.png) |
-AzureMigrateDataBox | ![AzureMigrateDataBox](dist/AzureMigrateDataBox_tbg.png) |
-AzureMigrateDataBoxEdge | ![AzureMigrateDataBoxEdge](dist/AzureMigrateDataBoxEdge_tbg.png) |
-AzureMigrateRecoveryServicesVaults | ![AzureMigrateRecoveryServicesVaults](dist/AzureMigrateRecoveryServicesVaults_tbg.png) |
-AzureNetworkingApplicationGateways | ![AzureNetworkingApplicationGateways](dist/AzureNetworkingApplicationGateways_tbg.png) |
-AzureNetworkingApplicationSecurityGroups | ![AzureNetworkingApplicationSecurityGroups](dist/AzureNetworkingApplicationSecurityGroups_tbg.png) |
-AzureNetworkingAzureFirewallManager | ![AzureNetworkingAzureFirewallManager](dist/AzureNetworkingAzureFirewallManager_tbg.png) |
-AzureNetworkingCDNProfiles | ![AzureNetworkingCDNProfiles](dist/AzureNetworkingCDNProfiles_tbg.png) |
-AzureNetworkingConnections | ![AzureNetworkingConnections](dist/AzureNetworkingConnections_tbg.png) |
-AzureNetworkingDDoSProtectionPlans | ![AzureNetworkingDDoSProtectionPlans](dist/AzureNetworkingDDoSProtectionPlans_tbg.png) |
-AzureNetworkingDNSZones | ![AzureNetworkingDNSZones](dist/AzureNetworkingDNSZones_tbg.png) |
-AzureNetworkingExpressRouteCircuits | ![AzureNetworkingExpressRouteCircuits](dist/AzureNetworkingExpressRouteCircuits_tbg.png) |
-AzureNetworkingFirewalls | ![AzureNetworkingFirewalls](dist/AzureNetworkingFirewalls_tbg.png) |
-AzureNetworkingFrontDoors | ![AzureNetworkingFrontDoors](dist/AzureNetworkingFrontDoors_tbg.png) |
-AzureNetworkingFrontDoorWAFPolicies | ![AzureNetworkingFrontDoorWAFPolicies](dist/AzureNetworkingFrontDoorWAFPolicies_tbg.png) |
-AzureNetworkingLoadBalancers | ![AzureNetworkingLoadBalancers](dist/AzureNetworkingLoadBalancers_tbg.png) |
-AzureNetworkingLocalNetworkGateways | ![AzureNetworkingLocalNetworkGateways](dist/AzureNetworkingLocalNetworkGateways_tbg.png) |
-AzureNetworkingNAT | ![AzureNetworkingNAT](dist/AzureNetworkingNAT_tbg.png) |
-AzureNetworkingNetworkInterfaces | ![AzureNetworkingNetworkInterfaces](dist/AzureNetworkingNetworkInterfaces_tbg.png) |
-AzureNetworkingNetworkSecurityGroups | ![AzureNetworkingNetworkSecurityGroups](dist/AzureNetworkingNetworkSecurityGroups_tbg.png) |
-AzureNetworkingNetworkWatcher | ![AzureNetworkingNetworkWatcher](dist/AzureNetworkingNetworkWatcher_tbg.png) |
-AzureNetworkingOnPremisesDataGateways | ![AzureNetworkingOnPremisesDataGateways](dist/AzureNetworkingOnPremisesDataGateways_tbg.png) |
-AzureNetworkingProximityPlacementGroups | ![AzureNetworkingProximityPlacementGroups](dist/AzureNetworkingProximityPlacementGroups_tbg.png) |
-AzureNetworkingPublicIPAddresses_Classic | ![AzureNetworkingPublicIPAddresses_Classic](dist/AzureNetworkingPublicIPAddresses_Classic_tbg.png) |
-AzureNetworkingPublicIPAddresses | ![AzureNetworkingPublicIPAddresses](dist/AzureNetworkingPublicIPAddresses_tbg.png) |
-AzureNetworkingPublicIPPrefixes | ![AzureNetworkingPublicIPPrefixes](dist/AzureNetworkingPublicIPPrefixes_tbg.png) |
-AzureNetworkingReservedIPAddresses_Classic | ![AzureNetworkingReservedIPAddresses_Classic](dist/AzureNetworkingReservedIPAddresses_Classic_tbg.png) |
-AzureNetworkingRouteFilters | ![AzureNetworkingRouteFilters](dist/AzureNetworkingRouteFilters_tbg.png) |
-AzureNetworkingRouteTables | ![AzureNetworkingRouteTables](dist/AzureNetworkingRouteTables_tbg.png) |
-AzureNetworkingServiceEndpointPolicies | ![AzureNetworkingServiceEndpointPolicies](dist/AzureNetworkingServiceEndpointPolicies_tbg.png) |
-AzureNetworkingTrafficManagerProfiles | ![AzureNetworkingTrafficManagerProfiles](dist/AzureNetworkingTrafficManagerProfiles_tbg.png) |
-AzureNetworkingVirtualNetworkGateways | ![AzureNetworkingVirtualNetworkGateways](dist/AzureNetworkingVirtualNetworkGateways_tbg.png) |
-AzureNetworkingVirtualNetworks_Classic | ![AzureNetworkingVirtualNetworks_Classic](dist/AzureNetworkingVirtualNetworks_Classic_tbg.png) |
-AzureNetworkingVirtualNetworks | ![AzureNetworkingVirtualNetworks](dist/AzureNetworkingVirtualNetworks_tbg.png) |
-AzureNetworkingVirtualWANGateway | ![AzureNetworkingVirtualWANGateway](dist/AzureNetworkingVirtualWANGateway_tbg.png) |
-AzureOtherAFEC | ![AzureOtherAFEC](dist/AzureOtherAFEC_tbg.png) |
-AzureOtherCloud | ![AzureOtherCloud](dist/AzureOtherCloud_tbg.png) |
-AzureOtherHostGroups | ![AzureOtherHostGroups](dist/AzureOtherHostGroups_tbg.png) |
-AzureOtherHosts | ![AzureOtherHosts](dist/AzureOtherHosts_tbg.png) |
-AzureOtherHydraComponents | ![AzureOtherHydraComponents](dist/AzureOtherHydraComponents_tbg.png) |
-AzureOtherMindaro | ![AzureOtherMindaro](dist/AzureOtherMindaro_tbg.png) |
-AzureOtherprivatemarketplace | ![AzureOtherprivatemarketplace](dist/AzureOtherprivatemarketplace_tbg.png) |
-AzureOtherResource | ![AzureOtherResource](dist/AzureOtherResource_tbg.png) |
-AzureOtherResourceExplorer | ![AzureOtherResourceExplorer](dist/AzureOtherResourceExplorer_tbg.png) |
-AzureOtherSAPAzureMonitor | ![AzureOtherSAPAzureMonitor](dist/AzureOtherSAPAzureMonitor_tbg.png) |
-AzureOtherSpatialAnchorAccounts | ![AzureOtherSpatialAnchorAccounts](dist/AzureOtherSpatialAnchorAccounts_tbg.png) |
-AzureOtherSQLServerRegistries | ![AzureOtherSQLServerRegistries](dist/AzureOtherSQLServerRegistries_tbg.png) |
-AzureOtherUniversalPrintService | ![AzureOtherUniversalPrintService](dist/AzureOtherUniversalPrintService_tbg.png) |
-AzureOtherVirtualWANs | ![AzureOtherVirtualWANs](dist/AzureOtherVirtualWANs_tbg.png) |
-AzureOtherWAC | ![AzureOtherWAC](dist/AzureOtherWAC_tbg.png) |
-AzureSecurityApplicationGateway | ![AzureSecurityApplicationGateway](dist/AzureSecurityApplicationGateway_tbg.png) |
-AzureSecurityApplicationSecurityGroups | ![AzureSecurityApplicationSecurityGroups](dist/AzureSecurityApplicationSecurityGroups_tbg.png) |
-AzureSecurityAzureActiveDirectory | ![AzureSecurityAzureActiveDirectory](dist/AzureSecurityAzureActiveDirectory_tbg.png) |
-AzureSecurityAzureAttestation | ![AzureSecurityAzureAttestation](dist/AzureSecurityAzureAttestation_tbg.png) |
-AzureSecurityAzureInformationProtection | ![AzureSecurityAzureInformationProtection](dist/AzureSecurityAzureInformationProtection_tbg.png) |
-AzureSecurityAzureSentinel | ![AzureSecurityAzureSentinel](dist/AzureSecurityAzureSentinel_tbg.png) |
-AzureSecurityExtendedSecurityUpdates | ![AzureSecurityExtendedSecurityUpdates](dist/AzureSecurityExtendedSecurityUpdates_tbg.png) |
-AzureSecurityKeyVaults | ![AzureSecurityKeyVaults](dist/AzureSecurityKeyVaults_tbg.png) |
-AzureSecuritySecurityCenter | ![AzureSecuritySecurityCenter](dist/AzureSecuritySecurityCenter_tbg.png) |
-AzureSecurityVirtualNetworkGateways | ![AzureSecurityVirtualNetworkGateways](dist/AzureSecurityVirtualNetworkGateways_tbg.png) |
-AzurestackAzureStack | ![AzurestackAzureStack](dist/AzurestackAzureStack_tbg.png) |
-AzurestackCapacity | ![AzurestackCapacity](dist/AzurestackCapacity_tbg.png) |
-AzurestackEdgeManagement | ![AzurestackEdgeManagement](dist/AzurestackEdgeManagement_tbg.png) |
-AzurestackInfrastructureBackup | ![AzurestackInfrastructureBackup](dist/AzurestackInfrastructureBackup_tbg.png) |
-AzurestackMarketplaceManagement | ![AzurestackMarketplaceManagement](dist/AzurestackMarketplaceManagement_tbg.png) |
-AzurestackOffers | ![AzurestackOffers](dist/AzurestackOffers_tbg.png) |
-AzurestackPlans | ![AzurestackPlans](dist/AzurestackPlans_tbg.png) |
-AzurestackRegionManagement | ![AzurestackRegionManagement](dist/AzurestackRegionManagement_tbg.png) |
-AzurestackUpdates | ![AzurestackUpdates](dist/AzurestackUpdates_tbg.png) |
-AzurestackUserSubscriptions | ![AzurestackUserSubscriptions](dist/AzurestackUserSubscriptions_tbg.png) |
-AzureStatusCancelled | ![AzureStatusCancelled](dist/AzureStatusCancelled_tbg.png) |
-AzureStatusCancelledOutline | ![AzureStatusCancelledOutline](dist/AzureStatusCancelledOutline_tbg.png) |
-AzureStatusDisabled | ![AzureStatusDisabled](dist/AzureStatusDisabled_tbg.png) |
-AzureStatusDisabledOutline | ![AzureStatusDisabledOutline](dist/AzureStatusDisabledOutline_tbg.png) |
-AzureStatusFailed | ![AzureStatusFailed](dist/AzureStatusFailed_tbg.png) |
-AzureStatusFailedOutline | ![AzureStatusFailedOutline](dist/AzureStatusFailedOutline_tbg.png) |
-AzureStatusInfo | ![AzureStatusInfo](dist/AzureStatusInfo_tbg.png) |
-AzureStatusInfoOutline | ![AzureStatusInfoOutline](dist/AzureStatusInfoOutline_tbg.png) |
-AzureStatusNone | ![AzureStatusNone](dist/AzureStatusNone_tbg.png) |
-AzureStatusNoneOutline | ![AzureStatusNoneOutline](dist/AzureStatusNoneOutline_tbg.png) |
-AzureStatusPending | ![AzureStatusPending](dist/AzureStatusPending_tbg.png) |
-AzureStatusPendingOutline | ![AzureStatusPendingOutline](dist/AzureStatusPendingOutline_tbg.png) |
-AzureStatusStopped | ![AzureStatusStopped](dist/AzureStatusStopped_tbg.png) |
-AzureStatusStoppedOutline | ![AzureStatusStoppedOutline](dist/AzureStatusStoppedOutline_tbg.png) |
-AzureStatusSuccess | ![AzureStatusSuccess](dist/AzureStatusSuccess_tbg.png) |
-AzureStatusSuccessOutline | ![AzureStatusSuccessOutline](dist/AzureStatusSuccessOutline_tbg.png) |
-AzureStatusUnknown | ![AzureStatusUnknown](dist/AzureStatusUnknown_tbg.png) |
-AzureStatusUnknownOutline | ![AzureStatusUnknownOutline](dist/AzureStatusUnknownOutline_tbg.png) |
-AzureStatusUpdate | ![AzureStatusUpdate](dist/AzureStatusUpdate_tbg.png) |
-AzureStatusUpdateOutline | ![AzureStatusUpdateOutline](dist/AzureStatusUpdateOutline_tbg.png) |
-AzureStatusUpsell | ![AzureStatusUpsell](dist/AzureStatusUpsell_tbg.png) |
-AzureStatusUpsellOutline | ![AzureStatusUpsellOutline](dist/AzureStatusUpsellOutline_tbg.png) |
-AzureStatusWarning | ![AzureStatusWarning](dist/AzureStatusWarning_tbg.png) |
-AzureStatusWarningOutline | ![AzureStatusWarningOutline](dist/AzureStatusWarningOutline_tbg.png) |
-AzureStorageAzureFileshare | ![AzureStorageAzureFileshare](dist/AzureStorageAzureFileshare_tbg.png) |
-AzureStorageAzureHCPCache | ![AzureStorageAzureHCPCache](dist/AzureStorageAzureHCPCache_tbg.png) |
-AzureStorageAzureNetAppFiles | ![AzureStorageAzureNetAppFiles](dist/AzureStorageAzureNetAppFiles_tbg.png) |
-AzureStorageDataBox | ![AzureStorageDataBox](dist/AzureStorageDataBox_tbg.png) |
-AzureStorageDataBoxEdge | ![AzureStorageDataBoxEdge](dist/AzureStorageDataBoxEdge_tbg.png) |
-AzureStorageDataLakeStorageGen1 | ![AzureStorageDataLakeStorageGen1](dist/AzureStorageDataLakeStorageGen1_tbg.png) |
-AzureStorageDataShareInvitations | ![AzureStorageDataShareInvitations](dist/AzureStorageDataShareInvitations_tbg.png) |
-AzureStorageDataShares | ![AzureStorageDataShares](dist/AzureStorageDataShares_tbg.png) |
-AzureStorageImportExportJobs | ![AzureStorageImportExportJobs](dist/AzureStorageImportExportJobs_tbg.png) |
-AzureStorageRecoveryServicesVaults | ![AzureStorageRecoveryServicesVaults](dist/AzureStorageRecoveryServicesVaults_tbg.png) |
-AzureStorageStorageAccounts_Classic | ![AzureStorageStorageAccounts_Classic](dist/AzureStorageStorageAccounts_Classic_tbg.png) |
-AzureStorageStorageAccounts | ![AzureStorageStorageAccounts](dist/AzureStorageStorageAccounts_tbg.png) |
-AzureStorageStorageExplorer | ![AzureStorageStorageExplorer](dist/AzureStorageStorageExplorer_tbg.png) |
-AzureStorageStorageSyncServices | ![AzureStorageStorageSyncServices](dist/AzureStorageStorageSyncServices_tbg.png) |
-AzureStorageStorSimpleDataManagers | ![AzureStorageStorSimpleDataManagers](dist/AzureStorageStorSimpleDataManagers_tbg.png) |
-AzureStorageStorSimpleDeviceManagers | ![AzureStorageStorSimpleDeviceManagers](dist/AzureStorageStorSimpleDeviceManagers_tbg.png) |
-AzureWebAPIConnections | ![AzureWebAPIConnections](dist/AzureWebAPIConnections_tbg.png) |
-AzureWebAPIManagementServices | ![AzureWebAPIManagementServices](dist/AzureWebAPIManagementServices_tbg.png) |
-AzureWebAppServiceCertificates | ![AzureWebAppServiceCertificates](dist/AzureWebAppServiceCertificates_tbg.png) |
-AzureWebAppServiceDomains | ![AzureWebAppServiceDomains](dist/AzureWebAppServiceDomains_tbg.png) |
-AzureWebAppServiceEnvironments | ![AzureWebAppServiceEnvironments](dist/AzureWebAppServiceEnvironments_tbg.png) |
-AzureWebAppServicePlans | ![AzureWebAppServicePlans](dist/AzureWebAppServicePlans_tbg.png) |
-AzureWebAppServices | ![AzureWebAppServices](dist/AzureWebAppServices_tbg.png) |
-AzureWebazuremediaservice | ![AzureWebazuremediaservice](dist/AzureWebazuremediaservice_tbg.png) |
-AzureWebCDNProfiles | ![AzureWebCDNProfiles](dist/AzureWebCDNProfiles_tbg.png) |
-AzureWebMediaServices | ![AzureWebMediaServices](dist/AzureWebMediaServices_tbg.png) |
-AzureWebNotificationHubNamespaces | ![AzureWebNotificationHubNamespaces](dist/AzureWebNotificationHubNamespaces_tbg.png) |
-AzureWebNotificationHubs | ![AzureWebNotificationHubs](dist/AzureWebNotificationHubs_tbg.png) |
-AzureWebSearchServices | ![AzureWebSearchServices](dist/AzureWebSearchServices_tbg.png) |
-AzureWebSignalR | ![AzureWebSignalR](dist/AzureWebSignalR_tbg.png) |
+AzureAnalyticsAnalysisServices<br>Monochrome: AzureAnalyticsAnalysisServices_m | ![AzureAnalyticsAnalysisServices](dist/AzureAnalyticsAnalysisServices_tbg.png) |
+AzureAnalyticsAzureDataExplorerClusters<br>Monochrome: AzureAnalyticsAzureDataExplorerClusters_m | ![AzureAnalyticsAzureDataExplorerClusters](dist/AzureAnalyticsAzureDataExplorerClusters_tbg.png) |
+AzureAnalyticsDataFactory<br>Monochrome: AzureAnalyticsDataFactory_m | ![AzureAnalyticsDataFactory](dist/AzureAnalyticsDataFactory_tbg.png) |
+AzureAnalyticsDataLakeAnalytics<br>Monochrome: AzureAnalyticsDataLakeAnalytics_m | ![AzureAnalyticsDataLakeAnalytics](dist/AzureAnalyticsDataLakeAnalytics_tbg.png) |
+AzureAnalyticsDataLakeStoreGen1<br>Monochrome: AzureAnalyticsDataLakeStoreGen1_m | ![AzureAnalyticsDataLakeStoreGen1](dist/AzureAnalyticsDataLakeStoreGen1_tbg.png) |
+AzureAnalyticsEventHubClusters<br>Monochrome: AzureAnalyticsEventHubClusters_m | ![AzureAnalyticsEventHubClusters](dist/AzureAnalyticsEventHubClusters_tbg.png) |
+AzureAnalyticsEventHubs<br>Monochrome: AzureAnalyticsEventHubs_m | ![AzureAnalyticsEventHubs](dist/AzureAnalyticsEventHubs_tbg.png) |
+AzureAnalyticsHDInsightClusters<br>Monochrome: AzureAnalyticsHDInsightClusters_m | ![AzureAnalyticsHDInsightClusters](dist/AzureAnalyticsHDInsightClusters_tbg.png) |
+AzureAnalyticsLogAnalyticsWorkspaces<br>Monochrome: AzureAnalyticsLogAnalyticsWorkspaces_m | ![AzureAnalyticsLogAnalyticsWorkspaces](dist/AzureAnalyticsLogAnalyticsWorkspaces_tbg.png) |
+AzureAnalyticsSQLDataWarehouses<br>Monochrome: AzureAnalyticsSQLDataWarehouses_m | ![AzureAnalyticsSQLDataWarehouses](dist/AzureAnalyticsSQLDataWarehouses_tbg.png) |
+AzureAnalyticsStreamAnalytics<br>Monochrome: AzureAnalyticsStreamAnalytics_m | ![AzureAnalyticsStreamAnalytics](dist/AzureAnalyticsStreamAnalytics_tbg.png) |
+AzureBlockchainABSMember<br>Monochrome: AzureBlockchainABSMember_m | ![AzureBlockchainABSMember](dist/AzureBlockchainABSMember_tbg.png) |
+AzureBlockchainApplications<br>Monochrome: AzureBlockchainApplications_m | ![AzureBlockchainApplications](dist/AzureBlockchainApplications_tbg.png) |
+AzureBlockchainAzureBlockchainService<br>Monochrome: AzureBlockchainAzureBlockchainService_m | ![AzureBlockchainAzureBlockchainService](dist/AzureBlockchainAzureBlockchainService_tbg.png) |
+AzureBlockchainAzureTokenService<br>Monochrome: AzureBlockchainAzureTokenService_m | ![AzureBlockchainAzureTokenService](dist/AzureBlockchainAzureTokenService_tbg.png) |
+AzureBlockchainBCDevKit<br>Monochrome: AzureBlockchainBCDevKit_m | ![AzureBlockchainBCDevKit](dist/AzureBlockchainBCDevKit_tbg.png) |
+AzureBlockchainConsortium<br>Monochrome: AzureBlockchainConsortium_m | ![AzureBlockchainConsortium](dist/AzureBlockchainConsortium_tbg.png) |
+AzureBlockchainOutboundConnection<br>Monochrome: AzureBlockchainOutboundConnection_m | ![AzureBlockchainOutboundConnection](dist/AzureBlockchainOutboundConnection_tbg.png) |
+AzureBlockchainStreamingService<br>Monochrome: AzureBlockchainStreamingService_m | ![AzureBlockchainStreamingService](dist/AzureBlockchainStreamingService_tbg.png) |
+AzureCommandAdd<br>Monochrome: AzureCommandAdd_m | ![AzureCommandAdd](dist/AzureCommandAdd_tbg.png) |
+AzureCommandAddTeamMember<br>Monochrome: AzureCommandAddTeamMember_m | ![AzureCommandAddTeamMember](dist/AzureCommandAddTeamMember_tbg.png) |
+AzureCommandAddTile<br>Monochrome: AzureCommandAddTile_m | ![AzureCommandAddTile](dist/AzureCommandAddTile_tbg.png) |
+AzureCommandAllServices<br>Monochrome: AzureCommandAllServices_m | ![AzureCommandAllServices](dist/AzureCommandAllServices_tbg.png) |
+AzureCommandApplySplitting<br>Monochrome: AzureCommandApplySplitting_m | ![AzureCommandApplySplitting](dist/AzureCommandApplySplitting_tbg.png) |
+AzureCommandArrowDown<br>Monochrome: AzureCommandArrowDown_m | ![AzureCommandArrowDown](dist/AzureCommandArrowDown_tbg.png) |
+AzureCommandArrowLeft<br>Monochrome: AzureCommandArrowLeft_m | ![AzureCommandArrowLeft](dist/AzureCommandArrowLeft_tbg.png) |
+AzureCommandArrowRight<br>Monochrome: AzureCommandArrowRight_m | ![AzureCommandArrowRight](dist/AzureCommandArrowRight_tbg.png) |
+AzureCommandArrowUp<br>Monochrome: AzureCommandArrowUp_m | ![AzureCommandArrowUp](dist/AzureCommandArrowUp_tbg.png) |
+AzureCommandAttachment<br>Monochrome: AzureCommandAttachment_m | ![AzureCommandAttachment](dist/AzureCommandAttachment_tbg.png) |
+AzureCommandAvatarDefault<br>Monochrome: AzureCommandAvatarDefault_m | ![AzureCommandAvatarDefault](dist/AzureCommandAvatarDefault_tbg.png) |
+AzureCommandAvatarUnknown<br>Monochrome: AzureCommandAvatarUnknown_m | ![AzureCommandAvatarUnknown](dist/AzureCommandAvatarUnknown_tbg.png) |
+AzureCommandAzurePortal<br>Monochrome: AzureCommandAzurePortal_m | ![AzureCommandAzurePortal](dist/AzureCommandAzurePortal_tbg.png) |
+AzureCommandAzureQuickstart<br>Monochrome: AzureCommandAzureQuickstart_m | ![AzureCommandAzureQuickstart](dist/AzureCommandAzureQuickstart_tbg.png) |
+AzureCommandBacklog<br>Monochrome: AzureCommandBacklog_m | ![AzureCommandBacklog](dist/AzureCommandBacklog_tbg.png) |
+AzureCommandBook<br>Monochrome: AzureCommandBook_m | ![AzureCommandBook](dist/AzureCommandBook_tbg.png) |
+AzureCommandBug<br>Monochrome: AzureCommandBug_m | ![AzureCommandBug](dist/AzureCommandBug_tbg.png) |
+AzureCommandCalendar<br>Monochrome: AzureCommandCalendar_m | ![AzureCommandCalendar](dist/AzureCommandCalendar_tbg.png) |
+AzureCommandCancelled<br>Monochrome: AzureCommandCancelled_m | ![AzureCommandCancelled](dist/AzureCommandCancelled_tbg.png) |
+AzureCommandCapture<br>Monochrome: AzureCommandCapture_m | ![AzureCommandCapture](dist/AzureCommandCapture_tbg.png) |
+AzureCommandClock<br>Monochrome: AzureCommandClock_m | ![AzureCommandClock](dist/AzureCommandClock_tbg.png) |
+AzureCommandCode<br>Monochrome: AzureCommandCode_m | ![AzureCommandCode](dist/AzureCommandCode_tbg.png) |
+AzureCommandCollapse<br>Monochrome: AzureCommandCollapse_m | ![AzureCommandCollapse](dist/AzureCommandCollapse_tbg.png) |
+AzureCommandColumns<br>Monochrome: AzureCommandColumns_m | ![AzureCommandColumns](dist/AzureCommandColumns_tbg.png) |
+AzureCommandCommit<br>Monochrome: AzureCommandCommit_m | ![AzureCommandCommit](dist/AzureCommandCommit_tbg.png) |
+AzureCommandConnect<br>Monochrome: AzureCommandConnect_m | ![AzureCommandConnect](dist/AzureCommandConnect_tbg.png) |
+AzureCommandConsole<br>Monochrome: AzureCommandConsole_m | ![AzureCommandConsole](dist/AzureCommandConsole_tbg.png) |
+AzureCommandCopy<br>Monochrome: AzureCommandCopy_m | ![AzureCommandCopy](dist/AzureCommandCopy_tbg.png) |
+AzureCommandCustomizeTile<br>Monochrome: AzureCommandCustomizeTile_m | ![AzureCommandCustomizeTile](dist/AzureCommandCustomizeTile_tbg.png) |
+AzureCommandDescriptionInfo<br>Monochrome: AzureCommandDescriptionInfo_m | ![AzureCommandDescriptionInfo](dist/AzureCommandDescriptionInfo_tbg.png) |
+AzureCommandDetails<br>Monochrome: AzureCommandDetails_m | ![AzureCommandDetails](dist/AzureCommandDetails_tbg.png) |
+AzureCommandDiagnostics<br>Monochrome: AzureCommandDiagnostics_m | ![AzureCommandDiagnostics](dist/AzureCommandDiagnostics_tbg.png) |
+AzureCommandDisable<br>Monochrome: AzureCommandDisable_m | ![AzureCommandDisable](dist/AzureCommandDisable_tbg.png) |
+AzureCommandDiscard<br>Monochrome: AzureCommandDiscard_m | ![AzureCommandDiscard](dist/AzureCommandDiscard_tbg.png) |
+AzureCommandDisconnect<br>Monochrome: AzureCommandDisconnect_m | ![AzureCommandDisconnect](dist/AzureCommandDisconnect_tbg.png) |
+AzureCommandDoubleChevron<br>Monochrome: AzureCommandDoubleChevron_m | ![AzureCommandDoubleChevron](dist/AzureCommandDoubleChevron_tbg.png) |
+AzureCommandDownload<br>Monochrome: AzureCommandDownload_m | ![AzureCommandDownload](dist/AzureCommandDownload_tbg.png) |
+AzureCommandEdit<br>Monochrome: AzureCommandEdit_m | ![AzureCommandEdit](dist/AzureCommandEdit_tbg.png) |
+AzureCommandEditorColumn<br>Monochrome: AzureCommandEditorColumn_m | ![AzureCommandEditorColumn](dist/AzureCommandEditorColumn_tbg.png) |
+AzureCommandError<br>Monochrome: AzureCommandError_m | ![AzureCommandError](dist/AzureCommandError_tbg.png) |
+AzureCommandExpand<br>Monochrome: AzureCommandExpand_m | ![AzureCommandExpand](dist/AzureCommandExpand_tbg.png) |
+AzureCommandFavorite<br>Monochrome: AzureCommandFavorite_m | ![AzureCommandFavorite](dist/AzureCommandFavorite_tbg.png) |
+AzureCommandFeedback<br>Monochrome: AzureCommandFeedback_m | ![AzureCommandFeedback](dist/AzureCommandFeedback_tbg.png) |
+AzureCommandFile<br>Monochrome: AzureCommandFile_m | ![AzureCommandFile](dist/AzureCommandFile_tbg.png) |
+AzureCommandFilter<br>Monochrome: AzureCommandFilter_m | ![AzureCommandFilter](dist/AzureCommandFilter_tbg.png) |
+AzureCommandFilterRemove<br>Monochrome: AzureCommandFilterRemove_m | ![AzureCommandFilterRemove](dist/AzureCommandFilterRemove_tbg.png) |
+AzureCommandFolder<br>Monochrome: AzureCommandFolder_m | ![AzureCommandFolder](dist/AzureCommandFolder_tbg.png) |
+AzureCommandGear<br>Monochrome: AzureCommandGear_m | ![AzureCommandGear](dist/AzureCommandGear_tbg.png) |
+AzureCommandGetMoreLicenses<br>Monochrome: AzureCommandGetMoreLicenses_m | ![AzureCommandGetMoreLicenses](dist/AzureCommandGetMoreLicenses_tbg.png) |
+AzureCommandGetStarted<br>Monochrome: AzureCommandGetStarted_m | ![AzureCommandGetStarted](dist/AzureCommandGetStarted_tbg.png) |
+AzureCommandGlobe<br>Monochrome: AzureCommandGlobe_m | ![AzureCommandGlobe](dist/AzureCommandGlobe_tbg.png) |
+AzureCommandGo<br>Monochrome: AzureCommandGo_m | ![AzureCommandGo](dist/AzureCommandGo_tbg.png) |
+AzureCommandGuide<br>Monochrome: AzureCommandGuide_m | ![AzureCommandGuide](dist/AzureCommandGuide_tbg.png) |
+AzureCommandHamburger<br>Monochrome: AzureCommandHamburger_m | ![AzureCommandHamburger](dist/AzureCommandHamburger_tbg.png) |
+AzureCommandHappy<br>Monochrome: AzureCommandHappy_m | ![AzureCommandHappy](dist/AzureCommandHappy_tbg.png) |
+AzureCommandHeartpulse<br>Monochrome: AzureCommandHeartpulse_m | ![AzureCommandHeartpulse](dist/AzureCommandHeartpulse_tbg.png) |
+AzureCommandHelp<br>Monochrome: AzureCommandHelp_m | ![AzureCommandHelp](dist/AzureCommandHelp_tbg.png) |
+AzureCommandHide<br>Monochrome: AzureCommandHide_m | ![AzureCommandHide](dist/AzureCommandHide_tbg.png) |
+AzureCommandHistory<br>Monochrome: AzureCommandHistory_m | ![AzureCommandHistory](dist/AzureCommandHistory_tbg.png) |
+AzureCommandCheck<br>Monochrome: AzureCommandCheck_m | ![AzureCommandCheck](dist/AzureCommandCheck_tbg.png) |
+AzureCommandChevronDown<br>Monochrome: AzureCommandChevronDown_m | ![AzureCommandChevronDown](dist/AzureCommandChevronDown_tbg.png) |
+AzureCommandChevronUp<br>Monochrome: AzureCommandChevronUp_m | ![AzureCommandChevronUp](dist/AzureCommandChevronUp_tbg.png) |
+AzureCommandInactive<br>Monochrome: AzureCommandInactive_m | ![AzureCommandInactive](dist/AzureCommandInactive_tbg.png) |
+AzureCommandInsert<br>Monochrome: AzureCommandInsert_m | ![AzureCommandInsert](dist/AzureCommandInsert_tbg.png) |
+AzureCommandKey<br>Monochrome: AzureCommandKey_m | ![AzureCommandKey](dist/AzureCommandKey_tbg.png) |
+AzureCommandLaunch<br>Monochrome: AzureCommandLaunch_m | ![AzureCommandLaunch](dist/AzureCommandLaunch_tbg.png) |
+AzureCommandLine<br>Monochrome: AzureCommandLine_m | ![AzureCommandLine](dist/AzureCommandLine_tbg.png) |
+AzureCommandLink<br>Monochrome: AzureCommandLink_m | ![AzureCommandLink](dist/AzureCommandLink_tbg.png) |
+AzureCommandLock<br>Monochrome: AzureCommandLock_m | ![AzureCommandLock](dist/AzureCommandLock_tbg.png) |
+AzureCommandLog<br>Monochrome: AzureCommandLog_m | ![AzureCommandLog](dist/AzureCommandLog_tbg.png) |
+AzureCommandMail<br>Monochrome: AzureCommandMail_m | ![AzureCommandMail](dist/AzureCommandMail_tbg.png) |
+AzureCommandMessage<br>Monochrome: AzureCommandMessage_m | ![AzureCommandMessage](dist/AzureCommandMessage_tbg.png) |
+AzureCommandMonitor<br>Monochrome: AzureCommandMonitor_m | ![AzureCommandMonitor](dist/AzureCommandMonitor_tbg.png) |
+AzureCommandMore<br>Monochrome: AzureCommandMore_m | ![AzureCommandMore](dist/AzureCommandMore_tbg.png) |
+AzureCommandMove<br>Monochrome: AzureCommandMove_m | ![AzureCommandMove](dist/AzureCommandMove_tbg.png) |
+AzureCommandNotifications<br>Monochrome: AzureCommandNotifications_m | ![AzureCommandNotifications](dist/AzureCommandNotifications_tbg.png) |
+AzureCommandPaused<br>Monochrome: AzureCommandPaused_m | ![AzureCommandPaused](dist/AzureCommandPaused_tbg.png) |
+AzureCommandPending<br>Monochrome: AzureCommandPending_m | ![AzureCommandPending](dist/AzureCommandPending_tbg.png) |
+AzureCommandPerson<br>Monochrome: AzureCommandPerson_m | ![AzureCommandPerson](dist/AzureCommandPerson_tbg.png) |
+AzureCommandPersonWithFriend<br>Monochrome: AzureCommandPersonWithFriend_m | ![AzureCommandPersonWithFriend](dist/AzureCommandPersonWithFriend_tbg.png) |
+AzureCommandPin<br>Monochrome: AzureCommandPin_m | ![AzureCommandPin](dist/AzureCommandPin_tbg.png) |
+AzureCommandPostpone<br>Monochrome: AzureCommandPostpone_m | ![AzureCommandPostpone](dist/AzureCommandPostpone_tbg.png) |
+AzureCommandPowerUp<br>Monochrome: AzureCommandPowerUp_m | ![AzureCommandPowerUp](dist/AzureCommandPowerUp_tbg.png) |
+AzureCommandProperties<br>Monochrome: AzureCommandProperties_m | ![AzureCommandProperties](dist/AzureCommandProperties_tbg.png) |
+AzureCommandPublish<br>Monochrome: AzureCommandPublish_m | ![AzureCommandPublish](dist/AzureCommandPublish_tbg.png) |
+AzureCommandQuery<br>Monochrome: AzureCommandQuery_m | ![AzureCommandQuery](dist/AzureCommandQuery_tbg.png) |
+AzureCommandQuestion<br>Monochrome: AzureCommandQuestion_m | ![AzureCommandQuestion](dist/AzureCommandQuestion_tbg.png) |
+AzureCommandQueued<br>Monochrome: AzureCommandQueued_m | ![AzureCommandQueued](dist/AzureCommandQueued_tbg.png) |
+AzureCommandRedo<br>Monochrome: AzureCommandRedo_m | ![AzureCommandRedo](dist/AzureCommandRedo_tbg.png) |
+AzureCommandRefresh<br>Monochrome: AzureCommandRefresh_m | ![AzureCommandRefresh](dist/AzureCommandRefresh_tbg.png) |
+AzureCommandReimage<br>Monochrome: AzureCommandReimage_m | ![AzureCommandReimage](dist/AzureCommandReimage_tbg.png) |
+AzureCommandRelease<br>Monochrome: AzureCommandRelease_m | ![AzureCommandRelease](dist/AzureCommandRelease_tbg.png) |
+AzureCommandRepair<br>Monochrome: AzureCommandRepair_m | ![AzureCommandRepair](dist/AzureCommandRepair_tbg.png) |
+AzureCommandRequest<br>Monochrome: AzureCommandRequest_m | ![AzureCommandRequest](dist/AzureCommandRequest_tbg.png) |
+AzureCommandResource<br>Monochrome: AzureCommandResource_m | ![AzureCommandResource](dist/AzureCommandResource_tbg.png) |
+AzureCommandRetain<br>Monochrome: AzureCommandRetain_m | ![AzureCommandRetain](dist/AzureCommandRetain_tbg.png) |
+AzureCommandSad<br>Monochrome: AzureCommandSad_m | ![AzureCommandSad](dist/AzureCommandSad_tbg.png) |
+AzureCommandSave<br>Monochrome: AzureCommandSave_m | ![AzureCommandSave](dist/AzureCommandSave_tbg.png) |
+AzureCommandSaveAll<br>Monochrome: AzureCommandSaveAll_m | ![AzureCommandSaveAll](dist/AzureCommandSaveAll_tbg.png) |
+AzureCommandSearch<br>Monochrome: AzureCommandSearch_m | ![AzureCommandSearch](dist/AzureCommandSearch_tbg.png) |
+AzureCommandShow<br>Monochrome: AzureCommandShow_m | ![AzureCommandShow](dist/AzureCommandShow_tbg.png) |
+AzureCommandSignOut<br>Monochrome: AzureCommandSignOut_m | ![AzureCommandSignOut](dist/AzureCommandSignOut_tbg.png) |
+AzureCommandSmileyNeutral<br>Monochrome: AzureCommandSmileyNeutral_m | ![AzureCommandSmileyNeutral](dist/AzureCommandSmileyNeutral_tbg.png) |
+AzureCommandSplitAvailable<br>Monochrome: AzureCommandSplitAvailable_m | ![AzureCommandSplitAvailable](dist/AzureCommandSplitAvailable_tbg.png) |
+AzureCommandStart<br>Monochrome: AzureCommandStart_m | ![AzureCommandStart](dist/AzureCommandStart_tbg.png) |
+AzureCommandStop<br>Monochrome: AzureCommandStop_m | ![AzureCommandStop](dist/AzureCommandStop_tbg.png) |
+AzureCommandSubtract<br>Monochrome: AzureCommandSubtract_m | ![AzureCommandSubtract](dist/AzureCommandSubtract_tbg.png) |
+AzureCommandSupport<br>Monochrome: AzureCommandSupport_m | ![AzureCommandSupport](dist/AzureCommandSupport_tbg.png) |
+AzureCommandSwap<br>Monochrome: AzureCommandSwap_m | ![AzureCommandSwap](dist/AzureCommandSwap_tbg.png) |
+AzureCommandTable<br>Monochrome: AzureCommandTable_m | ![AzureCommandTable](dist/AzureCommandTable_tbg.png) |
+AzureCommandTags<br>Monochrome: AzureCommandTags_m | ![AzureCommandTags](dist/AzureCommandTags_tbg.png) |
+AzureCommandTasks<br>Monochrome: AzureCommandTasks_m | ![AzureCommandTasks](dist/AzureCommandTasks_tbg.png) |
+AzureCommandThumbsDown<br>Monochrome: AzureCommandThumbsDown_m | ![AzureCommandThumbsDown](dist/AzureCommandThumbsDown_tbg.png) |
+AzureCommandThumbsUp<br>Monochrome: AzureCommandThumbsUp_m | ![AzureCommandThumbsUp](dist/AzureCommandThumbsUp_tbg.png) |
+AzureCommandTools<br>Monochrome: AzureCommandTools_m | ![AzureCommandTools](dist/AzureCommandTools_tbg.png) |
+AzureCommandTooltip<br>Monochrome: AzureCommandTooltip_m | ![AzureCommandTooltip](dist/AzureCommandTooltip_tbg.png) |
+AzureCommandTrashOutline<br>Monochrome: AzureCommandTrashOutline_m | ![AzureCommandTrashOutline](dist/AzureCommandTrashOutline_tbg.png) |
+AzureCommandTrendDown<br>Monochrome: AzureCommandTrendDown_m | ![AzureCommandTrendDown](dist/AzureCommandTrendDown_tbg.png) |
+AzureCommandTrendUp<br>Monochrome: AzureCommandTrendUp_m | ![AzureCommandTrendUp](dist/AzureCommandTrendUp_tbg.png) |
+AzureCommandTriangle<br>Monochrome: AzureCommandTriangle_m | ![AzureCommandTriangle](dist/AzureCommandTriangle_tbg.png) |
+AzureCommandUndo<br>Monochrome: AzureCommandUndo_m | ![AzureCommandUndo](dist/AzureCommandUndo_tbg.png) |
+AzureCommandUnlock<br>Monochrome: AzureCommandUnlock_m | ![AzureCommandUnlock](dist/AzureCommandUnlock_tbg.png) |
+AzureCommandUnpin<br>Monochrome: AzureCommandUnpin_m | ![AzureCommandUnpin](dist/AzureCommandUnpin_tbg.png) |
+AzureCommandUpload<br>Monochrome: AzureCommandUpload_m | ![AzureCommandUpload](dist/AzureCommandUpload_tbg.png) |
+AzureCommandUpsell<br>Monochrome: AzureCommandUpsell_m | ![AzureCommandUpsell](dist/AzureCommandUpsell_tbg.png) |
+AzureCommandVariables<br>Monochrome: AzureCommandVariables_m | ![AzureCommandVariables](dist/AzureCommandVariables_tbg.png) |
+AzureCommandWarning<br>Monochrome: AzureCommandWarning_m | ![AzureCommandWarning](dist/AzureCommandWarning_tbg.png) |
+AzureCommandWrench<br>Monochrome: AzureCommandWrench_m | ![AzureCommandWrench](dist/AzureCommandWrench_tbg.png) |
+AzureComputeAppServices<br>Monochrome: AzureComputeAppServices_m | ![AzureComputeAppServices](dist/AzureComputeAppServices_tbg.png) |
+AzureComputeAvailabilitySets<br>Monochrome: AzureComputeAvailabilitySets_m | ![AzureComputeAvailabilitySets](dist/AzureComputeAvailabilitySets_tbg.png) |
+AzureComputeBatchAccounts<br>Monochrome: AzureComputeBatchAccounts_m | ![AzureComputeBatchAccounts](dist/AzureComputeBatchAccounts_tbg.png) |
+AzureComputeCloudServices_Classic<br>Monochrome: AzureComputeCloudServices_Classic_m | ![AzureComputeCloudServices_Classic](dist/AzureComputeCloudServices_Classic_tbg.png) |
+AzureComputeContainerInstances<br>Monochrome: AzureComputeContainerInstances_m | ![AzureComputeContainerInstances](dist/AzureComputeContainerInstances_tbg.png) |
+AzureComputeContainerServices_Deprecated<br>Monochrome: AzureComputeContainerServices_Deprecated_m | ![AzureComputeContainerServices_Deprecated](dist/AzureComputeContainerServices_Deprecated_tbg.png) |
+AzureComputeDiskEncryption<br>Monochrome: AzureComputeDiskEncryption_m | ![AzureComputeDiskEncryption](dist/AzureComputeDiskEncryption_tbg.png) |
+AzureComputeDisks_Classic<br>Monochrome: AzureComputeDisks_Classic_m | ![AzureComputeDisks_Classic](dist/AzureComputeDisks_Classic_tbg.png) |
+AzureComputeDisks<br>Monochrome: AzureComputeDisks_m | ![AzureComputeDisks](dist/AzureComputeDisks_tbg.png) |
+AzureComputeDisksSnapshots<br>Monochrome: AzureComputeDisksSnapshots_m | ![AzureComputeDisksSnapshots](dist/AzureComputeDisksSnapshots_tbg.png) |
+AzureComputeFunctionApps<br>Monochrome: AzureComputeFunctionApps_m | ![AzureComputeFunctionApps](dist/AzureComputeFunctionApps_tbg.png) |
+AzureComputeImageDefinitions<br>Monochrome: AzureComputeImageDefinitions_m | ![AzureComputeImageDefinitions](dist/AzureComputeImageDefinitions_tbg.png) |
+AzureComputeImages<br>Monochrome: AzureComputeImages_m | ![AzureComputeImages](dist/AzureComputeImages_tbg.png) |
+AzureComputeImageVersions<br>Monochrome: AzureComputeImageVersions_m | ![AzureComputeImageVersions](dist/AzureComputeImageVersions_tbg.png) |
+AzureComputeKubernetesServices<br>Monochrome: AzureComputeKubernetesServices_m | ![AzureComputeKubernetesServices](dist/AzureComputeKubernetesServices_tbg.png) |
+AzureComputeMeshApplications<br>Monochrome: AzureComputeMeshApplications_m | ![AzureComputeMeshApplications](dist/AzureComputeMeshApplications_tbg.png) |
+AzureComputeOSImages_Classic<br>Monochrome: AzureComputeOSImages_Classic_m | ![AzureComputeOSImages_Classic](dist/AzureComputeOSImages_Classic_tbg.png) |
+AzureComputeServiceFabricClusters<br>Monochrome: AzureComputeServiceFabricClusters_m | ![AzureComputeServiceFabricClusters](dist/AzureComputeServiceFabricClusters_tbg.png) |
+AzureComputeSharedImageGalleries<br>Monochrome: AzureComputeSharedImageGalleries_m | ![AzureComputeSharedImageGalleries](dist/AzureComputeSharedImageGalleries_tbg.png) |
+AzureComputeSSHKeys<br>Monochrome: AzureComputeSSHKeys_m | ![AzureComputeSSHKeys](dist/AzureComputeSSHKeys_tbg.png) |
+AzureComputeVirtualMachine<br>Monochrome: AzureComputeVirtualMachine_m | ![AzureComputeVirtualMachine](dist/AzureComputeVirtualMachine_tbg.png) |
+AzureComputeVirtualMachines_Classic<br>Monochrome: AzureComputeVirtualMachines_Classic_m | ![AzureComputeVirtualMachines_Classic](dist/AzureComputeVirtualMachines_Classic_tbg.png) |
+AzureComputeVMImages_Classic<br>Monochrome: AzureComputeVMImages_Classic_m | ![AzureComputeVMImages_Classic](dist/AzureComputeVMImages_Classic_tbg.png) |
+AzureComputeVMScaleSets<br>Monochrome: AzureComputeVMScaleSets_m | ![AzureComputeVMScaleSets](dist/AzureComputeVMScaleSets_tbg.png) |
+AzureContainersAppServices<br>Monochrome: AzureContainersAppServices_m | ![AzureContainersAppServices](dist/AzureContainersAppServices_tbg.png) |
+AzureContainersBatchAccounts<br>Monochrome: AzureContainersBatchAccounts_m | ![AzureContainersBatchAccounts](dist/AzureContainersBatchAccounts_tbg.png) |
+AzureContainersContainerInstances<br>Monochrome: AzureContainersContainerInstances_m | ![AzureContainersContainerInstances](dist/AzureContainersContainerInstances_tbg.png) |
+AzureContainersContainerRegistries<br>Monochrome: AzureContainersContainerRegistries_m | ![AzureContainersContainerRegistries](dist/AzureContainersContainerRegistries_tbg.png) |
+AzureContainersContainerServices_Deprecated<br>Monochrome: AzureContainersContainerServices_Deprecated_m | ![AzureContainersContainerServices_Deprecated](dist/AzureContainersContainerServices_Deprecated_tbg.png) |
+AzureContainersKubernetesServices<br>Monochrome: AzureContainersKubernetesServices_m | ![AzureContainersKubernetesServices](dist/AzureContainersKubernetesServices_tbg.png) |
+AzureContainersServiceFabricClusters<br>Monochrome: AzureContainersServiceFabricClusters_m | ![AzureContainersServiceFabricClusters](dist/AzureContainersServiceFabricClusters_tbg.png) |
+AzureDatabasesAzureCosmosDB<br>Monochrome: AzureDatabasesAzureCosmosDB_m | ![AzureDatabasesAzureCosmosDB](dist/AzureDatabasesAzureCosmosDB_tbg.png) |
+AzureDatabasesAzureDatabaseMariaDBServer<br>Monochrome: AzureDatabasesAzureDatabaseMariaDBServer_m | ![AzureDatabasesAzureDatabaseMariaDBServer](dist/AzureDatabasesAzureDatabaseMariaDBServer_tbg.png) |
+AzureDatabasesAzureDatabaseMigrationServices<br>Monochrome: AzureDatabasesAzureDatabaseMigrationServices_m | ![AzureDatabasesAzureDatabaseMigrationServices](dist/AzureDatabasesAzureDatabaseMigrationServices_tbg.png) |
+AzureDatabasesAzureDatabaseMySQLServer<br>Monochrome: AzureDatabasesAzureDatabaseMySQLServer_m | ![AzureDatabasesAzureDatabaseMySQLServer](dist/AzureDatabasesAzureDatabaseMySQLServer_tbg.png) |
+AzureDatabasesAzureDatabasePostgreSQLServer<br>Monochrome: AzureDatabasesAzureDatabasePostgreSQLServer_m | ![AzureDatabasesAzureDatabasePostgreSQLServer](dist/AzureDatabasesAzureDatabasePostgreSQLServer_tbg.png) |
+AzureDatabasesAzureSQLDataWarehouse<br>Monochrome: AzureDatabasesAzureSQLDataWarehouse_m | ![AzureDatabasesAzureSQLDataWarehouse](dist/AzureDatabasesAzureSQLDataWarehouse_tbg.png) |
+AzureDatabasesAzureSQLServerStretchDatabases<br>Monochrome: AzureDatabasesAzureSQLServerStretchDatabases_m | ![AzureDatabasesAzureSQLServerStretchDatabases](dist/AzureDatabasesAzureSQLServerStretchDatabases_tbg.png) |
+AzureDatabasesAzureSQLVM<br>Monochrome: AzureDatabasesAzureSQLVM_m | ![AzureDatabasesAzureSQLVM](dist/AzureDatabasesAzureSQLVM_tbg.png) |
+AzureDatabasesAzureSynapse<br>Monochrome: AzureDatabasesAzureSynapse_m | ![AzureDatabasesAzureSynapse](dist/AzureDatabasesAzureSynapse_tbg.png) |
+AzureDatabasesCacheRedis<br>Monochrome: AzureDatabasesCacheRedis_m | ![AzureDatabasesCacheRedis](dist/AzureDatabasesCacheRedis_tbg.png) |
+AzureDatabasesDataFactory<br>Monochrome: AzureDatabasesDataFactory_m | ![AzureDatabasesDataFactory](dist/AzureDatabasesDataFactory_tbg.png) |
+AzureDatabasesElasticJobAgents<br>Monochrome: AzureDatabasesElasticJobAgents_m | ![AzureDatabasesElasticJobAgents](dist/AzureDatabasesElasticJobAgents_tbg.png) |
+AzureDatabasesInstancePools<br>Monochrome: AzureDatabasesInstancePools_m | ![AzureDatabasesInstancePools](dist/AzureDatabasesInstancePools_tbg.png) |
+AzureDatabasesManagedDatabase<br>Monochrome: AzureDatabasesManagedDatabase_m | ![AzureDatabasesManagedDatabase](dist/AzureDatabasesManagedDatabase_tbg.png) |
+AzureDatabasesSQLDatabase<br>Monochrome: AzureDatabasesSQLDatabase_m | ![AzureDatabasesSQLDatabase](dist/AzureDatabasesSQLDatabase_tbg.png) |
+AzureDatabasesSQLElasticPools<br>Monochrome: AzureDatabasesSQLElasticPools_m | ![AzureDatabasesSQLElasticPools](dist/AzureDatabasesSQLElasticPools_tbg.png) |
+AzureDatabasesSQLManagedInstance<br>Monochrome: AzureDatabasesSQLManagedInstance_m | ![AzureDatabasesSQLManagedInstance](dist/AzureDatabasesSQLManagedInstance_tbg.png) |
+AzureDatabasesSQLServer<br>Monochrome: AzureDatabasesSQLServer_m | ![AzureDatabasesSQLServer](dist/AzureDatabasesSQLServer_tbg.png) |
+AzureDatabasesVirtualClusters<br>Monochrome: AzureDatabasesVirtualClusters_m | ![AzureDatabasesVirtualClusters](dist/AzureDatabasesVirtualClusters_tbg.png) |
+AzureDevopsAPIManagementServices<br>Monochrome: AzureDevopsAPIManagementServices_m | ![AzureDevopsAPIManagementServices](dist/AzureDevopsAPIManagementServices_tbg.png) |
+AzureDevopsApplicationInsights<br>Monochrome: AzureDevopsApplicationInsights_m | ![AzureDevopsApplicationInsights](dist/AzureDevopsApplicationInsights_tbg.png) |
+AzureDevopsAzureDevOps<br>Monochrome: AzureDevopsAzureDevOps_m | ![AzureDevopsAzureDevOps](dist/AzureDevopsAzureDevOps_tbg.png) |
+AzureDevopsDevTestLabs<br>Monochrome: AzureDevopsDevTestLabs_m | ![AzureDevopsDevTestLabs](dist/AzureDevopsDevTestLabs_tbg.png) |
+AzureDevopsLabServices<br>Monochrome: AzureDevopsLabServices_m | ![AzureDevopsLabServices](dist/AzureDevopsLabServices_tbg.png) |
+AzureGeneralAllResources<br>Monochrome: AzureGeneralAllResources_m | ![AzureGeneralAllResources](dist/AzureGeneralAllResources_tbg.png) |
+AzureGeneralAllServices<br>Monochrome: AzureGeneralAllServices_m | ![AzureGeneralAllServices](dist/AzureGeneralAllServices_tbg.png) |
+AzureGeneralBilling<br>Monochrome: AzureGeneralBilling_m | ![AzureGeneralBilling](dist/AzureGeneralBilling_tbg.png) |
+AzureGeneralCostManagement<br>Monochrome: AzureGeneralCostManagement_m | ![AzureGeneralCostManagement](dist/AzureGeneralCostManagement_tbg.png) |
+AzureGeneralDashboard<br>Monochrome: AzureGeneralDashboard_m | ![AzureGeneralDashboard](dist/AzureGeneralDashboard_tbg.png) |
+AzureGeneralFreeServices<br>Monochrome: AzureGeneralFreeServices_m | ![AzureGeneralFreeServices](dist/AzureGeneralFreeServices_tbg.png) |
+AzureGeneralHelpandSupport<br>Monochrome: AzureGeneralHelpandSupport_m | ![AzureGeneralHelpandSupport](dist/AzureGeneralHelpandSupport_tbg.png) |
+AzureGeneralHome<br>Monochrome: AzureGeneralHome_m | ![AzureGeneralHome](dist/AzureGeneralHome_tbg.png) |
+AzureGeneralInformation<br>Monochrome: AzureGeneralInformation_m | ![AzureGeneralInformation](dist/AzureGeneralInformation_tbg.png) |
+AzureGeneralManagementGroups<br>Monochrome: AzureGeneralManagementGroups_m | ![AzureGeneralManagementGroups](dist/AzureGeneralManagementGroups_tbg.png) |
+AzureGeneralMarketplace<br>Monochrome: AzureGeneralMarketplace_m | ![AzureGeneralMarketplace](dist/AzureGeneralMarketplace_tbg.png) |
+AzureGeneralQuickstartCenter<br>Monochrome: AzureGeneralQuickstartCenter_m | ![AzureGeneralQuickstartCenter](dist/AzureGeneralQuickstartCenter_tbg.png) |
+AzureGeneralRecent<br>Monochrome: AzureGeneralRecent_m | ![AzureGeneralRecent](dist/AzureGeneralRecent_tbg.png) |
+AzureGeneralReservations<br>Monochrome: AzureGeneralReservations_m | ![AzureGeneralReservations](dist/AzureGeneralReservations_tbg.png) |
+AzureGeneralResourceGroups<br>Monochrome: AzureGeneralResourceGroups_m | ![AzureGeneralResourceGroups](dist/AzureGeneralResourceGroups_tbg.png) |
+AzureGeneralServiceHealth<br>Monochrome: AzureGeneralServiceHealth_m | ![AzureGeneralServiceHealth](dist/AzureGeneralServiceHealth_tbg.png) |
+AzureGeneralSubscriptions<br>Monochrome: AzureGeneralSubscriptions_m | ![AzureGeneralSubscriptions](dist/AzureGeneralSubscriptions_tbg.png) |
+AzureGeneralTags<br>Monochrome: AzureGeneralTags_m | ![AzureGeneralTags](dist/AzureGeneralTags_tbg.png) |
+AzureGeneralTemplates<br>Monochrome: AzureGeneralTemplates_m | ![AzureGeneralTemplates](dist/AzureGeneralTemplates_tbg.png) |
+AzureIcon691DataBoxGateway<br>Monochrome: AzureIcon691DataBoxGateway_m | ![AzureIcon691DataBoxGateway](dist/AzureIcon691DataBoxGateway_tbg.png) |
+AzureIdentityActiveDirectoryConnectHealth<br>Monochrome: AzureIdentityActiveDirectoryConnectHealth_m | ![AzureIdentityActiveDirectoryConnectHealth](dist/AzureIdentityActiveDirectoryConnectHealth_tbg.png) |
+AzureIdentityAppRegistrations<br>Monochrome: AzureIdentityAppRegistrations_m | ![AzureIdentityAppRegistrations](dist/AzureIdentityAppRegistrations_tbg.png) |
+AzureIdentityAzureActiveDirectory<br>Monochrome: AzureIdentityAzureActiveDirectory_m | ![AzureIdentityAzureActiveDirectory](dist/AzureIdentityAzureActiveDirectory_tbg.png) |
+AzureIdentityAzureADB2C<br>Monochrome: AzureIdentityAzureADB2C_m | ![AzureIdentityAzureADB2C](dist/AzureIdentityAzureADB2C_tbg.png) |
+AzureIdentityAzureADDomainServices<br>Monochrome: AzureIdentityAzureADDomainServices_m | ![AzureIdentityAzureADDomainServices](dist/AzureIdentityAzureADDomainServices_tbg.png) |
+AzureIdentityAzureADIdentityProtection<br>Monochrome: AzureIdentityAzureADIdentityProtection_m | ![AzureIdentityAzureADIdentityProtection](dist/AzureIdentityAzureADIdentityProtection_tbg.png) |
+AzureIdentityAzureADPrivilegeIdentityMapping<br>Monochrome: AzureIdentityAzureADPrivilegeIdentityMapping_m | ![AzureIdentityAzureADPrivilegeIdentityMapping](dist/AzureIdentityAzureADPrivilegeIdentityMapping_tbg.png) |
+AzureIdentityAzureInformationProtection<br>Monochrome: AzureIdentityAzureInformationProtection_m | ![AzureIdentityAzureInformationProtection](dist/AzureIdentityAzureInformationProtection_tbg.png) |
+AzureIdentityConditionalAccess<br>Monochrome: AzureIdentityConditionalAccess_m | ![AzureIdentityConditionalAccess](dist/AzureIdentityConditionalAccess_tbg.png) |
+AzureIdentityEnterpriseApplications<br>Monochrome: AzureIdentityEnterpriseApplications_m | ![AzureIdentityEnterpriseApplications](dist/AzureIdentityEnterpriseApplications_tbg.png) |
+AzureIdentityGroups<br>Monochrome: AzureIdentityGroups_m | ![AzureIdentityGroups](dist/AzureIdentityGroups_tbg.png) |
+AzureIdentityIdentityGovernance<br>Monochrome: AzureIdentityIdentityGovernance_m | ![AzureIdentityIdentityGovernance](dist/AzureIdentityIdentityGovernance_tbg.png) |
+AzureIdentityManagedIdentities<br>Monochrome: AzureIdentityManagedIdentities_m | ![AzureIdentityManagedIdentities](dist/AzureIdentityManagedIdentities_tbg.png) |
+AzureIdentityUsers<br>Monochrome: AzureIdentityUsers_m | ![AzureIdentityUsers](dist/AzureIdentityUsers_tbg.png) |
+AzureIntegrationAPIManagementServices<br>Monochrome: AzureIntegrationAPIManagementServices_m | ![AzureIntegrationAPIManagementServices](dist/AzureIntegrationAPIManagementServices_tbg.png) |
+AzureIntegrationAppConfiguration<br>Monochrome: AzureIntegrationAppConfiguration_m | ![AzureIntegrationAppConfiguration](dist/AzureIntegrationAppConfiguration_tbg.png) |
+AzureIntegrationAzureAPIforFHIR<br>Monochrome: AzureIntegrationAzureAPIforFHIR_m | ![AzureIntegrationAzureAPIforFHIR](dist/AzureIntegrationAzureAPIforFHIR_tbg.png) |
+AzureIntegrationAzureDataCatalog<br>Monochrome: AzureIntegrationAzureDataCatalog_m | ![AzureIntegrationAzureDataCatalog](dist/AzureIntegrationAzureDataCatalog_tbg.png) |
+AzureIntegrationAzureServiceBus<br>Monochrome: AzureIntegrationAzureServiceBus_m | ![AzureIntegrationAzureServiceBus](dist/AzureIntegrationAzureServiceBus_tbg.png) |
+AzureIntegrationAzureServiceBusRelays<br>Monochrome: AzureIntegrationAzureServiceBusRelays_m | ![AzureIntegrationAzureServiceBusRelays](dist/AzureIntegrationAzureServiceBusRelays_tbg.png) |
+AzureIntegrationAzureStorSimpleDeviceManagers<br>Monochrome: AzureIntegrationAzureStorSimpleDeviceManagers_m | ![AzureIntegrationAzureStorSimpleDeviceManagers](dist/AzureIntegrationAzureStorSimpleDeviceManagers_tbg.png) |
+AzureIntegrationDataBoxEdge<br>Monochrome: AzureIntegrationDataBoxEdge_m | ![AzureIntegrationDataBoxEdge](dist/AzureIntegrationDataBoxEdge_tbg.png) |
+AzureIntegrationDataFactories<br>Monochrome: AzureIntegrationDataFactories_m | ![AzureIntegrationDataFactories](dist/AzureIntegrationDataFactories_tbg.png) |
+AzureIntegrationEventGridDomains<br>Monochrome: AzureIntegrationEventGridDomains_m | ![AzureIntegrationEventGridDomains](dist/AzureIntegrationEventGridDomains_tbg.png) |
+AzureIntegrationEventGridSubscriptions<br>Monochrome: AzureIntegrationEventGridSubscriptions_m | ![AzureIntegrationEventGridSubscriptions](dist/AzureIntegrationEventGridSubscriptions_tbg.png) |
+AzureIntegrationEventGridTopics<br>Monochrome: AzureIntegrationEventGridTopics_m | ![AzureIntegrationEventGridTopics](dist/AzureIntegrationEventGridTopics_tbg.png) |
+AzureIntegrationIntegrationAccounts<br>Monochrome: AzureIntegrationIntegrationAccounts_m | ![AzureIntegrationIntegrationAccounts](dist/AzureIntegrationIntegrationAccounts_tbg.png) |
+AzureIntegrationIntegrationServiceEnvironments<br>Monochrome: AzureIntegrationIntegrationServiceEnvironments_m | ![AzureIntegrationIntegrationServiceEnvironments](dist/AzureIntegrationIntegrationServiceEnvironments_tbg.png) |
+AzureIntegrationLogicApps<br>Monochrome: AzureIntegrationLogicApps_m | ![AzureIntegrationLogicApps](dist/AzureIntegrationLogicApps_tbg.png) |
+AzureIntegrationLogicAppsCustomConnector<br>Monochrome: AzureIntegrationLogicAppsCustomConnector_m | ![AzureIntegrationLogicAppsCustomConnector](dist/AzureIntegrationLogicAppsCustomConnector_tbg.png) |
+AzureIntegrationSendGridAccounts<br>Monochrome: AzureIntegrationSendGridAccounts_m | ![AzureIntegrationSendGridAccounts](dist/AzureIntegrationSendGridAccounts_tbg.png) |
+AzureIntegrationSoftwareasaService<br>Monochrome: AzureIntegrationSoftwareasaService_m | ![AzureIntegrationSoftwareasaService](dist/AzureIntegrationSoftwareasaService_tbg.png) |
+AzureIntegrationSQLServerStretchDatabases<br>Monochrome: AzureIntegrationSQLServerStretchDatabases_m | ![AzureIntegrationSQLServerStretchDatabases](dist/AzureIntegrationSQLServerStretchDatabases_tbg.png) |
+AzureIntuneClientApps<br>Monochrome: AzureIntuneClientApps_m | ![AzureIntuneClientApps](dist/AzureIntuneClientApps_tbg.png) |
+AzureIntuneDeviceCompliance<br>Monochrome: AzureIntuneDeviceCompliance_m | ![AzureIntuneDeviceCompliance](dist/AzureIntuneDeviceCompliance_tbg.png) |
+AzureIntuneDeviceConfiguration<br>Monochrome: AzureIntuneDeviceConfiguration_m | ![AzureIntuneDeviceConfiguration](dist/AzureIntuneDeviceConfiguration_tbg.png) |
+AzureIntuneDeviceEnrollment<br>Monochrome: AzureIntuneDeviceEnrollment_m | ![AzureIntuneDeviceEnrollment](dist/AzureIntuneDeviceEnrollment_tbg.png) |
+AzureIntuneDevices<br>Monochrome: AzureIntuneDevices_m | ![AzureIntuneDevices](dist/AzureIntuneDevices_tbg.png) |
+AzureIntuneeBooks<br>Monochrome: AzureIntuneeBooks_m | ![AzureIntuneeBooks](dist/AzureIntuneeBooks_tbg.png) |
+AzureIntuneExchangeAccess<br>Monochrome: AzureIntuneExchangeAccess_m | ![AzureIntuneExchangeAccess](dist/AzureIntuneExchangeAccess_tbg.png) |
+AzureIntuneExchangeOnPremisesAccess<br>Monochrome: AzureIntuneExchangeOnPremisesAccess_m | ![AzureIntuneExchangeOnPremisesAccess](dist/AzureIntuneExchangeOnPremisesAccess_tbg.png) |
+AzureIntuneIntune<br>Monochrome: AzureIntuneIntune_m | ![AzureIntuneIntune](dist/AzureIntuneIntune_tbg.png) |
+AzureIntuneIntuneAppProtection<br>Monochrome: AzureIntuneIntuneAppProtection_m | ![AzureIntuneIntuneAppProtection](dist/AzureIntuneIntuneAppProtection_tbg.png) |
+AzureIntuneIntuneForEducation<br>Monochrome: AzureIntuneIntuneForEducation_m | ![AzureIntuneIntuneForEducation](dist/AzureIntuneIntuneForEducation_tbg.png) |
+AzureIntuneRoles<br>Monochrome: AzureIntuneRoles_m | ![AzureIntuneRoles](dist/AzureIntuneRoles_tbg.png) |
+AzureIntuneSecurityBaselines<br>Monochrome: AzureIntuneSecurityBaselines_m | ![AzureIntuneSecurityBaselines](dist/AzureIntuneSecurityBaselines_tbg.png) |
+AzureIntuneSoftwareUpdates<br>Monochrome: AzureIntuneSoftwareUpdates_m | ![AzureIntuneSoftwareUpdates](dist/AzureIntuneSoftwareUpdates_tbg.png) |
+AzureIntuneTenantStatus<br>Monochrome: AzureIntuneTenantStatus_m | ![AzureIntuneTenantStatus](dist/AzureIntuneTenantStatus_tbg.png) |
+AzureIntuneTroubleshoot<br>Monochrome: AzureIntuneTroubleshoot_m | ![AzureIntuneTroubleshoot](dist/AzureIntuneTroubleshoot_tbg.png) |
+AzureIotAzureCosmosDB<br>Monochrome: AzureIotAzureCosmosDB_m | ![AzureIotAzureCosmosDB](dist/AzureIotAzureCosmosDB_tbg.png) |
+AzureIotAzureMapsAccounts<br>Monochrome: AzureIotAzureMapsAccounts_m | ![AzureIotAzureMapsAccounts](dist/AzureIotAzureMapsAccounts_tbg.png) |
+AzureIotAzureSphere<br>Monochrome: AzureIotAzureSphere_m | ![AzureIotAzureSphere](dist/AzureIotAzureSphere_tbg.png) |
+AzureIotDataBoxEdge<br>Monochrome: AzureIotDataBoxEdge_m | ![AzureIotDataBoxEdge](dist/AzureIotDataBoxEdge_tbg.png) |
+AzureIotDeviceProvisioningServices<br>Monochrome: AzureIotDeviceProvisioningServices_m | ![AzureIotDeviceProvisioningServices](dist/AzureIotDeviceProvisioningServices_tbg.png) |
+AzureIotDigitalTwins<br>Monochrome: AzureIotDigitalTwins_m | ![AzureIotDigitalTwins](dist/AzureIotDigitalTwins_tbg.png) |
+AzureIotEventGridSubscriptions<br>Monochrome: AzureIotEventGridSubscriptions_m | ![AzureIotEventGridSubscriptions](dist/AzureIotEventGridSubscriptions_tbg.png) |
+AzureIotEventHubs<br>Monochrome: AzureIotEventHubs_m | ![AzureIotEventHubs](dist/AzureIotEventHubs_tbg.png) |
+AzureIotFunctionApp<br>Monochrome: AzureIotFunctionApp_m | ![AzureIotFunctionApp](dist/AzureIotFunctionApp_tbg.png) |
+AzureIotIoTCentralApplications<br>Monochrome: AzureIotIoTCentralApplications_m | ![AzureIotIoTCentralApplications](dist/AzureIotIoTCentralApplications_tbg.png) |
+AzureIotIoTEdge<br>Monochrome: AzureIotIoTEdge_m | ![AzureIotIoTEdge](dist/AzureIotIoTEdge_tbg.png) |
+AzureIotIoTHub<br>Monochrome: AzureIotIoTHub_m | ![AzureIotIoTHub](dist/AzureIotIoTHub_tbg.png) |
+AzureIotLogicApps<br>Monochrome: AzureIotLogicApps_m | ![AzureIotLogicApps](dist/AzureIotLogicApps_tbg.png) |
+AzureIotMachineLearningStudioWebServicePlans<br>Monochrome: AzureIotMachineLearningStudioWebServicePlans_m | ![AzureIotMachineLearningStudioWebServicePlans](dist/AzureIotMachineLearningStudioWebServicePlans_tbg.png) |
+AzureIotMachineLearningStudioWebServices<br>Monochrome: AzureIotMachineLearningStudioWebServices_m | ![AzureIotMachineLearningStudioWebServices](dist/AzureIotMachineLearningStudioWebServices_tbg.png) |
+AzureIotMachineLearningStudioWorkspaces<br>Monochrome: AzureIotMachineLearningStudioWorkspaces_m | ![AzureIotMachineLearningStudioWorkspaces](dist/AzureIotMachineLearningStudioWorkspaces_tbg.png) |
+AzureIotmanage<br>Monochrome: AzureIotmanage_m | ![AzureIotmanage](dist/AzureIotmanage_tbg.png) |
+AzureIotNotificationHubNamespaces<br>Monochrome: AzureIotNotificationHubNamespaces_m | ![AzureIotNotificationHubNamespaces](dist/AzureIotNotificationHubNamespaces_tbg.png) |
+AzureIotNotificationHubs<br>Monochrome: AzureIotNotificationHubs_m | ![AzureIotNotificationHubs](dist/AzureIotNotificationHubs_tbg.png) |
+AzureIotRTOS<br>Monochrome: AzureIotRTOS_m | ![AzureIotRTOS](dist/AzureIotRTOS_tbg.png) |
+AzureIotStreamAnalyticsJobs<br>Monochrome: AzureIotStreamAnalyticsJobs_m | ![AzureIotStreamAnalyticsJobs](dist/AzureIotStreamAnalyticsJobs_tbg.png) |
+AzureIotTimeSeriesDataSets<br>Monochrome: AzureIotTimeSeriesDataSets_m | ![AzureIotTimeSeriesDataSets](dist/AzureIotTimeSeriesDataSets_tbg.png) |
+AzureIotTimeSeriesInsightsAccessPolicies<br>Monochrome: AzureIotTimeSeriesInsightsAccessPolicies_m | ![AzureIotTimeSeriesInsightsAccessPolicies](dist/AzureIotTimeSeriesInsightsAccessPolicies_tbg.png) |
+AzureIotTimeSeriesInsightsEnvironments<br>Monochrome: AzureIotTimeSeriesInsightsEnvironments_m | ![AzureIotTimeSeriesInsightsEnvironments](dist/AzureIotTimeSeriesInsightsEnvironments_tbg.png) |
+AzureIotTimeSeriesInsightsEventSources<br>Monochrome: AzureIotTimeSeriesInsightsEventSources_m | ![AzureIotTimeSeriesInsightsEventSources](dist/AzureIotTimeSeriesInsightsEventSources_tbg.png) |
+AzureIotWindows10CoreServices<br>Monochrome: AzureIotWindows10CoreServices_m | ![AzureIotWindows10CoreServices](dist/AzureIotWindows10CoreServices_tbg.png) |
+AzureMachinelearningBatchAI<br>Monochrome: AzureMachinelearningBatchAI_m | ![AzureMachinelearningBatchAI](dist/AzureMachinelearningBatchAI_tbg.png) |
+AzureMachinelearningBotServices<br>Monochrome: AzureMachinelearningBotServices_m | ![AzureMachinelearningBotServices](dist/AzureMachinelearningBotServices_tbg.png) |
+AzureMachinelearningCognitiveServices<br>Monochrome: AzureMachinelearningCognitiveServices_m | ![AzureMachinelearningCognitiveServices](dist/AzureMachinelearningCognitiveServices_tbg.png) |
+AzureMachinelearningGenomics<br>Monochrome: AzureMachinelearningGenomics_m | ![AzureMachinelearningGenomics](dist/AzureMachinelearningGenomics_tbg.png) |
+AzureMachinelearningMachineLearningServiceWorkspaces<br>Monochrome: AzureMachinelearningMachineLearningServiceWorkspaces_m | ![AzureMachinelearningMachineLearningServiceWorkspaces](dist/AzureMachinelearningMachineLearningServiceWorkspaces_tbg.png) |
+AzureMachinelearningMachineLearningStudioWebServicePlans<br>Monochrome: AzureMachinelearningMachineLearningStudioWebServicePlans_m | ![AzureMachinelearningMachineLearningStudioWebServicePlans](dist/AzureMachinelearningMachineLearningStudioWebServicePlans_tbg.png) |
+AzureMachinelearningMachineLearningStudioWebServices<br>Monochrome: AzureMachinelearningMachineLearningStudioWebServices_m | ![AzureMachinelearningMachineLearningStudioWebServices](dist/AzureMachinelearningMachineLearningStudioWebServices_tbg.png) |
+AzureMachinelearningMachineLearningStudioWorkspaces<br>Monochrome: AzureMachinelearningMachineLearningStudioWorkspaces_m | ![AzureMachinelearningMachineLearningStudioWorkspaces](dist/AzureMachinelearningMachineLearningStudioWorkspaces_tbg.png) |
+AzureMachinelearningremoterendering<br>Monochrome: AzureMachinelearningremoterendering_m | ![AzureMachinelearningremoterendering](dist/AzureMachinelearningremoterendering_tbg.png) |
+AzureManageActivityLog<br>Monochrome: AzureManageActivityLog_m | ![AzureManageActivityLog](dist/AzureManageActivityLog_tbg.png) |
+AzureManageAdvisor<br>Monochrome: AzureManageAdvisor_m | ![AzureManageAdvisor](dist/AzureManageAdvisor_tbg.png) |
+AzureManageAlerts<br>Monochrome: AzureManageAlerts_m | ![AzureManageAlerts](dist/AzureManageAlerts_tbg.png) |
+AzureManageApplicationInsights<br>Monochrome: AzureManageApplicationInsights_m | ![AzureManageApplicationInsights](dist/AzureManageApplicationInsights_tbg.png) |
+AzureManageAutomationAccounts<br>Monochrome: AzureManageAutomationAccounts_m | ![AzureManageAutomationAccounts](dist/AzureManageAutomationAccounts_tbg.png) |
+AzureManageAzureArc<br>Monochrome: AzureManageAzureArc_m | ![AzureManageAzureArc](dist/AzureManageAzureArc_tbg.png) |
+AzureManageBlueprints<br>Monochrome: AzureManageBlueprints_m | ![AzureManageBlueprints](dist/AzureManageBlueprints_tbg.png) |
+AzureManageCompliance<br>Monochrome: AzureManageCompliance_m | ![AzureManageCompliance](dist/AzureManageCompliance_tbg.png) |
+AzureManageCostManagementandBilling<br>Monochrome: AzureManageCostManagementandBilling_m | ![AzureManageCostManagementandBilling](dist/AzureManageCostManagementandBilling_tbg.png) |
+AzureManageCustomerLockboxforMicrosoftAzure<br>Monochrome: AzureManageCustomerLockboxforMicrosoftAzure_m | ![AzureManageCustomerLockboxforMicrosoftAzure](dist/AzureManageCustomerLockboxforMicrosoftAzure_tbg.png) |
+AzureManageDiagnosticsSettings<br>Monochrome: AzureManageDiagnosticsSettings_m | ![AzureManageDiagnosticsSettings](dist/AzureManageDiagnosticsSettings_tbg.png) |
+AzureManageEducation<br>Monochrome: AzureManageEducation_m | ![AzureManageEducation](dist/AzureManageEducation_tbg.png) |
+AzureManageLogAnalyticsWorkspaces<br>Monochrome: AzureManageLogAnalyticsWorkspaces_m | ![AzureManageLogAnalyticsWorkspaces](dist/AzureManageLogAnalyticsWorkspaces_tbg.png) |
+AzureManageMachinesAzureArc<br>Monochrome: AzureManageMachinesAzureArc_m | ![AzureManageMachinesAzureArc](dist/AzureManageMachinesAzureArc_tbg.png) |
+AzureManageManagedApplicationsCenter<br>Monochrome: AzureManageManagedApplicationsCenter_m | ![AzureManageManagedApplicationsCenter](dist/AzureManageManagedApplicationsCenter_tbg.png) |
+AzureManageManagedDesktop<br>Monochrome: AzureManageManagedDesktop_m | ![AzureManageManagedDesktop](dist/AzureManageManagedDesktop_tbg.png) |
+AzureManageMetrics<br>Monochrome: AzureManageMetrics_m | ![AzureManageMetrics](dist/AzureManageMetrics_tbg.png) |
+AzureManageMonitor<br>Monochrome: AzureManageMonitor_m | ![AzureManageMonitor](dist/AzureManageMonitor_tbg.png) |
+AzureManageMyCustomers<br>Monochrome: AzureManageMyCustomers_m | ![AzureManageMyCustomers](dist/AzureManageMyCustomers_tbg.png) |
+AzureManageNetworkWatcher<br>Monochrome: AzureManageNetworkWatcher_m | ![AzureManageNetworkWatcher](dist/AzureManageNetworkWatcher_tbg.png) |
+AzureManageOperationLog_Classic<br>Monochrome: AzureManageOperationLog_Classic_m | ![AzureManageOperationLog_Classic](dist/AzureManageOperationLog_Classic_tbg.png) |
+AzureManagePolicy<br>Monochrome: AzureManagePolicy_m | ![AzureManagePolicy](dist/AzureManagePolicy_tbg.png) |
+AzureManageRecoveryServicesVaults<br>Monochrome: AzureManageRecoveryServicesVaults_m | ![AzureManageRecoveryServicesVaults](dist/AzureManageRecoveryServicesVaults_tbg.png) |
+AzureManageResourceGraphExplorer<br>Monochrome: AzureManageResourceGraphExplorer_m | ![AzureManageResourceGraphExplorer](dist/AzureManageResourceGraphExplorer_tbg.png) |
+AzureManageServiceCatalogMAD<br>Monochrome: AzureManageServiceCatalogMAD_m | ![AzureManageServiceCatalogMAD](dist/AzureManageServiceCatalogMAD_tbg.png) |
+AzureManageServiceProviders<br>Monochrome: AzureManageServiceProviders_m | ![AzureManageServiceProviders](dist/AzureManageServiceProviders_tbg.png) |
+AzureManageSchedulerJobCollections<br>Monochrome: AzureManageSchedulerJobCollections_m | ![AzureManageSchedulerJobCollections](dist/AzureManageSchedulerJobCollections_tbg.png) |
+AzureManageSolutions<br>Monochrome: AzureManageSolutions_m | ![AzureManageSolutions](dist/AzureManageSolutions_tbg.png) |
+AzureManageUserPrivacy<br>Monochrome: AzureManageUserPrivacy_m | ![AzureManageUserPrivacy](dist/AzureManageUserPrivacy_tbg.png) |
+AzureMigrateAzureDatabaseMigrationServices<br>Monochrome: AzureMigrateAzureDatabaseMigrationServices_m | ![AzureMigrateAzureDatabaseMigrationServices](dist/AzureMigrateAzureDatabaseMigrationServices_tbg.png) |
+AzureMigrateAzureMigrate<br>Monochrome: AzureMigrateAzureMigrate_m | ![AzureMigrateAzureMigrate](dist/AzureMigrateAzureMigrate_tbg.png) |
+AzureMigrateCostManagementandBilling<br>Monochrome: AzureMigrateCostManagementandBilling_m | ![AzureMigrateCostManagementandBilling](dist/AzureMigrateCostManagementandBilling_tbg.png) |
+AzureMigrateDataBox<br>Monochrome: AzureMigrateDataBox_m | ![AzureMigrateDataBox](dist/AzureMigrateDataBox_tbg.png) |
+AzureMigrateDataBoxEdge<br>Monochrome: AzureMigrateDataBoxEdge_m | ![AzureMigrateDataBoxEdge](dist/AzureMigrateDataBoxEdge_tbg.png) |
+AzureMigrateRecoveryServicesVaults<br>Monochrome: AzureMigrateRecoveryServicesVaults_m | ![AzureMigrateRecoveryServicesVaults](dist/AzureMigrateRecoveryServicesVaults_tbg.png) |
+AzureNetworkingApplicationGateways<br>Monochrome: AzureNetworkingApplicationGateways_m | ![AzureNetworkingApplicationGateways](dist/AzureNetworkingApplicationGateways_tbg.png) |
+AzureNetworkingApplicationSecurityGroups<br>Monochrome: AzureNetworkingApplicationSecurityGroups_m | ![AzureNetworkingApplicationSecurityGroups](dist/AzureNetworkingApplicationSecurityGroups_tbg.png) |
+AzureNetworkingAzureFirewallManager<br>Monochrome: AzureNetworkingAzureFirewallManager_m | ![AzureNetworkingAzureFirewallManager](dist/AzureNetworkingAzureFirewallManager_tbg.png) |
+AzureNetworkingCDNProfiles<br>Monochrome: AzureNetworkingCDNProfiles_m | ![AzureNetworkingCDNProfiles](dist/AzureNetworkingCDNProfiles_tbg.png) |
+AzureNetworkingConnections<br>Monochrome: AzureNetworkingConnections_m | ![AzureNetworkingConnections](dist/AzureNetworkingConnections_tbg.png) |
+AzureNetworkingDDoSProtectionPlans<br>Monochrome: AzureNetworkingDDoSProtectionPlans_m | ![AzureNetworkingDDoSProtectionPlans](dist/AzureNetworkingDDoSProtectionPlans_tbg.png) |
+AzureNetworkingDNSZones<br>Monochrome: AzureNetworkingDNSZones_m | ![AzureNetworkingDNSZones](dist/AzureNetworkingDNSZones_tbg.png) |
+AzureNetworkingExpressRouteCircuits<br>Monochrome: AzureNetworkingExpressRouteCircuits_m | ![AzureNetworkingExpressRouteCircuits](dist/AzureNetworkingExpressRouteCircuits_tbg.png) |
+AzureNetworkingFirewalls<br>Monochrome: AzureNetworkingFirewalls_m | ![AzureNetworkingFirewalls](dist/AzureNetworkingFirewalls_tbg.png) |
+AzureNetworkingFrontDoors<br>Monochrome: AzureNetworkingFrontDoors_m | ![AzureNetworkingFrontDoors](dist/AzureNetworkingFrontDoors_tbg.png) |
+AzureNetworkingFrontDoorWAFPolicies<br>Monochrome: AzureNetworkingFrontDoorWAFPolicies_m | ![AzureNetworkingFrontDoorWAFPolicies](dist/AzureNetworkingFrontDoorWAFPolicies_tbg.png) |
+AzureNetworkingLoadBalancers<br>Monochrome: AzureNetworkingLoadBalancers_m | ![AzureNetworkingLoadBalancers](dist/AzureNetworkingLoadBalancers_tbg.png) |
+AzureNetworkingLocalNetworkGateways<br>Monochrome: AzureNetworkingLocalNetworkGateways_m | ![AzureNetworkingLocalNetworkGateways](dist/AzureNetworkingLocalNetworkGateways_tbg.png) |
+AzureNetworkingNAT<br>Monochrome: AzureNetworkingNAT_m | ![AzureNetworkingNAT](dist/AzureNetworkingNAT_tbg.png) |
+AzureNetworkingNetworkInterfaces<br>Monochrome: AzureNetworkingNetworkInterfaces_m | ![AzureNetworkingNetworkInterfaces](dist/AzureNetworkingNetworkInterfaces_tbg.png) |
+AzureNetworkingNetworkSecurityGroups<br>Monochrome: AzureNetworkingNetworkSecurityGroups_m | ![AzureNetworkingNetworkSecurityGroups](dist/AzureNetworkingNetworkSecurityGroups_tbg.png) |
+AzureNetworkingNetworkWatcher<br>Monochrome: AzureNetworkingNetworkWatcher_m | ![AzureNetworkingNetworkWatcher](dist/AzureNetworkingNetworkWatcher_tbg.png) |
+AzureNetworkingOnPremisesDataGateways<br>Monochrome: AzureNetworkingOnPremisesDataGateways_m | ![AzureNetworkingOnPremisesDataGateways](dist/AzureNetworkingOnPremisesDataGateways_tbg.png) |
+AzureNetworkingProximityPlacementGroups<br>Monochrome: AzureNetworkingProximityPlacementGroups_m | ![AzureNetworkingProximityPlacementGroups](dist/AzureNetworkingProximityPlacementGroups_tbg.png) |
+AzureNetworkingPublicIPAddresses_Classic<br>Monochrome: AzureNetworkingPublicIPAddresses_Classic_m | ![AzureNetworkingPublicIPAddresses_Classic](dist/AzureNetworkingPublicIPAddresses_Classic_tbg.png) |
+AzureNetworkingPublicIPAddresses<br>Monochrome: AzureNetworkingPublicIPAddresses_m | ![AzureNetworkingPublicIPAddresses](dist/AzureNetworkingPublicIPAddresses_tbg.png) |
+AzureNetworkingPublicIPPrefixes<br>Monochrome: AzureNetworkingPublicIPPrefixes_m | ![AzureNetworkingPublicIPPrefixes](dist/AzureNetworkingPublicIPPrefixes_tbg.png) |
+AzureNetworkingReservedIPAddresses_Classic<br>Monochrome: AzureNetworkingReservedIPAddresses_Classic_m | ![AzureNetworkingReservedIPAddresses_Classic](dist/AzureNetworkingReservedIPAddresses_Classic_tbg.png) |
+AzureNetworkingRouteFilters<br>Monochrome: AzureNetworkingRouteFilters_m | ![AzureNetworkingRouteFilters](dist/AzureNetworkingRouteFilters_tbg.png) |
+AzureNetworkingRouteTables<br>Monochrome: AzureNetworkingRouteTables_m | ![AzureNetworkingRouteTables](dist/AzureNetworkingRouteTables_tbg.png) |
+AzureNetworkingServiceEndpointPolicies<br>Monochrome: AzureNetworkingServiceEndpointPolicies_m | ![AzureNetworkingServiceEndpointPolicies](dist/AzureNetworkingServiceEndpointPolicies_tbg.png) |
+AzureNetworkingTrafficManagerProfiles<br>Monochrome: AzureNetworkingTrafficManagerProfiles_m | ![AzureNetworkingTrafficManagerProfiles](dist/AzureNetworkingTrafficManagerProfiles_tbg.png) |
+AzureNetworkingVirtualNetworkGateways<br>Monochrome: AzureNetworkingVirtualNetworkGateways_m | ![AzureNetworkingVirtualNetworkGateways](dist/AzureNetworkingVirtualNetworkGateways_tbg.png) |
+AzureNetworkingVirtualNetworks_Classic<br>Monochrome: AzureNetworkingVirtualNetworks_Classic_m | ![AzureNetworkingVirtualNetworks_Classic](dist/AzureNetworkingVirtualNetworks_Classic_tbg.png) |
+AzureNetworkingVirtualNetworks<br>Monochrome: AzureNetworkingVirtualNetworks_m | ![AzureNetworkingVirtualNetworks](dist/AzureNetworkingVirtualNetworks_tbg.png) |
+AzureNetworkingVirtualWANGateway<br>Monochrome: AzureNetworkingVirtualWANGateway_m | ![AzureNetworkingVirtualWANGateway](dist/AzureNetworkingVirtualWANGateway_tbg.png) |
+AzureOtherAFEC<br>Monochrome: AzureOtherAFEC_m | ![AzureOtherAFEC](dist/AzureOtherAFEC_tbg.png) |
+AzureOtherCloud<br>Monochrome: AzureOtherCloud_m | ![AzureOtherCloud](dist/AzureOtherCloud_tbg.png) |
+AzureOtherHostGroups<br>Monochrome: AzureOtherHostGroups_m | ![AzureOtherHostGroups](dist/AzureOtherHostGroups_tbg.png) |
+AzureOtherHosts<br>Monochrome: AzureOtherHosts_m | ![AzureOtherHosts](dist/AzureOtherHosts_tbg.png) |
+AzureOtherHydraComponents<br>Monochrome: AzureOtherHydraComponents_m | ![AzureOtherHydraComponents](dist/AzureOtherHydraComponents_tbg.png) |
+AzureOtherMindaro<br>Monochrome: AzureOtherMindaro_m | ![AzureOtherMindaro](dist/AzureOtherMindaro_tbg.png) |
+AzureOtherprivatemarketplace<br>Monochrome: AzureOtherprivatemarketplace_m | ![AzureOtherprivatemarketplace](dist/AzureOtherprivatemarketplace_tbg.png) |
+AzureOtherResource<br>Monochrome: AzureOtherResource_m | ![AzureOtherResource](dist/AzureOtherResource_tbg.png) |
+AzureOtherResourceExplorer<br>Monochrome: AzureOtherResourceExplorer_m | ![AzureOtherResourceExplorer](dist/AzureOtherResourceExplorer_tbg.png) |
+AzureOtherSAPAzureMonitor<br>Monochrome: AzureOtherSAPAzureMonitor_m | ![AzureOtherSAPAzureMonitor](dist/AzureOtherSAPAzureMonitor_tbg.png) |
+AzureOtherSpatialAnchorAccounts<br>Monochrome: AzureOtherSpatialAnchorAccounts_m | ![AzureOtherSpatialAnchorAccounts](dist/AzureOtherSpatialAnchorAccounts_tbg.png) |
+AzureOtherSQLServerRegistries<br>Monochrome: AzureOtherSQLServerRegistries_m | ![AzureOtherSQLServerRegistries](dist/AzureOtherSQLServerRegistries_tbg.png) |
+AzureOtherUniversalPrintService<br>Monochrome: AzureOtherUniversalPrintService_m | ![AzureOtherUniversalPrintService](dist/AzureOtherUniversalPrintService_tbg.png) |
+AzureOtherVirtualWANs<br>Monochrome: AzureOtherVirtualWANs_m | ![AzureOtherVirtualWANs](dist/AzureOtherVirtualWANs_tbg.png) |
+AzureOtherWAC<br>Monochrome: AzureOtherWAC_m | ![AzureOtherWAC](dist/AzureOtherWAC_tbg.png) |
+AzureSecurityApplicationGateway<br>Monochrome: AzureSecurityApplicationGateway_m | ![AzureSecurityApplicationGateway](dist/AzureSecurityApplicationGateway_tbg.png) |
+AzureSecurityApplicationSecurityGroups<br>Monochrome: AzureSecurityApplicationSecurityGroups_m | ![AzureSecurityApplicationSecurityGroups](dist/AzureSecurityApplicationSecurityGroups_tbg.png) |
+AzureSecurityAzureActiveDirectory<br>Monochrome: AzureSecurityAzureActiveDirectory_m | ![AzureSecurityAzureActiveDirectory](dist/AzureSecurityAzureActiveDirectory_tbg.png) |
+AzureSecurityAzureAttestation<br>Monochrome: AzureSecurityAzureAttestation_m | ![AzureSecurityAzureAttestation](dist/AzureSecurityAzureAttestation_tbg.png) |
+AzureSecurityAzureInformationProtection<br>Monochrome: AzureSecurityAzureInformationProtection_m | ![AzureSecurityAzureInformationProtection](dist/AzureSecurityAzureInformationProtection_tbg.png) |
+AzureSecurityAzureSentinel<br>Monochrome: AzureSecurityAzureSentinel_m | ![AzureSecurityAzureSentinel](dist/AzureSecurityAzureSentinel_tbg.png) |
+AzureSecurityExtendedSecurityUpdates<br>Monochrome: AzureSecurityExtendedSecurityUpdates_m | ![AzureSecurityExtendedSecurityUpdates](dist/AzureSecurityExtendedSecurityUpdates_tbg.png) |
+AzureSecurityKeyVaults<br>Monochrome: AzureSecurityKeyVaults_m | ![AzureSecurityKeyVaults](dist/AzureSecurityKeyVaults_tbg.png) |
+AzureSecuritySecurityCenter<br>Monochrome: AzureSecuritySecurityCenter_m | ![AzureSecuritySecurityCenter](dist/AzureSecuritySecurityCenter_tbg.png) |
+AzureSecurityVirtualNetworkGateways<br>Monochrome: AzureSecurityVirtualNetworkGateways_m | ![AzureSecurityVirtualNetworkGateways](dist/AzureSecurityVirtualNetworkGateways_tbg.png) |
+AzurestackAzureStack<br>Monochrome: AzurestackAzureStack_m | ![AzurestackAzureStack](dist/AzurestackAzureStack_tbg.png) |
+AzurestackCapacity<br>Monochrome: AzurestackCapacity_m | ![AzurestackCapacity](dist/AzurestackCapacity_tbg.png) |
+AzurestackEdgeManagement<br>Monochrome: AzurestackEdgeManagement_m | ![AzurestackEdgeManagement](dist/AzurestackEdgeManagement_tbg.png) |
+AzurestackInfrastructureBackup<br>Monochrome: AzurestackInfrastructureBackup_m | ![AzurestackInfrastructureBackup](dist/AzurestackInfrastructureBackup_tbg.png) |
+AzurestackMarketplaceManagement<br>Monochrome: AzurestackMarketplaceManagement_m | ![AzurestackMarketplaceManagement](dist/AzurestackMarketplaceManagement_tbg.png) |
+AzurestackOffers<br>Monochrome: AzurestackOffers_m | ![AzurestackOffers](dist/AzurestackOffers_tbg.png) |
+AzurestackPlans<br>Monochrome: AzurestackPlans_m | ![AzurestackPlans](dist/AzurestackPlans_tbg.png) |
+AzurestackRegionManagement<br>Monochrome: AzurestackRegionManagement_m | ![AzurestackRegionManagement](dist/AzurestackRegionManagement_tbg.png) |
+AzurestackUpdates<br>Monochrome: AzurestackUpdates_m | ![AzurestackUpdates](dist/AzurestackUpdates_tbg.png) |
+AzurestackUserSubscriptions<br>Monochrome: AzurestackUserSubscriptions_m | ![AzurestackUserSubscriptions](dist/AzurestackUserSubscriptions_tbg.png) |
+AzureStatusCancelled<br>Monochrome: AzureStatusCancelled_m | ![AzureStatusCancelled](dist/AzureStatusCancelled_tbg.png) |
+AzureStatusCancelledOutline<br>Monochrome: AzureStatusCancelledOutline_m | ![AzureStatusCancelledOutline](dist/AzureStatusCancelledOutline_tbg.png) |
+AzureStatusDisabled<br>Monochrome: AzureStatusDisabled_m | ![AzureStatusDisabled](dist/AzureStatusDisabled_tbg.png) |
+AzureStatusDisabledOutline<br>Monochrome: AzureStatusDisabledOutline_m | ![AzureStatusDisabledOutline](dist/AzureStatusDisabledOutline_tbg.png) |
+AzureStatusFailed<br>Monochrome: AzureStatusFailed_m | ![AzureStatusFailed](dist/AzureStatusFailed_tbg.png) |
+AzureStatusFailedOutline<br>Monochrome: AzureStatusFailedOutline_m | ![AzureStatusFailedOutline](dist/AzureStatusFailedOutline_tbg.png) |
+AzureStatusInfo<br>Monochrome: AzureStatusInfo_m | ![AzureStatusInfo](dist/AzureStatusInfo_tbg.png) |
+AzureStatusInfoOutline<br>Monochrome: AzureStatusInfoOutline_m | ![AzureStatusInfoOutline](dist/AzureStatusInfoOutline_tbg.png) |
+AzureStatusNone<br>Monochrome: AzureStatusNone_m | ![AzureStatusNone](dist/AzureStatusNone_tbg.png) |
+AzureStatusNoneOutline<br>Monochrome: AzureStatusNoneOutline_m | ![AzureStatusNoneOutline](dist/AzureStatusNoneOutline_tbg.png) |
+AzureStatusPending<br>Monochrome: AzureStatusPending_m | ![AzureStatusPending](dist/AzureStatusPending_tbg.png) |
+AzureStatusPendingOutline<br>Monochrome: AzureStatusPendingOutline_m | ![AzureStatusPendingOutline](dist/AzureStatusPendingOutline_tbg.png) |
+AzureStatusStopped<br>Monochrome: AzureStatusStopped_m | ![AzureStatusStopped](dist/AzureStatusStopped_tbg.png) |
+AzureStatusStoppedOutline<br>Monochrome: AzureStatusStoppedOutline_m | ![AzureStatusStoppedOutline](dist/AzureStatusStoppedOutline_tbg.png) |
+AzureStatusSuccess<br>Monochrome: AzureStatusSuccess_m | ![AzureStatusSuccess](dist/AzureStatusSuccess_tbg.png) |
+AzureStatusSuccessOutline<br>Monochrome: AzureStatusSuccessOutline_m | ![AzureStatusSuccessOutline](dist/AzureStatusSuccessOutline_tbg.png) |
+AzureStatusUnknown<br>Monochrome: AzureStatusUnknown_m | ![AzureStatusUnknown](dist/AzureStatusUnknown_tbg.png) |
+AzureStatusUnknownOutline<br>Monochrome: AzureStatusUnknownOutline_m | ![AzureStatusUnknownOutline](dist/AzureStatusUnknownOutline_tbg.png) |
+AzureStatusUpdate<br>Monochrome: AzureStatusUpdate_m | ![AzureStatusUpdate](dist/AzureStatusUpdate_tbg.png) |
+AzureStatusUpdateOutline<br>Monochrome: AzureStatusUpdateOutline_m | ![AzureStatusUpdateOutline](dist/AzureStatusUpdateOutline_tbg.png) |
+AzureStatusUpsell<br>Monochrome: AzureStatusUpsell_m | ![AzureStatusUpsell](dist/AzureStatusUpsell_tbg.png) |
+AzureStatusUpsellOutline<br>Monochrome: AzureStatusUpsellOutline_m | ![AzureStatusUpsellOutline](dist/AzureStatusUpsellOutline_tbg.png) |
+AzureStatusWarning<br>Monochrome: AzureStatusWarning_m | ![AzureStatusWarning](dist/AzureStatusWarning_tbg.png) |
+AzureStatusWarningOutline<br>Monochrome: AzureStatusWarningOutline_m | ![AzureStatusWarningOutline](dist/AzureStatusWarningOutline_tbg.png) |
+AzureStorageAzureFileshare<br>Monochrome: AzureStorageAzureFileshare_m | ![AzureStorageAzureFileshare](dist/AzureStorageAzureFileshare_tbg.png) |
+AzureStorageAzureHCPCache<br>Monochrome: AzureStorageAzureHCPCache_m | ![AzureStorageAzureHCPCache](dist/AzureStorageAzureHCPCache_tbg.png) |
+AzureStorageAzureNetAppFiles<br>Monochrome: AzureStorageAzureNetAppFiles_m | ![AzureStorageAzureNetAppFiles](dist/AzureStorageAzureNetAppFiles_tbg.png) |
+AzureStorageDataBox<br>Monochrome: AzureStorageDataBox_m | ![AzureStorageDataBox](dist/AzureStorageDataBox_tbg.png) |
+AzureStorageDataBoxEdge<br>Monochrome: AzureStorageDataBoxEdge_m | ![AzureStorageDataBoxEdge](dist/AzureStorageDataBoxEdge_tbg.png) |
+AzureStorageDataLakeStorageGen1<br>Monochrome: AzureStorageDataLakeStorageGen1_m | ![AzureStorageDataLakeStorageGen1](dist/AzureStorageDataLakeStorageGen1_tbg.png) |
+AzureStorageDataShareInvitations<br>Monochrome: AzureStorageDataShareInvitations_m | ![AzureStorageDataShareInvitations](dist/AzureStorageDataShareInvitations_tbg.png) |
+AzureStorageDataShares<br>Monochrome: AzureStorageDataShares_m | ![AzureStorageDataShares](dist/AzureStorageDataShares_tbg.png) |
+AzureStorageImportExportJobs<br>Monochrome: AzureStorageImportExportJobs_m | ![AzureStorageImportExportJobs](dist/AzureStorageImportExportJobs_tbg.png) |
+AzureStorageRecoveryServicesVaults<br>Monochrome: AzureStorageRecoveryServicesVaults_m | ![AzureStorageRecoveryServicesVaults](dist/AzureStorageRecoveryServicesVaults_tbg.png) |
+AzureStorageStorageAccounts_Classic<br>Monochrome: AzureStorageStorageAccounts_Classic_m | ![AzureStorageStorageAccounts_Classic](dist/AzureStorageStorageAccounts_Classic_tbg.png) |
+AzureStorageStorageAccounts<br>Monochrome: AzureStorageStorageAccounts_m | ![AzureStorageStorageAccounts](dist/AzureStorageStorageAccounts_tbg.png) |
+AzureStorageStorageExplorer<br>Monochrome: AzureStorageStorageExplorer_m | ![AzureStorageStorageExplorer](dist/AzureStorageStorageExplorer_tbg.png) |
+AzureStorageStorageSyncServices<br>Monochrome: AzureStorageStorageSyncServices_m | ![AzureStorageStorageSyncServices](dist/AzureStorageStorageSyncServices_tbg.png) |
+AzureStorageStorSimpleDataManagers<br>Monochrome: AzureStorageStorSimpleDataManagers_m | ![AzureStorageStorSimpleDataManagers](dist/AzureStorageStorSimpleDataManagers_tbg.png) |
+AzureStorageStorSimpleDeviceManagers<br>Monochrome: AzureStorageStorSimpleDeviceManagers_m | ![AzureStorageStorSimpleDeviceManagers](dist/AzureStorageStorSimpleDeviceManagers_tbg.png) |
+AzureWebAPIConnections<br>Monochrome: AzureWebAPIConnections_m | ![AzureWebAPIConnections](dist/AzureWebAPIConnections_tbg.png) |
+AzureWebAPIManagementServices<br>Monochrome: AzureWebAPIManagementServices_m | ![AzureWebAPIManagementServices](dist/AzureWebAPIManagementServices_tbg.png) |
+AzureWebAppServiceCertificates<br>Monochrome: AzureWebAppServiceCertificates_m | ![AzureWebAppServiceCertificates](dist/AzureWebAppServiceCertificates_tbg.png) |
+AzureWebAppServiceDomains<br>Monochrome: AzureWebAppServiceDomains_m | ![AzureWebAppServiceDomains](dist/AzureWebAppServiceDomains_tbg.png) |
+AzureWebAppServiceEnvironments<br>Monochrome: AzureWebAppServiceEnvironments_m | ![AzureWebAppServiceEnvironments](dist/AzureWebAppServiceEnvironments_tbg.png) |
+AzureWebAppServicePlans<br>Monochrome: AzureWebAppServicePlans_m | ![AzureWebAppServicePlans](dist/AzureWebAppServicePlans_tbg.png) |
+AzureWebAppServices<br>Monochrome: AzureWebAppServices_m | ![AzureWebAppServices](dist/AzureWebAppServices_tbg.png) |
+AzureWebazuremediaservice<br>Monochrome: AzureWebazuremediaservice_m | ![AzureWebazuremediaservice](dist/AzureWebazuremediaservice_tbg.png) |
+AzureWebCDNProfiles<br>Monochrome: AzureWebCDNProfiles_m | ![AzureWebCDNProfiles](dist/AzureWebCDNProfiles_tbg.png) |
+AzureWebMediaServices<br>Monochrome: AzureWebMediaServices_m | ![AzureWebMediaServices](dist/AzureWebMediaServices_tbg.png) |
+AzureWebNotificationHubNamespaces<br>Monochrome: AzureWebNotificationHubNamespaces_m | ![AzureWebNotificationHubNamespaces](dist/AzureWebNotificationHubNamespaces_tbg.png) |
+AzureWebNotificationHubs<br>Monochrome: AzureWebNotificationHubs_m | ![AzureWebNotificationHubs](dist/AzureWebNotificationHubs_tbg.png) |
+AzureWebSearchServices<br>Monochrome: AzureWebSearchServices_m | ![AzureWebSearchServices](dist/AzureWebSearchServices_tbg.png) |
+AzureWebSignalR<br>Monochrome: AzureWebSignalR_m | ![AzureWebSignalR](dist/AzureWebSignalR_tbg.png) |

@@ -63,25 +63,21 @@ Get-ChildItem $iconPath | ForEach-Object {
     $puml | Out-File $pumlOutput -NoNewLine   
 }
 $allPuml = ""
+$markdownList = "Macro (Name) | Image`n"
+$markdownList += "--- | ---`n"
+
 Get-ChildItem ($dist + "/*.puml") | ForEach-Object { 
-    if($_.Name -eq "all.puml") {
+    $fileName = $_.Name
+    if($fileName -eq "all.puml" -or $fileName -eq "AzureCommon.puml") {
         return
     }
     $content = Get-Content $_ -Raw
     $allPuml += $content
+
+    $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
+    $markdownList +="$($serviceId)<br>Monochrome: $($serviceId)_m | ![$($serviceId)](dist/$($serviceId)_tbg.png) |`n"
 }
 $allPuml | Out-File "dist/all.puml" -NoNewLine
+$markdownList | Out-File "table.md" -NoNewLine
 
 Copy-Item "AzureCommon.puml" "$($dist)/AzureCommon.puml"
-
-$markdownList = "Macro (Name) | Url`n"
-$markdownList += "--- | ---`n"
-Get-ChildItem ($dist + "/*.puml") | ForEach-Object { 
-    $fileName = $_.Name
-    if($fileName -eq "all.puml") {
-        return
-    }
-    $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-    $markdownList +="$($serviceId) | ![$($serviceId)](dist/$($serviceId)_tbg.png) |`n"
-}
-$markdownList | Out-File "table.md" -NoNewLine
