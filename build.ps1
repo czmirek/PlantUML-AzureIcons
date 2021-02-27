@@ -75,7 +75,7 @@ Get-ChildItem ($dist + "/*.puml") | ForEach-Object {
     $allPuml += $content
 
     $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-    $markdownList +="Image:``$($serviceId)``<br>Monochrome sprite: ``$($serviceId)_m`` | ![$($serviceId)](dist/$($serviceId)_tbg.png) |`n"
+    $markdownList +="Image: ``$($serviceId)``<br>Monochrome sprite: ``$($serviceId)_m`` | ![$($serviceId)](dist/$($serviceId)_tbg.png) |`n"
 }
 $allPuml | Out-File "dist/all.puml" -NoNewLine
 $markdownList | Out-File "table.md" -NoNewLine
