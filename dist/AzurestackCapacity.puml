@@ -7,8 +7,8 @@ pgUz20hu2CX_8LvV-2hervUvCLnV5hiBANHiJvyhZlli66PanxQyVKDB-jyV
 }
 
 AzureEntityColoring(AzurestackCapacity)
-!define AzurestackCapacity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackCapacity_tbg.png", AzurestackCapacity)
-!define AzurestackCapacity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackCapacity_tbg.png", AzurestackCapacity)
+!define AzurestackCapacity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzurestackCapacity_tbg.png, AzurestackCapacity)
+!define AzurestackCapacity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzurestackCapacity_tbg.png, AzurestackCapacity)
 AzureEntityColoring(AzurestackCapacity_m)
 !define AzurestackCapacity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackCapacitySPRITE, AzurestackCapacity_m)
 !define AzurestackCapacity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackCapacitySPRITE, AzurestackCapacity_m)

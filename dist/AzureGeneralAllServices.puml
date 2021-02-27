@@ -5,8 +5,8 @@ faDo1
 }
 
 AzureEntityColoring(AzureGeneralAllServices)
-!define AzureGeneralAllServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralAllServices_tbg.png", AzureGeneralAllServices)
-!define AzureGeneralAllServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralAllServices_tbg.png", AzureGeneralAllServices)
+!define AzureGeneralAllServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralAllServices_tbg.png, AzureGeneralAllServices)
+!define AzureGeneralAllServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralAllServices_tbg.png, AzureGeneralAllServices)
 AzureEntityColoring(AzureGeneralAllServices_m)
 !define AzureGeneralAllServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralAllServicesSPRITE, AzureGeneralAllServices_m)
 !define AzureGeneralAllServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralAllServicesSPRITE, AzureGeneralAllServices_m)

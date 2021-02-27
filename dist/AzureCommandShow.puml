@@ -8,8 +8,8 @@ IKPUZJoiUNj27eI2394HEYIaIgZP43on2M8snBACyH7x52PCh9mK0b4hI3dX5SSN9LEt3W
 }
 
 AzureEntityColoring(AzureCommandShow)
-!define AzureCommandShow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandShow_tbg.png", AzureCommandShow)
-!define AzureCommandShow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandShow_tbg.png", AzureCommandShow)
+!define AzureCommandShow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandShow_tbg.png, AzureCommandShow)
+!define AzureCommandShow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandShow_tbg.png, AzureCommandShow)
 AzureEntityColoring(AzureCommandShow_m)
 !define AzureCommandShow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandShowSPRITE, AzureCommandShow_m)
 !define AzureCommandShow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandShowSPRITE, AzureCommandShow_m)

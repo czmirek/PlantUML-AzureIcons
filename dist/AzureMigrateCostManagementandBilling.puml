@@ -8,8 +8,8 @@ VbrFtw4ClEjMLGI-HhYP7fbLNd_KuEsz32KVM8CloIhPFmFNFORoNmQlEqE9OnKeCpb6WFIviSfS1XoT
 }
 
 AzureEntityColoring(AzureMigrateCostManagementandBilling)
-!define AzureMigrateCostManagementandBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMigrateCostManagementandBilling_tbg.png", AzureMigrateCostManagementandBilling)
-!define AzureMigrateCostManagementandBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMigrateCostManagementandBilling_tbg.png", AzureMigrateCostManagementandBilling)
+!define AzureMigrateCostManagementandBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureMigrateCostManagementandBilling_tbg.png, AzureMigrateCostManagementandBilling)
+!define AzureMigrateCostManagementandBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureMigrateCostManagementandBilling_tbg.png, AzureMigrateCostManagementandBilling)
 AzureEntityColoring(AzureMigrateCostManagementandBilling_m)
 !define AzureMigrateCostManagementandBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateCostManagementandBillingSPRITE, AzureMigrateCostManagementandBilling_m)
 !define AzureMigrateCostManagementandBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateCostManagementandBillingSPRITE, AzureMigrateCostManagementandBilling_m)

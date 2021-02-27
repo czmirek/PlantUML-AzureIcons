@@ -5,8 +5,8 @@ V4NtYvMbB2Kd-a1bAKjP2ZvV6JzNMKglYSu7rSWoUtpf_WC
 }
 
 AzureEntityColoring(AzureManageMachinesAzureArc)
-!define AzureManageMachinesAzureArc(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageMachinesAzureArc_tbg.png", AzureManageMachinesAzureArc)
-!define AzureManageMachinesAzureArc(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageMachinesAzureArc_tbg.png", AzureManageMachinesAzureArc)
+!define AzureManageMachinesAzureArc(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureManageMachinesAzureArc_tbg.png, AzureManageMachinesAzureArc)
+!define AzureManageMachinesAzureArc(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureManageMachinesAzureArc_tbg.png, AzureManageMachinesAzureArc)
 AzureEntityColoring(AzureManageMachinesAzureArc_m)
 !define AzureManageMachinesAzureArc_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageMachinesAzureArcSPRITE, AzureManageMachinesAzureArc_m)
 !define AzureManageMachinesAzureArc_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageMachinesAzureArcSPRITE, AzureManageMachinesAzureArc_m)

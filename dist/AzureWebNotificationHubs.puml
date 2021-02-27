@@ -4,8 +4,8 @@ KIf5XOogBEjH-3bnLrJsNXKFxGjBMI6Jah9CKbXe2lj9PIWJiQNY9IA6PNQvtMCI3sTa0aB1koXvYm8h
 }
 
 AzureEntityColoring(AzureWebNotificationHubs)
-!define AzureWebNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebNotificationHubs_tbg.png", AzureWebNotificationHubs)
-!define AzureWebNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebNotificationHubs_tbg.png", AzureWebNotificationHubs)
+!define AzureWebNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureWebNotificationHubs_tbg.png, AzureWebNotificationHubs)
+!define AzureWebNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureWebNotificationHubs_tbg.png, AzureWebNotificationHubs)
 AzureEntityColoring(AzureWebNotificationHubs_m)
 !define AzureWebNotificationHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebNotificationHubsSPRITE, AzureWebNotificationHubs_m)
 !define AzureWebNotificationHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebNotificationHubsSPRITE, AzureWebNotificationHubs_m)

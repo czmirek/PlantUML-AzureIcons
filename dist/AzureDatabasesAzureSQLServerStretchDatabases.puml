@@ -6,8 +6,8 @@ R1fZSPCF8Mf1nrgG-Oxz0m
 }
 
 AzureEntityColoring(AzureDatabasesAzureSQLServerStretchDatabases)
-!define AzureDatabasesAzureSQLServerStretchDatabases(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureSQLServerStretchDatabases_tbg.png", AzureDatabasesAzureSQLServerStretchDatabases)
-!define AzureDatabasesAzureSQLServerStretchDatabases(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureSQLServerStretchDatabases_tbg.png", AzureDatabasesAzureSQLServerStretchDatabases)
+!define AzureDatabasesAzureSQLServerStretchDatabases(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesAzureSQLServerStretchDatabases_tbg.png, AzureDatabasesAzureSQLServerStretchDatabases)
+!define AzureDatabasesAzureSQLServerStretchDatabases(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesAzureSQLServerStretchDatabases_tbg.png, AzureDatabasesAzureSQLServerStretchDatabases)
 AzureEntityColoring(AzureDatabasesAzureSQLServerStretchDatabases_m)
 !define AzureDatabasesAzureSQLServerStretchDatabases_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSQLServerStretchDatabasesSPRITE, AzureDatabasesAzureSQLServerStretchDatabases_m)
 !define AzureDatabasesAzureSQLServerStretchDatabases_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSQLServerStretchDatabasesSPRITE, AzureDatabasesAzureSQLServerStretchDatabases_m)

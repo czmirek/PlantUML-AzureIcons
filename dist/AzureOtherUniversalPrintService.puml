@@ -6,8 +6,8 @@ xakEfOsf5oVkkK9paNaFpm
 }
 
 AzureEntityColoring(AzureOtherUniversalPrintService)
-!define AzureOtherUniversalPrintService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherUniversalPrintService_tbg.png", AzureOtherUniversalPrintService)
-!define AzureOtherUniversalPrintService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherUniversalPrintService_tbg.png", AzureOtherUniversalPrintService)
+!define AzureOtherUniversalPrintService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureOtherUniversalPrintService_tbg.png, AzureOtherUniversalPrintService)
+!define AzureOtherUniversalPrintService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureOtherUniversalPrintService_tbg.png, AzureOtherUniversalPrintService)
 AzureEntityColoring(AzureOtherUniversalPrintService_m)
 !define AzureOtherUniversalPrintService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherUniversalPrintServiceSPRITE, AzureOtherUniversalPrintService_m)
 !define AzureOtherUniversalPrintService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherUniversalPrintServiceSPRITE, AzureOtherUniversalPrintService_m)

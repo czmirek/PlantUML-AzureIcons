@@ -7,8 +7,8 @@ fhIFtWp5vmgAJo8S7Kj6igsqUmCeATuoHIrJKYCKxg7vMf4SQSBH-01onRqjya3qV9OftjRvM2De4HuL
 }
 
 AzureEntityColoring(AzureIdentityAzureInformationProtection)
-!define AzureIdentityAzureInformationProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityAzureInformationProtection_tbg.png", AzureIdentityAzureInformationProtection)
-!define AzureIdentityAzureInformationProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityAzureInformationProtection_tbg.png", AzureIdentityAzureInformationProtection)
+!define AzureIdentityAzureInformationProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIdentityAzureInformationProtection_tbg.png, AzureIdentityAzureInformationProtection)
+!define AzureIdentityAzureInformationProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIdentityAzureInformationProtection_tbg.png, AzureIdentityAzureInformationProtection)
 AzureEntityColoring(AzureIdentityAzureInformationProtection_m)
 !define AzureIdentityAzureInformationProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityAzureInformationProtectionSPRITE, AzureIdentityAzureInformationProtection_m)
 !define AzureIdentityAzureInformationProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityAzureInformationProtectionSPRITE, AzureIdentityAzureInformationProtection_m)

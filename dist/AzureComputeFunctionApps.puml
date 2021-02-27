@@ -6,8 +6,8 @@ vfmHAaZctC60K44nvuwtSo8hw8GzJecii3fEo9wW0l4An7162gR03WOLY5SWXWh4An131U9jikC9M4t-
 }
 
 AzureEntityColoring(AzureComputeFunctionApps)
-!define AzureComputeFunctionApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeFunctionApps_tbg.png", AzureComputeFunctionApps)
-!define AzureComputeFunctionApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeFunctionApps_tbg.png", AzureComputeFunctionApps)
+!define AzureComputeFunctionApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureComputeFunctionApps_tbg.png, AzureComputeFunctionApps)
+!define AzureComputeFunctionApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureComputeFunctionApps_tbg.png, AzureComputeFunctionApps)
 AzureEntityColoring(AzureComputeFunctionApps_m)
 !define AzureComputeFunctionApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeFunctionAppsSPRITE, AzureComputeFunctionApps_m)
 !define AzureComputeFunctionApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeFunctionAppsSPRITE, AzureComputeFunctionApps_m)

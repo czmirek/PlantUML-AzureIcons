@@ -7,8 +7,8 @@ rnIBt192SKXMjvAZHIJdk4UGU8moF4ze9dB6Jo7mcAVFADMlmZL2VfcMlxeV
 }
 
 AzureEntityColoring(AzureComputeImages)
-!define AzureComputeImages(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeImages_tbg.png", AzureComputeImages)
-!define AzureComputeImages(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeImages_tbg.png", AzureComputeImages)
+!define AzureComputeImages(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureComputeImages_tbg.png, AzureComputeImages)
+!define AzureComputeImages(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureComputeImages_tbg.png, AzureComputeImages)
 AzureEntityColoring(AzureComputeImages_m)
 !define AzureComputeImages_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeImagesSPRITE, AzureComputeImages_m)
 !define AzureComputeImages_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeImagesSPRITE, AzureComputeImages_m)

@@ -6,8 +6,8 @@ E2Dxu0K5ZAWMLuIZAfoqtPp2IPjLNUUodZxMj8AOJh5UFvp8LGwKwESeh5nKS4RfrsWhtHTKkhieyOx-
 }
 
 AzureEntityColoring(AzureIntuneSecurityBaselines)
-!define AzureIntuneSecurityBaselines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneSecurityBaselines_tbg.png", AzureIntuneSecurityBaselines)
-!define AzureIntuneSecurityBaselines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneSecurityBaselines_tbg.png", AzureIntuneSecurityBaselines)
+!define AzureIntuneSecurityBaselines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIntuneSecurityBaselines_tbg.png, AzureIntuneSecurityBaselines)
+!define AzureIntuneSecurityBaselines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIntuneSecurityBaselines_tbg.png, AzureIntuneSecurityBaselines)
 AzureEntityColoring(AzureIntuneSecurityBaselines_m)
 !define AzureIntuneSecurityBaselines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneSecurityBaselinesSPRITE, AzureIntuneSecurityBaselines_m)
 !define AzureIntuneSecurityBaselines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneSecurityBaselinesSPRITE, AzureIntuneSecurityBaselines_m)

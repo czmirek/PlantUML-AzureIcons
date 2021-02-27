@@ -6,8 +6,8 @@ Hd43ad66d-yekFUEZexU0G
 }
 
 AzureEntityColoring(AzureNetworkingRouteFilters)
-!define AzureNetworkingRouteFilters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingRouteFilters_tbg.png", AzureNetworkingRouteFilters)
-!define AzureNetworkingRouteFilters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingRouteFilters_tbg.png", AzureNetworkingRouteFilters)
+!define AzureNetworkingRouteFilters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingRouteFilters_tbg.png, AzureNetworkingRouteFilters)
+!define AzureNetworkingRouteFilters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingRouteFilters_tbg.png, AzureNetworkingRouteFilters)
 AzureEntityColoring(AzureNetworkingRouteFilters_m)
 !define AzureNetworkingRouteFilters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingRouteFiltersSPRITE, AzureNetworkingRouteFilters_m)
 !define AzureNetworkingRouteFilters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingRouteFiltersSPRITE, AzureNetworkingRouteFilters_m)

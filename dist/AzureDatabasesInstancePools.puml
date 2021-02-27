@@ -8,8 +8,8 @@ ov8yZJ3ZGRkAeiO3fxciP-SMg2AdJSJ7igXYcnuhajClsdy
 }
 
 AzureEntityColoring(AzureDatabasesInstancePools)
-!define AzureDatabasesInstancePools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesInstancePools_tbg.png", AzureDatabasesInstancePools)
-!define AzureDatabasesInstancePools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesInstancePools_tbg.png", AzureDatabasesInstancePools)
+!define AzureDatabasesInstancePools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesInstancePools_tbg.png, AzureDatabasesInstancePools)
+!define AzureDatabasesInstancePools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesInstancePools_tbg.png, AzureDatabasesInstancePools)
 AzureEntityColoring(AzureDatabasesInstancePools_m)
 !define AzureDatabasesInstancePools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesInstancePoolsSPRITE, AzureDatabasesInstancePools_m)
 !define AzureDatabasesInstancePools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesInstancePoolsSPRITE, AzureDatabasesInstancePools_m)

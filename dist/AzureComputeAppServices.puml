@@ -11,8 +11,8 @@ TrNBTnprjH5KNccyK2W_05yxDXklGABkdqLounrfrBeKQYYL_mSivb6RS5E2yZVy0m
 }
 
 AzureEntityColoring(AzureComputeAppServices)
-!define AzureComputeAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeAppServices_tbg.png", AzureComputeAppServices)
-!define AzureComputeAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeAppServices_tbg.png", AzureComputeAppServices)
+!define AzureComputeAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureComputeAppServices_tbg.png, AzureComputeAppServices)
+!define AzureComputeAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureComputeAppServices_tbg.png, AzureComputeAppServices)
 AzureEntityColoring(AzureComputeAppServices_m)
 !define AzureComputeAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeAppServicesSPRITE, AzureComputeAppServices_m)
 !define AzureComputeAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeAppServicesSPRITE, AzureComputeAppServices_m)

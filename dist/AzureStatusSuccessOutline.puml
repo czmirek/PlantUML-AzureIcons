@@ -6,8 +6,8 @@ YaY0Tv-2pYUoTvyEpoVLzvoQWSAVj0ZeEsysvrlM9snyb3dnYPimtih74Bspo5M-vct5Fru
 }
 
 AzureEntityColoring(AzureStatusSuccessOutline)
-!define AzureStatusSuccessOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusSuccessOutline_tbg.png", AzureStatusSuccessOutline)
-!define AzureStatusSuccessOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusSuccessOutline_tbg.png", AzureStatusSuccessOutline)
+!define AzureStatusSuccessOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusSuccessOutline_tbg.png, AzureStatusSuccessOutline)
+!define AzureStatusSuccessOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusSuccessOutline_tbg.png, AzureStatusSuccessOutline)
 AzureEntityColoring(AzureStatusSuccessOutline_m)
 !define AzureStatusSuccessOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusSuccessOutlineSPRITE, AzureStatusSuccessOutline_m)
 !define AzureStatusSuccessOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusSuccessOutlineSPRITE, AzureStatusSuccessOutline_m)

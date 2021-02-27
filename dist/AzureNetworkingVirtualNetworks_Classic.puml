@@ -6,8 +6,8 @@ DYCl5Yb6SJTba60gKXa1avZYOMg2T-_gwkeB
 }
 
 AzureEntityColoring(AzureNetworkingVirtualNetworks_Classic)
-!define AzureNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingVirtualNetworks_Classic_tbg.png", AzureNetworkingVirtualNetworks_Classic)
-!define AzureNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingVirtualNetworks_Classic_tbg.png", AzureNetworkingVirtualNetworks_Classic)
+!define AzureNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingVirtualNetworks_Classic_tbg.png, AzureNetworkingVirtualNetworks_Classic)
+!define AzureNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingVirtualNetworks_Classic_tbg.png, AzureNetworkingVirtualNetworks_Classic)
 AzureEntityColoring(AzureNetworkingVirtualNetworks_Classic_m)
 !define AzureNetworkingVirtualNetworks_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingVirtualNetworks_ClassicSPRITE, AzureNetworkingVirtualNetworks_Classic_m)
 !define AzureNetworkingVirtualNetworks_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingVirtualNetworks_ClassicSPRITE, AzureNetworkingVirtualNetworks_Classic_m)

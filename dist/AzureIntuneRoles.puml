@@ -7,8 +7,8 @@ Ah0E7BJALX6mimfzggGSfnMTJvJZkc9zMgd1QmNPF9ZVJgz8fx6L-LXHcHXOXgC2UQHLv2a5LVvQNm
 }
 
 AzureEntityColoring(AzureIntuneRoles)
-!define AzureIntuneRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneRoles_tbg.png", AzureIntuneRoles)
-!define AzureIntuneRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneRoles_tbg.png", AzureIntuneRoles)
+!define AzureIntuneRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIntuneRoles_tbg.png, AzureIntuneRoles)
+!define AzureIntuneRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIntuneRoles_tbg.png, AzureIntuneRoles)
 AzureEntityColoring(AzureIntuneRoles_m)
 !define AzureIntuneRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneRolesSPRITE, AzureIntuneRoles_m)
 !define AzureIntuneRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneRolesSPRITE, AzureIntuneRoles_m)

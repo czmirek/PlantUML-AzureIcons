@@ -6,8 +6,8 @@ ZNntTHsHLTFft2gLThZxagW2DelMzQ8Df8ZSEZMPvMq5vgfrOyxKOQvOFrVxra0Bjm6JDcg5J1T9una4
 }
 
 AzureEntityColoring(AzureIdentityEnterpriseApplications)
-!define AzureIdentityEnterpriseApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityEnterpriseApplications_tbg.png", AzureIdentityEnterpriseApplications)
-!define AzureIdentityEnterpriseApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityEnterpriseApplications_tbg.png", AzureIdentityEnterpriseApplications)
+!define AzureIdentityEnterpriseApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIdentityEnterpriseApplications_tbg.png, AzureIdentityEnterpriseApplications)
+!define AzureIdentityEnterpriseApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIdentityEnterpriseApplications_tbg.png, AzureIdentityEnterpriseApplications)
 AzureEntityColoring(AzureIdentityEnterpriseApplications_m)
 !define AzureIdentityEnterpriseApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityEnterpriseApplicationsSPRITE, AzureIdentityEnterpriseApplications_m)
 !define AzureIdentityEnterpriseApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityEnterpriseApplicationsSPRITE, AzureIdentityEnterpriseApplications_m)

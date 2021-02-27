@@ -9,8 +9,8 @@ iPBKUOQV_y75Vk6EIq8efz0lZjNvyH4oxPVzWYE3OI5_
 }
 
 AzureEntityColoring(AzureBlockchainAzureBlockchainService)
-!define AzureBlockchainAzureBlockchainService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureBlockchainAzureBlockchainService_tbg.png", AzureBlockchainAzureBlockchainService)
-!define AzureBlockchainAzureBlockchainService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureBlockchainAzureBlockchainService_tbg.png", AzureBlockchainAzureBlockchainService)
+!define AzureBlockchainAzureBlockchainService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureBlockchainAzureBlockchainService_tbg.png, AzureBlockchainAzureBlockchainService)
+!define AzureBlockchainAzureBlockchainService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureBlockchainAzureBlockchainService_tbg.png, AzureBlockchainAzureBlockchainService)
 AzureEntityColoring(AzureBlockchainAzureBlockchainService_m)
 !define AzureBlockchainAzureBlockchainService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainAzureBlockchainServiceSPRITE, AzureBlockchainAzureBlockchainService_m)
 !define AzureBlockchainAzureBlockchainService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainAzureBlockchainServiceSPRITE, AzureBlockchainAzureBlockchainService_m)

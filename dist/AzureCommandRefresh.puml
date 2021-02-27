@@ -8,8 +8,8 @@ hewhjtB_F315vnQobJY6Hl92_27j6DOru9xu0oqmW2VkG1u6SSWDqC4RV4ny8qKFxp4-8ENCd3DXy0RQ
 }
 
 AzureEntityColoring(AzureCommandRefresh)
-!define AzureCommandRefresh(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandRefresh_tbg.png", AzureCommandRefresh)
-!define AzureCommandRefresh(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandRefresh_tbg.png", AzureCommandRefresh)
+!define AzureCommandRefresh(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandRefresh_tbg.png, AzureCommandRefresh)
+!define AzureCommandRefresh(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandRefresh_tbg.png, AzureCommandRefresh)
 AzureEntityColoring(AzureCommandRefresh_m)
 !define AzureCommandRefresh_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandRefreshSPRITE, AzureCommandRefresh_m)
 !define AzureCommandRefresh_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandRefreshSPRITE, AzureCommandRefresh_m)

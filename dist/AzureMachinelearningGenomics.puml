@@ -8,8 +8,8 @@ YlRTQ-tnTh5zSvz6KOOp2F_63m
 }
 
 AzureEntityColoring(AzureMachinelearningGenomics)
-!define AzureMachinelearningGenomics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMachinelearningGenomics_tbg.png", AzureMachinelearningGenomics)
-!define AzureMachinelearningGenomics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMachinelearningGenomics_tbg.png", AzureMachinelearningGenomics)
+!define AzureMachinelearningGenomics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureMachinelearningGenomics_tbg.png, AzureMachinelearningGenomics)
+!define AzureMachinelearningGenomics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureMachinelearningGenomics_tbg.png, AzureMachinelearningGenomics)
 AzureEntityColoring(AzureMachinelearningGenomics_m)
 !define AzureMachinelearningGenomics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinelearningGenomicsSPRITE, AzureMachinelearningGenomics_m)
 !define AzureMachinelearningGenomics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinelearningGenomicsSPRITE, AzureMachinelearningGenomics_m)

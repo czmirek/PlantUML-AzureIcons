@@ -5,8 +5,8 @@ azbLWPnIWPnIWQJtOb6HFZEKbL9UALsLjWhUoghVMXchcd-_rorpPl5K_6U6gz8cQdPKKldOigDYShGY
 }
 
 AzureEntityColoring(AzureCommandSaveAll)
-!define AzureCommandSaveAll(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandSaveAll_tbg.png", AzureCommandSaveAll)
-!define AzureCommandSaveAll(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandSaveAll_tbg.png", AzureCommandSaveAll)
+!define AzureCommandSaveAll(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandSaveAll_tbg.png, AzureCommandSaveAll)
+!define AzureCommandSaveAll(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandSaveAll_tbg.png, AzureCommandSaveAll)
 AzureEntityColoring(AzureCommandSaveAll_m)
 !define AzureCommandSaveAll_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSaveAllSPRITE, AzureCommandSaveAll_m)
 !define AzureCommandSaveAll_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSaveAllSPRITE, AzureCommandSaveAll_m)

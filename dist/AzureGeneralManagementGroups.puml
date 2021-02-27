@@ -7,8 +7,8 @@ yc79Z95YzTN2ag4EgubEPLEj7HFuCLLMctXrCaH_GFLfz_AtfkF3LJa74p_W2q7g3_XQuSyderVFsf1_
 }
 
 AzureEntityColoring(AzureGeneralManagementGroups)
-!define AzureGeneralManagementGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralManagementGroups_tbg.png", AzureGeneralManagementGroups)
-!define AzureGeneralManagementGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralManagementGroups_tbg.png", AzureGeneralManagementGroups)
+!define AzureGeneralManagementGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralManagementGroups_tbg.png, AzureGeneralManagementGroups)
+!define AzureGeneralManagementGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralManagementGroups_tbg.png, AzureGeneralManagementGroups)
 AzureEntityColoring(AzureGeneralManagementGroups_m)
 !define AzureGeneralManagementGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralManagementGroupsSPRITE, AzureGeneralManagementGroups_m)
 !define AzureGeneralManagementGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralManagementGroupsSPRITE, AzureGeneralManagementGroups_m)

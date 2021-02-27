@@ -11,8 +11,8 @@ o61u1VywlDeMnYp2pZbw9Tu_Fb-NiUFQO_GmTDbKu0FaGeFblgDbFoUcklGsP7AEW_o5P8JB2XCXKIg-
 }
 
 AzureEntityColoring(AzureManageNetworkWatcher)
-!define AzureManageNetworkWatcher(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageNetworkWatcher_tbg.png", AzureManageNetworkWatcher)
-!define AzureManageNetworkWatcher(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageNetworkWatcher_tbg.png", AzureManageNetworkWatcher)
+!define AzureManageNetworkWatcher(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureManageNetworkWatcher_tbg.png, AzureManageNetworkWatcher)
+!define AzureManageNetworkWatcher(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureManageNetworkWatcher_tbg.png, AzureManageNetworkWatcher)
 AzureEntityColoring(AzureManageNetworkWatcher_m)
 !define AzureManageNetworkWatcher_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageNetworkWatcherSPRITE, AzureManageNetworkWatcher_m)
 !define AzureManageNetworkWatcher_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageNetworkWatcherSPRITE, AzureManageNetworkWatcher_m)

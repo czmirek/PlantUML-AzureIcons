@@ -6,8 +6,8 @@ GC0G430410m1kMHIM2qH430410m10KD0Pb4aXY_j0m
 }
 
 AzureEntityColoring(AzureGeneralTags)
-!define AzureGeneralTags(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralTags_tbg.png", AzureGeneralTags)
-!define AzureGeneralTags(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralTags_tbg.png", AzureGeneralTags)
+!define AzureGeneralTags(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralTags_tbg.png, AzureGeneralTags)
+!define AzureGeneralTags(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralTags_tbg.png, AzureGeneralTags)
 AzureEntityColoring(AzureGeneralTags_m)
 !define AzureGeneralTags_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralTagsSPRITE, AzureGeneralTags_m)
 !define AzureGeneralTags_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralTagsSPRITE, AzureGeneralTags_m)

@@ -8,8 +8,8 @@ vJopu_CFtQSLT9zVTi8mdOPT-TxU9ysU47YhJmGRU1C2c0gtQKNuDQrGdqzEv5CSlXcNxeZapFJUb27F
 }
 
 AzureEntityColoring(AzureCommandCollapse)
-!define AzureCommandCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandCollapse_tbg.png", AzureCommandCollapse)
-!define AzureCommandCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandCollapse_tbg.png", AzureCommandCollapse)
+!define AzureCommandCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandCollapse_tbg.png, AzureCommandCollapse)
+!define AzureCommandCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandCollapse_tbg.png, AzureCommandCollapse)
 AzureEntityColoring(AzureCommandCollapse_m)
 !define AzureCommandCollapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCollapseSPRITE, AzureCommandCollapse_m)
 !define AzureCommandCollapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCollapseSPRITE, AzureCommandCollapse_m)

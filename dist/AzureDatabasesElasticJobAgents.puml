@@ -9,8 +9,8 @@ hhHw_01l32c4h99WfUvN8lKA8vn1ijtooYfzkPAyGaoiCC8AC_wN2vrNZB3238-BtsYAWgBfF6A1qksX
 }
 
 AzureEntityColoring(AzureDatabasesElasticJobAgents)
-!define AzureDatabasesElasticJobAgents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesElasticJobAgents_tbg.png", AzureDatabasesElasticJobAgents)
-!define AzureDatabasesElasticJobAgents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesElasticJobAgents_tbg.png", AzureDatabasesElasticJobAgents)
+!define AzureDatabasesElasticJobAgents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesElasticJobAgents_tbg.png, AzureDatabasesElasticJobAgents)
+!define AzureDatabasesElasticJobAgents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesElasticJobAgents_tbg.png, AzureDatabasesElasticJobAgents)
 AzureEntityColoring(AzureDatabasesElasticJobAgents_m)
 !define AzureDatabasesElasticJobAgents_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesElasticJobAgentsSPRITE, AzureDatabasesElasticJobAgents_m)
 !define AzureDatabasesElasticJobAgents_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesElasticJobAgentsSPRITE, AzureDatabasesElasticJobAgents_m)

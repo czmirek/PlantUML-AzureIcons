@@ -6,8 +6,8 @@ sKw-C_P4PaKTg8A5fiWpA4QULDNQws4dtJASucjHec3RaxxPY3S-I-kKpyU8CCTr-JbeEgkbVh0sohAK
 }
 
 AzureEntityColoring(AzureCommandProperties)
-!define AzureCommandProperties(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandProperties_tbg.png", AzureCommandProperties)
-!define AzureCommandProperties(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandProperties_tbg.png", AzureCommandProperties)
+!define AzureCommandProperties(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandProperties_tbg.png, AzureCommandProperties)
+!define AzureCommandProperties(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandProperties_tbg.png, AzureCommandProperties)
 AzureEntityColoring(AzureCommandProperties_m)
 !define AzureCommandProperties_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPropertiesSPRITE, AzureCommandProperties_m)
 !define AzureCommandProperties_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPropertiesSPRITE, AzureCommandProperties_m)

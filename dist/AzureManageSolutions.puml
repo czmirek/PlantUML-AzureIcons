@@ -7,8 +7,8 @@ PxKSNvC_I-kMFylYMItBZe-oj1iM-IJByeaMkM7XaYB7zyi_JotVYFy
 }
 
 AzureEntityColoring(AzureManageSolutions)
-!define AzureManageSolutions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageSolutions_tbg.png", AzureManageSolutions)
-!define AzureManageSolutions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageSolutions_tbg.png", AzureManageSolutions)
+!define AzureManageSolutions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureManageSolutions_tbg.png, AzureManageSolutions)
+!define AzureManageSolutions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureManageSolutions_tbg.png, AzureManageSolutions)
 AzureEntityColoring(AzureManageSolutions_m)
 !define AzureManageSolutions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageSolutionsSPRITE, AzureManageSolutions_m)
 !define AzureManageSolutions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageSolutionsSPRITE, AzureManageSolutions_m)

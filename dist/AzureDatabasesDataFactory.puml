@@ -6,8 +6,8 @@ AYrW6ketUpLkHL-hQFlk_3f5wT4VEjRfe_eB
 }
 
 AzureEntityColoring(AzureDatabasesDataFactory)
-!define AzureDatabasesDataFactory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesDataFactory_tbg.png", AzureDatabasesDataFactory)
-!define AzureDatabasesDataFactory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesDataFactory_tbg.png", AzureDatabasesDataFactory)
+!define AzureDatabasesDataFactory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesDataFactory_tbg.png, AzureDatabasesDataFactory)
+!define AzureDatabasesDataFactory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesDataFactory_tbg.png, AzureDatabasesDataFactory)
 AzureEntityColoring(AzureDatabasesDataFactory_m)
 !define AzureDatabasesDataFactory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesDataFactorySPRITE, AzureDatabasesDataFactory_m)
 !define AzureDatabasesDataFactory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesDataFactorySPRITE, AzureDatabasesDataFactory_m)

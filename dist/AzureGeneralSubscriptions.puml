@@ -6,8 +6,8 @@ v1O
 }
 
 AzureEntityColoring(AzureGeneralSubscriptions)
-!define AzureGeneralSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralSubscriptions_tbg.png", AzureGeneralSubscriptions)
-!define AzureGeneralSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralSubscriptions_tbg.png", AzureGeneralSubscriptions)
+!define AzureGeneralSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralSubscriptions_tbg.png, AzureGeneralSubscriptions)
+!define AzureGeneralSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralSubscriptions_tbg.png, AzureGeneralSubscriptions)
 AzureEntityColoring(AzureGeneralSubscriptions_m)
 !define AzureGeneralSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralSubscriptionsSPRITE, AzureGeneralSubscriptions_m)
 !define AzureGeneralSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralSubscriptionsSPRITE, AzureGeneralSubscriptions_m)

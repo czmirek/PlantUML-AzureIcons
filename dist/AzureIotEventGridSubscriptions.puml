@@ -5,8 +5,8 @@ Adn6nbWyGUkAni_CXU5R1U4Ojgrv9XwLJ8ZAVsv6jYhyQeBGgwmA2Wda3a4aatCjVm
 }
 
 AzureEntityColoring(AzureIotEventGridSubscriptions)
-!define AzureIotEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotEventGridSubscriptions_tbg.png", AzureIotEventGridSubscriptions)
-!define AzureIotEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotEventGridSubscriptions_tbg.png", AzureIotEventGridSubscriptions)
+!define AzureIotEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIotEventGridSubscriptions_tbg.png, AzureIotEventGridSubscriptions)
+!define AzureIotEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIotEventGridSubscriptions_tbg.png, AzureIotEventGridSubscriptions)
 AzureEntityColoring(AzureIotEventGridSubscriptions_m)
 !define AzureIotEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotEventGridSubscriptionsSPRITE, AzureIotEventGridSubscriptions_m)
 !define AzureIotEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotEventGridSubscriptionsSPRITE, AzureIotEventGridSubscriptions_m)

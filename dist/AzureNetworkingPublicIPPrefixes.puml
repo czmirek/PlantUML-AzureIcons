@@ -5,8 +5,8 @@ oL0HnO6L03O6LI7ibRtoAoWupuFogzYz0m
 }
 
 AzureEntityColoring(AzureNetworkingPublicIPPrefixes)
-!define AzureNetworkingPublicIPPrefixes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingPublicIPPrefixes_tbg.png", AzureNetworkingPublicIPPrefixes)
-!define AzureNetworkingPublicIPPrefixes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingPublicIPPrefixes_tbg.png", AzureNetworkingPublicIPPrefixes)
+!define AzureNetworkingPublicIPPrefixes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingPublicIPPrefixes_tbg.png, AzureNetworkingPublicIPPrefixes)
+!define AzureNetworkingPublicIPPrefixes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingPublicIPPrefixes_tbg.png, AzureNetworkingPublicIPPrefixes)
 AzureEntityColoring(AzureNetworkingPublicIPPrefixes_m)
 !define AzureNetworkingPublicIPPrefixes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPPrefixesSPRITE, AzureNetworkingPublicIPPrefixes_m)
 !define AzureNetworkingPublicIPPrefixes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPPrefixesSPRITE, AzureNetworkingPublicIPPrefixes_m)

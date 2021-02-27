@@ -6,8 +6,8 @@ YCpIOG5I1TGC21xO130RObd4-8Xz4XCcLauAWQWLefpGYkEBagbR0m
 }
 
 AzureEntityColoring(AzureStatusCancelled)
-!define AzureStatusCancelled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusCancelled_tbg.png", AzureStatusCancelled)
-!define AzureStatusCancelled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusCancelled_tbg.png", AzureStatusCancelled)
+!define AzureStatusCancelled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusCancelled_tbg.png, AzureStatusCancelled)
+!define AzureStatusCancelled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusCancelled_tbg.png, AzureStatusCancelled)
 AzureEntityColoring(AzureStatusCancelled_m)
 !define AzureStatusCancelled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusCancelledSPRITE, AzureStatusCancelled_m)
 !define AzureStatusCancelled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusCancelledSPRITE, AzureStatusCancelled_m)

@@ -8,8 +8,8 @@ Ri8__bR-u_yXm11BVKEOjYVuvXK
 }
 
 AzureEntityColoring(AzureStatusPendingOutline)
-!define AzureStatusPendingOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusPendingOutline_tbg.png", AzureStatusPendingOutline)
-!define AzureStatusPendingOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusPendingOutline_tbg.png", AzureStatusPendingOutline)
+!define AzureStatusPendingOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusPendingOutline_tbg.png, AzureStatusPendingOutline)
+!define AzureStatusPendingOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusPendingOutline_tbg.png, AzureStatusPendingOutline)
 AzureEntityColoring(AzureStatusPendingOutline_m)
 !define AzureStatusPendingOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusPendingOutlineSPRITE, AzureStatusPendingOutline_m)
 !define AzureStatusPendingOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusPendingOutlineSPRITE, AzureStatusPendingOutline_m)

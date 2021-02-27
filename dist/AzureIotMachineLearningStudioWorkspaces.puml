@@ -5,8 +5,8 @@ FuMKnSPnNCJ07cRqOWTQQx6-zF86nJrqTFa7KWgiNLZjPNqFYtQXGWQcu_g-jCTbczE13MswW6_3TB6p
 }
 
 AzureEntityColoring(AzureIotMachineLearningStudioWorkspaces)
-!define AzureIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotMachineLearningStudioWorkspaces_tbg.png", AzureIotMachineLearningStudioWorkspaces)
-!define AzureIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotMachineLearningStudioWorkspaces_tbg.png", AzureIotMachineLearningStudioWorkspaces)
+!define AzureIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIotMachineLearningStudioWorkspaces_tbg.png, AzureIotMachineLearningStudioWorkspaces)
+!define AzureIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIotMachineLearningStudioWorkspaces_tbg.png, AzureIotMachineLearningStudioWorkspaces)
 AzureEntityColoring(AzureIotMachineLearningStudioWorkspaces_m)
 !define AzureIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotMachineLearningStudioWorkspacesSPRITE, AzureIotMachineLearningStudioWorkspaces_m)
 !define AzureIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotMachineLearningStudioWorkspacesSPRITE, AzureIotMachineLearningStudioWorkspaces_m)

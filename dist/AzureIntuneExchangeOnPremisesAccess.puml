@@ -5,8 +5,8 @@ Tbi5a-B7AkADqNLINLI-RmTaYjUi13NYe56Di56kCg-NvNO_g2xwJogj8dSLOIiAGtUh3eOI5SqK-eSg
 }
 
 AzureEntityColoring(AzureIntuneExchangeOnPremisesAccess)
-!define AzureIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneExchangeOnPremisesAccess_tbg.png", AzureIntuneExchangeOnPremisesAccess)
-!define AzureIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneExchangeOnPremisesAccess_tbg.png", AzureIntuneExchangeOnPremisesAccess)
+!define AzureIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIntuneExchangeOnPremisesAccess_tbg.png, AzureIntuneExchangeOnPremisesAccess)
+!define AzureIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIntuneExchangeOnPremisesAccess_tbg.png, AzureIntuneExchangeOnPremisesAccess)
 AzureEntityColoring(AzureIntuneExchangeOnPremisesAccess_m)
 !define AzureIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneExchangeOnPremisesAccessSPRITE, AzureIntuneExchangeOnPremisesAccess_m)
 !define AzureIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneExchangeOnPremisesAccessSPRITE, AzureIntuneExchangeOnPremisesAccess_m)

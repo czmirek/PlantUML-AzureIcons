@@ -7,8 +7,8 @@ YLJ9sJV3ddW--TOaugRaGAv782iKv6f49KWEAe-moBf2vXs6o84Cmt9o1Sp4I4vnCf9dyaZEsE6oLsFG
 }
 
 AzureEntityColoring(AzureNetworkingApplicationSecurityGroups)
-!define AzureNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingApplicationSecurityGroups_tbg.png", AzureNetworkingApplicationSecurityGroups)
-!define AzureNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingApplicationSecurityGroups_tbg.png", AzureNetworkingApplicationSecurityGroups)
+!define AzureNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingApplicationSecurityGroups_tbg.png, AzureNetworkingApplicationSecurityGroups)
+!define AzureNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingApplicationSecurityGroups_tbg.png, AzureNetworkingApplicationSecurityGroups)
 AzureEntityColoring(AzureNetworkingApplicationSecurityGroups_m)
 !define AzureNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingApplicationSecurityGroupsSPRITE, AzureNetworkingApplicationSecurityGroups_m)
 !define AzureNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingApplicationSecurityGroupsSPRITE, AzureNetworkingApplicationSecurityGroups_m)

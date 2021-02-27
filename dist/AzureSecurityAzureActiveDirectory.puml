@@ -7,8 +7,8 @@ L2ShKguZDE-jh7MCN_-Kwo0fKglJQDvAP57eTbQiqwX8lKuePvTZ8mZ5zZ-iE5sExG375-ON
 }
 
 AzureEntityColoring(AzureSecurityAzureActiveDirectory)
-!define AzureSecurityAzureActiveDirectory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityAzureActiveDirectory_tbg.png", AzureSecurityAzureActiveDirectory)
-!define AzureSecurityAzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityAzureActiveDirectory_tbg.png", AzureSecurityAzureActiveDirectory)
+!define AzureSecurityAzureActiveDirectory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureSecurityAzureActiveDirectory_tbg.png, AzureSecurityAzureActiveDirectory)
+!define AzureSecurityAzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureSecurityAzureActiveDirectory_tbg.png, AzureSecurityAzureActiveDirectory)
 AzureEntityColoring(AzureSecurityAzureActiveDirectory_m)
 !define AzureSecurityAzureActiveDirectory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityAzureActiveDirectorySPRITE, AzureSecurityAzureActiveDirectory_m)
 !define AzureSecurityAzureActiveDirectory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityAzureActiveDirectorySPRITE, AzureSecurityAzureActiveDirectory_m)

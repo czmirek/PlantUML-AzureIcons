@@ -7,8 +7,8 @@ AM3Ld0hjFdZmIfa1ezXzP85-1KlSxqDADa2_902i0D_hTLP5Lw20foYab1H-Irzz0m
 }
 
 AzureEntityColoring(AzureContainersContainerRegistries)
-!define AzureContainersContainerRegistries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureContainersContainerRegistries_tbg.png", AzureContainersContainerRegistries)
-!define AzureContainersContainerRegistries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureContainersContainerRegistries_tbg.png", AzureContainersContainerRegistries)
+!define AzureContainersContainerRegistries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureContainersContainerRegistries_tbg.png, AzureContainersContainerRegistries)
+!define AzureContainersContainerRegistries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureContainersContainerRegistries_tbg.png, AzureContainersContainerRegistries)
 AzureEntityColoring(AzureContainersContainerRegistries_m)
 !define AzureContainersContainerRegistries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainersContainerRegistriesSPRITE, AzureContainersContainerRegistries_m)
 !define AzureContainersContainerRegistries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainersContainerRegistriesSPRITE, AzureContainersContainerRegistries_m)

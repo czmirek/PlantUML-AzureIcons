@@ -8,8 +8,8 @@ _Fa2
 }
 
 AzureEntityColoring(AzureContainersKubernetesServices)
-!define AzureContainersKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureContainersKubernetesServices_tbg.png", AzureContainersKubernetesServices)
-!define AzureContainersKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureContainersKubernetesServices_tbg.png", AzureContainersKubernetesServices)
+!define AzureContainersKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureContainersKubernetesServices_tbg.png, AzureContainersKubernetesServices)
+!define AzureContainersKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureContainersKubernetesServices_tbg.png, AzureContainersKubernetesServices)
 AzureEntityColoring(AzureContainersKubernetesServices_m)
 !define AzureContainersKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainersKubernetesServicesSPRITE, AzureContainersKubernetesServices_m)
 !define AzureContainersKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainersKubernetesServicesSPRITE, AzureContainersKubernetesServices_m)

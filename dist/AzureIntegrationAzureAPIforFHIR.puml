@@ -8,8 +8,8 @@ gFOPXqczxdVC-ahwmmDNiW-EAL5z4xeah6-4OPjDeFgZ-0W
 }
 
 AzureEntityColoring(AzureIntegrationAzureAPIforFHIR)
-!define AzureIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationAzureAPIforFHIR_tbg.png", AzureIntegrationAzureAPIforFHIR)
-!define AzureIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationAzureAPIforFHIR_tbg.png", AzureIntegrationAzureAPIforFHIR)
+!define AzureIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIntegrationAzureAPIforFHIR_tbg.png, AzureIntegrationAzureAPIforFHIR)
+!define AzureIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIntegrationAzureAPIforFHIR_tbg.png, AzureIntegrationAzureAPIforFHIR)
 AzureEntityColoring(AzureIntegrationAzureAPIforFHIR_m)
 !define AzureIntegrationAzureAPIforFHIR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationAzureAPIforFHIRSPRITE, AzureIntegrationAzureAPIforFHIR_m)
 !define AzureIntegrationAzureAPIforFHIR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationAzureAPIforFHIRSPRITE, AzureIntegrationAzureAPIforFHIR_m)

@@ -8,8 +8,8 @@ _LyLXLBLgElulad-neOQhPXpGOFwJ-SN
 }
 
 AzureEntityColoring(AzureIdentityAzureADDomainServices)
-!define AzureIdentityAzureADDomainServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityAzureADDomainServices_tbg.png", AzureIdentityAzureADDomainServices)
-!define AzureIdentityAzureADDomainServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityAzureADDomainServices_tbg.png", AzureIdentityAzureADDomainServices)
+!define AzureIdentityAzureADDomainServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIdentityAzureADDomainServices_tbg.png, AzureIdentityAzureADDomainServices)
+!define AzureIdentityAzureADDomainServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIdentityAzureADDomainServices_tbg.png, AzureIdentityAzureADDomainServices)
 AzureEntityColoring(AzureIdentityAzureADDomainServices_m)
 !define AzureIdentityAzureADDomainServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityAzureADDomainServicesSPRITE, AzureIdentityAzureADDomainServices_m)
 !define AzureIdentityAzureADDomainServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityAzureADDomainServicesSPRITE, AzureIdentityAzureADDomainServices_m)

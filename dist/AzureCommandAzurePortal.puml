@@ -7,8 +7,8 @@ pqtk38KipxNZIhN3TEqD44i3COHoFkI6jSWFiCkP1-YWrilJ7U-G_yJF7m
 }
 
 AzureEntityColoring(AzureCommandAzurePortal)
-!define AzureCommandAzurePortal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandAzurePortal_tbg.png", AzureCommandAzurePortal)
-!define AzureCommandAzurePortal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandAzurePortal_tbg.png", AzureCommandAzurePortal)
+!define AzureCommandAzurePortal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandAzurePortal_tbg.png, AzureCommandAzurePortal)
+!define AzureCommandAzurePortal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandAzurePortal_tbg.png, AzureCommandAzurePortal)
 AzureEntityColoring(AzureCommandAzurePortal_m)
 !define AzureCommandAzurePortal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAzurePortalSPRITE, AzureCommandAzurePortal_m)
 !define AzureCommandAzurePortal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAzurePortalSPRITE, AzureCommandAzurePortal_m)

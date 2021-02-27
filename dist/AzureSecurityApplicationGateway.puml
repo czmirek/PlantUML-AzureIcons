@@ -8,8 +8,8 @@ a9p9aPp9aPp9aPn9a8JnTuDH9v0lc0NvXh45-OOvG61E49XJ1EOSWG4vOa2E69131kIC4G7vr_q
 }
 
 AzureEntityColoring(AzureSecurityApplicationGateway)
-!define AzureSecurityApplicationGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityApplicationGateway_tbg.png", AzureSecurityApplicationGateway)
-!define AzureSecurityApplicationGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityApplicationGateway_tbg.png", AzureSecurityApplicationGateway)
+!define AzureSecurityApplicationGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureSecurityApplicationGateway_tbg.png, AzureSecurityApplicationGateway)
+!define AzureSecurityApplicationGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureSecurityApplicationGateway_tbg.png, AzureSecurityApplicationGateway)
 AzureEntityColoring(AzureSecurityApplicationGateway_m)
 !define AzureSecurityApplicationGateway_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityApplicationGatewaySPRITE, AzureSecurityApplicationGateway_m)
 !define AzureSecurityApplicationGateway_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityApplicationGatewaySPRITE, AzureSecurityApplicationGateway_m)

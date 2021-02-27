@@ -7,8 +7,8 @@ KUbAOP1v-LXHodc9eEmZAFl8ajAToQtMKd8w4iX31GIXy8z0hfK2yIQWW5mfZ58nK42EZ38TfMP2oGT9
 }
 
 AzureEntityColoring(AzureComputeImageVersions)
-!define AzureComputeImageVersions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeImageVersions_tbg.png", AzureComputeImageVersions)
-!define AzureComputeImageVersions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeImageVersions_tbg.png", AzureComputeImageVersions)
+!define AzureComputeImageVersions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureComputeImageVersions_tbg.png, AzureComputeImageVersions)
+!define AzureComputeImageVersions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureComputeImageVersions_tbg.png, AzureComputeImageVersions)
 AzureEntityColoring(AzureComputeImageVersions_m)
 !define AzureComputeImageVersions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeImageVersionsSPRITE, AzureComputeImageVersions_m)
 !define AzureComputeImageVersions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeImageVersionsSPRITE, AzureComputeImageVersions_m)

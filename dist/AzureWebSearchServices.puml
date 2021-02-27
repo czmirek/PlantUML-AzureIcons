@@ -7,8 +7,8 @@ lL6DZaQjDOmnjSYw8yEKFzz__xq3
 }
 
 AzureEntityColoring(AzureWebSearchServices)
-!define AzureWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebSearchServices_tbg.png", AzureWebSearchServices)
-!define AzureWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebSearchServices_tbg.png", AzureWebSearchServices)
+!define AzureWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureWebSearchServices_tbg.png, AzureWebSearchServices)
+!define AzureWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureWebSearchServices_tbg.png, AzureWebSearchServices)
 AzureEntityColoring(AzureWebSearchServices_m)
 !define AzureWebSearchServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebSearchServicesSPRITE, AzureWebSearchServices_m)
 !define AzureWebSearchServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebSearchServicesSPRITE, AzureWebSearchServices_m)

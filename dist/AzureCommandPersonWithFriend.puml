@@ -9,8 +9,8 @@ qirn-jz2bSnFf_CLf0wvurNP2hQS9tdOt-hduPd-0G
 }
 
 AzureEntityColoring(AzureCommandPersonWithFriend)
-!define AzureCommandPersonWithFriend(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandPersonWithFriend_tbg.png", AzureCommandPersonWithFriend)
-!define AzureCommandPersonWithFriend(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandPersonWithFriend_tbg.png", AzureCommandPersonWithFriend)
+!define AzureCommandPersonWithFriend(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandPersonWithFriend_tbg.png, AzureCommandPersonWithFriend)
+!define AzureCommandPersonWithFriend(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandPersonWithFriend_tbg.png, AzureCommandPersonWithFriend)
 AzureEntityColoring(AzureCommandPersonWithFriend_m)
 !define AzureCommandPersonWithFriend_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPersonWithFriendSPRITE, AzureCommandPersonWithFriend_m)
 !define AzureCommandPersonWithFriend_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPersonWithFriendSPRITE, AzureCommandPersonWithFriend_m)

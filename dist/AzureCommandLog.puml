@@ -4,8 +4,8 @@ LCa
 }
 
 AzureEntityColoring(AzureCommandLog)
-!define AzureCommandLog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandLog_tbg.png", AzureCommandLog)
-!define AzureCommandLog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandLog_tbg.png", AzureCommandLog)
+!define AzureCommandLog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandLog_tbg.png, AzureCommandLog)
+!define AzureCommandLog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandLog_tbg.png, AzureCommandLog)
 AzureEntityColoring(AzureCommandLog_m)
 !define AzureCommandLog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandLogSPRITE, AzureCommandLog_m)
 !define AzureCommandLog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandLogSPRITE, AzureCommandLog_m)

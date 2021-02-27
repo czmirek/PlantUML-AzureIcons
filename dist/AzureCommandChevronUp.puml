@@ -7,8 +7,8 @@ QOe0d2nbF6zwzdT9b_qD4BQYbE6ywR6cIopxsrVqA2y_
 }
 
 AzureEntityColoring(AzureCommandChevronUp)
-!define AzureCommandChevronUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandChevronUp_tbg.png", AzureCommandChevronUp)
-!define AzureCommandChevronUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandChevronUp_tbg.png", AzureCommandChevronUp)
+!define AzureCommandChevronUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandChevronUp_tbg.png, AzureCommandChevronUp)
+!define AzureCommandChevronUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandChevronUp_tbg.png, AzureCommandChevronUp)
 AzureEntityColoring(AzureCommandChevronUp_m)
 !define AzureCommandChevronUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandChevronUpSPRITE, AzureCommandChevronUp_m)
 !define AzureCommandChevronUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandChevronUpSPRITE, AzureCommandChevronUp_m)

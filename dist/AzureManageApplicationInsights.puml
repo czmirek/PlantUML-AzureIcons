@@ -8,8 +8,8 @@ iid-QNgV_4wPakydtvEpvyb-qgHjyLRR4doh1lE86Bx65jsCHdokjBI2xp53Y87Ayemi1IErvS5PluU9
 }
 
 AzureEntityColoring(AzureManageApplicationInsights)
-!define AzureManageApplicationInsights(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageApplicationInsights_tbg.png", AzureManageApplicationInsights)
-!define AzureManageApplicationInsights(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageApplicationInsights_tbg.png", AzureManageApplicationInsights)
+!define AzureManageApplicationInsights(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureManageApplicationInsights_tbg.png, AzureManageApplicationInsights)
+!define AzureManageApplicationInsights(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureManageApplicationInsights_tbg.png, AzureManageApplicationInsights)
 AzureEntityColoring(AzureManageApplicationInsights_m)
 !define AzureManageApplicationInsights_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageApplicationInsightsSPRITE, AzureManageApplicationInsights_m)
 !define AzureManageApplicationInsights_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageApplicationInsightsSPRITE, AzureManageApplicationInsights_m)

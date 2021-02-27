@@ -6,8 +6,8 @@ bgBZqtQV-avOtvMpB1Aa3FkQVol-zGu
 }
 
 AzureEntityColoring(AzureStatusCancelledOutline)
-!define AzureStatusCancelledOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusCancelledOutline_tbg.png", AzureStatusCancelledOutline)
-!define AzureStatusCancelledOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusCancelledOutline_tbg.png", AzureStatusCancelledOutline)
+!define AzureStatusCancelledOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusCancelledOutline_tbg.png, AzureStatusCancelledOutline)
+!define AzureStatusCancelledOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusCancelledOutline_tbg.png, AzureStatusCancelledOutline)
 AzureEntityColoring(AzureStatusCancelledOutline_m)
 !define AzureStatusCancelledOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusCancelledOutlineSPRITE, AzureStatusCancelledOutline_m)
 !define AzureStatusCancelledOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusCancelledOutlineSPRITE, AzureStatusCancelledOutline_m)

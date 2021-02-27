@@ -12,8 +12,8 @@ K-DYqbmDBKnVb6hIKC2Sg0OlIkPrAoS65c0xfrpiwzOl
 }
 
 AzureEntityColoring(AzureCommandPowerUp)
-!define AzureCommandPowerUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandPowerUp_tbg.png", AzureCommandPowerUp)
-!define AzureCommandPowerUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandPowerUp_tbg.png", AzureCommandPowerUp)
+!define AzureCommandPowerUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandPowerUp_tbg.png, AzureCommandPowerUp)
+!define AzureCommandPowerUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandPowerUp_tbg.png, AzureCommandPowerUp)
 AzureEntityColoring(AzureCommandPowerUp_m)
 !define AzureCommandPowerUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPowerUpSPRITE, AzureCommandPowerUp_m)
 !define AzureCommandPowerUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPowerUpSPRITE, AzureCommandPowerUp_m)

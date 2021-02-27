@@ -5,8 +5,8 @@ RrCPyrTZ_h38tvxfF90kYEd8iEwmUgPakcQaWuUcYNgPGAOiQEAhbmba4aQcScH3G6mhYCq9kiNXDqhC
 }
 
 AzureEntityColoring(AzureStatusNone)
-!define AzureStatusNone(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusNone_tbg.png", AzureStatusNone)
-!define AzureStatusNone(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusNone_tbg.png", AzureStatusNone)
+!define AzureStatusNone(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusNone_tbg.png, AzureStatusNone)
+!define AzureStatusNone(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusNone_tbg.png, AzureStatusNone)
 AzureEntityColoring(AzureStatusNone_m)
 !define AzureStatusNone_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusNoneSPRITE, AzureStatusNone_m)
 !define AzureStatusNone_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusNoneSPRITE, AzureStatusNone_m)

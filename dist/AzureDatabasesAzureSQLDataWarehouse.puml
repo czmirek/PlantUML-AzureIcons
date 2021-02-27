@@ -6,8 +6,8 @@ R1fZSPCF8Mf1nrgG-Oxz0m
 }
 
 AzureEntityColoring(AzureDatabasesAzureSQLDataWarehouse)
-!define AzureDatabasesAzureSQLDataWarehouse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureSQLDataWarehouse_tbg.png", AzureDatabasesAzureSQLDataWarehouse)
-!define AzureDatabasesAzureSQLDataWarehouse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureSQLDataWarehouse_tbg.png", AzureDatabasesAzureSQLDataWarehouse)
+!define AzureDatabasesAzureSQLDataWarehouse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesAzureSQLDataWarehouse_tbg.png, AzureDatabasesAzureSQLDataWarehouse)
+!define AzureDatabasesAzureSQLDataWarehouse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesAzureSQLDataWarehouse_tbg.png, AzureDatabasesAzureSQLDataWarehouse)
 AzureEntityColoring(AzureDatabasesAzureSQLDataWarehouse_m)
 !define AzureDatabasesAzureSQLDataWarehouse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSQLDataWarehouseSPRITE, AzureDatabasesAzureSQLDataWarehouse_m)
 !define AzureDatabasesAzureSQLDataWarehouse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSQLDataWarehouseSPRITE, AzureDatabasesAzureSQLDataWarehouse_m)

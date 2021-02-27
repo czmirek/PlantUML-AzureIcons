@@ -8,8 +8,8 @@ PCBegzTddXdiidqEEpZG0IMoYlXdXXgjVaE0JO5HEyFZYIdggDF5uo95kBHjFSH3pICYt5GwRJyZlm4
 }
 
 AzureEntityColoring(AzureWebSignalR)
-!define AzureWebSignalR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebSignalR_tbg.png", AzureWebSignalR)
-!define AzureWebSignalR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebSignalR_tbg.png", AzureWebSignalR)
+!define AzureWebSignalR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureWebSignalR_tbg.png, AzureWebSignalR)
+!define AzureWebSignalR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureWebSignalR_tbg.png, AzureWebSignalR)
 AzureEntityColoring(AzureWebSignalR_m)
 !define AzureWebSignalR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebSignalRSPRITE, AzureWebSignalR_m)
 !define AzureWebSignalR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebSignalRSPRITE, AzureWebSignalR_m)

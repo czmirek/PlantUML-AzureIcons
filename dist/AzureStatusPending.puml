@@ -8,8 +8,8 @@ g-Uhgc5OFLtKC9Y8TSt89hz-oierl2vv__Ivtgdntgdy_Hk2zTkAzszEth_5UVz6AMd4ekQ_C1Mckuh-
 }
 
 AzureEntityColoring(AzureStatusPending)
-!define AzureStatusPending(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusPending_tbg.png", AzureStatusPending)
-!define AzureStatusPending(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusPending_tbg.png", AzureStatusPending)
+!define AzureStatusPending(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusPending_tbg.png, AzureStatusPending)
+!define AzureStatusPending(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusPending_tbg.png, AzureStatusPending)
 AzureEntityColoring(AzureStatusPending_m)
 !define AzureStatusPending_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusPendingSPRITE, AzureStatusPending_m)
 !define AzureStatusPending_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusPendingSPRITE, AzureStatusPending_m)

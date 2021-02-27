@@ -5,8 +5,8 @@ vy1xpLhOBmoHxIp8MjZOZNY7bLrJ5ZPMiHKEABLWc10dRo5_qT8jtT8jy_h0Z9jZ_XGaJcSRczc4h6Xc
 }
 
 AzureEntityColoring(AzureCommandCommit)
-!define AzureCommandCommit(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandCommit_tbg.png", AzureCommandCommit)
-!define AzureCommandCommit(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandCommit_tbg.png", AzureCommandCommit)
+!define AzureCommandCommit(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandCommit_tbg.png, AzureCommandCommit)
+!define AzureCommandCommit(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandCommit_tbg.png, AzureCommandCommit)
 AzureEntityColoring(AzureCommandCommit_m)
 !define AzureCommandCommit_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCommitSPRITE, AzureCommandCommit_m)
 !define AzureCommandCommit_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCommitSPRITE, AzureCommandCommit_m)

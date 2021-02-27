@@ -6,8 +6,8 @@ eWUc-KEMtts3oiW2NMaO0g3B1tHHoOlh93U8gbufU61MnT-MTRPF0kgzgGTciLA5xC6NTOjxCLwQB-iM
 }
 
 AzureEntityColoring(AzureCommandBacklog)
-!define AzureCommandBacklog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandBacklog_tbg.png", AzureCommandBacklog)
-!define AzureCommandBacklog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandBacklog_tbg.png", AzureCommandBacklog)
+!define AzureCommandBacklog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandBacklog_tbg.png, AzureCommandBacklog)
+!define AzureCommandBacklog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandBacklog_tbg.png, AzureCommandBacklog)
 AzureEntityColoring(AzureCommandBacklog_m)
 !define AzureCommandBacklog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandBacklogSPRITE, AzureCommandBacklog_m)
 !define AzureCommandBacklog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandBacklogSPRITE, AzureCommandBacklog_m)

@@ -7,8 +7,8 @@ I8iRfXX94mCUO-p8p3yGumYF9KS6uOxoc2gF1TBqceoKQIPC_diICoIAPeh9PZh7OoB-b2BOE5qJBSyf
 }
 
 AzureEntityColoring(AzurestackUpdates)
-!define AzurestackUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackUpdates_tbg.png", AzurestackUpdates)
-!define AzurestackUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackUpdates_tbg.png", AzurestackUpdates)
+!define AzurestackUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzurestackUpdates_tbg.png, AzurestackUpdates)
+!define AzurestackUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzurestackUpdates_tbg.png, AzurestackUpdates)
 AzureEntityColoring(AzurestackUpdates_m)
 !define AzurestackUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackUpdatesSPRITE, AzurestackUpdates_m)
 !define AzurestackUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackUpdatesSPRITE, AzurestackUpdates_m)

@@ -4,8 +4,8 @@ xT3L0G9148FXdFkc_shHDnooWrt-0huHvAgkeDUIEjEJJALw3fc3wLvcp9XPYbKnPkRhZ1a4CsQcQCRC
 }
 
 AzureEntityColoring(AzureCommandConsole)
-!define AzureCommandConsole(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandConsole_tbg.png", AzureCommandConsole)
-!define AzureCommandConsole(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandConsole_tbg.png", AzureCommandConsole)
+!define AzureCommandConsole(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandConsole_tbg.png, AzureCommandConsole)
+!define AzureCommandConsole(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandConsole_tbg.png, AzureCommandConsole)
 AzureEntityColoring(AzureCommandConsole_m)
 !define AzureCommandConsole_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandConsoleSPRITE, AzureCommandConsole_m)
 !define AzureCommandConsole_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandConsoleSPRITE, AzureCommandConsole_m)

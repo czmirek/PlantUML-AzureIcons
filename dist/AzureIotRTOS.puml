@@ -8,8 +8,8 @@ _m
 }
 
 AzureEntityColoring(AzureIotRTOS)
-!define AzureIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotRTOS_tbg.png", AzureIotRTOS)
-!define AzureIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotRTOS_tbg.png", AzureIotRTOS)
+!define AzureIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIotRTOS_tbg.png, AzureIotRTOS)
+!define AzureIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIotRTOS_tbg.png, AzureIotRTOS)
 AzureEntityColoring(AzureIotRTOS_m)
 !define AzureIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotRTOSSPRITE, AzureIotRTOS_m)
 !define AzureIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotRTOSSPRITE, AzureIotRTOS_m)

@@ -6,8 +6,8 @@ ocZjbtMGRTewCP-O1iW5TI0YzfNS2RZ98tXvUGS
 }
 
 AzureEntityColoring(AzureIcon691DataBoxGateway)
-!define AzureIcon691DataBoxGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIcon691DataBoxGateway_tbg.png", AzureIcon691DataBoxGateway)
-!define AzureIcon691DataBoxGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIcon691DataBoxGateway_tbg.png", AzureIcon691DataBoxGateway)
+!define AzureIcon691DataBoxGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIcon691DataBoxGateway_tbg.png, AzureIcon691DataBoxGateway)
+!define AzureIcon691DataBoxGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIcon691DataBoxGateway_tbg.png, AzureIcon691DataBoxGateway)
 AzureEntityColoring(AzureIcon691DataBoxGateway_m)
 !define AzureIcon691DataBoxGateway_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIcon691DataBoxGatewaySPRITE, AzureIcon691DataBoxGateway_m)
 !define AzureIcon691DataBoxGateway_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIcon691DataBoxGatewaySPRITE, AzureIcon691DataBoxGateway_m)

@@ -6,8 +6,8 @@ SiGYPDE4BGstsAh5u22h5e57NhDa-DGLIyKMBMvfsAP6BHMCF4Bajx-otlxYYr-VRty9SwIQqwFA6xmG
 }
 
 AzureEntityColoring(AzureStatusUpdateOutline)
-!define AzureStatusUpdateOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusUpdateOutline_tbg.png", AzureStatusUpdateOutline)
-!define AzureStatusUpdateOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusUpdateOutline_tbg.png", AzureStatusUpdateOutline)
+!define AzureStatusUpdateOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusUpdateOutline_tbg.png, AzureStatusUpdateOutline)
+!define AzureStatusUpdateOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusUpdateOutline_tbg.png, AzureStatusUpdateOutline)
 AzureEntityColoring(AzureStatusUpdateOutline_m)
 !define AzureStatusUpdateOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusUpdateOutlineSPRITE, AzureStatusUpdateOutline_m)
 !define AzureStatusUpdateOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusUpdateOutlineSPRITE, AzureStatusUpdateOutline_m)

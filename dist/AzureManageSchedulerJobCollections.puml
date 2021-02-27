@@ -9,8 +9,8 @@ CTtgCRM5eFG9YueIqNH8aGR8ae89Z1n75r7-ve7KuBJshzs2ZfZoTYFJoDx8e82yzRT3JzyEBI1b__HD
 }
 
 AzureEntityColoring(AzureManageSchedulerJobCollections)
-!define AzureManageSchedulerJobCollections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageSchedulerJobCollections_tbg.png", AzureManageSchedulerJobCollections)
-!define AzureManageSchedulerJobCollections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageSchedulerJobCollections_tbg.png", AzureManageSchedulerJobCollections)
+!define AzureManageSchedulerJobCollections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureManageSchedulerJobCollections_tbg.png, AzureManageSchedulerJobCollections)
+!define AzureManageSchedulerJobCollections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureManageSchedulerJobCollections_tbg.png, AzureManageSchedulerJobCollections)
 AzureEntityColoring(AzureManageSchedulerJobCollections_m)
 !define AzureManageSchedulerJobCollections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageSchedulerJobCollectionsSPRITE, AzureManageSchedulerJobCollections_m)
 !define AzureManageSchedulerJobCollections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageSchedulerJobCollectionsSPRITE, AzureManageSchedulerJobCollections_m)

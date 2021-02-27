@@ -6,8 +6,8 @@ coavGZ6ErIFQQyxlZNvZX2dXJWT5a7qFXJOe0fGL8TGL1igA06L527M5WRB2A4VBc_dj7m
 }
 
 AzureEntityColoring(AzureNetworkingFrontDoors)
-!define AzureNetworkingFrontDoors(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingFrontDoors_tbg.png", AzureNetworkingFrontDoors)
-!define AzureNetworkingFrontDoors(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingFrontDoors_tbg.png", AzureNetworkingFrontDoors)
+!define AzureNetworkingFrontDoors(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingFrontDoors_tbg.png, AzureNetworkingFrontDoors)
+!define AzureNetworkingFrontDoors(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingFrontDoors_tbg.png, AzureNetworkingFrontDoors)
 AzureEntityColoring(AzureNetworkingFrontDoors_m)
 !define AzureNetworkingFrontDoors_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingFrontDoorsSPRITE, AzureNetworkingFrontDoors_m)
 !define AzureNetworkingFrontDoors_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingFrontDoorsSPRITE, AzureNetworkingFrontDoors_m)

@@ -8,8 +8,8 @@ VbrFtw4ClEjMLGI-HhYP7fbLNd_KuEsz32KVM8CloIhPFmFNFORoNmQlEqE9OnKeCpb6WFIviSfS1XoT
 }
 
 AzureEntityColoring(AzureGeneralBilling)
-!define AzureGeneralBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralBilling_tbg.png", AzureGeneralBilling)
-!define AzureGeneralBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralBilling_tbg.png", AzureGeneralBilling)
+!define AzureGeneralBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralBilling_tbg.png, AzureGeneralBilling)
+!define AzureGeneralBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralBilling_tbg.png, AzureGeneralBilling)
 AzureEntityColoring(AzureGeneralBilling_m)
 !define AzureGeneralBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralBillingSPRITE, AzureGeneralBilling_m)
 !define AzureGeneralBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralBillingSPRITE, AzureGeneralBilling_m)

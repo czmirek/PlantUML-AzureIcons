@@ -6,8 +6,8 @@ dH4wc50U-T5grB2YPEONN-cuXEi09gVWiPJzlmqY_eFe_uRiAl0R
 }
 
 AzureEntityColoring(AzureCommandAttachment)
-!define AzureCommandAttachment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandAttachment_tbg.png", AzureCommandAttachment)
-!define AzureCommandAttachment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandAttachment_tbg.png", AzureCommandAttachment)
+!define AzureCommandAttachment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandAttachment_tbg.png, AzureCommandAttachment)
+!define AzureCommandAttachment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandAttachment_tbg.png, AzureCommandAttachment)
 AzureEntityColoring(AzureCommandAttachment_m)
 !define AzureCommandAttachment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAttachmentSPRITE, AzureCommandAttachment_m)
 !define AzureCommandAttachment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAttachmentSPRITE, AzureCommandAttachment_m)

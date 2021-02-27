@@ -9,8 +9,8 @@ Sf703Pf74ZTb_-r4JxmXQXaJImNUHRM-ED1R4fyYuu74tEy
 }
 
 AzureEntityColoring(AzureIotAzureSphere)
-!define AzureIotAzureSphere(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotAzureSphere_tbg.png", AzureIotAzureSphere)
-!define AzureIotAzureSphere(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotAzureSphere_tbg.png", AzureIotAzureSphere)
+!define AzureIotAzureSphere(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureIotAzureSphere_tbg.png, AzureIotAzureSphere)
+!define AzureIotAzureSphere(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureIotAzureSphere_tbg.png, AzureIotAzureSphere)
 AzureEntityColoring(AzureIotAzureSphere_m)
 !define AzureIotAzureSphere_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotAzureSphereSPRITE, AzureIotAzureSphere_m)
 !define AzureIotAzureSphere_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotAzureSphereSPRITE, AzureIotAzureSphere_m)

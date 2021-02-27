@@ -5,8 +5,8 @@ xDB_ezIJdFw7Gj92ZKf4_4ecg5iHI7ubWBYL1AXN4I2wbG1ahvBOfKv5s1NhIgZ-4EAnFAWaRWjZYd2N
 }
 
 AzureEntityColoring(AzureAnalyticsDataLakeStoreGen1)
-!define AzureAnalyticsDataLakeStoreGen1(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureAnalyticsDataLakeStoreGen1_tbg.png", AzureAnalyticsDataLakeStoreGen1)
-!define AzureAnalyticsDataLakeStoreGen1(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureAnalyticsDataLakeStoreGen1_tbg.png", AzureAnalyticsDataLakeStoreGen1)
+!define AzureAnalyticsDataLakeStoreGen1(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureAnalyticsDataLakeStoreGen1_tbg.png, AzureAnalyticsDataLakeStoreGen1)
+!define AzureAnalyticsDataLakeStoreGen1(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureAnalyticsDataLakeStoreGen1_tbg.png, AzureAnalyticsDataLakeStoreGen1)
 AzureEntityColoring(AzureAnalyticsDataLakeStoreGen1_m)
 !define AzureAnalyticsDataLakeStoreGen1_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsDataLakeStoreGen1SPRITE, AzureAnalyticsDataLakeStoreGen1_m)
 !define AzureAnalyticsDataLakeStoreGen1_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsDataLakeStoreGen1SPRITE, AzureAnalyticsDataLakeStoreGen1_m)

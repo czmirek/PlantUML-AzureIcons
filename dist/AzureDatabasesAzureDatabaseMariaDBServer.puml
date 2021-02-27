@@ -7,8 +7,8 @@ a6kL81oGNgYC8fHBbVo8qFq4hLJg8oA27OUiL0HlAFUgUjBaqQqCKm90QXSgJA2mwvKI19ke1EEAl1-g
 }
 
 AzureEntityColoring(AzureDatabasesAzureDatabaseMariaDBServer)
-!define AzureDatabasesAzureDatabaseMariaDBServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureDatabaseMariaDBServer_tbg.png", AzureDatabasesAzureDatabaseMariaDBServer)
-!define AzureDatabasesAzureDatabaseMariaDBServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureDatabaseMariaDBServer_tbg.png", AzureDatabasesAzureDatabaseMariaDBServer)
+!define AzureDatabasesAzureDatabaseMariaDBServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesAzureDatabaseMariaDBServer_tbg.png, AzureDatabasesAzureDatabaseMariaDBServer)
+!define AzureDatabasesAzureDatabaseMariaDBServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesAzureDatabaseMariaDBServer_tbg.png, AzureDatabasesAzureDatabaseMariaDBServer)
 AzureEntityColoring(AzureDatabasesAzureDatabaseMariaDBServer_m)
 !define AzureDatabasesAzureDatabaseMariaDBServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureDatabaseMariaDBServerSPRITE, AzureDatabasesAzureDatabaseMariaDBServer_m)
 !define AzureDatabasesAzureDatabaseMariaDBServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureDatabaseMariaDBServerSPRITE, AzureDatabasesAzureDatabaseMariaDBServer_m)

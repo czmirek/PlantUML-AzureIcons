@@ -9,8 +9,8 @@ Dhr8ToYhLKITBWW7zzvKylLJbYMW1voC0xEDpk47uyoWety_fN9C_v3WuxHo5ix98ZaVnt_ooGy
 }
 
 AzureEntityColoring(AzureManageManagedApplicationsCenter)
-!define AzureManageManagedApplicationsCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageManagedApplicationsCenter_tbg.png", AzureManageManagedApplicationsCenter)
-!define AzureManageManagedApplicationsCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageManagedApplicationsCenter_tbg.png", AzureManageManagedApplicationsCenter)
+!define AzureManageManagedApplicationsCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureManageManagedApplicationsCenter_tbg.png, AzureManageManagedApplicationsCenter)
+!define AzureManageManagedApplicationsCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureManageManagedApplicationsCenter_tbg.png, AzureManageManagedApplicationsCenter)
 AzureEntityColoring(AzureManageManagedApplicationsCenter_m)
 !define AzureManageManagedApplicationsCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageManagedApplicationsCenterSPRITE, AzureManageManagedApplicationsCenter_m)
 !define AzureManageManagedApplicationsCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageManagedApplicationsCenterSPRITE, AzureManageManagedApplicationsCenter_m)

@@ -5,8 +5,8 @@ Wj5cUGKikhYeO7H1KG697Yuhe1yT1dK5f1cfAq2-q0XfxWCYRxXWVw-6FzZTUJpyUShZkdVbNH6SuNM5
 }
 
 AzureEntityColoring(AzureWebAppServiceEnvironments)
-!define AzureWebAppServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAppServiceEnvironments_tbg.png", AzureWebAppServiceEnvironments)
-!define AzureWebAppServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAppServiceEnvironments_tbg.png", AzureWebAppServiceEnvironments)
+!define AzureWebAppServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureWebAppServiceEnvironments_tbg.png, AzureWebAppServiceEnvironments)
+!define AzureWebAppServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureWebAppServiceEnvironments_tbg.png, AzureWebAppServiceEnvironments)
 AzureEntityColoring(AzureWebAppServiceEnvironments_m)
 !define AzureWebAppServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppServiceEnvironmentsSPRITE, AzureWebAppServiceEnvironments_m)
 !define AzureWebAppServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppServiceEnvironmentsSPRITE, AzureWebAppServiceEnvironments_m)

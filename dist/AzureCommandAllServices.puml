@@ -4,8 +4,8 @@ CXOPiSXOP2moYW4
 }
 
 AzureEntityColoring(AzureCommandAllServices)
-!define AzureCommandAllServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandAllServices_tbg.png", AzureCommandAllServices)
-!define AzureCommandAllServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandAllServices_tbg.png", AzureCommandAllServices)
+!define AzureCommandAllServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandAllServices_tbg.png, AzureCommandAllServices)
+!define AzureCommandAllServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandAllServices_tbg.png, AzureCommandAllServices)
 AzureEntityColoring(AzureCommandAllServices_m)
 !define AzureCommandAllServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAllServicesSPRITE, AzureCommandAllServices_m)
 !define AzureCommandAllServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAllServicesSPRITE, AzureCommandAllServices_m)

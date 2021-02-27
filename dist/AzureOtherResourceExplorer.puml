@@ -5,8 +5,8 @@ GWKRm86Ab2rfAvwr6hlZzLgAbblAAbPgYMLAUWnmi28bJGX59364KH96Q4NaRh3AtH7XbRNTw57qWj3A
 }
 
 AzureEntityColoring(AzureOtherResourceExplorer)
-!define AzureOtherResourceExplorer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherResourceExplorer_tbg.png", AzureOtherResourceExplorer)
-!define AzureOtherResourceExplorer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherResourceExplorer_tbg.png", AzureOtherResourceExplorer)
+!define AzureOtherResourceExplorer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureOtherResourceExplorer_tbg.png, AzureOtherResourceExplorer)
+!define AzureOtherResourceExplorer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureOtherResourceExplorer_tbg.png, AzureOtherResourceExplorer)
 AzureEntityColoring(AzureOtherResourceExplorer_m)
 !define AzureOtherResourceExplorer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherResourceExplorerSPRITE, AzureOtherResourceExplorer_m)
 !define AzureOtherResourceExplorer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherResourceExplorerSPRITE, AzureOtherResourceExplorer_m)

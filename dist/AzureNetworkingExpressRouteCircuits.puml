@@ -7,8 +7,8 @@ ZWt5EhsSlu48wHK8kQxDQxPD-GEIybWqwe2wZ6s9dvPGkBmD0ClVfky
 }
 
 AzureEntityColoring(AzureNetworkingExpressRouteCircuits)
-!define AzureNetworkingExpressRouteCircuits(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingExpressRouteCircuits_tbg.png", AzureNetworkingExpressRouteCircuits)
-!define AzureNetworkingExpressRouteCircuits(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingExpressRouteCircuits_tbg.png", AzureNetworkingExpressRouteCircuits)
+!define AzureNetworkingExpressRouteCircuits(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingExpressRouteCircuits_tbg.png, AzureNetworkingExpressRouteCircuits)
+!define AzureNetworkingExpressRouteCircuits(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingExpressRouteCircuits_tbg.png, AzureNetworkingExpressRouteCircuits)
 AzureEntityColoring(AzureNetworkingExpressRouteCircuits_m)
 !define AzureNetworkingExpressRouteCircuits_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingExpressRouteCircuitsSPRITE, AzureNetworkingExpressRouteCircuits_m)
 !define AzureNetworkingExpressRouteCircuits_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingExpressRouteCircuitsSPRITE, AzureNetworkingExpressRouteCircuits_m)

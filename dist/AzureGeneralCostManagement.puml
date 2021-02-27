@@ -7,8 +7,8 @@ aMBj2mNARbsQ-fFk1gwLCuKDFUsYQ5Z0N62lpiupa3fe8XXv3JqSHqIDKi6xy1a
 }
 
 AzureEntityColoring(AzureGeneralCostManagement)
-!define AzureGeneralCostManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralCostManagement_tbg.png", AzureGeneralCostManagement)
-!define AzureGeneralCostManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralCostManagement_tbg.png", AzureGeneralCostManagement)
+!define AzureGeneralCostManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralCostManagement_tbg.png, AzureGeneralCostManagement)
+!define AzureGeneralCostManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralCostManagement_tbg.png, AzureGeneralCostManagement)
 AzureEntityColoring(AzureGeneralCostManagement_m)
 !define AzureGeneralCostManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralCostManagementSPRITE, AzureGeneralCostManagement_m)
 !define AzureGeneralCostManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralCostManagementSPRITE, AzureGeneralCostManagement_m)

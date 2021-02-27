@@ -7,8 +7,8 @@ aNH8acf9QYO9thG9qcn8ooADZxHFqeH5AnU4e89M2792AOudIePk3G
 }
 
 AzureEntityColoring(AzureCommandAddTile)
-!define AzureCommandAddTile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandAddTile_tbg.png", AzureCommandAddTile)
-!define AzureCommandAddTile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandAddTile_tbg.png", AzureCommandAddTile)
+!define AzureCommandAddTile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandAddTile_tbg.png, AzureCommandAddTile)
+!define AzureCommandAddTile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandAddTile_tbg.png, AzureCommandAddTile)
 AzureEntityColoring(AzureCommandAddTile_m)
 !define AzureCommandAddTile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAddTileSPRITE, AzureCommandAddTile_m)
 !define AzureCommandAddTile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAddTileSPRITE, AzureCommandAddTile_m)

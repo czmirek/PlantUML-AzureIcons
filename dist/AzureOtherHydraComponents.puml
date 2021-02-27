@@ -8,8 +8,8 @@ UKCj3PMtf3GQZU9bFBeMrf6NJU0jUCzXl8b4-SFmHgJHMdeBLbVyHBy
 }
 
 AzureEntityColoring(AzureOtherHydraComponents)
-!define AzureOtherHydraComponents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherHydraComponents_tbg.png", AzureOtherHydraComponents)
-!define AzureOtherHydraComponents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherHydraComponents_tbg.png", AzureOtherHydraComponents)
+!define AzureOtherHydraComponents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureOtherHydraComponents_tbg.png, AzureOtherHydraComponents)
+!define AzureOtherHydraComponents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureOtherHydraComponents_tbg.png, AzureOtherHydraComponents)
 AzureEntityColoring(AzureOtherHydraComponents_m)
 !define AzureOtherHydraComponents_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherHydraComponentsSPRITE, AzureOtherHydraComponents_m)
 !define AzureOtherHydraComponents_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherHydraComponentsSPRITE, AzureOtherHydraComponents_m)

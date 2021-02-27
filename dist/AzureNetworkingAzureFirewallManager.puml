@@ -6,8 +6,8 @@ ONJ69LEiHz6T58nRJtzwPFnw-hC3Sq04JqMsfJkYU39soef46NL8Z56FXFP6rxTrqVIcg1aZdjWfMT-d
 }
 
 AzureEntityColoring(AzureNetworkingAzureFirewallManager)
-!define AzureNetworkingAzureFirewallManager(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingAzureFirewallManager_tbg.png", AzureNetworkingAzureFirewallManager)
-!define AzureNetworkingAzureFirewallManager(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingAzureFirewallManager_tbg.png", AzureNetworkingAzureFirewallManager)
+!define AzureNetworkingAzureFirewallManager(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingAzureFirewallManager_tbg.png, AzureNetworkingAzureFirewallManager)
+!define AzureNetworkingAzureFirewallManager(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingAzureFirewallManager_tbg.png, AzureNetworkingAzureFirewallManager)
 AzureEntityColoring(AzureNetworkingAzureFirewallManager_m)
 !define AzureNetworkingAzureFirewallManager_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingAzureFirewallManagerSPRITE, AzureNetworkingAzureFirewallManager_m)
 !define AzureNetworkingAzureFirewallManager_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingAzureFirewallManagerSPRITE, AzureNetworkingAzureFirewallManager_m)

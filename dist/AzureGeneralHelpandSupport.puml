@@ -8,8 +8,8 @@ ftW-9Fy_HQTd4YivFU9OaKSnn1PlvuG1vHy
 }
 
 AzureEntityColoring(AzureGeneralHelpandSupport)
-!define AzureGeneralHelpandSupport(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralHelpandSupport_tbg.png", AzureGeneralHelpandSupport)
-!define AzureGeneralHelpandSupport(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralHelpandSupport_tbg.png", AzureGeneralHelpandSupport)
+!define AzureGeneralHelpandSupport(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureGeneralHelpandSupport_tbg.png, AzureGeneralHelpandSupport)
+!define AzureGeneralHelpandSupport(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureGeneralHelpandSupport_tbg.png, AzureGeneralHelpandSupport)
 AzureEntityColoring(AzureGeneralHelpandSupport_m)
 !define AzureGeneralHelpandSupport_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralHelpandSupportSPRITE, AzureGeneralHelpandSupport_m)
 !define AzureGeneralHelpandSupport_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralHelpandSupportSPRITE, AzureGeneralHelpandSupport_m)

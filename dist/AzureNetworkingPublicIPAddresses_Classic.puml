@@ -5,8 +5,8 @@ QOMYw0O
 }
 
 AzureEntityColoring(AzureNetworkingPublicIPAddresses_Classic)
-!define AzureNetworkingPublicIPAddresses_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingPublicIPAddresses_Classic_tbg.png", AzureNetworkingPublicIPAddresses_Classic)
-!define AzureNetworkingPublicIPAddresses_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingPublicIPAddresses_Classic_tbg.png", AzureNetworkingPublicIPAddresses_Classic)
+!define AzureNetworkingPublicIPAddresses_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureNetworkingPublicIPAddresses_Classic_tbg.png, AzureNetworkingPublicIPAddresses_Classic)
+!define AzureNetworkingPublicIPAddresses_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureNetworkingPublicIPAddresses_Classic_tbg.png, AzureNetworkingPublicIPAddresses_Classic)
 AzureEntityColoring(AzureNetworkingPublicIPAddresses_Classic_m)
 !define AzureNetworkingPublicIPAddresses_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPAddresses_ClassicSPRITE, AzureNetworkingPublicIPAddresses_Classic_m)
 !define AzureNetworkingPublicIPAddresses_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPAddresses_ClassicSPRITE, AzureNetworkingPublicIPAddresses_Classic_m)

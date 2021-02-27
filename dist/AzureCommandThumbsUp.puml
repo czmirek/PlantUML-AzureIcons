@@ -7,8 +7,8 @@ YyD5th7MYhimtFQWebfw_8VeSGL6yVVlxEHTNHbCftv9xgyBTRalDYueyeYlWmTEkIBUJkuONYvogHvz
 }
 
 AzureEntityColoring(AzureCommandThumbsUp)
-!define AzureCommandThumbsUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandThumbsUp_tbg.png", AzureCommandThumbsUp)
-!define AzureCommandThumbsUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandThumbsUp_tbg.png", AzureCommandThumbsUp)
+!define AzureCommandThumbsUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandThumbsUp_tbg.png, AzureCommandThumbsUp)
+!define AzureCommandThumbsUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandThumbsUp_tbg.png, AzureCommandThumbsUp)
 AzureEntityColoring(AzureCommandThumbsUp_m)
 !define AzureCommandThumbsUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandThumbsUpSPRITE, AzureCommandThumbsUp_m)
 !define AzureCommandThumbsUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandThumbsUpSPRITE, AzureCommandThumbsUp_m)

@@ -5,8 +5,8 @@ cI4nXYkQa0v8P6RDb1m4Q3TcKnYInspAXhH0FhCfAXS1cfNP53LjI2upgLLXI1v3oXjfa9idXjwzaI5v
 }
 
 AzureEntityColoring(AzureCommandDownload)
-!define AzureCommandDownload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandDownload_tbg.png", AzureCommandDownload)
-!define AzureCommandDownload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandDownload_tbg.png", AzureCommandDownload)
+!define AzureCommandDownload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandDownload_tbg.png, AzureCommandDownload)
+!define AzureCommandDownload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandDownload_tbg.png, AzureCommandDownload)
 AzureEntityColoring(AzureCommandDownload_m)
 !define AzureCommandDownload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandDownloadSPRITE, AzureCommandDownload_m)
 !define AzureCommandDownload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandDownloadSPRITE, AzureCommandDownload_m)

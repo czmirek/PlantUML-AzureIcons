@@ -7,8 +7,8 @@ x8q8DG3LYiYlq3U4PWE0Q4M8HJ4XSYxb4tAdXJ80jYBofryCYCJFJDv2AEB2-BQEI0LdtCw0iqeRvS6l
 }
 
 AzureEntityColoring(AzureCommandWrench)
-!define AzureCommandWrench(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandWrench_tbg.png", AzureCommandWrench)
-!define AzureCommandWrench(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandWrench_tbg.png", AzureCommandWrench)
+!define AzureCommandWrench(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandWrench_tbg.png, AzureCommandWrench)
+!define AzureCommandWrench(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandWrench_tbg.png, AzureCommandWrench)
 AzureEntityColoring(AzureCommandWrench_m)
 !define AzureCommandWrench_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandWrenchSPRITE, AzureCommandWrench_m)
 !define AzureCommandWrench_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandWrenchSPRITE, AzureCommandWrench_m)

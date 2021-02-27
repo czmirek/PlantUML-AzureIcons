@@ -5,8 +5,8 @@ ZKnaGA8K4p6fw6rz2vFLc0oBP7kcya2g8AOYmwh3xfwIgPgH2Xxg9lgQGBeigEFhQmBfX96k79aG4DCA
 }
 
 AzureEntityColoring(AzureStatusStopped)
-!define AzureStatusStopped(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusStopped_tbg.png", AzureStatusStopped)
-!define AzureStatusStopped(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusStopped_tbg.png", AzureStatusStopped)
+!define AzureStatusStopped(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStatusStopped_tbg.png, AzureStatusStopped)
+!define AzureStatusStopped(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStatusStopped_tbg.png, AzureStatusStopped)
 AzureEntityColoring(AzureStatusStopped_m)
 !define AzureStatusStopped_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusStoppedSPRITE, AzureStatusStopped_m)
 !define AzureStatusStopped_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusStoppedSPRITE, AzureStatusStopped_m)

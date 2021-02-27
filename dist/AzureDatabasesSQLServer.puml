@@ -9,8 +9,8 @@ ekPnMdjy8jvMOI6dfTuinhofK1V6D5ik0y3UwUy3k0xdMol-E_S5
 }
 
 AzureEntityColoring(AzureDatabasesSQLServer)
-!define AzureDatabasesSQLServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesSQLServer_tbg.png", AzureDatabasesSQLServer)
-!define AzureDatabasesSQLServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesSQLServer_tbg.png", AzureDatabasesSQLServer)
+!define AzureDatabasesSQLServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureDatabasesSQLServer_tbg.png, AzureDatabasesSQLServer)
+!define AzureDatabasesSQLServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureDatabasesSQLServer_tbg.png, AzureDatabasesSQLServer)
 AzureEntityColoring(AzureDatabasesSQLServer_m)
 !define AzureDatabasesSQLServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesSQLServerSPRITE, AzureDatabasesSQLServer_m)
 !define AzureDatabasesSQLServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesSQLServerSPRITE, AzureDatabasesSQLServer_m)

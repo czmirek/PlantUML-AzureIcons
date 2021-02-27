@@ -6,8 +6,8 @@ SZ-0iLr92XufrzWs5QmGhb2CQQFI8QhsGF2tkLmkxm
 }
 
 AzureEntityColoring(AzureMigrateDataBoxEdge)
-!define AzureMigrateDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMigrateDataBoxEdge_tbg.png", AzureMigrateDataBoxEdge)
-!define AzureMigrateDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMigrateDataBoxEdge_tbg.png", AzureMigrateDataBoxEdge)
+!define AzureMigrateDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureMigrateDataBoxEdge_tbg.png, AzureMigrateDataBoxEdge)
+!define AzureMigrateDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureMigrateDataBoxEdge_tbg.png, AzureMigrateDataBoxEdge)
 AzureEntityColoring(AzureMigrateDataBoxEdge_m)
 !define AzureMigrateDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateDataBoxEdgeSPRITE, AzureMigrateDataBoxEdge_m)
 !define AzureMigrateDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateDataBoxEdgeSPRITE, AzureMigrateDataBoxEdge_m)

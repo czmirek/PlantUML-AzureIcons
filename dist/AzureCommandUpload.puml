@@ -5,8 +5,8 @@ H0hrcnLJJ37555DCCSMKPm
 }
 
 AzureEntityColoring(AzureCommandUpload)
-!define AzureCommandUpload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandUpload_tbg.png", AzureCommandUpload)
-!define AzureCommandUpload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandUpload_tbg.png", AzureCommandUpload)
+!define AzureCommandUpload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandUpload_tbg.png, AzureCommandUpload)
+!define AzureCommandUpload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandUpload_tbg.png, AzureCommandUpload)
 AzureEntityColoring(AzureCommandUpload_m)
 !define AzureCommandUpload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUploadSPRITE, AzureCommandUpload_m)
 !define AzureCommandUpload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUploadSPRITE, AzureCommandUpload_m)

@@ -10,8 +10,8 @@ byZT2DA8NbTKa14sXhd7izQnmdL-oM0TpOIvl0y6orq-30N_Eyt-eGjiX6liv0MDCM4xVMm6YUPZx615
 }
 
 AzureEntityColoring(AzureCommandHide)
-!define AzureCommandHide(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandHide_tbg.png", AzureCommandHide)
-!define AzureCommandHide(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandHide_tbg.png", AzureCommandHide)
+!define AzureCommandHide(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandHide_tbg.png, AzureCommandHide)
+!define AzureCommandHide(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandHide_tbg.png, AzureCommandHide)
 AzureEntityColoring(AzureCommandHide_m)
 !define AzureCommandHide_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandHideSPRITE, AzureCommandHide_m)
 !define AzureCommandHide_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandHideSPRITE, AzureCommandHide_m)

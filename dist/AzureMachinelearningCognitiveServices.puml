@@ -8,8 +8,8 @@ IY6LlrDSje7F5QhiGkGzfOn-C0-IeSPUffmBroP_Vp_zz0i
 }
 
 AzureEntityColoring(AzureMachinelearningCognitiveServices)
-!define AzureMachinelearningCognitiveServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMachinelearningCognitiveServices_tbg.png", AzureMachinelearningCognitiveServices)
-!define AzureMachinelearningCognitiveServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMachinelearningCognitiveServices_tbg.png", AzureMachinelearningCognitiveServices)
+!define AzureMachinelearningCognitiveServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureMachinelearningCognitiveServices_tbg.png, AzureMachinelearningCognitiveServices)
+!define AzureMachinelearningCognitiveServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureMachinelearningCognitiveServices_tbg.png, AzureMachinelearningCognitiveServices)
 AzureEntityColoring(AzureMachinelearningCognitiveServices_m)
 !define AzureMachinelearningCognitiveServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinelearningCognitiveServicesSPRITE, AzureMachinelearningCognitiveServices_m)
 !define AzureMachinelearningCognitiveServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinelearningCognitiveServicesSPRITE, AzureMachinelearningCognitiveServices_m)

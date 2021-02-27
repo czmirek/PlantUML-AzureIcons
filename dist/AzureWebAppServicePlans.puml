@@ -6,8 +6,8 @@ VL3uiyywuhKnNb0OUIxUXhB2O1EKMIQvFOMHr4lSuQUQRaWSX3Hcx3aP10wRBlVSzXtT0W
 }
 
 AzureEntityColoring(AzureWebAppServicePlans)
-!define AzureWebAppServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAppServicePlans_tbg.png", AzureWebAppServicePlans)
-!define AzureWebAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAppServicePlans_tbg.png", AzureWebAppServicePlans)
+!define AzureWebAppServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureWebAppServicePlans_tbg.png, AzureWebAppServicePlans)
+!define AzureWebAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureWebAppServicePlans_tbg.png, AzureWebAppServicePlans)
 AzureEntityColoring(AzureWebAppServicePlans_m)
 !define AzureWebAppServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppServicePlansSPRITE, AzureWebAppServicePlans_m)
 !define AzureWebAppServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppServicePlansSPRITE, AzureWebAppServicePlans_m)

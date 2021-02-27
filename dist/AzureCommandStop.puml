@@ -1,8 +1,8 @@
 sprite $AzureCommandStopSPRITE [70x70/16z] xSmt0O10400m15pnxvQLbGx_YO3qxSZ3jiboMBw_M2mMYyLYiLWi5el5Okayh6_72W
 
 AzureEntityColoring(AzureCommandStop)
-!define AzureCommandStop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandStop_tbg.png", AzureCommandStop)
-!define AzureCommandStop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandStop_tbg.png", AzureCommandStop)
+!define AzureCommandStop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandStop_tbg.png, AzureCommandStop)
+!define AzureCommandStop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandStop_tbg.png, AzureCommandStop)
 AzureEntityColoring(AzureCommandStop_m)
 !define AzureCommandStop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandStopSPRITE, AzureCommandStop_m)
 !define AzureCommandStop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandStopSPRITE, AzureCommandStop_m)

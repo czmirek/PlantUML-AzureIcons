@@ -6,8 +6,8 @@ ftPnynD9Ak8a5N6IYZX9HPoc8auzag8UIMQU37bIyPEy
 }
 
 AzureEntityColoring(AzureStorageImportExportJobs)
-!define AzureStorageImportExportJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageImportExportJobs_tbg.png", AzureStorageImportExportJobs)
-!define AzureStorageImportExportJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageImportExportJobs_tbg.png", AzureStorageImportExportJobs)
+!define AzureStorageImportExportJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureStorageImportExportJobs_tbg.png, AzureStorageImportExportJobs)
+!define AzureStorageImportExportJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureStorageImportExportJobs_tbg.png, AzureStorageImportExportJobs)
 AzureEntityColoring(AzureStorageImportExportJobs_m)
 !define AzureStorageImportExportJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageImportExportJobsSPRITE, AzureStorageImportExportJobs_m)
 !define AzureStorageImportExportJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageImportExportJobsSPRITE, AzureStorageImportExportJobs_m)

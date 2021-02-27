@@ -4,8 +4,8 @@ O2geh9W2AYicWmgL1PCE57TlVS647GN83r7OVOxYXzzT_4dZRnt-1U1Vu_l-3FXVwXXXFVBlZOya-AY6
 }
 
 AzureEntityColoring(AzureCommandGetMoreLicenses)
-!define AzureCommandGetMoreLicenses(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandGetMoreLicenses_tbg.png", AzureCommandGetMoreLicenses)
-!define AzureCommandGetMoreLicenses(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandGetMoreLicenses_tbg.png", AzureCommandGetMoreLicenses)
+!define AzureCommandGetMoreLicenses(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandGetMoreLicenses_tbg.png, AzureCommandGetMoreLicenses)
+!define AzureCommandGetMoreLicenses(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandGetMoreLicenses_tbg.png, AzureCommandGetMoreLicenses)
 AzureEntityColoring(AzureCommandGetMoreLicenses_m)
 !define AzureCommandGetMoreLicenses_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandGetMoreLicensesSPRITE, AzureCommandGetMoreLicenses_m)
 !define AzureCommandGetMoreLicenses_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandGetMoreLicensesSPRITE, AzureCommandGetMoreLicenses_m)

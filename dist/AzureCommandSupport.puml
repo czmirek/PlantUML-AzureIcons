@@ -10,8 +10,8 @@ gxSnDm4kfrCPKcwu4z8wA5QngQFkyUSt1yRVSO2svXxXlToNDbWUZvj52KM3vsfRfMTrvdHwaTJHXzO8
 }
 
 AzureEntityColoring(AzureCommandSupport)
-!define AzureCommandSupport(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandSupport_tbg.png", AzureCommandSupport)
-!define AzureCommandSupport(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandSupport_tbg.png", AzureCommandSupport)
+!define AzureCommandSupport(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandSupport_tbg.png, AzureCommandSupport)
+!define AzureCommandSupport(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandSupport_tbg.png, AzureCommandSupport)
 AzureEntityColoring(AzureCommandSupport_m)
 !define AzureCommandSupport_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSupportSPRITE, AzureCommandSupport_m)
 !define AzureCommandSupport_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSupportSPRITE, AzureCommandSupport_m)

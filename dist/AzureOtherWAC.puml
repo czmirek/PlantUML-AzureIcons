@@ -6,8 +6,8 @@ VZo_gIBvXBHVMGSLprUEjjH3EY4l0wbC-AzS_5TMch0jx-O5
 }
 
 AzureEntityColoring(AzureOtherWAC)
-!define AzureOtherWAC(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherWAC_tbg.png", AzureOtherWAC)
-!define AzureOtherWAC(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherWAC_tbg.png", AzureOtherWAC)
+!define AzureOtherWAC(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureOtherWAC_tbg.png, AzureOtherWAC)
+!define AzureOtherWAC(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureOtherWAC_tbg.png, AzureOtherWAC)
 AzureEntityColoring(AzureOtherWAC_m)
 !define AzureOtherWAC_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherWACSPRITE, AzureOtherWAC_m)
 !define AzureOtherWAC_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherWACSPRITE, AzureOtherWAC_m)

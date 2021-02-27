@@ -8,8 +8,8 @@ _Fa2
 }
 
 AzureEntityColoring(AzureComputeContainerServices_Deprecated)
-!define AzureComputeContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeContainerServices_Deprecated_tbg.png", AzureComputeContainerServices_Deprecated)
-!define AzureComputeContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeContainerServices_Deprecated_tbg.png", AzureComputeContainerServices_Deprecated)
+!define AzureComputeContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureComputeContainerServices_Deprecated_tbg.png, AzureComputeContainerServices_Deprecated)
+!define AzureComputeContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureComputeContainerServices_Deprecated_tbg.png, AzureComputeContainerServices_Deprecated)
 AzureEntityColoring(AzureComputeContainerServices_Deprecated_m)
 !define AzureComputeContainerServices_Deprecated_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeContainerServices_DeprecatedSPRITE, AzureComputeContainerServices_Deprecated_m)
 !define AzureComputeContainerServices_Deprecated_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeContainerServices_DeprecatedSPRITE, AzureComputeContainerServices_Deprecated_m)
