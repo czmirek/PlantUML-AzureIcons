@@ -31,13 +31,13 @@ Get-ChildItem $iconPath | ForEach-Object {
     $pngOutput = $dist + "/$($serviceId).png"
     $pumlOutput = $dist + "/$($serviceId).puml"
     
-    inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngOutput
+    #inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngOutput
 
     $sprite = ((java -jar "$($plantUmlPath)" -encodesprite "16z" "$($pngOutput)") | Out-String) -replace "`r", ""
     $puml = $sprite
     $puml += "AzureEntityColoring($($serviceId))`n"
     $puml += "!define $($serviceId)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($serviceId), $($serviceId))`n"
-    $puml += "!define $($serviceId)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($serviceId), $($serviceId))`n"
+    $puml += "!define $($serviceId)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($serviceId), $($serviceId))`n`n"
     $puml | Out-File $pumlOutput -NoNewLine
 }
 
