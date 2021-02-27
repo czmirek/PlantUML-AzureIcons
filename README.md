@@ -15,7 +15,9 @@ Put this into your PUML to include add support for all images.
 !include AzurePuml/AzureCommon.puml
 !include AzurePuml/all.puml
 ```
-Then look into the [macro table](https://github.com/czmirek/PlantUML-AzureIcons/blob/main/table.md) and find whatever you want to add into your PUML in same manner as from the former official library.
+Then look into the [macro table](https://github.com/czmirek/PlantUML-AzureIcons/blob/main/table.md) and find whatever you want to add into your PUML in same manner as from the former official library. 
+
+> If you are coming from the former library then **beware, the macros are different**! Read below.
 
 It may be unneccessary to load all icons so you can handpick only what you need.
 ```puml
