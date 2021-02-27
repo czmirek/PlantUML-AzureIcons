@@ -6,10 +6,10 @@ FKWcg0TzXsJyCk9eHnXJ1jb_M3loMgRh8XFxQXTADoAwZ0KVERq2NTtd0leOHgK-5NyCpTuAunS-A7C8
 cJEBlbK5MRLmbQxK6LTHmyMzVC0JZk75skdvWWuPyemt5UiMVXRNNP02Nkd_HULDvJq
 }
 
-AzureImage(AzureCommandAddTeamMember)
+AzureEntityColoring(AzureCommandAddTeamMember)
 !define AzureCommandAddTeamMember(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandAddTeamMember_tbg.png", AzureCommandAddTeamMember)
 !define AzureCommandAddTeamMember(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandAddTeamMember_tbg.png", AzureCommandAddTeamMember)
-AzureEntity(AzureCommandAddTeamMember_m)
+AzureEntityColoring(AzureCommandAddTeamMember_m)
 !define AzureCommandAddTeamMember_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAddTeamMemberSPRITE, AzureCommandAddTeamMember_m)
 !define AzureCommandAddTeamMember_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAddTeamMemberSPRITE, AzureCommandAddTeamMember_m)
 

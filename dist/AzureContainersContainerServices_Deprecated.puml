@@ -7,10 +7,10 @@ Kwji_5QaIeW50SZITiSMPQBAiVFhmrebPnWj51VPEBxnZsPvB8z5cN2mrAeK9HmjlLgdUzgsd5Z14na_
 _Fa2
 }
 
-AzureImage(AzureContainersContainerServices_Deprecated)
+AzureEntityColoring(AzureContainersContainerServices_Deprecated)
 !define AzureContainersContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureContainersContainerServices_Deprecated_tbg.png", AzureContainersContainerServices_Deprecated)
 !define AzureContainersContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureContainersContainerServices_Deprecated_tbg.png", AzureContainersContainerServices_Deprecated)
-AzureEntity(AzureContainersContainerServices_Deprecated_m)
+AzureEntityColoring(AzureContainersContainerServices_Deprecated_m)
 !define AzureContainersContainerServices_Deprecated_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainersContainerServices_DeprecatedSPRITE, AzureContainersContainerServices_Deprecated_m)
 !define AzureContainersContainerServices_Deprecated_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainersContainerServices_DeprecatedSPRITE, AzureContainersContainerServices_Deprecated_m)
 

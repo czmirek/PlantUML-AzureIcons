@@ -7,10 +7,10 @@ s5r-YcdoXtgkyz4476R7efF79HdCPu-WKwSAUpoOf1q-tZz-OMXokR8yIvQxTwpe57lliEK--mnwtBN3
 QytH-vZhYXt93hGnD5p1hvvZB1KNrAbXaum3RDuKHfmFATUrLoS5x-GwbSy
 }
 
-AzureImage(AzureCommandSignOut)
+AzureEntityColoring(AzureCommandSignOut)
 !define AzureCommandSignOut(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandSignOut_tbg.png", AzureCommandSignOut)
 !define AzureCommandSignOut(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandSignOut_tbg.png", AzureCommandSignOut)
-AzureEntity(AzureCommandSignOut_m)
+AzureEntityColoring(AzureCommandSignOut_m)
 !define AzureCommandSignOut_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSignOutSPRITE, AzureCommandSignOut_m)
 !define AzureCommandSignOut_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSignOutSPRITE, AzureCommandSignOut_m)
 

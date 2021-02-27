@@ -5,10 +5,10 @@ JIem9CgWGy8CY25nHiIGE2EjF-hxiw4jkRMM3vLveUH3hRMyM7KMgOlLKzuAJVRjobk1abq58af9gyeV
 gcLL1LTUFhez
 }
 
-AzureImage(AzureGeneralHome)
+AzureEntityColoring(AzureGeneralHome)
 !define AzureGeneralHome(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralHome_tbg.png", AzureGeneralHome)
 !define AzureGeneralHome(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralHome_tbg.png", AzureGeneralHome)
-AzureEntity(AzureGeneralHome_m)
+AzureEntityColoring(AzureGeneralHome_m)
 !define AzureGeneralHome_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralHomeSPRITE, AzureGeneralHome_m)
 !define AzureGeneralHome_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralHomeSPRITE, AzureGeneralHome_m)
 

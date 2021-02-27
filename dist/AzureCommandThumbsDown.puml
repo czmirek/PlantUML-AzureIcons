@@ -6,10 +6,10 @@ dqKK52WX1N6MKM1SASNDtqv8GIEIKZhYBA9e52WPvHSbfLI-_MrgWrOr3iCrUX3FSwPk69mJ-Tq-vgyK
 b_b2-YDvW6JgEeUtrIXyuwBSM_7y2gFm5M7_j1g5JucBKTWKYcafrLpAsi3vScl_vWi1vXjbrosjaiYEoHXMoMJIjrZ7-G8
 }
 
-AzureImage(AzureCommandThumbsDown)
+AzureEntityColoring(AzureCommandThumbsDown)
 !define AzureCommandThumbsDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandThumbsDown_tbg.png", AzureCommandThumbsDown)
 !define AzureCommandThumbsDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandThumbsDown_tbg.png", AzureCommandThumbsDown)
-AzureEntity(AzureCommandThumbsDown_m)
+AzureEntityColoring(AzureCommandThumbsDown_m)
 !define AzureCommandThumbsDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandThumbsDownSPRITE, AzureCommandThumbsDown_m)
 !define AzureCommandThumbsDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandThumbsDownSPRITE, AzureCommandThumbsDown_m)
 

@@ -9,10 +9,10 @@ OFhmg9YAmvVDFOwXTe5C1gDFuWrD93zgMFEBxDxMmpWRWQduoDSUKb7ukaqZWQSV4pmDdC4BfoTb4GLg
 KxhR0QNbnmO44lFC6rRvSZTgxQdLCDr_bNiv3qUUCq5oLanQ-beUkUhPzO54woj1YUax6XKIAVO__yK9KwQ_n3y
 }
 
-AzureImage(AzureIdentityIdentityGovernance)
+AzureEntityColoring(AzureIdentityIdentityGovernance)
 !define AzureIdentityIdentityGovernance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityIdentityGovernance_tbg.png", AzureIdentityIdentityGovernance)
 !define AzureIdentityIdentityGovernance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityIdentityGovernance_tbg.png", AzureIdentityIdentityGovernance)
-AzureEntity(AzureIdentityIdentityGovernance_m)
+AzureEntityColoring(AzureIdentityIdentityGovernance_m)
 !define AzureIdentityIdentityGovernance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityIdentityGovernanceSPRITE, AzureIdentityIdentityGovernance_m)
 !define AzureIdentityIdentityGovernance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityIdentityGovernanceSPRITE, AzureIdentityIdentityGovernance_m)
 

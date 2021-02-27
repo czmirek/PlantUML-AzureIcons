@@ -4,10 +4,10 @@ mpJMY4aYDXLBrFXEi4XvHjQnY3yYh5X6epzfdmm9B9YIDSQGme8f2MD2WZ9fSYJnMqIGHe932PSSQNmx
 vOZpwZW_WFCREPM1KgKu5PDJlIcTXDFLE1sMqkrPaqVU6EDCP9Jfa3EfKgPcoWHFsIOecmrdow9jVFpjSpvJbRALSoy4_6j5rBcQ6iAxul0lIctsUDrgHVG3
 }
 
-AzureImage(AzureStatusDisabled)
+AzureEntityColoring(AzureStatusDisabled)
 !define AzureStatusDisabled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusDisabled_tbg.png", AzureStatusDisabled)
 !define AzureStatusDisabled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusDisabled_tbg.png", AzureStatusDisabled)
-AzureEntity(AzureStatusDisabled_m)
+AzureEntityColoring(AzureStatusDisabled_m)
 !define AzureStatusDisabled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusDisabledSPRITE, AzureStatusDisabled_m)
 !define AzureStatusDisabled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusDisabledSPRITE, AzureStatusDisabled_m)
 

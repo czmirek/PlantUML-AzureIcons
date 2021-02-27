@@ -6,10 +6,10 @@ F1kHHmCZhugtszuPldf6WRYRQdDliQQY80nt8J9_P7Yc5IMGj_By9kOKbURlD1HtgogjULQybPGOqfN8
 tgNYAGvagAsKR1p7uUt8-Pc21t9ivpPNo8vInlHRTWS
 }
 
-AzureImage(AzureSecurityVirtualNetworkGateways)
+AzureEntityColoring(AzureSecurityVirtualNetworkGateways)
 !define AzureSecurityVirtualNetworkGateways(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityVirtualNetworkGateways_tbg.png", AzureSecurityVirtualNetworkGateways)
 !define AzureSecurityVirtualNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityVirtualNetworkGateways_tbg.png", AzureSecurityVirtualNetworkGateways)
-AzureEntity(AzureSecurityVirtualNetworkGateways_m)
+AzureEntityColoring(AzureSecurityVirtualNetworkGateways_m)
 !define AzureSecurityVirtualNetworkGateways_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityVirtualNetworkGatewaysSPRITE, AzureSecurityVirtualNetworkGateways_m)
 !define AzureSecurityVirtualNetworkGateways_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityVirtualNetworkGatewaysSPRITE, AzureSecurityVirtualNetworkGateways_m)
 

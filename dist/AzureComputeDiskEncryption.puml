@@ -8,10 +8,10 @@ kcKMP5NGCjqm2x8eqAnQ9JLZ03iZgmAejer07ktJxWWLRPqE4dpQgD4TraZsIjyS1yqGgwqf4_nM59wh
 aQyemHygdE_kHqhpGZvGylY5O56eBdkIIQJg7Twe8Vonc3_0wnL530PR1hTQXZNSNKptPqvaFNFIOJgXGf4HrC9fuz99yICRYcU7ibvyA3bKA0KHuV_e5m
 }
 
-AzureImage(AzureComputeDiskEncryption)
+AzureEntityColoring(AzureComputeDiskEncryption)
 !define AzureComputeDiskEncryption(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeDiskEncryption_tbg.png", AzureComputeDiskEncryption)
 !define AzureComputeDiskEncryption(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeDiskEncryption_tbg.png", AzureComputeDiskEncryption)
-AzureEntity(AzureComputeDiskEncryption_m)
+AzureEntityColoring(AzureComputeDiskEncryption_m)
 !define AzureComputeDiskEncryption_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeDiskEncryptionSPRITE, AzureComputeDiskEncryption_m)
 !define AzureComputeDiskEncryption_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeDiskEncryptionSPRITE, AzureComputeDiskEncryption_m)
 

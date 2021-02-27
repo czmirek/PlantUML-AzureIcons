@@ -5,10 +5,10 @@ VLFROABeI9QF3jyfSWOfjnfAF7_gSYX9R04r51wzYmKoMe_KlF9x1TYdP-uTkyTdIhdHmVxGN1VbiWU_
 qfWSsGc7QIDxcpHcZOoNV-LefF2t2YIpcvuu0lK2Fp8T7fbKpqpDXoVuVMdoy6QpJuF36z_vxLFVXCzlvNeuUUwrulpBYVwAey39tAXHwAzRNm
 }
 
-AzureImage(AzureStatusSuccess)
+AzureEntityColoring(AzureStatusSuccess)
 !define AzureStatusSuccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusSuccess_tbg.png", AzureStatusSuccess)
 !define AzureStatusSuccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusSuccess_tbg.png", AzureStatusSuccess)
-AzureEntity(AzureStatusSuccess_m)
+AzureEntityColoring(AzureStatusSuccess_m)
 !define AzureStatusSuccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusSuccessSPRITE, AzureStatusSuccess_m)
 !define AzureStatusSuccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusSuccessSPRITE, AzureStatusSuccess_m)
 

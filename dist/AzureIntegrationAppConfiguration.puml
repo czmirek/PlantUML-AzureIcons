@@ -7,10 +7,10 @@ OK9FsiSO9cy8XUGDewUt79LtU3Fy8h75OKgX9naEJlEKmiDByaOAyKeZGba8uc-5U9p1gdZvl2WjbL5t
 qghJquGPyWvkv2eqeTuHzCZ-OioO5wkKVQQFpHg1L772jgVu0m
 }
 
-AzureImage(AzureIntegrationAppConfiguration)
+AzureEntityColoring(AzureIntegrationAppConfiguration)
 !define AzureIntegrationAppConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationAppConfiguration_tbg.png", AzureIntegrationAppConfiguration)
 !define AzureIntegrationAppConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationAppConfiguration_tbg.png", AzureIntegrationAppConfiguration)
-AzureEntity(AzureIntegrationAppConfiguration_m)
+AzureEntityColoring(AzureIntegrationAppConfiguration_m)
 !define AzureIntegrationAppConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationAppConfigurationSPRITE, AzureIntegrationAppConfiguration_m)
 !define AzureIntegrationAppConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationAppConfigurationSPRITE, AzureIntegrationAppConfiguration_m)
 

@@ -6,10 +6,10 @@ fCbC-LQs-5QApE581I9nIH4_qD6vubGIqN1v6VeLbSvayigOJ2NG_HKLsJIPCQyar-6QL9uw4Qhqj93X
 YLJ9sJV3ddW--TOaugRaGAv782iKv6f49KWEAe-moBf2vXs6o84Cmt9o1Sp4I4vnCf9dyaZEsE6oLsFGPB_27weSeKYsvFYgJ8uhu1Egd6AySvMJAZPCv0O
 }
 
-AzureImage(AzureNetworkingApplicationSecurityGroups)
+AzureEntityColoring(AzureNetworkingApplicationSecurityGroups)
 !define AzureNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingApplicationSecurityGroups_tbg.png", AzureNetworkingApplicationSecurityGroups)
 !define AzureNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingApplicationSecurityGroups_tbg.png", AzureNetworkingApplicationSecurityGroups)
-AzureEntity(AzureNetworkingApplicationSecurityGroups_m)
+AzureEntityColoring(AzureNetworkingApplicationSecurityGroups_m)
 !define AzureNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingApplicationSecurityGroupsSPRITE, AzureNetworkingApplicationSecurityGroups_m)
 !define AzureNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingApplicationSecurityGroupsSPRITE, AzureNetworkingApplicationSecurityGroups_m)
 

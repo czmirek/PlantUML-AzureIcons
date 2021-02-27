@@ -6,10 +6,10 @@ Pobie2ydk0u5riXNCs79afHojd6EJI20zDF_XYy5Vo-KWWZT4ZfC8OtvF6tOfA1eXjEKSdwDLdlZuFew
 YEK8Kco9Mk00IfZ1S0XPRKtfVtxmF1wFRm
 }
 
-AzureImage(AzureWebAPIConnections)
+AzureEntityColoring(AzureWebAPIConnections)
 !define AzureWebAPIConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAPIConnections_tbg.png", AzureWebAPIConnections)
 !define AzureWebAPIConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAPIConnections_tbg.png", AzureWebAPIConnections)
-AzureEntity(AzureWebAPIConnections_m)
+AzureEntityColoring(AzureWebAPIConnections_m)
 !define AzureWebAPIConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAPIConnectionsSPRITE, AzureWebAPIConnections_m)
 !define AzureWebAPIConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAPIConnectionsSPRITE, AzureWebAPIConnections_m)
 

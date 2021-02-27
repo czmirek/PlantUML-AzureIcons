@@ -7,10 +7,10 @@ WaojjspeLIQMckKxglc15fHkI5540ONBHl60PXXkLRH58LZHTdkROZmZ4nWwkebYGEVeOd7N5BKBIWLv
 LDiKcGvM0g_RhECtfrh2qJ9Opjz-PD0YEfa6dWIbRCp9qV_M9m
 }
 
-AzureImage(AzureCommandSplitAvailable)
+AzureEntityColoring(AzureCommandSplitAvailable)
 !define AzureCommandSplitAvailable(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandSplitAvailable_tbg.png", AzureCommandSplitAvailable)
 !define AzureCommandSplitAvailable(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandSplitAvailable_tbg.png", AzureCommandSplitAvailable)
-AzureEntity(AzureCommandSplitAvailable_m)
+AzureEntityColoring(AzureCommandSplitAvailable_m)
 !define AzureCommandSplitAvailable_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSplitAvailableSPRITE, AzureCommandSplitAvailable_m)
 !define AzureCommandSplitAvailable_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSplitAvailableSPRITE, AzureCommandSplitAvailable_m)
 

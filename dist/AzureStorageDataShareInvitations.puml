@@ -4,10 +4,10 @@ tccsbPoyY5Kw6R2b-9a4DXIRSnghkAyZR2f-1cmhNYQ1VkKfnqgCuhcECA0O9e41nJ2PZ2XF6IIeoBsJ
 ZG2_KhHP4QS2hHifu55AtQd8heAwdmBRIgck2ZOKL7T0Iocr8yLL1RKpua8HhTqfZC8QYdYZY9w3APwKK-Pv868vtBVAKElXvpIRpMu1
 }
 
-AzureImage(AzureStorageDataShareInvitations)
+AzureEntityColoring(AzureStorageDataShareInvitations)
 !define AzureStorageDataShareInvitations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageDataShareInvitations_tbg.png", AzureStorageDataShareInvitations)
 !define AzureStorageDataShareInvitations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageDataShareInvitations_tbg.png", AzureStorageDataShareInvitations)
-AzureEntity(AzureStorageDataShareInvitations_m)
+AzureEntityColoring(AzureStorageDataShareInvitations_m)
 !define AzureStorageDataShareInvitations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageDataShareInvitationsSPRITE, AzureStorageDataShareInvitations_m)
 !define AzureStorageDataShareInvitations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageDataShareInvitationsSPRITE, AzureStorageDataShareInvitations_m)
 

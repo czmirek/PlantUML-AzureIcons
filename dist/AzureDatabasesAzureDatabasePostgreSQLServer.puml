@@ -8,10 +8,10 @@ nOZJvyOq4QzAxF4td66lYduNnRwBuj-Y565hV9F2s8flKXHhbD-aEDQaEahEbDWc9HwLn9DyffGH856F
 HhqeZD18FAQ2Aw4VY_c8oAoFCZE6cpB-WDu1
 }
 
-AzureImage(AzureDatabasesAzureDatabasePostgreSQLServer)
+AzureEntityColoring(AzureDatabasesAzureDatabasePostgreSQLServer)
 !define AzureDatabasesAzureDatabasePostgreSQLServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureDatabasePostgreSQLServer_tbg.png", AzureDatabasesAzureDatabasePostgreSQLServer)
 !define AzureDatabasesAzureDatabasePostgreSQLServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureDatabasePostgreSQLServer_tbg.png", AzureDatabasesAzureDatabasePostgreSQLServer)
-AzureEntity(AzureDatabasesAzureDatabasePostgreSQLServer_m)
+AzureEntityColoring(AzureDatabasesAzureDatabasePostgreSQLServer_m)
 !define AzureDatabasesAzureDatabasePostgreSQLServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureDatabasePostgreSQLServerSPRITE, AzureDatabasesAzureDatabasePostgreSQLServer_m)
 !define AzureDatabasesAzureDatabasePostgreSQLServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureDatabasePostgreSQLServerSPRITE, AzureDatabasesAzureDatabasePostgreSQLServer_m)
 

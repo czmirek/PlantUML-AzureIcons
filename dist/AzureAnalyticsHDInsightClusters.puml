@@ -7,10 +7,10 @@ fXouEU6on59lpu_IJcK9fC4JhaovdLmqb4wqUYHvvE2rUpmvEGfD4V4FDNRH5B6MwaOiBELaqugyA66b
 RfIoobooCzVhoP19-ibXPtk7Bj-D3K_sJOPXpqOwtT5RHw_nrRWJpVLXjEMI1z6es-y1Sh6sLLuBRBRkDBQfwJFwO5eSIao-e9f-0ty1
 }
 
-AzureImage(AzureAnalyticsHDInsightClusters)
+AzureEntityColoring(AzureAnalyticsHDInsightClusters)
 !define AzureAnalyticsHDInsightClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureAnalyticsHDInsightClusters_tbg.png", AzureAnalyticsHDInsightClusters)
 !define AzureAnalyticsHDInsightClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureAnalyticsHDInsightClusters_tbg.png", AzureAnalyticsHDInsightClusters)
-AzureEntity(AzureAnalyticsHDInsightClusters_m)
+AzureEntityColoring(AzureAnalyticsHDInsightClusters_m)
 !define AzureAnalyticsHDInsightClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsHDInsightClustersSPRITE, AzureAnalyticsHDInsightClusters_m)
 !define AzureAnalyticsHDInsightClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsHDInsightClustersSPRITE, AzureAnalyticsHDInsightClusters_m)
 

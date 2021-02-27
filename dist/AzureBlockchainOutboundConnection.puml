@@ -6,10 +6,10 @@ IC4O2XL4-ufYZF3tej6sZLXPz7KC_he2BXxCWcAyEUc7eMWINXqA3W85ZEBF1BEWu7MXWE68-TgxyBfR
 erQHHtqmIoeWbO1K0b89I2KWbO1K0b89I2Lk_t6_0G
 }
 
-AzureImage(AzureBlockchainOutboundConnection)
+AzureEntityColoring(AzureBlockchainOutboundConnection)
 !define AzureBlockchainOutboundConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureBlockchainOutboundConnection_tbg.png", AzureBlockchainOutboundConnection)
 !define AzureBlockchainOutboundConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureBlockchainOutboundConnection_tbg.png", AzureBlockchainOutboundConnection)
-AzureEntity(AzureBlockchainOutboundConnection_m)
+AzureEntityColoring(AzureBlockchainOutboundConnection_m)
 !define AzureBlockchainOutboundConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainOutboundConnectionSPRITE, AzureBlockchainOutboundConnection_m)
 !define AzureBlockchainOutboundConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainOutboundConnectionSPRITE, AzureBlockchainOutboundConnection_m)
 

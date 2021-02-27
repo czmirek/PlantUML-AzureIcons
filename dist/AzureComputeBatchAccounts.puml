@@ -5,10 +5,10 @@ h0Af8aj5OnY9-LX15R6Aorm9vn5eyM4icMF4dn4iWaM-5abNm2RIHnzN4MQE6DA_hfq9DwdGfWgZAVig
 9h-BI4HfrqNOH3wk4ifVHyRh-_a7
 }
 
-AzureImage(AzureComputeBatchAccounts)
+AzureEntityColoring(AzureComputeBatchAccounts)
 !define AzureComputeBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeBatchAccounts_tbg.png", AzureComputeBatchAccounts)
 !define AzureComputeBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeBatchAccounts_tbg.png", AzureComputeBatchAccounts)
-AzureEntity(AzureComputeBatchAccounts_m)
+AzureEntityColoring(AzureComputeBatchAccounts_m)
 !define AzureComputeBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeBatchAccountsSPRITE, AzureComputeBatchAccounts_m)
 !define AzureComputeBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeBatchAccountsSPRITE, AzureComputeBatchAccounts_m)
 

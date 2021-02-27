@@ -7,10 +7,10 @@ WjIGaWGpCybGIO3HSrLp-4-0IKW86mys1bMXPUTHb02JeSmC9l0n3g4iEpBDnc17Xb-WDWkJWOCLxXOL
 mJEAydpYMzjFS3GqrBeLVsAOV3fzGgapHyCb7OCzSWmOrRtL49oNaEr5-2soRYjQkNFShYl8_jsR4_ajpd-wKPBVRdq7
 }
 
-AzureImage(AzureCommandCancelled)
+AzureEntityColoring(AzureCommandCancelled)
 !define AzureCommandCancelled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandCancelled_tbg.png", AzureCommandCancelled)
 !define AzureCommandCancelled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandCancelled_tbg.png", AzureCommandCancelled)
-AzureEntity(AzureCommandCancelled_m)
+AzureEntityColoring(AzureCommandCancelled_m)
 !define AzureCommandCancelled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCancelledSPRITE, AzureCommandCancelled_m)
 !define AzureCommandCancelled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCancelledSPRITE, AzureCommandCancelled_m)
 

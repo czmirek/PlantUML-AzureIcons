@@ -6,10 +6,10 @@ T1GRBahFbw7YDb9yLt-cF2bpauoERCyPzHJQEXdNRKKEyGkAWVw28e0ZHUSK1B21ilcCuW20CL3sc508
 4_k_OgG8d4cXr4oDjCW7okuT9GX-nD6_HMj5e8WqIYKqbPvGq8sufMRc3SdnAuAfI8yQaeFKlBBfNSKEnEufTdGWFrlutHXsMwbRM7HR0Lt_rPZ38lYyFhy_
 }
 
-AzureImage(AzureStorageStorageSyncServices)
+AzureEntityColoring(AzureStorageStorageSyncServices)
 !define AzureStorageStorageSyncServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageStorageSyncServices_tbg.png", AzureStorageStorageSyncServices)
 !define AzureStorageStorageSyncServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageStorageSyncServices_tbg.png", AzureStorageStorageSyncServices)
-AzureEntity(AzureStorageStorageSyncServices_m)
+AzureEntityColoring(AzureStorageStorageSyncServices_m)
 !define AzureStorageStorageSyncServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageStorageSyncServicesSPRITE, AzureStorageStorageSyncServices_m)
 !define AzureStorageStorageSyncServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageStorageSyncServicesSPRITE, AzureStorageStorageSyncServices_m)
 

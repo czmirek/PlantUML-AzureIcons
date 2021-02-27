@@ -7,10 +7,10 @@ PdA5zowf2CzO1bacBOE-w8IbcD788WC3tDF5JgGQ9dgZpLAETwo1hTUPwt_1IpZUPnOi_gCjbbeCxpSU
 W_-y0W
 }
 
-AzureImage(AzurestackEdgeManagement)
+AzureEntityColoring(AzurestackEdgeManagement)
 !define AzurestackEdgeManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackEdgeManagement_tbg.png", AzurestackEdgeManagement)
 !define AzurestackEdgeManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackEdgeManagement_tbg.png", AzurestackEdgeManagement)
-AzureEntity(AzurestackEdgeManagement_m)
+AzureEntityColoring(AzurestackEdgeManagement_m)
 !define AzurestackEdgeManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackEdgeManagementSPRITE, AzurestackEdgeManagement_m)
 !define AzurestackEdgeManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackEdgeManagementSPRITE, AzurestackEdgeManagement_m)
 

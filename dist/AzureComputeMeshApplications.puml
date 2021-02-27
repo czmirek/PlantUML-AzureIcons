@@ -6,10 +6,10 @@ MkcURgtOY9uNQDtq_X4lfltgd9SYhF5k191ae4cQNZHESdMRsHooTcP8CvEDEUZDB9No5xAVCLd2P3jx
 a3lLYY55UhzJPTuqYObbtMY-BsQyou462opf0-PC8Wh2vGW3OOUM8hxK8aN88LaBAOTeBQYSOdGgnnXg09DRM09fyYdy1
 }
 
-AzureImage(AzureComputeMeshApplications)
+AzureEntityColoring(AzureComputeMeshApplications)
 !define AzureComputeMeshApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeMeshApplications_tbg.png", AzureComputeMeshApplications)
 !define AzureComputeMeshApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeMeshApplications_tbg.png", AzureComputeMeshApplications)
-AzureEntity(AzureComputeMeshApplications_m)
+AzureEntityColoring(AzureComputeMeshApplications_m)
 !define AzureComputeMeshApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeMeshApplicationsSPRITE, AzureComputeMeshApplications_m)
 !define AzureComputeMeshApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeMeshApplicationsSPRITE, AzureComputeMeshApplications_m)
 

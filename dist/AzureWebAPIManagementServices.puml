@@ -6,10 +6,10 @@ KuBOcZ-To816z3Ru4Adwbj22-8SEVdhxg086DOhmBwBwpZxhWhp1gyACZRvIF7el_5FSCKwf3WAB9qMZ
 y8_TURhFTYe-WSeivH1v-T_E9cdgJwCjRMvA7jiV6hkr-oD0UVGl0jZSeMNKCxuEj_r9bGkWUiBNe9Lj_uNBuTWToYBc6Xlakeh91VQV1tirkGP9o2B_t04
 }
 
-AzureImage(AzureWebAPIManagementServices)
+AzureEntityColoring(AzureWebAPIManagementServices)
 !define AzureWebAPIManagementServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAPIManagementServices_tbg.png", AzureWebAPIManagementServices)
 !define AzureWebAPIManagementServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAPIManagementServices_tbg.png", AzureWebAPIManagementServices)
-AzureEntity(AzureWebAPIManagementServices_m)
+AzureEntityColoring(AzureWebAPIManagementServices_m)
 !define AzureWebAPIManagementServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAPIManagementServicesSPRITE, AzureWebAPIManagementServices_m)
 !define AzureWebAPIManagementServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAPIManagementServicesSPRITE, AzureWebAPIManagementServices_m)
 

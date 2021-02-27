@@ -7,10 +7,10 @@ s7EwKhAPgdaEuOQ0EZwKsENolSu0G7v-nzHQquyhAL2J-cabskv3vVzJxNybLYi19sorOd0croe9fp1M
 UqJk8iARgH3y0Nu1
 }
 
-AzureImage(AzureDatabasesSQLElasticPools)
+AzureEntityColoring(AzureDatabasesSQLElasticPools)
 !define AzureDatabasesSQLElasticPools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesSQLElasticPools_tbg.png", AzureDatabasesSQLElasticPools)
 !define AzureDatabasesSQLElasticPools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesSQLElasticPools_tbg.png", AzureDatabasesSQLElasticPools)
-AzureEntity(AzureDatabasesSQLElasticPools_m)
+AzureEntityColoring(AzureDatabasesSQLElasticPools_m)
 !define AzureDatabasesSQLElasticPools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesSQLElasticPoolsSPRITE, AzureDatabasesSQLElasticPools_m)
 !define AzureDatabasesSQLElasticPools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesSQLElasticPoolsSPRITE, AzureDatabasesSQLElasticPools_m)
 

@@ -8,10 +8,10 @@ WOd0Kpzste56806D_IYjhvstZzO6yeS49e9SWgtyKfj9VMFwRIDHaXM2w5-QI1A99h1LMTGds8Ce4L11
 e8IuD5FIPHAi4P18yKA9P8hASQn4hk4aSkoVIlxoBm
 }
 
-AzureImage(AzureCommandHeartpulse)
+AzureEntityColoring(AzureCommandHeartpulse)
 !define AzureCommandHeartpulse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandHeartpulse_tbg.png", AzureCommandHeartpulse)
 !define AzureCommandHeartpulse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandHeartpulse_tbg.png", AzureCommandHeartpulse)
-AzureEntity(AzureCommandHeartpulse_m)
+AzureEntityColoring(AzureCommandHeartpulse_m)
 !define AzureCommandHeartpulse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandHeartpulseSPRITE, AzureCommandHeartpulse_m)
 !define AzureCommandHeartpulse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandHeartpulseSPRITE, AzureCommandHeartpulse_m)
 

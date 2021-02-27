@@ -7,10 +7,10 @@ _Am0WG8439JMq2zAQwWJ10m92Wq8c892431r1GXdkC8Hpd258vmfA40emvK20eOh7E4CLqe86Fp6yjJk
 2P0oCmXIPm81EM20b9bp10oG4mR82GFaX05onW0vOzo1V4JV
 }
 
-AzureImage(AzureNetworkingApplicationGateways)
+AzureEntityColoring(AzureNetworkingApplicationGateways)
 !define AzureNetworkingApplicationGateways(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingApplicationGateways_tbg.png", AzureNetworkingApplicationGateways)
 !define AzureNetworkingApplicationGateways(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingApplicationGateways_tbg.png", AzureNetworkingApplicationGateways)
-AzureEntity(AzureNetworkingApplicationGateways_m)
+AzureEntityColoring(AzureNetworkingApplicationGateways_m)
 !define AzureNetworkingApplicationGateways_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingApplicationGatewaysSPRITE, AzureNetworkingApplicationGateways_m)
 !define AzureNetworkingApplicationGateways_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingApplicationGatewaysSPRITE, AzureNetworkingApplicationGateways_m)
 

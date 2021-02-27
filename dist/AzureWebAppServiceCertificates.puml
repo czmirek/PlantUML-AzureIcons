@@ -5,10 +5,10 @@ prld05tg1kHlemtVnYgT0MXnFZ19Y1aq5HPj3g39a8R898kMnSnOcJKTAHFzaFd7alX1IRKiU8vgIRfe
 hc29z8oELxWisdX5mM7gL3w-0G
 }
 
-AzureImage(AzureWebAppServiceCertificates)
+AzureEntityColoring(AzureWebAppServiceCertificates)
 !define AzureWebAppServiceCertificates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAppServiceCertificates_tbg.png", AzureWebAppServiceCertificates)
 !define AzureWebAppServiceCertificates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAppServiceCertificates_tbg.png", AzureWebAppServiceCertificates)
-AzureEntity(AzureWebAppServiceCertificates_m)
+AzureEntityColoring(AzureWebAppServiceCertificates_m)
 !define AzureWebAppServiceCertificates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppServiceCertificatesSPRITE, AzureWebAppServiceCertificates_m)
 !define AzureWebAppServiceCertificates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppServiceCertificatesSPRITE, AzureWebAppServiceCertificates_m)
 

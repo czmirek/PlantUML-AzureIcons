@@ -8,10 +8,10 @@ PhuA0iNJsbn3YOX488ka0sup8-iR6Uaiqb2xt6ULXNyhoxwZys8fg68zkYWGsGtHXQXbfgKXnhWm0lTw
 ILN7kZjjqO14Ym3lcqfOkJGQsWnivuzlDkvdRZPGqxFHEGnX8LxV-1OtjKw_zVQvlWatR2lclLjvuq94P-4-KCEVUI5OlrRyuPSJm8P4XPaPhpZ_0pu3
 }
 
-AzureImage(AzureCommandMonitor)
+AzureEntityColoring(AzureCommandMonitor)
 !define AzureCommandMonitor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandMonitor_tbg.png", AzureCommandMonitor)
 !define AzureCommandMonitor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandMonitor_tbg.png", AzureCommandMonitor)
-AzureEntity(AzureCommandMonitor_m)
+AzureEntityColoring(AzureCommandMonitor_m)
 !define AzureCommandMonitor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandMonitorSPRITE, AzureCommandMonitor_m)
 !define AzureCommandMonitor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandMonitorSPRITE, AzureCommandMonitor_m)
 

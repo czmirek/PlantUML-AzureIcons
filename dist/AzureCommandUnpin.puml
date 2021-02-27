@@ -8,10 +8,10 @@ OzXuyG92FJ70c61eFHCGzfC2PnezPuXq8tTi8TiMcEk48AuN6EFFo0g_SXf2AaE4sEzxXwlR6cgFoFgM
 BvtgqVPcVm
 }
 
-AzureImage(AzureCommandUnpin)
+AzureEntityColoring(AzureCommandUnpin)
 !define AzureCommandUnpin(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandUnpin_tbg.png", AzureCommandUnpin)
 !define AzureCommandUnpin(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandUnpin_tbg.png", AzureCommandUnpin)
-AzureEntity(AzureCommandUnpin_m)
+AzureEntityColoring(AzureCommandUnpin_m)
 !define AzureCommandUnpin_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUnpinSPRITE, AzureCommandUnpin_m)
 !define AzureCommandUnpin_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUnpinSPRITE, AzureCommandUnpin_m)
 

@@ -9,10 +9,10 @@ g5HE8MzmDiAqy6wZ5Drhal7TC4sJ2U0U2239BHYScD4XLb8nhlJ6DrTO725o6JZDX15I9R461aO-5Jau
 8cPX9W3-h7u2
 }
 
-AzureImage(AzureGeneralRecent)
+AzureEntityColoring(AzureGeneralRecent)
 !define AzureGeneralRecent(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralRecent_tbg.png", AzureGeneralRecent)
 !define AzureGeneralRecent(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralRecent_tbg.png", AzureGeneralRecent)
-AzureEntity(AzureGeneralRecent_m)
+AzureEntityColoring(AzureGeneralRecent_m)
 !define AzureGeneralRecent_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralRecentSPRITE, AzureGeneralRecent_m)
 !define AzureGeneralRecent_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralRecentSPRITE, AzureGeneralRecent_m)
 

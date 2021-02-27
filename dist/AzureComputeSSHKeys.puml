@@ -6,10 +6,10 @@ HXnOJiO79A-XnoF5y37B5LNfsN9NUYNR6X4pMJC216PRKOpnGM4-ax6sL7HgU4L8VA7un6YOLkdNoz2b
 JGDpeBJJ5VLmeYW3if-ofy0vemNdp3c2eaV8UVzx2m
 }
 
-AzureImage(AzureComputeSSHKeys)
+AzureEntityColoring(AzureComputeSSHKeys)
 !define AzureComputeSSHKeys(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeSSHKeys_tbg.png", AzureComputeSSHKeys)
 !define AzureComputeSSHKeys(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeSSHKeys_tbg.png", AzureComputeSSHKeys)
-AzureEntity(AzureComputeSSHKeys_m)
+AzureEntityColoring(AzureComputeSSHKeys_m)
 !define AzureComputeSSHKeys_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeSSHKeysSPRITE, AzureComputeSSHKeys_m)
 !define AzureComputeSSHKeys_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeSSHKeysSPRITE, AzureComputeSSHKeys_m)
 

@@ -9,10 +9,10 @@ Oe7wM_E2ODXMaD5jld6BplCnK-452GkUTtbWaNCzE0WBSj9FMQ2nprW0-QSiWFrpbZuQt-PZFlVaE3RT
 bopdkR0E_1oCBP-R5t1xuuKTa5yZJTC_
 }
 
-AzureImage(AzureNetworkingFrontDoorWAFPolicies)
+AzureEntityColoring(AzureNetworkingFrontDoorWAFPolicies)
 !define AzureNetworkingFrontDoorWAFPolicies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingFrontDoorWAFPolicies_tbg.png", AzureNetworkingFrontDoorWAFPolicies)
 !define AzureNetworkingFrontDoorWAFPolicies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingFrontDoorWAFPolicies_tbg.png", AzureNetworkingFrontDoorWAFPolicies)
-AzureEntity(AzureNetworkingFrontDoorWAFPolicies_m)
+AzureEntityColoring(AzureNetworkingFrontDoorWAFPolicies_m)
 !define AzureNetworkingFrontDoorWAFPolicies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingFrontDoorWAFPoliciesSPRITE, AzureNetworkingFrontDoorWAFPolicies_m)
 !define AzureNetworkingFrontDoorWAFPolicies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingFrontDoorWAFPoliciesSPRITE, AzureNetworkingFrontDoorWAFPolicies_m)
 

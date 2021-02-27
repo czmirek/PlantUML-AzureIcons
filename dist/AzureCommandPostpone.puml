@@ -7,10 +7,10 @@ c70Vpdc4SWUa8kPY2hPtkGlo8vIx9QMEKlpTMEvxsnISyYVATelchHPnayB6WyoMkxJ0IkiY65nfwNKO
 uD5f0Yl9_p_PC6RWb3LqueEdJtnQrWcTFdc8SiJjat12rXEybJ2fSf3zmmr1rWTlAu9tpeVERGKAEtnp8kqVlyLX5retIXRxWM-tAfKKx0HIhm
 }
 
-AzureImage(AzureCommandPostpone)
+AzureEntityColoring(AzureCommandPostpone)
 !define AzureCommandPostpone(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandPostpone_tbg.png", AzureCommandPostpone)
 !define AzureCommandPostpone(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandPostpone_tbg.png", AzureCommandPostpone)
-AzureEntity(AzureCommandPostpone_m)
+AzureEntityColoring(AzureCommandPostpone_m)
 !define AzureCommandPostpone_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandPostponeSPRITE, AzureCommandPostpone_m)
 !define AzureCommandPostpone_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandPostponeSPRITE, AzureCommandPostpone_m)
 

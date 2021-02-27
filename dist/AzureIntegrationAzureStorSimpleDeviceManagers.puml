@@ -5,10 +5,10 @@ zhZCC65Hj8OXZrkw1rC9uSZZFgNk9fLYIwAByIdw1Eya-pxRH7w38BoW_2QE5thCjo9oIV3CSuzHI2x5
 Wj3Y5V_A5E8jmgl_OcmbeuD6fMWPbQ25P8jnrN-F
 }
 
-AzureImage(AzureIntegrationAzureStorSimpleDeviceManagers)
+AzureEntityColoring(AzureIntegrationAzureStorSimpleDeviceManagers)
 !define AzureIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationAzureStorSimpleDeviceManagers_tbg.png", AzureIntegrationAzureStorSimpleDeviceManagers)
 !define AzureIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationAzureStorSimpleDeviceManagers_tbg.png", AzureIntegrationAzureStorSimpleDeviceManagers)
-AzureEntity(AzureIntegrationAzureStorSimpleDeviceManagers_m)
+AzureEntityColoring(AzureIntegrationAzureStorSimpleDeviceManagers_m)
 !define AzureIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationAzureStorSimpleDeviceManagersSPRITE, AzureIntegrationAzureStorSimpleDeviceManagers_m)
 !define AzureIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationAzureStorSimpleDeviceManagersSPRITE, AzureIntegrationAzureStorSimpleDeviceManagers_m)
 

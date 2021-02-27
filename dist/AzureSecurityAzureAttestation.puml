@@ -6,10 +6,10 @@ i9XWs58CZAqUsCDw2gyObwU71gpyaARHmciIUaWgvzkhYbSEGpoiboCD1Opc-8-Ms_RWK8ubRp1mmO01
 ubGiV_QT4QDE6d7-VwtKYtrd9iBKplRbx8RHDqdw2zdDq4BgSM4YFm
 }
 
-AzureImage(AzureSecurityAzureAttestation)
+AzureEntityColoring(AzureSecurityAzureAttestation)
 !define AzureSecurityAzureAttestation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityAzureAttestation_tbg.png", AzureSecurityAzureAttestation)
 !define AzureSecurityAzureAttestation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityAzureAttestation_tbg.png", AzureSecurityAzureAttestation)
-AzureEntity(AzureSecurityAzureAttestation_m)
+AzureEntityColoring(AzureSecurityAzureAttestation_m)
 !define AzureSecurityAzureAttestation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityAzureAttestationSPRITE, AzureSecurityAzureAttestation_m)
 !define AzureSecurityAzureAttestation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityAzureAttestationSPRITE, AzureSecurityAzureAttestation_m)
 

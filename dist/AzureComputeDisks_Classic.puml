@@ -6,10 +6,10 @@ Mr-GyzkerxZHv43GQNAeR8PqETPSHExeQINtj4jtWe4OBjpDFi4LuZ7nhT0JRwgKOCfP9SiErWuWNizp
 uHESx1XwckJuVHudXkp-y5uBSLPJSfaL4BoLeyXGm4F8QQETDLeAD5nkrFI1qd4XqKlwJ6b2ngIvHAJKBd0JfCU5c7ig_oN--m8
 }
 
-AzureImage(AzureComputeDisks_Classic)
+AzureEntityColoring(AzureComputeDisks_Classic)
 !define AzureComputeDisks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeDisks_Classic_tbg.png", AzureComputeDisks_Classic)
 !define AzureComputeDisks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeDisks_Classic_tbg.png", AzureComputeDisks_Classic)
-AzureEntity(AzureComputeDisks_Classic_m)
+AzureEntityColoring(AzureComputeDisks_Classic_m)
 !define AzureComputeDisks_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeDisks_ClassicSPRITE, AzureComputeDisks_Classic_m)
 !define AzureComputeDisks_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeDisks_ClassicSPRITE, AzureComputeDisks_Classic_m)
 

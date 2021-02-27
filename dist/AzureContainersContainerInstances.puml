@@ -6,10 +6,10 @@ BsKCUK6i-BVIMtFpup0BIe32af1yAStC4kMzJuOnZBtrFQLt5qoZkgKe4zAsb0h4RkLMRkLMXDPATqyL
 PkHHLVzIaXdRezfwnYi
 }
 
-AzureImage(AzureContainersContainerInstances)
+AzureEntityColoring(AzureContainersContainerInstances)
 !define AzureContainersContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureContainersContainerInstances_tbg.png", AzureContainersContainerInstances)
 !define AzureContainersContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureContainersContainerInstances_tbg.png", AzureContainersContainerInstances)
-AzureEntity(AzureContainersContainerInstances_m)
+AzureEntityColoring(AzureContainersContainerInstances_m)
 !define AzureContainersContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainersContainerInstancesSPRITE, AzureContainersContainerInstances_m)
 !define AzureContainersContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainersContainerInstancesSPRITE, AzureContainersContainerInstances_m)
 

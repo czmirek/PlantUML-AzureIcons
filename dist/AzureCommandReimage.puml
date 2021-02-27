@@ -5,10 +5,10 @@ MUdg7ROo5-yaTVxRq5rjrStG7JQhPTXkhvk9kF8eS-ZXAiZDtrjSaUcHM7MeHwfKqSYZLREcWS4L_0RW
 jnNmBSxtpnq
 }
 
-AzureImage(AzureCommandReimage)
+AzureEntityColoring(AzureCommandReimage)
 !define AzureCommandReimage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandReimage_tbg.png", AzureCommandReimage)
 !define AzureCommandReimage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandReimage_tbg.png", AzureCommandReimage)
-AzureEntity(AzureCommandReimage_m)
+AzureEntityColoring(AzureCommandReimage_m)
 !define AzureCommandReimage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandReimageSPRITE, AzureCommandReimage_m)
 !define AzureCommandReimage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandReimageSPRITE, AzureCommandReimage_m)
 

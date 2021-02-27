@@ -7,10 +7,10 @@ IEr8BSj88L8RWkrF31IBO469WUAGsX0mK4QUaH821ef1IWWOA0Qf3TcJK1nIGi1qvNE4Z9JF4J9I_X8X
 KeYOC-8P8Hi3v7_93m
 }
 
-AzureImage(AzureAnalyticsAzureDataExplorerClusters)
+AzureEntityColoring(AzureAnalyticsAzureDataExplorerClusters)
 !define AzureAnalyticsAzureDataExplorerClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureAnalyticsAzureDataExplorerClusters_tbg.png", AzureAnalyticsAzureDataExplorerClusters)
 !define AzureAnalyticsAzureDataExplorerClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureAnalyticsAzureDataExplorerClusters_tbg.png", AzureAnalyticsAzureDataExplorerClusters)
-AzureEntity(AzureAnalyticsAzureDataExplorerClusters_m)
+AzureEntityColoring(AzureAnalyticsAzureDataExplorerClusters_m)
 !define AzureAnalyticsAzureDataExplorerClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsAzureDataExplorerClustersSPRITE, AzureAnalyticsAzureDataExplorerClusters_m)
 !define AzureAnalyticsAzureDataExplorerClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsAzureDataExplorerClustersSPRITE, AzureAnalyticsAzureDataExplorerClusters_m)
 

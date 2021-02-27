@@ -6,10 +6,10 @@ wU0fQAqhpK0YlaJKf4M50P3l8u0r1G68Tm70aa80k6DmLKa4hmxTR4ihh2dP8VGG4KQSqgAISxG8bv1y
 YN2ji9iMqaw9R6uZdaPaVRm8tg9vSu2lWVcCNW
 }
 
-AzureImage(AzurestackInfrastructureBackup)
+AzureEntityColoring(AzurestackInfrastructureBackup)
 !define AzurestackInfrastructureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackInfrastructureBackup_tbg.png", AzurestackInfrastructureBackup)
 !define AzurestackInfrastructureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackInfrastructureBackup_tbg.png", AzurestackInfrastructureBackup)
-AzureEntity(AzurestackInfrastructureBackup_m)
+AzureEntityColoring(AzurestackInfrastructureBackup_m)
 !define AzurestackInfrastructureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackInfrastructureBackupSPRITE, AzurestackInfrastructureBackup_m)
 !define AzurestackInfrastructureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackInfrastructureBackupSPRITE, AzurestackInfrastructureBackup_m)
 

@@ -6,10 +6,10 @@ Q5qnCs6cEBIYkdn_iUcT8Oo9ecupXH2doecm9nIcwRaRoYdpIog3qeNatCsLI6z7khO6frfBphgPihaU
 oouuKlhkAsSAboJC52ZdckuLhIMjqbw1uPTeesAG6-DOmp13PA4aMyt7IenUaxCYjSoYim8b2rGt3NvMPOw5v26--Wjptbz__GC
 }
 
-AzureImage(AzureManageAzureArc)
+AzureEntityColoring(AzureManageAzureArc)
 !define AzureManageAzureArc(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageAzureArc_tbg.png", AzureManageAzureArc)
 !define AzureManageAzureArc(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageAzureArc_tbg.png", AzureManageAzureArc)
-AzureEntity(AzureManageAzureArc_m)
+AzureEntityColoring(AzureManageAzureArc_m)
 !define AzureManageAzureArc_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageAzureArcSPRITE, AzureManageAzureArc_m)
 !define AzureManageAzureArc_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageAzureArcSPRITE, AzureManageAzureArc_m)
 

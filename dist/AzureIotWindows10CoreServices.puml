@@ -8,10 +8,10 @@ lq_gcuOvZjGvnP1C1qvJl4qLZYoPKoYO9qfo1oMfVMl2au6qzaJkaJw9OVai9Ue8jTzYN2rdAL9dwAeY
 _-wkDTKHzJ8a9MjD9G3dmbCBhoIfOLxtPAc38dWbIGq56yuaelp7lLTPYM37U8NX6bxWWcliEkIpnGGtKV_MaOYj58h7Y9epSLF1UsG3VuL_0G
 }
 
-AzureImage(AzureIotWindows10CoreServices)
+AzureEntityColoring(AzureIotWindows10CoreServices)
 !define AzureIotWindows10CoreServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotWindows10CoreServices_tbg.png", AzureIotWindows10CoreServices)
 !define AzureIotWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotWindows10CoreServices_tbg.png", AzureIotWindows10CoreServices)
-AzureEntity(AzureIotWindows10CoreServices_m)
+AzureEntityColoring(AzureIotWindows10CoreServices_m)
 !define AzureIotWindows10CoreServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotWindows10CoreServicesSPRITE, AzureIotWindows10CoreServices_m)
 !define AzureIotWindows10CoreServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotWindows10CoreServicesSPRITE, AzureIotWindows10CoreServices_m)
 

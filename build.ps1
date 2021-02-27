@@ -32,17 +32,13 @@ Get-ChildItem $iconPath | ForEach-Object {
     $pngTbgPath = $dist + "/" + $pngTbg
     $pumlOutput = $dist + "/$($serviceId).puml"
 
-    if((Test-Path $pngWbgPath) -and (Test-Path $pngTbgPath) -and (Test-Path $pumlOutput)) {
-        return
+    Write-Host $serviceId
+    
+    if(!((Test-Path $pngWbgPath) -and (Test-Path $pngTbgPath))) {
+        inkscape --export-background="white" --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngWbgPath
+        inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngTbgPath
     }
 
-    Write-Host ""
-    Write-Host "--------------------------------------------"
-    Write-Host $serviceId
-    Write-Host "--------------------------------------------"
-    
-    inkscape --export-background="white" --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngWbgPath
-    inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngTbgPath
     
     $colored = $serviceId
     $monochromatic = $serviceId + "_m"
@@ -53,11 +49,11 @@ Get-ChildItem $iconPath | ForEach-Object {
     $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
     
     $puml = $sprite
-    $puml += "AzureImage($($colored))`n"
+    $puml += "AzureEntityColoring($($colored))`n"
     $puml += "!define $($colored)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + ""$($pngTbg)"", $($colored))`n"
     $puml += "!define $($colored)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + ""$($pngTbg)"", $($colored))`n"
     
-    $puml += "AzureEntity($($monochromatic))`n"
+    $puml += "AzureEntityColoring($($monochromatic))`n"
     $puml += "!define $($monochromatic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n"
     $puml += "!define $($monochromatic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n`n"
     $puml | Out-File $pumlOutput -NoNewLine   

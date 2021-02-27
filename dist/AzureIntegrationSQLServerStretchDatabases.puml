@@ -5,10 +5,10 @@ aj3TcI5tWuEjKr9uVz30swFcAQKjXHuzvr8kJiAq32wcdArwHgaKStvorW8GSLE8sa9nkJDbtgShyWsK
 R1fZSPCF8Mf1nrgG-Oxz0m
 }
 
-AzureImage(AzureIntegrationSQLServerStretchDatabases)
+AzureEntityColoring(AzureIntegrationSQLServerStretchDatabases)
 !define AzureIntegrationSQLServerStretchDatabases(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationSQLServerStretchDatabases_tbg.png", AzureIntegrationSQLServerStretchDatabases)
 !define AzureIntegrationSQLServerStretchDatabases(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationSQLServerStretchDatabases_tbg.png", AzureIntegrationSQLServerStretchDatabases)
-AzureEntity(AzureIntegrationSQLServerStretchDatabases_m)
+AzureEntityColoring(AzureIntegrationSQLServerStretchDatabases_m)
 !define AzureIntegrationSQLServerStretchDatabases_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationSQLServerStretchDatabasesSPRITE, AzureIntegrationSQLServerStretchDatabases_m)
 !define AzureIntegrationSQLServerStretchDatabases_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationSQLServerStretchDatabasesSPRITE, AzureIntegrationSQLServerStretchDatabases_m)
 

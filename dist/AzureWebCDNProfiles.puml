@@ -4,10 +4,10 @@ hjduXZzHLvbWJlrFrWs-SvUiUsppCdLNd8I7twO8XWLjGWdceXa1Y4vaKyHYgffYCTESZ9dcb98lcWDa
 k4dnGvhVnhOdYIUnoGQjnqKbEA1nvLrfE2FcSS1DyQA6ONW7
 }
 
-AzureImage(AzureWebCDNProfiles)
+AzureEntityColoring(AzureWebCDNProfiles)
 !define AzureWebCDNProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebCDNProfiles_tbg.png", AzureWebCDNProfiles)
 !define AzureWebCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebCDNProfiles_tbg.png", AzureWebCDNProfiles)
-AzureEntity(AzureWebCDNProfiles_m)
+AzureEntityColoring(AzureWebCDNProfiles_m)
 !define AzureWebCDNProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebCDNProfilesSPRITE, AzureWebCDNProfiles_m)
 !define AzureWebCDNProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebCDNProfilesSPRITE, AzureWebCDNProfiles_m)
 

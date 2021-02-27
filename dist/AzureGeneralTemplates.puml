@@ -5,10 +5,10 @@ OZ7423Q8NT4vXLMsWnG7m1MP_bsA1MFSKcLJpC4PnRwvOrfP51aAgiueFg-yAx8ejlAcIAoeA-u0heg9
 zabsK5AA8J0cBC7YZCLbKo2Z0EAoMljR9O9ljWL39Tsayg_qFgtq_c5AUwloh_mh_yfhkbRez9gkbT9UWNGern7FHkMzUm4
 }
 
-AzureImage(AzureGeneralTemplates)
+AzureEntityColoring(AzureGeneralTemplates)
 !define AzureGeneralTemplates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralTemplates_tbg.png", AzureGeneralTemplates)
 !define AzureGeneralTemplates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralTemplates_tbg.png", AzureGeneralTemplates)
-AzureEntity(AzureGeneralTemplates_m)
+AzureEntityColoring(AzureGeneralTemplates_m)
 !define AzureGeneralTemplates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralTemplatesSPRITE, AzureGeneralTemplates_m)
 !define AzureGeneralTemplates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralTemplatesSPRITE, AzureGeneralTemplates_m)
 

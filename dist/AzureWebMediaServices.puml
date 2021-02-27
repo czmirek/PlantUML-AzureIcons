@@ -7,10 +7,10 @@ UTfNuZUQtrJwNZjzyv3MzuYLzJrNOeVQ3nnRrKywWWrHxmUDyJ_ghaL8K8gsVkG5a-FGCLUSAjxpZBXI
 FAm62qcY1fTxahJ4Gl9dtOZNQ72vPn5VyXC
 }
 
-AzureImage(AzureWebMediaServices)
+AzureEntityColoring(AzureWebMediaServices)
 !define AzureWebMediaServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebMediaServices_tbg.png", AzureWebMediaServices)
 !define AzureWebMediaServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebMediaServices_tbg.png", AzureWebMediaServices)
-AzureEntity(AzureWebMediaServices_m)
+AzureEntityColoring(AzureWebMediaServices_m)
 !define AzureWebMediaServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebMediaServicesSPRITE, AzureWebMediaServices_m)
 !define AzureWebMediaServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebMediaServicesSPRITE, AzureWebMediaServices_m)
 

@@ -6,10 +6,10 @@ KWWlVfUXtRPVP1mv3oNxnVBMBtRip0Bi5_8oY1tr2yP_Ma66PvMsHAQPh-8y5IsP7MUPs-o-Tj1Ggp8F
 JiSXlMTji1SyvpU41MqAESVqz2A-lFhs1_SVciaF4h61x7E8hpn8JabWzea6ttgbvKNhAnaUjcxOHSm0FOeIQiQ3KMOPfLyv3p-DcXYF02LbIgAN-0i
 }
 
-AzureImage(AzureIotTimeSeriesInsightsEnvironments)
+AzureEntityColoring(AzureIotTimeSeriesInsightsEnvironments)
 !define AzureIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotTimeSeriesInsightsEnvironments_tbg.png", AzureIotTimeSeriesInsightsEnvironments)
 !define AzureIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotTimeSeriesInsightsEnvironments_tbg.png", AzureIotTimeSeriesInsightsEnvironments)
-AzureEntity(AzureIotTimeSeriesInsightsEnvironments_m)
+AzureEntityColoring(AzureIotTimeSeriesInsightsEnvironments_m)
 !define AzureIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesInsightsEnvironmentsSPRITE, AzureIotTimeSeriesInsightsEnvironments_m)
 !define AzureIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesInsightsEnvironmentsSPRITE, AzureIotTimeSeriesInsightsEnvironments_m)
 

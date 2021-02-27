@@ -5,10 +5,10 @@ fK5ZfRfLobqclq8LbuQfkbMeANSAj-BBEA92HrG41rGKJYKOGSf3tHN1_aecxAyeu5O-rjqQkoh565Ci
 hFnN2luhZHrIWGLUum_m2G
 }
 
-AzureImage(AzureManageLogAnalyticsWorkspaces)
+AzureEntityColoring(AzureManageLogAnalyticsWorkspaces)
 !define AzureManageLogAnalyticsWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageLogAnalyticsWorkspaces_tbg.png", AzureManageLogAnalyticsWorkspaces)
 !define AzureManageLogAnalyticsWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageLogAnalyticsWorkspaces_tbg.png", AzureManageLogAnalyticsWorkspaces)
-AzureEntity(AzureManageLogAnalyticsWorkspaces_m)
+AzureEntityColoring(AzureManageLogAnalyticsWorkspaces_m)
 !define AzureManageLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageLogAnalyticsWorkspacesSPRITE, AzureManageLogAnalyticsWorkspaces_m)
 !define AzureManageLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageLogAnalyticsWorkspacesSPRITE, AzureManageLogAnalyticsWorkspaces_m)
 

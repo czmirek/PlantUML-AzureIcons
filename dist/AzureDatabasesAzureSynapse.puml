@@ -7,10 +7,10 @@ Ipe-qjoo9N_BnozxgkvpYtUT1H7U4jezBEcBV-D9aEIG-8VEMRtd8KQEqloB79FCdoWCClvbAsTNw7On
 uBdHdkQM50GY8ZKk2O9WIFlB-7Gb2CneutPn4BXI60GJDMy60Pi5GMxbmK4mt5EG9RId82jGlH3a7G
 }
 
-AzureImage(AzureDatabasesAzureSynapse)
+AzureEntityColoring(AzureDatabasesAzureSynapse)
 !define AzureDatabasesAzureSynapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureSynapse_tbg.png", AzureDatabasesAzureSynapse)
 !define AzureDatabasesAzureSynapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureSynapse_tbg.png", AzureDatabasesAzureSynapse)
-AzureEntity(AzureDatabasesAzureSynapse_m)
+AzureEntityColoring(AzureDatabasesAzureSynapse_m)
 !define AzureDatabasesAzureSynapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSynapseSPRITE, AzureDatabasesAzureSynapse_m)
 !define AzureDatabasesAzureSynapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSynapseSPRITE, AzureDatabasesAzureSynapse_m)
 

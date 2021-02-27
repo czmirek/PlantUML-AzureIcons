@@ -6,10 +6,10 @@ L8w_Jbm9dELT0-HO2CyQzlLkCSE424kpIhgxXBw2e_Z3D51W58XjRFdQCeZfheh8tJ1AMyvERTcGpMdD
 J1HW48apYCGPJJHHTP4uKm7nOeE4vilEko1qZZLJC8PJ4YehR1DAu097ns7wJlq
 }
 
-AzureImage(AzureSecurityApplicationSecurityGroups)
+AzureEntityColoring(AzureSecurityApplicationSecurityGroups)
 !define AzureSecurityApplicationSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityApplicationSecurityGroups_tbg.png", AzureSecurityApplicationSecurityGroups)
 !define AzureSecurityApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityApplicationSecurityGroups_tbg.png", AzureSecurityApplicationSecurityGroups)
-AzureEntity(AzureSecurityApplicationSecurityGroups_m)
+AzureEntityColoring(AzureSecurityApplicationSecurityGroups_m)
 !define AzureSecurityApplicationSecurityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityApplicationSecurityGroupsSPRITE, AzureSecurityApplicationSecurityGroups_m)
 !define AzureSecurityApplicationSecurityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityApplicationSecurityGroupsSPRITE, AzureSecurityApplicationSecurityGroups_m)
 

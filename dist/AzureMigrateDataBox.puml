@@ -5,10 +5,10 @@ pMG0YKLu1e2m2Cy008cG3AqeRkNzJ6uU64s5lFgbjjEAex2cXCBsQuf2roeR7gnL70zafRBXYIvK3C_c
 YZQf-564L33AZi91V4dbloAvs8zYpuLWWX-rm1GdaObCO9gJo60ciCH9P20JMEObiaxnzzm1
 }
 
-AzureImage(AzureMigrateDataBox)
+AzureEntityColoring(AzureMigrateDataBox)
 !define AzureMigrateDataBox(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMigrateDataBox_tbg.png", AzureMigrateDataBox)
 !define AzureMigrateDataBox(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMigrateDataBox_tbg.png", AzureMigrateDataBox)
-AzureEntity(AzureMigrateDataBox_m)
+AzureEntityColoring(AzureMigrateDataBox_m)
 !define AzureMigrateDataBox_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateDataBoxSPRITE, AzureMigrateDataBox_m)
 !define AzureMigrateDataBox_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateDataBoxSPRITE, AzureMigrateDataBox_m)
 

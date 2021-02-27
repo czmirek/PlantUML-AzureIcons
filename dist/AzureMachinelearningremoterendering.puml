@@ -6,10 +6,10 @@ B5jLGlqw6SwLtZ4kAtQfXDXz1SPrXLb6mYULSe5TXPWgo791BIDUAyHOiJbIJBOL0gtYX9SP9NQLCwJd
 FfdEnWgilbJaWFbxzigqc8d96w-JVAy0MJUAlCiw2y28g5kGdbamMDsZT9inDv66zOa26Uc3wRZCrCkVJoYkigOMMKh9ZN2doZVmwzTV
 }
 
-AzureImage(AzureMachinelearningremoterendering)
+AzureEntityColoring(AzureMachinelearningremoterendering)
 !define AzureMachinelearningremoterendering(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMachinelearningremoterendering_tbg.png", AzureMachinelearningremoterendering)
 !define AzureMachinelearningremoterendering(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMachinelearningremoterendering_tbg.png", AzureMachinelearningremoterendering)
-AzureEntity(AzureMachinelearningremoterendering_m)
+AzureEntityColoring(AzureMachinelearningremoterendering_m)
 !define AzureMachinelearningremoterendering_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinelearningremoterenderingSPRITE, AzureMachinelearningremoterendering_m)
 !define AzureMachinelearningremoterendering_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinelearningremoterenderingSPRITE, AzureMachinelearningremoterendering_m)
 

@@ -6,10 +6,10 @@ kO_tQ_Kt_zpGkIKq1UzRyh5IQydT8SqH1Ux-m3Lx_lqkK1iuRqxAUXPDf3qzy1JjArclrqOJj9Cfzau5
 YaM1zv_9X3rkqBPKxNfXOZMwEog9fmZQMa4TQ8z1y14LUe0eLFeeqz_CEm
 }
 
-AzureImage(AzureComputeServiceFabricClusters)
+AzureEntityColoring(AzureComputeServiceFabricClusters)
 !define AzureComputeServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeServiceFabricClusters_tbg.png", AzureComputeServiceFabricClusters)
 !define AzureComputeServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeServiceFabricClusters_tbg.png", AzureComputeServiceFabricClusters)
-AzureEntity(AzureComputeServiceFabricClusters_m)
+AzureEntityColoring(AzureComputeServiceFabricClusters_m)
 !define AzureComputeServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeServiceFabricClustersSPRITE, AzureComputeServiceFabricClusters_m)
 !define AzureComputeServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeServiceFabricClustersSPRITE, AzureComputeServiceFabricClusters_m)
 

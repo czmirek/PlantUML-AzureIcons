@@ -6,10 +6,10 @@ FD1JH4jT1V3kMeQnKf0IAuRiAEqeMjLHr746QnNHjbOncEka5qMfMk5HU9XG1k4aNaRX13Y7wNUE0WW1
 rVPNynGjXTkOOMHpJmanX8XxJe5l8Y1aRXgUP9vXv7d5w1gqs5c6aUTy1XZ9taqM0RG6afjF0JH8S2k9VHpGIiRp2P-ITykfeMJgtkGp3RAK6WtoU_S5
 }
 
-AzureImage(AzureIntuneExchangeAccess)
+AzureEntityColoring(AzureIntuneExchangeAccess)
 !define AzureIntuneExchangeAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneExchangeAccess_tbg.png", AzureIntuneExchangeAccess)
 !define AzureIntuneExchangeAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneExchangeAccess_tbg.png", AzureIntuneExchangeAccess)
-AzureEntity(AzureIntuneExchangeAccess_m)
+AzureEntityColoring(AzureIntuneExchangeAccess_m)
 !define AzureIntuneExchangeAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneExchangeAccessSPRITE, AzureIntuneExchangeAccess_m)
 !define AzureIntuneExchangeAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneExchangeAccessSPRITE, AzureIntuneExchangeAccess_m)
 

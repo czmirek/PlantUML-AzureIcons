@@ -7,10 +7,10 @@ iid-QNgV_4wPakydtvEpvyb-qgHjyLRR4doh1lE86Bx65jsCHdokjBI2xp53Y87Ayemi1IErvS5PluU9
 4ioavHp-Kp6hxZwj1B1Mgs6giWDbJJ5L0D6iKWvPhTDp2I0kDglqqPfDtyW2c9rBL088P3PDa5b6yMVw1m
 }
 
-AzureImage(AzureDevopsApplicationInsights)
+AzureEntityColoring(AzureDevopsApplicationInsights)
 !define AzureDevopsApplicationInsights(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDevopsApplicationInsights_tbg.png", AzureDevopsApplicationInsights)
 !define AzureDevopsApplicationInsights(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDevopsApplicationInsights_tbg.png", AzureDevopsApplicationInsights)
-AzureEntity(AzureDevopsApplicationInsights_m)
+AzureEntityColoring(AzureDevopsApplicationInsights_m)
 !define AzureDevopsApplicationInsights_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevopsApplicationInsightsSPRITE, AzureDevopsApplicationInsights_m)
 !define AzureDevopsApplicationInsights_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevopsApplicationInsightsSPRITE, AzureDevopsApplicationInsights_m)
 

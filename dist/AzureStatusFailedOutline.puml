@@ -5,10 +5,10 @@ C0eodXAWC0e231I96I624b0O3K6G-HD6GCW9AXH6Gr29GXW1CLCyA_BihkUaBLRdyG2FDteYWoTAMIAc
 u2tTXAMpCNHPFGmTttQrWnLgyRuJRiNTbVl_46X5ARMMyWpmwGy
 }
 
-AzureImage(AzureStatusFailedOutline)
+AzureEntityColoring(AzureStatusFailedOutline)
 !define AzureStatusFailedOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusFailedOutline_tbg.png", AzureStatusFailedOutline)
 !define AzureStatusFailedOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusFailedOutline_tbg.png", AzureStatusFailedOutline)
-AzureEntity(AzureStatusFailedOutline_m)
+AzureEntityColoring(AzureStatusFailedOutline_m)
 !define AzureStatusFailedOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusFailedOutlineSPRITE, AzureStatusFailedOutline_m)
 !define AzureStatusFailedOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusFailedOutlineSPRITE, AzureStatusFailedOutline_m)
 

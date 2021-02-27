@@ -6,10 +6,10 @@ _SfnqcuAmb6lSbn0crBoHYcV6OmF9Hcsi4UXAQ-g4EAeAgMfcWfRShbNbkeYroKpHPZoTmh3EQpleUZm
 OJvH2g6HzIiExT2gHoad-7eITLCeGaTiqHHC4FfRlXiZCcigCvVFO88_e14
 }
 
-AzureImage(AzureDatabasesAzureDatabaseMySQLServer)
+AzureEntityColoring(AzureDatabasesAzureDatabaseMySQLServer)
 !define AzureDatabasesAzureDatabaseMySQLServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureDatabaseMySQLServer_tbg.png", AzureDatabasesAzureDatabaseMySQLServer)
 !define AzureDatabasesAzureDatabaseMySQLServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureDatabaseMySQLServer_tbg.png", AzureDatabasesAzureDatabaseMySQLServer)
-AzureEntity(AzureDatabasesAzureDatabaseMySQLServer_m)
+AzureEntityColoring(AzureDatabasesAzureDatabaseMySQLServer_m)
 !define AzureDatabasesAzureDatabaseMySQLServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureDatabaseMySQLServerSPRITE, AzureDatabasesAzureDatabaseMySQLServer_m)
 !define AzureDatabasesAzureDatabaseMySQLServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureDatabaseMySQLServerSPRITE, AzureDatabasesAzureDatabaseMySQLServer_m)
 

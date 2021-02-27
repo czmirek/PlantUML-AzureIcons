@@ -5,10 +5,10 @@ n9Yk-AZYjILPQJU0xMRQQv7j5HIFi7gYKAX_Lp1NeYfepNBb9JSPNkgcy8csLPwF1eKyjbT2gCt8QqGe
 hCfcNxyINxvoLJmhykUS6qCYcQ7MeJA3O9b4Xy223wXunsTNhEEJA_qlVRZI0yUGzX0S8WDm1Ca07OkSpI3n94BOZ7W17OWSp_0As0HNm5QNlm
 }
 
-AzureImage(AzureDatabasesAzureSQLVM)
+AzureEntityColoring(AzureDatabasesAzureSQLVM)
 !define AzureDatabasesAzureSQLVM(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesAzureSQLVM_tbg.png", AzureDatabasesAzureSQLVM)
 !define AzureDatabasesAzureSQLVM(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesAzureSQLVM_tbg.png", AzureDatabasesAzureSQLVM)
-AzureEntity(AzureDatabasesAzureSQLVM_m)
+AzureEntityColoring(AzureDatabasesAzureSQLVM_m)
 !define AzureDatabasesAzureSQLVM_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSQLVMSPRITE, AzureDatabasesAzureSQLVM_m)
 !define AzureDatabasesAzureSQLVM_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesAzureSQLVMSPRITE, AzureDatabasesAzureSQLVM_m)
 

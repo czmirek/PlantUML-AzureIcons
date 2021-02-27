@@ -1,9 +1,9 @@
 sprite $AzureCommandColumnsSPRITE [70x70/16z] xTUr0S0m34JHgyAm_xJXEcIs_-lD86c-rUdIpRVYxuLUXbkrBlLmIqO009XkDReqqwtuupIzs3bf6G40m4ubN4gqfvSL
 
-AzureImage(AzureCommandColumns)
+AzureEntityColoring(AzureCommandColumns)
 !define AzureCommandColumns(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandColumns_tbg.png", AzureCommandColumns)
 !define AzureCommandColumns(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandColumns_tbg.png", AzureCommandColumns)
-AzureEntity(AzureCommandColumns_m)
+AzureEntityColoring(AzureCommandColumns_m)
 !define AzureCommandColumns_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandColumnsSPRITE, AzureCommandColumns_m)
 !define AzureCommandColumns_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandColumnsSPRITE, AzureCommandColumns_m)
 

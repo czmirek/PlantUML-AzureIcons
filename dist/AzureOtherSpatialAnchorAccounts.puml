@@ -7,10 +7,10 @@ egWAeRTr5LI6n6BT8DeHR-jg6et-IdoWcYEkNwJnCBKfuwRck7pHDxZ2t0NVU1jfNKFfKP3c6O4s8ILR
 H2yMrQHLYGsycdr8RQ1O3a6RW5CBRsp76-zrdrkEis1y1pp5RWCjn-2GX2Ydcehd3jz8gvJlnGy
 }
 
-AzureImage(AzureOtherSpatialAnchorAccounts)
+AzureEntityColoring(AzureOtherSpatialAnchorAccounts)
 !define AzureOtherSpatialAnchorAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherSpatialAnchorAccounts_tbg.png", AzureOtherSpatialAnchorAccounts)
 !define AzureOtherSpatialAnchorAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherSpatialAnchorAccounts_tbg.png", AzureOtherSpatialAnchorAccounts)
-AzureEntity(AzureOtherSpatialAnchorAccounts_m)
+AzureEntityColoring(AzureOtherSpatialAnchorAccounts_m)
 !define AzureOtherSpatialAnchorAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherSpatialAnchorAccountsSPRITE, AzureOtherSpatialAnchorAccounts_m)
 !define AzureOtherSpatialAnchorAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherSpatialAnchorAccountsSPRITE, AzureOtherSpatialAnchorAccounts_m)
 

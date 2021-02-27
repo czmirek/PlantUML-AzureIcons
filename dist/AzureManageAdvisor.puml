@@ -7,10 +7,10 @@ kXicUJEENgOmVSHoiT12kXG5NOiCo1aEQi21lW8JHNUHlXDW0ePN_nx34Ai9tb50GGsyep2HEeV18HA9
 d37BILY8CuPcqK8SU4y9zXDzCTjP2t7PpuP0VxfV
 }
 
-AzureImage(AzureManageAdvisor)
+AzureEntityColoring(AzureManageAdvisor)
 !define AzureManageAdvisor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageAdvisor_tbg.png", AzureManageAdvisor)
 !define AzureManageAdvisor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageAdvisor_tbg.png", AzureManageAdvisor)
-AzureEntity(AzureManageAdvisor_m)
+AzureEntityColoring(AzureManageAdvisor_m)
 !define AzureManageAdvisor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageAdvisorSPRITE, AzureManageAdvisor_m)
 !define AzureManageAdvisor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageAdvisorSPRITE, AzureManageAdvisor_m)
 

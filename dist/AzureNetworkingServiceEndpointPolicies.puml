@@ -6,10 +6,10 @@ Glcl_5VobX82drSKa7b50EIqiW0wFqiBRpULFjwVeMWh6b2MA6kbOb6MFCi4KYWITQrG1aSf5Nz46LeG
 hbFBijwRAtxxlW
 }
 
-AzureImage(AzureNetworkingServiceEndpointPolicies)
+AzureEntityColoring(AzureNetworkingServiceEndpointPolicies)
 !define AzureNetworkingServiceEndpointPolicies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingServiceEndpointPolicies_tbg.png", AzureNetworkingServiceEndpointPolicies)
 !define AzureNetworkingServiceEndpointPolicies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingServiceEndpointPolicies_tbg.png", AzureNetworkingServiceEndpointPolicies)
-AzureEntity(AzureNetworkingServiceEndpointPolicies_m)
+AzureEntityColoring(AzureNetworkingServiceEndpointPolicies_m)
 !define AzureNetworkingServiceEndpointPolicies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingServiceEndpointPoliciesSPRITE, AzureNetworkingServiceEndpointPolicies_m)
 !define AzureNetworkingServiceEndpointPolicies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingServiceEndpointPoliciesSPRITE, AzureNetworkingServiceEndpointPolicies_m)
 

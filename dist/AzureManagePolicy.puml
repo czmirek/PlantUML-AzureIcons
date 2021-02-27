@@ -6,10 +6,10 @@ Q7btrpN4vNBh90TMaOBRsmDhDb_i8UI6wNovdAGv6GZFWvZCKdZaJofYIhlpDmaybkiaHN0lKMdn864D
 PWiRPUKw2-vqWhgiVOj7_XegHAt7rXsfsSe22QbNueOUH6SbhlN06_jzeGSN8QIhgwSIqjTJ2UdhgOJqzLH2-decGbWF2HcW5f3NuWC
 }
 
-AzureImage(AzureManagePolicy)
+AzureEntityColoring(AzureManagePolicy)
 !define AzureManagePolicy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManagePolicy_tbg.png", AzureManagePolicy)
 !define AzureManagePolicy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManagePolicy_tbg.png", AzureManagePolicy)
-AzureEntity(AzureManagePolicy_m)
+AzureEntityColoring(AzureManagePolicy_m)
 !define AzureManagePolicy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagePolicySPRITE, AzureManagePolicy_m)
 !define AzureManagePolicy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagePolicySPRITE, AzureManagePolicy_m)
 

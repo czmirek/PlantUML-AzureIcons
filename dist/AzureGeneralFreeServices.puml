@@ -6,10 +6,10 @@ bUblpN-cNsbtfWBUsu2Iwyc532YPexL19Vk35BsLqZuCrSejuqwgayITRYVnFkdWxP-Yr4c_Meb9bnN5
 WGUX0nbdUDBjv_Q_9m
 }
 
-AzureImage(AzureGeneralFreeServices)
+AzureEntityColoring(AzureGeneralFreeServices)
 !define AzureGeneralFreeServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralFreeServices_tbg.png", AzureGeneralFreeServices)
 !define AzureGeneralFreeServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralFreeServices_tbg.png", AzureGeneralFreeServices)
-AzureEntity(AzureGeneralFreeServices_m)
+AzureEntityColoring(AzureGeneralFreeServices_m)
 !define AzureGeneralFreeServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralFreeServicesSPRITE, AzureGeneralFreeServices_m)
 !define AzureGeneralFreeServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralFreeServicesSPRITE, AzureGeneralFreeServices_m)
 

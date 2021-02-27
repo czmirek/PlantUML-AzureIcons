@@ -4,10 +4,10 @@ iiz8vnKZ8fjIW93lbBXMz1Anc5E0l56sRGkvJ0jaHW4ofm0PK5Jso82YHBn3nXGmG8QK43101XKmG4OL
 vVvDfXKZ8fvM_4EKL5NlLMGhgXMddzOj
 }
 
-AzureImage(AzureIntuneDeviceCompliance)
+AzureEntityColoring(AzureIntuneDeviceCompliance)
 !define AzureIntuneDeviceCompliance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneDeviceCompliance_tbg.png", AzureIntuneDeviceCompliance)
 !define AzureIntuneDeviceCompliance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneDeviceCompliance_tbg.png", AzureIntuneDeviceCompliance)
-AzureEntity(AzureIntuneDeviceCompliance_m)
+AzureEntityColoring(AzureIntuneDeviceCompliance_m)
 !define AzureIntuneDeviceCompliance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneDeviceComplianceSPRITE, AzureIntuneDeviceCompliance_m)
 !define AzureIntuneDeviceCompliance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneDeviceComplianceSPRITE, AzureIntuneDeviceCompliance_m)
 

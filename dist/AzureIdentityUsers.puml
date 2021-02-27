@@ -5,10 +5,10 @@ K-W_WXv7Gz6_6Nqt151S_-8eGOJq7uC_1Hq2wtve2_fOYBRRBUWxJBLmfvaYj-8LqWoCaMk6IW4rRfOT
 VesQRCsNehhj17cpLBSjueTslyxTCda0LL3NcQqJCswsOvr4B6gtiKuokKDaJMGT6XDLxeJLcJ7WzKG3KKyqW3e61_39Rx77YCblEGb9USf9I8byCyFbb-y
 }
 
-AzureImage(AzureIdentityUsers)
+AzureEntityColoring(AzureIdentityUsers)
 !define AzureIdentityUsers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityUsers_tbg.png", AzureIdentityUsers)
 !define AzureIdentityUsers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityUsers_tbg.png", AzureIdentityUsers)
-AzureEntity(AzureIdentityUsers_m)
+AzureEntityColoring(AzureIdentityUsers_m)
 !define AzureIdentityUsers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityUsersSPRITE, AzureIdentityUsers_m)
 !define AzureIdentityUsers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityUsersSPRITE, AzureIdentityUsers_m)
 

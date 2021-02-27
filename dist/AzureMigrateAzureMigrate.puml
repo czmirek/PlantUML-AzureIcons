@@ -5,10 +5,10 @@ xTO7TWCX38HXD2giS__xfcVD0DR3Ja_sVzNj2n9fvNTrT7GaW2hm7W8URxdUyFK1AHgSNI6exqKVLaVe
 8ZJfCi9hqVwrTMHhvtbARq0g8q_P146Sam69qzrBcvOzIv5G4S4CsQoqOOhakKhf4c__lg1cMVe_OTHQCKVuxs6UG24Yq8j1oe_kwEZe0G
 }
 
-AzureImage(AzureMigrateAzureMigrate)
+AzureEntityColoring(AzureMigrateAzureMigrate)
 !define AzureMigrateAzureMigrate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMigrateAzureMigrate_tbg.png", AzureMigrateAzureMigrate)
 !define AzureMigrateAzureMigrate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMigrateAzureMigrate_tbg.png", AzureMigrateAzureMigrate)
-AzureEntity(AzureMigrateAzureMigrate_m)
+AzureEntityColoring(AzureMigrateAzureMigrate_m)
 !define AzureMigrateAzureMigrate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateAzureMigrateSPRITE, AzureMigrateAzureMigrate_m)
 !define AzureMigrateAzureMigrate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateAzureMigrateSPRITE, AzureMigrateAzureMigrate_m)
 

@@ -6,10 +6,10 @@ o9jqHMdofWIJIa2IYydCAYgdCiIC4f3bdCugAXUb8EuhGIIvgaBSLGAgNES7fLufzNJvHsjgzLGRhcTV
 aaKMc0LaPvQHdLdUa_warawdPnpMaJq5tXgOpDQ07g79V2NWY4IHbPBpuj1joSAgU3HGMQyy2ljg5aiAO4a-M74lCkeF
 }
 
-AzureImage(AzureNetworkingDDoSProtectionPlans)
+AzureEntityColoring(AzureNetworkingDDoSProtectionPlans)
 !define AzureNetworkingDDoSProtectionPlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingDDoSProtectionPlans_tbg.png", AzureNetworkingDDoSProtectionPlans)
 !define AzureNetworkingDDoSProtectionPlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingDDoSProtectionPlans_tbg.png", AzureNetworkingDDoSProtectionPlans)
-AzureEntity(AzureNetworkingDDoSProtectionPlans_m)
+AzureEntityColoring(AzureNetworkingDDoSProtectionPlans_m)
 !define AzureNetworkingDDoSProtectionPlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingDDoSProtectionPlansSPRITE, AzureNetworkingDDoSProtectionPlans_m)
 !define AzureNetworkingDDoSProtectionPlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingDDoSProtectionPlansSPRITE, AzureNetworkingDDoSProtectionPlans_m)
 

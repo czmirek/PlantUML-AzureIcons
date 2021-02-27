@@ -7,10 +7,10 @@ En992aey3wBZ-IIOfjyqM28bcsjCtrWFH9A9ffeXuRN6lixPJ6C-1WYXkaWc6Y21Qu6ckKOaTY5HhyzC
 fNtAuvQhueSagLE9d1ITYWHKmub3nhE-FgEizrRH6HvSMiurXUxncQxv0m
 }
 
-AzureImage(AzureCommandDisconnect)
+AzureEntityColoring(AzureCommandDisconnect)
 !define AzureCommandDisconnect(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandDisconnect_tbg.png", AzureCommandDisconnect)
 !define AzureCommandDisconnect(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandDisconnect_tbg.png", AzureCommandDisconnect)
-AzureEntity(AzureCommandDisconnect_m)
+AzureEntityColoring(AzureCommandDisconnect_m)
 !define AzureCommandDisconnect_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandDisconnectSPRITE, AzureCommandDisconnect_m)
 !define AzureCommandDisconnect_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandDisconnectSPRITE, AzureCommandDisconnect_m)
 

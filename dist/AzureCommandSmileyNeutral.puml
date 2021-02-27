@@ -7,10 +7,10 @@ fsuDd3fam1h806JZ6iX6L8OrK1bGfPP0bTfJCVTKxosTP4zNwtHObRkecmxRwVQQk-XEjyVaCQKY9my4
 2L9BRpPRthBsl_79HsH30qn-2jepT4OQZ_jmbg7EcVYROXuR9dH4oDfahhYvsueSWxik5s8MjnNRRaxst-Bilr5Qlzrw1m
 }
 
-AzureImage(AzureCommandSmileyNeutral)
+AzureEntityColoring(AzureCommandSmileyNeutral)
 !define AzureCommandSmileyNeutral(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandSmileyNeutral_tbg.png", AzureCommandSmileyNeutral)
 !define AzureCommandSmileyNeutral(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandSmileyNeutral_tbg.png", AzureCommandSmileyNeutral)
-AzureEntity(AzureCommandSmileyNeutral_m)
+AzureEntityColoring(AzureCommandSmileyNeutral_m)
 !define AzureCommandSmileyNeutral_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSmileyNeutralSPRITE, AzureCommandSmileyNeutral_m)
 !define AzureCommandSmileyNeutral_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSmileyNeutralSPRITE, AzureCommandSmileyNeutral_m)
 

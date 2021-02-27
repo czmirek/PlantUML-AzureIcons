@@ -5,10 +5,10 @@ xYdbl693oda55nJmZrsRKo3qbc2CYKShDgP0wIt551EFLsnAoRym335HhTYG0Z--4qCA8hyxmZ3g5Sme
 u_SuLnR9v7cgBOH5YmSg2yfqHSda9XLwrBE_
 }
 
-AzureImage(AzureStatusWarningOutline)
+AzureEntityColoring(AzureStatusWarningOutline)
 !define AzureStatusWarningOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusWarningOutline_tbg.png", AzureStatusWarningOutline)
 !define AzureStatusWarningOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusWarningOutline_tbg.png", AzureStatusWarningOutline)
-AzureEntity(AzureStatusWarningOutline_m)
+AzureEntityColoring(AzureStatusWarningOutline_m)
 !define AzureStatusWarningOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusWarningOutlineSPRITE, AzureStatusWarningOutline_m)
 !define AzureStatusWarningOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusWarningOutlineSPRITE, AzureStatusWarningOutline_m)
 

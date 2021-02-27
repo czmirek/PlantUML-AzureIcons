@@ -5,10 +5,10 @@ E31aA71WE0eS6BOYrTDrXk4fq_70y1KuC1m53endAohpRKhvof_of_mfhQUqAuKpRAokbIfoXkLiJsL_
 WmBZLA7pR_fZ0U1t4-nAFhwpOPVrcHqVky-FxuIP3r3UUBM2-LiBkW4
 }
 
-AzureImage(AzureCommandCapture)
+AzureEntityColoring(AzureCommandCapture)
 !define AzureCommandCapture(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandCapture_tbg.png", AzureCommandCapture)
 !define AzureCommandCapture(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandCapture_tbg.png", AzureCommandCapture)
-AzureEntity(AzureCommandCapture_m)
+AzureEntityColoring(AzureCommandCapture_m)
 !define AzureCommandCapture_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCaptureSPRITE, AzureCommandCapture_m)
 !define AzureCommandCapture_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCaptureSPRITE, AzureCommandCapture_m)
 

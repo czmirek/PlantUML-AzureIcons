@@ -5,10 +5,10 @@ pfIyL6YVOKQHROi99MoN1XN2RHzwbCX7SZlCHnJQMUfNPAVnKF4ZnUqqi5UXNULgASmbs6NEBiLRyRie
 P91NIjO2bx5FIUAYo8t24oKL3QIbrCHIb7QtqwdiKudtW-QLVTzVqNQ7_wy4417Vgc39tiEu4W3SFl8WfI45W9tb3aG7YTWZuoJWDfC3MCMLt2FZkTiFwIi
 }
 
-AzureImage(AzureGeneralMarketplace)
+AzureEntityColoring(AzureGeneralMarketplace)
 !define AzureGeneralMarketplace(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralMarketplace_tbg.png", AzureGeneralMarketplace)
 !define AzureGeneralMarketplace(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralMarketplace_tbg.png", AzureGeneralMarketplace)
-AzureEntity(AzureGeneralMarketplace_m)
+AzureEntityColoring(AzureGeneralMarketplace_m)
 !define AzureGeneralMarketplace_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralMarketplaceSPRITE, AzureGeneralMarketplace_m)
 !define AzureGeneralMarketplace_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralMarketplaceSPRITE, AzureGeneralMarketplace_m)
 

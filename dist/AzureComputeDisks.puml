@@ -6,10 +6,10 @@ Mr-GyzkerxZHv43GQNAeR8PqETPSHExeQINtj4jtWe4OBjpDFi4LuZ7nhT0JRwgKOCfP9SiErWuWNizp
 uHESx1XwckJuVHudXkp-y5uBSLPJSfaL4BoLeyXGm4F8QQETDLeAD5nkrFI1qd4XqKlwJ6b2ngIvHAJKBd0JfCU5c7ig_oN--m8
 }
 
-AzureImage(AzureComputeDisks)
+AzureEntityColoring(AzureComputeDisks)
 !define AzureComputeDisks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeDisks_tbg.png", AzureComputeDisks)
 !define AzureComputeDisks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeDisks_tbg.png", AzureComputeDisks)
-AzureEntity(AzureComputeDisks_m)
+AzureEntityColoring(AzureComputeDisks_m)
 !define AzureComputeDisks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeDisksSPRITE, AzureComputeDisks_m)
 !define AzureComputeDisks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeDisksSPRITE, AzureComputeDisks_m)
 

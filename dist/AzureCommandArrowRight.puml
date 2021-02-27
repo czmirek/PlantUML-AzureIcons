@@ -4,10 +4,10 @@ P6zEyIoS1kEq8axfqoax-Emd0KGJm68Yg29OHP04q8tmGUPl8lPR8_RISWRDs8d1aDvya2KGaU6DB4V4
 d8ZqtecYNOYYLIIAjX55kn15gqYSIiL-Jjm74yxaHydYiBzv1
 }
 
-AzureImage(AzureCommandArrowRight)
+AzureEntityColoring(AzureCommandArrowRight)
 !define AzureCommandArrowRight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandArrowRight_tbg.png", AzureCommandArrowRight)
 !define AzureCommandArrowRight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandArrowRight_tbg.png", AzureCommandArrowRight)
-AzureEntity(AzureCommandArrowRight_m)
+AzureEntityColoring(AzureCommandArrowRight_m)
 !define AzureCommandArrowRight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandArrowRightSPRITE, AzureCommandArrowRight_m)
 !define AzureCommandArrowRight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandArrowRightSPRITE, AzureCommandArrowRight_m)
 

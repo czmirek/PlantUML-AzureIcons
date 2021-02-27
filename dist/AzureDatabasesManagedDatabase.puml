@@ -6,10 +6,10 @@ uA9akuerky6vf8dW3qLsbAAD8ldfFDA7ehIjHAlKb-k2g55qMt5xgoeo3sG885MnLtH1CSWnj5LaKubU
 cA9MoViufB8z300a1jefEID6ezJ2drN5tUVNyvBycK8cfLUAlnAH-hw8vgNwKjePHuCaSnp3UoZUCd4YWQxbVzO5nmasGwGQ8h35TiPm8LmD_kZ-0G
 }
 
-AzureImage(AzureDatabasesManagedDatabase)
+AzureEntityColoring(AzureDatabasesManagedDatabase)
 !define AzureDatabasesManagedDatabase(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesManagedDatabase_tbg.png", AzureDatabasesManagedDatabase)
 !define AzureDatabasesManagedDatabase(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesManagedDatabase_tbg.png", AzureDatabasesManagedDatabase)
-AzureEntity(AzureDatabasesManagedDatabase_m)
+AzureEntityColoring(AzureDatabasesManagedDatabase_m)
 !define AzureDatabasesManagedDatabase_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesManagedDatabaseSPRITE, AzureDatabasesManagedDatabase_m)
 !define AzureDatabasesManagedDatabase_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesManagedDatabaseSPRITE, AzureDatabasesManagedDatabase_m)
 

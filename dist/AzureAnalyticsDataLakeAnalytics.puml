@@ -6,10 +6,10 @@ BIeEmDeUHIQA54Yjy5W9GDi-1J9K1DBsAZHIWhXjAXdNYbBiKJAk54vabr8_YeciAEthAOmkFgFWgJYE
 6UV110kHN172KiIYmdZt_GG
 }
 
-AzureImage(AzureAnalyticsDataLakeAnalytics)
+AzureEntityColoring(AzureAnalyticsDataLakeAnalytics)
 !define AzureAnalyticsDataLakeAnalytics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureAnalyticsDataLakeAnalytics_tbg.png", AzureAnalyticsDataLakeAnalytics)
 !define AzureAnalyticsDataLakeAnalytics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureAnalyticsDataLakeAnalytics_tbg.png", AzureAnalyticsDataLakeAnalytics)
-AzureEntity(AzureAnalyticsDataLakeAnalytics_m)
+AzureEntityColoring(AzureAnalyticsDataLakeAnalytics_m)
 !define AzureAnalyticsDataLakeAnalytics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsDataLakeAnalyticsSPRITE, AzureAnalyticsDataLakeAnalytics_m)
 !define AzureAnalyticsDataLakeAnalytics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsDataLakeAnalyticsSPRITE, AzureAnalyticsDataLakeAnalytics_m)
 

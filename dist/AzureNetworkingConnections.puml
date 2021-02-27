@@ -8,10 +8,10 @@ HE8txA5hCbn5oD3RMpAwL4GLHTTKaCow9Rc4DAIoXeLf5-ln03kMNZswpxKIQz8N2Eg9OO4fTDQoEi7K
 4hkGpsjB_PDp2eoXJqMxm-by1eBxPVZmLjZlqp5JcV_AHGq44Ya4gIDi3Py6bNUQU0mGBZ2gqTJ7NHYkxNWVnDBjoi2j2zFnE-8l
 }
 
-AzureImage(AzureNetworkingConnections)
+AzureEntityColoring(AzureNetworkingConnections)
 !define AzureNetworkingConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingConnections_tbg.png", AzureNetworkingConnections)
 !define AzureNetworkingConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingConnections_tbg.png", AzureNetworkingConnections)
-AzureEntity(AzureNetworkingConnections_m)
+AzureEntityColoring(AzureNetworkingConnections_m)
 !define AzureNetworkingConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingConnectionsSPRITE, AzureNetworkingConnections_m)
 !define AzureNetworkingConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingConnectionsSPRITE, AzureNetworkingConnections_m)
 

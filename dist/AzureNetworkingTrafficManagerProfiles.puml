@@ -7,10 +7,10 @@ M5mKDNgeq2SoJC1W3HJri6aDGIWJYOmnCGoXXmfB18m5H_WQX3K4EMSuiiymv9m1KWITCJF26UECEK7E
 X6V1ZJ3vyVu1
 }
 
-AzureImage(AzureNetworkingTrafficManagerProfiles)
+AzureEntityColoring(AzureNetworkingTrafficManagerProfiles)
 !define AzureNetworkingTrafficManagerProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingTrafficManagerProfiles_tbg.png", AzureNetworkingTrafficManagerProfiles)
 !define AzureNetworkingTrafficManagerProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingTrafficManagerProfiles_tbg.png", AzureNetworkingTrafficManagerProfiles)
-AzureEntity(AzureNetworkingTrafficManagerProfiles_m)
+AzureEntityColoring(AzureNetworkingTrafficManagerProfiles_m)
 !define AzureNetworkingTrafficManagerProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingTrafficManagerProfilesSPRITE, AzureNetworkingTrafficManagerProfiles_m)
 !define AzureNetworkingTrafficManagerProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingTrafficManagerProfilesSPRITE, AzureNetworkingTrafficManagerProfiles_m)
 

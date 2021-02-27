@@ -8,10 +8,10 @@ YjBeXCqLZg9qsXyKOkYqbt8fuwnOvNcBA0XZxmekpIX35E4R6IiMIA5fYm7Yso6gX78L8NGxf9ig53Ce
 8CTN5Yj0T00vl_ZMQzUYWE3bw9gzFk7e0-7NP_uIrei1KlANC4hxTdpihlH1h_9lSm2r8EWRWjHfdwYR2GJVLlpsRqxoRt6golzHNm
 }
 
-AzureImage(AzureSecurityKeyVaults)
+AzureEntityColoring(AzureSecurityKeyVaults)
 !define AzureSecurityKeyVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityKeyVaults_tbg.png", AzureSecurityKeyVaults)
 !define AzureSecurityKeyVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityKeyVaults_tbg.png", AzureSecurityKeyVaults)
-AzureEntity(AzureSecurityKeyVaults_m)
+AzureEntityColoring(AzureSecurityKeyVaults_m)
 !define AzureSecurityKeyVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityKeyVaultsSPRITE, AzureSecurityKeyVaults_m)
 !define AzureSecurityKeyVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityKeyVaultsSPRITE, AzureSecurityKeyVaults_m)
 

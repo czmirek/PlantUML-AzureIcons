@@ -9,10 +9,10 @@ H31p1O8T5la65GQG2IisF7bCGlgJ1vAH_7GQWbDGVoAR54vauzFXZCQdGzJayvI4wD6fUJxPtCvwKKRZ
 Tzy-4SxnJJXm4pwtWrivCsxbC7BbTW_XPayNdrQy8aB-y9CJa4JTCnzNISB_e6y
 }
 
-AzureImage(AzureManageMonitor)
+AzureEntityColoring(AzureManageMonitor)
 !define AzureManageMonitor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageMonitor_tbg.png", AzureManageMonitor)
 !define AzureManageMonitor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageMonitor_tbg.png", AzureManageMonitor)
-AzureEntity(AzureManageMonitor_m)
+AzureEntityColoring(AzureManageMonitor_m)
 !define AzureManageMonitor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageMonitorSPRITE, AzureManageMonitor_m)
 !define AzureManageMonitor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageMonitorSPRITE, AzureManageMonitor_m)
 

@@ -5,10 +5,10 @@ kh3fZQnUMm8bqUQeCbkJFAfCFqNbNwNg0v-DeL88OTLAbQIYqcv2tPQfAeDA-wQ7J8ulMbrRgIhgOD1q
 w21F9rOfTvKQD3nV_BXyPOxq60DFCmQxdrf7Vaq7C_jBCBFN1JFxRZ1p1WHxPHxT0m
 }
 
-AzureImage(AzureCommandFilterRemove)
+AzureEntityColoring(AzureCommandFilterRemove)
 !define AzureCommandFilterRemove(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandFilterRemove_tbg.png", AzureCommandFilterRemove)
 !define AzureCommandFilterRemove(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandFilterRemove_tbg.png", AzureCommandFilterRemove)
-AzureEntity(AzureCommandFilterRemove_m)
+AzureEntityColoring(AzureCommandFilterRemove_m)
 !define AzureCommandFilterRemove_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandFilterRemoveSPRITE, AzureCommandFilterRemove_m)
 !define AzureCommandFilterRemove_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandFilterRemoveSPRITE, AzureCommandFilterRemove_m)
 

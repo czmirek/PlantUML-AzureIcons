@@ -6,10 +6,10 @@ qQeZX1WeDaioEzKdUHaKGeY1SfT5q0eA8SH0YKsDj87q0OGPZZxJuioOuAGx8s0u7aLxyHA8cjSk95Rg
 mNJQHa0I32j04WptY94pypQpZsxyBv0KqvSE0SaoM7KoWAIPUmVK48nDL-sExfGO14YT0L9dWDGPHkfChnjWWDGP87NccGtu0G
 }
 
-AzureImage(AzureNetworkingLoadBalancers)
+AzureEntityColoring(AzureNetworkingLoadBalancers)
 !define AzureNetworkingLoadBalancers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingLoadBalancers_tbg.png", AzureNetworkingLoadBalancers)
 !define AzureNetworkingLoadBalancers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingLoadBalancers_tbg.png", AzureNetworkingLoadBalancers)
-AzureEntity(AzureNetworkingLoadBalancers_m)
+AzureEntityColoring(AzureNetworkingLoadBalancers_m)
 !define AzureNetworkingLoadBalancers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingLoadBalancersSPRITE, AzureNetworkingLoadBalancers_m)
 !define AzureNetworkingLoadBalancers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingLoadBalancersSPRITE, AzureNetworkingLoadBalancers_m)
 

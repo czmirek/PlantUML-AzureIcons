@@ -6,10 +6,10 @@ bjuYE_kB7GgHUJF3hs4_QE6PrzMVUcFTqUHbfpUq5vUpWXnqEapMGJAiO76OvR4q6y2II9FEFjFTacST
 Ah0E7BJALX6mimfzggGSfnMTJvJZkc9zMgd1QmNPF9ZVJgz8fx6L-LXHcHXOXgC2UQHLv2a5LVvQNm
 }
 
-AzureImage(AzureIntuneRoles)
+AzureEntityColoring(AzureIntuneRoles)
 !define AzureIntuneRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneRoles_tbg.png", AzureIntuneRoles)
 !define AzureIntuneRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneRoles_tbg.png", AzureIntuneRoles)
-AzureEntity(AzureIntuneRoles_m)
+AzureEntityColoring(AzureIntuneRoles_m)
 !define AzureIntuneRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneRolesSPRITE, AzureIntuneRoles_m)
 !define AzureIntuneRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneRolesSPRITE, AzureIntuneRoles_m)
 

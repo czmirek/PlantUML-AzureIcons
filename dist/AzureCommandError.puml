@@ -7,10 +7,10 @@ d4GwQQYppeB-9dpvp88G49JUWdByEylt6NrTNLpw6OVHDvskE1Rq5ek3Ec4xdGMZ1YSfDvqjdgol-uyA
 NQcMfeGcF_QXo4MnQqVtUu-m70qziBd9nM5eZJda3qVs1ePOBiNkSl0iDtfZRbrk5AWL7e3AV_kwWfCX7Jwpt6arMVe85sBAfUGOK6ST__a5
 }
 
-AzureImage(AzureCommandError)
+AzureEntityColoring(AzureCommandError)
 !define AzureCommandError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandError_tbg.png", AzureCommandError)
 !define AzureCommandError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandError_tbg.png", AzureCommandError)
-AzureEntity(AzureCommandError_m)
+AzureEntityColoring(AzureCommandError_m)
 !define AzureCommandError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandErrorSPRITE, AzureCommandError_m)
 !define AzureCommandError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandErrorSPRITE, AzureCommandError_m)
 

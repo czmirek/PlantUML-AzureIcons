@@ -7,10 +7,10 @@ CDJmho6DqTJ1juX7X2Nat-l0iOj4e_HrEEMDUMn5bSoWpYbP11KETrG7V3NgLeO7rJg4Hc1jHQRNNJeK
 OHtZZJ6T2mCBFPZPN9WbgHn0v7w4o5E6o7sc8dy
 }
 
-AzureImage(AzureIdentityManagedIdentities)
+AzureEntityColoring(AzureIdentityManagedIdentities)
 !define AzureIdentityManagedIdentities(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityManagedIdentities_tbg.png", AzureIdentityManagedIdentities)
 !define AzureIdentityManagedIdentities(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityManagedIdentities_tbg.png", AzureIdentityManagedIdentities)
-AzureEntity(AzureIdentityManagedIdentities_m)
+AzureEntityColoring(AzureIdentityManagedIdentities_m)
 !define AzureIdentityManagedIdentities_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityManagedIdentitiesSPRITE, AzureIdentityManagedIdentities_m)
 !define AzureIdentityManagedIdentities_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityManagedIdentitiesSPRITE, AzureIdentityManagedIdentities_m)
 

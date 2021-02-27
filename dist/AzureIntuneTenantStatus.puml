@@ -7,10 +7,10 @@ LGIeKG4hKaLimtUa_bQD982WOQ2XW62Hf0_tlTjbCIiWA3aKYbJxS1VKBmGM0dnyNg54ujMKlkpfDWQD
 XE3Cof8QgRGUCXA_43C9IRY4MXyimiUmziDfXqSos2GHZM4R5OI_s7y
 }
 
-AzureImage(AzureIntuneTenantStatus)
+AzureEntityColoring(AzureIntuneTenantStatus)
 !define AzureIntuneTenantStatus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneTenantStatus_tbg.png", AzureIntuneTenantStatus)
 !define AzureIntuneTenantStatus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneTenantStatus_tbg.png", AzureIntuneTenantStatus)
-AzureEntity(AzureIntuneTenantStatus_m)
+AzureEntityColoring(AzureIntuneTenantStatus_m)
 !define AzureIntuneTenantStatus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneTenantStatusSPRITE, AzureIntuneTenantStatus_m)
 !define AzureIntuneTenantStatus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneTenantStatusSPRITE, AzureIntuneTenantStatus_m)
 

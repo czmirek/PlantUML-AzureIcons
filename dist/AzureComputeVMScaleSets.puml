@@ -5,10 +5,10 @@ KjvbuJlBvTsb9H4tcbyCJpQzq8YEfi7IvNACfBN4fF7o3jk5PksujjGNXOsfB_N5XQMs1AH55m1aU-hq
 zxaiViuo1htBNT8RB9UmTbeYMBhWahi_OR5q4rfqXq1Y2ZUWlU5CqezeWxtbwIi
 }
 
-AzureImage(AzureComputeVMScaleSets)
+AzureEntityColoring(AzureComputeVMScaleSets)
 !define AzureComputeVMScaleSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeVMScaleSets_tbg.png", AzureComputeVMScaleSets)
 !define AzureComputeVMScaleSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeVMScaleSets_tbg.png", AzureComputeVMScaleSets)
-AzureEntity(AzureComputeVMScaleSets_m)
+AzureEntityColoring(AzureComputeVMScaleSets_m)
 !define AzureComputeVMScaleSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeVMScaleSetsSPRITE, AzureComputeVMScaleSets_m)
 !define AzureComputeVMScaleSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeVMScaleSetsSPRITE, AzureComputeVMScaleSets_m)
 

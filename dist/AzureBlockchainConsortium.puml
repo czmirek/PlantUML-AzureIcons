@@ -8,10 +8,10 @@ QFhLGIqzT1AYYI4USPJYlCqZYVLHc4Q3tNUb5CDtNmD6XyoXdFqoGTICyGK5KHspgc0MnYmgYDJzkYB-
 XJ6N8baOi_JprYy
 }
 
-AzureImage(AzureBlockchainConsortium)
+AzureEntityColoring(AzureBlockchainConsortium)
 !define AzureBlockchainConsortium(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureBlockchainConsortium_tbg.png", AzureBlockchainConsortium)
 !define AzureBlockchainConsortium(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureBlockchainConsortium_tbg.png", AzureBlockchainConsortium)
-AzureEntity(AzureBlockchainConsortium_m)
+AzureEntityColoring(AzureBlockchainConsortium_m)
 !define AzureBlockchainConsortium_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainConsortiumSPRITE, AzureBlockchainConsortium_m)
 !define AzureBlockchainConsortium_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainConsortiumSPRITE, AzureBlockchainConsortium_m)
 

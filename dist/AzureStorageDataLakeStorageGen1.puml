@@ -4,10 +4,10 @@ xDB_ezIJdFw7Gj92ZKf4_4ecg5iHI7ubWBYL1AXN4I2wbG1ahvBOfKv5s1NhIgZ-4EAnFAWaRWjZYd2N
 5jWLrDvtL8eTnyHyIcPNCgSIWM1UXLtgLGJ8vbKIH7Ch0TIjA8YvbKmolnA3jIbJgQZJgPhYxaSecu9VOPVDpeokjhR-0G
 }
 
-AzureImage(AzureStorageDataLakeStorageGen1)
+AzureEntityColoring(AzureStorageDataLakeStorageGen1)
 !define AzureStorageDataLakeStorageGen1(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageDataLakeStorageGen1_tbg.png", AzureStorageDataLakeStorageGen1)
 !define AzureStorageDataLakeStorageGen1(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageDataLakeStorageGen1_tbg.png", AzureStorageDataLakeStorageGen1)
-AzureEntity(AzureStorageDataLakeStorageGen1_m)
+AzureEntityColoring(AzureStorageDataLakeStorageGen1_m)
 !define AzureStorageDataLakeStorageGen1_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageDataLakeStorageGen1SPRITE, AzureStorageDataLakeStorageGen1_m)
 !define AzureStorageDataLakeStorageGen1_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageDataLakeStorageGen1SPRITE, AzureStorageDataLakeStorageGen1_m)
 

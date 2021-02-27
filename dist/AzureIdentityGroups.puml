@@ -7,10 +7,10 @@ Wd0YXc30VdI4ZaiPmWDjOlJmcUORoWXLJ9VZknsAUHjSYLI5OC4jtDQSPk4qoLWm8hAggH0YYduHN6zH
 bQBjD8C4lPr5S3_66Kh4oPGmmc_fdqy
 }
 
-AzureImage(AzureIdentityGroups)
+AzureEntityColoring(AzureIdentityGroups)
 !define AzureIdentityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityGroups_tbg.png", AzureIdentityGroups)
 !define AzureIdentityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityGroups_tbg.png", AzureIdentityGroups)
-AzureEntity(AzureIdentityGroups_m)
+AzureEntityColoring(AzureIdentityGroups_m)
 !define AzureIdentityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityGroupsSPRITE, AzureIdentityGroups_m)
 !define AzureIdentityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityGroupsSPRITE, AzureIdentityGroups_m)
 

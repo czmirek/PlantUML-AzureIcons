@@ -4,10 +4,10 @@ JfMd8iI9SJvIcA4m1VEHZiV2vo9sh0w34TUD_R7XM6Htwz0h6en4ObyU8u_dfPY9NAvHBcA6pXH2AkAI
 U7U5gSgmGeOOvNSP9mt8PVBMpyZkf3BtX3KoWP-ZAYIeuh_x8zigywE9lAtorZgZyiaP0XMEtzhy0G
 }
 
-AzureImage(AzureIntegrationEventGridDomains)
+AzureEntityColoring(AzureIntegrationEventGridDomains)
 !define AzureIntegrationEventGridDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationEventGridDomains_tbg.png", AzureIntegrationEventGridDomains)
 !define AzureIntegrationEventGridDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationEventGridDomains_tbg.png", AzureIntegrationEventGridDomains)
-AzureEntity(AzureIntegrationEventGridDomains_m)
+AzureEntityColoring(AzureIntegrationEventGridDomains_m)
 !define AzureIntegrationEventGridDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationEventGridDomainsSPRITE, AzureIntegrationEventGridDomains_m)
 !define AzureIntegrationEventGridDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationEventGridDomainsSPRITE, AzureIntegrationEventGridDomains_m)
 

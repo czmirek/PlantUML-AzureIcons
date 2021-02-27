@@ -6,10 +6,10 @@ eGRASEGG_6P6OWYI5CPmn72k5Gn3701dE58nXfHbf6D92wP46ACK6KZPV4mvyWmZk5KWXEd5z1mJcxpQ
 dOB7uXTo9AHa59bv4e6CEEN8IHmDp-Kp8aR3fqaJ_CNz
 }
 
-AzureImage(AzureIntuneTroubleshoot)
+AzureEntityColoring(AzureIntuneTroubleshoot)
 !define AzureIntuneTroubleshoot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneTroubleshoot_tbg.png", AzureIntuneTroubleshoot)
 !define AzureIntuneTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneTroubleshoot_tbg.png", AzureIntuneTroubleshoot)
-AzureEntity(AzureIntuneTroubleshoot_m)
+AzureEntityColoring(AzureIntuneTroubleshoot_m)
 !define AzureIntuneTroubleshoot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneTroubleshootSPRITE, AzureIntuneTroubleshoot_m)
 !define AzureIntuneTroubleshoot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneTroubleshootSPRITE, AzureIntuneTroubleshoot_m)
 

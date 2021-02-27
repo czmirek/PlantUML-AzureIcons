@@ -8,10 +8,10 @@ mN0K7zHBqh6tS1WKok6bNPB3P6L1rg2G8wQ3w-7jmdFJOfP23jvmUUlogNHJUDJMRpGXQ2nWQce9dnHI
 88yf4EtenD4yJKX9GBy0PA3H-Z4ClONkZWrcVwIRxi_f3m1i5Y__YAPdcmz5XWUUUY6VGitze2YJ1t2L1p380t2Kp7z-
 }
 
-AzureImage(AzureIotAzureCosmosDB)
+AzureEntityColoring(AzureIotAzureCosmosDB)
 !define AzureIotAzureCosmosDB(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotAzureCosmosDB_tbg.png", AzureIotAzureCosmosDB)
 !define AzureIotAzureCosmosDB(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotAzureCosmosDB_tbg.png", AzureIotAzureCosmosDB)
-AzureEntity(AzureIotAzureCosmosDB_m)
+AzureEntityColoring(AzureIotAzureCosmosDB_m)
 !define AzureIotAzureCosmosDB_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotAzureCosmosDBSPRITE, AzureIotAzureCosmosDB_m)
 !define AzureIotAzureCosmosDB_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotAzureCosmosDBSPRITE, AzureIotAzureCosmosDB_m)
 

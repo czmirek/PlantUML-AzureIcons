@@ -5,10 +5,10 @@ ts9QdtKFxKMzhbbNOYdMvfXezmDw-IbT0GAnbjhwRAGYdI2SnyuhgA4Ohz4sTbNHKmGBAArVL8gUObZI
 aC8HuWTKzouy8KZexWffvEu8QU9ka6VTH9WW1oKWPCWC4aXcbFoKmDbAUDTloOzB_cFUQRta4CVQVG8
 }
 
-AzureImage(AzureStorageAzureFileshare)
+AzureEntityColoring(AzureStorageAzureFileshare)
 !define AzureStorageAzureFileshare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageAzureFileshare_tbg.png", AzureStorageAzureFileshare)
 !define AzureStorageAzureFileshare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageAzureFileshare_tbg.png", AzureStorageAzureFileshare)
-AzureEntity(AzureStorageAzureFileshare_m)
+AzureEntityColoring(AzureStorageAzureFileshare_m)
 !define AzureStorageAzureFileshare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageAzureFileshareSPRITE, AzureStorageAzureFileshare_m)
 !define AzureStorageAzureFileshare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageAzureFileshareSPRITE, AzureStorageAzureFileshare_m)
 

@@ -8,10 +8,10 @@ CORpoRzWhuhn9WScehaCCDStSBPsTZ71QE5QqXIIdN7U31zqPJ2c-cGpEw1Cx4qw_kwJJORt5CPizfHf
 U4rX8cRHhEhoMYm5ORhNbsTL5vK4LEr6NogG4LoB3WwwEIQH-mnmdr7ydFm2
 }
 
-AzureImage(AzureMachinelearningBatchAI)
+AzureEntityColoring(AzureMachinelearningBatchAI)
 !define AzureMachinelearningBatchAI(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMachinelearningBatchAI_tbg.png", AzureMachinelearningBatchAI)
 !define AzureMachinelearningBatchAI(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMachinelearningBatchAI_tbg.png", AzureMachinelearningBatchAI)
-AzureEntity(AzureMachinelearningBatchAI_m)
+AzureEntityColoring(AzureMachinelearningBatchAI_m)
 !define AzureMachinelearningBatchAI_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinelearningBatchAISPRITE, AzureMachinelearningBatchAI_m)
 !define AzureMachinelearningBatchAI_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinelearningBatchAISPRITE, AzureMachinelearningBatchAI_m)
 

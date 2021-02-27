@@ -6,10 +6,10 @@ pvjqoADh93OMduJ1_SBz-rNGxmpktSxzmIBSd2pF7nuK_epu6wwl0X6ybaE5v7ulQ0sgJ3WHsI13LGP2
 VoejRjrb9LsjC1hCppNorGfvUhChpAIfCQuWDK0aga8XCgjGQhdGHYorygIYAN9F7TLT5rbQqpn7BSiBmZCTw4hausrG8RRFDOx8mMX8OBv97Mwe2VrcFW4
 }
 
-AzureImage(AzurestackAzureStack)
+AzureEntityColoring(AzurestackAzureStack)
 !define AzurestackAzureStack(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackAzureStack_tbg.png", AzurestackAzureStack)
 !define AzurestackAzureStack(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackAzureStack_tbg.png", AzurestackAzureStack)
-AzureEntity(AzurestackAzureStack_m)
+AzureEntityColoring(AzurestackAzureStack_m)
 !define AzurestackAzureStack_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackAzureStackSPRITE, AzurestackAzureStack_m)
 !define AzurestackAzureStack_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackAzureStackSPRITE, AzurestackAzureStack_m)
 

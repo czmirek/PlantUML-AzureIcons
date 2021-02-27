@@ -6,10 +6,10 @@ cbTOOHJjN-sbKuoRF9QAyLDGhSZEH2PpHNUdmubY_7GukYl4fEhpwNqeiodURqgnqaWgRiq4tsmJbsBC
 46JEFYEZpldT9m
 }
 
-AzureImage(AzureGeneralResourceGroups)
+AzureEntityColoring(AzureGeneralResourceGroups)
 !define AzureGeneralResourceGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralResourceGroups_tbg.png", AzureGeneralResourceGroups)
 !define AzureGeneralResourceGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralResourceGroups_tbg.png", AzureGeneralResourceGroups)
-AzureEntity(AzureGeneralResourceGroups_m)
+AzureEntityColoring(AzureGeneralResourceGroups_m)
 !define AzureGeneralResourceGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralResourceGroupsSPRITE, AzureGeneralResourceGroups_m)
 !define AzureGeneralResourceGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralResourceGroupsSPRITE, AzureGeneralResourceGroups_m)
 

@@ -7,10 +7,10 @@ bZNJL4API8eAEnqvpD776r0SW9mCKm_Xsrbh0qhFc7hgcPdohhLH9GCzYBsrajBq7h7MgafpfglGRXfG
 qu8OlKwP4b5wfP88w3OlAnFelZQNcYQXBze_
 }
 
-AzureImage(AzureManageServiceCatalogMAD)
+AzureEntityColoring(AzureManageServiceCatalogMAD)
 !define AzureManageServiceCatalogMAD(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageServiceCatalogMAD_tbg.png", AzureManageServiceCatalogMAD)
 !define AzureManageServiceCatalogMAD(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageServiceCatalogMAD_tbg.png", AzureManageServiceCatalogMAD)
-AzureEntity(AzureManageServiceCatalogMAD_m)
+AzureEntityColoring(AzureManageServiceCatalogMAD_m)
 !define AzureManageServiceCatalogMAD_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageServiceCatalogMADSPRITE, AzureManageServiceCatalogMAD_m)
 !define AzureManageServiceCatalogMAD_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageServiceCatalogMADSPRITE, AzureManageServiceCatalogMAD_m)
 

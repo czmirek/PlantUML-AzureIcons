@@ -6,10 +6,10 @@ NDIaXaXRFiz4qW1NIF9hIo-OP5xFegQ6N79CzznPnUjPy7Ldwd6LPCUyJh8cgrCrcZj9OXOfbkXRj1_u
 WFcxB4R_f8luip9MnwHVa0BJb8P_sIi
 }
 
-AzureImage(AzureDevopsLabServices)
+AzureEntityColoring(AzureDevopsLabServices)
 !define AzureDevopsLabServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDevopsLabServices_tbg.png", AzureDevopsLabServices)
 !define AzureDevopsLabServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDevopsLabServices_tbg.png", AzureDevopsLabServices)
-AzureEntity(AzureDevopsLabServices_m)
+AzureEntityColoring(AzureDevopsLabServices_m)
 !define AzureDevopsLabServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevopsLabServicesSPRITE, AzureDevopsLabServices_m)
 !define AzureDevopsLabServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevopsLabServicesSPRITE, AzureDevopsLabServices_m)
 

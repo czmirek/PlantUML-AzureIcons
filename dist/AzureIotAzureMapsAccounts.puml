@@ -7,10 +7,10 @@ dEEiC3ts-0OzaBF6X-Qy8VJ4offRR2F7EzKyQn-7gngNCArmry8KWPu45CD7lqwkwKlw5swK8nM9q4ki
 1ly1
 }
 
-AzureImage(AzureIotAzureMapsAccounts)
+AzureEntityColoring(AzureIotAzureMapsAccounts)
 !define AzureIotAzureMapsAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotAzureMapsAccounts_tbg.png", AzureIotAzureMapsAccounts)
 !define AzureIotAzureMapsAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotAzureMapsAccounts_tbg.png", AzureIotAzureMapsAccounts)
-AzureEntity(AzureIotAzureMapsAccounts_m)
+AzureEntityColoring(AzureIotAzureMapsAccounts_m)
 !define AzureIotAzureMapsAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotAzureMapsAccountsSPRITE, AzureIotAzureMapsAccounts_m)
 !define AzureIotAzureMapsAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotAzureMapsAccountsSPRITE, AzureIotAzureMapsAccounts_m)
 

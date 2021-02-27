@@ -5,10 +5,10 @@ YcESmXN7E8KhZd6Ahn3Z55jnZ5EuuXYdS4KmJc7VNWb6APPZdC8CuvGSuvJlsbECKlmZnv3YAuvnYgyu
 Pw3aRK99CDl-igcq__u
 }
 
-AzureImage(AzureCommandWarning)
+AzureEntityColoring(AzureCommandWarning)
 !define AzureCommandWarning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandWarning_tbg.png", AzureCommandWarning)
 !define AzureCommandWarning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandWarning_tbg.png", AzureCommandWarning)
-AzureEntity(AzureCommandWarning_m)
+AzureEntityColoring(AzureCommandWarning_m)
 !define AzureCommandWarning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandWarningSPRITE, AzureCommandWarning_m)
 !define AzureCommandWarning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandWarningSPRITE, AzureCommandWarning_m)
 

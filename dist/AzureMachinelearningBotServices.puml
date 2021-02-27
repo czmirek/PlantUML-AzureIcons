@@ -8,10 +8,10 @@ V12mpd3YD6Tu0arLh3lhauqRGAAcJE74HaSKIC0SJWbFwWT2onKUZ3RXuVGfUXWcbwzVS9mIFmYhmi19
 UzLMiR0_Niy
 }
 
-AzureImage(AzureMachinelearningBotServices)
+AzureEntityColoring(AzureMachinelearningBotServices)
 !define AzureMachinelearningBotServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMachinelearningBotServices_tbg.png", AzureMachinelearningBotServices)
 !define AzureMachinelearningBotServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMachinelearningBotServices_tbg.png", AzureMachinelearningBotServices)
-AzureEntity(AzureMachinelearningBotServices_m)
+AzureEntityColoring(AzureMachinelearningBotServices_m)
 !define AzureMachinelearningBotServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinelearningBotServicesSPRITE, AzureMachinelearningBotServices_m)
 !define AzureMachinelearningBotServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinelearningBotServicesSPRITE, AzureMachinelearningBotServices_m)
 

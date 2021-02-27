@@ -7,10 +7,10 @@ VbrFtw4ClEjMLGI-HhYP7fbLNd_KuEsz32KVM8CloIhPFmFNFORoNmQlEqE9OnKeCpb6WFIviSfS1XoT
 9rEUKcC3wR7i1vxUcJYY9u9XOC0u6KxFDIboCXE2GwsScA8RHxKrCIAxHyyr4KxbDUIHfahP2eC36_dAgMZa4GV2kFmXhERrkFQcGkLNyWy
 }
 
-AzureImage(AzureManageCostManagementandBilling)
+AzureEntityColoring(AzureManageCostManagementandBilling)
 !define AzureManageCostManagementandBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageCostManagementandBilling_tbg.png", AzureManageCostManagementandBilling)
 !define AzureManageCostManagementandBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageCostManagementandBilling_tbg.png", AzureManageCostManagementandBilling)
-AzureEntity(AzureManageCostManagementandBilling_m)
+AzureEntityColoring(AzureManageCostManagementandBilling_m)
 !define AzureManageCostManagementandBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageCostManagementandBillingSPRITE, AzureManageCostManagementandBilling_m)
 !define AzureManageCostManagementandBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageCostManagementandBillingSPRITE, AzureManageCostManagementandBilling_m)
 

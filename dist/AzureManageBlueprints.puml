@@ -5,10 +5,10 @@ mehS7L3_I8655OszZHvWgxixdbMGHSKPZmBdIZloe-DUKV3n7ZjJMaOlZri5vFh3N6dZoQDTAGP-DR6v
 KKe1s1Q5FOfjKOWj2hv5GVCeT7LPy-Uopo9wEPJ25QH5LfNU4LMbrxAWZB8LbD6nHSd_O2x_uufyYoAirWOIB1ULNHbvwqPpQbba6FzVxm
 }
 
-AzureImage(AzureManageBlueprints)
+AzureEntityColoring(AzureManageBlueprints)
 !define AzureManageBlueprints(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageBlueprints_tbg.png", AzureManageBlueprints)
 !define AzureManageBlueprints(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageBlueprints_tbg.png", AzureManageBlueprints)
-AzureEntity(AzureManageBlueprints_m)
+AzureEntityColoring(AzureManageBlueprints_m)
 !define AzureManageBlueprints_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageBlueprintsSPRITE, AzureManageBlueprints_m)
 !define AzureManageBlueprints_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageBlueprintsSPRITE, AzureManageBlueprints_m)
 

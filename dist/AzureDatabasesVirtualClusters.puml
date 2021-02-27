@@ -6,10 +6,10 @@ y_GeSD5dLd2i8Gu5iqvb142daWlEK0RaVPQ2YW2WOqXiP2gmKTYfGCu0QTuNsSoQkxdsHCtSSYX3n8-r
 IyeNfRPxDyNisDRkufuIZ5v9EJxGlGH0ioDyntu2
 }
 
-AzureImage(AzureDatabasesVirtualClusters)
+AzureEntityColoring(AzureDatabasesVirtualClusters)
 !define AzureDatabasesVirtualClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesVirtualClusters_tbg.png", AzureDatabasesVirtualClusters)
 !define AzureDatabasesVirtualClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesVirtualClusters_tbg.png", AzureDatabasesVirtualClusters)
-AzureEntity(AzureDatabasesVirtualClusters_m)
+AzureEntityColoring(AzureDatabasesVirtualClusters_m)
 !define AzureDatabasesVirtualClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesVirtualClustersSPRITE, AzureDatabasesVirtualClusters_m)
 !define AzureDatabasesVirtualClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesVirtualClustersSPRITE, AzureDatabasesVirtualClusters_m)
 

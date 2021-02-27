@@ -5,10 +5,10 @@ ZCDZSZ8MEOgOosWKrAEYX4ziKJ6FcZ6pMDJSec6g7XqvIuLEhzH7FLzHo58RbQN1G2mbxoi1G4wk6Fxp
 San5iKVYuu1H-JXeiVHNtHYthonBc605KIKKRbzvLtXK7iNRszi_
 }
 
-AzureImage(AzureIotIoTEdge)
+AzureEntityColoring(AzureIotIoTEdge)
 !define AzureIotIoTEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotIoTEdge_tbg.png", AzureIotIoTEdge)
 !define AzureIotIoTEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotIoTEdge_tbg.png", AzureIotIoTEdge)
-AzureEntity(AzureIotIoTEdge_m)
+AzureEntityColoring(AzureIotIoTEdge_m)
 !define AzureIotIoTEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotIoTEdgeSPRITE, AzureIotIoTEdge_m)
 !define AzureIotIoTEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotIoTEdgeSPRITE, AzureIotIoTEdge_m)
 

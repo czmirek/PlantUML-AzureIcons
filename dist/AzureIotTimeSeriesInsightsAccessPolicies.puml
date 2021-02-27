@@ -4,10 +4,10 @@ PzOHLbCjxJ6j_u8949eofJN5zP-YLKNPA3YLROK5Boc-Vik2qP9oPGhvjpu-x6Ixv5ewQVy_YsQtRhuN
 CeGgGwWoX3f3w1jo7qMXGkUAhuH1kL1WSgKIXNg42aYk34fdkS5Ug6zpNnpVNSiWPugVYUSgKkXKiOq24oemkQ8Rp9BjHIQGcEbnd3A4GeH0ma32j70wZm
 }
 
-AzureImage(AzureIotTimeSeriesInsightsAccessPolicies)
+AzureEntityColoring(AzureIotTimeSeriesInsightsAccessPolicies)
 !define AzureIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotTimeSeriesInsightsAccessPolicies_tbg.png", AzureIotTimeSeriesInsightsAccessPolicies)
 !define AzureIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotTimeSeriesInsightsAccessPolicies_tbg.png", AzureIotTimeSeriesInsightsAccessPolicies)
-AzureEntity(AzureIotTimeSeriesInsightsAccessPolicies_m)
+AzureEntityColoring(AzureIotTimeSeriesInsightsAccessPolicies_m)
 !define AzureIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesInsightsAccessPoliciesSPRITE, AzureIotTimeSeriesInsightsAccessPolicies_m)
 !define AzureIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesInsightsAccessPoliciesSPRITE, AzureIotTimeSeriesInsightsAccessPolicies_m)
 

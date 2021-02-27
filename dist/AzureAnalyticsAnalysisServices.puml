@@ -6,10 +6,10 @@ srSTFKf0fKEivg65N8uhP92W8k8tlxnHKMXOMQc1oPKd5GQYYaU0xESkJoe5o4756p39_Np2IlOJ_wet
 I3PLqQvTtqMqcwWuqT5iHNzlHV-WIhL8fG-aV2pHd-bo-GO
 }
 
-AzureImage(AzureAnalyticsAnalysisServices)
+AzureEntityColoring(AzureAnalyticsAnalysisServices)
 !define AzureAnalyticsAnalysisServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureAnalyticsAnalysisServices_tbg.png", AzureAnalyticsAnalysisServices)
 !define AzureAnalyticsAnalysisServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureAnalyticsAnalysisServices_tbg.png", AzureAnalyticsAnalysisServices)
-AzureEntity(AzureAnalyticsAnalysisServices_m)
+AzureEntityColoring(AzureAnalyticsAnalysisServices_m)
 !define AzureAnalyticsAnalysisServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsAnalysisServicesSPRITE, AzureAnalyticsAnalysisServices_m)
 !define AzureAnalyticsAnalysisServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsAnalysisServicesSPRITE, AzureAnalyticsAnalysisServices_m)
 

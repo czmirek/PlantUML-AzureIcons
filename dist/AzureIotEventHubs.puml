@@ -4,10 +4,10 @@ JBuYgrygA2lr5PGLw4TwhZ0M4guuQoKh5Zj6h2jtlhYH7tCTjTzV_C6CLloHXYqqN75UemATH2ewWNlp
 zG
 }
 
-AzureImage(AzureIotEventHubs)
+AzureEntityColoring(AzureIotEventHubs)
 !define AzureIotEventHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotEventHubs_tbg.png", AzureIotEventHubs)
 !define AzureIotEventHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotEventHubs_tbg.png", AzureIotEventHubs)
-AzureEntity(AzureIotEventHubs_m)
+AzureEntityColoring(AzureIotEventHubs_m)
 !define AzureIotEventHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotEventHubsSPRITE, AzureIotEventHubs_m)
 !define AzureIotEventHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotEventHubsSPRITE, AzureIotEventHubs_m)
 

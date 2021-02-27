@@ -6,10 +6,10 @@ MiMJKgD-h_ei50GiCq0t2yWq0eAL_bxwYX3WX0o-4VUHP4BHLsooK517iOB_k_qeIXtEKKPZi12yKY-4
 oTu-oFRU1_dUfQ2u4M6QuLYvsVrC8ThCO6G_Wv7zJ30jy6baF-DCYpGxHklAyBEpUSTHQ9F2bMmg0TjiCdZW_N6KVia3
 }
 
-AzureImage(AzureSecurityAzureSentinel)
+AzureEntityColoring(AzureSecurityAzureSentinel)
 !define AzureSecurityAzureSentinel(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecurityAzureSentinel_tbg.png", AzureSecurityAzureSentinel)
 !define AzureSecurityAzureSentinel(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecurityAzureSentinel_tbg.png", AzureSecurityAzureSentinel)
-AzureEntity(AzureSecurityAzureSentinel_m)
+AzureEntityColoring(AzureSecurityAzureSentinel_m)
 !define AzureSecurityAzureSentinel_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityAzureSentinelSPRITE, AzureSecurityAzureSentinel_m)
 !define AzureSecurityAzureSentinel_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityAzureSentinelSPRITE, AzureSecurityAzureSentinel_m)
 

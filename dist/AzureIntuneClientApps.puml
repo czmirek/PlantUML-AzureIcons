@@ -3,10 +3,10 @@ xT8rTWLH30JHaXuCx7_1FiFGPlkpAkpWHis7HLRggGHU9OTqteenL-hlbLgOgtzHwgifeJJIeEWwABg-
 qNLGTBsT4aeeBXdOTrVki2mvcAu6hYjJraePagu9igxshqed5KYw9YYw_fiIIYYXy3U5kRO_DoYzD2Wojinv-tkbTTRib6mVhZnfRm
 }
 
-AzureImage(AzureIntuneClientApps)
+AzureEntityColoring(AzureIntuneClientApps)
 !define AzureIntuneClientApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneClientApps_tbg.png", AzureIntuneClientApps)
 !define AzureIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneClientApps_tbg.png", AzureIntuneClientApps)
-AzureEntity(AzureIntuneClientApps_m)
+AzureEntityColoring(AzureIntuneClientApps_m)
 !define AzureIntuneClientApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneClientAppsSPRITE, AzureIntuneClientApps_m)
 !define AzureIntuneClientApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneClientAppsSPRITE, AzureIntuneClientApps_m)
 

@@ -5,10 +5,10 @@ qaXJCxqgAktPrAxG05PZJAabvQcN9c_NA_7RA_-Aojtv9WiwBEPvKOTPQCGoZy7HTKgUzokKD4zEHPSe
 CmVYPC1U2FsiNxYn_nu
 }
 
-AzureImage(AzureComputeVirtualMachine)
+AzureEntityColoring(AzureComputeVirtualMachine)
 !define AzureComputeVirtualMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeVirtualMachine_tbg.png", AzureComputeVirtualMachine)
 !define AzureComputeVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeVirtualMachine_tbg.png", AzureComputeVirtualMachine)
-AzureEntity(AzureComputeVirtualMachine_m)
+AzureEntityColoring(AzureComputeVirtualMachine_m)
 !define AzureComputeVirtualMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeVirtualMachineSPRITE, AzureComputeVirtualMachine_m)
 !define AzureComputeVirtualMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeVirtualMachineSPRITE, AzureComputeVirtualMachine_m)
 

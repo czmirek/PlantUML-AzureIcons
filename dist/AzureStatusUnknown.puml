@@ -6,10 +6,10 @@ I11eBdqGtM2HqibSLFAH93ksnmyfxvKogBTeYv911rBw2PliCeCCIOgqCJAcr1yEHqljx9fNTl3Bfudx
 xTnkVGS
 }
 
-AzureImage(AzureStatusUnknown)
+AzureEntityColoring(AzureStatusUnknown)
 !define AzureStatusUnknown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusUnknown_tbg.png", AzureStatusUnknown)
 !define AzureStatusUnknown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusUnknown_tbg.png", AzureStatusUnknown)
-AzureEntity(AzureStatusUnknown_m)
+AzureEntityColoring(AzureStatusUnknown_m)
 !define AzureStatusUnknown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusUnknownSPRITE, AzureStatusUnknown_m)
 !define AzureStatusUnknown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusUnknownSPRITE, AzureStatusUnknown_m)
 

@@ -4,10 +4,10 @@ GUKEXJbtLol8HjZJVI4ze_rLMDhp_w8dlNq5zRwCgEXzeMaLSS8RLkfenO-eOFYlfE3hMBfNZ0zrOXQL
 07K3
 }
 
-AzureImage(AzureIntuneeBooks)
+AzureEntityColoring(AzureIntuneeBooks)
 !define AzureIntuneeBooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneeBooks_tbg.png", AzureIntuneeBooks)
 !define AzureIntuneeBooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneeBooks_tbg.png", AzureIntuneeBooks)
-AzureEntity(AzureIntuneeBooks_m)
+AzureEntityColoring(AzureIntuneeBooks_m)
 !define AzureIntuneeBooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneeBooksSPRITE, AzureIntuneeBooks_m)
 !define AzureIntuneeBooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneeBooksSPRITE, AzureIntuneeBooks_m)
 

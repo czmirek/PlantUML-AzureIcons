@@ -6,10 +6,10 @@ r9NaOoNXYNG7uORquqPvTB7o_MpLfYgakt2ZqnNMNGqHswqoK2kwJn1HfYka0uIaqnMs0KQspRZI4m-l
 Gt8vtBMLwa9W4ppwdjHJ5GllxppWNANdtYWD7gJFY7YF63oXhMN2eQAbJ0J2JzGci4UDECAQ_iXuEi8gIxz5Edn1SXidKk4hvE4P3D_Ix0ZVG_Wr_WC
 }
 
-AzureImage(AzureManageUserPrivacy)
+AzureEntityColoring(AzureManageUserPrivacy)
 !define AzureManageUserPrivacy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageUserPrivacy_tbg.png", AzureManageUserPrivacy)
 !define AzureManageUserPrivacy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageUserPrivacy_tbg.png", AzureManageUserPrivacy)
-AzureEntity(AzureManageUserPrivacy_m)
+AzureEntityColoring(AzureManageUserPrivacy_m)
 !define AzureManageUserPrivacy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageUserPrivacySPRITE, AzureManageUserPrivacy_m)
 !define AzureManageUserPrivacy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageUserPrivacySPRITE, AzureManageUserPrivacy_m)
 

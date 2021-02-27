@@ -6,10 +6,10 @@ LztOKCFyBMfQq0qVLTwTGDFhvPF9x21E5bQ4i0Vl9KAuvpCsqS4J1JIPBoleoY1IcUrWxax6eQdxdJ29
 FOXScMuheiOHOdHndSW0iXz4o4FGWfuS5ncxow-YeuEAcUq40O9foizs7lNslIqy_xOopQdvOMmAWCZRd_yAZJ7J1Yxug2ewuqehddw9zm
 }
 
-AzureImage(AzureCommandApplySplitting)
+AzureEntityColoring(AzureCommandApplySplitting)
 !define AzureCommandApplySplitting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandApplySplitting_tbg.png", AzureCommandApplySplitting)
 !define AzureCommandApplySplitting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandApplySplitting_tbg.png", AzureCommandApplySplitting)
-AzureEntity(AzureCommandApplySplitting_m)
+AzureEntityColoring(AzureCommandApplySplitting_m)
 !define AzureCommandApplySplitting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandApplySplittingSPRITE, AzureCommandApplySplitting_m)
 !define AzureCommandApplySplitting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandApplySplittingSPRITE, AzureCommandApplySplitting_m)
 

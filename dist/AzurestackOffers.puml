@@ -7,10 +7,10 @@ B2JL4fEDlQfX179W-7GJmfbcJmgI4GXZciZEG2sCXH0c3JHFfoI4CsbTPCGIGfcrlEeHOKnQfNbV2aSo
 6OfmPem1gGGXJFos4uGm8o88OGZo1SCHpd24CnpX34TuJf0F68hmhAhymVu1
 }
 
-AzureImage(AzurestackOffers)
+AzureEntityColoring(AzurestackOffers)
 !define AzurestackOffers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackOffers_tbg.png", AzurestackOffers)
 !define AzurestackOffers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackOffers_tbg.png", AzurestackOffers)
-AzureEntity(AzurestackOffers_m)
+AzureEntityColoring(AzurestackOffers_m)
 !define AzurestackOffers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackOffersSPRITE, AzurestackOffers_m)
 !define AzurestackOffers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackOffersSPRITE, AzurestackOffers_m)
 
