@@ -1,3 +1,20 @@
+# Macros for Azure Images in plantUML
+This document contains a list of macros for Azure Icons of this repository. See README.md for more info.
+
+There are two variants for each image.
+## Colored image 
+```
+AzureComputeFunctionApps(functionAlias, "Label", "Technology", "Optional description")
+```
+## Monochromatic sprite
+```
+AzureComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional description")
+```
+
+You may need to CTRL+F here, the list is not sorted.
+
+## List of macros
+
 Macro (Name) | Image
 --- | ---
 Image: `AzureAnalyticsAnalysisServices`<br>Monochrome sprite: `AzureAnalyticsAnalysisServices_m` | ![AzureAnalyticsAnalysisServices](dist/AzureAnalyticsAnalysisServices_tbg.png) |
