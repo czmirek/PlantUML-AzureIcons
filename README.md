@@ -17,6 +17,11 @@ Put this into your PUML to include add support for all images.
 ```
 Then look into the [macro table](https://github.com/czmirek/PlantUML-AzureIcons/blob/main/table.md) and find whatever you want to add into your PUML in same manner as from the former official library.
 
+It may be unneccessary to load all icons so you can handpick only what you need.
+```puml
+!include AzurePuml/AzureComputeFunctionApps.puml
+```
+
 For each box there are two variants:
 - Colored transparent png image
 - Monochromatic sprite
