@@ -1,0 +1,12 @@
+sprite $AzureCommandInsertSPRITE [70x70/16z] {
+xTZ50GGX44JHSGKw_sZNpcZBsjGFu771krWBDNObPQdho2jTNOkj0WKA52Z3fA3qdcQvueXebYedFPk5oaolveXVbt-DE4KOndaKOHXAX64e4MRQ6-iY3AFV
+P_WAa6blB89yRZNE2Zk3pYx5tp7rT-_NIJAfd6hNEUsXG842HV-t0dz1Tm
+}
+
+AzureImage(AzureCommandInsert)
+!define AzureCommandInsert(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandInsert_tbg.png", AzureCommandInsert)
+!define AzureCommandInsert(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandInsert_tbg.png", AzureCommandInsert)
+AzureEntity(AzureCommandInsert_m)
+!define AzureCommandInsert_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandInsertSPRITE, AzureCommandInsert_m)
+!define AzureCommandInsert_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandInsertSPRITE, AzureCommandInsert_m)
+

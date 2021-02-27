@@ -1,0 +1,15 @@
+sprite $AzureStorageDataSharesSPRITE [70x70/16z] {
+xTPLikn8303H4gLf_-kzA7DJM3EFCw9_JvNKvFQNzY_PLm6kKacegdtadzb7gWczRgZvliJqZYCg9yFyVhSSupENBQB-C3io4cIs8k9FqeCI4ARgoLnJ7Bnz
+9e2aiauKT5q_rtN41X5T58ZsdQONaWvTFvphkx1lH6YPmYB6DpYvV6UHp059GyQj8flXlfIfboNpeFke_tX1k8faFaqFbOywbSVPC6qK0JjEzDNWUfzWd3xZ
+zdPjLQPn7BkpfCOmVdHGZ6GKQ3ib6xeE0hf-6BEJqW9mim3qe3mebJMoHAufaePBAoWEqII9oqgEKbCSQ6K5qB9YG2ihW1QLl4fP0Qoev5MkAztoiRM2Ca3M
+wWfuKScabRSRu7L50IagUPcwea1PoG_lB_6TpilK5GEgIbwchXYWgb9J6j-5LXI1p6jx2HMnPAuflYmtGAug4EjeVaqvFXrULEpmN7TDqRColApuWwT3UrKP
+sXAm39UWZoyflQoAGiZXQodzSsMCjis1S0TOSUqU8qCQMoPB9FExK1_Qpea3OUsKsFuXT-WxNDkrH4HLHTgVrB_U0G
+}
+
+AzureImage(AzureStorageDataShares)
+!define AzureStorageDataShares(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageDataShares_tbg.png", AzureStorageDataShares)
+!define AzureStorageDataShares(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageDataShares_tbg.png", AzureStorageDataShares)
+AzureEntity(AzureStorageDataShares_m)
+!define AzureStorageDataShares_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageDataSharesSPRITE, AzureStorageDataShares_m)
+!define AzureStorageDataShares_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageDataSharesSPRITE, AzureStorageDataShares_m)
+

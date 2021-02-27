@@ -1,0 +1,15 @@
+sprite $AzureComputeContainerInstancesSPRITE [70x70/16z] {
+xTL9WlGW28PXG0Gqzp_lFrXsHgLCcsNUVHu_QuGl4OL_4SAlGvOj9lXD5ELKkByZIgERUuAqOxWHIwyuWRYCZynTYjIFO2HHFu61MB_5SrDgCZcb5i0BEUf8
+qJ4ewcZz7Js3IORVxE2y8IY3BmmxI8FXsqYB4QPxrxaojOXm27raOznxYOEuZ2AiaOECCsBDLcHZxDBAe8DyPmG-yG1IGxLBmRjGv1B1fy2bXg9GifexIQrR
+U4IHSjTPnPvHSFX6vaIpolRooYDAc5KG_cUftwgaRWObcLC4IZYd1FWKdOF4iZ8vYW5u9-MSbvA9Y9epfOQTvpT5HDkGmXQbjMLhf_GW0sWnknKv9zDKbPgQ
+7P3BlqbLwlDvIVglJTcWpL64S_oZcFwhhTJgYH5QiHL5nnH1w4Hi8uge1F3Y8GNElSghlCghn2SKnW5boIbPLua4DL-fPREgZCxOGbjsbNz9wypm8zQqfyoR
+uHUYvKrnPeoEikyp_W8
+}
+
+AzureImage(AzureComputeContainerInstances)
+!define AzureComputeContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeContainerInstances_tbg.png", AzureComputeContainerInstances)
+!define AzureComputeContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeContainerInstances_tbg.png", AzureComputeContainerInstances)
+AzureEntity(AzureComputeContainerInstances_m)
+!define AzureComputeContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeContainerInstancesSPRITE, AzureComputeContainerInstances_m)
+!define AzureComputeContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeContainerInstancesSPRITE, AzureComputeContainerInstances_m)
+

@@ -1,0 +1,14 @@
+sprite $AzureStatusFailedSPRITE [70x70/16z] {
+hTXLmeH030DWPA2qkVzvVvVDoWH9drRW6zVXTKnjYSpwYCnOsZGSZnO5S5IqGyHC147pRYFHYMod3NPaViO0TCJOpqXXLrGlEojsHxn4DXo8xKML90v5ZW8v
+poGEHuewELatAqx5ols4aoYyZE9CpxSrMzmLvkfqjw3luxyIZ70VPkJXQIeF_ymC8_yCboaPOUOHOIOfAuGGGyWZCrDMk0CmmmXthtp8IitCzFxYp8HuLlfV
+jL0GZ41Gdqi681Y10EshG88Ho5UH2eAH26gO0CKe11WR92CHj1MIaGYMW68qWaWeHYF8X68qWYmeHYEeWc04ubGy9VBKhgUbFRtECm8yez4pCrXcAS-CwPcz
+BIk9PrNphB2MrTwpyx3iWZmxCilkqBDJjUoQBJjuosd2ShBndB8i9px7wTDn4bujftBl3O7_jeAThMiqposE_qP9nyYtMxqQVGS
+}
+
+AzureImage(AzureStatusFailed)
+!define AzureStatusFailed(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusFailed_tbg.png", AzureStatusFailed)
+!define AzureStatusFailed(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusFailed_tbg.png", AzureStatusFailed)
+AzureEntity(AzureStatusFailed_m)
+!define AzureStatusFailed_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusFailedSPRITE, AzureStatusFailed_m)
+!define AzureStatusFailed_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusFailedSPRITE, AzureStatusFailed_m)
+

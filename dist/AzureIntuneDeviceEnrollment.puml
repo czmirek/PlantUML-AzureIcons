@@ -1,0 +1,14 @@
+sprite $AzureIntuneDeviceEnrollmentSPRITE [70x70/16z] {
+xTP7ckGW38RX7nJ0ll-1PwX8krKgq4Fl-5QEhtE0sIxLuuntb8HMFPrKRhcBeENkIT5MEPqgMcstc699hzGKxTZALknOdNXKqIw-fLq1HUYMn9M-lrQsifNY
+jKx9HipIOdgC1nGMVSSnXVGI1nJHtz6i8cf5CqgFC90xPqBf40K02IciFvL-V5nHHz5HXPSeka9XNz4nHPOekauHfdjDoOz8vXI1MVggd4NV4Uo-AuyE_H_3
+BFjAlIZAr9yNUgI-aeyt4xz6GChF9AvqvIKAVANKZw6FNQKEAibJogW2SfGwh40-AcL2WVqDQ8WN3COerpa5R209imgoNc9WNW58UYCXfW29-F7xWjP5aPJ4
+K9miXG0AAAlsHQgJmcpt3m
+}
+
+AzureImage(AzureIntuneDeviceEnrollment)
+!define AzureIntuneDeviceEnrollment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneDeviceEnrollment_tbg.png", AzureIntuneDeviceEnrollment)
+!define AzureIntuneDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneDeviceEnrollment_tbg.png", AzureIntuneDeviceEnrollment)
+AzureEntity(AzureIntuneDeviceEnrollment_m)
+!define AzureIntuneDeviceEnrollment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneDeviceEnrollmentSPRITE, AzureIntuneDeviceEnrollment_m)
+!define AzureIntuneDeviceEnrollment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneDeviceEnrollmentSPRITE, AzureIntuneDeviceEnrollment_m)
+

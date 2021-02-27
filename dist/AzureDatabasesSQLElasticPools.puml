@@ -1,0 +1,16 @@
+sprite $AzureDatabasesSQLElasticPoolsSPRITE [70x70/16z] {
+xTK5ZkKm381XSspt_lVTkYyPB2GQmT8dUDXVZKlmXy1FO1bUMYyWVR1K6jipitp1p3JL6GcvD49F3PO7VDl1GZA1iDnKPCfr1LShE3iLVJCx6SAFWr5h7f-u
+Dtl5nZ_XH637Me5ptfIn2pYHZXs9-MC38qyhMnA-8LPhpRrolclDf0g3RDj5PTkSS0h7Tbaf8VY4fFvwLocfX9VOCdERgPIcmfzYnAAUPR9oxU-l_A_yhuJq
+2_SGoeGyhg16H35JQTXbKOG3QfRwSQOI5I2cLuKhG5GfNgae8hPZ9PcfjNLaHjLieL93oIuGWE9uHm0Ow_jI303Q-rkRhpZk9B9F1VF5QssJbQ9Oj5SeNmAg
+E5afXgNcGPyhC5qfgKTch6XrNxhCu6F60W3Zf5sQIybTZUOOgUGODEXyfVceI2QzjiqGM3jV3DcQrOeiqn40I0JXmxdBKkAXqb5cptou71iEVbiP_-F84efG
+s7EwKhAPgdaEuOQ0EZwKsENolSu0G7v-nzHQquyhAL2J-cabskv3vVzJxNybLYi19sorOd0croe9fp1MAebmmUOh3QwXvKmb6y4zyNpWYZ21pIyB9WZpYDMQ
+UqJk8iARgH3y0Nu1
+}
+
+AzureImage(AzureDatabasesSQLElasticPools)
+!define AzureDatabasesSQLElasticPools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesSQLElasticPools_tbg.png", AzureDatabasesSQLElasticPools)
+!define AzureDatabasesSQLElasticPools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesSQLElasticPools_tbg.png", AzureDatabasesSQLElasticPools)
+AzureEntity(AzureDatabasesSQLElasticPools_m)
+!define AzureDatabasesSQLElasticPools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesSQLElasticPoolsSPRITE, AzureDatabasesSQLElasticPools_m)
+!define AzureDatabasesSQLElasticPools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesSQLElasticPoolsSPRITE, AzureDatabasesSQLElasticPools_m)
+

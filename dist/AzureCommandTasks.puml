@@ -1,0 +1,13 @@
+sprite $AzureCommandTasksSPRITE [70x70/16z] {
+xTH7UiGW38RX7z67ellVDf4zlV78wHdUbUkt0OIdoAVIUqcUi1dj-AZOZOt25mf1ppI-qWpKAYzwVTTvKQ6LrqR08goT31spHipnViqOg0GM4KUHHS1zxhx2
+mkB8iYZkFdw6S4Gyy1yhZKHWaUa4P-WaimWasba5mhD864eiFCGVg9GuL0OLXRzGSKt5tQlelNPbLYW82-7248qdmuw7_2jKjERUdHNZ146G6pBpD6eg864W
+30szpAwRbQ_SB_CqViwi-_-xheVDEZyslG4
+}
+
+AzureImage(AzureCommandTasks)
+!define AzureCommandTasks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandTasks_tbg.png", AzureCommandTasks)
+!define AzureCommandTasks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandTasks_tbg.png", AzureCommandTasks)
+AzureEntity(AzureCommandTasks_m)
+!define AzureCommandTasks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandTasksSPRITE, AzureCommandTasks_m)
+!define AzureCommandTasks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandTasksSPRITE, AzureCommandTasks_m)
+

@@ -1,0 +1,14 @@
+sprite $AzureIotmanageSPRITE [70x70/16z] {
+xTO7TiGm24LH2VX8EFlVRrpIFJ3uoEb-2xWkgkN4hguOAdNKq3NGg14uQMFG8Tq56ZQEEwH-d3MWOJnW14vWn4biP7CdT0sDs8cDl1CRSQ2SqRhrtkuxLTIj
+FspPFKSqHhOCweV2cb8caS1XQ9Gz8v0v5u9eMEisMLUP2nofcWWYaOFTdfQ1ReyruQ23s_EtYcR21mTSFiJ773ZB-k27SV6gHnXo6RMUS6IhkieqMM_tvg51
+bZXGvgpvXarpXl2Rr9xgtcjiTLcBbAtUN6EkHIypAuxJxNson86oTrgtZx4i9PJDcUksZzaVREtPc6IEHfNgAyWhvHo5fJAFArIAyoujcsp2i59-XIBdA9gD
+0uKq6vKWQ2wKC8mY-LyZ9zo-GIKJIM38peWWw3uuH2WH2x1e08IfbbEwkde4
+}
+
+AzureImage(AzureIotmanage)
+!define AzureIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotmanage_tbg.png", AzureIotmanage)
+!define AzureIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotmanage_tbg.png", AzureIotmanage)
+AzureEntity(AzureIotmanage_m)
+!define AzureIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotmanageSPRITE, AzureIotmanage_m)
+!define AzureIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotmanageSPRITE, AzureIotmanage_m)
+

@@ -1,0 +1,15 @@
+sprite $AzurestackInfrastructureBackupSPRITE [70x70/16z] {
+xTI5OGGX441HHd3elzsGXTET7Owut2_WuPWF3UPD3UH7cYdyKFY354PufpAYzoeZPJgsvr8Hoj7sQ6DmelXQOYnrNt5TwGpeIidSafZSbR5oLV7LSyjNeQ7W
+ff2kE6uvIN5T6PC1HN4rS2ieSp6aJSPkvUeF5XHF2cYJiIUc50b9zgGOxVBPaOzItbuKx8ogw95HbxIku7iKVMFio0KfjrTOKLALYrSAASf0mi6bYuyhhaPk
+HOdPAN2aXEaxWjPG45hAQ_J72jy5n_zB5f1YDmLLP2YXvX1A5V9TCQWXGx4XLwdixL2k6L3khjjtStTHGjPV00h8kcBm_MzwC63UhHW4ypvbz5u5UgBYvjdj
+wU0fQAqhpK0YlaJKf4M50P3l8u0r1G68Tm70aa80k6DmLKa4hmxTR4ihh2dP8VGG4KQSqgAISxG8bv1yodbToQaLl6k5jFLMvT9JUIfoJ-MfF9Lue8GbnITH
+YN2ji9iMqaw9R6uZdaPaVRm8tg9vSu2lWVcCNW
+}
+
+AzureImage(AzurestackInfrastructureBackup)
+!define AzurestackInfrastructureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackInfrastructureBackup_tbg.png", AzurestackInfrastructureBackup)
+!define AzurestackInfrastructureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackInfrastructureBackup_tbg.png", AzurestackInfrastructureBackup)
+AzureEntity(AzurestackInfrastructureBackup_m)
+!define AzurestackInfrastructureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackInfrastructureBackupSPRITE, AzurestackInfrastructureBackup_m)
+!define AzurestackInfrastructureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackInfrastructureBackupSPRITE, AzurestackInfrastructureBackup_m)
+

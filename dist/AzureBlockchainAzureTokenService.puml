@@ -1,0 +1,15 @@
+sprite $AzureBlockchainAzureTokenServiceSPRITE [70x70/16z] {
+xTZ7rlCW38HXWMQ6cFk_tw-cseZeuDLVdbLMx_7WT8kLQkSvYRET2dv3iNK5lF4JO-wMPrNke9mPm-LPph6wtbWwdWhE-CA1h7MSaVoioYIKr9ZrMG3pG1kJ
+a6weAwo8oSxM9vLS1vVUtrJUpaBhFL6PTi3UavLu5hQUhqY83YHNYJjGxzbAF6lhoKhGkOzPgaXukhlfIjJf_MH5vDRFLzJwNrFvN_bVkJGH_gMMrSecFFEo
+KcdOStlccOemKEn9mTkAC6GlAWULIsjIQvUjzmrZRZQTHJomDGHi3q5ZoWuATOKiju4QHHXMXdmyXnn7P6E5epqKXn5Pf0uh4dtNe2QL4bHsKobDApx8w8vV
+T8Euma666h9GKJg3Cgb8uQXd1Dn2-a9_2bqVaySNceMe7uJ_09_k3gzmPQ6ge_0L4FDq1HO8hYP-7UKlXw87hwEvwlTJhZzH-6iYUXt5Ygwttsy9n4_U62Ul
+exog4PgTpt3bVmpjkAqeJjtHRLcf_gFQiqy
+}
+
+AzureImage(AzureBlockchainAzureTokenService)
+!define AzureBlockchainAzureTokenService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureBlockchainAzureTokenService_tbg.png", AzureBlockchainAzureTokenService)
+!define AzureBlockchainAzureTokenService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureBlockchainAzureTokenService_tbg.png", AzureBlockchainAzureTokenService)
+AzureEntity(AzureBlockchainAzureTokenService_m)
+!define AzureBlockchainAzureTokenService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainAzureTokenServiceSPRITE, AzureBlockchainAzureTokenService_m)
+!define AzureBlockchainAzureTokenService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainAzureTokenServiceSPRITE, AzureBlockchainAzureTokenService_m)
+

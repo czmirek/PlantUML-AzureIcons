@@ -1,0 +1,14 @@
+sprite $AzureStorageImportExportJobsSPRITE [70x70/16z] {
+xT5fUiCm28JXqO2Gq_lVjuiVX-p24jtRzsURV0A2Jr582bamZsgk4bF4haYkuOWnQdSfHbHxeAOYhgOYJXE77JvniK1g7oUfKHn2h1OYkYHCnB-sMYHUYRPV
+IGmI7qRR2Cr5N1NSO1jdYYlMPbZPimzf0vdo80AKQCWIZK8WpbXm5VgSNUeBTI9XndTY9-APS1ZfHEAC-N4xaJXJlDA9X1d1Ie98aD7xr-KA6wuihA3tJsaH
+sIgst76iB15k5KbL2ZOjKJ4SIQ8YS3PTQO0hqnN16KvM31Tagj9mXHCLmurYevMAUzX6AaOymDhsLPeINONdzFZmkO91qZd15rKiMJcild7blwB9oh8wR9OL
+ftPnynD9Ak8a5N6IYZX9HPoc8auzag8UIMQU37bIyPEy
+}
+
+AzureImage(AzureStorageImportExportJobs)
+!define AzureStorageImportExportJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageImportExportJobs_tbg.png", AzureStorageImportExportJobs)
+!define AzureStorageImportExportJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageImportExportJobs_tbg.png", AzureStorageImportExportJobs)
+AzureEntity(AzureStorageImportExportJobs_m)
+!define AzureStorageImportExportJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageImportExportJobsSPRITE, AzureStorageImportExportJobs_m)
+!define AzureStorageImportExportJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageImportExportJobsSPRITE, AzureStorageImportExportJobs_m)
+

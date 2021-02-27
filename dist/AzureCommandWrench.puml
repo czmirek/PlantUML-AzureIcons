@@ -1,0 +1,15 @@
+sprite $AzureCommandWrenchSPRITE [70x70/16z] {
+xTRNpYih38PX0nbQmD_zt-tMoD7sf58ihQF_FKOFPIgj58vyxm3GSg2zGcPSonj6wdYjnqN3DNoAmmfoOqXSSupbVxAi815IyVJeM4Tk3yFfGJC0r1N4uwnx
+-enuDwNqrta5kJyGpZD81O3s7G7FxeVTTmI8OwL0nodIBWZWXme3w6-8hCtroMSX0C3n6V4CgO-K381VaFw2ZBTq1r1-87p3nFdAXhuZWVhuBlRNzNQSXMU4
+wYbFF4BkQItihuYS77uhXmnvOQu8nR4YGrwPe8WCuVcrA0D5P4TjudJ36wE8d6wTUA0BlJ6A40D8OmIHtXX5WgnsXEX4oWYYp_mY8anNn050NKOqNSfXHEHD
+Q4Ieoo0J8gEQ3P6FDpiJ4XbdDmjoTE0ihYEndZExS5I6TAmZ2IzrRqTGo8pqv8n8hyaJRICSOpm4C22191FYnyOVyeTqzw-G3DYHO4JqBnBPXiXIsbUa3H4T
+x8q8DG3LYiYlq3U4PWE0Q4M8HJ4XSYxb4tAdXJ80jYBofryCYCJFJDv2AEB2-BQEI0LdtCw0iqeRvS6lmFngDBxHPf5r8Oxs2x5qj18zRVKV
+}
+
+AzureImage(AzureCommandWrench)
+!define AzureCommandWrench(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandWrench_tbg.png", AzureCommandWrench)
+!define AzureCommandWrench(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandWrench_tbg.png", AzureCommandWrench)
+AzureEntity(AzureCommandWrench_m)
+!define AzureCommandWrench_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandWrenchSPRITE, AzureCommandWrench_m)
+!define AzureCommandWrench_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandWrenchSPRITE, AzureCommandWrench_m)
+

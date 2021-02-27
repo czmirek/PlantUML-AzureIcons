@@ -1,0 +1,16 @@
+sprite $AzureIotTimeSeriesDataSetsSPRITE [70x70/16z] {
+xTM5hkim381XSspt_T_treKpKBCcck3I9nZsL-CI_27m1Kp3hla2qXDy66uGCyiRPgQXpfcGhZDqrs2vmHyxM4W649OF5HdIh-1i1KUdeZz69qFuF1Yrvl72
+lTaUE_y95m8Fh1MuvaqP3m4Nql50OdxRmCZBofA4FuZLMdEldAzQCs5ya6NfL9R52OTmBDrA2S4x9BcKVgMa4dQnPUOoKYbDXLzYnAAUPR3Iz_TN_bV-LqAE
+2tSJoeHyNa6DY6Aaql2GHH4sg5dgnv5AL82OzWfNWAXIF5DHH6pRIZ9JQ-l8ZAhPHAM6aeT008hj7G5WpEzBCG1eZxSsNd5SIUGn5SoTrze6AqMnw56Xt0LK
+SR1I34lDWruhC5mfgLlciQBfVIcPmTkC1G3EatPgBYLNDPfjf9Bde477AytFYcJIlcs6mDpvOiZMMgt8CXq1W4GGdivTbX8tbGDb7fd7vLYLWt-iDDnnP0b5
+AEmvN2dPJDKyJ-66W7f-AB7AwNkT0O1yVyVKMjFNbHIeINrRYRQA_q-rX_-LcAq4NB3PYi6LdAiaNCAOgIH2XurN6lIXvKWb6y5dudd35M40ctSB9WZZYDMQ
+UqIk8iARgH3y0Nu1
+}
+
+AzureImage(AzureIotTimeSeriesDataSets)
+!define AzureIotTimeSeriesDataSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotTimeSeriesDataSets_tbg.png", AzureIotTimeSeriesDataSets)
+!define AzureIotTimeSeriesDataSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotTimeSeriesDataSets_tbg.png", AzureIotTimeSeriesDataSets)
+AzureEntity(AzureIotTimeSeriesDataSets_m)
+!define AzureIotTimeSeriesDataSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesDataSetsSPRITE, AzureIotTimeSeriesDataSets_m)
+!define AzureIotTimeSeriesDataSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotTimeSeriesDataSetsSPRITE, AzureIotTimeSeriesDataSets_m)
+

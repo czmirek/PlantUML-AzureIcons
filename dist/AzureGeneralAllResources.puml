@@ -1,0 +1,12 @@
+sprite $AzureGeneralAllResourcesSPRITE [70x70/16z] {
+xTR50SCm44JHbHRxRpZC4sRRyu-25p3AnLYpqnQ3QkT6OQpja80Memw3lXWDQCleIug-HR4B2XKgLAYCgZ_yTss0IbnN4begCBXK4dgVGeKAbMullE-QoX_M
+81YyCdhrtusNZX4LlwvGAMYfmE1IAUWtIZwXKD6N59DD-OAIiajFWx6BepBIvW
+}
+
+AzureImage(AzureGeneralAllResources)
+!define AzureGeneralAllResources(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralAllResources_tbg.png", AzureGeneralAllResources)
+!define AzureGeneralAllResources(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralAllResources_tbg.png", AzureGeneralAllResources)
+AzureEntity(AzureGeneralAllResources_m)
+!define AzureGeneralAllResources_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralAllResourcesSPRITE, AzureGeneralAllResources_m)
+!define AzureGeneralAllResources_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralAllResourcesSPRITE, AzureGeneralAllResources_m)
+

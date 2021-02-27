@@ -1,0 +1,15 @@
+sprite $AzureNetworkingLoadBalancersSPRITE [70x70/16z] {
+fTO7TWCX30JG5K8Yzxzm2d9sO5Amv7abHVW_qxbEQUxjUZNgdz7N4MBA29Ww0gQEWAaZpDGHCp1rH9MO6a9C3I6cXX1JH9Yf82M6aJgZ8s9AiH7H139-pj4W
+veGWeV0_SmWKPb8856OI21IE9X0eHmP8GW73I4e1SqQwVDMa7nX2t3S3zTrnOWXHGzFzJcohhxOnZ2oAoxL55aQ98MHHsXLfzo-BGWmXK69CnEQU51eR9OOG
+A1A3yOXE4WepG28z4X_pEnFjtr5YWEo9Jq6n-TKKMHb2IF4byxlf7up_VZnoXzmR58JNQZyf0WNnXw83JBf7FZ0mOFY-uD5LVuIHQsDGiTzc6hS08Spuxwkk
+qQeZX1WeDaioEzKdUHaKGeY1SfT5q0eA8SH0YKsDj87q0OGPZZxJuioOuAGx8s0u7aLxyHA8cjSk95RgboChzOjQCRZrHmEMZ9SUCDnMwe-fjM09P6EC_mya
+mNJQHa0I32j04WptY94pypQpZsxyBv0KqvSE0SaoM7KoWAIPUmVK48nDL-sExfGO14YT0L9dWDGPHkfChnjWWDGP87NccGtu0G
+}
+
+AzureImage(AzureNetworkingLoadBalancers)
+!define AzureNetworkingLoadBalancers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingLoadBalancers_tbg.png", AzureNetworkingLoadBalancers)
+!define AzureNetworkingLoadBalancers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingLoadBalancers_tbg.png", AzureNetworkingLoadBalancers)
+AzureEntity(AzureNetworkingLoadBalancers_m)
+!define AzureNetworkingLoadBalancers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingLoadBalancersSPRITE, AzureNetworkingLoadBalancers_m)
+!define AzureNetworkingLoadBalancers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingLoadBalancersSPRITE, AzureNetworkingLoadBalancers_m)
+

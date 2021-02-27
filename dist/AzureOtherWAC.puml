@@ -1,0 +1,14 @@
+sprite $AzureOtherWACSPRITE [70x70/16z] {
+xTDNZiKW38NX9E02-En_ktDxYP70qzltZ7xwyewsiN4aJqZ3bUGPRwlyLxXKht2iKW0Ol1AfAA0vKuCZWKf3pGS4fmKgW5ngU_RfbNPUESEfSnKwOg0ngS5X
+Efgha1XwJ6YoSY7gNHg1IjUFhd1FiC8DFOqZ5GPCfS0n3bGgB1y8d1ge63GVcQjOeDBxZV6AeUGZE2rGAUV5L3WQg505hC6h5AcGrkPL_U0Vy5_XKcjvm6ky
+GjniByKhpPmMhh1POreU5BCKhOXPeQTADgDm1TXNWA-hrESAXIfy8gh2d1-G2EMZj8uhFE5MIO68imqhCY6zSuNx_YjzUPsm3IlBX7LKONrodPNqKHfLvFqg
+VZo_gIBvXBHVMGSLprUEjjH3EY4l0wbC-AzS_5TMch0jx-O5
+}
+
+AzureImage(AzureOtherWAC)
+!define AzureOtherWAC(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherWAC_tbg.png", AzureOtherWAC)
+!define AzureOtherWAC(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherWAC_tbg.png", AzureOtherWAC)
+AzureEntity(AzureOtherWAC_m)
+!define AzureOtherWAC_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherWACSPRITE, AzureOtherWAC_m)
+!define AzureOtherWAC_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherWACSPRITE, AzureOtherWAC_m)
+

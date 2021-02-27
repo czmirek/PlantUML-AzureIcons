@@ -1,0 +1,14 @@
+sprite $AzureSecuritySecurityCenterSPRITE [70x70/16z] {
+xPXdWh8n20Q14EBzB_pLjyMn47vjcrqxZk4XLlaicFVuHtUJ6kenuLgGj01D5j4UGRfM5aAyvAYsPHvlU3KlCslkaSIzcS6cKK8HHONs2IrkV_2yPP2pgiKW
+EKleTOX5IyX4r2oshKAtqvAb7u5inLwnwEMUlYqcOs4gDdKNgvRjuVlKdXSjuw1eQRIqkkN7mWA90nGbBA6FaLYnk8WI4V552prIi40Zxoq6opzc1osMiiWX
+ILcKbesBWnQL6LWEJWajSaU7vI5zidIvm27rZ2NuMKOh5kNjEGiQugnlEyyjHyc_EPDborR4VFEMBLlIrooeGJB3sqDy81NW4RSaq-TdxfcS17i5FRq1_H1F
+QSRS3-cPQ8BpuTvBB4K04oubouHBoL9JaL0JpoG1IKv3IHQDXrsDGB09JK72Ry83aYwhU4JSHUB5B_VZsaqJa0s7aPIw6lyTBdKCN-rAQCUl5DNbc7mcVWC
+}
+
+AzureImage(AzureSecuritySecurityCenter)
+!define AzureSecuritySecurityCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureSecuritySecurityCenter_tbg.png", AzureSecuritySecurityCenter)
+!define AzureSecuritySecurityCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureSecuritySecurityCenter_tbg.png", AzureSecuritySecurityCenter)
+AzureEntity(AzureSecuritySecurityCenter_m)
+!define AzureSecuritySecurityCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecuritySecurityCenterSPRITE, AzureSecuritySecurityCenter_m)
+!define AzureSecuritySecurityCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecuritySecurityCenterSPRITE, AzureSecuritySecurityCenter_m)
+

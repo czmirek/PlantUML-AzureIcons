@@ -1,0 +1,15 @@
+sprite $AzureCommandUndoSPRITE [70x70/16z] {
+nTG7akuW30DWcnggxd_QLqBMVw_sp7u7q22YWFy6FS0-vj86C5hPKd3qmEEKr2PkrFX9YjlmI8lyNafeUAh5robfu6JKBQUKSYuN1Rj_di8DebuUdcE3QEv9
+IiAFcPbkSApuKVX1Ycjov4WFS9vOfh-RagIAfsSA3lusnNKiCz0BGMAkKvBqfTVSm6xoPKfvxo1YmwvTf3GibUbD4RjyId43IwBtXTFLh1OJHnfz8ijru4ob
+3wq6cwGyQVEw4nD4IJUONcZ7OV2CenSSTieKgkipALFYggHCOHcmoWI0JWeocMcI0fD6WvHCRZSSuzLPIuaMrm8cbGo3kR0ycXeL1eK2TaNNPq8_EHxOULL8
+XtuhRXXydpWDGWgMf6dJiPj1qmPBTmPjgi6tGJ9eCvp-zqDZWpRPeCtqlzp63q3ztYSOpBNAN0tQ55qRzOF4pM2kVXhyV1c7f6gZdskO1dFTe9yhTvchGPjk
+qQOOj46qQAEOQu71N8kgZTZKFv_SIoCrrnDzv2y
+}
+
+AzureImage(AzureCommandUndo)
+!define AzureCommandUndo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandUndo_tbg.png", AzureCommandUndo)
+!define AzureCommandUndo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandUndo_tbg.png", AzureCommandUndo)
+AzureEntity(AzureCommandUndo_m)
+!define AzureCommandUndo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandUndoSPRITE, AzureCommandUndo_m)
+!define AzureCommandUndo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandUndoSPRITE, AzureCommandUndo_m)
+

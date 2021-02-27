@@ -1,0 +1,15 @@
+sprite $AzureIotIoTCentralApplicationsSPRITE [70x70/16z] {
+fTK7LiH030FGSRt_ZUcWjnv7CHEzIlkn1EokkqYahgVn_4WyDxxYvuPc8dPcIEHhv4aP91uQH_FewmyQcMSqIEodoR_Bw9_Cvk66aPRZGUYHmq6w-i7ccJzB
+-JpZNwUHpcGGVl9u4DNPV4e64Vr8WViVi3_SEmDECqyObEXNLqMadITUb8Xca99wvwTHbUZBi7E2A328CrBqCdD5b8KhC6uYJ0dzQMCS2QDAk7mfxiJnJAB0
+KVTBnp8lbUNn5_bGlj8XcKnPKfJsd4Yge1KKE1ZaNbdYK7R7Cgc2A9JAH1Abng30GHck8EARuXOvLX3TJl4uLZ2BVoJE5JFzKJvogfWg59mpLc10WJDNJ157
+Ogxy3G85cIimTiLZfeYMU8ao1GnNPFMA6N6AOkoTH8jJ5HXC2PTBfvHXokv8LSgzuerIvuPJok0LlrVsUQ3ihsTLaVXBDyy-Y0QYswVxURf1yDtrHDn8Ows1
+9_JpZCgCQc51n0wEfOFKE7cM4OFDCn-4ppCOP3uF6MHMozWWyrf11Zbmw21ydeCo_A_iEBeFSkxOUXptTPjt
+}
+
+AzureImage(AzureIotIoTCentralApplications)
+!define AzureIotIoTCentralApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotIoTCentralApplications_tbg.png", AzureIotIoTCentralApplications)
+!define AzureIotIoTCentralApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotIoTCentralApplications_tbg.png", AzureIotIoTCentralApplications)
+AzureEntity(AzureIotIoTCentralApplications_m)
+!define AzureIotIoTCentralApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotIoTCentralApplicationsSPRITE, AzureIotIoTCentralApplications_m)
+!define AzureIotIoTCentralApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotIoTCentralApplicationsSPRITE, AzureIotIoTCentralApplications_m)
+

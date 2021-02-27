@@ -1,0 +1,14 @@
+sprite $AzureStatusInfoSPRITE [70x70/16z] {
+tTXNWkuW28RXJz4WiF_r_jLJfX3CuDKybrFU53KDljewY-Y32FTMSLrZjK-K6wwWlual8Lfk33iXRQaX5X12eB0ju88pfBP42Rx3bZ4ymouOpYaHkqIA4qba
+WiCHPgylgv5HyL2ztwwDph7s-ucSRONxIlYdE9Ejug_gJB-2ltZXx4aq-sXbVh85noIPYWIx4XtHHC7lWxCxYRChpaXxo3bWTzRvfqzj2bQ0Im4qcwBLw6i0
+Mne3QccAQXkKPXkqRXjqjZFSfyFE1ADOWmKmZIqLqHqL_NsLFMTtIsNmZWht7PNUTbHQtL4fq7n50SvN66ZvIWEWsOhYWRCLnWDbAuGdoLK4BvIh4DuaKn5C
+bAaGCF7FAnm_gSOLBV5JSroX-0a-hXpnsqHS6K2KYIlYl6M5bVXbRGGL9n8Vb8n9d7EIV1C-Th-LvxyGvBzMvB-SvB_YxF-Y52kjyn1zaC6z5VZk
+}
+
+AzureImage(AzureStatusInfo)
+!define AzureStatusInfo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusInfo_tbg.png", AzureStatusInfo)
+!define AzureStatusInfo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusInfo_tbg.png", AzureStatusInfo)
+AzureEntity(AzureStatusInfo_m)
+!define AzureStatusInfo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusInfoSPRITE, AzureStatusInfo_m)
+!define AzureStatusInfo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusInfoSPRITE, AzureStatusInfo_m)
+

@@ -1,0 +1,15 @@
+sprite $AzureManageServiceProvidersSPRITE [70x70/16z] {
+xTK5bkCm48JXhcho_Iyy5Ecj0d9QiPVdUp2ONsIGEP2GGsWU5qPv4Jm6hl8AZnkEWnDfk1g9XxWSEPxnc86KQKoPbCKE79jAur8KkmuTK7PSN50-P59YkSkb
+n7DN_7qLEwMYf-mkSfTAJUw2rDZgWjQNHAcoWrDfOc5NrjUqKLOmkssaieQvtKcLLOYx26KHBTno6uKxrneU7m3FhKadueCklw8L7zJSxVBTqjlHed6CUZji
+yULA3BZmOaCC30EB7rYBD1Z4YDNbjFtjzAPVZupxw-NJOTpYiBVwylF0q5WcXTvGl1j-ENqs1Ph8fEXkHUVF5CKNpMh5yW775ozNyY7Y0xDQiUpkzzVAbSZk
+Vd-ZMa5E461MAvOJ3dYv4Za3r5-AEQNQAs03OJV-KfXJ4LbTaUPJ-hpYfrJYb4fkJnKgsnaL_ERA-hvG6uXs0cqeOfNASt5uHPGF6hbFnQAXH2UCHgNarrU-
+AxfQuMw5yWu
+}
+
+AzureImage(AzureManageServiceProviders)
+!define AzureManageServiceProviders(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageServiceProviders_tbg.png", AzureManageServiceProviders)
+!define AzureManageServiceProviders(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageServiceProviders_tbg.png", AzureManageServiceProviders)
+AzureEntity(AzureManageServiceProviders_m)
+!define AzureManageServiceProviders_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageServiceProvidersSPRITE, AzureManageServiceProviders_m)
+!define AzureManageServiceProviders_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageServiceProvidersSPRITE, AzureManageServiceProviders_m)
+

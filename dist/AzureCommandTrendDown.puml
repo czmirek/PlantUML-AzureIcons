@@ -1,0 +1,14 @@
+sprite $AzureCommandTrendDownSPRITE [70x70/16z] {
+xTS5SiD058FXP-RL_KzRRXN3eigj1aF_v0lQPjQtfg-6CtqhCCcH0G1QsVCuLyaUG3QD0A2RDho7gS6xcARlP6hnlFbzJ9sMSR_FL4LCh0kc2NLQPWwOMc3L
+JGx0a6TQhbzwmSIyOA87wQRkqZJZTKsXYPx7RNacLBTNSMEXYPuSqq8JFVacy7swzMnvfXuqqJFLXQQU7ZZMCqsew6bPppRHmtg-QRv5b9j0ZvMRG8_Vr7IF
+2vW829YUtLULslEXfocbOiFr5x1oJ2TKR3qy-QCffK9Ju_a56eCLceuUZuaLhsdp_m9jQPNwu3cQfc259dekJMrInMRZF2PMSaUJLA59gD3af0fDKeKcfSAV
+zOeLnSIAP695CIsi22Qm8fXOKKoiw2RnJ4QljCML_dPRQGM7_R7AV-KU
+}
+
+AzureImage(AzureCommandTrendDown)
+!define AzureCommandTrendDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandTrendDown_tbg.png", AzureCommandTrendDown)
+!define AzureCommandTrendDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandTrendDown_tbg.png", AzureCommandTrendDown)
+AzureEntity(AzureCommandTrendDown_m)
+!define AzureCommandTrendDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandTrendDownSPRITE, AzureCommandTrendDown_m)
+!define AzureCommandTrendDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandTrendDownSPRITE, AzureCommandTrendDown_m)
+

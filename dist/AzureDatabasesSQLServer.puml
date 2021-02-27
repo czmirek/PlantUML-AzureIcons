@@ -1,0 +1,17 @@
+sprite $AzureDatabasesSQLServerSPRITE [70x70/16z] {
+xTY7OgCm381XD2s9zt_Var58tHGAlht-6ss6lmgxU_czW_VDhpzldi2n6UcvdeXV8tfQDmmaFe_moXcCQ-TpXA-ZJnZOuZlLD3zS8Nucec-9l5xHCOFmjZ6Y
+pVmrQoeZWaTAm2DIyzDQ6fKTAgl37aexWgm9mLvRZvLrPHWY4MsPjKnL6CS7OprHic2u4zgQdIbP25uHadDSA5aqnZE1DR9RobPJ9iJYyYMnD8ziGhdekol_
+bV-AcNdikRLcquepB1bmzAnkeSHMBgGxYiDIOMIIjoho6GMtEPYWAzfl43DqPaBnVGhN28T4hD_e2_I-qkgjLf8tMlGC2f-O1Jmgx4iholjjSb-ad7oLez8Q
+Q-wCG2AYpoM3ehUKogbEDi86fKqebMqFS_XNNb4LeP2t8w1sUjzTdrI2joEHvoNPCdNI9h4h7WwToPVRR6r2MO1LEr8V0HaWr3wL0jYJKbW43fMgtlDhW_Op
+AwMYKbIL3XIdCjXZ_Cm06aSAQdQuk_7wMSaubHPRlcSMgR1cNKQu_en9ExEtcgesqOfHqhfK79FHKMdweKlbSUI3ulgQN2lXbWtAns7mQxwIc5OiMYtpoZuB
+BHb_xInkEzAJOYOLQ--l0hKId57QU2mzVKG_Nt5hHrV4EBcxuRMkb7U3-Vn9CzGamqdJz7lTM7eLtrVYyEEeGh-hcEhXC9N4BINqLAdOuYeN05N1jur5oVzU
+ekPnMdjy8jvMOI6dfTuinhofK1V6D5ik0y3UwUy3k0xdMol-E_S5
+}
+
+AzureImage(AzureDatabasesSQLServer)
+!define AzureDatabasesSQLServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesSQLServer_tbg.png", AzureDatabasesSQLServer)
+!define AzureDatabasesSQLServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesSQLServer_tbg.png", AzureDatabasesSQLServer)
+AzureEntity(AzureDatabasesSQLServer_m)
+!define AzureDatabasesSQLServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesSQLServerSPRITE, AzureDatabasesSQLServer_m)
+!define AzureDatabasesSQLServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesSQLServerSPRITE, AzureDatabasesSQLServer_m)
+

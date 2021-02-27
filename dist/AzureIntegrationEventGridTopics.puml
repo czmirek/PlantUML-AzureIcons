@@ -1,0 +1,14 @@
+sprite $AzureIntegrationEventGridTopicsSPRITE [70x70/16z] {
+xTXNWYCX38JXaf1AVVyJhzaqSe01J4_-NXprEtR4kNwOLsM1LuRA-QnQuOwAy6dobIjMfbcg-1-2II-Z6Al8behRbWfjIuKsMobkUbE92EjMaAvMohXmoHWF
+CtbKhLBynMWnP7dqZaQROLI93epIQ1CCsnA1HkCt4imGSoz0nkD8aLKyGl5FMUqnHM1SpBWWLoOogdZCE9mflB16PJHZPENs03cQOSzeHZbWIyNngYqHbCwM
+BaM6CgNv-pa6YG2jYcE5vQ8jHk1C6NEiLb96CKHKxoefCyOZWkN-BfcCLCmY9ZCI3LCPFNshvcWhLXNy5KtiZVeVDnjgoneHTFQ2b14koFWmaaTpfON7GMoe
+41ign8PAmOuA-fLzHnDSzrCv_tZQdpn3O5N1kNxy0W
+}
+
+AzureImage(AzureIntegrationEventGridTopics)
+!define AzureIntegrationEventGridTopics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationEventGridTopics_tbg.png", AzureIntegrationEventGridTopics)
+!define AzureIntegrationEventGridTopics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationEventGridTopics_tbg.png", AzureIntegrationEventGridTopics)
+AzureEntity(AzureIntegrationEventGridTopics_m)
+!define AzureIntegrationEventGridTopics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationEventGridTopicsSPRITE, AzureIntegrationEventGridTopics_m)
+!define AzureIntegrationEventGridTopics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationEventGridTopicsSPRITE, AzureIntegrationEventGridTopics_m)
+

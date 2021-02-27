@@ -1,0 +1,14 @@
+sprite $AzureWebAppServiceDomainsSPRITE [70x70/16z] {
+xPG5aa8n50JxoQBtl-zMygOATuSCtfbq-Cfb6Hd9oKr9MgRB6pC5MDwS1rZcquiotsjP69TbiSyovyBCtyjo-twnnGEEqGrvJylqvW3ytPnXgGpBi0H49mKC
+Mn4JSSWYllfOMLRb158DS94QZomIe6hiMAn_So1wCNU9LZBGmEv-wRKEh9IgWU6Ds8fqBzYUlTk64XoqoLd40kj4AmKuNgEx5iFwOf1gj9cE9xGvAMADz6hk
+MXfMAzfN4UkxenEjH2VQQpkM1FrZRsNjgjf13YuIHK9aPL6eNwczjzgp8Q8n4NAlnId_gc6QhPf8hiWUIwZXO2kYkIA-GrOMnSpRHvh59eaY6XF9dxo_3Cla
+vZpQCYnvgoHfyRWfpcKP6Va7
+}
+
+AzureImage(AzureWebAppServiceDomains)
+!define AzureWebAppServiceDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAppServiceDomains_tbg.png", AzureWebAppServiceDomains)
+!define AzureWebAppServiceDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAppServiceDomains_tbg.png", AzureWebAppServiceDomains)
+AzureEntity(AzureWebAppServiceDomains_m)
+!define AzureWebAppServiceDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppServiceDomainsSPRITE, AzureWebAppServiceDomains_m)
+!define AzureWebAppServiceDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppServiceDomainsSPRITE, AzureWebAppServiceDomains_m)
+

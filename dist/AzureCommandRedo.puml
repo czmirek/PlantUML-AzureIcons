@@ -1,0 +1,15 @@
+sprite $AzureCommandRedoSPRITE [70x70/16z] {
+hPO5heL0302xxktzJ_i5Q9O4Jpln9nEcAm7EiIx4NDiW6gsau0nSCEWVEC7dGGUmXWyMcv4km6pVMKAdMvf_jhZfM0UIOaovDAJ9YFSMsuWPsHlOOKATdcQk
+BQPCXOCJOYScNbaSFtNtSE0GtCofnT4A1hWZ8l_E7onJKk69n9vyi1ZaRvunUL-rjpHQyF0ADsRLphBP7Ro5bptjB94bxud4LMonxFs2vIhSB9t-6S2yhvg0
+FqxsVHMpEHiyOEA1ihFGWeK7BDtXUC-AB9cd8h8q-iS8BSkw8mX1tYmYICUYLqGWfF5v5f7vKXVX-HXf3CQ0ZCBtjWJUsbxbOT22Z47_30CY72rqeIQGojCa
+ujbeQ2Y0Y4Wh1KHuf8Kkgp9TfwheL0LIgRBp_KP4rQcAf78U7AfKcKOh6KGadIglLDLrgkORjdmZowliqAagobKE93YbggfJ5PMga5QIy7ZgL6MTAizLKUTu
+LgEoaOVJsSX6U3nvmkADF2o8YHTRvXS
+}
+
+AzureImage(AzureCommandRedo)
+!define AzureCommandRedo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandRedo_tbg.png", AzureCommandRedo)
+!define AzureCommandRedo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandRedo_tbg.png", AzureCommandRedo)
+AzureEntity(AzureCommandRedo_m)
+!define AzureCommandRedo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandRedoSPRITE, AzureCommandRedo_m)
+!define AzureCommandRedo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandRedoSPRITE, AzureCommandRedo_m)
+

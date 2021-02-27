@@ -1,0 +1,14 @@
+sprite $AzureNetworkingVirtualNetworksSPRITE [70x70/16z] {
+xTI7hgiX30DW887a_L-uounBkdoFTeKr8xVVlu3qwpavEQcMtvV5AeUu-rkck7lbaC0410o3kBrk7QaSukrrtIP38pp38v5X48xX4Pw92Cdm2Cz4X6TOX6SM
+OeGG608X60RXcOWKaPnciaX92CeIcBQcXUHcjsZgqVlKyY1hhQsLm6m8SaVSlJDoHr1Ev0KJFx40SSTeVHIKGEQXQOuylTZQ4PnsPPWL9H2p59YEw59yL_nV
+1SXI5BK949M4o83tYw7MZip7LpMq-a06C_-dc7J_Va2yJEJ6u1BwG2QJRI9pCQql_L0Myc04bGu6ARglEeshRaCKlmqCaOZycScw488X488X489XaLZz5y8o
+F18P7k4P7eaCXV0CZ_0CXomcVoaffhmk2uc0MKXaW32C07dD291Vpid9oHK
+}
+
+AzureImage(AzureNetworkingVirtualNetworks)
+!define AzureNetworkingVirtualNetworks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingVirtualNetworks_tbg.png", AzureNetworkingVirtualNetworks)
+!define AzureNetworkingVirtualNetworks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingVirtualNetworks_tbg.png", AzureNetworkingVirtualNetworks)
+AzureEntity(AzureNetworkingVirtualNetworks_m)
+!define AzureNetworkingVirtualNetworks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingVirtualNetworksSPRITE, AzureNetworkingVirtualNetworks_m)
+!define AzureNetworkingVirtualNetworks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingVirtualNetworksSPRITE, AzureNetworkingVirtualNetworks_m)
+

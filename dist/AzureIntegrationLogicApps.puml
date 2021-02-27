@@ -1,0 +1,14 @@
+sprite $AzureIntegrationLogicAppsSPRITE [70x70/16z] {
+xTS5SiCm48NXPHdkVz-6NpPZafoolo7ZBoY6litXm6h6L87DX3BsE16g876I1uvegfmGM4E5uyBe0Otw3auHpLWUc20juN53PgOY_V3GJzrF5PwfwEdbxkAK
+q_PAePj-JyNffljpbV9NAl6MIczwOSEU2hHNoDozb1BkRjHGWM4SWs2-8k-hS5i5eskSK7s5uqIVJtoXKcY6On4UUK7MFnl6apxHF9bm_EfEWo_hfdw1lqo5
+nZNzo_v6NX4gtInKiAAqkwW4pUfGmUvUA4vMA-Mv4YUQLYVrbVoJmuqLcQbut665eBYhIp_J0K9P7iC-lr9WgeAxxwbuVUMeT31H2TpTKV6D5T4xH83rWMOh
+rN95zbVmNtCrGmM_m9kc4YcAJbKZbA2zGWHiRHMZ5zBoYU_x70uV
+}
+
+AzureImage(AzureIntegrationLogicApps)
+!define AzureIntegrationLogicApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationLogicApps_tbg.png", AzureIntegrationLogicApps)
+!define AzureIntegrationLogicApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationLogicApps_tbg.png", AzureIntegrationLogicApps)
+AzureEntity(AzureIntegrationLogicApps_m)
+!define AzureIntegrationLogicApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationLogicAppsSPRITE, AzureIntegrationLogicApps_m)
+!define AzureIntegrationLogicApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationLogicAppsSPRITE, AzureIntegrationLogicApps_m)
+

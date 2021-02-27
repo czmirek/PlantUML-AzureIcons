@@ -1,0 +1,14 @@
+sprite $AzureManageDiagnosticsSettingsSPRITE [70x70/16z] {
+xT85aiCm38NX9_RzJxpHP5q6Qrnk_t8JVK6yQD9gXSmZ6UCmNlurfk4aMZCSH8cW4hVcE2Zolr9qFE6j1MOLiIKTZqugRBNqIvIVOj-j_1G_dVdfQWhR3HI3
+t40Hu0OAeU-C_LTHLFkwGEVMjA0GhLYVK_HuN170yfEnHAa2j6RZ2W3v_oH0KoNVxxeYM5gFWpK105PM-cdaV2U00FQgmdqEG3-nLbKCW2MWwzy4GBogC23v
+fhozobvIJ5MGGmPGdoPeIR7j_KdRVvLyL8bCaP7thngPMnnrIGcL9UkhmQCtfaWSnabFAmRel184lu6Y53TGGc-Yn5SfyTtAJscrNatXcoZUcaqhiNp8h9A8
+OLBfo9IIAMwW28wYA1h1E1MDnqouHty
+}
+
+AzureImage(AzureManageDiagnosticsSettings)
+!define AzureManageDiagnosticsSettings(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageDiagnosticsSettings_tbg.png", AzureManageDiagnosticsSettings)
+!define AzureManageDiagnosticsSettings(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageDiagnosticsSettings_tbg.png", AzureManageDiagnosticsSettings)
+AzureEntity(AzureManageDiagnosticsSettings_m)
+!define AzureManageDiagnosticsSettings_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageDiagnosticsSettingsSPRITE, AzureManageDiagnosticsSettings_m)
+!define AzureManageDiagnosticsSettings_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageDiagnosticsSettingsSPRITE, AzureManageDiagnosticsSettings_m)
+

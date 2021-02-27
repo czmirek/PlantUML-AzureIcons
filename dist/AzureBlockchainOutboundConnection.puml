@@ -1,0 +1,15 @@
+sprite $AzureBlockchainOutboundConnectionSPRITE [70x70/16z] {
+vT9PikCm28LX2G4Ix7-_FMGw5HSUCFtKzt_FLpd8xGT6L3SwYt3L6VA8UsMCV1gLCOAeCWPnhun1epG6ZOg1cEuTvDPvI4uRwJ5nb1sJdyLyMP5zHPGl8kP7
+YbvnUBgVA2fyOgZxcNBkc5zIZcRnSh-Ym8aFab7YMUO99Vux32EXmC6Od89PUDsx2Xppl3BNLCHutOnYxcvm54X2cUvWRYlBmTnGUdygVp9pjnlAU0Z8t5TM
+6RfjkbjImVz0xZupIjUWwUuheqY0hCT7SrK18eHlrnzb5D97z07nkyGY0T94mLo-BauxsYF6SPVPr0F5WY_bCo-yT618C8WtwfaoU_H2r1hYCsMDjWstnQda
+IC4O2XL4-ufYZF3tej6sZLXPz7KC_he2BXxCWcAyEUc7eMWINXqA3W85ZEBF1BEWu7MXWE68-TgxyBfR1OmgHeNdMHYpKS3WMNb4iKuTOP_VONwXVykGr1J1
+erQHHtqmIoeWbO1K0b89I2KWbO1K0b89I2Lk_t6_0G
+}
+
+AzureImage(AzureBlockchainOutboundConnection)
+!define AzureBlockchainOutboundConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureBlockchainOutboundConnection_tbg.png", AzureBlockchainOutboundConnection)
+!define AzureBlockchainOutboundConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureBlockchainOutboundConnection_tbg.png", AzureBlockchainOutboundConnection)
+AzureEntity(AzureBlockchainOutboundConnection_m)
+!define AzureBlockchainOutboundConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainOutboundConnectionSPRITE, AzureBlockchainOutboundConnection_m)
+!define AzureBlockchainOutboundConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainOutboundConnectionSPRITE, AzureBlockchainOutboundConnection_m)
+

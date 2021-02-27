@@ -1,0 +1,14 @@
+sprite $AzureCommandReimageSPRITE [70x70/16z] {
+xTX7OeCm58HXWtg__sqJCUcDyc_IPfVO_W3L9sxVAFLOxDVAE1R_ivGIlym1XNpb_olrXXKXL1525I50KRwXOfYYs56uOkUq9OgGcSGK8MtPKH0YXI9IA2A5
+8b8e8eKYKYWYXI9IA29b5o6Aa6xDGzRbf2BaVNfDRjbHTX6bUgmeaJpHSxg_shh6kfZxevCNqjDhV83QoaQTbzCDd05Hp0fde-qRiy2LOTsOkgCSP09TCSsO
+MUdg7ROo5-yaTVxRq5rjrStG7JQhPTXkhvk9kF8eS-ZXAiZDtrjSaUcHM7MeHwfKqSYZLREcWS4L_0RWqqIRmmYURDIy1H-Xqhm8LDH9_PieVYZiLBw6-_o2
+jnNmBSxtpnq
+}
+
+AzureImage(AzureCommandReimage)
+!define AzureCommandReimage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandReimage_tbg.png", AzureCommandReimage)
+!define AzureCommandReimage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandReimage_tbg.png", AzureCommandReimage)
+AzureEntity(AzureCommandReimage_m)
+!define AzureCommandReimage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandReimageSPRITE, AzureCommandReimage_m)
+!define AzureCommandReimage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandReimageSPRITE, AzureCommandReimage_m)
+

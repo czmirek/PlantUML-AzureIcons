@@ -1,0 +1,14 @@
+sprite $AzureIntuneDeviceConfigurationSPRITE [70x70/16z] {
+xTTdOi8m38PXQtto_KzSiXX63bQwsxp_M0_60qZvQJ56ih8VnkAK8hHcpVqfnNGDIIKkh-X-DgGOxST3YluvnJvBEHLtVwcu--Sfft8gft8gVEdT2k6Il5SH
+J1rLP54KStnCKK3k52rJf9HI35Fks58kyvsKK1ZTA3cME4aeZ5wfsJN4QKeHn2LN-aCKR1cLScToHf5cIQW_Bw0uLckl9cwC2OqeRE4Ui_12fTOAZfBumeOR
+Ew7eJQ7ZYXrMsCBj8QbvcH9xFdlO4Yg14gRjuAsPgI657pSh6TOufTnlZsQY4Wg2qeeYA3qlwFQaLErbenUrTIz7lnUAkpymVi-Pa62AzvNfJVZ6hEB3vcDR
+aRuopJxLDcjFpWl5GaKn9SDALLNKDf7r0yLn7Gc5z5BvuRq1
+}
+
+AzureImage(AzureIntuneDeviceConfiguration)
+!define AzureIntuneDeviceConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneDeviceConfiguration_tbg.png", AzureIntuneDeviceConfiguration)
+!define AzureIntuneDeviceConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneDeviceConfiguration_tbg.png", AzureIntuneDeviceConfiguration)
+AzureEntity(AzureIntuneDeviceConfiguration_m)
+!define AzureIntuneDeviceConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneDeviceConfigurationSPRITE, AzureIntuneDeviceConfiguration_m)
+!define AzureIntuneDeviceConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneDeviceConfigurationSPRITE, AzureIntuneDeviceConfiguration_m)
+

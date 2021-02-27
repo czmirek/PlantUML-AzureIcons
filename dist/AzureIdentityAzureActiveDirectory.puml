@@ -1,0 +1,15 @@
+sprite $AzureIdentityAzureActiveDirectorySPRITE [70x70/16z] {
+vTW7hiCm30FGI9JbtF_2VqI62uCL4CN5B37-x0DhTXzV6Fq48cWVG0nksmeCxjX63EwkcqWeMuoQ3SLbusHVIjj0GjbYR54UxesN4i46CfHdGwcHKcVKIAdl
+BSPAVIXZfSuWLTmA22brHcsDhq4TOQLtBSx3Il-BIsKULdh42oTBIf_nEcAB4McLaus4iSPAI2YTWy8yL_hRQ0K145qeafqi2weAFjt83GJGo51OEZr1I9WA
+IUTVU6zbWPMNT5unFbd3Ah324bQ4X5p9xz-YaPh23pQF53vUgIlNrH4P6oE-AIfH1EvpOuHNKUGgukFHHksAqDKYXPy9pCUZZLWahuEiY7eViL2e3YayRriU
+is1SXnK-rMcC8x8PZJgaqBnB4Re_hwEpOk-BH0Hv7T2yBNtuLQh32iQyzBoKrvaEbbDLfoAtwWmbQADdDehGw5FX8gFmhJeIIlpGgCZzEiZdlLDddB8UoUsi
+L2ShKguZDE-jh7MCN_-Kwo0fKglJQDvAP57eTbQiqwX8lKuePvTZ8mZ5zZ-iE5sExG375-ON
+}
+
+AzureImage(AzureIdentityAzureActiveDirectory)
+!define AzureIdentityAzureActiveDirectory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityAzureActiveDirectory_tbg.png", AzureIdentityAzureActiveDirectory)
+!define AzureIdentityAzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityAzureActiveDirectory_tbg.png", AzureIdentityAzureActiveDirectory)
+AzureEntity(AzureIdentityAzureActiveDirectory_m)
+!define AzureIdentityAzureActiveDirectory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityAzureActiveDirectorySPRITE, AzureIdentityAzureActiveDirectory_m)
+!define AzureIdentityAzureActiveDirectory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityAzureActiveDirectorySPRITE, AzureIdentityAzureActiveDirectory_m)
+

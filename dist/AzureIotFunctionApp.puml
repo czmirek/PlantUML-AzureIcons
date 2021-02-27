@@ -1,0 +1,14 @@
+sprite $AzureIotFunctionAppSPRITE [70x70/16z] {
+xT27RiGm30DGIOmF_lyVxiXDXpemGzqbji6y4BAz-G-MYHs8a-9VDIL8ARcALKpnYYbHCiKgfbZ55A-O4YLJjdmvJc5a2etqteOfT9JMEpHoPzAZdDuRKCYz
+5DDZS97FZT18Fs_F4FFEJ8v4CiMN9KY4fmJN812UWhGe49hof2eHq54qm-zq5CtmA-Weck4tEefc-0Lq5CamudGKoO2GOKgMaK6Ek432bamG8gSa1pqHegQ0
+RtCwAosReX6BTbPyHXvd-WPaccR6pMVaWS4MP6RSpBoDH_Du30JonlZmzx0a8P3pcsA6AJcY6MZ4DACHqmmqOfhHY6a62f7CECMV8Ph13eIP7GWp48XYS9xI
+vfmHAaZctC60K44nvuwtSo8hw8GzJecii3fEo9wW0l4An7162gR03WOLY5SWXWh4An131U9jikC9M4t-yme
+}
+
+AzureImage(AzureIotFunctionApp)
+!define AzureIotFunctionApp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotFunctionApp_tbg.png", AzureIotFunctionApp)
+!define AzureIotFunctionApp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotFunctionApp_tbg.png", AzureIotFunctionApp)
+AzureEntity(AzureIotFunctionApp_m)
+!define AzureIotFunctionApp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotFunctionAppSPRITE, AzureIotFunctionApp_m)
+!define AzureIotFunctionApp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotFunctionAppSPRITE, AzureIotFunctionApp_m)
+

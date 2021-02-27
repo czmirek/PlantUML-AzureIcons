@@ -1,0 +1,14 @@
+sprite $AzureIdentityAppRegistrationsSPRITE [70x70/16z] {
+xTG5OiCm44JHqIouwVqFtA1X7DAwtFwmu8MDxvL5BY8W8nb0Yx7Z2B68AHcGLvIKiCYA2hkLB2dniSg_ygyCqa6HeOCoI8yLxrRuFafAlAwaH7pN6gK6KCDw
+38lyogURwy-57TzqIVbN_XNfivGNoO2GeOCotdVwiByjAUryBuoanR15IUCfox8oEAUgId1PmnH38c0ov41phgiU4hLjXhujIuc0Z0IbjUDNFbqPIUVjt9vM
+t7Wzoxok-1Nb4AyKsQki7S-yAB6J3ifovAA4oPlfLjI9p88oDhwNJKeOBRAkZ6LkLepkyPIokwaOITyNHML4wCVAYf6Jub5IZEVyKaoAFQUOKPH3euBSlIvo
+G4RaF-spug0y5utpp1UELOwNgdW3kXrL33tTKD3R5QMXloOAKMkk6EgD2ZRLZWgnjMQ6RzmR
+}
+
+AzureImage(AzureIdentityAppRegistrations)
+!define AzureIdentityAppRegistrations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityAppRegistrations_tbg.png", AzureIdentityAppRegistrations)
+!define AzureIdentityAppRegistrations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityAppRegistrations_tbg.png", AzureIdentityAppRegistrations)
+AzureEntity(AzureIdentityAppRegistrations_m)
+!define AzureIdentityAppRegistrations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityAppRegistrationsSPRITE, AzureIdentityAppRegistrations_m)
+!define AzureIdentityAppRegistrations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityAppRegistrationsSPRITE, AzureIdentityAppRegistrations_m)
+

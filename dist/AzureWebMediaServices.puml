@@ -1,0 +1,16 @@
+sprite $AzureWebMediaServicesSPRITE [70x70/16z] {
+lTPNegqm28NXjKWW9FEVx-rNZGrs_TvE-u-WMyMNa7WPYsfzjLFqZu8NY2u4JsBLZIelDHQLpovaLfvUo4nU62OOAnWcw0IDG8aNOWdtws6r92Mk57j03OR9
+AZZWMKEBa0GfHS_N4o-aCFoL-QphrIz47SMADmTB4TwCpKFbS295Mn-_zAPSCc5bdaRQM7KJ_5QZoZmiTSowSif45GAWZuF6QQX3fMsOR28p_vEnjd5LgNFa
+U3GrKJ42iF67IXip1K2BAnM0zF47WThd5HD0ZIi2e8sb0iw7Om0OLWo0Z4q5A7r_C1PLAW2TAw2DLGLGeqe1qERAV3WDG8ag0h3FbVbAxW0agX3WE5Q0uck5
+YOgSLa1Vl_d9YYzo4_dYl7ArNPks6rN2Csq0IbJHr5KNLHe0Xf-0gEA9JwDuMD74dI6kU7oNyaH5epkcPYeUtBt5KvLs_oHfkOeRRvvgvicAs_KJLZskp1bm
+UTfNuZUQtrJwNZjzyv3MzuYLzJrNOeVQ3nnRrKywWWrHxmUDyJ_ghaL8K8gsVkG5a-FGCLUSAjxpZBXIUr8JtA2bXga89DQZYCJhQKIEtWmZYCJhgNY8U3yo
+FAm62qcY1fTxahJ4Gl9dtOZNQ72vPn5VyXC
+}
+
+AzureImage(AzureWebMediaServices)
+!define AzureWebMediaServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebMediaServices_tbg.png", AzureWebMediaServices)
+!define AzureWebMediaServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebMediaServices_tbg.png", AzureWebMediaServices)
+AzureEntity(AzureWebMediaServices_m)
+!define AzureWebMediaServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebMediaServicesSPRITE, AzureWebMediaServices_m)
+!define AzureWebMediaServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebMediaServicesSPRITE, AzureWebMediaServices_m)
+

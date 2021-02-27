@@ -1,0 +1,14 @@
+sprite $AzureDevopsAzureDevOpsSPRITE [70x70/16z] {
+xT9fSeOm281XTfBU_y3zTZM34Xkx-_xt2J321pfZFaGnfICKCpb4CUD355CSL1x9cFAA3r5CSKmPMWl5sXZsHM8Uj6CjPFMrshMGiY7YZEvViwYQkuT3f9co
+cKy5GwG08G2xhocS0N81hcqfs0EaYdbO0oHAS5LhW5oH5k00o1JAWLp1fq01a2hjPHLWGF5_efnAUTIjb7dVfvpAgVYGWl28R4XvXJgal48fDgvS8bKH9iGX
+1QYyShEBoKIuMm6fGHVIxIA-IAxpWcUi9br5pnGejQDKeRs8GvGC8-rfyXJMydv4O3MijopL2i56_7W7fMmXZh2PlgP5NOKCidosCrj-rpXSNewzjZ5qnCtz
+KKfmrpIzACj8WryjonlbSQAtImRT8KEKU1NexEmT
+}
+
+AzureImage(AzureDevopsAzureDevOps)
+!define AzureDevopsAzureDevOps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDevopsAzureDevOps_tbg.png", AzureDevopsAzureDevOps)
+!define AzureDevopsAzureDevOps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDevopsAzureDevOps_tbg.png", AzureDevopsAzureDevOps)
+AzureEntity(AzureDevopsAzureDevOps_m)
+!define AzureDevopsAzureDevOps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevopsAzureDevOpsSPRITE, AzureDevopsAzureDevOps_m)
+!define AzureDevopsAzureDevOps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevopsAzureDevOpsSPRITE, AzureDevopsAzureDevOps_m)
+

@@ -1,0 +1,12 @@
+sprite $AzureCommandFolderSPRITE [70x70/16z] {
+xTGt4iCm30NHhvp9-v_MaPt2OaPmPMofy0e6YAjIfiIjsK4PiuFIPaEMHU5iYxAUbuh2YpBglBuek2YhME55gLdXHUc4YcLHMEdE6ygYiCBL7aed1sMHXv8R
+5oLLLcKP3vk_BwrAh-E-p71JgJPU6bRKmDBO50rbQQmABWqhE1lcyrPGoj9mh6XmKJIxADNceQXnKLGt5usWsEh_Mmabb5122IMKK499wurI_d7H4m
+}
+
+AzureImage(AzureCommandFolder)
+!define AzureCommandFolder(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandFolder_tbg.png", AzureCommandFolder)
+!define AzureCommandFolder(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandFolder_tbg.png", AzureCommandFolder)
+AzureEntity(AzureCommandFolder_m)
+!define AzureCommandFolder_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandFolderSPRITE, AzureCommandFolder_m)
+!define AzureCommandFolder_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandFolderSPRITE, AzureCommandFolder_m)
+

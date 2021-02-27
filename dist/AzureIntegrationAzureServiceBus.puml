@@ -1,0 +1,13 @@
+sprite $AzureIntegrationAzureServiceBusSPRITE [70x70/16z] {
+xPW7KiH030IzEVB_vv9XZXB87dGcRbU-qDNEMc_diWZfWS3p_CT7ISf6qeCbczcrB4kAD4bQt4RZ_hN5-ojOGep1Ql7n4QzQyCFmKKZS_TflAYu-WXmQX227
+1o70SGRiLbEE2_5TWhE406yBGGuJOip9KIVLGnRzjfTREsIvHmbfXot8aI641JaYXB0WHuGmbaT426j13a9O2n0Xj0KvfG7A0X1YiRHcjvG-Hgz6InkFc2nb
+l59v2q80QK78VCFuZALDGISi214Cpj8da3dAW_J2KgV2fGNFEZ5vb76ZCjgH-INjyYrptRBOLnC6baNZEgjouni2Z7adihW3
+}
+
+AzureImage(AzureIntegrationAzureServiceBus)
+!define AzureIntegrationAzureServiceBus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationAzureServiceBus_tbg.png", AzureIntegrationAzureServiceBus)
+!define AzureIntegrationAzureServiceBus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationAzureServiceBus_tbg.png", AzureIntegrationAzureServiceBus)
+AzureEntity(AzureIntegrationAzureServiceBus_m)
+!define AzureIntegrationAzureServiceBus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationAzureServiceBusSPRITE, AzureIntegrationAzureServiceBus_m)
+!define AzureIntegrationAzureServiceBus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationAzureServiceBusSPRITE, AzureIntegrationAzureServiceBus_m)
+

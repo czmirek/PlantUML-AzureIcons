@@ -1,0 +1,15 @@
+sprite $AzureBlockchainStreamingServiceSPRITE [70x70/16z] {
+xTG5qXin38PXyKBkVz-6D5NyRMrFF51wYpyzOsc1_lJ-nsQoZAZVCruonD_fWc7ksRTZSJ6-7aiTqgyMWaaTrqnbQfWCryFsIcU6mJILJEQ7GSU0WQkBuLYY
+2Wmi1CEhpcBFkDc8-MGVIzP6YPYPQ3-TCZpCGmctWR6TPofv6WMbxrYSZxnkuTw5qXlhE5j5SYHGqi65dA1mHycnO9XhHK3938QPLsg6mynFX6FPLedvxMPF
+mnjZUAKngmkvWG9tdQZ5HSTFur5Hy0dWXz1NRgYmVXp58aRA3HMnUXJsw2c975kyCn5uIt74Z78OL13AayYraaU97f8xQQuqAfj1kTYSHscedDuImfHPdcIW
+F9pps9yvjSKZcb9k-0JKWNHEIGGLYNioLCwdaHdLyYSvIRzIsWwbIwLyE5IECWwU9JDKzY9jZ4RTIyRUAbiaimi0S8qo0IKE70Rl5vYpLHx_11E4zowCLPNO
+BeU1vwX96iMfMpxJa1PbmDJt2pSzRyBzE28c68vHSuolCPd5ND9ds1QHJDH-aSyZutcLLfLrX2oHPKLfDKjaKL5QpvJ--Fxt0m
+}
+
+AzureImage(AzureBlockchainStreamingService)
+!define AzureBlockchainStreamingService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureBlockchainStreamingService_tbg.png", AzureBlockchainStreamingService)
+!define AzureBlockchainStreamingService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureBlockchainStreamingService_tbg.png", AzureBlockchainStreamingService)
+AzureEntity(AzureBlockchainStreamingService_m)
+!define AzureBlockchainStreamingService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainStreamingServiceSPRITE, AzureBlockchainStreamingService_m)
+!define AzureBlockchainStreamingService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainStreamingServiceSPRITE, AzureBlockchainStreamingService_m)
+

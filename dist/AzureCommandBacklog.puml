@@ -1,0 +1,14 @@
+sprite $AzureCommandBacklogSPRITE [70x70/16z] {
+hTTPrfuW48JXWaRm0x7slzienzEPan_AvzvPNsdy8ExGXSuDiaeoGbHuwT0ORsU08foy6Mx19W6buT9usp5aJeAH7s3dxS3YNiQLbEGtPMqlZNGRLlUoqtsm
+l1SqFZfS-anw7h7ysXg7_CQhNw6gufllIJ3eh618WAuoGfR93fNv-wi79a3IU2jOP1cNycDWjZxf-NzuTOLlsfwRabRBK7Wv3m-CtBeEADtzBJ3vd8J4HzRp
+eWUc-KEMtts3oiW2NMaO0g3B1tHHoOlh93U8gbufU61MnT-MTRPF0kgzgGTciLA5xC6NTOjxCLwQB-iMztAGBYxl9T5bOKMsyr7XGfe4j1-hgw_TDSPBWQgG
+3Rfs1kY2-ToeUsjkF2D4MUZBotDZ_p4mSHAGAovLcnlZsBQ8SsCdMOn3rDPIvtjpOnKgTVnfRgoJdhp8WKaS2ZGxBmsgzixSU391Ppiqtm
+}
+
+AzureImage(AzureCommandBacklog)
+!define AzureCommandBacklog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandBacklog_tbg.png", AzureCommandBacklog)
+!define AzureCommandBacklog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandBacklog_tbg.png", AzureCommandBacklog)
+AzureEntity(AzureCommandBacklog_m)
+!define AzureCommandBacklog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandBacklogSPRITE, AzureCommandBacklog_m)
+!define AzureCommandBacklog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandBacklogSPRITE, AzureCommandBacklog_m)
+

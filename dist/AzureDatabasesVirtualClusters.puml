@@ -1,0 +1,15 @@
+sprite $AzureDatabasesVirtualClustersSPRITE [70x70/16z] {
+vTLLOkKm341HEn4PjF_b3a-DIgCotCy79s0ANx08PaS8uK0p22swA8I0P7VSK-97L5Y6UA-agcE5UoNh_7tQAAaI9XsgdP8g0aqEhqfb02Ww94qf0W1fkXb3
+oQQIqoqb5m3ICMwAA0ClNoyAbVdrLUdVhYmlNsXHpA6CdtVkIgbZcVtlHIhJCklSOrJaSjRbzEHPbznpDsTZrjdhI5Q5IoqJahnh-dSonPVxY_2dt37z2kw3
+y_GeSD5dLd2i8Gu5iqvb142daWlEK0RaVPQ2YW2WOqXiP2gmKTYfGCu0QTuNsSoQkxdsHCtSSYX3n8-rAWx4eH3VwTmfxL3Ap4xcn7-bGbJqTvNlHZ6qucz5
+4G3rTudl5oUbpJfnH9DI143-JZPFC2fKQz7VPN4L1mMH_oQ-pgRqYIyo56TxXJ-GGiaLxnMKv0aCXPAdk2h-cw5WAUHWughud-a8Y-A_cpEq8gtn3ODZC9GM
+IyeNfRPxDyNisDRkufuIZ5v9EJxGlGH0ioDyntu2
+}
+
+AzureImage(AzureDatabasesVirtualClusters)
+!define AzureDatabasesVirtualClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDatabasesVirtualClusters_tbg.png", AzureDatabasesVirtualClusters)
+!define AzureDatabasesVirtualClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDatabasesVirtualClusters_tbg.png", AzureDatabasesVirtualClusters)
+AzureEntity(AzureDatabasesVirtualClusters_m)
+!define AzureDatabasesVirtualClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasesVirtualClustersSPRITE, AzureDatabasesVirtualClusters_m)
+!define AzureDatabasesVirtualClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasesVirtualClustersSPRITE, AzureDatabasesVirtualClusters_m)
+

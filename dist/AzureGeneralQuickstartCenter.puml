@@ -1,0 +1,16 @@
+sprite $AzureGeneralQuickstartCenterSPRITE [70x70/16z] {
+pTC9sgim28NX0EVWiFy5tzeXF3NHe7VwlmMy1MBBpmZJClq-iQxhyZk4-eFO-erPCA-VSDVWKetR2taOiT1ju_v2wcjqSo414CpDXG0qZ5uq36YPvVeo7OPN
+1udCRuqY-4AiCdu1qHrIcKMkRXD8C5CUGGy1F4R9duHRWJpo_2ZAC4YY6XkJ7SK-25H4Z6GWqCk8lDSZAe8aWXtoOCYAo2K4PCnkLR7ZMrgzebG4PFni37Fu
+fYIZYe0ihQ938v1ZfRyBUqYxaPB7fqK7YOZzA7OT0McnDhOo2ByHUtynefUGvbyCVZfy7niYPdWvnz-R9113DDpdFbAuQuH8wIPgw2C-jOYMayGwo3nFUyJA
+8AjAHJOcYKHea9dugcJwCmX_7n6GF4CaDydMCK9B8-GXGkOHyX0PAyRQ2_4MeGuGFKVuoWRA0Caf62DZHVS8sI1ZXRKFGeQHL2n6gGZP8jJSA5CWP8DGJX3r
+M6XoHhP3U3gAEtlXjMg4qr4UTP5IycU1RtMH8kc5_5K7sGrZeuMsUaZHv2ZmO3e_ctlcGg_rpcW1doJkKUT19LOSd2Ngl6S6AUPVjODda8A-4I5kaZekj3ji
+x3Z-veBOfsKSdJ0jFw5V
+}
+
+AzureImage(AzureGeneralQuickstartCenter)
+!define AzureGeneralQuickstartCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralQuickstartCenter_tbg.png", AzureGeneralQuickstartCenter)
+!define AzureGeneralQuickstartCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralQuickstartCenter_tbg.png", AzureGeneralQuickstartCenter)
+AzureEntity(AzureGeneralQuickstartCenter_m)
+!define AzureGeneralQuickstartCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralQuickstartCenterSPRITE, AzureGeneralQuickstartCenter_m)
+!define AzureGeneralQuickstartCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralQuickstartCenterSPRITE, AzureGeneralQuickstartCenter_m)
+

@@ -1,0 +1,13 @@
+sprite $AzureOtherHostsSPRITE [70x70/16z] {
+xTM5RGG134HHuzZNVy7XECTWhvI3VGLyZN3e7aa3xJFls8kmjyXU1IsZYgcglqObRW8WFccpKkwbuggAHIf-h9At-AmWFzn19ICYZrGa6uPRYj0kspI0zh4S
+1y3bEAQh0N2QMYl7yKqLcTnHyPOZmnjuKd4pyt75LFNkAt4Bk3lYGxjIxgG2CqDLng_6Y_pH7LG2G4ugPVbAYKr3q3uxpkE3dN2_7x1MrWhx5vb5y4Df08Mf
+JL6SsZmAg0tnvxyh5WNKbqMfJ_E7quJa5wCXSLTw9Ey
+}
+
+AzureImage(AzureOtherHosts)
+!define AzureOtherHosts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherHosts_tbg.png", AzureOtherHosts)
+!define AzureOtherHosts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherHosts_tbg.png", AzureOtherHosts)
+AzureEntity(AzureOtherHosts_m)
+!define AzureOtherHosts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherHostsSPRITE, AzureOtherHosts_m)
+!define AzureOtherHosts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherHostsSPRITE, AzureOtherHosts_m)
+

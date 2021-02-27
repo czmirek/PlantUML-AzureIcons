@@ -1,0 +1,13 @@
+sprite $AzureCommandMailSPRITE [70x70/16z] {
+xTC53eH0341HdF6v_sqtIdwM8aLYj97rjymFhLyQcxcvF1EOU1K9bPExAqQNwz-CUcGGuZWjCekDOwinsbZbAVsr99VZZ7KrarkU-dC8VZ0j2kZKgf9C3PIc
+BqkSuGZf2qDIQTfqTXycNZULlxE6FSIpuLfXd6upIK8IIJaJPs0IMU4_oVimCuciC8wy3u59TXJ6oPrmp-C7ie8uqZuCNBT3XN4yZieaXuhyYpPIFb0OXrVV
+CybfXN6c5Ngao74y3wXI68T9L0hZu6mN5CH14eM2E4XoGK4S9BcW8CxKN54O1qcq2kCWoGK5yw9YYYccc6AAAHyQcny
+}
+
+AzureImage(AzureCommandMail)
+!define AzureCommandMail(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandMail_tbg.png", AzureCommandMail)
+!define AzureCommandMail(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandMail_tbg.png", AzureCommandMail)
+AzureEntity(AzureCommandMail_m)
+!define AzureCommandMail_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandMailSPRITE, AzureCommandMail_m)
+!define AzureCommandMail_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandMailSPRITE, AzureCommandMail_m)
+

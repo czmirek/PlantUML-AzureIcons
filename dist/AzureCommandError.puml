@@ -1,0 +1,16 @@
+sprite $AzureCommandErrorSPRITE [70x70/16z] {
+xPW7qjiW44QNNhImzxzjb97pMQC0FsjdUjuK5wJ75bHfXWtvuDP5UkEQWo4zldPvqB8b3Qvq6SA9Th5L5kIjpCpDqO-IKumf5vOt6_44v5A3fHikmSHsCn0E
+erHJtmd7jfV3quJuyjH5QwvDkgS5-JNHhCZX6Y-qnbq1jx76Nn9FFrAkQ8OrkR9nj46Ktno3xlHPcFFaCpqvvAH3iXUD7_xhQ9iycDL0lKt5iW5reyN3Glfd
+VngDiEbaNc5-XkBdPQGRqxqih1hBSxS2wRu5mQ2l7Svz2u8fzmCeA2o0HQJV0oEj1OF-dL1LMx1OypkxeBRWwEFtTlOpIyPeGOdqbe083fnmz1Q3QZ2QhhUG
+d4GwQQYppeB-9dpvp88G49JUWdByEylt6NrTNLpw6OVHDvskE1Rq5ek3Ec4xdGMZ1YSfDvqjdgol-uyAwMdlOx2XC5hiBO2Cmri9zeGnqnZZJrO9yVr7_w17
+0Qi5lKvw2wFFE4jqjINWedOB9cijxTcLFbzvzcJUeFBNZ8qqE44eW25MtKh5vofK70UObeTLb42R7CXdS7XAr4Z2TAJir8GnuwJ_KWs1vGDGNaxHFIqf0iag
+NQcMfeGcF_QXo4MnQqVtUu-m70qziBd9nM5eZJda3qVs1ePOBiNkSl0iDtfZRbrk5AWL7e3AV_kwWfCX7Jwpt6arMVe85sBAfUGOK6ST__a5
+}
+
+AzureImage(AzureCommandError)
+!define AzureCommandError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandError_tbg.png", AzureCommandError)
+!define AzureCommandError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandError_tbg.png", AzureCommandError)
+AzureEntity(AzureCommandError_m)
+!define AzureCommandError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandErrorSPRITE, AzureCommandError_m)
+!define AzureCommandError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandErrorSPRITE, AzureCommandError_m)
+

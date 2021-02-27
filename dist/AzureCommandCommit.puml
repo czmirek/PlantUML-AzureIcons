@@ -1,0 +1,13 @@
+sprite $AzureCommandCommitSPRITE [70x70/16z] {
+xPC5SiGm40J7BDx_lpPWcA0md5CN7tJPNJl8eZK-p615t82FCGPv84pu28kSB6X72McFO-KPTcXBukK5VaGzixnXHYsRx0I_FqQGdGrr6DbnWpsQEDangE3P
+dmuBjHLnfY0x2g25hrWQP-MbqS8BB8wZHNZrj70DPGTuvEG2QM4kVfTS7xk-jR1nc8hMf_2-1Ll1EXL_4xDWoQxJyddZ5fw17PBhymCY5ZQE7-0ix1gn41DT
+vy1xpLhOBmoHxIp8MjZOZNY7bLrJ5ZPMiHKEABLWc10dRo5_qT8jtT8jy_h0Z9jZ_XGaJcSRczc4h6XcxPPkIT4jtMBMPep4wTm3
+}
+
+AzureImage(AzureCommandCommit)
+!define AzureCommandCommit(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandCommit_tbg.png", AzureCommandCommit)
+!define AzureCommandCommit(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandCommit_tbg.png", AzureCommandCommit)
+AzureEntity(AzureCommandCommit_m)
+!define AzureCommandCommit_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandCommitSPRITE, AzureCommandCommit_m)
+!define AzureCommandCommit_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandCommitSPRITE, AzureCommandCommit_m)
+

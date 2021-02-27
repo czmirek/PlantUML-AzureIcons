@@ -1,0 +1,16 @@
+sprite $AzureIdentityGroupsSPRITE [70x70/16z] {
+xTK7pgqu30LWToVU_tx_GhW5x201Cwz_QhSU-PW6lwj_a9Y946uWqGU-bt4pXtKFuJJH32-4t8zXhS4Pg1Dyki_TJgXJ0cyGBsp5lYYio7f4T6UOqHVR8rXO
+F3I2cXtWfKgBbyvGGJkmB6Q47CUG7T1HPwDVIS4UEtgXaSPUlx3T5Wb1fZP703qIXemjyy40838vM8nd0hDPClKPXDbUClG90PWUeqoyPF2DOi-WffC-2z-F
+Wd0YXc30VdI4ZaiPmWDjOlJmcUORoWXLJ9VZknsAUHjSYLI5OC4jtDQSPk4qoLWm8hAggH0YYduHN6zHdOYNR-ZxdUFytYtuJWVcCOJImACMmHRf4xvXNQrL
+6WrMtkzONpYFyefXMlGOEgMGF0pfFiRecrHN0Ua6uOFeFgRJDoyk0zGjIOK6Zoyo2htWx2Q7AxQjjkvNYskIROznIF5zxBV5Ewn7CSK5sPul--NYWSAMqTYj
+9JsYayL6cpr0ndxDoc6annQEKR9rj_KmnQD0hS9ZjrcBp02jfADGvf4rOAiHYfLw91tKQuBcfLQbcDUCV28IGvyndzXNwWRifn4augS99EgdAIJcfnaaVi7_
+bQBjD8C4lPr5S3_66Kh4oPGmmc_fdqy
+}
+
+AzureImage(AzureIdentityGroups)
+!define AzureIdentityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityGroups_tbg.png", AzureIdentityGroups)
+!define AzureIdentityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityGroups_tbg.png", AzureIdentityGroups)
+AzureEntity(AzureIdentityGroups_m)
+!define AzureIdentityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityGroupsSPRITE, AzureIdentityGroups_m)
+!define AzureIdentityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityGroupsSPRITE, AzureIdentityGroups_m)
+

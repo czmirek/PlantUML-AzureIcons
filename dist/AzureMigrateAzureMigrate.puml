@@ -1,0 +1,14 @@
+sprite $AzureMigrateAzureMigrateSPRITE [70x70/16z] {
+xTO7TWCX38HXD2giS__xfcVD0DR3Ja_sVzNj2n9fvNTrT7GaW2hm7W8URxdUyFK1AHgSNI6exqKVLaVe2cvbB34VYahPwa5oHzSHhbAoYEHCP8WubSo4H37d
+82Am6HDNpCFsucQyp-ZvMBacgASCApubpAafGuj95f8pjMr-DJaZusM72IDfih-95LwEvsapSqJTg0ewoHBoLE-ylAwUDdbJC0EQPnNfcKflI96CiSbH582E
+2CUxAU9zxJ8lRvyKrVHE082G-KnkdZ1x60UZ_RglC4Bx6JVZCUcLYRqt9feoPPqvdQiMDp6iX4R6QCEKvtocgCGyuyECJzH6QV4H4U-E8Z5Jd1VMVoPv8hQp
+8ZJfCi9hqVwrTMHhvtbARq0g8q_P146Sam69qzrBcvOzIv5G4S4CsQoqOOhakKhf4c__lg1cMVe_OTHQCKVuxs6UG24Yq8j1oe_kwEZe0G
+}
+
+AzureImage(AzureMigrateAzureMigrate)
+!define AzureMigrateAzureMigrate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMigrateAzureMigrate_tbg.png", AzureMigrateAzureMigrate)
+!define AzureMigrateAzureMigrate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMigrateAzureMigrate_tbg.png", AzureMigrateAzureMigrate)
+AzureEntity(AzureMigrateAzureMigrate_m)
+!define AzureMigrateAzureMigrate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateAzureMigrateSPRITE, AzureMigrateAzureMigrate_m)
+!define AzureMigrateAzureMigrate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateAzureMigrateSPRITE, AzureMigrateAzureMigrate_m)
+

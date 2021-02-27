@@ -1,0 +1,16 @@
+sprite $AzureWebSignalRSPRITE [70x70/16z] {
+rTY7hhCm30LWd3XUx_--_mHXEBWarRn7-uvFThEx_P0q5ZLtDrFXzfKmBC9JmfLfYI2s92J9UDuG_v19PvJ0lDCytfImze886ElbaCqX7lAfc_dOF68fy3kQ
+GWmoKGqLHkteXh7Ag1sfXZWZAYzCy0tXW4AK-civ11yA81iem2Zq0mWeo0JVIa5awvfIL9CKJSg9RDHpUCY3Cgwb888XrheOgH5qxapVzfmm89YcIKaBeSS3
+KeUkJ10q14ZDt7UiHUIOHzUPro8h2QapTYMD4cT5jvbGLg9TJevz8OkCft2deXY-J5pReqVa4fL-3dTMHjgUK95RL4z6ao9fY6QKSm17KdHLuKFXGpbcRome
+8qsPxnLPKjPhyGMbFtqkkZZIKezHFUiGgUUBWFB8g30zprs6rGWCjoEK5pMiHggLr4IzfXrsAM3uVNzHs361QULUTp-HUfIAF27DO9FABI7JowC4hrG3bPsX
+efsaS7tOxyu0WyODyJGJ2wRTY3QAqxue1az9Ob4pKAYu1LLCDqHYb3UopBGdfhppzfXbCXBzvQPQCfuGcRyrNnbFiOKRVCtGx6i26K2GGQXcskehwubfgoy-
+PCBegzTddXdiidqEEpZG0IMoYlXdXXgjVaE0JO5HEyFZYIdggDF5uo95kBHjFSH3pICYt5GwRJyZlm4
+}
+
+AzureImage(AzureWebSignalR)
+!define AzureWebSignalR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebSignalR_tbg.png", AzureWebSignalR)
+!define AzureWebSignalR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebSignalR_tbg.png", AzureWebSignalR)
+AzureEntity(AzureWebSignalR_m)
+!define AzureWebSignalR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebSignalRSPRITE, AzureWebSignalR_m)
+!define AzureWebSignalR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebSignalRSPRITE, AzureWebSignalR_m)
+

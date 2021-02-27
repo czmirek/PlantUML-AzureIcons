@@ -1,0 +1,14 @@
+sprite $AzureGeneralMarketplaceSPRITE [70x70/16z] {
+xTHL0kCm38HXQJIZxlrFl4vQ5qA6PVXVYla21liZ0ZDJC7C46PWoRb_ktLAFmaRZ0bH7DPz0140h0tTG9Hi9vT2q9Mcvix2IIw8DTAj8I69Xh3AmxhmUP-jn
+-RWOWyIXfw9wTfb5_MX3JqQV9_TwVyQHOIgtWAeiN1cblqNvho3UebJVaH4XwVrZoG54n9PK3WMIoeoDad-ymXxbl-9pYZeKaVn6HM5h7ffNQA-YLq5-5lOU
+pfIyL6YVOKQHROi99MoN1XN2RHzwbCX7SZlCHnJQMUfNPAVnKF4ZnUqqi5UXNULgASmbs6NEBiLRyRiehes2AIM-Y-ANYd8fl9dQ2hqPsqfYL8aZXTvARQNz
+P91NIjO2bx5FIUAYo8t24oKL3QIbrCHIb7QtqwdiKudtW-QLVTzVqNQ7_wy4417Vgc39tiEu4W3SFl8WfI45W9tb3aG7YTWZuoJWDfC3MCMLt2FZkTiFwIi
+}
+
+AzureImage(AzureGeneralMarketplace)
+!define AzureGeneralMarketplace(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralMarketplace_tbg.png", AzureGeneralMarketplace)
+!define AzureGeneralMarketplace(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralMarketplace_tbg.png", AzureGeneralMarketplace)
+AzureEntity(AzureGeneralMarketplace_m)
+!define AzureGeneralMarketplace_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralMarketplaceSPRITE, AzureGeneralMarketplace_m)
+!define AzureGeneralMarketplace_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralMarketplaceSPRITE, AzureGeneralMarketplace_m)
+

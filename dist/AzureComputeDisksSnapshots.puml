@@ -1,0 +1,15 @@
+sprite $AzureComputeDisksSnapshotsSPRITE [70x70/16z] {
+xTX7aeD0341HPQbxxd_VePnbMbYKjtux6_Za243yWg25No40i2K83RARHh-lyBMYJz11-lIe27pXLxduLP1OLDKsgYfCTBA2BEOB9epD2hBv0MDSL93JtoZ-
+aI8y4JEyKszHE83cNLH7lDRFcEz4Z8lmTmPhj4lClwSvF6DO4i_YBtlBIA_Y8qLcjFQJBhVAl1WHdeLLbJYXhCmuOPQLUI9oK9cZsTWeBD6SlSwyO5YpEJ-7
+nhnogCJS5ALnAJm4GidcpjZC7OSZ7BDX21JwdH1eG8c3X1Bqa9Z76Fij56xIYw3OdNiykDkTOADHwtROcXXgOctIM98lCcWxxcdZ9jXS58_4CcvM8dDBfBjj
+lMpK5RKbTxSLBIfk9tXL2RSsZx8IOKqHLKKYcXsF3SCIHhGwSOMm9llTMkzxXeh4Aoy25m8rzcXnWaFIQGYy8n7C7J_L815OFi6ZM1HC438perNbWaJDyxPM
+9aZgIeQ8j454gDILsg_ogoJGmPRG5z-2KeKiWVCL1VW7
+}
+
+AzureImage(AzureComputeDisksSnapshots)
+!define AzureComputeDisksSnapshots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeDisksSnapshots_tbg.png", AzureComputeDisksSnapshots)
+!define AzureComputeDisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeDisksSnapshots_tbg.png", AzureComputeDisksSnapshots)
+AzureEntity(AzureComputeDisksSnapshots_m)
+!define AzureComputeDisksSnapshots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeDisksSnapshotsSPRITE, AzureComputeDisksSnapshots_m)
+!define AzureComputeDisksSnapshots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeDisksSnapshotsSPRITE, AzureComputeDisksSnapshots_m)
+

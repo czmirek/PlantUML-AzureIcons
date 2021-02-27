@@ -1,0 +1,13 @@
+sprite $AzureNetworkingPublicIPAddresses_ClassicSPRITE [70x70/16z] {
+xTI54SD034HHmLx6Sl_zXabcHlt13Ro0WKvK9ADw6R1yL8Q7Old8xA7aevjUCPLUgLKf6VKiEuTYa5x1d3AY8ojfT8TIGWa5Q9ljYZ8HYP-2pnGYOcrLX9un
+gYRuDQL5KNh7LPC_KsiL_pf2UO8SMgk0o7sSd_gR6AP8XTB_5scFNvJ4lyxF7ohrYdiX_5JtWpdLAFxRCAeds7qJf_YWYfOPzvUHIYYNqSsjX9B68kcXo5Y5
+QOMYw0O
+}
+
+AzureImage(AzureNetworkingPublicIPAddresses_Classic)
+!define AzureNetworkingPublicIPAddresses_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingPublicIPAddresses_Classic_tbg.png", AzureNetworkingPublicIPAddresses_Classic)
+!define AzureNetworkingPublicIPAddresses_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingPublicIPAddresses_Classic_tbg.png", AzureNetworkingPublicIPAddresses_Classic)
+AzureEntity(AzureNetworkingPublicIPAddresses_Classic_m)
+!define AzureNetworkingPublicIPAddresses_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPAddresses_ClassicSPRITE, AzureNetworkingPublicIPAddresses_Classic_m)
+!define AzureNetworkingPublicIPAddresses_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPAddresses_ClassicSPRITE, AzureNetworkingPublicIPAddresses_Classic_m)
+

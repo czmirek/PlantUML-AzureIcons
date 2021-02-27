@@ -1,0 +1,14 @@
+sprite $AzureStorageStorSimpleDeviceManagersSPRITE [70x70/16z] {
+xTC55jj030JG4Mjx__kMIIObSihz3qtp15xyMqZK_1CLmWYR5oQ333_0U0gP7pAQ5J8lH_m23oePnx0t2EXvD0mzZPQWmz5pT2mUeBX6qUYB8J6FXp3EY4UZ
+RqcYqxT47i-PhhUYOJULZ4Cga-ONcMpAOypvvFGDvnEzlYlDc-HZANbJ441vcnysv59vDXX-TBFYlfYOfLIKUyQLPKVo5Ipo1SBp5IntdEbxRDdYL-mea6jB
+KF7gE6njXLInEWfUzn7Wwwu0G6ke3b9NPQYiBUKZlxSZnYTncIBTWd0KarRbkc8Fzvx5nH0brodToD9zfVbeIfH2jiJNcmFxMZxUJIMS855LQwaouPydLYX6
+V8D_OOfeXO_-8oaO8xagmG2j9cLM2sE42lpUtW4
+}
+
+AzureImage(AzureStorageStorSimpleDeviceManagers)
+!define AzureStorageStorSimpleDeviceManagers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageStorSimpleDeviceManagers_tbg.png", AzureStorageStorSimpleDeviceManagers)
+!define AzureStorageStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageStorSimpleDeviceManagers_tbg.png", AzureStorageStorSimpleDeviceManagers)
+AzureEntity(AzureStorageStorSimpleDeviceManagers_m)
+!define AzureStorageStorSimpleDeviceManagers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageStorSimpleDeviceManagersSPRITE, AzureStorageStorSimpleDeviceManagers_m)
+!define AzureStorageStorSimpleDeviceManagers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageStorSimpleDeviceManagersSPRITE, AzureStorageStorSimpleDeviceManagers_m)
+

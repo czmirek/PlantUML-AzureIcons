@@ -1,0 +1,12 @@
+sprite $AzureWebNotificationHubNamespacesSPRITE [70x70/16z] {
+xTA50G9034FHrDX_Ono2MuhV7-2TjFYVHYQsH3p47FD2xiEKeJZyb9BtPO3bVeyfiEXGW6XHu0UAtnTmn438g4W5bGO6OjwYm7kLKEBMAVsmKd9R9LseMQbe
+KIf5XOogBEjH-3bnLrJsNXKFxGjBMI6Jah9CKbXe2lj9PIWJiQNY9IA6PNQvtMCI3sTa0aB1koXvYm8hAahPei2fYAyAD1JuxqOp
+}
+
+AzureImage(AzureWebNotificationHubNamespaces)
+!define AzureWebNotificationHubNamespaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebNotificationHubNamespaces_tbg.png", AzureWebNotificationHubNamespaces)
+!define AzureWebNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebNotificationHubNamespaces_tbg.png", AzureWebNotificationHubNamespaces)
+AzureEntity(AzureWebNotificationHubNamespaces_m)
+!define AzureWebNotificationHubNamespaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebNotificationHubNamespacesSPRITE, AzureWebNotificationHubNamespaces_m)
+!define AzureWebNotificationHubNamespaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebNotificationHubNamespacesSPRITE, AzureWebNotificationHubNamespaces_m)
+

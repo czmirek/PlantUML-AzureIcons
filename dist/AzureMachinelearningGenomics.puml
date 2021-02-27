@@ -1,0 +1,16 @@
+sprite $AzureMachinelearningGenomicsSPRITE [70x70/16z] {
+pTWBhkOW20LWG41X_mkUeirlxcXlfFFy5d1oeE_2Vmsh6SC34cKuKVr2i8Lw4JXWVX7O8Wrmm8F2Lj60frsiRTNZBjMVrUEzY0Ub7GqC1z238QnO0y7vIFLf
+jm97o3ijFs5TgkJtspHH9PWFbJz4Rt2Cp0UPAxaHd2j-C-wfaWy9nMPEKLr2aaDLqGaX2wkxDz59u8rYEirfaeg8w4Shy4PFk7EgpNjE1iuQqdoexve4GQf-
+Qoz3XE12xzgm3WmtzK7W7Aq7btsWz3oqN1EPcOfszIlphkIgD5zaog1sjEXj33C34ImuCv9eUBoJAXpH86MZ9KvW3TMVM6AvMyr3eWl3HZll0jh12ZCd33-L
+KG-IEklQmeDXxc8qtr4uX3eGuiIMgHAA3cMzl_2BUvtWVCHrahxlpZfYor8oRGAnBPlDneZQPRw5P55ar3l0t1l1AzpymnHUGR5cCqG58Q_lz5w9QSUGLNqm
+ywP3lixSI2t8-e5lGam9BZD7uPpwK166cIFPjrqhkpU0ado1Rr_Lt4piUvOgOnwaB3XHXZQlSFblDV5Gdc-bV7pM6cvfujl-MSrys__wLpbwaEGVWdqA_-hV
+YlRTQ-tnTh5zSvz6KOOp2F_63m
+}
+
+AzureImage(AzureMachinelearningGenomics)
+!define AzureMachinelearningGenomics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMachinelearningGenomics_tbg.png", AzureMachinelearningGenomics)
+!define AzureMachinelearningGenomics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMachinelearningGenomics_tbg.png", AzureMachinelearningGenomics)
+AzureEntity(AzureMachinelearningGenomics_m)
+!define AzureMachinelearningGenomics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinelearningGenomicsSPRITE, AzureMachinelearningGenomics_m)
+!define AzureMachinelearningGenomics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinelearningGenomicsSPRITE, AzureMachinelearningGenomics_m)
+

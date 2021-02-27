@@ -1,0 +1,16 @@
+sprite $AzurestackEdgeManagementSPRITE [70x70/16z] {
+xPPdchOW34KDgJFxt-zK7F0-vgLylPo_nCCbe7ByClvJMEqTbRAh8B4UeHq96yBhGUm6NOnJx1xQbEnho7BcBUeD5V4UdPMmTz0fFIcJ5lE6eTLrAOgMzmmV
+P-JT9jBI3I4M-mf1J5LSkaWoShnFdzUsHJw2xDfMGBoI6_ggVaeILQvHJigqf4x9xJb2orXI6rFwvRNrAezEMaNBvUJeHursuuI65XTRUrrUpLQvoQDW0JTO
+ahD00Pmd92hLmj636WcWzaMZeX-Rxb05ctKEuqnK1pxw585uiY0egHgdbZTVKuaRj8w952XAmd3SG0TWWwAxi0QE-p2IMje6a9HQm7N341sjA5ZFoIB2HMEG
+c2B5SPBSSaGEOLlphTQd51E9V9Hx2-LrRfuF1fo5FGiSXpnCFBBWoUGTYnw8pbcmAuYjMeAE6sJEWXAan895ZnIEIOlHw7yVJyyTOVvymNUkq6nPzXzlORcY
+PdA5zowf2CzO1bacBOE-w8IbcD788WC3tDF5JgGQ9dgZpLAETwo1hTUPwt_1IpZUPnOi_gCjbbeCxpSUN-3VRy4Ilz22_xpkcuN_6qyj_bqiZFy8nQ-impG_
+W_-y0W
+}
+
+AzureImage(AzurestackEdgeManagement)
+!define AzurestackEdgeManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzurestackEdgeManagement_tbg.png", AzurestackEdgeManagement)
+!define AzurestackEdgeManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzurestackEdgeManagement_tbg.png", AzurestackEdgeManagement)
+AzureEntity(AzurestackEdgeManagement_m)
+!define AzurestackEdgeManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackEdgeManagementSPRITE, AzurestackEdgeManagement_m)
+!define AzurestackEdgeManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackEdgeManagementSPRITE, AzurestackEdgeManagement_m)
+

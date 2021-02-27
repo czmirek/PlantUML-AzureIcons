@@ -1,0 +1,13 @@
+sprite $AzureCommandArrowRightSPRITE [70x70/16z] {
+xPZLmOGX30I3msVRVxM_kvnb7iwcWu78WXr360Qmg9YR8Mt1d5GzCPkFf6UyJbbF-9s6H3YjY5FIAtUdNtJ6QT4BrLn4ngbTeLDbd6R4AMo8Ks6SfdDookVa
+P6zEyIoS1kEq8axfqoax-Emd0KGJm68Yg29OHP04q8tmGUPl8lPR8_RISWRDs8d1aDvya2KGaU6DB4V49n15MuYYdOXBtW9Hj9dOPWDvR26Nd8cYxKHANP74
+d8ZqtecYNOYYLIIAjX55kn15gqYSIiL-Jjm74yxaHydYiBzv1
+}
+
+AzureImage(AzureCommandArrowRight)
+!define AzureCommandArrowRight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandArrowRight_tbg.png", AzureCommandArrowRight)
+!define AzureCommandArrowRight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandArrowRight_tbg.png", AzureCommandArrowRight)
+AzureEntity(AzureCommandArrowRight_m)
+!define AzureCommandArrowRight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandArrowRightSPRITE, AzureCommandArrowRight_m)
+!define AzureCommandArrowRight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandArrowRightSPRITE, AzureCommandArrowRight_m)
+

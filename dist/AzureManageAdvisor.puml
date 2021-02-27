@@ -1,0 +1,16 @@
+sprite $AzureManageAdvisorSPRITE [70x70/16z] {
+xTFNrkqW20HWb07R-x_lIINHjLCsDwVztxspO5Ho-14PiW17yWai7GwE38YCcBx4yj5tUq4ki2_47mEvmOvEtDr4UK1lo1FsxjCBZb4ymx2yyFRdkAyfGjxY
+Xz_t3hoFfEVjjESCoKL5j5IL1M9mh9DRgocrrihbHGLvLDjEhzumv8xcd4ipjTIQPCElHraJie8PajUa3rUEvsKAU8DYAVqqyZXBuPFSLIpnrGNf7c9ANp4j
+e7Vc1S0Tp2kgOPg9tgXpiJn8SpMwatSfoWFfKZJGHE-aVQ7EbAt3IlhK2tz8oNgGvvJSwgiKSMsKz40JFBKhF82rUwH4xqttLwqtqgTNDqMNf0Ol7g_MyGVa
+LYtZUBpXyQxpi4_HCrg9FbO3MoSFrQhGAZoap1AMZ5JRc19e4_L6gZNN-MWjQqIjMSTkNnGia6QIzkW4wPe2InjfVoVfe87EE5qI05AAG59jgKlHIBsewG9s
+kXicUJEENgOmVSHoiT12kXG5NOiCo1aEQi21lW8JHNUHlXDW0ePN_nx34Ai9tb50GGsyep2HEeV18HA96dQcXExJmjdBl9_tai8v9RX2Pj7AdHpTEcCYJSH2
+d37BILY8CuPcqK8SU4y9zXDzCTjP2t7PpuP0VxfV
+}
+
+AzureImage(AzureManageAdvisor)
+!define AzureManageAdvisor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageAdvisor_tbg.png", AzureManageAdvisor)
+!define AzureManageAdvisor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageAdvisor_tbg.png", AzureManageAdvisor)
+AzureEntity(AzureManageAdvisor_m)
+!define AzureManageAdvisor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageAdvisorSPRITE, AzureManageAdvisor_m)
+!define AzureManageAdvisor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageAdvisorSPRITE, AzureManageAdvisor_m)
+

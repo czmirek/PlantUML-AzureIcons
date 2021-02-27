@@ -1,0 +1,15 @@
+sprite $AzureManageComplianceSPRITE [70x70/16z] {
+xTA5mkiW38PX813vTl_NExTK8KT-VRTw-rJJ9omtteowb1s4jOlXdSoeJw6y5fqL67Kf9QsLBufZmefZmefZmefZmefZmefZmefZmefZmefZmefZmefZmefd
+eaeFmoBhIX4nz32ofMGHnOm9A69pPb19lCmCAaKkgVgaZ2cfob8ygAJIbfXEXLZDb6d9xLN8S4zBM6409inomLfGOS0QNMC3MaYfWDAZgW155BiWByQW0QK1
+bTvg08qh2YMNWSSLWBqYi7r5rIaPQ5vXm2kgCqKZYaOK6rQIGRoYa765OGwfG1rN2lp5A2oFAqdSas6WfO2IxUsJ4K1JH4d50EDQQnC3DCUKbF5AKmegwV14
+3lm7ogkuajyK-M2bl2dQfvZD5DfMp8OLwr9iGQbxYlq_fHtEWVGwwLLeKJdRkgXGfyBdewyhvJpp9yfzdVw1KlIvgjMeCY-k_2gr35MNb41pHH58vrzO02df
+4tO2
+}
+
+AzureImage(AzureManageCompliance)
+!define AzureManageCompliance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageCompliance_tbg.png", AzureManageCompliance)
+!define AzureManageCompliance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageCompliance_tbg.png", AzureManageCompliance)
+AzureEntity(AzureManageCompliance_m)
+!define AzureManageCompliance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageComplianceSPRITE, AzureManageCompliance_m)
+!define AzureManageCompliance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageComplianceSPRITE, AzureManageCompliance_m)
+

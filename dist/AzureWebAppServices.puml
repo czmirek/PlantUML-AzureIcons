@@ -1,0 +1,19 @@
+sprite $AzureWebAppServicesSPRITE [70x70/16z] {
+rTW7ijmW381XWRhlV-287IqMXjUdvJl0Ryg4Q1_y7ngog7am5Uhm2vtjkhouBkEVbLf79Dz5g7sx8On1_KY-rn5tmq3-0OOleG-2GVpiSlmY8dcYXC7yp8pW
+C-f9ptio5I948cpmaMO-4GPU2iAOFiiqBmm7jQHC6BxED5y83lOYX9jpfj7p135GD1YdBpD4jH4K1zuRnA9gvcvR18ciDe8WOc_zKL3pjqjWrOb8PoHnR-7E
+aDZWTmPXGK4U4QNMIeRLaj-s2F4ZWeWpGsB5lHY6mccm6c74cK5HM_ZKO69d2df7bF0bJqOq72i2axlabceaCttW3pCpGbaXIuetnZkZU-OYIEPkD0Zrr_fB
+GrME6N-pZBJBtIaqI0sJgCuCdJDNUsyeC24KVKRMp5vnAa-JT5WqHD9GCtZCABoSd-HE6YHbHafclQL-UO0DPsJ9S5J2YAq7WnuGDYqZYVeBgKc7qFZTGGZi
+0GvanPaXI3qp347oX3Oe2sNi0I7DZ43Gp6swh5Gm8WrkT5_I258xs2gg59NAVbLHQGjPAj8EyEiABnLh1_IJYdheRIU7YlQ5p3iI3z8tU8eezehjVS7iGz-8
+dYhS2oJIh90FrXzOLRT8e7wZm8hpaThsXAoXHhOCKfYFcxymOcaGhXaj65_8N6ce0nGExmPXO3sn8C9YEHaHbdyDYWEfi30532IwsP-wNbvlBhDJoNnTyNR_
+J-AvLLiokIlk3Hf-4558zDwGs9OXdiCsbOWTXeyvnRabeTc12RT8W8cTShwrDVCO9NcF4DoCCCWw0sMbsYjGq3snsxgStYfzH2w2YcaEx3OfFokoHjoswH3P
+QoOxQoMdr7V8EgpAZEbMOA_enXJWYQckTEAzCZ5i6dlOExr0gWGEcgyEYraZ3KwwFwqPL3CL4Hua8xlcHpfVfSA--h6sCnNrwjAlVtr-ZU5pw5-wlCENv8yB
+IKq-MuSq-AR6VfqRN1jVG_dhNqvIGrOp7p4LnWR_Xty
+}
+
+AzureImage(AzureWebAppServices)
+!define AzureWebAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebAppServices_tbg.png", AzureWebAppServices)
+!define AzureWebAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebAppServices_tbg.png", AzureWebAppServices)
+AzureEntity(AzureWebAppServices_m)
+!define AzureWebAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppServicesSPRITE, AzureWebAppServices_m)
+!define AzureWebAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppServicesSPRITE, AzureWebAppServices_m)
+

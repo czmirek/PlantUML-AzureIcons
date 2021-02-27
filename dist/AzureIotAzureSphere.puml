@@ -1,0 +1,17 @@
+sprite $AzureIotAzureSphereSPRITE [70x70/16z] {
+xTVRal8u3CJnRgbbPz__XPTA9Lq4Jvm0UzxlTpESz1_PN85B9BuLMWM-aTeaFiPrFc9juIEHLHwML9M1zp2h776cAedRGhMImYzfVorkDcedmII_IbnJdLLC
+znPnXTXmhLXW9kjOIRznh5HUdiOaqQke3dGduankcuplNKPCLWDTHcoCp3DP9uR4v8gZFX0uOds4E51zHEDvlZvJJKWrSUVxIMB5yqzShY82P0G9K5VBnEcP
+cLeb9v-Qh28tdZgQBCDseCmC00mT1054PgeT4AiSNmKZDSWWnl-QMDLh9JDr8ZDVAuLLEo8qjLTiZSItbV2rF24rHRRnOg1lAy93VLifN-xVLx7xbL-LWAOG
+FrMg7oLI4udiHuK7zICXD14O1u0XtK1D46rO_e7zHI1d1uh-Wi13VsSPeeQFhsfS9dGYV05MMEMm395dvs7huxNiHshrq9m7By_Z2MogbxHgxlFdIEuDQLMz
+3Z-2gafIpJBqzrFoG62Z1mA8ahS9y3pIjcdgmQluOKbzo0oHBfKNKEoF4WwgFMLIba-Hvb4WfRqIs9LgsVHSCuvaNpQbmYws2YLY9zLYUlxrgSLAmiRJhdWN
+QmHpNOHjCU_YQPzesCMdYY2YBoULbFp04Qaj1qM0jHmqFK-abtBFgrWFBsBbMKdqFKj1Hadon4oNL46kWu0pEqUkC_xsZEd8MvaaZaW2lBiBju4JTITIk1Bz
+Sf703Pf74ZTb_-r4JxmXQXaJImNUHRM-ED1R4fyYuu74tEy
+}
+
+AzureImage(AzureIotAzureSphere)
+!define AzureIotAzureSphere(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIotAzureSphere_tbg.png", AzureIotAzureSphere)
+!define AzureIotAzureSphere(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIotAzureSphere_tbg.png", AzureIotAzureSphere)
+AzureEntity(AzureIotAzureSphere_m)
+!define AzureIotAzureSphere_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIotAzureSphereSPRITE, AzureIotAzureSphere_m)
+!define AzureIotAzureSphere_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIotAzureSphereSPRITE, AzureIotAzureSphere_m)
+

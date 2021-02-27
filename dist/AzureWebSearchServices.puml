@@ -1,0 +1,15 @@
+sprite $AzureWebSearchServicesSPRITE [70x70/16z] {
+xTDN5jqW303HaL3B_XUSdhW0ViRfvNvpXivlvh__f9bxHBWrvHcnE31XcNXqN5ZJOgYnmcF2kKtYWZo8FC_4DNzo9ZrxSZizvQN8itWlzu9Nx5Gm5K2qxKDj
+RIac-wtUNOnOxeIo9vvV25FDC_k8D7CpFMQC2Sip1SJyCmKahhUaaMS6Y6yQeFaP8vuz0V4ztQrORaOCC3yGa6stPv432k97RHjhqgzaHA3voU4INDbfEGIO
+dvn6X_25v52CAdAUqqw7qhbLIUSZpLpQaUKeupcXe7sb7sy0EME07od8UBgQ2K3xAwfEWjMKdaz6WAXU8sh61Q0T8wq6ahoEWDZs-j6i4Qc94BuILU4YKZQF
+z5fDH5v7t8JFD6ecupfILM5DM_EikRJho4tjUqIIUSJghkWcpFL86Lf7lXufXJXrroD5zwjpFMA3gt11l5RmKTPHrfB6Hv9lla7mcTJpIBB9nn5XnvzkvqXY
+lL6DZaQjDOmnjSYw8yEKFzz__xq3
+}
+
+AzureImage(AzureWebSearchServices)
+!define AzureWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureWebSearchServices_tbg.png", AzureWebSearchServices)
+!define AzureWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureWebSearchServices_tbg.png", AzureWebSearchServices)
+AzureEntity(AzureWebSearchServices_m)
+!define AzureWebSearchServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebSearchServicesSPRITE, AzureWebSearchServices_m)
+!define AzureWebSearchServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebSearchServicesSPRITE, AzureWebSearchServices_m)
+

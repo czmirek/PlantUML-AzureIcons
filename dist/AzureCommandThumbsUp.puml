@@ -1,0 +1,15 @@
+sprite $AzureCommandThumbsUpSPRITE [70x70/16z] {
+hTNNOXiX44RXeQE5vRp_ssPSSCNIYibtdHoL-LUM9xYYlDZuWHhH5k6TbtrkyAx9lWvJa5qDTRg0AhBfXXfUP01LzbHGKRIo_ruog2ocIWJcvvYvpQ4S8YgW
+qlPGkhmgkvS-tsxyUN0sX_AvUjInEHIYoEVN4lU6ydcK0foRGwdVlkYoDvJZ-yTpMqFfty_LdnxAlF74ngDupkTuIXiNQlpyJmTgPoZvvyzTtnXAbKyRlr2P
+nTPHyUcXz9-7NsfErWBpnj_JQoF8IcNU-4fb_OtxphpnuyhwduRIU9FaUgNnXxnuatNXXXgi9Rbgy9VcvRAJjHxb2HtuMHgzXkUV_1igYm4gMYi19TPA1Pgv
+SWBPMd4ePwrae8krqe1ghg22jHA18TPA1GvpfGDfLcntjbOIqCLQEO1Yhg2yjPA08TRA0TpCbG54QoMWn5efG3DN6f3D5PItLW9mYhLIWMgjVDvPySCu-os7
+YyD5th7MYhimtFQWebfw_8VeSGL6yVVlxEHTNHbCftv9xgyBTRalDYueyeYlWmTEkIBUJkuONYvogHvzi78u-T_-0G
+}
+
+AzureImage(AzureCommandThumbsUp)
+!define AzureCommandThumbsUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandThumbsUp_tbg.png", AzureCommandThumbsUp)
+!define AzureCommandThumbsUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandThumbsUp_tbg.png", AzureCommandThumbsUp)
+AzureEntity(AzureCommandThumbsUp_m)
+!define AzureCommandThumbsUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandThumbsUpSPRITE, AzureCommandThumbsUp_m)
+!define AzureCommandThumbsUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandThumbsUpSPRITE, AzureCommandThumbsUp_m)
+

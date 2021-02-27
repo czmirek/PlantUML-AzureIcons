@@ -1,0 +1,15 @@
+sprite $AzureOtherMindaroSPRITE [70x70/16z] {
+xTVDpjmW38LX7ziucVk_uVALj4ToOm6YotatyuSUZTb0P1fKpZDtFtNKHpWmu7-pes6O7Wt3S38CC-mPvk_PreRKwS4m-zk32MEB2jJB8fOL5Djh4LlAwrWj
+jXMEnM4s5JhPs5UuFTRYG07uHquKA8q31HQ7obVvAlCc2cIVoOhBUfNI85kzAYfhgI4pbeU1ONucMlexnc6u1lCpKUay2eTHhfbU4ZZMKEnbZSxFLQDZt13B
+Qr9M7wIAUaqv3DEjDV0gBDnemD-hJDRMp6yhOvXMzNiDO5vdpSQsjYXpLq7Fgrh4eyHSWLOtdXTblFMi58v5Zyer2XNlBouQrnELdkLXil8WYF6gaPLH7YOh
+H7fybnGeZQmC1ABNdsmmL9XncAmG8TEeP2SObOJmtnHAl2ltVNMblx0VfR_iANT0x6O-a5tbliWGsLCIqmQofzmt6IBZxORo6NMc_RnqvFEqfupkyTQlpu72
+_hFYNP5IuRaAyrOYbnkaLoZfN6r5hfFRYWjRUJPE2eTXi8NdT2eS9gKB3zTKwekabWQZub84IyCKZd53AeT6lOZ352c7AOFC-yVu1G
+}
+
+AzureImage(AzureOtherMindaro)
+!define AzureOtherMindaro(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherMindaro_tbg.png", AzureOtherMindaro)
+!define AzureOtherMindaro(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherMindaro_tbg.png", AzureOtherMindaro)
+AzureEntity(AzureOtherMindaro_m)
+!define AzureOtherMindaro_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherMindaroSPRITE, AzureOtherMindaro_m)
+!define AzureOtherMindaro_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherMindaroSPRITE, AzureOtherMindaro_m)
+

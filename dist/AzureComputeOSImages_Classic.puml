@@ -1,0 +1,15 @@
+sprite $AzureComputeOSImages_ClassicSPRITE [70x70/16z] {
+vTPdakCW48RXhoCqzx_lPbp268IHDisylrMF4WaVBXAzcW1-GmQ_8_8xOdStflsuAeGhoVqAcJzIZ6ikwnG_Xc7iXsIgA8QH7x9dXOPFm4A3frfNICnCJfMK
+qaGH-v7oHFacJ1LMgobjAgHsJBOKiQUKNoewKLYjJ-azXVMbajvKt3j7hPGJ1URwDD1D6qEZD0gvQwlK6gLnD9NluHXXINcybdeflO9pfQPcQb4kAcwQgp5M
+SiuZfHPpvPkmf4JSednhJH7bgHAT8j8hxZvNOZ3ggi80QAhKtbJ8NYffLQb9hsJ5G96H0j8dnO0rfOtje2J2dW98LR80CoKYMgLDVoW631Nx9fmf8FD4U4FH
+6kDOQuZMEcNtpD0fkgQG7w9E0V4ZmZYMHuHEsQugYYkbNqha2qLKvKetAkHHhXQAILwECSPzBYKrYlnL9JUAOgze5CTML9eojj9e8-oKeysmaSLpl8LSPKXo
+lCfbdR0SuvAk8Jdc9IoKybcAy_9fZd-whm
+}
+
+AzureImage(AzureComputeOSImages_Classic)
+!define AzureComputeOSImages_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeOSImages_Classic_tbg.png", AzureComputeOSImages_Classic)
+!define AzureComputeOSImages_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeOSImages_Classic_tbg.png", AzureComputeOSImages_Classic)
+AzureEntity(AzureComputeOSImages_Classic_m)
+!define AzureComputeOSImages_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeOSImages_ClassicSPRITE, AzureComputeOSImages_Classic_m)
+!define AzureComputeOSImages_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeOSImages_ClassicSPRITE, AzureComputeOSImages_Classic_m)
+

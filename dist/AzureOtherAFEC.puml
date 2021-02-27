@@ -1,0 +1,15 @@
+sprite $AzureOtherAFECSPRITE [70x70/16z] {
+rTS74k8m38LXgphS_y1Rl9eWtk15YRR-qwWVVcHQndyKKzyW_XPrZQWr9jKr8cgCQJbXO8qnEMeS19ooqNMuKDU8g346d9uHDSRag660WsFw3iiznFX5KRtX
+g3iggXSDSN-dg5mpDie5ntodr1rrtofHPSnUgHx7SwWK7VEA4kt_aAAoFuwuLvMzOrvJq84nLGM3CJSL5JJg2ZhcVKNCsugmg5fF4URlIZYTAoswgYk8P4Mj
+hg0HIZWb1GrKr0eA6Dsp28C229Dv9AYWWOhbtpUF29Hae898Pa010vMCP4QpWWWgzaI0eQIWWKf2WD6aW86AfKk2p5CHG53n-Qr04ZE_HwUIsYioC8ENFoZh
+ABpANr34wQCIZPNCCnsvjXBTKsH0T4VX1803YXzdePpFWuNUAhPN787aWA9pgqZblY8K0qLXqCO1HUT6uV6pKD7tYeqFWMB7OnNAO-NL-z1GQF0FPgwEG2gT
+YYnrFbxJKMmfCY8vak6NRj6LiceBEgQCVxQl
+}
+
+AzureImage(AzureOtherAFEC)
+!define AzureOtherAFEC(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureOtherAFEC_tbg.png", AzureOtherAFEC)
+!define AzureOtherAFEC(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureOtherAFEC_tbg.png", AzureOtherAFEC)
+AzureEntity(AzureOtherAFEC_m)
+!define AzureOtherAFEC_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOtherAFECSPRITE, AzureOtherAFEC_m)
+!define AzureOtherAFEC_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOtherAFECSPRITE, AzureOtherAFEC_m)
+

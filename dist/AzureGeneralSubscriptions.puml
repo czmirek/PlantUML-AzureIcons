@@ -1,0 +1,14 @@
+sprite $AzureGeneralSubscriptionsSPRITE [70x70/16z] {
+pTW7TeH03C1GU-ov_v7J4wNo34hJgxl0fzSuRjsLuQf-p3ZPBos3K0b4C22E0QcCo7LrssGz8f0NcAowDogUMZ2daCTOFvZJ21CLp1n1uI-OSqYnNUeXc1C8
+2rCeC2C4XlyAPepGb07nJCsKOsRLb36BWhF4La6fqGhrvp5mfknFOnwZDUfFsjqpPLhNR1yr4OFpG4cGJGGJHws10dB0JCem38XWG0G38XWGmO081aGm8881
+yGp8d548Z4588YYqGYWa5CEWzDOC2enNbb50b0BYbI2Xf59WZ6APgjgxYeH2ooWWGW4HIZyQNMcLvgdoYjBtYdoZxhvNgFwFKkA3XqKYDG83ufam9OXdmfOp
+v1O
+}
+
+AzureImage(AzureGeneralSubscriptions)
+!define AzureGeneralSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralSubscriptions_tbg.png", AzureGeneralSubscriptions)
+!define AzureGeneralSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralSubscriptions_tbg.png", AzureGeneralSubscriptions)
+AzureEntity(AzureGeneralSubscriptions_m)
+!define AzureGeneralSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralSubscriptionsSPRITE, AzureGeneralSubscriptions_m)
+!define AzureGeneralSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralSubscriptionsSPRITE, AzureGeneralSubscriptions_m)
+

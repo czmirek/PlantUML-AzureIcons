@@ -1,0 +1,15 @@
+sprite $AzureManageMetricsSPRITE [70x70/16z] {
+xTQ7afmm381XTSdm_k-ROqzd6B2zZ4bFlcbRVqG7_WAiPihm2DednKSHJmRpr2kP7yKFO1R70NwN2i4aUZXBYft3D2sLm3ICaWpcYSQz21923wggHRWY3B5j
+f3lA1u5tr1Aqa6xm_ccYywEGxmWk-DueuZuQHZSCxrZil3CAFAkWRWZUqjZPrAOzdxBQtCjqyon9eJGv2eZMYgdIn06NYukSv3o-tXs5TICiZAod3DyT1O-B
+EsMm7d382GSHHMXbf1vmoveMQ97pEjGC4U_VhHKqS9tvb15xoNKTLqWtSWtR5wLnXKHokNYPpxp2KONjK-lm5lMT3YhYgVbaetxGhz3miWGI1zYjsFX9WczL
+qCzNMfH4bxixz2eK1mmVof8ARA9KrgrWgv9W8pKIWpqT1zYeW9R4qAzegHnQ5U1uVOamg63K2bqg2VCoqAy0HPsuKqd3IgwK8KnN4cPYkf8ULp3rAfnmL57x
+qgwKDIsZYhsfhDMlgFol_A_yh_olY2M55rzIm4kigLpU_tQ-0G
+}
+
+AzureImage(AzureManageMetrics)
+!define AzureManageMetrics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageMetrics_tbg.png", AzureManageMetrics)
+!define AzureManageMetrics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageMetrics_tbg.png", AzureManageMetrics)
+AzureEntity(AzureManageMetrics_m)
+!define AzureManageMetrics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageMetricsSPRITE, AzureManageMetrics_m)
+!define AzureManageMetrics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageMetricsSPRITE, AzureManageMetrics_m)
+

@@ -1,0 +1,14 @@
+sprite $AzureIdentityEnterpriseApplicationsSPRITE [70x70/16z] {
+xTU7ZeCm48JXNNPcKjx_WSyEGk1Dixb-bqyr4-bF3s0_Ix1L9YPXvX41B0XF4ILchWHcan9hyCRTFPMfe_AguETNNfL3KYjfgfL3ybKLVddbFi_iQtXsOxCx
+suhNxuld2MQHjwcZyghekcAVK-7UogjoJCgMfrh9s_TN3hFtL0HeSOXz5KK1Qj5asFaB4EA2N49m6-ICZRa3J8CH2R415Tnam8uprHGf00GOVl_TzJn9Z5iG
+wAySrae2HNT51O8I8X72hJeyhHmaaQfYYqJjpfLJKYhjK2eBfC-fflegHwqOAyutwSCLHPD15DFxAi6uwAeSj86uWdsLx0CgOEnvNpADLnWjK5sLudu5AjmA
+ZNntTHsHLTFft2gLThZxagW2DelMzQ8Df8ZSEZMPvMq5vgfrOyxKOQvOFrVxra0Bjm6JDcg5J1T9una4WYh21ZcrmKjcid5Gsu7jug4Lt7Rp00Y4su_r1W
+}
+
+AzureImage(AzureIdentityEnterpriseApplications)
+!define AzureIdentityEnterpriseApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIdentityEnterpriseApplications_tbg.png", AzureIdentityEnterpriseApplications)
+!define AzureIdentityEnterpriseApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIdentityEnterpriseApplications_tbg.png", AzureIdentityEnterpriseApplications)
+AzureEntity(AzureIdentityEnterpriseApplications_m)
+!define AzureIdentityEnterpriseApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentityEnterpriseApplicationsSPRITE, AzureIdentityEnterpriseApplications_m)
+!define AzureIdentityEnterpriseApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentityEnterpriseApplicationsSPRITE, AzureIdentityEnterpriseApplications_m)
+

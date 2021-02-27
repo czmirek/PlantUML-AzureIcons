@@ -6,7 +6,6 @@ $sourceCollection = "https://github.com/benc-uk/icon-collection"
 $iconFolder = "icon-collection"
 $iconPath = "$($iconFolder)/azure-cds/*.svg"
 $dist = "dist"
-$imgUrlSource = "https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist"
 
 if(!(Test-Path $iconFolder)) {
     git clone $sourceCollection $iconFolder
@@ -26,15 +25,21 @@ Get-ChildItem $iconPath | ForEach-Object {
     if(!$serviceId.StartsWith("Azure")) {
         $serviceId = "Azure" + $serviceId
     }
-    
-    Write-Host $serviceId
 
     $pngWbg = "$($serviceId)_wbg.png"
     $pngTbg = "$($serviceId)_tbg.png"
     $pngWbgPath = $dist + "/" + $pngWbg
     $pngTbgPath = $dist + "/" + $pngTbg
-
     $pumlOutput = $dist + "/$($serviceId).puml"
+
+    if((Test-Path $pngWbgPath) -and (Test-Path $pngTbgPath) -and (Test-Path $pumlOutput)) {
+        return
+    }
+
+    Write-Host ""
+    Write-Host "--------------------------------------------"
+    Write-Host $serviceId
+    Write-Host "--------------------------------------------"
     
     inkscape --export-background="white" --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngWbgPath
     inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngTbgPath
@@ -45,19 +50,18 @@ Get-ChildItem $iconPath | ForEach-Object {
     $spriteId = "$($serviceId)SPRITE"
 
     $sprite = ((java -jar "$($plantUmlPath)" -encodesprite "16z" "$($pngWbgPath)") | Out-String) -replace "`r", ""
-    $sprite = $sprite -replace "`$$($serviceId)_wbg", "`$$($spriteId)"
+    $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
     
     $puml = $sprite
     $puml += "AzureImage($($colored))`n"
-    $puml += "!define $($colored)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, ""$($imgUrlSource)/$($pngTbg)"", $($colored))`n"
-    $puml += "!define $($colored)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, ""$($imgUrlSource)/$($pngTbg)"", $($colored))`n"
+    $puml += "!define $($colored)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + ""$($pngTbg)"", $($colored))`n"
+    $puml += "!define $($colored)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + ""$($pngTbg)"", $($colored))`n"
     
     $puml += "AzureEntity($($monochromatic))`n"
     $puml += "!define $($monochromatic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n"
     $puml += "!define $($monochromatic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n`n"
-    $puml | Out-File $pumlOutput -NoNewLine
+    $puml | Out-File $pumlOutput -NoNewLine   
 }
-
 $allPuml = ""
 Get-ChildItem ($dist + "/*.puml") | ForEach-Object { 
     if($_.Name -eq "all.puml") {

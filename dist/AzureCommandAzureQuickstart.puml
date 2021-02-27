@@ -1,0 +1,15 @@
+sprite $AzureCommandAzureQuickstartSPRITE [70x70/16z] {
+fPPNGiGm34JbakPw_zDIjkzEnap8-vKX3w6nR7lahZ3RaD0Lab5qbMeSNINOc7GvjSo4SYtR67yvLOmGB-LiaaeaLTT-gysTKody6xhAofkYgqHQvIfwKtGL
+lIcsmJaehlONRgGoGN6eCWt-sEuL5Pwp2byGLV2VjzafbONNT9N0cwAhkAOsnLP-ClCxKbTPIOaUdMa6Uv1L6c_AV4wbyAReAkkruewhO5Dg7l3uiNPL8KqP
+ixuF-FolFJaPgc1ynbJ_SNWnO6EaVYKx0nKPNplS54I54neyOOwhpFr2YtP2PNlq5LIwCmrNRdr5Frt5jyUegIei47YPpNpZqIbimNPLqhR3YklaGd46Afm5
+-igkcYe_HaE3twseH5Zsrr53jhn3szccwsFKL2hUaHaYhDwU6E7L0FrL5Y720DaS7YCSJ0PdUODH0zXhL1WrwPM94TO9xtV710CeKTzQk-YZnY_Fn4PDVmaz
+-hgP0CvvvDj2lmutjYsEfv17M4-XotJKz1Jo2Eifn6rnF8L2X9KKyWZhAHoCcfx2mRRGKxYHKHDPo8FlS0eVP2DeAUIZfgSGHqtd6m
+}
+
+AzureImage(AzureCommandAzureQuickstart)
+!define AzureCommandAzureQuickstart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandAzureQuickstart_tbg.png", AzureCommandAzureQuickstart)
+!define AzureCommandAzureQuickstart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandAzureQuickstart_tbg.png", AzureCommandAzureQuickstart)
+AzureEntity(AzureCommandAzureQuickstart_m)
+!define AzureCommandAzureQuickstart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAzureQuickstartSPRITE, AzureCommandAzureQuickstart_m)
+!define AzureCommandAzureQuickstart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAzureQuickstartSPRITE, AzureCommandAzureQuickstart_m)
+

@@ -1,0 +1,15 @@
+sprite $AzureDevopsDevTestLabsSPRITE [70x70/16z] {
+vTU7igmm30DGfrXAoF__xsDyMoXX3Rcld-bRD96tWEK_4s9M1Q0vXQSH2UmWoGCPD3Cv4Jo1Uxqo1vBuAOVoT8X94tKwKJmYhq4ym1VoT1yJv2MQkSC4fODS
+IQ1FT0naebBa3P1pobkcGynqY86cYRdsDFW7w_vvWq_XS9J96722ofjGXeWzbhqi9fKXwC4XXi5IK8Rq26LFBOKJPp6MKgvGUs0vaIpbqdKTez-IWkaK8ojy
+IqgUJQ6iuhVCHVWY1SNWyZEI_2AblLb6AL4Cfr8eRz9KIfPtSAPmU1J3vobHFWK-RPIb4rXFKHLzIjrHsT9weW1WUuVLxkaiUv7r0AkblRF8sc6K4mdxFW1A
+-qIWwyGa8wd_FsFVPxLWzVvC3kAargTJ0IIv9m6epVITWjmHkZvz9nNpf4_VAOjVjZu71K0KhzZrEOn6l01oQISMald6SbFRgN9hkIbjmBtSSDNCe9CwDxwb
+3LNNtfTiA1UAOqUoFxwbNQXsBRk6CbHDCLcknEBq2r94wPBaN_O3
+}
+
+AzureImage(AzureDevopsDevTestLabs)
+!define AzureDevopsDevTestLabs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureDevopsDevTestLabs_tbg.png", AzureDevopsDevTestLabs)
+!define AzureDevopsDevTestLabs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureDevopsDevTestLabs_tbg.png", AzureDevopsDevTestLabs)
+AzureEntity(AzureDevopsDevTestLabs_m)
+!define AzureDevopsDevTestLabs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevopsDevTestLabsSPRITE, AzureDevopsDevTestLabs_m)
+!define AzureDevopsDevTestLabs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevopsDevTestLabsSPRITE, AzureDevopsDevTestLabs_m)
+

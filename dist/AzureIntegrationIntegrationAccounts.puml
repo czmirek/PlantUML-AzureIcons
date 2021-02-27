@@ -1,0 +1,12 @@
+sprite $AzureIntegrationIntegrationAccountsSPRITE [70x70/16z] {
+xTL50iGW44HHl8lS_xxZKt7Ydhz4tWfHhTrfmVYS-YNPbFHFmIJ5xbM130vrnQl1cSieDazVJxcLMz4iXTmlWyaReCICcVUomFokbLkv5G7xA9wvlagwIolE
+i_VxOi52PTeab93tKJA6zxGFBAa8CqsAi0bAwAT8RyMc5B161Mnv1Mb5UYgHDIgHBQ_4j8AAqk-7rOxPwlJ-xpIcA-_43irNb0cTK34_nKr1eFvfEpgZpjaJ
+}
+
+AzureImage(AzureIntegrationIntegrationAccounts)
+!define AzureIntegrationIntegrationAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntegrationIntegrationAccounts_tbg.png", AzureIntegrationIntegrationAccounts)
+!define AzureIntegrationIntegrationAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntegrationIntegrationAccounts_tbg.png", AzureIntegrationIntegrationAccounts)
+AzureEntity(AzureIntegrationIntegrationAccounts_m)
+!define AzureIntegrationIntegrationAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationIntegrationAccountsSPRITE, AzureIntegrationIntegrationAccounts_m)
+!define AzureIntegrationIntegrationAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationIntegrationAccountsSPRITE, AzureIntegrationIntegrationAccounts_m)
+

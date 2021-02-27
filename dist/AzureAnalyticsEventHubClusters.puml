@@ -1,0 +1,14 @@
+sprite $AzureAnalyticsEventHubClustersSPRITE [70x70/16z] {
+xTK7SiGW341HTVl-9uv8qqw846nlRyfMVrS0bhozYOqfmWIhy5KhAXbTg0Xay14hp8p-GlvAoQ_pr1mK7gSIr-Kk43jek80prqMi86UfwCKhI4JuKu5KL78d
+LrXSNLcuBZhycvILGEPePG1nLc48KxCKDiMnL9KUgiEMaqfKSZnRCVs59rG2TjUbLPWoHOKFApWyt_w8Zwhao1oUM0buE0VIVrCa3A3h7Y26UN5T_bRaN1Ln
+F7CTA2hzAPhJsRaE9RatIvMUgAhyLjHnLIaFOdSshl0lFA4IfAjeUpco4lRcwvP1ZgSgnyBTAS3cBzjf5ODmxKgC2AzissR9hoKIaV4AyJYL-1-bPBfIk6A5
+wigIjxSF
+}
+
+AzureImage(AzureAnalyticsEventHubClusters)
+!define AzureAnalyticsEventHubClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureAnalyticsEventHubClusters_tbg.png", AzureAnalyticsEventHubClusters)
+!define AzureAnalyticsEventHubClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureAnalyticsEventHubClusters_tbg.png", AzureAnalyticsEventHubClusters)
+AzureEntity(AzureAnalyticsEventHubClusters_m)
+!define AzureAnalyticsEventHubClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnalyticsEventHubClustersSPRITE, AzureAnalyticsEventHubClusters_m)
+!define AzureAnalyticsEventHubClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnalyticsEventHubClustersSPRITE, AzureAnalyticsEventHubClusters_m)
+

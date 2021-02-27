@@ -1,0 +1,14 @@
+sprite $AzureIntuneIntuneSPRITE [70x70/16z] {
+xTI7SSKW44LHDZrOzL-m5KO3oj8ws_yMSCYaJ-qL8vXHgY6SV8YYIqNfURPHA3rFlqvvAJddGuNeMCdvbiA6FfFtA6IOax12Q9AeWY5b5aKVnnG5O3J6wDjL
+x4gPaCf8H640J7CAM4JHEfK-ll7Db5Bs5AKQpljSHHOh4W0YWopRz5XX049pqyEZ_LVBnqeomBYP2eSKnipmW5WAAKdHPwfgw4i1fJ9JHc4biTLR5LRwM5IL
+KxgZk3kb6tsHmj-Yq8SeHJv4STbHm7ITv2myvPtBHhbPr-OILjfygOXtjrhDXHlbE2krzUvwvvHkARchqKffNrvSoHK9ARMlL4gZS5ZnHj6emjw4g6BU5bJ8
+5o6aKF5bzbWXWMygAayKohvVUQ8K_m15oc6FLdGK7oiF8i1qcprL3lgrIZBif-bJU_K6
+}
+
+AzureImage(AzureIntuneIntune)
+!define AzureIntuneIntune(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneIntune_tbg.png", AzureIntuneIntune)
+!define AzureIntuneIntune(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneIntune_tbg.png", AzureIntuneIntune)
+AzureEntity(AzureIntuneIntune_m)
+!define AzureIntuneIntune_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneIntuneSPRITE, AzureIntuneIntune_m)
+!define AzureIntuneIntune_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneIntuneSPRITE, AzureIntuneIntune_m)
+

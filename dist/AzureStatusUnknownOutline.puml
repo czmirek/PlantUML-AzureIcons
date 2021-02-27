@@ -1,0 +1,14 @@
+sprite $AzureStatusUnknownOutlineSPRITE [70x70/16z] {
+xPXNTiKm24HDUx3_3QVtu65SqZFVEjTK2RpiqBz4pMzaAdi96balbA4x4DLe6yYoLfH6sv45b9GzSgb1mHjoo1mlIWuXKQG2GcW51U4nV4pus6Xjb7PrahLH
+sL3QOWlJkozOtrQCF-bDrB1FZJ_ML3NsoMgaB38UIOAo-62CrYf551cZGzNUKUpoAXU9qrITxEcgYNM_nx9zKK6oIj4DRIYh9WV8K6-tuZQeGG5CRZBOAz4n
+8U-4YpptAmYlOGY-n0oqAmqfPoW9pl0K0-dXAHsafzWK5HsDnOTYx10bgiwxIkchRZb2eRenRyKzIb6xvUJZoZ-pjLlSp14g6kJyeTXW8-U6nB5BRcmm_Aa0
+vG-CuIZ9JLA1FL9oD7GqZjzzW_8ftGE4zjpfSF-aUlxKp6FENmJYzCtc_2sBzohEt3xFtuJFtyhn7mBNh_bRyQzh
+}
+
+AzureImage(AzureStatusUnknownOutline)
+!define AzureStatusUnknownOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStatusUnknownOutline_tbg.png", AzureStatusUnknownOutline)
+!define AzureStatusUnknownOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStatusUnknownOutline_tbg.png", AzureStatusUnknownOutline)
+AzureEntity(AzureStatusUnknownOutline_m)
+!define AzureStatusUnknownOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStatusUnknownOutlineSPRITE, AzureStatusUnknownOutline_m)
+!define AzureStatusUnknownOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStatusUnknownOutlineSPRITE, AzureStatusUnknownOutline_m)
+

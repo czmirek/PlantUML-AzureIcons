@@ -1,0 +1,12 @@
+sprite $AzureIntuneDevicesSPRITE [70x70/16z] {
+xSvL6aGn24FXUe7zxtVS9MLSRiup_5_2nLWKjVlJ7bUA6AZLLV1afS0blIth1fALifnLydtLGqNYlIaLAfSh3LIyoj7JgdRG7KhDg-ez2kX52XKg7VKy9Jcw
+HQ52fQ-ZGiLw6pTGd655dg8aVOOIGaoU1egp9oc2-WQ5YemLAZN6-hYIGyWVt585rCB5s1m
+}
+
+AzureImage(AzureIntuneDevices)
+!define AzureIntuneDevices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureIntuneDevices_tbg.png", AzureIntuneDevices)
+!define AzureIntuneDevices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureIntuneDevices_tbg.png", AzureIntuneDevices)
+AzureEntity(AzureIntuneDevices_m)
+!define AzureIntuneDevices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneDevicesSPRITE, AzureIntuneDevices_m)
+!define AzureIntuneDevices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneDevicesSPRITE, AzureIntuneDevices_m)
+

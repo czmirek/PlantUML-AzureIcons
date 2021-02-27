@@ -1,0 +1,14 @@
+sprite $AzureGeneralTagsSPRITE [70x70/16z] {
+xTC7aWCX34HHeWJe_lTTsZdRedgpVuN9RnA4BowYXF8sFr7gTOM0W24WHsOP4LKL3nDl6CFG432hI3E4MgshY1eQXXJC2Y8smxM25G7ZGexlamFAstUgNWGD
+inQsJN3KsHD4RhHx7uHrcKKNSgdKe-94vEADZee7aMvcwV1rkypk8t8lnM0fc1WsKvbv4TGCpZ3K12qWU2U4kg3gHr0RMwJ9KV4YI5jlAhlA4d9POI2IRo7g
+BJCGJGG42W7HU87eKXH4AOWm4CrVWRoHjjOfaduEqWX8K0QI64Y816IM2SWi4H0m10GC0G53GC0G430C14n_8I0Ene6u6I0EPXq1Gq0cGq30410m10GC0G53
+GC0G430410m1kMHIM2qH430410m10KD0Pb4aXY_j0m
+}
+
+AzureImage(AzureGeneralTags)
+!define AzureGeneralTags(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralTags_tbg.png", AzureGeneralTags)
+!define AzureGeneralTags(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralTags_tbg.png", AzureGeneralTags)
+AzureEntity(AzureGeneralTags_m)
+!define AzureGeneralTags_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralTagsSPRITE, AzureGeneralTags_m)
+!define AzureGeneralTags_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralTagsSPRITE, AzureGeneralTags_m)
+

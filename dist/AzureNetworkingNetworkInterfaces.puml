@@ -1,0 +1,14 @@
+sprite $AzureNetworkingNetworkInterfacesSPRITE [70x70/16z] {
+xTY5SiCm381XEmAhyFxFkyg-LRweompbzY_aA5yOmttw5ZkxP21tXmvPU22OdXKD6nGvN2xnRzIWxFvGvDhAeaMle2N_Av3p2bWp2jaIFO52K4fJ2WBcP5An
+9Ne2fU48Q5HyI6oj51ID6XJOK8uvRbU-2iOGqIlk_E8LD0M21XjAEESK0Yw54aqf68BD36WZ2bGA0H8HJymBPeLTRGh7e4MUKoWgGWCAcgBc0imR2cXBfQGI
+OY98BW9EFeBSdHNEobVP7mxxb99UJAHI8CP8xShXb6JiiAiKtJNmGnGKRKXXKqfKAqHU8JxLfG1u9HVRbSJibYXHhaFHd59gNI82EiNJIcv6iQwYo5MLmoih
+KbUKCjY9bHKvrwZiyy3I4RXIeXPgfIbTMel3Af21CAmZwOwkyeRWFdtx0G
+}
+
+AzureImage(AzureNetworkingNetworkInterfaces)
+!define AzureNetworkingNetworkInterfaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingNetworkInterfaces_tbg.png", AzureNetworkingNetworkInterfaces)
+!define AzureNetworkingNetworkInterfaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingNetworkInterfaces_tbg.png", AzureNetworkingNetworkInterfaces)
+AzureEntity(AzureNetworkingNetworkInterfaces_m)
+!define AzureNetworkingNetworkInterfaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingNetworkInterfacesSPRITE, AzureNetworkingNetworkInterfaces_m)
+!define AzureNetworkingNetworkInterfaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingNetworkInterfacesSPRITE, AzureNetworkingNetworkInterfaces_m)
+

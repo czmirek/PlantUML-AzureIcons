@@ -1,0 +1,15 @@
+sprite $AzureStorageRecoveryServicesVaultsSPRITE [70x70/16z] {
+xTK7Rcmn20LGEkJlVx-_1_a9ssCpKSzHcth5vJLuppUatn3UmMh_ARSpx46WWQoWpY0LTq8gRjVfbp9VC8HZwai2fx3ybp6dm_ue360tmw2OLmmPOmSPEKPD
+0Jki9Bw001d3zuV6X0cV9u3SXWZEpYDblAWZwzDHLpbKTh4zgVdefBVLZxOn50yEa8ZeCoG619N6GzOHYzyOVaEFqQoonqXou_a-GvAM48n_tCVRY6LgXenm
+kXOtJKBZ6WGegh9WpWnD4iau9gpEubfOx7dPY-cCnrOv_NNkAeLrvQ8Hwf9zh2ayw4QiKmX6fDeP9ifgEyCm96HzmHSXNheqAWMMAblx4DGpspgeXom-VZm5
+moUzO1wVt0GXiLvXc46z930XUWqgBHhJa3RWhb1_6B4EX2Ur3lwI5FcI5DtifPz2_KQZzdRVhqJraUhN30hnQmoLTKPvFmPX1YqkEC62Ta8giZYZ23ka7g-u
+8Bo6j8DmwTil
+}
+
+AzureImage(AzureStorageRecoveryServicesVaults)
+!define AzureStorageRecoveryServicesVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageRecoveryServicesVaults_tbg.png", AzureStorageRecoveryServicesVaults)
+!define AzureStorageRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageRecoveryServicesVaults_tbg.png", AzureStorageRecoveryServicesVaults)
+AzureEntity(AzureStorageRecoveryServicesVaults_m)
+!define AzureStorageRecoveryServicesVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageRecoveryServicesVaultsSPRITE, AzureStorageRecoveryServicesVaults_m)
+!define AzureStorageRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageRecoveryServicesVaultsSPRITE, AzureStorageRecoveryServicesVaults_m)
+

@@ -1,0 +1,14 @@
+sprite $AzureContainersBatchAccountsSPRITE [70x70/16z] {
+xTDNaiCm281XH9NY-zztNMTnB1VIs_-SV3CM09zOea08zLXYGJK9HdTKVWhVH57b18iichRE3PGkh2kwt-oNM5CIxESKnqGLjIxHiGIkt7T8oLsKHaSkKsnG
+07XWqa9Xt2-FoiImLq8D2cZVKh7Tl89kJ4x1mBjqQHTVzRhJoyYr2cdNjKewKqeVmMufbowl9AV46XIyMg4sqIxXDlnNEEs6UL2IpdFAeTST5C05CYaOK6OC
+mQKAe4EYYfiqESGf9UyscpGFo9Nx0Zn3WCifai6OU0GWOIJtFtZBKBOYE9PizxMAvSsQDeFTyccpfkkO8bmjg2IeTXlbALzKwhtPkznUARbMz5rKQkaRlmjZ
+BGeeTfERHZMpieaibNgvsUWj5Tr42XoCje9Fx0y
+}
+
+AzureImage(AzureContainersBatchAccounts)
+!define AzureContainersBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureContainersBatchAccounts_tbg.png", AzureContainersBatchAccounts)
+!define AzureContainersBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureContainersBatchAccounts_tbg.png", AzureContainersBatchAccounts)
+AzureEntity(AzureContainersBatchAccounts_m)
+!define AzureContainersBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainersBatchAccountsSPRITE, AzureContainersBatchAccounts_m)
+!define AzureContainersBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainersBatchAccountsSPRITE, AzureContainersBatchAccounts_m)
+

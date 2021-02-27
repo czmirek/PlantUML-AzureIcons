@@ -1,0 +1,14 @@
+sprite $AzureGeneralInformationSPRITE [70x70/16z] {
+xT5NSiCm34NHX-xiVyCnRKvSIL12UdA-CLS4X1-2cALXmawivbTCXJOdp9-mBI5I7zBLZdXNwB2d51dr1SR5XtIIN6IH5YET5IET9P52XZsLtuPym4Hq-K_P
+e47JRMdjAEXqvJIKRhwoawL3Fe0BYW6zLD89M0nu-XtFdj9ezfqGT1fZnW3OOyWlErVmPQ42lInKuCM5Ea8J4yOd4XEIdeLmPjbX92RGQNOOhLRY_IfMhj1_
+vOF_aRnFvJ21JYSpZYEgLXHD52k2neiLGYErIk24QXN3cPSgZ3EfL0BeAXK5EYrKS97EMFuKG7TNS2rsLWJNU5ybqCt7PFvMGfVivDP4kaz7XyqCZtXhn85w
+ne5wne5wnZ16lXXHJEbA8nW9Yies5pBlE26HTuomZknPmWLRaNgyl3c42VOYbYDcmgTu1G
+}
+
+AzureImage(AzureGeneralInformation)
+!define AzureGeneralInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralInformation_tbg.png", AzureGeneralInformation)
+!define AzureGeneralInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralInformation_tbg.png", AzureGeneralInformation)
+AzureEntity(AzureGeneralInformation_m)
+!define AzureGeneralInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralInformationSPRITE, AzureGeneralInformation_m)
+!define AzureGeneralInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralInformationSPRITE, AzureGeneralInformation_m)
+

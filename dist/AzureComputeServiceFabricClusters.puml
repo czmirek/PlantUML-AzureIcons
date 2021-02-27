@@ -1,0 +1,15 @@
+sprite $AzureComputeServiceFabricClustersSPRITE [70x70/16z] {
+tPVNmYen28Gf0xp_4_yr7fH4JFJqxyR2Cc7M3HBwXs3vWEab1FO5X9u7zWEy8fBWUP7NPSGAGazW4tGEsmJJCU8JGiUeJ-ZFKVbJZjWdc8w1J-2yaWWlH1nM
+en4BbG-Kzh7ufcfyODnxu4jSF0OUCRrrAGc989iHhgxNaUnAx350IHWmx0Ao47p7550ckfL79l1otrrKb99YrUqQJf4guqmhB4MA3AmG4UWU0IjWrTAitJ3i
+lkexi8dJ7gX4vfLUPPtWCzJYCt-Joi-wBthQNjS9PuRk9UX9AVSJSD1ScmH4udkzCC6qvSzLN6gp-vOIUiotm7fGqr5XIrwexHAxXhYFxXaoAXnQaivGRwal
+kO_tQ_Kt_zpGkIKq1UzRyh5IQydT8SqH1Ux-m3Lx_lqkK1iuRqxAUXPDf3qzy1JjArclrqOJj9Cfzau5x1NJ15RHtP4z4jyS2j2hR8xYzj-fg4_qqSrV6ZlH
+YaM1zv_9X3rkqBPKxNfXOZMwEog9fmZQMa4TQ8z1y14LUe0eLFeeqz_CEm
+}
+
+AzureImage(AzureComputeServiceFabricClusters)
+!define AzureComputeServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureComputeServiceFabricClusters_tbg.png", AzureComputeServiceFabricClusters)
+!define AzureComputeServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureComputeServiceFabricClusters_tbg.png", AzureComputeServiceFabricClusters)
+AzureEntity(AzureComputeServiceFabricClusters_m)
+!define AzureComputeServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeServiceFabricClustersSPRITE, AzureComputeServiceFabricClusters_m)
+!define AzureComputeServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeServiceFabricClustersSPRITE, AzureComputeServiceFabricClusters_m)
+

@@ -1,0 +1,13 @@
+sprite $AzureGeneralAllServicesSPRITE [70x70/16z] {
+xTT5WWKm20FG08NS_yJVTJc4yRvzNGCWYcaG9SySaiKhWu8t2nVU00JlS5PiI2Jl7C1YYnVl0W1xaWyBCFRKJ2qp8tgVtMIB1szAMEcPNVVOTcKpfr4KLMdu
+jxRDmw2o8fdG64czckILG-3lDsRKnwLXySu015li_IKfjYm-nDpRAD3xCZClCsiqiryUWuYfSoIVWOJCmo7Ojkt7PzYTOVddCYn_OeObJapDi2diElK4p6TO
+faDo1
+}
+
+AzureImage(AzureGeneralAllServices)
+!define AzureGeneralAllServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralAllServices_tbg.png", AzureGeneralAllServices)
+!define AzureGeneralAllServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralAllServices_tbg.png", AzureGeneralAllServices)
+AzureEntity(AzureGeneralAllServices_m)
+!define AzureGeneralAllServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralAllServicesSPRITE, AzureGeneralAllServices_m)
+!define AzureGeneralAllServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralAllServicesSPRITE, AzureGeneralAllServices_m)
+

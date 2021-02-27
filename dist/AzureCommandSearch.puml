@@ -1,0 +1,15 @@
+sprite $AzureCommandSearchSPRITE [70x70/16z] {
+xPU5jkmW34MJ5YYU___Q9-bern3ETTrBhymEEUWGnk92p5LwpJ4ufkV0MvCxQk0dEw8y8DAJy5qUqXpXP3dHSmp_YAK_UJXhavsytlmooKvT264JfSVZluUJ
+tTESk3k2KI3GZA3_LtYmWgh-UPrbel-L9i7tIJPrEW-gQVD-2b0eqnZMuJAPBBDe4ZG3qHxmCczPqOMyc4K2kAGsiuQc0YHJhRMI2A0OvSAftJbE_k76CzG8
+mWYcdXe2MyhZS0D1n76yfsOHmh1vVg95FeT53xq-pkNbwNRyeYZZNLsDtO4NJCXcL1RZGl5mCD7OSJf93MsecHlUWQibcXk-q9Hc7o7L60n-tJWa6UwpMXau
+D3MzEg-paK42RhvL9fe8FHgA-MZW0hs3akmqRpmQ8oHHQg03hieJ94LEH3u-el5s4grTJjGOd7C-f2ed-egySZLOpZAWCYgvPd2aUC8bYYi7HTkOC4cc6zYd
+gWdfLviLVKkev0Wp6I0IvICavLToFB2bVho4Fvs4NoHfdqpIVYKt54E2OqbmkY71yJ56ffVo5m
+}
+
+AzureImage(AzureCommandSearch)
+!define AzureCommandSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandSearch_tbg.png", AzureCommandSearch)
+!define AzureCommandSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandSearch_tbg.png", AzureCommandSearch)
+AzureEntity(AzureCommandSearch_m)
+!define AzureCommandSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandSearchSPRITE, AzureCommandSearch_m)
+!define AzureCommandSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandSearchSPRITE, AzureCommandSearch_m)
+

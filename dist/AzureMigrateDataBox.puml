@@ -1,0 +1,14 @@
+sprite $AzureMigrateDataBoxSPRITE [70x70/16z] {
+xTM7SSKW48JXFIuWgV-2FJZpBB44P_ihu1yo-5b412j4FHwPJgRKe-89mrAyvO8n7gSK0oIksCHiLZ8InMecsXGzB0W1bu9nS1wKW4d16KceFV383O5helPQ
+gvF06xnZE9ViX0zEISs6CZHIo-U4JATpD649DR66o5UYxbXJlkPyFlMSwFeOaNiooOZO6W8Fr9YjnO72gDpC900GOrJud1AD06Xc183IID6QbFAA0YmJjA80
+pMG0YKLu1e2m2Cy008cG3AqeRkNzJ6uU64s5lFgbjjEAex2cXCBsQuf2roeR7gnL70zafRBXYIvK3C_cAu5NPYiP1P-KjYg16p9HCVhFyehZWhgxtP32ZzeM
+YZQf-564L33AZi91V4dbloAvs8zYpuLWWX-rm1GdaObCO9gJo60ciCH9P20JMEObiaxnzzm1
+}
+
+AzureImage(AzureMigrateDataBox)
+!define AzureMigrateDataBox(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureMigrateDataBox_tbg.png", AzureMigrateDataBox)
+!define AzureMigrateDataBox(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureMigrateDataBox_tbg.png", AzureMigrateDataBox)
+AzureEntity(AzureMigrateDataBox_m)
+!define AzureMigrateDataBox_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrateDataBoxSPRITE, AzureMigrateDataBox_m)
+!define AzureMigrateDataBox_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrateDataBoxSPRITE, AzureMigrateDataBox_m)
+

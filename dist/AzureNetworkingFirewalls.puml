@@ -1,0 +1,14 @@
+sprite $AzureNetworkingFirewallsSPRITE [70x70/16z] {
+xT9bWkGW48RX3oWZSF_pxbWZhIILzNd-jEP5yVjy2p4b8aenuAX8Cg280vBSIDWfijmJiGV90uHrB0-n9zAn9zAHOqzs7bMKbm9UajTuuR8jY0jJSKyca2u9
+Js-zBagF3rZNyQFprLrm3-jE0RT4zugEICSfU9RJISA0zB3UYUeWVLCy9BYdqcyEcvFWZPeN0SdS563p8uYT06edY7O6jZE8sWcKxGnaPmWsoOjiej0ygelo
+X45vKEgYaaS9iBcoTNNJnchPcZ9N300zhcHfz4c5yKQzbO0tmNmLmeVegYY-9CSPMS15lAwKhiu-lof3f0iwhgXKwSgqo2flSgjem8IEL1WtoBRrojlxp07t
+XBnSKOvuH3yhjPesLnLzirN54rhNlAoKhXPhSYs35vMrk_i_LafJfmUdNvvNk2vYFCEoXF7hVFi1
+}
+
+AzureImage(AzureNetworkingFirewalls)
+!define AzureNetworkingFirewalls(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingFirewalls_tbg.png", AzureNetworkingFirewalls)
+!define AzureNetworkingFirewalls(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingFirewalls_tbg.png", AzureNetworkingFirewalls)
+AzureEntity(AzureNetworkingFirewalls_m)
+!define AzureNetworkingFirewalls_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingFirewallsSPRITE, AzureNetworkingFirewalls_m)
+!define AzureNetworkingFirewalls_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingFirewallsSPRITE, AzureNetworkingFirewalls_m)
+

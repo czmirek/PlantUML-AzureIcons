@@ -1,0 +1,15 @@
+sprite $AzureGeneralFreeServicesSPRITE [70x70/16z] {
+xT054jmm38NXzGDvtVlVTq6bSEgutFu3uMyKtNvi_tCCfKGOW-6xA3nGz5qKSrJ9I7y7HQI75FDJivlzirYfQ7BZU1R5PfunflkLBCVvGahsaL8tYeXQJL9v
+nLUEkjsUacF84IJZVPb6lEfHH4aaxHp6L4JUeA97gQyiKcHKAgTnBddZxHt5L7pvCrkcNDzrATMaFqr5INcHg6g7abF84JbD8c7bIO-IMrdcg9rAe81wHL0P
+0VSg9Ceogbi1E3SW7IdthGY0c1lQVlLOcJhKLINZ9sDC0G7fNF6nWaAEAwK075JAAxpYW58oPBogbAa2NbBAv_0v7YbjAvMrWkrNlQ-qYgN2slgKBERRZTPw
+bUblpN-cNsbtfWBUsu2Iwyc532YPexL19Vk35BsLqZuCrSejuqwgayITRYVnFkdWxP-Yr4c_Meb9bnN595rL_7sKMHSHU1QkALfq2Q4MiTyer2gMFWBS2TyE
+WGUX0nbdUDBjv_Q_9m
+}
+
+AzureImage(AzureGeneralFreeServices)
+!define AzureGeneralFreeServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralFreeServices_tbg.png", AzureGeneralFreeServices)
+!define AzureGeneralFreeServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralFreeServices_tbg.png", AzureGeneralFreeServices)
+AzureEntity(AzureGeneralFreeServices_m)
+!define AzureGeneralFreeServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralFreeServicesSPRITE, AzureGeneralFreeServices_m)
+!define AzureGeneralFreeServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralFreeServicesSPRITE, AzureGeneralFreeServices_m)
+

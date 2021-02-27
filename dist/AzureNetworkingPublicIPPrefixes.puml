@@ -1,0 +1,13 @@
+sprite $AzureNetworkingPublicIPPrefixesSPRITE [70x70/16z] {
+xTT5eiGm38DXW-pa_XT-32ab6gP-Awt-mPAyYfqoP20hPT2f72CguTj0Lrmwhbmv_HCHhbK9ZZvi9KjTLN92-vLIAS5KieEkX7JaMIh1LlBqzqAuKYNBkem9
+T2eylqKbDw3bEeXKIY4g1APYkWrqHJfyxV2zO2MmBQaA9yvI4VCMuYWovGzRsIjGKKo6gnfNcPvd5Stmht5OnUIJ_Gx_lOd0AHKRL1HJaxCrcc7JJzIbxPln
+oL0HnO6L03O6LI7ibRtoAoWupuFogzYz0m
+}
+
+AzureImage(AzureNetworkingPublicIPPrefixes)
+!define AzureNetworkingPublicIPPrefixes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingPublicIPPrefixes_tbg.png", AzureNetworkingPublicIPPrefixes)
+!define AzureNetworkingPublicIPPrefixes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingPublicIPPrefixes_tbg.png", AzureNetworkingPublicIPPrefixes)
+AzureEntity(AzureNetworkingPublicIPPrefixes_m)
+!define AzureNetworkingPublicIPPrefixes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPPrefixesSPRITE, AzureNetworkingPublicIPPrefixes_m)
+!define AzureNetworkingPublicIPPrefixes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingPublicIPPrefixesSPRITE, AzureNetworkingPublicIPPrefixes_m)
+

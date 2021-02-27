@@ -1,0 +1,15 @@
+sprite $AzureNetworkingRouteTablesSPRITE [70x70/16z] {
+tTO9ScCn28HX6cZayVtlwtqL8cNUxFaEy1SeiR5yVx4x6P2VysD_Pj--WfEVgy2SLuQj5JXVE3PLZ1FVK74cZcx5kTAi69UyLL4Mh5DX2PzNZ2MN2cEgaFrX
+k9ygoYGUh8hC5UD5B7aHIHMFhnIHL66t4lkpWHFTN8bzqgZaIBzIH-hNxLSiekQVReJ8nftA9ncL-yECbP3wBwqFa1ECaacP2Pbm54BMObL1Z3MLGYmgWdAV
+EXEIw5Xm-KA4P8XYaX8aWq-PCEaoachNpkva35VIqMsG3i0POqIu0avsEk0Dtl3A6eDS65vOw-WxoTKmpWUq8bGyQET06bzv7YLdwaXUgV4J18ntXXkBTour
+neIuOKnKAXg9ua9ZHgam4iU5HsAoPh7mM2YfHybikL0zZCOAYr6gOJoM540igIp4cWCMIwmNoe0eG18R1TN6XUCeq4U1aenIZ4fnnffGNB4UAnwtnul7xM5H
+wOdVK_7T1fJPsFL1PjhFc2mueyCXtz8H
+}
+
+AzureImage(AzureNetworkingRouteTables)
+!define AzureNetworkingRouteTables(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureNetworkingRouteTables_tbg.png", AzureNetworkingRouteTables)
+!define AzureNetworkingRouteTables(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureNetworkingRouteTables_tbg.png", AzureNetworkingRouteTables)
+AzureEntity(AzureNetworkingRouteTables_m)
+!define AzureNetworkingRouteTables_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkingRouteTablesSPRITE, AzureNetworkingRouteTables_m)
+!define AzureNetworkingRouteTables_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkingRouteTablesSPRITE, AzureNetworkingRouteTables_m)
+

@@ -1,0 +1,12 @@
+sprite $AzureCommandLogSPRITE [70x70/16z] {
+xTP10a9G003Hlwt2_KyB6nW003ER0W-0K9IixSdATrbGmhBcAYeg35DxUxpoBQh-SMf7K7hE4QUo_HGLbRvUhdm7Uz-RH4L5HOLVGSiKfdA1CwsYybqMb8Kz
+LCa
+}
+
+AzureImage(AzureCommandLog)
+!define AzureCommandLog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandLog_tbg.png", AzureCommandLog)
+!define AzureCommandLog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandLog_tbg.png", AzureCommandLog)
+AzureEntity(AzureCommandLog_m)
+!define AzureCommandLog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandLogSPRITE, AzureCommandLog_m)
+!define AzureCommandLog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandLogSPRITE, AzureCommandLog_m)
+

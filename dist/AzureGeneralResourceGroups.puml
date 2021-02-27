@@ -1,0 +1,15 @@
+sprite $AzureGeneralResourceGroupsSPRITE [70x70/16z] {
+xTY7JaCn38NXUfttVsF6bQLKbpW-KQe1zDTaVNS1jVluuyaBlb4YZ4Cied8ylkAK-CeB_ef3hcnoCPdsY4w_EOsCF9LCdc_8oAXxE_BYSqJ-usSmFR-HJ3yP
+8rmAiBYneb_9uXO3gNnLNOncrUq1dXL4RTHEuARe_6AouhAqKT8e75hHQNkAQ96mIXgbGohQn2XAr2cYLB9KbCsMYXjbmDUAEs6WLxhJ2H1AupX0AhLZ0AlK
+3C0gjHFWbSfnO5l9xZU4LsQd4pXGqd7WL74Bd2bvAXudIjuMztIEdhHVxIi36Oh7jfB6KExE_b-ZZs97CTEvuiuhQKmL3q99er3IQPKqIYMTHZ5jb6ofF9HK
+cbTOOHJjN-sbKuoRF9QAyLDGhSZEH2PpHNUdmubY_7GukYl4fEhpwNqeiodURqgnqaWgRiq4tsmJbsBCDh7URDI5s6oEjonxrSQNpldsURu9Z_HyAn-NAmVl
+46JEFYEZpldT9m
+}
+
+AzureImage(AzureGeneralResourceGroups)
+!define AzureGeneralResourceGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralResourceGroups_tbg.png", AzureGeneralResourceGroups)
+!define AzureGeneralResourceGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralResourceGroups_tbg.png", AzureGeneralResourceGroups)
+AzureEntity(AzureGeneralResourceGroups_m)
+!define AzureGeneralResourceGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralResourceGroupsSPRITE, AzureGeneralResourceGroups_m)
+!define AzureGeneralResourceGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralResourceGroupsSPRITE, AzureGeneralResourceGroups_m)
+

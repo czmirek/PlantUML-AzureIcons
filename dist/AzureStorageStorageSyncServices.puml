@@ -1,0 +1,15 @@
+sprite $AzureStorageStorageSyncServicesSPRITE [70x70/16z] {
+rTTRSjim38LXt079yVwtMwNcL50AqXmgB_xVymrEV8VFxlD3HBWJibXBUP5YjMkyO5XgqK6rCaMOZwmRhQnPNyK-REuQyd66C97vcsm2KN-RhE_9uSGfzuz1
+dsguHipTRU8UwbuX_ZV32KMXJjApGHSdaIS4R4tXXCmfMAx9260tCd_5_oFHSeHtORJShX0LIByuSu4pFvM98kUKzxISyDhszJpxsgWfASb3hmmny-ilHBCJ
+JSbfEkNAM4G88ZvKPClN54hm-Lz9J5FqUr28F9AoLKhG-G0bvbHeV-H13ouLJuCoqvGZuhE3pqhUP54m_grGNLJ7U9GrXIt77IKmHefyRVipfHr5Xifk8fbv
+T1GRBahFbw7YDb9yLt-cF2bpauoERCyPzHJQEXdNRKKEyGkAWVw28e0ZHUSK1B21ilcCuW20CL3sc508ZhXMv6ZRzv1hzIb7Eb8oKoi8hwmQgqVRdfbQOO0-
+4_k_OgG8d4cXr4oDjCW7okuT9GX-nD6_HMj5e8WqIYKqbPvGq8sufMRc3SdnAuAfI8yQaeFKlBBfNSKEnEufTdGWFrlutHXsMwbRM7HR0Lt_rPZ38lYyFhy_
+}
+
+AzureImage(AzureStorageStorageSyncServices)
+!define AzureStorageStorageSyncServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureStorageStorageSyncServices_tbg.png", AzureStorageStorageSyncServices)
+!define AzureStorageStorageSyncServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureStorageStorageSyncServices_tbg.png", AzureStorageStorageSyncServices)
+AzureEntity(AzureStorageStorageSyncServices_m)
+!define AzureStorageStorageSyncServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageStorageSyncServicesSPRITE, AzureStorageStorageSyncServices_m)
+!define AzureStorageStorageSyncServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageStorageSyncServicesSPRITE, AzureStorageStorageSyncServices_m)
+

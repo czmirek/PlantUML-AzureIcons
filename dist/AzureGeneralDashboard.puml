@@ -1,0 +1,12 @@
+sprite $AzureGeneralDashboardSPRITE [70x70/16z] {
+xTL50W8n44JHQXlkVs9WtDsJVflutmQNSuxs0s3xoI4LEwP2Jwm8ryGoAZn9UXL5Kn7637bqnIjUyOfNT4d5T9hPV6LUh1Mb1hKCKutN_qSoS4qFgTWpAqcc
+SvpjjIk3rmh7LcpWM0Eg96CLUqibczHeeApvLkzQNTcDy3c0LmOPmBiHtikv7m
+}
+
+AzureImage(AzureGeneralDashboard)
+!define AzureGeneralDashboard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureGeneralDashboard_tbg.png", AzureGeneralDashboard)
+!define AzureGeneralDashboard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureGeneralDashboard_tbg.png", AzureGeneralDashboard)
+AzureEntity(AzureGeneralDashboard_m)
+!define AzureGeneralDashboard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralDashboardSPRITE, AzureGeneralDashboard_m)
+!define AzureGeneralDashboard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralDashboardSPRITE, AzureGeneralDashboard_m)
+

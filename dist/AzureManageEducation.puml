@@ -1,0 +1,14 @@
+sprite $AzureManageEducationSPRITE [70x70/16z] {
+xT47pjim38PXKjpg_U_RPh33Y6ZfLxhzOYVsWuymlB6hAtRNjct4BMjxHcO47ulyXpxaaFanerqZdJqZCuQvMXeRJXexJbEVoNZFo4nmPDXABnqKMqvmpyYa
+pHaU4Luw4yQdHzt6wSrXAv5ajDe3P7CAiumX5gkAH8IvS8IjBgA7AzyQGungfwaALuu00EbCDoVJ7yfltMJH4TMC4I13NXgKSuJW4AqvaZCEBHv6C0fN68HH
+6gxddJ7QUxXfbNc4r3TflnKsDg9_wScqKhaD6ip8__bUeQHZhsPabcDg9GyxpiZu5fNAqJ7lnuXldIjvMCuuACHCt0fb9cvlKP29c7OLkAtXDoX8kue08S2-
+WW20sqhshoZwqxVmj49Gv9E8GnNw789GPnE8mMdalSu9PYAhTX1CnnelX516M0k9nTmZUeIx2LCAUrrTVGO
+}
+
+AzureImage(AzureManageEducation)
+!define AzureManageEducation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureManageEducation_tbg.png", AzureManageEducation)
+!define AzureManageEducation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureManageEducation_tbg.png", AzureManageEducation)
+AzureEntity(AzureManageEducation_m)
+!define AzureManageEducation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManageEducationSPRITE, AzureManageEducation_m)
+!define AzureManageEducation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManageEducationSPRITE, AzureManageEducation_m)
+

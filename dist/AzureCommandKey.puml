@@ -1,0 +1,15 @@
+sprite $AzureCommandKeySPRITE [70x70/16z] {
+xPT7aiKW30N96NJ_qqxmlCKF5eZ9gTUkHWbHLZAC2waq6gsauBHw5Q7H5IriYsoc4zAMGpSwfxkDG0Q1KL9u8jMn7OudKEn9Yis890bXfDlFGwS3BvQCe4w8
+T13M_QLdAjDKq-WPkoeiFPCLIpaYNTIceGyBJL_dKmK75SMZZt3rt69MfSbi8rsCqLrsiSvFQOp-ekZ789lfgBZ9DFkBxo9d6LprAonr5ZEmx14TbdvfrPCs
+Qq4ioY7rCp8RfuF5AJ0fJEDdFztibieFti1rdSuBh7nv4RE4mDublMcXRsGPkzK5ekfMfjFCfvK_eCiiWz-8WTa-p0hnazSiYPyi8ztBsoi44ehIQKblas3T
+cBT9yDoyKQ87XlmD4Yo-zaP9nilt5WcsdbrBRCvPCpMfU9TM4bnxTphT0_jtBe7bcNeNjMiabC1oq9Evo2Ls8d4wi82UetVEXzm8345XOU5fmXR3KkY4wkN3
+XWNlRaGZRLn0MF0YvZRevTV6olQ9xc30mZ2FnD0b-nBU8fVmbdq9B2M1rqbWSKhEXUID5iJyHajGG9iNx9iiWy2TvTzI7D1li5oq_GTRSW1liLpoRm6F
+}
+
+AzureImage(AzureCommandKey)
+!define AzureCommandKey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE + "AzureCommandKey_tbg.png", AzureCommandKey)
+!define AzureCommandKey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE + "AzureCommandKey_tbg.png", AzureCommandKey)
+AzureEntity(AzureCommandKey_m)
+!define AzureCommandKey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandKeySPRITE, AzureCommandKey_m)
+!define AzureCommandKey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandKeySPRITE, AzureCommandKey_m)
+
