@@ -3,7 +3,7 @@ This project is completely reworked "fork" of [RicardoNiepel/Azure-PlantUML](htt
 
 There are several important changes.
 
-- It uses the ['CDS' Azure Icons Set](https://github.com/benc-uk/icon-collection) from the [benc-uk/icon-collection](https://github.com/benc-uk/icon-collection) repository which is much more complete icon collection than the other sources.
+- It uses the ['CDS' Azure Icons Set](https://github.com/benc-uk/icon-collection) from the [benc-uk/icon-collection](https://github.com/benc-uk/icon-collection) repository which is much more complete icon collection.
 
 - The code in [`AzureCommon.yaml`](https://github.com/czmirek/PlantUML-AzureIcons/blob/main/AzureCommon.puml) is mostly the same from the [original](https://github.com/plantuml-stdlib/Azure-PlantUML) file but all other options were removed/reworked.
 
