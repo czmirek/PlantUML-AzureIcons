@@ -1,4 +1,4 @@
-# PlantUML-AzureIcons
+# Azure Icons for PlantUML
 This project is completely reworked "fork" of [RicardoNiepel/Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML). Some documentation from there still applies also to this project and the box styles are the same.
 
 There are several important changes.
