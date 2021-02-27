@@ -1,7 +1,4 @@
-sprite $AzureCommandShow [70x35/16z] {
-pTH5aW0n50BGtt7d_gSTILNBkc64FIyUlCvXTruZqnHAaIY7GbccK50b2e94cH85YLJwEHb62HO607X2MNjRum8geJZREGOceUIpsd4G--BERWs4CkmCeo2U
-vTm8PPvAGZqLOZA9cGk6Ob_EMripf-oLT91pmRwxSAGIuth-cY1I9KfGACiKIbOeonHAL2ZT58hxHugNAE6fV08
-}
+sprite $AzureCommandShow [70x70/16z] xS6100000CCWXFlR7cJLuW00003W
 
 AzureEntityColoring(AzureCommandShow)
 !define AzureCommandShow(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandShow, AzureCommandShow)

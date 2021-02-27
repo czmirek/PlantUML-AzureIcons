@@ -1,7 +1,4 @@
-sprite $AzureCommandArrowLeft [70x50/16z] {
-xTV75G9H049HvkTqfFzgpTe0c7q5t3NWaQNcGCZkGCZcGCZiGCOx8N_aZ_oHFxAY418DMH0EEiAqA1Wyjvj2k3C9GZwcloEJeTMiJ7aFfbgP-bPCWrPvHwP3
-ArkPuM6oQS7hJ7lDiz4x
-}
+sprite $AzureCommandArrowLeft [70x70/16z] xS6100000CCWXFlR7cJLuW00003W
 
 AzureEntityColoring(AzureCommandArrowLeft)
 !define AzureCommandArrowLeft(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandArrowLeft, AzureCommandArrowLeft)
