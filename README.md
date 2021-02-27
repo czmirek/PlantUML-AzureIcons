@@ -24,8 +24,8 @@ The macros are [COMPLETELY different](https://github.com/plantuml-stdlib/Azure-P
 
 But the macros signature are still the same, therefore a project wide string replace should make it.
 
-### Example macros:
+### Difference example:
 | Image   | Original macro      | New macro  |
 |----------|-------------|------|
-| [AzureComputeFunctionApps](dist/AzureComputeFunctionApps_tbg.png) |  `AzureFunction` | `AzureComputeFunctionApps` |
+| ![AzureComputeFunctionApps](https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist/AzureComputeFunctionApps_tbg.png) |  `AzureFunction` | `AzureComputeFunctionApps` |
 
