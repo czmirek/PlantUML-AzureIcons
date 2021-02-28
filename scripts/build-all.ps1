@@ -12,4 +12,9 @@ if(!(Test-Path $iconFolder)) {
 
 Copy-Item "AzureCommon.puml" "dist/AzureCommon.puml"
 
+Get-ChildItem "dist" -Recurse -Include "*_wbg.png" | ForEach-Object { 
+    Write-Host "Removing $($_.FullName)"
+    Remove-Item -Path $_.FullName 
+}
+
 Pop-Location
