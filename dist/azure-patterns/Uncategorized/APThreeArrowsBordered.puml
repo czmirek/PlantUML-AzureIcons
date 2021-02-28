@@ -1,0 +1,14 @@
+sprite $APThreeArrowsBorderedSPRITE [70x70/16z] {
+xSvNqYD120JXWXxB_G-yCQsLKbw2MVExVAQ-GA-QOjBkbeXO_WG2KqTWTY8mTGIcZgmxcMdRJcD4p9sQIihSbviosiQi9QLjo47HnZILCjDHaGPNDHJwfCgF
+uiVoYet7sd3AaieOXDAIodnNyTs_jEQcfA8sZkDoha2yfG052an20UcATIQhW4nT4Kn20T51WKae8ByLc8G2qfKcc8G2qXKJpFiAI3zH3-Oj1QHdfllCSyL1
+w1c3GhQ2l6HG4WZCKmKamQ2yXS2q9mf8Wa59833t5P04Wv9518EIHs1GyWWCIXw1GQaWC2WWUGO5fCHq1QJ8T0Mao6pA159aXeW0AJDJ1CW-1gJEWEnXHf1g
+tjpqR_9Jain8DvaxINAAKoOjGKtoWLngGOjaGLz2-L5-bBcg_08
+}
+
+AzureEntityColoring(APThreeArrowsBordered)
+!define APThreeArrowsBordered(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeArrowsBordered_tbg.png, APThreeArrowsBordered)
+!define APThreeArrowsBordered(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeArrowsBordered_tbg.png, APThreeArrowsBordered)
+AzureEntityColoring(APThreeArrowsBordered_m)
+!define APThreeArrowsBordered_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeArrowsBorderedSPRITE, APThreeArrowsBordered_m)
+!define APThreeArrowsBordered_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeArrowsBorderedSPRITE, APThreeArrowsBordered_m)
+

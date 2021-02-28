@@ -1,0 +1,13 @@
+sprite $APWebinarsAltSPRITE [70x70/16z] {
+xTHbWkCm30LW9z4JtV--kmC5bIlPm_x-5FCaOxjfMZQKRSikGxoBhYyXctVRscBUpHRo0I0-W9eFOFxjJ9EfYghtKAOTbd86A81wXUoQK9NtbYhjyAv-w8jB
+8NBU6XU6etx2SeEAJvn_QSbMvEgtx0atgkQQqHj59JKp76gQwl5zQaWW2cs5rGAXb09wWVZ3qy9pzAQKWb3zFAK-BnBYQska8XhM28MjMzeliQRv9UGE4jyw
+HyYUQUi-qowNJnY8k73NwNady8nTPMBp7MCACvxiXY3wGa0XCqU98l4Y0Ur0pEjCvOMQ_qxJP4D2s0VWrGTO6xmRMciO4F9YWNJ0qZxMz1y
+}
+
+AzureEntityColoring(APWebinarsAlt)
+!define APWebinarsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebinarsAlt_tbg.png, APWebinarsAlt)
+!define APWebinarsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebinarsAlt_tbg.png, APWebinarsAlt)
+AzureEntityColoring(APWebinarsAlt_m)
+!define APWebinarsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebinarsAltSPRITE, APWebinarsAlt_m)
+!define APWebinarsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebinarsAltSPRITE, APWebinarsAlt_m)
+

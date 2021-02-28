@@ -1,0 +1,13 @@
+sprite $APDatabase11SPRITE [70x70/16z] {
+xPOtWWGX30G5g6Nu_uFlKBQAnlkAQiqCleLk0VeMwDNUui8CxKcj4HMP_XRmm98M6iZKjnW7-5MbeDxnBPs3f7FdfJlYoQHMYGZRx9UtleKU1xQWFNI_g42y
+PvLMsQQ_HNZWIHiDREfRd0FvLQEWtJ7hd8Ei563ox6gqxqabkkBJLzhDujz9LUsrMLUteD25s6P43yqwLrNlMGqHU-jE8-YVuW_Ekkr7DBsIy9nACh1OtgmA
+mD-QTTY2HXVWoxgZghrodEE1XQQRnmQte1Td7NZWIHiDTCODFkfNLjJQxCkw5RG_
+}
+
+AzureEntityColoring(APDatabase11)
+!define APDatabase11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabase11_tbg.png, APDatabase11)
+!define APDatabase11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabase11_tbg.png, APDatabase11)
+AzureEntityColoring(APDatabase11_m)
+!define APDatabase11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase11SPRITE, APDatabase11_m)
+!define APDatabase11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase11SPRITE, APDatabase11_m)
+

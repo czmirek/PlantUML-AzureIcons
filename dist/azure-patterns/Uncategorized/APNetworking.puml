@@ -1,0 +1,15 @@
+sprite $APNetworkingSPRITE [70x70/16z] {
+xPU73Xin34CZoOw3-___xIvZz9a8rBs8cVKqVEJbBcdUe1XIyDCSqkz9kSVteAnHBKgDCsMCz1GsOYcZmb4C0ziT7rIlAL73KpvNo2C5ZCnnK6fZJqvAWZnB
+1J_T2sazL6BizlTy3Sz9Cl019zyAeEGH7YdHHtlhGpeCEg-39Yf35RS61JxHDTEWu1B5KZrbLJZl7qy-rv6obwC3sAYZR1nGiBGpvSvZ84MJEihyV96SANYt
+t1cbJeCKUccZVE60V6KtUSacmrwgPrGgyCr-CB0Y6LH8dBxYgGCwfpIaH66gZ8-isz870oci8vK91aTXDnmhKMI1efORzsbGfB8KV72c53ltzsbBoTr4fD1A
+zgHb8b9uxtGKDPkam0OxfMVR4jA89ceLy0dG_zFXgt8XL4d1iURZiJxgCRcGMjAGacFDIvhuXZbfZhLJi117WSP6mK9Sla1vIQhHpHTI-lb2IZzVI6ddYwVq
+yuKKdoybnI5VbXIqKos9HlIszNPgsJz-ztpnoP1uaYjqwDp8VBaav0ieVsk-v7V9b_yKznm0nPGEd-QKRjz5Rm4
+}
+
+AzureEntityColoring(APNetworking)
+!define APNetworking(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetworking_tbg.png, APNetworking)
+!define APNetworking(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetworking_tbg.png, APNetworking)
+AzureEntityColoring(APNetworking_m)
+!define APNetworking_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, APNetworking_m)
+!define APNetworking_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, APNetworking_m)
+

@@ -1,0 +1,12 @@
+sprite $APRightArrowAltSPRITE [70x70/16z] {
+xSpL0G8n50J0kxYd_sgnzuV39kXE0RFS8xe5btft8nAyKVt0WusMnh6vsFZP3Plm9GsR-Bw63Plqaqt0v7u56KoIPO6umz7KZoIUoOam9s4IForP1oTCqeM4
+IHsTC55e8ZISIDCa0QbRoHO
+}
+
+AzureEntityColoring(APRightArrowAlt)
+!define APRightArrowAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRightArrowAlt_tbg.png, APRightArrowAlt)
+!define APRightArrowAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRightArrowAlt_tbg.png, APRightArrowAlt)
+AzureEntityColoring(APRightArrowAlt_m)
+!define APRightArrowAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRightArrowAltSPRITE, APRightArrowAlt_m)
+!define APRightArrowAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRightArrowAltSPRITE, APRightArrowAlt_m)
+

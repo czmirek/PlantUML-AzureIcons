@@ -1,0 +1,14 @@
+sprite $APDownloadPdfSPRITE [70x70/16z] {
+xTPLWiCm38JXYSps_U-xmIa4RNMv_qlvQpX2dvIgB5PHKJ5Kl3lFazbJ1ET98QDIoEWKCah5PZ8AHOICHW4PbK96fv1fLwpqsKAcHM5a50hxvGhaljYWhFkX
+2WyXAxMDYlHrA2_8_L4bkVPkIaHxVrw9PIfvpBaobBtPl3BiAdFPKfaALGepiq9NMfGyAopNACavdqkVfU8cFQm6dNqbBjyCL00pkeQAWEqgV485XcwxCh-J
+wnHV-ZmLFhckCDbLsBaIyV3ZKAaGeSAzLgjuF2Z28-YYacDqHd2lp9Doh3pg-gYmtArlV_MAXLw90hKIBN1PaI7SrqbVjvfV_j4zGDgZekgFAg-P3d_crFpp
+bRVYNMrffJJrCvKF
+}
+
+AzureEntityColoring(APDownloadPdf)
+!define APDownloadPdf(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDownloadPdf_tbg.png, APDownloadPdf)
+!define APDownloadPdf(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDownloadPdf_tbg.png, APDownloadPdf)
+AzureEntityColoring(APDownloadPdf_m)
+!define APDownloadPdf_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDownloadPdfSPRITE, APDownloadPdf_m)
+!define APDownloadPdf_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDownloadPdfSPRITE, APDownloadPdf_m)
+

@@ -1,0 +1,16 @@
+sprite $APNode06SPRITE [70x70/16z] {
+rPW73lCm28NDyk3-z_s7KsGt1Cb9zwVHzKG3VeOuoGZWJdeCu0vyGnJBw468_q7fKO08qji1I2S8n1Ja7wiVAMEiZeqXHRL8f5xx7gjsAkw-Zyn81_Q2fZSQ
+79YHrkfLL8tYBvtMLXfq0gxwWdI2qabGjhg9JiYMY60AyTKGToqMjYm6wOYlYxX2Xw3Uy6jaxnUIudbHXb_c9UF5XR4eODxj7vQNQsXhwd2fjN3gL6UT60cJ
+Hwlx2jp6zlERir7wAL3olSU1H0Yy9COMjiA-r19AFEGsSBKlQYGn02rkKwFDLzAHG9AGqFfj_vnra7sNEfGauNyWTz0ktoYkImKI_e_mwCCwuxlKeOHdQEGy
+PSqwmSUI3Hg3fUml5rr6Nh9br3F3j4-0RKMC5aYe1vcfQXGt132GXDOTpXp_BP4axYso7zGL0ud3ETb032Hl0OZWuLl572OkjdzMWdJOruLLLyF0dSsWT6_0
+dGdXt6mS7_Y1sOYJTw_DncP-7ospNPYDVa_JbTde-misrSPdJWI-rwtV4pv-TuW8wtUgW1YU48VKpwDO7HyG_MoCrGEmmMIuERrqcWY-1ob58FZFvC3pfonC
+7dHVEvpw1p5ZVCDp1ZGRFGHPbDz-_k8FoE_XBm
+}
+
+AzureEntityColoring(APNode06)
+!define APNode06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNode06_tbg.png, APNode06)
+!define APNode06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNode06_tbg.png, APNode06)
+AzureEntityColoring(APNode06_m)
+!define APNode06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode06SPRITE, APNode06_m)
+!define APNode06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode06SPRITE, APNode06_m)
+

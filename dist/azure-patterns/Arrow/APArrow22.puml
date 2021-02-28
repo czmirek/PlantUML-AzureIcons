@@ -1,0 +1,14 @@
+sprite $APArrow22SPRITE [70x70/16z] {
+xTO7RiL024LHcXlxt-zlpfCr1haCKjHy5a1oYGU5_iVZ8KnrPYPKPXXJdc9Qdh9YkeaRrepXSThBSos3vSmUp9HGEnepUMGKY1rEuTaZJdjKP6EWb1dTVSfw
+95sJK6w9JHn_viaGKdTVsgRaopZzN2OqPJrm-kdojqdR7gETC2ImRrFeQR4A1R5ff3_IyUn24tewe6dhwO2cGi_M9AKUDCr4KZYCE1a3SV4iYl-QnAXaM9kO
+eB_9g4hmkEjD4zKm3bQ9IQq9fmb7k1jEBHvt7pnbnUFkWQUyDes57ciELW_5QK9JfMSxM8MUvc3joPKU2GUhDVlCrtlGD53hkosb0-WvR78Fe_EUmoR_cGvx
+pW-Mhx0SqKR-3mNxXufi_0VB4OiaErWGwBg583_26Uo6mnYbZ1pyBZT8orU5KnZ-HiKf8r5zYb5zoY9KDHLMKlTul04
+}
+
+AzureEntityColoring(APArrow22)
+!define APArrow22(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrow22_tbg.png, APArrow22)
+!define APArrow22(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrow22_tbg.png, APArrow22)
+AzureEntityColoring(APArrow22_m)
+!define APArrow22_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow22SPRITE, APArrow22_m)
+!define APArrow22_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow22SPRITE, APArrow22_m)
+

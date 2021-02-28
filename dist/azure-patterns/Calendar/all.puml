@@ -1,0 +1,59 @@
+sprite $APCalendarSPRITE [70x70/16z] {
+xTK7RiGm34HHga2W1Jgy_sr3G9EURNAt-T06xU-wqsqk3A9TP8XV4PqW4LITG0X4fo3G2RponIjUgToX_gvawf2FL0a9o2G8jcE2PofPWOn2jitOuXMllE8w
+5T669vpTwrIyad8JROSCP384sn4xNUSvAjpOfiX0XY7EypIUe-ALGPfYEmcG4KZN-nwLrA5yhuXEC1AmJi04uMtQNu5GH-qYXUvmxm
+}
+
+AzureEntityColoring(APCalendar)
+!define APCalendar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalendar_tbg.png, APCalendar)
+!define APCalendar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalendar_tbg.png, APCalendar)
+AzureEntityColoring(APCalendar_m)
+!define APCalendar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarSPRITE, APCalendar_m)
+!define APCalendar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarSPRITE, APCalendar_m)
+
+sprite $APCalendar12SPRITE [70x70/16z] {
+xTH5WeDG44NHIVd-zzkI19SNtEhE8XpW6psap5OfpbsMPQv_MUCRCpNpc93IVnf59aplMBw5dAcXM46KN-DCMdytQYK1ScKYeE2d-HX0ePaAgqMuqYURex0L
+Bzpu1IZQLAIz14Ymec65qgxuXS5oKul0YWHgL6cywso5yHnXHV5wmKg1s1obZKZCLrm-2FjynHWYM56225O47mfO4RoPiL8WuZ5VKVmsM77225Q4C88Lmdi7
+AqRTUBAYgoYoYi87A_pgyqRSJMAViYpBT9L-0G
+}
+
+AzureEntityColoring(APCalendar12)
+!define APCalendar12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalendar12_tbg.png, APCalendar12)
+!define APCalendar12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalendar12_tbg.png, APCalendar12)
+AzureEntityColoring(APCalendar12_m)
+!define APCalendar12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendar12SPRITE, APCalendar12_m)
+!define APCalendar12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendar12SPRITE, APCalendar12_m)
+
+sprite $APCalendarAltSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APCalendarAlt)
+!define APCalendarAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalendarAlt_tbg.png, APCalendarAlt)
+!define APCalendarAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalendarAlt_tbg.png, APCalendarAlt)
+AzureEntityColoring(APCalendarAlt_m)
+!define APCalendarAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarAltSPRITE, APCalendarAlt_m)
+!define APCalendarAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarAltSPRITE, APCalendarAlt_m)
+
+sprite $APCalendarAltBlueSPRITE [70x70/16z] {
+xTK53WGn2030EXp_V_2jqgox4IPMTp6Peu8po-AWeBnMOfQeaE8o61Ia2IgvHg12SCjIfo1IAHxSQNXlAnOArYppNB3JoW5oMq4uvaSY7LyNFNNRM_4nHj_v
+S9nfk5YmIwrm9d2C2owyB-9RONhgR2pOWwUk-wijxv7yLewHtuehSCGM4Tl9iZchCD6AdhhpLrTF7JjqwkItSlxgTkcBEKN5KvXJ_04
+}
+
+AzureEntityColoring(APCalendarAltBlue)
+!define APCalendarAltBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalendarAltBlue_tbg.png, APCalendarAltBlue)
+!define APCalendarAltBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalendarAltBlue_tbg.png, APCalendarAltBlue)
+AzureEntityColoring(APCalendarAltBlue_m)
+!define APCalendarAltBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarAltBlueSPRITE, APCalendarAltBlue_m)
+!define APCalendarAltBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarAltBlueSPRITE, APCalendarAltBlue_m)
+
+sprite $APCalendarBlueSPRITE [70x70/16z] {
+xTM53S0m30J0I27xrVtNBJCpnIVyGXXKIvHYjGPddxRo_qhHBTahw3MGVTh-SuB0uT7D4X-UQVvfAJlzl1Jeen2zYH0CWEgaLQfE9dEu5Ft9KiXxtvHYEzUn
+QT9AGgTiPmHDTtGdKfTAwSviwecPRjBVIvacE8Kc4H7N2PoQI1sowYuRtMa2dNkC1Wc1baAPLUbvGYG
+}
+
+AzureEntityColoring(APCalendarBlue)
+!define APCalendarBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalendarBlue_tbg.png, APCalendarBlue)
+!define APCalendarBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalendarBlue_tbg.png, APCalendarBlue)
+AzureEntityColoring(APCalendarBlue_m)
+!define APCalendarBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarBlueSPRITE, APCalendarBlue_m)
+!define APCalendarBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarBlueSPRITE, APCalendarBlue_m)
+
+

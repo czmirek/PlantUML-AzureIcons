@@ -1,0 +1,15 @@
+sprite $APCalculatorErrorSPRITE [70x70/16z] {
+hPU5OUWm34Gba-3sd_Spj8sT2_WDy4H6MLE7UIH-a6wz5hbFCnpm9dVGWGLMvIB5SCQG2rG78Na-ZWkudXUJOF2o6YuJii9mWrXK5RX5AkdhSuq1xpK35DxY
+3WeVUC53gdmWGU6jwNYCoryKBsWdAoK34oBNSsgpSdMY2TLSDZYcFTEOxHpDHJAwQBp6KJBL5Fd1M4rFuo2PQbn-a1F9KHEwFibKf69f4Ss3P9PC4p4GpTBy
+iQG4qL09808G3PUW550DbQ0tK0sLO0nG3PN03Kp39OW0qt09Ca4qHC99lIh9BPROKf5lwUwMIVkMLMTznmxeTSTkh5jE1fNOSahrBITcEPF4fTExFhX93fQK
+7_ItjzgGdxozON_hnuxRNdJBoqFipIl8jhp8b3-PEPr_93YnvO0lyf7wkfxdhJ7vYk-GYDZ3n_kxeaBcj8UPFDSqMLFYoJVuI4jmXZ3KGF0Y5oYE4qpbAZrM
+jQZSGKSUMZggt4Th7vu0Cjn6EylYEm
+}
+
+AzureEntityColoring(APCalculatorError)
+!define APCalculatorError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, APCalculatorError)
+!define APCalculatorError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, APCalculatorError)
+AzureEntityColoring(APCalculatorError_m)
+!define APCalculatorError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, APCalculatorError_m)
+!define APCalculatorError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, APCalculatorError_m)
+

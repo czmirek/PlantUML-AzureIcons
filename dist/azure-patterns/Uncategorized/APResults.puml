@@ -1,0 +1,13 @@
+sprite $APResultsSPRITE [70x70/16z] {
+xTL5eWCX48HXAAejzxzlt9sPVXh-LQ--KQ0SiiNB7EL1NGgHeX0f2f6Y42aAaQ8GAGgHeX0f2f6Y42aAaQ8GAGgHeX3JbB2Bj3rG-h9FKOOob72FsOfndNOg
+RfSfjybwZBSLALSrxjhC_gw2SXNtrVKixohjaRAPzLt56ovhEwG1uFHl53ibPdxfKA76M4TvYWd5vYhAJJ9TyLPAvQvQBckBdXM0HqUwVA-YvV4JrNZ_xPeP
+TzbLdTyebAJ4xBykF7xv2XZAK8OobA5KT5VBeHK
+}
+
+AzureEntityColoring(APResults)
+!define APResults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResults_tbg.png, APResults)
+!define APResults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResults_tbg.png, APResults)
+AzureEntityColoring(APResults_m)
+!define APResults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResultsSPRITE, APResults_m)
+!define APResults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResultsSPRITE, APResults_m)
+

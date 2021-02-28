@@ -1,0 +1,14 @@
+sprite $APCalender06SPRITE [70x70/16z] {
+xTP7ijWm30JH1Z1AlFzzdMsMLU9yECVUuocBv0SLaLcP6NmzKPfLyZMbxcLyfN5t-A9AYu9seNNHHrpv5SXNduq1-apfnJgFsBJlpLjZaJ7srZMbHpumXSyZ
+dnXiOP6f96Gz5a3s41Na-gLi8XB4Keakee2NbMttYD8e-H6vncuHhtn2njWTee9QAXEPGySDwIbpR8qeZHAteoyGTryAGZTcWPWdBK0tvbmW2d8y9g1kp0eH
+QAsa9kEGX6EjX2PZ40LSQuNIPDQ8e8PHGhDZYIISJg5kp1CYo66Lq6VC8n9mU8MKPjlYzQpX5IZv2hYCqcEOr-CKpm0QJcam1MoZfv0B92TY57yw5S0-caec
+4FcqnOnpT9KQ6xo3weDG6J3lQrCPf_XGH0JlswxnHShR3WMpq3wDflAXSrDLblR324On_OtAV-M_yb_vh_nNVgTU0m
+}
+
+AzureEntityColoring(APCalender06)
+!define APCalender06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalender06_tbg.png, APCalender06)
+!define APCalender06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalender06_tbg.png, APCalender06)
+AzureEntityColoring(APCalender06_m)
+!define APCalender06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalender06SPRITE, APCalender06_m)
+!define APCalender06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalender06SPRITE, APCalender06_m)
+

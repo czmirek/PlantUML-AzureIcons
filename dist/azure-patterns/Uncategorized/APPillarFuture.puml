@@ -1,0 +1,14 @@
+sprite $APPillarFutureSPRITE [70x70/16z] {
+rTC5TWGX48JXQIYixt_VMCqBQ-G15Ti_BliDUdnTz8_iaAfKYeGaFmlYKFJ1H1BYofIkf7t5UrMT43DnGWpI3gcxPCwqXGb-rQO2PzhnJVzNWNXSMFgMiSJd
+NrrSA_QNPpTznrYYNzS4HBlLrloklAnqHBW4sH_LJDZaNX4kukPscpDjWTDGQHiJqgRau_0jIXBtcPK_KghtygvIkUFyth2ZyDB0ptYrLXKYVMu7cJM5I5VA
+GMPHEP7ah2AGMLF2-nS0ZKe1yExM1SKydWYGIwqb0JWPAdCHkOxC1Y8p-2p6_ktsK09_s1eChfJDmTX0mUQ4gEnDAOwKC3qE4lVAMPoHm0OAMq762bOHAckC
+pIZZlJ8MPfLWR73p9fLUwBFOL9WHaHGoq1Nq_nWp4_yI0JqY_uE90T0B1kZP4I4NZrS
+}
+
+AzureEntityColoring(APPillarFuture)
+!define APPillarFuture(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPillarFuture_tbg.png, APPillarFuture)
+!define APPillarFuture(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPillarFuture_tbg.png, APPillarFuture)
+AzureEntityColoring(APPillarFuture_m)
+!define APPillarFuture_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPillarFutureSPRITE, APPillarFuture_m)
+!define APPillarFuture_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPillarFutureSPRITE, APPillarFuture_m)
+

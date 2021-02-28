@@ -1,0 +1,14 @@
+sprite $APGoLogoSPRITE [70x70/16z] {
+hPS54W9140DtDFz_CUwm8ITTYdMD5pT-On5L3Q2hCcminwFmISKoHJP-apv4ea5eKnsS-fzBGu3NnmeQoPDHgMbr4WIro0M2M6DhO9F6caZK4Zj090n_au18
+6FqcGMCTnOggO-D2OnCbpKZ5YImUJE09lILUysuRTV15VHw_rhVjE_1A-tfRsNp7dNv9bWxbLDFfsWxx_Ag7VPIBI7II75KTCeuwILT3fSKB5Wmn5CSgcaIi
+asJeTOo4ehDBABrBAAKsIBVq7XR77fR2MffT3XsshZgcMVGDYFf2Bmo1MFIZ6y3sO6nfPTG_VaroaYKeLXfLqgubnOV7-SAsAuyOTR4pElokID9DfMzyM4CO
+HF6863RHfEuoRSfTrTVDDqgsvkJwmT1Nf3OKzajJq2cRNS6H6y_FHJ1REBwcdnkhDYm78RN7jXmINknK31dBtuhqiGoB-Z24ZLMOMLom9O8Z
+}
+
+AzureEntityColoring(APGoLogo)
+!define APGoLogo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGoLogo_tbg.png, APGoLogo)
+!define APGoLogo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGoLogo_tbg.png, APGoLogo)
+AzureEntityColoring(APGoLogo_m)
+!define APGoLogo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGoLogoSPRITE, APGoLogo_m)
+!define APGoLogo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGoLogoSPRITE, APGoLogo_m)
+

@@ -1,0 +1,16 @@
+sprite $APSqlServerSPRITE [70x70/16z] {
+rT47bgCm44NHNr71x7-zqpBK6Q8ReOdFEN2HYloqLs4WUenCqoGt5DDytTHwqVTAidnLcUPyP4TrMigXU7-fzHfIele_Aa8sh2W1O1jIZ34dpnKJ_4mUAe9D
+f0yK9UnZwrICSPPObuABg4inmLdIEnVZez4t5nDhpuHrzFvExRv2hFwLxg-pYlGej3Yo7eYfz2ajiHYpM1ZzIZXher-9RRN2UAA4OofFbSZTHAwLMegFA2RC
+XEYHOepeiH86YMWaJ7tARB3kwr0MH5I756i8wVSANohQ55uhzkv4SPE34eQxGUUfcFacSpywHqNTPoNZAvA3SinufwXvABK8tX794X7WPoc78c64KcinmZu_
+pIGK2IEKLaacl5Z4edwLoLjHyuEoAY_vPUPkOJnKelzGIHtvgHAzfdkL3qgQeW4ba0x5XINLMei2OCzPyzIj242mBuJ13C2pbexIMqb0gINLgaWvEy1PSSpo
+FiDSA5PRa3ON0PqgSb1uhHG0b9fYJL7WLE63GckbbePwBPyLEYXOAQr4GAtWfX3utbhIHicfLckAG3mfOAUAVbvB0Z70jHQACUgTuMPPAqMOsUlxtN9Emoxo
+V99IADko0HwBfHQpY9fVPC9CHwKnjYZgjz8J9RlxkDBwfOhehUHQwMbKYSelKRYCAP4FAf6cGILYjLHc9Ra9Vaq_
+}
+
+AzureEntityColoring(APSqlServer)
+!define APSqlServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSqlServer_tbg.png, APSqlServer)
+!define APSqlServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSqlServer_tbg.png, APSqlServer)
+AzureEntityColoring(APSqlServer_m)
+!define APSqlServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSqlServerSPRITE, APSqlServer_m)
+!define APSqlServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSqlServerSPRITE, APSqlServer_m)
+

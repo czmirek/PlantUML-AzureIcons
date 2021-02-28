@@ -1,0 +1,15 @@
+sprite $APGovernanceSPRITE [70x70/16z] {
+lPY7SWCX34HHM_x_YzCmiOdE1fPnthJK7UaTHRuoGM7b54Mj5NgK8L4RSP1ZzOuBsKmTCLR829GGqd4sv-4VGzAtsrAXgJJR5GAz-gbl2Xah_CtH7I5FVwdh
+GkHveOIGz3VG3I4KJcM8oKJ870q0q9u8Rea7Vf1R9hTj1GthAPHKIobPo1nDAUkLYBdVvA6XkoczZNWenijsIk_2UrscPJ_5qKWI9ocYPb8wwEXEYgCHmgTe
+e1CwTbIMKnIFM5glIoc24RsNvsKv9J0IxSVTzZGbztFTXWN2NwTOIl7B1nWlKno9v6s-Zv2H_JtDf_0TdTizVzBmarNtdpiWc_5nDr8d0umy6VXJAYDcfiI9
+IPtU_4tIwtpFhSRViFnj_wx9utmAEf_8yiZDJ8UT82TL_Tjb9VIG4tpCrTb4ZpH_PuEyBJUSzUI6bTQZaJv-RUZHBYHtkgL7vjRvJ-Ny6mAZttWGGf8UIaZM
+mmd9Uf8G2iEAa4y
+}
+
+AzureEntityColoring(APGovernance)
+!define APGovernance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGovernance_tbg.png, APGovernance)
+!define APGovernance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGovernance_tbg.png, APGovernance)
+AzureEntityColoring(APGovernance_m)
+!define APGovernance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGovernanceSPRITE, APGovernance_m)
+!define APGovernance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGovernanceSPRITE, APGovernance_m)
+

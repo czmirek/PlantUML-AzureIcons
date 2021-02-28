@@ -1,0 +1,12 @@
+sprite $APVideoAltDarkSPRITE [70x70/16z] {
+xTI73GCn3CNGz491klstpGPfHpJZlm7exijodi-hK86RKBa_hfUrt1IR828YXbOgC4g5KYhGIWL6gL1A1Lgfm2WLIgb0AvKHAYsig8mp6k6aMxXrPRoZ4LvZ
+2pz3RRlDnyL4H4Iy
+}
+
+AzureEntityColoring(APVideoAltDark)
+!define APVideoAltDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoAltDark_tbg.png, APVideoAltDark)
+!define APVideoAltDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoAltDark_tbg.png, APVideoAltDark)
+AzureEntityColoring(APVideoAltDark_m)
+!define APVideoAltDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoAltDarkSPRITE, APVideoAltDark_m)
+!define APVideoAltDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoAltDarkSPRITE, APVideoAltDark_m)
+

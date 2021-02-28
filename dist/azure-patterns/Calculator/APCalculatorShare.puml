@@ -1,0 +1,15 @@
+sprite $APCalculatorShareSPRITE [70x70/16z] {
+xTK5rkfW38JXV58FpVvNYmGhSmPDh_po7aCVj5DvlL9aXQgLLHHdueepSINEL0Cce5Y9At6c6Z0nnKfKsKGPLrAKSKK-PtBj1rLrvJCcjPCjaa-OEjXjyZvJ
+rJ2XJB-lSYCl3TMXFoIKiNqzHLexDGyr2GJCFINfoHYBGCZSLyfyCZ8raE5ACK_1e0mgY7G2SGOKG8gG64ELvD_99Wk9_G8jLTIHz3h2bCuEvTSHfcJuJfuY
+L57uTPuXLF4fqjSHhkYTBoMNuW725Nyh8-oSsZL0k3BwGb-4TfhjDa2eafPlnQSI0uGglYa-MgKt6Y1KcSninfdRJ7rRQvRg2Y14yMk3fFuYp4EJRhvvG9YI
+RL_JNeoXYBTG065AOukqOUT6G9ZIBumgM2K8KyRB5-e6KG2XYXfC9IWSuOfcuGf5kEBNk48HhbIvgn24AZYtg2325K1GGOGh0o2W0CAKrqlD2ahIFguajQZY
+o0gAsXgAVGbbAAztH_cWdw3K3yeIwRVVTW
+}
+
+AzureEntityColoring(APCalculatorShare)
+!define APCalculatorShare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorShare_tbg.png, APCalculatorShare)
+!define APCalculatorShare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorShare_tbg.png, APCalculatorShare)
+AzureEntityColoring(APCalculatorShare_m)
+!define APCalculatorShare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorShareSPRITE, APCalculatorShare_m)
+!define APCalculatorShare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorShareSPRITE, APCalculatorShare_m)
+

@@ -1,0 +1,14 @@
+sprite $APSurveillanceSPRITE [70x70/16z] {
+xPG7RWCn30IfHjt_Nnou3sA50FTGabY3udg3nKganMpSUxNJ71VEckf5SjhK3o2R70wOX5fwTz74MihbZM9YBTCkA2RMCWoaJAob6KYPM8ktOgQQU5lcE6FY
+ltJJ0GGJQvco2RMObJOaapzgURoLJ1L3P1Uo9aIf4EPC0qzYY7AcYYWOegJ94GL3b34n2dUB9Ks8mbgI9aH1BOgflkqMmUGMrnBJNb4mHAFbF9SiizHc3nod
+buhI3GHtCuvYe0HtCuwIkULn5Dd4A9efZiAQLfiy4GNNPvKf4GMRd2AQ62MsF6xZN6HQHOajZiP9prdMPpTDiBoPkcgXQPfgeQaBbXpRGlftNB4SIxPbpRRu
+ZqpzZCWVjNX8jpDilW
+}
+
+AzureEntityColoring(APSurveillance)
+!define APSurveillance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSurveillance_tbg.png, APSurveillance)
+!define APSurveillance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSurveillance_tbg.png, APSurveillance)
+AzureEntityColoring(APSurveillance_m)
+!define APSurveillance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSurveillanceSPRITE, APSurveillance_m)
+!define APSurveillance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSurveillanceSPRITE, APSurveillance_m)
+

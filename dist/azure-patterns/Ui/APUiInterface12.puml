@@ -1,0 +1,15 @@
+sprite $APUiInterface12SPRITE [70x70/16z] {
+xPS7ZkqW34KDkBxzB_XFBXF5lsFGgCqxAXI94zC9_PKtNMmRQJIHrn42YI9_g1clOpgHdLkKACujJdHe0D_EuYfyeHRR5XT-iDYon7I8cioSRrWWqVWi6C8f
+MuAP1OxaiQ8b185ad9cZPZ5c-LDToHBvkrbZ5Oiosv_T5Oim_qNkwvPWrcTKBNBzkiMV3eNazSOiwnPZzYURHaCsBLApr6Cv7vVw7Fd271NNInGiLboxzNrq
+lgUvU4gbyoL9ualFklgv6wPYjdm7A5-8Qhu3jD5asEfznB_UHpOTRNfYxswKou1UEhA-SqzhVh_5vV6wnOXQ86C8JL6kMXeQUQSB_iWo4LSjYWuOJM0SH34j
+iHvAnnFkfa4fBrJQeYGmilqENb2a3pDaOtrixMf67JG8cDeB7IDT7XQe7WiXehkNicIHspB0Oz7AFubSKnIKQB0qAe5nQIaMneWKGJDDu-8OaJgHlwueR30m
+oXF7v6oXE1H6PyLk7hH7Eh_zGDFqqp5eGBFB4E6E33H7_5VprYYTCvI-b3S_
+}
+
+AzureEntityColoring(APUiInterface12)
+!define APUiInterface12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface12_tbg.png, APUiInterface12)
+!define APUiInterface12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface12_tbg.png, APUiInterface12)
+AzureEntityColoring(APUiInterface12_m)
+!define APUiInterface12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface12SPRITE, APUiInterface12_m)
+!define APUiInterface12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface12SPRITE, APUiInterface12_m)
+

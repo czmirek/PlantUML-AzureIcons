@@ -1,0 +1,15 @@
+sprite $APCloudTwoGearsSPRITE [70x70/16z] {
+xPO7ZiCW44LTflsv_u4N1Gcp4Ly6o-fvAbl6UTCmoaOuH3q22OIRxDiwfqL-0PSbnQx8CI7J3aDoCEVHPCnxJkGzSJDfppbqunp8MO9tamk0T2Mv10ugMQ-6
+jpElcPV02vWPyOwaX1GYH_X_I-GZIqeliNneoRAeuopnyzYEV6n12mpwYRX-DIbOzB4HvoXzrFMeDDJHOWE2zL0T7TvYzq0-D4U7kdn0tcDoW-KCjYBXs9g4
+ZuQ3NAobdPImzLhY-WHQUPSdSWgz3aY7jtslbUBv3rygnbbENPcCifIOQ6dYMPrRjXUiJONsQbxWAka8ElTAl6v1l649OHQViw0EZ3rg_FsAVk01Kn4w7D38
+OFaqezD5vmMKMCZxGjwlQb5-Hoco0pfgrUdHyQRfmj4azbsAtrsOXlwI-Yu5xkqVh9YAUa57vwXDwidj7Sbh6SoH4MGkHC88iYCYOU2xUTNnsRMCKH4rDZZf
+ET9Og_R2qSLw2TcJMLR2L3weHH_hv-AmPddslOxVBzp2YLSiy5KBPztoFZz-_D1N-0C
+}
+
+AzureEntityColoring(APCloudTwoGears)
+!define APCloudTwoGears(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudTwoGears_tbg.png, APCloudTwoGears)
+!define APCloudTwoGears(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudTwoGears_tbg.png, APCloudTwoGears)
+AzureEntityColoring(APCloudTwoGears_m)
+!define APCloudTwoGears_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudTwoGearsSPRITE, APCloudTwoGears_m)
+!define APCloudTwoGears_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudTwoGearsSPRITE, APCloudTwoGears_m)
+

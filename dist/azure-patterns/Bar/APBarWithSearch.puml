@@ -1,0 +1,13 @@
+sprite $APBarWithSearchSPRITE [70x70/16z] {
+xTG5SWCn44JH5daqS_y3Ptctm-bmebzWVcKX_a4v9xolTEinvLQWLptsRb2pkEGPKYsMkcqCb79CUSLKCdbGFI9wklwlYZTNOYhJ79asAmr7AQQq1IeuyuX8
+U7NyArQboSrW9KiZgZYxp4iswgNPDLuoFvzVyXStNQLfibShF2JVcDHZAZsff4pnAarPISZDOwhXIQN6jOwpv45r2Cfzn20eAt98NY0eUPqKb6Ozh9t6wnH6
+pWI544rXH5TkT3-g2emGLO4H8YZK7rKgzLUKeHHAL5AbFaiPob26CfIX36KeXNgLGidT0G
+}
+
+AzureEntityColoring(APBarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, APBarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, APBarWithSearch)
+AzureEntityColoring(APBarWithSearch_m)
+!define APBarWithSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, APBarWithSearch_m)
+!define APBarWithSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, APBarWithSearch_m)
+

@@ -1,0 +1,12 @@
+sprite $APResources03SPRITE [70x70/16z] {
+xPG54iCm30HbcUJ-_xzXpfMvlHqmRq2U4t5t8o8QxaQVQw4b7kuc_eA55bgqmvfUYYsfwLdiW9FO8XsvdGujxOg53aEJrrXecSkHUvfUwNi5JVxBtRMEClLi
+_WMRoRw7BQWS-KJXNc-XXUbzBXc2jeIRqdkkaKgBtfHIs4BB44XpEPZU7V0NdFXPb-UBdIZSDHPQO9IS21sczmWjj3Yz6oUVH0q
+}
+
+AzureEntityColoring(APResources03)
+!define APResources03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResources03_tbg.png, APResources03)
+!define APResources03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResources03_tbg.png, APResources03)
+AzureEntityColoring(APResources03_m)
+!define APResources03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResources03SPRITE, APResources03_m)
+!define APResources03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResources03SPRITE, APResources03_m)
+

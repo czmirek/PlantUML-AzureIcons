@@ -1,0 +1,14 @@
+sprite $APHandCheckmarkSPRITE [70x70/16z] {
+xTX7SiGm34JH1Y36-n_OL65oQaEKitzfoyUu4ZonUBXBbtZVJFbNqXvAQcrESQJtDgKuCYfSOKXqBHpX2aUumX6kS8Gh7E4AG-9AAWIXYeyj1A6AZoq4eKhk
+QuKWH3aobI14EJ848Oep166ACmJXYZC4uOep1E6ACyicXQUZMSM0DPjJ08WuirrHeFHU0PbH1Df72x23adTHoZFbNr7ThkXHMRDfHGN0f5AhFs2riA8o6ien
+mqXYYi8xA-cEe8e1iAHNIkdDOef0wheBLyv9I05I7xLRnLAMY99zr8tInYU17LbVgzhlidSh2ZaCkLTIv8vgzxX23cPQ4TWEYW8xA0QKUMK1bXqKWKme_Aur
+e2nuTak8AFhaV6j8MG0qTYpyduS2qkypXBDxHH0ltI8DyUvFk61JxVvmv_UasD3TFM5ZzScRUmC
+}
+
+AzureEntityColoring(APHandCheckmark)
+!define APHandCheckmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHandCheckmark_tbg.png, APHandCheckmark)
+!define APHandCheckmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHandCheckmark_tbg.png, APHandCheckmark)
+AzureEntityColoring(APHandCheckmark_m)
+!define APHandCheckmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHandCheckmarkSPRITE, APHandCheckmark_m)
+!define APHandCheckmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHandCheckmarkSPRITE, APHandCheckmark_m)
+

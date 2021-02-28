@@ -1,0 +1,14 @@
+sprite $APVisualStudioSPRITE [70x70/16z] {
+nTY7RImn40FGqIdDBlklzmUdIpGa-WYO1JoCSeXVIt4WYQm61C3Powl8MrugwC0rf20DuGNfoBKW5Jd1CYMZS0JJWM0w44m7Wcb01EK2R2b5GhXI4qD0g5BV
+fkHHTEIgl1blgHIfs54clZ8e8YcyLHMImblLe2ZN38882cbL1ycnernRnP7QDnMCA_9Sw8voRTN0Stg4e02L8ESbbah78XcnLifYWlNOKlYokxPcKuboBbgp
+etpFj52KY8EtHbGYsJfPAsbMz1PnfHm_xTsqZ7HQPbqQLe1lDRBKgUqCINSfhlU5GdRCeUoOgUxUbfFavBLOJhMqdB39MdDb54M_UUYt8CUDh6ufRuvqE_JV
+LFstPftnloOqnlxAyh_uFAzFoqkuk5xb_Xy2_s-5_-V4_ujpNV_-_0K
+}
+
+AzureEntityColoring(APVisualStudio)
+!define APVisualStudio(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVisualStudio_tbg.png, APVisualStudio)
+!define APVisualStudio(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVisualStudio_tbg.png, APVisualStudio)
+AzureEntityColoring(APVisualStudio_m)
+!define APVisualStudio_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVisualStudioSPRITE, APVisualStudio_m)
+!define APVisualStudio_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVisualStudioSPRITE, APVisualStudio_m)
+

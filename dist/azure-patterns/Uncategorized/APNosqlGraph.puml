@@ -1,0 +1,15 @@
+sprite $APNosqlGraphSPRITE [70x70/16z] {
+xTQ7RYj120LGsZJ-_t_T2qWZiU-ksajoL58yPhaZB4C_5ilv4jrlLgCpTFdJP8A9Vqo2JV_g13AFq4pT8uK3HOqmewY296ecuEtcAcRA9ozcs5DiI4o5IXod
+JkmkDDJyRbbTPlhJe1jMUn7-lkI3Icsuhw7q51gQfyQQduN6wO4KDLiU38AmUa8OyOG9mfuGoAD9eE519n0l_rY4ufx61QJMrgkJ1bSHCzCsvkpTp8GmTXD-
+PInFQ83D3CgKtwX8fXm2poJfuM0c3bUBPz8K0CmagNyqKye3PChdWKnbxsmtmAXWcVAeW9botsYcF2fufZmgU2QxmVBMBUS32enAaGauaZALem9coe-16sPL
+2QDIPfAqZAOji9lI0MBZULxtt-kJ3rLPknrW_EDgC7SxltbWL6eUI2xzCgNaswtH4wkqxOubdZGhzEs-ns0lkGej3nQNzlSoydzBquE6Re6yNs1rimKU71ZU
+ZFGKEaJN_WFJnfp3w2XkOnNd_rm1
+}
+
+AzureEntityColoring(APNosqlGraph)
+!define APNosqlGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNosqlGraph_tbg.png, APNosqlGraph)
+!define APNosqlGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNosqlGraph_tbg.png, APNosqlGraph)
+AzureEntityColoring(APNosqlGraph_m)
+!define APNosqlGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNosqlGraphSPRITE, APNosqlGraph_m)
+!define APNosqlGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNosqlGraphSPRITE, APNosqlGraph_m)
+

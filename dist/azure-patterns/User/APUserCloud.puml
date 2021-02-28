@@ -1,0 +1,14 @@
+sprite $APUserCloudSPRITE [70x70/16z] {
+xTHLTiGm44HH2xfQNVlVRnZaCKIg2IVls-TQl8oM2fmCHqsBMWPVywmXu3eNnfE2bqNMaRwY8trpashSBsOOur6OK89TatFArIoV3uNqSwF4ovWRZul1CzOg
+pogdo6XsCXqEvnEReYY9xw6KTr6Cu-5e9Cw9wluuWbEb9UKa7PG-14cw9GqvlWf6lVwqwRtBK5XFQxzG-LVWhJckKn1yAEmAnVaIP0LyBMGbsDL41LmbAivL
+DglOtiVUxVxRMKxBde8N9IrZ7Sn8KS2-g9godX9KnQ8_BgBICwrgIZ-fG9MKrmomMZNb84L1Q_um3dY42qgtjC770eBYtDHiKh7WJe4fnNcGpoWypDz58Tv5
+yN_bid_5ZtkVL-g7AlcqvLEx1G
+}
+
+AzureEntityColoring(APUserCloud)
+!define APUserCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUserCloud_tbg.png, APUserCloud)
+!define APUserCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUserCloud_tbg.png, APUserCloud)
+AzureEntityColoring(APUserCloud_m)
+!define APUserCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUserCloudSPRITE, APUserCloud_m)
+!define APUserCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUserCloudSPRITE, APUserCloud_m)
+

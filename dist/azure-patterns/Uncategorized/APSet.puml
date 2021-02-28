@@ -1,0 +1,15 @@
+sprite $APSetSPRITE [70x70/16z] {
+pTO7hkCW54PXi923K_U_scafHmSaSNMdlJ-TyYMnJIb3jkE-bsGm7Z-2apVaf0sSl64dRzpav8nUIxlAIHa_OYTdZCwrhPNHI3WeznqZuUZFAtPEIwKNHSvR
+wKlbSMmKAFizhjYn4LNis8WhScp4bThjZCQrzK6fUvkKKkoCHYbMQdyMZugTFXXMQbUL53aohDIkQYaues6bzlbhK73Sm0f7ImwA71aeLuppfd6Aud5pBSgJ
+nfZ6UrYnCJbhPR-FnkmibDcm4rAQ3O8JKBeC8YUkzFhxYftyFx9Z8wxWs8Wh1nQEL-60qakTdEsYbJoabC7P3XbXnOwCNqgBAJWsdc4oMIau62WuAmK70mK7
+XIvF1UT6cHGSbAU1GgwF7sbZ6GuAHamfJSvJmOWgTZhFSSNEdDjIMJkzzh1YnyCkgjYn4LT61oEXu60a59pJqqWgv0ihnrAfAuNnRiLppbh1iOBn22bshEpt
+nrBn1beArIXX1uKgbBZpL5HyBYJeF9LnfnPs71jv1oFlOEGTZBo3aNTiv9t9-0u
+}
+
+AzureEntityColoring(APSet)
+!define APSet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSet_tbg.png, APSet)
+!define APSet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSet_tbg.png, APSet)
+AzureEntityColoring(APSet_m)
+!define APSet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSetSPRITE, APSet_m)
+!define APSet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSetSPRITE, APSet_m)
+

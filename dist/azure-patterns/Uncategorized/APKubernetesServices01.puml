@@ -1,0 +1,15 @@
+sprite $APKubernetesServices01SPRITE [70x70/16z] {
+xPVNSkWm20N154dc___tMZpOPqRczXxjwpAR2aheXzXirCca48AYHbh4e3Q6ovim41N7d7IRbOdpBJpYdC9I-44r7gUga6GbwPOXcSAdC105Jau2bIGhKq0b
+-IcLNTaLRKl5is9jgJWLo8ZH52fTAE5-2QYag64_u-nPWLK1aHKKzMcO5PTNOIbAbFZMGZ1fX8AVOo4aJ8Zs23hW02tYMBzofpQwCXunps7yPjI2RKJqCIlt
+DpgYwo2QmydThuH6k0bvLX8NSX62uKI9g1JEJWALv6tOib88fmzSsPNsCYopyYBw57wibJvY60m_Ata9VHCIqHmhtJZt4vPEcV0FXM6te1lfi8qkiBsl1o3d
+KsJxWIql0xJNOtGGrmAkb39L79uNqtWLPrvC5FNrZZ4hy2r2ONYmwfUas_sIF26UearX8BxvLTFrLMj_ppkzAxjYSUfJWQiYKq2bMW6yIxh-PyENEASm53NQ
+8xBIP3rOMK5HmzR8NvV_4fBY_s6p-GG
+}
+
+AzureEntityColoring(APKubernetesServices01)
+!define APKubernetesServices01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKubernetesServices01_tbg.png, APKubernetesServices01)
+!define APKubernetesServices01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKubernetesServices01_tbg.png, APKubernetesServices01)
+AzureEntityColoring(APKubernetesServices01_m)
+!define APKubernetesServices01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKubernetesServices01SPRITE, APKubernetesServices01_m)
+!define APKubernetesServices01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKubernetesServices01SPRITE, APKubernetesServices01_m)
+

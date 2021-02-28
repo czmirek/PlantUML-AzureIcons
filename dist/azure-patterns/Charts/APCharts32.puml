@@ -1,0 +1,16 @@
+sprite $APCharts32SPRITE [70x70/16z] {
+hPU7SkCm34Ht0JRf___tYgIT654CYxnxKnFRRx3iG0Ajr4u0RaQim3Bs0mDO3foJYdefP15kpnrDXcWviGM7B9EU6XsoJ7auzjGY70c-VNUCSwRB3JvCipKd
+84XxcEerJdFSY29yrBHt1LkGf9fElCSoIMlIR8uKIW8pH7pVByqWFk55LJ7wjrsQPoZQRJmcDNPRVarJCoU9oyRsYu77-6qHTwrM8iSEpc_9ujzBSUJmDGIb
+OIobOiO22yMOyc3EWb1CKocJbZXDcqgPiCHYNWBLUOkAuTVHn7aBlY8DBRW5YskMk9-K5GirCAP0AnP5Ohai-2TBrR2iM3GmrazB_o-MkcOnFILEk6O1Jo1c
+B6lONp8BaqJnH4qIGQExPj7eXfbUjLXTjCJrull9cgMSCEp6PGloay7C4WilIt9AgGgJ9Jcbe1DprX9FJ5uMdxF4G6yZUUyziSH0YXJ7rtZyErZoMuq_tB1x
+poptI-r-nT8UM68fAkR0S2Qq9nR6KbICCj408sXcrwhJ-G8Un3mc2zL4z8KNsRsD66klGz4bMNkfYh7sQeuIK9BHPrxmGCHNkWbcdKt5OcSZoSbMtpj4Bf67
+xnpYMGixgiNhBtQod6YdUoC0ywc66krPLsx8yV7PueJ8FT4owz0eHykiGvusVhAu4NEmzYrOtB28MIK08v7o6m
+}
+
+AzureEntityColoring(APCharts32)
+!define APCharts32(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts32_tbg.png, APCharts32)
+!define APCharts32(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts32_tbg.png, APCharts32)
+AzureEntityColoring(APCharts32_m)
+!define APCharts32_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts32SPRITE, APCharts32_m)
+!define APCharts32_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts32SPRITE, APCharts32_m)
+

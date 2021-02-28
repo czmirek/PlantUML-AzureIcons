@@ -1,0 +1,15 @@
+sprite $APBuild11SPRITE [70x70/16z] {
+pPS7Skim34H14dNlVzyq1GvJfA42_lAc9hRVB1Qgz3kw2PKH04f53AyKqpZUY1qI32gWEE1giQYMst7WL25mq8gbrETf-BQVqNuT1TD_uhOc9JPfRnSzqYBq
+HlUx9R4DqhcMndvxwmeOULeQgUF1k5Dh9oHaI1O7olcD130H2mGf7jYYmuxS3L1-GO4sW3kb3Ca2UWVuZSEuAkaoZz_umoAqDauR6aWUMUJTqeyimTTp6BuX
+5F1NYI4QlmLfLp6-fiZm38Hx04m2U5-FaPXrwjFnpuFE4SSNt6JqzxRNrYBn9O1qckWhUnc12K_3DulG1JehEEk_P-c192GLToqyJKB9NOj-vA3arDBFdm4M
+YgDnQV5SRADBvEA6rXpJgRLW-L4I2q7cmVtYnYlB3ovssdlqzNkQdCNqHkiMFibfTChwuT9e3SuLbT1SKGdFSYkqhAL0rX9R1j8j0ut_OKDHtz1yRQb7iIrH
+neue_Xz4QTWHHGjHJfuLYg-RRKUrigdQ-ZpH_lr-Hl4LVBwBwuvIh2ofhuTJKcyb6XKPAQanR4do3
+}
+
+AzureEntityColoring(APBuild11)
+!define APBuild11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuild11_tbg.png, APBuild11)
+!define APBuild11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuild11_tbg.png, APBuild11)
+AzureEntityColoring(APBuild11_m)
+!define APBuild11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuild11SPRITE, APBuild11_m)
+!define APBuild11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuild11SPRITE, APBuild11_m)
+

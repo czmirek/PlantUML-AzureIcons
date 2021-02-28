@@ -1,0 +1,13 @@
+sprite $APBlogAltSPRITE [70x70/16z] {
+xT45RaGn30JGGiWJt_-wxVAE9IVBx2V-4vc-wkL22264ZbORl42E3rfQ4oKKP1mHbBHLbN3GR91tWPYwtZIL0ZZLEK1Yz5OIoHGq9wY9DUx8P1J0-LPf-L7v
+v0J9oAF7HRTWWpfyF0swK-NYZOGlpj-yisD-NHtzq3xOLE4DBtv7EwKw0RNbCXbgj9E2NcWuXdcGcrf0LySqq9SMGWW1Xfn9MVqwqmL522ueGa15BW0gSW5G
+aGk0Ybm0zUiP_0C
+}
+
+AzureEntityColoring(APBlogAlt)
+!define APBlogAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlogAlt_tbg.png, APBlogAlt)
+!define APBlogAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlogAlt_tbg.png, APBlogAlt)
+AzureEntityColoring(APBlogAlt_m)
+!define APBlogAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlogAltSPRITE, APBlogAlt_m)
+!define APBlogAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlogAltSPRITE, APBlogAlt_m)
+

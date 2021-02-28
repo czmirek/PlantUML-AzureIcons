@@ -1,0 +1,13 @@
+sprite $APShieldBoltAltSPRITE [70x70/16z] {
+xTS7Ka0X48FX422v_udjNN6M8NR_0tophmBuINLv10pRPmxb-yRP78zEmtPj-5MJcuJyPXfLYCEBgXDnCSJEICCR2OkcT_fN_fL5J2X4G2422X5GY81211GY
+e101XGWeH40X0WeHK8Y0GYIKULV3TUqsrfJNDJn92KKEA790aGEA753aW28753cWo0553YXoG97F5Uf_vv7PxwAxtC0wkbZ7UpMva1fMrM_Eh1pHohVavAg8
+OZgu9PMRCx5JhpxW_PkZXkrcuPqltvpZqprh3xX-SzHmq2myuEhDwJYDDd5UmsTr2G
+}
+
+AzureEntityColoring(APShieldBoltAlt)
+!define APShieldBoltAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldBoltAlt_tbg.png, APShieldBoltAlt)
+!define APShieldBoltAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldBoltAlt_tbg.png, APShieldBoltAlt)
+AzureEntityColoring(APShieldBoltAlt_m)
+!define APShieldBoltAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldBoltAltSPRITE, APShieldBoltAlt_m)
+!define APShieldBoltAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldBoltAltSPRITE, APShieldBoltAlt_m)
+

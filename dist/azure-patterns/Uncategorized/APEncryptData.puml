@@ -1,0 +1,14 @@
+sprite $APEncryptDataSPRITE [70x70/16z] {
+xTS5TWCn38JXfR4itV--fUdJaqDhADT_6qw-PLhUIZOIbb-cJ4Msjl9D9IrjoNShKvdAZhVsXMqdhPVApOwJzczJKALia9omtbD4QfJ4fthSLiHg53KMbtE1
+L2XyedovbmgHAiNCykiisTLC2uL8jSBv2ZFRN76aLX6-iuO5xqYzai4uVuEIh5w9IL28oA12v1XH70aAqA10H7BEH882rJS68fB0ybs5Ff6WGCqKVFGAHVS5
+XUA8A_on8Y2bmWMi5rEKYL3nCL2rEmf_VBsaWm8DWYPWO-NSJOSyKg1XQXJrIpegcOZFuHw5ANnfzoiAN_Ew5IAiKo5oefJ7l9kAOlXuH6HO8UBB1rbJk-9Z
+ejoWafbIEJtpk7LupIEAX_SZRH8CAA7Vf8oTaRbItLIcCdubFD2lKARo3
+}
+
+AzureEntityColoring(APEncryptData)
+!define APEncryptData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEncryptData_tbg.png, APEncryptData)
+!define APEncryptData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEncryptData_tbg.png, APEncryptData)
+AzureEntityColoring(APEncryptData_m)
+!define APEncryptData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEncryptDataSPRITE, APEncryptData_m)
+!define APEncryptData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEncryptDataSPRITE, APEncryptData_m)
+

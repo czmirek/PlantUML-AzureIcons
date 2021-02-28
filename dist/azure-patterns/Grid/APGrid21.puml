@@ -1,0 +1,13 @@
+sprite $APGrid21SPRITE [70x70/16z] {
+xTO5UiD034HXQwJ5-n-u4srZfGmXhp__fMcRl30iKv61IvDJpbmkuUUAEUKgtLNEsY_f71NmkBAhYW1OIDrfvkRoTvNVcxAY0vUKWLDBfKOzV5innuK-SAOU
+7b4HaMigyQZ1lYeYSlxvEZ5yN_cjHrV4-O8xJQpohoemXtWguKGFyrG4aEihQgRxgNnloWhemorjwIp_hc9Euz6ME5iFJwySbNXsrkpqFvMF9gz8SPb7jRBg
+VwmWtZZc7ZPKEIgB3bTMmlChM9LhhjqmK-Me71L9rvDbTru
+}
+
+AzureEntityColoring(APGrid21)
+!define APGrid21(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid21_tbg.png, APGrid21)
+!define APGrid21(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid21_tbg.png, APGrid21)
+AzureEntityColoring(APGrid21_m)
+!define APGrid21_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid21SPRITE, APGrid21_m)
+!define APGrid21_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid21SPRITE, APGrid21_m)
+

@@ -1,0 +1,14 @@
+sprite $APPowerappsSPRITE [70x70/16z] {
+xTL7aiCm44DHHIXBzp_jn9u53NwEqyQXTnQwdXDHF9vkrhjCzIJpdlUyvptlwHTHCga-4vc-BvZiyWW98BQC2IE-p0aZlim98xxC2IE-p0aZlim98xxSMZ8N
+46962tP6a94_PuIPxVHnnmWpzGcZ_v5jN819a6vKpSZmlL5W0b4aUKJntpfZI2I046D8980GOqWaW00pRMiNI9800aoCqcFSCiACd-IctB0n5pTsC9VogUwI
+vNWu7CMHANrQOwSZILxLfyfg7pLRpPx-1pm4-MeQKqBQKS5OOWmYmcewmmXK4nb6l9h08EAC0d1cxwfcTSIhkQ_ztmc22uUHODAwLSO0Oemhp2XVm2bHXghC
+w8oxiHuJ4f3pxaPc54czMm6hincLadCPbP9p6PMISncLadCPdPyme_CIdcOvjWwJFXTy0W
+}
+
+AzureEntityColoring(APPowerapps)
+!define APPowerapps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPowerapps_tbg.png, APPowerapps)
+!define APPowerapps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPowerapps_tbg.png, APPowerapps)
+AzureEntityColoring(APPowerapps_m)
+!define APPowerapps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPowerappsSPRITE, APPowerapps_m)
+!define APPowerapps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPowerappsSPRITE, APPowerapps_m)
+

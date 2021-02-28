@@ -1,0 +1,14 @@
+sprite $APSquaresArrowsCirclesSPRITE [70x70/16z] {
+xPTNOkGm34C9aAxtl-zkkenH2eTMUjxV53zrGjuxt7A0JiBkg5eO3o1l2PY0Q31jcJQezGZJbbqq7W9Uis1wOjcF6iO5hrcu2qqJbo1bKKrlOSgY6dGMJrWQ
+IviMvHhBQiM-gAG-Bxt4FBr6odIKz4Eoh6MrqjvLYqYgvyYxBqHokhwutJ9rm7809Eoxy0SxKB2Kiv4U4KvKBNgicRTCtkt_HjwYtoAEUDgYNuV2R3QAdMTI
+pMr8gddLelYGR5ojj_nbOoCKhsKZGx1QDkgOKCv6YkHabGhdwOe9sBVXZ_ejo43WP3QYnKZQWY4dO9fjo1lVFA8ox4SDhgbIM9vOzwF6psJZF2ORvtgIz1f4
+nn2B5qQKc9VQx5PMcd51QTUPXy3A2QZV3aMY6gzN1lF4hJa1wEvyqFy7
+}
+
+AzureEntityColoring(APSquaresArrowsCircles)
+!define APSquaresArrowsCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresArrowsCircles_tbg.png, APSquaresArrowsCircles)
+!define APSquaresArrowsCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresArrowsCircles_tbg.png, APSquaresArrowsCircles)
+AzureEntityColoring(APSquaresArrowsCircles_m)
+!define APSquaresArrowsCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresArrowsCirclesSPRITE, APSquaresArrowsCircles_m)
+!define APSquaresArrowsCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresArrowsCirclesSPRITE, APSquaresArrowsCircles_m)
+

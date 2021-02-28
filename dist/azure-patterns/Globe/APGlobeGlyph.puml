@@ -1,0 +1,16 @@
+sprite $APGlobeGlyphSPRITE [70x70/16z] {
+xPVNekCW34GZQMZw___TOcOB3Y9mjvVpSWl9yKWko8-_bFz07jk8VcGcmQP6KsdUgHboby0sGkJc8mMd4ia-eTcH1Ctd5DcsI1aJb9HwXnY76bqtTGnIqQdU
+oTU1043s9Gr0BdcgMPJJV20XjO-oXEGaNGTRjgRwFKhzyWkvGgngAZvI0Ey0nKbJXWaQR7wZVhQaBnQlrsV3pZI_qO1shuWrIHGc-HC9cQLTEj8cOQ8e_7Og
+jURUbY6CpliBdm32AAJoD6bybgVNRl41xINPaqHyIiP7aezabXIVvf7sN0zBabbZiiyfh6T4WiOK3-0zDAA1fNb0msJ9kiMsBJvRGN2I_8ZqGotDJy0FjHG_
+GODpbFs0yAepFo2y0yHtYEz6KW_RObCBJWeAsd9qhZ5h2qc-9dvwduU9Tn9Y1rsneQ3pwxSferYysyTixlQSF6B6oKENKr10C0MTQVOdCkLq6DBmUZe4T6jI
+jTNv0HTVJCs2PLEKcla4N_7OaV039ikt2QLagQ4dUhDHCE-61hPSfNM5ufw725Vstgx4G94Alo2Y2km68Og00mVJnuupaGq6e-8SwIfbWzwEyRJ_oHORk1ex
+iDTHl43-BClRUGy
+}
+
+AzureEntityColoring(APGlobeGlyph)
+!define APGlobeGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGlobeGlyph_tbg.png, APGlobeGlyph)
+!define APGlobeGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGlobeGlyph_tbg.png, APGlobeGlyph)
+AzureEntityColoring(APGlobeGlyph_m)
+!define APGlobeGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGlobeGlyphSPRITE, APGlobeGlyph_m)
+!define APGlobeGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGlobeGlyphSPRITE, APGlobeGlyph_m)
+

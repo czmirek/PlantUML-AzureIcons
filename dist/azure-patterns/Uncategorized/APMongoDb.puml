@@ -1,0 +1,15 @@
+sprite $APMongoDbSPRITE [70x70/16z] {
+xTL7cgCm503XUX5at_-y7K2ViELn8AocgJNwKI1G6yOD3TGEKeIftA9a8umf6HygNUD3p1aa7JCDlppf3XFc4eQWvhDmUTiiEJLF6AxEubm-R37mCYdNWPPO
+bhTJIMCfIrMknU1MyXYVJ27SX9jiB5NvRLIwH7-mcznKwDAXbARCZh6kQZIbLd85f36MqYkro-3wWU3PXARqbJ6VMMgHTGvlbDgbZEEGyPF_59b3D_oTqdEj
+FwQSogcSIYhe6iL1h5C2rYkWzue0kMv5EOsvKm1Rkoy9UA_4MgK0zaz5skOmfvFY86LAcQkAhb44Y6rAj1Kb25eLARK79Luh1Whlb560wtD5q03l5GLYKG3Y
+kH8G1QHNKW2zKx9Nvk97cLQZiEnkfPhILYJFbUdI0EiK1RpRtNos8f-l1UbMjEga1MgvNHbewNR58EeWFbRcskvo5IXJ1hvLILW-QTehlllx4bNP_wqxvBjh
+H_m3_3_zDvxAgPnA7gBuViM1_Gfy0m
+}
+
+AzureEntityColoring(APMongoDb)
+!define APMongoDb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMongoDb_tbg.png, APMongoDb)
+!define APMongoDb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMongoDb_tbg.png, APMongoDb)
+AzureEntityColoring(APMongoDb_m)
+!define APMongoDb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMongoDbSPRITE, APMongoDb_m)
+!define APMongoDb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMongoDbSPRITE, APMongoDb_m)
+

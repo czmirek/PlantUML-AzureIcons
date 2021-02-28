@@ -1,0 +1,137 @@
+sprite $APShieldBoltSPRITE [70x70/16z] {
+xTZNWGCX38HXiGY9cVxxlUoSmCpvoNy1t-Obs8kgrPRRaipDbYh9dx8idSUkfy_7Eq_gRhEL1bw4LcO8JzueVPdOGUK-K5k20o5RlKbngdzLtifRIOKIJQ24
+2vHmWH8kKC85IhX02HSeuG8bNA242vHmWH8kKC852lfVxPVvBJ2b76f-52XGG8422XHGe8021HGee4011GeeK4210WeKS5q9KA20x_dB1Ww7pMwM72pjNer3
+DRjVnTBLx2gT3-h51ahUBMoinjkXscWR9gvc_kQapHMyajjiZe47F7zpUbdOPDZLxDdQm0CUg6BWQaOVUTXgIRYjvvkzg4y
+}
+
+AzureEntityColoring(APShieldBolt)
+!define APShieldBolt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldBolt_tbg.png, APShieldBolt)
+!define APShieldBolt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldBolt_tbg.png, APShieldBolt)
+AzureEntityColoring(APShieldBolt_m)
+!define APShieldBolt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldBoltSPRITE, APShieldBolt_m)
+!define APShieldBolt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldBoltSPRITE, APShieldBolt_m)
+
+sprite $APShieldBoltAltSPRITE [70x70/16z] {
+xTS7Ka0X48FX422v_udjNN6M8NR_0tophmBuINLv10pRPmxb-yRP78zEmtPj-5MJcuJyPXfLYCEBgXDnCSJEICCR2OkcT_fN_fL5J2X4G2422X5GY81211GY
+e101XGWeH40X0WeHK8Y0GYIKULV3TUqsrfJNDJn92KKEA790aGEA753aW28753cWo0553YXoG97F5Uf_vv7PxwAxtC0wkbZ7UpMva1fMrM_Eh1pHohVavAg8
+OZgu9PMRCx5JhpxW_PkZXkrcuPqltvpZqprh3xX-SzHmq2myuEhDwJYDDd5UmsTr2G
+}
+
+AzureEntityColoring(APShieldBoltAlt)
+!define APShieldBoltAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldBoltAlt_tbg.png, APShieldBoltAlt)
+!define APShieldBoltAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldBoltAlt_tbg.png, APShieldBoltAlt)
+AzureEntityColoring(APShieldBoltAlt_m)
+!define APShieldBoltAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldBoltAltSPRITE, APShieldBoltAlt_m)
+!define APShieldBoltAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldBoltAltSPRITE, APShieldBoltAlt_m)
+
+sprite $APShieldCloudSPRITE [70x70/16z] {
+lTI7ZkKW38LXrq1u__VT6h4wf7dFb4zrsYzZk2ClrDnDPT9iROpUDbS1JuKu7ANiuv_kjGBot0Tg9Wzc0VHn5dT3p0AQWw2jT8m98f0f5l0uAvV9ubaRzsnM
+FC3ZULeVe46bD4fJ-GMtPCNAwMQrmp2boZOE2VUHur2gp0lgWcAv9Y_jDcMnuVUzj1QNHS9YdYkvNiRaJ2LkPjcbNcak9zxBimHi1Vd_LkIA7f_hGgNVpnBp
+9yMtsqDbeN-VafOgEHxrugUnZoTUh6Hf5F5l-LyN-xYJKg_aNQO9L9WCHiI2osnoLwclU0yfLL0sQBHG0Hf5M_jxiDuoWgfC6GTP1CDbuK4mMHXPGHe4EM7N
+Wemy45BsGCY90m7kI2fNs56GiQCWUXJ-ckIMSs-57qOU6BjQvEnv474_x6habR5BGSuk1R5BGLgEy1afCtQpoDW8CZQ2h13XLYo0oxXmw0XoUFOqXmZDu79e
+2YlXUU4qFm4
+}
+
+AzureEntityColoring(APShieldCloud)
+!define APShieldCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCloud_tbg.png, APShieldCloud)
+!define APShieldCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCloud_tbg.png, APShieldCloud)
+AzureEntityColoring(APShieldCloud_m)
+!define APShieldCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCloudSPRITE, APShieldCloud_m)
+!define APShieldCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCloudSPRITE, APShieldCloud_m)
+
+sprite $APShieldCheckSPRITE [70x70/16z] {
+xT85WYKn20RX26dwv_xttHttIT7pNEe0NmJAaUfzTwDvXBVTZEhnbDUTxl7It-zZQtngjSr47OflQTGjX7dyablTXSX3jGzN99AF_YiLcxeavQxS5OaLHeQ9
+5KRCn0eZPcA54NDKyWWhZB3222kCiC88Aupa5KPOOIIlI8Ym8Xi2X1MPsH0WfCZiXPaWgBYzC1C4bNTcXh3oojWCOIKSa9mI3aXE2GSafuG3abF2vmWhhup7
+xaeeTbTUkojDUKEj_9fd4I-pHWuPPLvNwZLKNGbPAoByEGi2_3dg9LlJ3g_Xp_6ohUKdnChMJ33WzEVmbt3LOLsJ3HXmiYvyJNxaIzar3rdPFMlbIFq7
+}
+
+AzureEntityColoring(APShieldCheck)
+!define APShieldCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCheck_tbg.png, APShieldCheck)
+!define APShieldCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCheck_tbg.png, APShieldCheck)
+AzureEntityColoring(APShieldCheck_m)
+!define APShieldCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCheckSPRITE, APShieldCheck_m)
+!define APShieldCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCheckSPRITE, APShieldCheck_m)
+
+sprite $APShieldCheckRoundedBlueSPRITE [70x70/16z] {
+xTXPjgmm28NX7OK4zlpdU_icYgZeEc_rlTU_I7UQmfacEipTXWgUMesJyIYq67Uyt6c31sn5XJYFZLPPJAvN1idvMjYHL-EeCwgTLWkDSgUjWnKzx8zgDzRP
+wFCOVAnzTULJ-LIwgBskTFd1wfKO4NrNwLAjv14PzKgCT2OLyDeuZ12JIYIlE6SURaKQSKoC4zTmAx883PCHFw8U8ygzWOd6YcYCEFSKavKJturlUOGBuY7j
+FZP29C267Px8k8eODfI76JkFKB3HiZSZVpYFD6mPjrGsZ4SCEy8jrn2917k-prn77866SQyYL0JDoUoWqb6Ypf09aJ1ACamuxy64uv0mq1091nJ4sTsOCIGM
+5Yp8TDwco3blCfnOA-l9AMyHd1kyeUEAlTYKU8Lptd1jyNAaVb2-u1xXYHLtQIMIwuMBKiyey3uZgD8aKhJwzH6NhvyrFDCil9rtcO4tr9ClAEgROmrljQ6u
+z1q
+}
+
+AzureEntityColoring(APShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, APShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, APShieldCheckRoundedBlue)
+AzureEntityColoring(APShieldCheckRoundedBlue_m)
+!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, APShieldCheckRoundedBlue_m)
+!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, APShieldCheckRoundedBlue_m)
+
+sprite $APShieldKeyholeSPRITE [70x70/16z] {
+xT25eHmn38JXCGcc_tu3ns3VsglayLV0By0tL82uHi-8KlvH4PAC1ug0x3pnWhs4lDACFOhp8DB9neD8foZxh69IRiunbuAnb0-QEZUPj99pmZFXglRvAZ-L
+dyfFnQI9HIjQ_z9OnUkHprRQO9K3_G0LgqV6ZefdzSLV6aCLUgkrYhEdu5acHpUnB-DPMgwWnnShZXvRh2XwscAbeQSiLZAw5YleiwMAeg-omysCFGK3pdcE
+4U4ymKZcl8mXvIp5M5bP9RwCu9NadE49BpNEQDXWt6ROaZnmprNcbe89DHAvajNFhcS4Y6SK2shadAlYWSTU9UKZIrZNUCShTidAAqdOAmiFl2M4vD9QmVVp
+6m
+}
+
+AzureEntityColoring(APShieldKeyhole)
+!define APShieldKeyhole(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldKeyhole_tbg.png, APShieldKeyhole)
+!define APShieldKeyhole(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldKeyhole_tbg.png, APShieldKeyhole)
+AzureEntityColoring(APShieldKeyhole_m)
+!define APShieldKeyhole_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldKeyholeSPRITE, APShieldKeyhole_m)
+!define APShieldKeyhole_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldKeyholeSPRITE, APShieldKeyhole_m)
+
+sprite $APShieldLockedSPRITE [70x70/16z] {
+xTVLWiGm28LX9e70EU__lkiosbAollrkHllN9RBAJAOPIAXCKV3HLCV0Dp2fQ0CyWT5aenwy8dfrCMeBr8yIDq9zfM31bB2R9UScBbS5DudPobx1C3NpgGfC
+NtYz4lhEgXNeCIjMz945wI-PIcNeWpXwZqhbPAEQgev21VhWz5EX4gVxLrMjM0doU9M-jJByJR7YUke7L_QAcSvNGFfqnKZYXrJK0TkFbxto6v-2zefo4vNh
+6fY69hSSWabna0M3APOORwv1bpKD4skJ7oSDoJ7U1fMiZi8EpkzobsqyiOCJjBusnnhIEpY_SKognl7XMjUHM9lind6PvOJAF4liu7i
+}
+
+AzureEntityColoring(APShieldLocked)
+!define APShieldLocked(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldLocked_tbg.png, APShieldLocked)
+!define APShieldLocked(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldLocked_tbg.png, APShieldLocked)
+AzureEntityColoring(APShieldLocked_m)
+!define APShieldLocked_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldLockedSPRITE, APShieldLocked_m)
+!define APShieldLocked_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldLockedSPRITE, APShieldLocked_m)
+
+sprite $APShieldUnlockSPRITE [70x70/16z] {
+xTPLUiHG28PXaeFzx7_1zSODwirxFzyJO8mEiNPKrJm2KcuygdNOunqaDLSdY0beJnVr5YkyNKc8nmPeAoK6reuAXZZ3jNMqJk8Iq2gDQxgxCdDNO2eYXae5
+ogyKwGg41qXMm1F8LUHj51W_abJ5-P6F7iio5Hs_q9XPCXL-D1qlKra-cPShzfqLs8JaAivJFxXoLrIvNa44oXM9HrAjS3ogJwI0tk-Nk_8V_WKrn1L6wpgF
+yuGsMPo4ddP8dEB3JlBBKHfabmEc4wooaW4d3hoYH-B0wyl9JpFGn85NC0uEd5iEc38whwnaeEi7JYz7gAB7C4s53GUk4AL33m
+}
+
+AzureEntityColoring(APShieldUnlock)
+!define APShieldUnlock(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldUnlock_tbg.png, APShieldUnlock)
+!define APShieldUnlock(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldUnlock_tbg.png, APShieldUnlock)
+AzureEntityColoring(APShieldUnlock_m)
+!define APShieldUnlock_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldUnlockSPRITE, APShieldUnlock_m)
+!define APShieldUnlock_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldUnlockSPRITE, APShieldUnlock_m)
+
+sprite $APShieldUnlockAltSPRITE [70x70/16z] {
+xTO5TWCn48DXZyov_u6xuw9Axihb-7zGpFUi3OPfG5WEwSZM38jf51SS38CSPGi7UOed7iX01Zcm3n9f4kpa8OGZiJ2NVecobL9RhNbDgVqowaLNiXjtLKbX
+n1bHSQJxDIbjC99I7CbFlfSKFueZ8pzDKPJZTer_KXIkqoHLyKa_fsIgQqg-SBzOsKhhwuhVj2uhZK1LwUkALrDk-_6obR_uAMWhEASWl9wTGIoyMLJdS53N
+SAQkuIogQxYehk6Whk5CNiF5AQ8p26U3UaaucwoHLY6eWTR86QtHYuIiC1RMGvXt0m
+}
+
+AzureEntityColoring(APShieldUnlockAlt)
+!define APShieldUnlockAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldUnlockAlt_tbg.png, APShieldUnlockAlt)
+!define APShieldUnlockAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldUnlockAlt_tbg.png, APShieldUnlockAlt)
+AzureEntityColoring(APShieldUnlockAlt_m)
+!define APShieldUnlockAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldUnlockAltSPRITE, APShieldUnlockAlt_m)
+!define APShieldUnlockAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldUnlockAltSPRITE, APShieldUnlockAlt_m)
+
+sprite $APShieldUserSPRITE [70x70/16z] {
+vTQ7aUWW34LHm4fF_VVxmsOv2zXy2hW4cHcNZr5bcT1mTri66_07riORth-VHJq2rv94y2r8Ivo457x0-5QeiVavN8o-ai2Z_9R4Cr3BBlMKziih6AyO4n4B
+HYeGUiGsK65wWUwAqYlkhj1RsbcnK97EYeOApwtCFz7ysvq_wVbVdUCbOqElKHywNQynGaWaAp23lu8gyXKDqyNZmT8LUi2g1bEXHvgi6EsHAHLELdHAHMXN
+iiAq2xaAxRCf5KrLCALYj8zJ5PrTYL8LfWEOKh5CXOvefg97xCl_ryt_QowKY5Y810r-4vSJrVmEBEMSz9uc8lW5BK7NvO3AFNeMQUKkxZrDj20nuEJ8qKgM
+90Tyypr8wT8GFzTErS9fkidnWDCZ1vL1rSA0kt6vzXS
+}
+
+AzureEntityColoring(APShieldUser)
+!define APShieldUser(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldUser_tbg.png, APShieldUser)
+!define APShieldUser(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldUser_tbg.png, APShieldUser)
+AzureEntityColoring(APShieldUser_m)
+!define APShieldUser_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldUserSPRITE, APShieldUser_m)
+!define APShieldUser_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldUserSPRITE, APShieldUser_m)
+
+

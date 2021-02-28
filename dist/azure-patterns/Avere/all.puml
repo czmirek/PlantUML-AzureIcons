@@ -1,0 +1,56 @@
+sprite $APAvereVfxtSPRITE [70x70/16z] {
+xTI7kgmW30JW0IAY1FF-JxirspTNl7Yw__RYV1CBUCzHoYm7p9m2_eUFB8yuEYn3Wxmp1DJpB9RiKIc9AaCa1u0eZfEejAX8wVtZzqc3s65MqByINdL5JW9c
+H3c9UA_Ndsj2ijtPPJdgviVfyI_3t51UwzRqzR2mXjJ4C0p96gV-ZpfFHesiCndpJ0urd3aJwH6iqbbbHYlUB3uQUuLGHvkxj-TsGRtfl0QUdXEvkueHzQ8y
+oF4wa4Cz9qycZMOiCSeJlSOIbkXAJaJdXL1JmCOHgXH64Ttb7Wq20z1ABROKWuyhfB2SE3IHCreZPGgjAToJGwDa9cmscqsKH_sMyaq4NY5Z46aB276G8oYI
+1kkaJ2kav0vjAOLJv_2zn5KAYUGOGdEA8VtO553Yqfoo1m
+}
+
+AzureEntityColoring(APAvereVfxt)
+!define APAvereVfxt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvereVfxt_tbg.png, APAvereVfxt)
+!define APAvereVfxt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvereVfxt_tbg.png, APAvereVfxt)
+AzureEntityColoring(APAvereVfxt_m)
+!define APAvereVfxt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvereVfxtSPRITE, APAvereVfxt_m)
+!define APAvereVfxt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvereVfxtSPRITE, APAvereVfxt_m)
+
+sprite $APAvereVfxtBlueSPRITE [70x70/16z] {
+xTK7WXmX34JHGceH_ltlwsnZ9ZRWk3ll0ANKGM_FouiT4INYI5hccHzQTgs8ngY6Pddbin9XPXw5pwffIWOeVXMRDQ42rJMo2kIvaD2r0EfCYEiMRwUx2S1q
+cmEX4spev5PCEZTFVdozegSScXvfu6TQSJtY9vf9ps_P8ABa27jqeD1ZGNz5JJTLIC_RxNBI3L3rJ2xX_HLrNJ4eir-Fk9MIDQC0CRlSQm7uTee2MjfEKM7S
+GZhAGafgq9knp6T5iuBUJAnzwSUtfW8jN2igfE5JkoJW-1RIJAiSejzybK582J3jfkI-aus907MBstN8sb70bC6r0vfKG3iEo5BTJ6bWKXjJh7GdTrjqDP7J
+9NLF_jm5qdAADuZ-CdMfExDPiZupg5fY5IZ3acTPL80yRFa7OqBruUAnab9Zl1RuN4ej9P960OIsvJxZZW2esMsWMLwvPjhF0TE2T4GkFqlwXxsyV0G
+}
+
+AzureEntityColoring(APAvereVfxtBlue)
+!define APAvereVfxtBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvereVfxtBlue_tbg.png, APAvereVfxtBlue)
+!define APAvereVfxtBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvereVfxtBlue_tbg.png, APAvereVfxtBlue)
+AzureEntityColoring(APAvereVfxtBlue_m)
+!define APAvereVfxtBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvereVfxtBlueSPRITE, APAvereVfxtBlue_m)
+!define APAvereVfxtBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvereVfxtBlueSPRITE, APAvereVfxtBlue_m)
+
+sprite $APAvereVfxtDarkSPRITE [70x70/16z] {
+xT87Ui8m38RXtv7tqFrlozB3nbH5tStRik6B4XjJZc9AAH8vl6Y9bSzw3Y-KOkCxDU1Tqk27Ue9QE3L6pMcdrd7g47GgYnBSewjKe413fhYVtMNvg2ruIv16
+n4DPFYLLf3XCB9NtWY8IyKJXlGLpddU6LumxvXatZfyhCfXfl4E0AbFmM9Hhef2V76vCZZ2Pkayl_e3ECXlRoJvGIZBCv7sryVYONJ_AyG9NIdkHhZRSW9vZ
+8LfoftO1z0fVgyUr8sZ9yDUmStpK6znhsgljMA7ZJ7eBJbnip93TNs105R9R4coa4c5LP8cCwh5YdiN3AjklRYpCzWgBOgo8Qgxq70WsFJfCh5QhrRZMy1A-
+rdzKvPSAiFETOU8e5Dx14HlydCh8pbXf9ItuMP83x9XR939NPhwXqgmLuKAfvieM
+}
+
+AzureEntityColoring(APAvereVfxtDark)
+!define APAvereVfxtDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvereVfxtDark_tbg.png, APAvereVfxtDark)
+!define APAvereVfxtDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvereVfxtDark_tbg.png, APAvereVfxtDark)
+AzureEntityColoring(APAvereVfxtDark_m)
+!define APAvereVfxtDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvereVfxtDarkSPRITE, APAvereVfxtDark_m)
+!define APAvereVfxtDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvereVfxtDarkSPRITE, APAvereVfxtDark_m)
+
+sprite $APAvereVfxtGraySPRITE [70x70/16z] {
+xPLNGiL030EjyVtFJ0U_PkADGcV-qcObfqMB81y05FiGUSuE4taBMOw2UPVgeDTTOh4NpUbY7aUySof3ZSvoT6KracpsrRP4WuKs1wj9QGOIHwD6idPYBJ7I
+T7rwoVpSpZy_kVH6cBAROLJoUHZo4T3fNiKSvHce4gwG5rIX5MWiYYMGJhz9h-OmK5biydjP-5MDv5l8Pyms1rh0jQ2m8Nud__ppZyxPASbpz5Cj_Ln-A0eV
+aSrSfW3d_yGqECI2Rm55eLrybrjT99wdPWfkuUpGvrj2U9P2xbpk0G
+}
+
+AzureEntityColoring(APAvereVfxtGray)
+!define APAvereVfxtGray(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvereVfxtGray_tbg.png, APAvereVfxtGray)
+!define APAvereVfxtGray(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvereVfxtGray_tbg.png, APAvereVfxtGray)
+AzureEntityColoring(APAvereVfxtGray_m)
+!define APAvereVfxtGray_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvereVfxtGraySPRITE, APAvereVfxtGray_m)
+!define APAvereVfxtGray_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvereVfxtGraySPRITE, APAvereVfxtGray_m)
+
+

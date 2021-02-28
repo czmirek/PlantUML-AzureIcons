@@ -1,0 +1,9 @@
+sprite $APCharts43SPRITE [70x70/16z] xSmt0e0m241HiUlzxsklQrWe_sy9yAgoclPN9WK51GK51GK51KMwfzQbWeA2SX-AIgddipgYWdAV1b2ahckzqjsd_fNjlz4hszuGIra1
+
+AzureEntityColoring(APCharts43)
+!define APCharts43(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts43_tbg.png, APCharts43)
+!define APCharts43(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts43_tbg.png, APCharts43)
+AzureEntityColoring(APCharts43_m)
+!define APCharts43_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts43SPRITE, APCharts43_m)
+!define APCharts43_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts43SPRITE, APCharts43_m)
+

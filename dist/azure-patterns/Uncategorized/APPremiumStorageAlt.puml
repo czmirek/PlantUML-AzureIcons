@@ -1,0 +1,12 @@
+sprite $APPremiumStorageAltSPRITE [70x70/16z] {
+xSo5OSC040H1qLw-_uR3J8BVe3q5pA18nqNTKP8g9IabAIMfHY8iPInbB6KiPIprnh8VRoa9IeAI82Itoppst2z3puyjv-MyJAlcpzmkwrYd92W9gqdM0BIJ
+P7KXmaA4XGWB4HQC1T9V8CQI_W8nbWWBUoa9IiBRXEm3q4cUchU9i11X8SA2iK3w2yHOqbyWnX9X8Pr5IRXFcfG49K59cAxDNTFmXSwk
+}
+
+AzureEntityColoring(APPremiumStorageAlt)
+!define APPremiumStorageAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPremiumStorageAlt_tbg.png, APPremiumStorageAlt)
+!define APPremiumStorageAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPremiumStorageAlt_tbg.png, APPremiumStorageAlt)
+AzureEntityColoring(APPremiumStorageAlt_m)
+!define APPremiumStorageAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPremiumStorageAltSPRITE, APPremiumStorageAlt_m)
+!define APPremiumStorageAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPremiumStorageAltSPRITE, APPremiumStorageAlt_m)
+

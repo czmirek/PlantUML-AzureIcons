@@ -1,0 +1,12 @@
+sprite $APArrow39SPRITE [70x70/16z] {
+xTK5bWCX40PX6Etzxt_VZLSyWTV4kyQUVkEGRcPQDoT7xwU44aeeeOGIIYX3lgRaeHoHvSjA_jDGZ6Z7e818VIa2Wm9IoFIIO510ofXEWZbMicbNTvUPZnWK
+hgJmlTiXWtACL38xvHYfPOnZBG9p78Y70V4m81u6nCzOgi-y28mVWG7nC21-njvW3aW6ucD0VCoKsXP5OvFq8qMfIGi
+}
+
+AzureEntityColoring(APArrow39)
+!define APArrow39(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrow39_tbg.png, APArrow39)
+!define APArrow39(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrow39_tbg.png, APArrow39)
+AzureEntityColoring(APArrow39_m)
+!define APArrow39_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow39SPRITE, APArrow39_m)
+!define APArrow39_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow39SPRITE, APArrow39_m)
+

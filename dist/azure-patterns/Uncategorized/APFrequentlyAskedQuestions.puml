@@ -1,0 +1,12 @@
+sprite $APFrequentlyAskedQuestionsSPRITE [70x70/16z] {
+xTQtaKD1089XDhcJrlPVhHp1yvPiXx-0RmW1YqsgRoNVh4wKW7kbIueLAqATApLVRwaaN2-hYXKhLgnOiJ9jKApa8K71K8_Ay8B0ugKNH6M8JpNaTjoH4ahJ
+5UIcAqIkAzC7JwG4tElvKqI4MvA8K54HH1sXeYE8Ea95Hn1rX8gE819H5IAgGaJiNqFU
+}
+
+AzureEntityColoring(APFrequentlyAskedQuestions)
+!define APFrequentlyAskedQuestions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFrequentlyAskedQuestions_tbg.png, APFrequentlyAskedQuestions)
+!define APFrequentlyAskedQuestions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFrequentlyAskedQuestions_tbg.png, APFrequentlyAskedQuestions)
+AzureEntityColoring(APFrequentlyAskedQuestions_m)
+!define APFrequentlyAskedQuestions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFrequentlyAskedQuestionsSPRITE, APFrequentlyAskedQuestions_m)
+!define APFrequentlyAskedQuestions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFrequentlyAskedQuestionsSPRITE, APFrequentlyAskedQuestions_m)
+

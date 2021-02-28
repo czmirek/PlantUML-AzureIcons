@@ -1,0 +1,15 @@
+sprite $APSecurity12SPRITE [70x70/16z] {
+xTS7SkCm38LXKGH00FU_xvOdoerlPSvmU_Adn_OtiBhQHBgzAoTgVvcIRbBMbUyvWOWIJRzbJXLa-pibJ7eQL46jN2gXSizVb5Bl4-gLSY1cnyyOrr4vHupw
+GwNr4VfGHjTqzNCShiJ3005mK51_JkEAYqXx_CE8WevdELN2tIFFH4IPWcgyCibJhlHAPnOKC5Xejg8WC3eeAYyD2dbJ-ue2vbmqPKNP18l6ObzHxjlDYbBw
+nbqNb69vv1jJBA9nXJELAe5V1uKv6XY5ALZmHA5fA5Mmo8GgFAw8cToLZJIXeBzMqPdUAZdJNwduK5SM-qkKJwLTDgiiNOH6vBeIgh6iX8feh2b0HFH1gVk4
+mX3n1oNIwup2aQvWBEVE1DALE1yYoWm2fUR5lS8C0kNuApRQ398O9Lg_s2DD852qRXkk0EHASUF8gTmNyCLoSH4Ra46fU4RX2X0m7862j3DSCG734IWzuqm-
+CHo1qlEh6wZE40JAAvF6530SWJ8olbCbZI1CsNIytSqNXY4vta2XLecIZI1CsKhB8zTzKB81eGeT1osTITIpDwtGgYyhg4XRLz0komhwlSfN
+}
+
+AzureEntityColoring(APSecurity12)
+!define APSecurity12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecurity12_tbg.png, APSecurity12)
+!define APSecurity12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecurity12_tbg.png, APSecurity12)
+AzureEntityColoring(APSecurity12_m)
+!define APSecurity12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecurity12SPRITE, APSecurity12_m)
+!define APSecurity12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecurity12SPRITE, APSecurity12_m)
+

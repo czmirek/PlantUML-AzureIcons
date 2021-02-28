@@ -1,0 +1,15 @@
+sprite $APCircleLightningSPRITE [70x70/16z] {
+xPPR5fqW34N9YK7C_EVR5rvgi1p4_jxzxrvvIj8hleZyv_URxSNTKagwRGh82qNnIhLKraHQ5S52HTmHBHLTSKHB05D9TgUM2azBYiyiyt3q28AocwBQWSwa
+OqbGcFI18dWU56N_TyY8fU6QCauRNB99qrXYQ9FSJV3Zr1H977majnBBuQTcUxhdSczuSQ-QnyYzFEQ-g95xlwKr-B4bJ5-SasCjePWJ_0JfEUY3sTlYhQ0j
+c11A6Ny0afF6gkXGufW7Sqn2KNUm0kFwFz2nnC4gevU9So9nJ2Ulq85JDW9_KnAQa3gpeAK4hp29OxPCHZgaiw7kBJkHJ2to6NzZ4WVV0lcqI8baQa52XKY8
+9SaVo0itjyp1IJxVseg-j9bVo6b0h2wtvD7m8dIQMpBfjF5WZQQpTPPzPibq0y0V4MCIQHRnYb1Bvd-6rYHZbimNu7Bv44lcApt_4ncHu6991-kIaOaDLsjc
+mLYGa1CFJeAneIHrp_rEWf77roRcvmj_x6Cm-uBbVZsBBrym6aAf67aW5sxmGYHCW-vg7aYu1dsU0mdLtBymJQiWlU7Bbvy
+}
+
+AzureEntityColoring(APCircleLightning)
+!define APCircleLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, APCircleLightning)
+!define APCircleLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, APCircleLightning)
+AzureEntityColoring(APCircleLightning_m)
+!define APCircleLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, APCircleLightning_m)
+!define APCircleLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, APCircleLightning_m)
+

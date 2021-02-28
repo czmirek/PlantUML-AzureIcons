@@ -1,0 +1,15 @@
+sprite $APArrowWithMeterSPRITE [70x70/16z] {
+xTO5cYD128PXe9pxttSjyfEdcmfXRUmRYRzT4gDTBBNrdoVCJAbAd_eheb9_9VmoiIu4b9UXTYUW00gEOqA0WafWF39K7INkT5LFYKzhw5P1nJTuggV46Ldw
+N44SNXETenF9AICKOcPbGbm22Ay2nX0sTX0qLGspchDqGDp9o8tfv2ORf5v6m1Ucq2Ps4LO5ivZsEGWD1PEkgFu1Plu9fIWgVs8eFNJKSUXXA9CYDJtqy9vI
+yWhE3qeh1USbhpIpAda5ErJp2fkpGKNQpwPLn9tGlgAsXdDfn2erZ-Z0tDA8LJY1BBs4fKuWytPMxf4JiukGH4V0Qx67t9LspqDKBMCHA5WN5x6CHQ2uEmq4
+p04X7fSw50S1On7l1TeS18oBKCKxzpa2naT8SBTJ12qV8VVz1GW2udyQDMTXrtF4UTyr2EEyYzWfbLC4bu3ifZJF4Njv1hwqbrC4r_W82PHrWbXcnhxy3_UR
+5IyWky5WjoSGom1n1eFamW01G_lui94JIBnkaGi39Dvn8nC8YKNoLVlMa6_OvSmtcTvJNttr7G
+}
+
+AzureEntityColoring(APArrowWithMeter)
+!define APArrowWithMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowWithMeter_tbg.png, APArrowWithMeter)
+!define APArrowWithMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowWithMeter_tbg.png, APArrowWithMeter)
+AzureEntityColoring(APArrowWithMeter_m)
+!define APArrowWithMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowWithMeterSPRITE, APArrowWithMeter_m)
+!define APArrowWithMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowWithMeterSPRITE, APArrowWithMeter_m)
+

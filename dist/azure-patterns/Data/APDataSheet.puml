@@ -1,0 +1,9 @@
+sprite $APDataSheetSPRITE [70x70/16z] xTKr5e0m00JHnIFtloylqg0DJkRtI6pYCmMTtsSK6B-1jynrcOAwszSgQBi5VHHWCWMjsTShwCq2VQ4l07svzotdpAu-2ZZdXlrY6UWBG5zuomW
+
+AzureEntityColoring(APDataSheet)
+!define APDataSheet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataSheet_tbg.png, APDataSheet)
+!define APDataSheet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataSheet_tbg.png, APDataSheet)
+AzureEntityColoring(APDataSheet_m)
+!define APDataSheet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataSheetSPRITE, APDataSheet_m)
+!define APDataSheet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataSheetSPRITE, APDataSheet_m)
+

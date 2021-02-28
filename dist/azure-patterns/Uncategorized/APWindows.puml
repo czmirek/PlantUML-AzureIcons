@@ -1,0 +1,12 @@
+sprite $APWindowsSPRITE [70x70/16z] {
+xTXbWWCX38PX7CBzxpjkNnL8lNbtwyqpzeigPiRw4AbvN5itZESvplXUxNZAMBcYZVCmNgt0UA62M_V3CyebdH_xllLGg-2PhrSCZ5Shc2YYj2MAAAA84fV2
+db-pW-AymoncfjG7TMrlpP0kLkZEsSr5VRyY2ZKgeeWYYYZxIfkZ79Ukn5Dm6KqS1R6GYANic1xkOX5J_4CDGq7CNSLKUN0vcGfUJeO2c1qlPmy
+}
+
+AzureEntityColoring(APWindows)
+!define APWindows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWindows_tbg.png, APWindows)
+!define APWindows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWindows_tbg.png, APWindows)
+AzureEntityColoring(APWindows_m)
+!define APWindows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWindowsSPRITE, APWindows_m)
+!define APWindows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWindowsSPRITE, APWindows_m)
+

@@ -1,0 +1,14 @@
+sprite $APAlert05SPRITE [70x70/16z] {
+xTQ5WS0m34DHXHtjl-ynfqwjOte3_48G6waquxKvMabuZNHRU6HD3kN10rthD1wR3M79wBA4c3AvCJCYAXrAff1wne_uPi9UcWmmx1bV6bVuqb3dIQkrSL7W
+IunM3BuUhh0Ah-9N39ugL9ZXCANItGzIAXF7gbHXmg6kLGeEcLPfE3Jvm1vTL-pH-dlzIdNnmNYNYhrhnV-xur6zCXwTLeOsHaEOB_98rtUPTVbTLW2cKZ4u
+kb9fS6Ibak2nU6N0LUAL39z5AnqRcGkxefxKZI45UuC13MUCfuPmgLCY-jjqn0pjd-WNn5aGbuRmDU8LlYUe4XV03wZyL_uhI0kyYwzxbxhuwPMym3VpFqPb
+WGzs2G
+}
+
+AzureEntityColoring(APAlert05)
+!define APAlert05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAlert05_tbg.png, APAlert05)
+!define APAlert05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAlert05_tbg.png, APAlert05)
+AzureEntityColoring(APAlert05_m)
+!define APAlert05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAlert05SPRITE, APAlert05_m)
+!define APAlert05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAlert05SPRITE, APAlert05_m)
+

@@ -1,0 +1,16 @@
+sprite $APGeofencingSPRITE [70x70/16z] {
+xPU74gH024INC3Bm__zxmMMTSlieyN9wbGslw3REuo_bF_nT92hzGpVxp122FThIa5h4mZT-aoXTExO0fjwKf0Cyd6EgAb_MuN5Ysenaj6SPSSBqCzlBk9yi
+b-LQd1ZwPEI0VcYuNucfceVRccPfg1idLErbyrUee-5A8d1rrPSkiOjCv061ZdvMOViGzJ0ME4l0BE7xvQwQuKYmbuoMR3cCLADWf1aHFdJ4mgaUXWFn_LvH
+tMMBaPU9cq-FwPDnbjUH8gfXD5jPI4OgxXLWwcSipcmPYUhR5f-a0Uwg62iidddEP35WyIYOQW5GKM-Kf0JgbSBIHx-BPUHp_LqiqcdtVg8PDVrsBUv0nVqo
+uWPUtNKSDp1yZfAuWU8pdMpHXx3S-v6suf6-TvKO0zqVnk25sHy6Fm5SVHixZEhRc4Wl3uxIlu7ndw74MgKyYd-ohiRhNx9-g4bPIfs7dtl40sZ-O-PEQlpl
+fgH0rrws06OM8ULFC-wdCR-y3j0BIMg4LaHxNvCmIX3Mz9IxiPFwEAO7GheZZmQInxw9M5GnJGtf2n7UaJIaemc90cq71aYmgpx4XqeO57tWQ_5dMkZ4PmkT
+w4dq0lhDBGW1hLu-0W
+}
+
+AzureEntityColoring(APGeofencing)
+!define APGeofencing(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGeofencing_tbg.png, APGeofencing)
+!define APGeofencing(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGeofencing_tbg.png, APGeofencing)
+AzureEntityColoring(APGeofencing_m)
+!define APGeofencing_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeofencingSPRITE, APGeofencing_m)
+!define APGeofencing_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeofencingSPRITE, APGeofencing_m)
+

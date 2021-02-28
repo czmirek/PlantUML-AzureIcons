@@ -1,0 +1,14 @@
+sprite $APGlobe09SPRITE [70x70/16z] {
+xTG5ZYKn38JXWIgNu_iVU1rtD1bkNEvFyFYNNi0F_wxRxVReoK1FXDpeGcVk0EHkCi0Jlgb44XY9y133qIcY0HwXderqi1A-LEnS9QfYc9Nzwv9wnR2XWczv
+21TKAh9rNHI5xvuWNLNXkKf39pzLSNGM9ogKWHAXNb5wFb19R15BfJojdpeLpYUfnKk5wNd_UHcHKU7XKzTYHoKw0Op4UKeu5sXu-bsLoNp0peeNeIY6lPKe
+ZcANLC2shz98fVcF95PcJwKHxuptuDihZU1YLZ9ZIDfQoGWyogmaeREshKBO5nLQBSvgnP0iPgK_yPxsNWaXhS-NYdoefAKIldu3seXyLY4v3i5QXHNvj58O
+bVck8XcIEfWAe3fr0zNPwgnRz_swFCSd07P8d9xtLDxlqR1_xlwkYa-0lEoll5kESbU-MDrv0-Glil87kjrkFm
+}
+
+AzureEntityColoring(APGlobe09)
+!define APGlobe09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGlobe09_tbg.png, APGlobe09)
+!define APGlobe09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGlobe09_tbg.png, APGlobe09)
+AzureEntityColoring(APGlobe09_m)
+!define APGlobe09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGlobe09SPRITE, APGlobe09_m)
+!define APGlobe09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGlobe09SPRITE, APGlobe09_m)
+

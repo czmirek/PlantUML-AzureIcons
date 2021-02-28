@@ -1,0 +1,12 @@
+sprite $APTerminalPromptSPRITE [70x70/16z] {
+xSw54GD10CD07qF__OQPd6Uo2jWH4EebZ_OTa2Uc0y8OhYoO4ID6Z9YqTaPCULIAGPjCVdgnyqM4P3Cf8aI84258JmXQPlBJINU68vpX26SumfdoXBHddf3M
+31QOSWt2rto3lX1IzW
+}
+
+AzureEntityColoring(APTerminalPrompt)
+!define APTerminalPrompt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTerminalPrompt_tbg.png, APTerminalPrompt)
+!define APTerminalPrompt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTerminalPrompt_tbg.png, APTerminalPrompt)
+AzureEntityColoring(APTerminalPrompt_m)
+!define APTerminalPrompt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTerminalPromptSPRITE, APTerminalPrompt_m)
+!define APTerminalPrompt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTerminalPromptSPRITE, APTerminalPrompt_m)
+

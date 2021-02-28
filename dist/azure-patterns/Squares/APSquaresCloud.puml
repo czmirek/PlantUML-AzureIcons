@@ -1,0 +1,12 @@
+sprite $APSquaresCloudSPRITE [70x70/16z] {
+xTI5WG8m44JHZ9n0__tYJXIN_GMyU7wdZP0w2YLRAA0aNgV0ctI5GkyRLRA8JKiOL-3pEApGcJYgE1l653WRRw9eJE4Db1kjY78s4VsAN0wz2bo9Dr5q4uKF
+t9TLL27YYtxlKC16wTsI6wL5R8J_QIEbX6cZltTJGWabb5122IMKKEO
+}
+
+AzureEntityColoring(APSquaresCloud)
+!define APSquaresCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresCloud_tbg.png, APSquaresCloud)
+!define APSquaresCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresCloud_tbg.png, APSquaresCloud)
+AzureEntityColoring(APSquaresCloud_m)
+!define APSquaresCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresCloudSPRITE, APSquaresCloud_m)
+!define APSquaresCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresCloudSPRITE, APSquaresCloud_m)
+

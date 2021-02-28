@@ -1,0 +1,15 @@
+sprite $APShieldCheckRoundedBlueSPRITE [70x70/16z] {
+xTXPjgmm28NX7OK4zlpdU_icYgZeEc_rlTU_I7UQmfacEipTXWgUMesJyIYq67Uyt6c31sn5XJYFZLPPJAvN1idvMjYHL-EeCwgTLWkDSgUjWnKzx8zgDzRP
+wFCOVAnzTULJ-LIwgBskTFd1wfKO4NrNwLAjv14PzKgCT2OLyDeuZ12JIYIlE6SURaKQSKoC4zTmAx883PCHFw8U8ygzWOd6YcYCEFSKavKJturlUOGBuY7j
+FZP29C267Px8k8eODfI76JkFKB3HiZSZVpYFD6mPjrGsZ4SCEy8jrn2917k-prn77866SQyYL0JDoUoWqb6Ypf09aJ1ACamuxy64uv0mq1091nJ4sTsOCIGM
+5Yp8TDwco3blCfnOA-l9AMyHd1kyeUEAlTYKU8Lptd1jyNAaVb2-u1xXYHLtQIMIwuMBKiyey3uZgD8aKhJwzH6NhvyrFDCil9rtcO4tr9ClAEgROmrljQ6u
+z1q
+}
+
+AzureEntityColoring(APShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, APShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, APShieldCheckRoundedBlue)
+AzureEntityColoring(APShieldCheckRoundedBlue_m)
+!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, APShieldCheckRoundedBlue_m)
+!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, APShieldCheckRoundedBlue_m)
+

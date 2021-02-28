@@ -1,0 +1,15 @@
+sprite $APHybridCloudSPRITE [70x70/16z] {
+vT99TYmv34DH0Y1Z_pjsRwCoWrA99uV_pNdLnhyP_dgHSAyOUqUO8JqZxHmiQXHnOFICp4mK72lOTbVG8bCbTWgLzL4cyHr9YiIJmWt2hBy4a4edmih3sAEY
+-c-flFK5_Mu5pWYo7iikVIasOCV8ad6KQ0HcV9m39QK8VePRh7E5e3wxEpbHgDyut8eZf9xHkLAa5aosHgzWeVX0buqLKf1wHWqoL_87kOmSA-90CSELOkH0
+mKBXH4bmfrn_ofxHgL8J1J_91pfH5j-ELWuOaNfWIFufrx5Ynd6k21rZnUqKecNc2iWRapD5GkVyADUnGdp5XpHLq4KhHdOCqPL3fMTenSXOWUeoOsLsf0Xu
+CpOQpvlfbD3p7bR7gvs2fudTgw-LQ9MUMI4-af6vSZlI6W4pU-IhzCXM0SWb4ZnMUgFPp1B9dd2e6zCeyN-fsXiUAf4DCrUY6cQkeEpqIiL1DDCgPULeD_NB
+v41nQUTMNLSSfd8tv5W9PFMrojovgc8IT8EIgc8C0zE2415AOaIOeYS185wlLURrohnt
+}
+
+AzureEntityColoring(APHybridCloud)
+!define APHybridCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybridCloud_tbg.png, APHybridCloud)
+!define APHybridCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybridCloud_tbg.png, APHybridCloud)
+AzureEntityColoring(APHybridCloud_m)
+!define APHybridCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridCloudSPRITE, APHybridCloud_m)
+!define APHybridCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridCloudSPRITE, APHybridCloud_m)
+

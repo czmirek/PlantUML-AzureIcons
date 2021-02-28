@@ -1,0 +1,13 @@
+sprite $APBookOpenSPRITE [70x70/16z] {
+xTStiiKW38LX4OOee_slzaN7CsFvvafVH_gXXMP5ZWRt56WdfCv3ZWhDe0AAfp-k2D0hg3fbKQcW55cUg02jSjRsiKnoCDKOu5QzFVDDLXnfJwy0p_9dGEEg
+Whhyw8wUgvJJUS3QxkjvjefLh68LgrZ5AbQnYbMiOfMTmINv_UwG2W_PEQqWJdF55GZe5JJuRuS0fQBuR8LGoFWJpe6GMfdvAglg2IWL4CVyZa10hw0iFvgZ
+vogKH39fMDxBV0C
+}
+
+AzureEntityColoring(APBookOpen)
+!define APBookOpen(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBookOpen_tbg.png, APBookOpen)
+!define APBookOpen(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBookOpen_tbg.png, APBookOpen)
+AzureEntityColoring(APBookOpen_m)
+!define APBookOpen_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookOpenSPRITE, APBookOpen_m)
+!define APBookOpen_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookOpenSPRITE, APBookOpen_m)
+

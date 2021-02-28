@@ -1,0 +1,12 @@
+sprite $APServerfaultSPRITE [70x70/16z] {
+xTG72iCm44JHKNEtxt_SC4vF5WPOJDE-0tnrPGMK5mDEYRoLTw27IbII0ahDy571XK8L2YXF1fmIDGLKLWCeD-gb4XNFhNjNu9K8ff25X5Cnu6qIHb3P3Q0y
+ahTI9kgb4XN7tPN_IrY46LGEmyVkUYjreLugKMb21QNHy571XS8e3EACaEWGDd5VcWf4vKzKRW
+}
+
+AzureEntityColoring(APServerfault)
+!define APServerfault(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerfault_tbg.png, APServerfault)
+!define APServerfault(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerfault_tbg.png, APServerfault)
+AzureEntityColoring(APServerfault_m)
+!define APServerfault_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerfaultSPRITE, APServerfault_m)
+!define APServerfault_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerfaultSPRITE, APServerfault_m)
+

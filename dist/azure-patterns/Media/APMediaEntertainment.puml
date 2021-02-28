@@ -1,0 +1,12 @@
+sprite $APMediaEntertainmentSPRITE [70x70/16z] {
+xTF50GH124JHosUyc_oZNRSxjLul09pbJzWaaP_2pCoYfG2CNH65M1HHO6YAA31BeX2R8afjobpKfioZQ8eeC4cY4AiY2fCWIZH1HqjXklMBuMuJNDsS1Q3u
+weUf5ZnCjG1YopBc56WfPsPcUm
+}
+
+AzureEntityColoring(APMediaEntertainment)
+!define APMediaEntertainment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaEntertainment_tbg.png, APMediaEntertainment)
+!define APMediaEntertainment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaEntertainment_tbg.png, APMediaEntertainment)
+AzureEntityColoring(APMediaEntertainment_m)
+!define APMediaEntertainment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaEntertainmentSPRITE, APMediaEntertainment_m)
+!define APMediaEntertainment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaEntertainmentSPRITE, APMediaEntertainment_m)
+

@@ -1,0 +1,15 @@
+sprite $APUsers06SPRITE [70x70/16z] {
+xTM7UYGn20DW17WAx_--wMNqALnXhr_-hsuPHNPirluUs8wgStExnQeNwxQGssEyBjo6ZhhORQY8pQ08fjj2ViYApj-wkxma_CPJfpTWplUpwjpn7K_a2bE0
+AJpeodFrdkSJb-oZNXpsLP4lGez64-Fka2OVnwowUFy8wtX9paljl72jmcKu-roo7YbJXBPAmfFmKPUnXhEAdJ1DGJj9A4JQj5sC7Zbef-HUHvkorSMYZIL1
+_sWvU2TNuNBq6PSn4hotKGtmWK5p1GvSLgZoUcG29cBj--kbtel8t8H7E8oeiq_v3giJzYiWrmFQi1xy0NG9xrEAIxlk8o9V17qGF1aWioGWaqu-o69dw402
+lwKVh1AXe-GImfmEFt7JUySXt0RraLCcIT0xfByoIvwXSiIv2fU1f6J3iXgXNP0DxDNOz3V3i-57VtlvRuDIMLIVGe-vSGhp3kn1y6bf6H7WOpu7YVW4ZtmG
+3Xj3q52RYIG-3M4n3M4n3valgXqb65PXCQt2x7juDZ1Tq7n_aqmt9ZhVrUNJFG
+}
+
+AzureEntityColoring(APUsers06)
+!define APUsers06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUsers06_tbg.png, APUsers06)
+!define APUsers06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUsers06_tbg.png, APUsers06)
+AzureEntityColoring(APUsers06_m)
+!define APUsers06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsers06SPRITE, APUsers06_m)
+!define APUsers06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsers06SPRITE, APUsers06_m)
+

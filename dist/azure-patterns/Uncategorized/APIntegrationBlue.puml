@@ -1,0 +1,16 @@
+sprite $APIntegrationBlueSPRITE [70x70/16z] {
+tPU7RkmW44NFpC3Y-F__znNkAuEq3aPswaaR-OOZbYP3tVQj0hIzKw6gQa0H1bYKudGyIa2A7sfwmgAgIrIbU1TpYwjo85MhblZNregurXTJ5IdUr61kiNyL
+8L-AksQpkGLNKv0c669tHUOTonKcwEXlgbByUQW225KEhYh-nvPZmDtqLp2PwLruZh7PsfrRqjgzOichxhgbNBDmIrzmDKsM9e2gAY1KLQ09op5OXAOw15-N
+epruTdGrmM50_6kZWOu5YvNEQD5inLbBEZ6p9LRNIpop567tzEMTnqKj3kR8nS7fdMB04ED3FXcJFGtwQ3bEvq28sUYQfdU8VNczHEbSj9HFP8bRBAR_cbdk
+cUdFmzFTsB5NOtEcRnuQK-VmpMFxLJno_DHIEdPasLHDB2PB75XSrJQn-CmYRkbBUvTnWNXzZfgA57yxckYrHpYCUpeUhSNXdcuYdIzeUXdFEWqffzUBbuuD
+bXULvoqXYm-MNTYgnQvPN1O6YvRf2wSjweoF5ky34pDB5Q3Z31XkMLYfnHWkOLP5leHzAipiu2PyV7hhKOfrmrwwsSHBJrCSMlTB5YteHugBMB6ugksgHTnY
+oR4qlc91PUJOeuIpPE6nxQsGufy
+}
+
+AzureEntityColoring(APIntegrationBlue)
+!define APIntegrationBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIntegrationBlue_tbg.png, APIntegrationBlue)
+!define APIntegrationBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIntegrationBlue_tbg.png, APIntegrationBlue)
+AzureEntityColoring(APIntegrationBlue_m)
+!define APIntegrationBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIntegrationBlueSPRITE, APIntegrationBlue_m)
+!define APIntegrationBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIntegrationBlueSPRITE, APIntegrationBlue_m)
+

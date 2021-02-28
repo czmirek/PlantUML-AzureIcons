@@ -1,0 +1,13 @@
+sprite $APThreeCircleOneLargeSPRITE [70x70/16z] {
+vTE7UKGn20DW2V6QzzytbVH6hDIxVm1z0cDqCPH5WJcHJodSZFB97ERhn8aYLXtbEy8CAJ93IlHsuiSm6uWFP8SQy_XbiaUDAcwPx9BvGCKSgB1njjRbPPz-
+8CLVB_zG2duyHLzwB_xj-klzzZ-DyDPIQ0vKv5KfDAiKcLLAzu7icT30HeWVGy2FGPyQYss8nZIJEO49Z2SHn2moGeeWpWorBY8itCQD1OOuHjcDEiUujsDM
+ZMCEDOfL9iOJc9FZYVYIBloAlHoOj8z7DaoYMQKiuvumJtMzUy31PJlsBJ4Zjx6lX2UVdBpvmW7Bk9L_eSjwUsU4PxiE4LoCWEiI
+}
+
+AzureEntityColoring(APThreeCircleOneLarge)
+!define APThreeCircleOneLarge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeCircleOneLarge_tbg.png, APThreeCircleOneLarge)
+!define APThreeCircleOneLarge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeCircleOneLarge_tbg.png, APThreeCircleOneLarge)
+AzureEntityColoring(APThreeCircleOneLarge_m)
+!define APThreeCircleOneLarge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeCircleOneLargeSPRITE, APThreeCircleOneLarge_m)
+!define APThreeCircleOneLarge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeCircleOneLargeSPRITE, APThreeCircleOneLarge_m)
+

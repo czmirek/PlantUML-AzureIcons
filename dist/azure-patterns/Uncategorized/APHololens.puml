@@ -1,0 +1,16 @@
+sprite $APHololensSPRITE [70x70/16z] {
+xPV_akiW28K1ZwXv_mU-uwJNMg1Cwj_xxUzTyaMEc9tIS_ueqDR6vBePazvQXT03fBPvQSOOhIOkrcu4YQehKu16XjoaP6X9SI9gjAD9fQP_VBWK1Tg3nIXd
+bWO0FREm4l6u9B5qm6YSHQx1_GeiSy8KA4IOhE_cA0QMQzwaREcEhf1zY9Vc3RIDBLtStzNNTqFXJiB2JYlNFbKWgijIHWCvf6mmERWssIpkwggjNxr-CAxx
+E5hTRL7UxAMkdaVzH5SONUlcOftHhf-mwkwKQgnPgh9C_oMoIhnaeNwQA3-DMWEQ7xhqEBOQqlrXt85PQls2wTjqn9-Xr6-O-Eokk-rveXbaq5YI9wnau3ZP
+NCDagP4atoWbJ_VRaqVJAO2x2oNLTAQG7ag8l6ORMmz2IQ1fez1t15uIQI29X04Km4YiPfOWiQmdDOkOX-tzi_1Tb6ZMttFO_LU8dlXCppGI9vjAyihy3lcg
+asGzIN6kFuec3oNHSEe-IzX9JX8kBgo3XCLe3w9nF_uQpL4eFeZZKDpzsOLo48thvo2QihuUybfCSVqSz2JYbdAmJqNSh1oq9EnoEHWPTkDoDhwCSqrvZudW
+S6GOS4S0AFoJe-25U_qYlpjWGdgo85_lMbmhoamis10NzwT9cDtrOgiuxDHJRX31IRiF4SwYJtcycIpbT1NU5AkAn8f_
+}
+
+AzureEntityColoring(APHololens)
+!define APHololens(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHololens_tbg.png, APHololens)
+!define APHololens(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHololens_tbg.png, APHololens)
+AzureEntityColoring(APHololens_m)
+!define APHololens_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHololensSPRITE, APHololens_m)
+!define APHololens_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHololensSPRITE, APHololens_m)
+

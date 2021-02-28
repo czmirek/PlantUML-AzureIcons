@@ -1,0 +1,15 @@
+sprite $APLightDiamondSPRITE [70x70/16z] {
+xPY7RkKm30I7fFh__-yLBV1uxLKRXxH9MsoSGMn9RfInHWEeQzF1bt3eVvK0qTTi1c1jh54eskefY-8463iM_LZ-ZAKhnQKSwtLBpNASOHbD-yWpbg9amDof
+MVyfYQSiQWj0JFqMTmV0V6E0YokbQaEeUaDKOU1A0PQb-SQo121gTSZopdpnil4iBpEsaUKhbghaHomvwzw2fId5COljCCYo2uDGgc1PUcmyIvsRUYz0bX-E
+VnrTAy8Wb29BO5n6EfPu-vOlopzFr2O0CcNf8gFpXkZ2mMBZG8ZVBprPkfA1Tx7oZFFNWJGWr6MvkutdqRrZiKm7BAxaRy3op1uTFxhdZ3Hl21U0PGGCkBOQ
+0JSsBlBeLgK143ga_pupQDCPWA_aBqleJwzPOctiZgM8QvQ-DkKnYzssrF_ol_WZnsLonx8rpZKBPQurdBJmuRXpHmOUuP0bK9KYopjtXvGDfzofsYaMVmiM
+Es6FyknzntBpAIlFtba2eUHPlispz_DFmbc-yfw1ffDKbgzOYf8TiUH8lo5B7BCeJWvPz7Qh6rb-1m
+}
+
+AzureEntityColoring(APLightDiamond)
+!define APLightDiamond(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightDiamond_tbg.png, APLightDiamond)
+!define APLightDiamond(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightDiamond_tbg.png, APLightDiamond)
+AzureEntityColoring(APLightDiamond_m)
+!define APLightDiamond_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightDiamondSPRITE, APLightDiamond_m)
+!define APLightDiamond_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightDiamondSPRITE, APLightDiamond_m)
+

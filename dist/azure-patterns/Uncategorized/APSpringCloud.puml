@@ -1,0 +1,15 @@
+sprite $APSpringCloudSPRITE [70x70/16z] {
+jLXNWkmm20j2ulutVht4CGasazNNDcif6jfn3uEJKeH4EkpOXpCc45iKODo0jioXU83GuEZnC1R0mf1O19uI4ylmMnB51jWb6Q5KgOfDo0fBkjOm6c2HdLQc
+B9eOGXDjV1GKSGeD6fxy2oJwISPXrtIZbPeJOyyK3A_Kop8k6R56WZZ5WTjQaIL2tOmjaIeLWqDxHNjmylwLds3sL0LkCYG_Thg5eRQzBlNmD9URBCu6YLrP
+g0O9hXy_QQh89JZ9JdC9hE0eIq7j3rGNV9H12QjPQXBFce-s7B9GfbrjiU0S_R4ZdE6LMYtjOVHr5Wt1n_aPLZtoImRFJi3Mb0jTPJ1ATKMwq3Jq-AWFLYuP
+iv1T7k7960FpwOjNmKTAOt3gjlYD_phhQkvaKK1jZe8DQj5KnssEL6QzpfoZi94h9rC7iYukn-BEWd4AydyiSlXFmCoIbEL2nUbxIuinIJxLjS4B63uPdAED
+KKLDsDiJV7-RU7cpwTFevOsl7njznIRSqeszVY7eRSIozoudDQnnnNdvejI_Rdq7
+}
+
+AzureEntityColoring(APSpringCloud)
+!define APSpringCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpringCloud_tbg.png, APSpringCloud)
+!define APSpringCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpringCloud_tbg.png, APSpringCloud)
+AzureEntityColoring(APSpringCloud_m)
+!define APSpringCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpringCloudSPRITE, APSpringCloud_m)
+!define APSpringCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpringCloudSPRITE, APSpringCloud_m)
+

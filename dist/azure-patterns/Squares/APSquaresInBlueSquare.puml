@@ -1,0 +1,12 @@
+sprite $APSquaresInBlueSquareSPRITE [70x70/16z] {
+xTCt0e0m30D0EhB__r-QDZfaIT5DcUBk6HCHz0GFCLOq9lQBVX43sV8SoVmpT8H3ezFvHR_e0ex7yAEx9utEvnVzShyl6Lq0o1SZsTlk7f--g6XCv1Vz4hul
+6HEH6G
+}
+
+AzureEntityColoring(APSquaresInBlueSquare)
+!define APSquaresInBlueSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresInBlueSquare_tbg.png, APSquaresInBlueSquare)
+!define APSquaresInBlueSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresInBlueSquare_tbg.png, APSquaresInBlueSquare)
+AzureEntityColoring(APSquaresInBlueSquare_m)
+!define APSquaresInBlueSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresInBlueSquareSPRITE, APSquaresInBlueSquare_m)
+!define APSquaresInBlueSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresInBlueSquareSPRITE, APSquaresInBlueSquare_m)
+

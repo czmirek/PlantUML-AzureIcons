@@ -1,0 +1,15 @@
+sprite $APSecurity25SPRITE [70x70/16z] {
+tTO7akGW341H2oG4tF--coX3czh-Q7FGv37rK72wVc6aR9yZf-yMnBolgFOzKgvzZwhVP-pHliKHx--YXklAhKDO3D7EKI98UJJ2pTIir4TLPyHUXoilPVet
+C7cbiJSWrMXHqcYXJYQZChSptgH9P3oPS-MQxZLwBZaTvrC2xVTJAksYk2SkjCriIkfxFFSotgLUhDXSHWNfGH4gQJygjiUMir9RQlHIAtJGZagYMNjK4KhQ
+doU_w1vpPHz1IWehlpuNc-Nl0NtvsJDIE1XVc5QvN95ZqkkIvkwsEKoyfbdHcJFUNuILYlqR9TNJfEtqC2c1ESln-IXZWspkNZ8_iJ9izFe2r1IG6dzbAE_6
+kCRCo5Vd8Fi3c8RTijnl6hPTQB5KsaXWfRKkPAqBuQTzllkMHYT7CYcfBUBC-1YXjDu-_nYcRC36yFDQnizrbJB3gUsAbSN4bVHGNAwBcRFYOy0dfcynbVdU
+IWmhxiNcnGSCAokOOINEiCBCzohCp0ErWSBCLAggEYZ8JCLKrK01PbCK56IcugfQG65cThSwTPSPdlIPOON35iCAHxwLJCgP2LV4JBoxp2o45MRa-a_Z8m
+}
+
+AzureEntityColoring(APSecurity25)
+!define APSecurity25(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecurity25_tbg.png, APSecurity25)
+!define APSecurity25(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecurity25_tbg.png, APSecurity25)
+AzureEntityColoring(APSecurity25_m)
+!define APSecurity25_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecurity25SPRITE, APSecurity25_m)
+!define APSecurity25_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecurity25SPRITE, APSecurity25_m)
+

@@ -1,0 +1,15 @@
+sprite $APDeviceSignalGreySPRITE [70x70/16z] {
+xPS7ikCm34C3uFvdtkRahVM74ZN-lM1Qml94aMwwVHD9KcDjv1oQUjoYb2JB5UKaQquJ06WLXhENuubday7M6uXTTpT9RFwbXB18CwDeYd5EwtMjpGIZw548
+jduAmthyrsw3yuYlzaCXddNN_1HvAC9rCAow9t0I4iTIt6uBBnXdw0fsnLkNhQEnCuemtpe8yqp6BJbObv0gtiPgyfKUGkYufGXZn7e8CJcToXufpeciJ6IA
+cLCONARI_yua8mM7JIdBOhIaH1tbdbHGxbNoQqqXHIAvK4FPbiRXoi-ZaFCioWqzWwAJxJhbRFDLYXlo7aM3yNqfVdPVo7Z-Z3oOhb8YBBbEeHhd8WKPn3Ce
+w6qe_fTf7byR5FEGTl7qplEUtkFxg2sbV1y1Y9OOt9fITFwQKYcwNxpOVK03QoNo7O1dDEtfbEfBXHUrSVOGsgAnGhpH5cJS4BzrzpkUSqoGMVzfCNmon5eU
+i4GfY7y1hQhBzeCjUbDlDfj7InK3XPh46upmoOe6YrQdL4aUlkwA5Toz17F8nAqFb9BjQaQMceCZzkSTOfbqBtVd5gj3oElLc94brIDYHftarKdOu5lzw3S
+}
+
+AzureEntityColoring(APDeviceSignalGrey)
+!define APDeviceSignalGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeviceSignalGrey_tbg.png, APDeviceSignalGrey)
+!define APDeviceSignalGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeviceSignalGrey_tbg.png, APDeviceSignalGrey)
+AzureEntityColoring(APDeviceSignalGrey_m)
+!define APDeviceSignalGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeviceSignalGreySPRITE, APDeviceSignalGrey_m)
+!define APDeviceSignalGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeviceSignalGreySPRITE, APDeviceSignalGrey_m)
+

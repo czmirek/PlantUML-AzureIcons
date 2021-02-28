@@ -1,0 +1,14 @@
+sprite $APArrow13SPRITE [70x70/16z] {
+xT5NUiGW34LXYWhI_lURveHl6ClbafxuFCDFaVb6d8xBbLMRSvfMCgc_f3dDAjHyoMfASqeHVwkbDATaNIt25V6UrJIdaDqWETqfLExByKKYf2ibdIXRWA1A
+zG115V7RSjfGIjrB1uHhpR5IQQSHKI8gW18YZI0bHeoc5F4XnfGO4Jghg52FRVKf9nLnwyw869zI-bRJu6TT2L3KVN5uH8mGHTmNnqQ58ONCevGmHIF465Gu
+lWgan4yoWXK9he8hl5O4Lk8d2Qo8U-I02hd73gOqZpD55F6jZCyhPB7HPBbBtrrt5Ttw5aYHDS54g48s4De9JD60m1L-DLIeXojaVIJlKTGw0IX1FqIvb4kv
+b4if5If72jvFLkRxDSgb47z0-H4
+}
+
+AzureEntityColoring(APArrow13)
+!define APArrow13(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrow13_tbg.png, APArrow13)
+!define APArrow13(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrow13_tbg.png, APArrow13)
+AzureEntityColoring(APArrow13_m)
+!define APArrow13_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow13SPRITE, APArrow13_m)
+!define APArrow13_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow13SPRITE, APArrow13_m)
+

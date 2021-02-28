@@ -1,0 +1,14 @@
+sprite $APDsvmSPRITE [70x70/16z] {
+vT9d6XiX38JXeOp4WY7tlsrmBwoJO97-_UPvQOhso2M8dU4fEs9NU5Ee7vUEwKdHBxRoTvLMLYZ2ia1HLhDowXzJMbsWRAHKiyBUPbKQUyby5YLPp4ehgVnH
+yrAIQhKfXGuzDIc2Kzvse-XmolWk6tm4a6rAHQG7nABqd0y0l54XUX7DfcJq6BDDQUYfqABql5EXEACYaJrNRKg6iBTPb1wKfD2e13agC2hgsNC7cr8Wx04X
+LOkY90N7f7seA13OKnKFkCCdIlD045xI4pElH41uJmDSdLOImASK2BDASmZ2fnAG9vKCA5-AY9CA0U5B2hGvnO7SKSgSidCK2h3DANv78Q1pIjXNyev2FPV6
+H7HCv7cfdfHpD3KW1eKB59fRWy2zASXOTBlXVJwD1KoNnlmI1VFfW2ZcIoiKj-H6aiOYvdAIzehkXm7lgUbT4cFmtx24auN_Gw5Czg1y1G
+}
+
+AzureEntityColoring(APDsvm)
+!define APDsvm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDsvm_tbg.png, APDsvm)
+!define APDsvm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDsvm_tbg.png, APDsvm)
+AzureEntityColoring(APDsvm_m)
+!define APDsvm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDsvmSPRITE, APDsvm_m)
+!define APDsvm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDsvmSPRITE, APDsvm_m)
+

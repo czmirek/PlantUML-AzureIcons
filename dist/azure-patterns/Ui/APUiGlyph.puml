@@ -1,0 +1,12 @@
+sprite $APUiGlyphSPRITE [70x70/16z] {
+xTK53aCn20RW2lhkV-254PcFZCxvOzNlAUcs8kqbIYcbC2zG541F5OHuQBCG0AOLiPOa5VMc7Yk4yR3TYZUb_hfIGf7P-vIaecqVELP6YsTOnNWJSyhqvimf
+u4quLc34Orl95Kf-e-btbVrV156g0ZvQuTdQv1D5E1wnzJzNZUXDUFnif7NL28P0lXgPbrPZAQMKCbQaVM4gVTn9ZoXuzuZ-IgMK7G
+}
+
+AzureEntityColoring(APUiGlyph)
+!define APUiGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, APUiGlyph)
+!define APUiGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, APUiGlyph)
+AzureEntityColoring(APUiGlyph_m)
+!define APUiGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, APUiGlyph_m)
+!define APUiGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, APUiGlyph_m)
+

@@ -1,0 +1,13 @@
+sprite $APCloud18SPRITE [70x70/16z] {
+xTE5ZGGn44HHDmpcd-ynZSgk7fNsHEiVm3DsUv9ci-t4bWSfKrcsxtPGXEm0HK90qH1KTAHMp2XoPAcOvqSHDaBC2yKYVmlh8wrG8gz55ocKXAA7S2Kx1I9S
+oNw0KCMpd_yYUsk5OZaA4A9uZeeBmfKSjoxBkkrxgxCiSoiLpniv6prtjyXRINl0Z1lBJbho9pvyoqbQoA4o5SLX9ugIv5x52xPK2zYA59cRPICjWoCPA2Vf
+VnL_aAB4JwI_aPmJfPhftupyEd6ELCLW6eKJHRiMwYXUan0i50HpwTDY7dcpiCRo6naGizdi5G
+}
+
+AzureEntityColoring(APCloud18)
+!define APCloud18(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloud18_tbg.png, APCloud18)
+!define APCloud18(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloud18_tbg.png, APCloud18)
+AzureEntityColoring(APCloud18_m)
+!define APCloud18_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloud18SPRITE, APCloud18_m)
+!define APCloud18_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloud18SPRITE, APCloud18_m)
+

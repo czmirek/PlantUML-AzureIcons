@@ -1,0 +1,18 @@
+sprite $APDockerSPRITE [70x70/16z] {
+xPG9ilCe30Q5sAI-_u6d4c6Ak4Zy-sNscNvhaEYI-MpB9SP0vGki1zzQpDpSlhMu_ziizk2kXJrtBJtmyMURj5vRtDmy0dRR9urVMZ32yc1xkiqT_Tg2c_Ej
+fM1cs6UBFUWMx98sVvjzim2t1yxBHyC6q-9zOp7hJyv9dvQP5dVLhBf_UFT9psNYS1-0Ez3Ixe7Pd-vgiR2CtyxFBCLjuQUMnAgXxXxUVT9ZEMPPBPWCD2BT
+9BrRPf4uBjE2ts3iTtUWoAIutUPXgraMwatB_W78zorkSaRvTfImV3bAWD-Ke1jBTplHQ-ts5feCFeUKIquVKfOTYRD6wEd6zGHsjcXjwQsaI72PKY-blvDK
+UOVxslWndYvlKNosOVM-96Y0E-D5sktsvGHEjrQpHcXl7AvoWNcIOAznw7ADUVwWSKpbLwZqfR6zAARZcjJfESb0UnWSlAdS83N7Mir1CmZ5RRJ4PZ2pLbJ-
+SludwrLewHSayBchW5nIGIyQ_dCM7PPz6Afdoz6OD5fZ2JmVbke0RMum0DV5ag4-_ng0vNXTzqIWOzFO5zL1cvOEjDUIY06r7HO7MgqEwEZizLbEOSaiaXQb
+5fOnWqg3VXo2YwGX4-qnIpB6ErDd2T2mZ0y9N88EMHhecb41g56V9OKk1lrOBb1argeu9gi5vbwW3W0nIAD9rti6JA2TB7E5XR0SJUdLqWJwYyNK3mqhDYq6
+yqw8B8euVhftbN7H3ZgHmrAWYm0I6AXKAA-MgMbhwR0K88sfHIHPJ7v4Kh2mHAUA98Qcq8V5_5WpmCm07zS5PW33CZLbAOK581-Z1NqUJr2c9MxDfPGFYzKa
+WzmDQraEYX5bdO4rdkLKdwNeeifl
+}
+
+AzureEntityColoring(APDocker)
+!define APDocker(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocker_tbg.png, APDocker)
+!define APDocker(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocker_tbg.png, APDocker)
+AzureEntityColoring(APDocker_m)
+!define APDocker_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDockerSPRITE, APDocker_m)
+!define APDocker_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDockerSPRITE, APDocker_m)
+

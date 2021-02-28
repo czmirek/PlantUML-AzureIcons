@@ -1,0 +1,14 @@
+sprite $APCirclesRampSPRITE [70x70/16z] {
+xTDLOWCn30HGaK4g-FwtRUoaIlTpfovtWalFAFhpOP7yMrRuj24sexmED5RqBA9sos8CKzGo32jizyn72wI8lGcev81oI7MBqhUCo265Zmh7ZfKMKA54P1wW
+2kaTeGehnABAjEAWSlHYXs9RbBf5yHsAnWwbRb5yXs81AY9CcOuf9IwfAGQaj5ZfUOWekQurkm8esROV3b4bhZtReJYevFPewm1JSdyu4x732hU5Q5OGk7Ur
+5Csf1PKC-mwbnmQbnWR50bEqji9v49XYMJnPX83IOwPS4KULI2KHl2-9O4g96Ku4KwYqteH8FH15QkL3bn15nnZFXu9651-NAEKAOqgRYkHeG4MUntYOVym3
+KFXrLbKcrYCGnSUesQ4MSLAnRlCdncYqeZtYhC9ZZ6lnEyz3ImDHLdGD1L2eHBaHrIC09SDILYyGXLNDhBIUVK2K6fblglmhMjuLfj-O5m
+}
+
+AzureEntityColoring(APCirclesRamp)
+!define APCirclesRamp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesRamp_tbg.png, APCirclesRamp)
+!define APCirclesRamp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesRamp_tbg.png, APCirclesRamp)
+AzureEntityColoring(APCirclesRamp_m)
+!define APCirclesRamp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesRampSPRITE, APCirclesRamp_m)
+!define APCirclesRamp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesRampSPRITE, APCirclesRamp_m)
+

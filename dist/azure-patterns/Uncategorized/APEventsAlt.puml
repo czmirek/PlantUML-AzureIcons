@@ -1,0 +1,13 @@
+sprite $APEventsAltSPRITE [70x70/16z] {
+xPK53iGm30GTXly_-5Bx99UPwn6j0jE6OH-Ktem2q7OpUiWY5hEBnONDk6B9cxdM8XQnQ41Ypj4Yhcf0CPHeYP825tOiwlOMiIJYHNit42ddz8zLeKDYYLmO
+ASMEXIUoERi643ymkwTPn3AyqfuxT5Vw6xUtTqZAEIh4S64eqH5yBCRMgB80eYRkbzCjOeb4iQH_R1HcBanSUDkzsnrHz-S3qIWSdLrAhdap0C6pwy-sY8Ll
+gKJ9DzzfJPGKgJ2yuFOMYrYqsuo6VVW1
+}
+
+AzureEntityColoring(APEventsAlt)
+!define APEventsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEventsAlt_tbg.png, APEventsAlt)
+!define APEventsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEventsAlt_tbg.png, APEventsAlt)
+AzureEntityColoring(APEventsAlt_m)
+!define APEventsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEventsAltSPRITE, APEventsAlt_m)
+!define APEventsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEventsAltSPRITE, APEventsAlt_m)
+

@@ -1,0 +1,16 @@
+sprite $APOfflineSyncSPRITE [70x70/16z] {
+xTO7RkD038LXTjt_n5iqfkZWqHHaRT_yQ6dpOQeHMjcRKNLVOTfJUokXbRQJyMy5vD-ovtAm12Lt035Naj0Zs_nvRq0O9ALCVTkCZhHH-epfIEERiWLJ9UUI
+gz1J5hkIqpbYLUjtruJfOngn57HI-n0rgSTICcUw62yZbSpaAW7AAb12GDGYImKADnNXThoeUMIejDgUPJ0SbA60_dRbKr7ChYj645zNaa75L7rMa455wLlY
+eu8CAdkierBvf12npKeMlNAahGBfh10xAZs2oiWu8fqIfWpCnJDQkI3JAp7UNMTw9AF2ns15vNb_R50iaToWL93nrmedacGgoEZfc_Rw5fJWcaol2ErfgOtY
+DPbUeLLicQDIB_E5uZcLAWGLnoKvNbi_-zmLM9BZ2MrdYi7DSzWM1WM2ZRcWm65FYlugHK2vkQBxohsJ3bhTktK-dhJbzgBYpKEINicPDWexRelrIcwCDWhf
+_1fnITGfnKZ_oL3HIZeb6QELlLIKLePACawF0fMCYa659C8PfeAA5TCe90V2WKeboKWqIkMzaZ5b6gyLYra9gjIYL_JY_rBQAHgWGC6D0WWeaCmAEofTpg00
+Wmgce2232cQIogNxWhcAWO8CAXWgoFXN
+}
+
+AzureEntityColoring(APOfflineSync)
+!define APOfflineSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOfflineSync_tbg.png, APOfflineSync)
+!define APOfflineSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOfflineSync_tbg.png, APOfflineSync)
+AzureEntityColoring(APOfflineSync_m)
+!define APOfflineSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOfflineSyncSPRITE, APOfflineSync_m)
+!define APOfflineSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOfflineSyncSPRITE, APOfflineSync_m)
+

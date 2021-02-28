@@ -1,0 +1,13 @@
+sprite $APCheckGreenSPRITE [70x70/16z] {
+xSutRWH040D1hkF_VooxYHpLXvdmEYOArBUUxTs1sBi30Gn0oipnRNKWTWlY5iGjY5iG5v2YChuZRa7SWhW5SGlYEdALjJXY_w4iUnKHQzg1OOYdJPdfVzi4
+OGn7ECEH6HYEo871Y4oOvOp8WQ78TyNdKMJeAe61Y9oPZ9oBo86XJoHdPfCdaWE34Jam656OS4HXn17zFOk819GRHTI2g0NHB2210KYTsH9W008OW3268vpX
+Y3GmaXc20EPaP4cCOGXdECAPYt0689ZX26UcL64oaZi08Gn020CGmW24CqEgCG11pAaZqWP8Swy
+}
+
+AzureEntityColoring(APCheckGreen)
+!define APCheckGreen(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckGreen_tbg.png, APCheckGreen)
+!define APCheckGreen(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckGreen_tbg.png, APCheckGreen)
+AzureEntityColoring(APCheckGreen_m)
+!define APCheckGreen_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckGreenSPRITE, APCheckGreen_m)
+!define APCheckGreen_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckGreenSPRITE, APCheckGreen_m)
+

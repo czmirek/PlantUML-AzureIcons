@@ -1,0 +1,12 @@
+sprite $APBigSmallMetersFillSPRITE [70x70/16z] {
+xPVL0OGm40MnrVxxFJ_S7VBcFnDVyGaaqGVo1lUomABoGHrqdIvdENeFYr3Epu9_b523gPPsDhR0OZe2Aonnqk0T2BCHSE-hkvS5bZmtDYFcU4jE8thlRybt
+jCYId-ujBIevXd-qMiHivsGMM19gW1_Gh9eHCNEkQ45kd5urKtMCtR9lV08
+}
+
+AzureEntityColoring(APBigSmallMetersFill)
+!define APBigSmallMetersFill(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBigSmallMetersFill_tbg.png, APBigSmallMetersFill)
+!define APBigSmallMetersFill(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBigSmallMetersFill_tbg.png, APBigSmallMetersFill)
+AzureEntityColoring(APBigSmallMetersFill_m)
+!define APBigSmallMetersFill_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBigSmallMetersFillSPRITE, APBigSmallMetersFill_m)
+!define APBigSmallMetersFill_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBigSmallMetersFillSPRITE, APBigSmallMetersFill_m)
+

@@ -1,0 +1,15 @@
+sprite $APEightPointConnectionSPRITE [70x70/16z] {
+xTW5bW8n403Hj2HCvlxtnQ5NAez-kDKgziUrdCfRg-NIfddTT25YypQ_JAdpjdQPubSP5-bRHSfbwPhfbX-ggWwM4lFqTlLDUSKt2JxhcbNKQQZYsoohcCF8
+NAnSFaNyT7vSb9QqY3ifXAYeIk608SLWB8XXXH5cG04anx3223EW099WM65apB32o9W11P044meWMIOKGF9CA8JacL0OoJDQcoAIPyHycmaWQIO299jxT6A0
+YzwR54fFZukqtXUoFuHEmr69nYSc_N1IOAFP4idunCJRF6poNqtpi5RtdrZyh_cl6hnbBrVT_kddpfU-dnzjWzYvoqZx_anBLIvPNrJ3vumLRemS6SqoV0GK
+SpU10qmUYVqBC6aa562oI2Z0P95GW4aZeG2JH4019e640amEOOMPCS8ACuo00amAOOKPHbXXXX5Gc670VOk0GeovAo1dN0Ve-ChcykiZVuhh8ujdKS5nDzGr
+V_MfX8ppFjV2VUzvrCiKZLEjYoUfbKlJpAdk2W
+}
+
+AzureEntityColoring(APEightPointConnection)
+!define APEightPointConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEightPointConnection_tbg.png, APEightPointConnection)
+!define APEightPointConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEightPointConnection_tbg.png, APEightPointConnection)
+AzureEntityColoring(APEightPointConnection_m)
+!define APEightPointConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEightPointConnectionSPRITE, APEightPointConnection_m)
+!define APEightPointConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEightPointConnectionSPRITE, APEightPointConnection_m)
+

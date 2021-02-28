@@ -1,0 +1,13 @@
+sprite $APMagneticTapeSPRITE [70x70/16z] {
+xTL7eW9128HX4r3q_U_xWl6NDkjEQcLWlgx9Y-zEfxFwG9QByO5OAqWhhMJyH-Dgj1t8Mufiim_cc3WCcAugVZ0mngHn88k26IGgeiqsOAYmYOL6QbTAbvfu
+Q2YC39NW-jfEbKD8ERRYf2IGyXLmbgzL2TZ_KItZPBa15T_IY9SZ0nK_5EM_u63YV6rjbwxBL6KQqgp4j8pkAJahUaIngOjkTE6Hl7rSajLgMUDnWHprIgqR
+gNHrAhoAsDThDokhH5M6dzqP0HHNi-VXcmE5ahYHy-oUOLiJRcz1AJU-kMrsYH8h0p6WW7amGAXWPn-DwVhJMsuF4QwFlqbQQQML-40sYwzEf_CB
+}
+
+AzureEntityColoring(APMagneticTape)
+!define APMagneticTape(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMagneticTape_tbg.png, APMagneticTape)
+!define APMagneticTape(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMagneticTape_tbg.png, APMagneticTape)
+AzureEntityColoring(APMagneticTape_m)
+!define APMagneticTape_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMagneticTapeSPRITE, APMagneticTape_m)
+!define APMagneticTape_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMagneticTapeSPRITE, APMagneticTape_m)
+

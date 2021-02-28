@@ -1,0 +1,14 @@
+sprite $APCloudConnectedServicesSPRITE [70x70/16z] {
+xTS5Wjn034JHabHgqFqF7CSQC0RQ3kw-XU7VC8mFJ8scSh71T2aZv0qPljZLgQJ1tH5LOngVK1O6CuoTmZUzfM8_MkbSwQiA_t3b_XNf7HN33HN3zOefBbHS
+PaYZ5IBzivMTWOhrXuZ-O1Yc4OvncXXHD8r4OcSW8tL7BgqCDsZn7rK-A_LSZtgEM8f1lguq7S1T1GFiWrO-AxLWW5RYl-QXwvEfua5CaSpo6bm1190In9jj
+Aw8qIQHafRuv8RsK-CfRmqovhUo_IRZ7MoLGuido9kvbKwahVbQftbwLICjAhDI3YaI4v6UdTbffjTO-_SLykAzuYQZFMxkTL2hfZMIGR0ULcEIZl-NDXYgw
+N8dAMSMzT7UFwUzeHK3F3u-vij7TpGTgZua2FpmN-W9pFr81VdHVw2j0CvitLijFL9BI3fwDfvNUMf_-Man_yuhKPhI4cLN1KtrpfBPIihA4_yuN
+}
+
+AzureEntityColoring(APCloudConnectedServices)
+!define APCloudConnectedServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudConnectedServices_tbg.png, APCloudConnectedServices)
+!define APCloudConnectedServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudConnectedServices_tbg.png, APCloudConnectedServices)
+AzureEntityColoring(APCloudConnectedServices_m)
+!define APCloudConnectedServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudConnectedServicesSPRITE, APCloudConnectedServices_m)
+!define APCloudConnectedServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudConnectedServicesSPRITE, APCloudConnectedServices_m)
+

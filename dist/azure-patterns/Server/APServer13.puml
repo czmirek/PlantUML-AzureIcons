@@ -1,0 +1,15 @@
+sprite $APServer13SPRITE [70x70/16z] {
+xTM9qYCX20HW6aNKzt_VFMPZTGsQq-oThdj-_gy8C8dycdpoIT9t83dhEn0o6mYPJIJZ7OZyROXgjXzHVGc1bTfFgSNm50AZ4AJqA6AjNqtB3o4ehMyZrliZ
+YDrSONiCQRrTxGRUJt7B2Za2JUP4Zh_YVYEjfBc0o5722YPtnbcmGaPCOWgD0hcE91HMUgZXbLtvlFc2dETNrvrmzciaZh2ka8ePW0gH4ISp8IMCmhpnJeZm
+FCbmE_b4bFbY4G-3cyAeJgitaiZtHqLb9FnVdH7h396umZGg8A8j8bg7KDqqXsDh9cIu4jJpO6qG1X6CmGgIyzOuKLwmBHPMZzw8V0zAl0VlZPDIFgyyleWS
+VOz9N58aXeXBG1WZSpNE2uW8x-GUaxcjY31eFDbLi4AogcB1s5N5vuzZRVxg0_UqJ6vrHhZwaSnEbW4YmZZB8FT3nFDHZ-IyjaV3mVAPElVx73AVGTr1-0hR
+3Z8Otq38F8ciwpSGLSKsScmuRI3ywcix27y4TGkH-hn29FO2UJGWmYXVvmS38eowkybJIVAtv9DFlW8
+}
+
+AzureEntityColoring(APServer13)
+!define APServer13(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer13_tbg.png, APServer13)
+!define APServer13(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer13_tbg.png, APServer13)
+AzureEntityColoring(APServer13_m)
+!define APServer13_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer13SPRITE, APServer13_m)
+!define APServer13_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer13SPRITE, APServer13_m)
+

@@ -1,0 +1,14 @@
+sprite $APStackOverflowSPRITE [70x70/16z] {
+xPO7RWKn20LDlV-DqnTPUJA1a9u_wYaZCsnRTSHVq3N1BesCD7v14mjV5bl0DwRXxXHx16gdYN_ZQHg2pIgaANVGKPhu3nka8VU01cdC0nwaKGzaa4OyqC5L
+mnvOAKsziVOV4WID8KrtLVBwWAkEGcE1DBrLMJcDKBOgggKXTwLaLGnfZXcCayQLv-TrTCuRQqoOfpH96wVtfEz8qfYYRN8Ky41ZWMdEcdrXPA1lU_39bSDs
+zEXUkEs9nKlhHYGzU1WUT4sFH6DkVoVWufzrOmyoMDZ8eol5LAWGcWgl3LEcrAFbaYfy_3LL7lO1pYTu5CGSYVaYDAqSFs7RV5nvjICuNmuhp8JprKoYdeAh
+UmOEIYnsF0tygpvpk5nnljXp_2k3fJQV52tvV5IqvFEjfWKXKHjOWCH25Twoa1VGts-vMURNIvrliTmi_0usopq
+}
+
+AzureEntityColoring(APStackOverflow)
+!define APStackOverflow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStackOverflow_tbg.png, APStackOverflow)
+!define APStackOverflow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStackOverflow_tbg.png, APStackOverflow)
+AzureEntityColoring(APStackOverflow_m)
+!define APStackOverflow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, APStackOverflow_m)
+!define APStackOverflow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, APStackOverflow_m)
+

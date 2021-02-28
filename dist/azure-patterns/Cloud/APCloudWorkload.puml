@@ -1,0 +1,12 @@
+sprite $APCloudWorkloadSPRITE [70x70/16z] {
+xTO54iCm44DH6MJe_UzRvbOpMQVS_SE15uwDY-9YOX6YLock58gAHScoJr5SgJB_ZcIkz4hMcKfFsCOvIiEXCAxqW6EfrZwc95oM-uY2wzA0Kd4JxGfnKx8h
+2JS5ifcK5iG6rQ9aY9952H05YnBb1XQ54D7qZ1ZlhkOV_-jSyRcKAqtshUzka_tVatR5nm1NGfrOm1DQ0G
+}
+
+AzureEntityColoring(APCloudWorkload)
+!define APCloudWorkload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudWorkload_tbg.png, APCloudWorkload)
+!define APCloudWorkload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudWorkload_tbg.png, APCloudWorkload)
+AzureEntityColoring(APCloudWorkload_m)
+!define APCloudWorkload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, APCloudWorkload_m)
+!define APCloudWorkload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, APCloudWorkload_m)
+

@@ -1,0 +1,14 @@
+sprite $APQnaMakerSPRITE [70x70/16z] {
+xTD7jiCW38LXYIA9V__xVIKzSJY1UF8AtvXp4TUo_6xBiYpPl74INbNUK1lSyoIpWcz-5dpByo7j_WtPfsCCOjD30PACIn2oLS1bd7SkzPatAKHlHfDH6Oey
+rGWPLRijEiWGBJKW_9lL_5PASkwrEfzYR8NUflXOYESa5wasQ9SO1HjfjQLjeRIR0sLWJPe-7T0tUzJddPi2z10I8_zHxwOCzPHc8njRk_553wtaVHiBbXHY
+Rmf4WEvAAS613VJIJMaYsG7QmBfqs_N30GFoz9VURcoDa1TgPvXsMsgML-Bfm05L9YIs1QU0a2cdXKWNnO1GcQ7WeiOzbpa6vjoBB9CQ1r4laigip3VFiai0
+fhAF4bLsArd-d6LPbay
+}
+
+AzureEntityColoring(APQnaMaker)
+!define APQnaMaker(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQnaMaker_tbg.png, APQnaMaker)
+!define APQnaMaker(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQnaMaker_tbg.png, APQnaMaker)
+AzureEntityColoring(APQnaMaker_m)
+!define APQnaMaker_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQnaMakerSPRITE, APQnaMaker_m)
+!define APQnaMaker_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQnaMakerSPRITE, APQnaMaker_m)
+

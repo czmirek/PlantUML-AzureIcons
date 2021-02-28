@@ -1,0 +1,12 @@
+sprite $APReportingSPRITE [70x70/16z] {
+xSo50G8m30J0kcJ_VN6eFFeuv0OuMIlc32ThqTWYMy60wnTeg0KQQe66Mg0XbxNMa0is_D8QTi66Nrh3BjZmIslO1Hj-QGsxOCClhQ4MRAvTpWlCWln3blXT
+Yyrd55WOxd6BBZuU17v9Sb1_RD55bo2DrKLqqIKsZb-aYUzSTD555rqeRLa2
+}
+
+AzureEntityColoring(APReporting)
+!define APReporting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APReporting_tbg.png, APReporting)
+!define APReporting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APReporting_tbg.png, APReporting)
+AzureEntityColoring(APReporting_m)
+!define APReporting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APReportingSPRITE, APReporting_m)
+!define APReporting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APReportingSPRITE, APReporting_m)
+

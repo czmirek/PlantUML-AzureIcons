@@ -1,0 +1,12 @@
+sprite $APImmediateSPRITE [70x70/16z] {
+xSo15G5140N10J3vvmi1zBvj0FShWAevXxufyXTBbYohqqOic7Hln889D6Av9T28PTFSyC8DBgwXHJQms0OMsy1Y6rXi0ujjOB4DBBQ1nJQms0OMtO1FDATw
+GdDQrQCD9BQ1vArYDr3JUg10bkM9Y8Yu
+}
+
+AzureEntityColoring(APImmediate)
+!define APImmediate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APImmediate_tbg.png, APImmediate)
+!define APImmediate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APImmediate_tbg.png, APImmediate)
+AzureEntityColoring(APImmediate_m)
+!define APImmediate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APImmediateSPRITE, APImmediate_m)
+!define APImmediate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APImmediateSPRITE, APImmediate_m)
+

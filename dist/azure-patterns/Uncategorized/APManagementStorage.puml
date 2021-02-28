@@ -1,0 +1,13 @@
+sprite $APManagementStorageSPRITE [70x70/16z] {
+xTTLWiKm28NXd4PX__kzheKA9EFpLnw_kYJCmxdG5PuDGO1-nEz0zbKAj9oAdy5A3iEluESe-595DaR160LVeyHS3BLpDGh5YbmIYWTfw53QYnAyIdrJtXa7
+Sb7Uyo1IyI1IYMbN-IsXE0odaZzHQLernQ2LhCg_ygzWjvBJ1olJReL6A6nMgeoevGGjNL7Bg-bAdbTghUMobfMzvuNu5ENAMdMdGZn08TvKtX2S4WgnIG4q
+XTYY0Af2R56WAyGZ53Ofq1KUeV1-1RWWYi8c1L0L7g5Ghr9ELVd6B4shwCgbR6XHoPrAT21PZaccQ6twhkCZF_C3ZoXiTWG
+}
+
+AzureEntityColoring(APManagementStorage)
+!define APManagementStorage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APManagementStorage_tbg.png, APManagementStorage)
+!define APManagementStorage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APManagementStorage_tbg.png, APManagementStorage)
+AzureEntityColoring(APManagementStorage_m)
+!define APManagementStorage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManagementStorageSPRITE, APManagementStorage_m)
+!define APManagementStorage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManagementStorageSPRITE, APManagementStorage_m)
+

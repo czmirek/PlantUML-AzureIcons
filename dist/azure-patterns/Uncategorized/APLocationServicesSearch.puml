@@ -1,0 +1,15 @@
+sprite $APLocationServicesSearchSPRITE [70x70/16z] {
+xPPNkkiW38G1EHH75llVxGrNfpkCv_Gwh-BxrO70AKgjgjOlCcrBU85IrVv4BJsNeVsQwhCWjK-aye90J6ijjJvCZiMSRX7bGHsaMNTb2f9l67bYw9c7bB1N
+h6uxxddfGziaUt6CK3NHE2tyDkosj-zzAPhdpKyWwVzqeATqE7wPoThZ1PxC6yaCzef3iUDLny6e3mCt3GNvq438mC4JlILjd4Iso504fAvZLW8bK9X1QGp3
+ZrRI0HuPdLEMxqdfxqqfhwOe_spfd7Bsah6BP61LAKW2UoliDhg_yyJ8tmp8tqhsEiFBBf716BXuwM1A7qhK8m4FuS5gnpb5SrU7HngYAF7oISUOgDGNHk6d
+GTnSc3TYw0H-I9c1k7JNySMU0z5hd9Xr5oM2h46ikwpLHIvwy5NT4WSPZbkVg4KMCYJhDOQcG4DSQRMdSKXW8GybvQmEqBKuWeC0VJF87-GFyWVvWrG0uOKW
+l0n0U8dr6bwjVm
+}
+
+AzureEntityColoring(APLocationServicesSearch)
+!define APLocationServicesSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLocationServicesSearch_tbg.png, APLocationServicesSearch)
+!define APLocationServicesSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLocationServicesSearch_tbg.png, APLocationServicesSearch)
+AzureEntityColoring(APLocationServicesSearch_m)
+!define APLocationServicesSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLocationServicesSearchSPRITE, APLocationServicesSearch_m)
+!define APLocationServicesSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLocationServicesSearchSPRITE, APLocationServicesSearch_m)
+

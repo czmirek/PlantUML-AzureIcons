@@ -1,0 +1,15 @@
+sprite $APAzureCyclecloudSPRITE [70x70/16z] {
+xPP7TiKm24MD9Eh-zvlcRdW-SJBrdUMNAtWe-4-0bvSNelyAMECRr_5d5NiSqFONHxUueC_haSXuVoYnA9674W1_PzvPLRW_RcUdj_rDkmsS0_4aS0_0ay0b
+dW0q58_mkgcEFgvI1cQbHVFdb4V31t1b0OVXn1p4WZJ-wu0RgXad9h-oQDsGtRJ4-6BvQlrEcmwzWrfIkTIsXde-hrnEUSCDTreRyfprxP8Ccyyb_VcodqVM
+0rWqEUP2vXek_yTwJN-6l7BGMUqZtoi66yw5wf59DKkwHAiUuSeDPJr_daIFHzfq2zKviKTmEpJ9XpgIGyf0citAat_lNsuTd5wkLjMtMzgg65ewy5wtqznK
+MTKldrWTmmF2Q1_icQPvPJolZkBUD8rx1kZOjK-5mrLL-8jg2P7uwKNkK-LGk8ItJpFFvpGwNUXwutkoO8QLCyr9OWk9eubDLbaw9mLRGCT4zLF9dDkU9ui7
+T9GpbRrFqszY1ZcwKSusUceqSxuwbhErVM42ZEcojbZXKvRAQdGG67jEfMhAb3lXiUFVC8qNMYFqjCELO70Pu0ShWbYFN1Gov_hoyl89
+}
+
+AzureEntityColoring(APAzureCyclecloud)
+!define APAzureCyclecloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureCyclecloud_tbg.png, APAzureCyclecloud)
+!define APAzureCyclecloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureCyclecloud_tbg.png, APAzureCyclecloud)
+AzureEntityColoring(APAzureCyclecloud_m)
+!define APAzureCyclecloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureCyclecloudSPRITE, APAzureCyclecloud_m)
+!define APAzureCyclecloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureCyclecloudSPRITE, APAzureCyclecloud_m)
+

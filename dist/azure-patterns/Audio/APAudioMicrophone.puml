@@ -1,0 +1,13 @@
+sprite $APAudioMicrophoneSPRITE [70x70/16z] {
+xT85OiH028NXnn0txd_Q2Y5JrcBrbczTyaSOE8KeR11Lm3bVYKfKeXALg4GbAb69YdrrjcAR_9PALFX3AZXReG-fu4zNpi-8VyNQPQpYXvK6hvAe6gjglw_c
+je99L8aLfQW9ghLF-Zn0TMA6XyHqKFFdSV1bajt87_qIJ_bmzodXhsHVYwfmTKxhEimgcmUB6lm4rlafvZEPbZSczR9XI5TBPygpwf1HqQme2IQVVmkal7mF
+A-JjFDeykuD8Pet_CD31oE1sxyR2E82l1zQ9QNbtexrUEg1H5aDJSSAgn5Kpo68akCmv5Z7KoodzrKGQEQ61UGO
+}
+
+AzureEntityColoring(APAudioMicrophone)
+!define APAudioMicrophone(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAudioMicrophone_tbg.png, APAudioMicrophone)
+!define APAudioMicrophone(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAudioMicrophone_tbg.png, APAudioMicrophone)
+AzureEntityColoring(APAudioMicrophone_m)
+!define APAudioMicrophone_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, APAudioMicrophone_m)
+!define APAudioMicrophone_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, APAudioMicrophone_m)
+

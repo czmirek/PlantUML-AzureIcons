@@ -1,0 +1,14 @@
+sprite $APWrenchClipboardSPRITE [70x70/16z] {
+xTU54jWW403H19RBaV__tohracMeouxTs8iBnwoJfyv3-fsKixoDfyhRvbYxtvGybVURuazIUZxLNLdB5U-_aj4QhSMLsqe67sgvfIIV53lxqaEG5IMR8gua
+YhZISSILveWhboEk98wu4dnIRYaTXCa5vKAOQ0jAuva9I5KwF381NAeaSsOWX2eNSsOWj5s57CYkye49HliA6R2wBudqtPHGvSPBLm9jwJcomfNUi58LH-1M
+nH5I5RouJQbexJQbugKeYuWeZj3wBOeZNFebSIJodYjpf5t1XxdxLwtEJaBczQeSn4GHvB7OG4Hnn1L7N7745KTSSSGLHzQL0a0LH9GJe8nTcY2kbFSBzJf5
+NAbGnyXeYimLe7m0WRgpLgiVbBV8iQCKO4nlaItbP9oOSo0xoZWRfTI1R2e7eu68eizHEVQKqLagjPp7ll8I
+}
+
+AzureEntityColoring(APWrenchClipboard)
+!define APWrenchClipboard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWrenchClipboard_tbg.png, APWrenchClipboard)
+!define APWrenchClipboard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWrenchClipboard_tbg.png, APWrenchClipboard)
+AzureEntityColoring(APWrenchClipboard_m)
+!define APWrenchClipboard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWrenchClipboardSPRITE, APWrenchClipboard_m)
+!define APWrenchClipboard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWrenchClipboardSPRITE, APWrenchClipboard_m)
+

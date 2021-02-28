@@ -1,0 +1,16 @@
+sprite $APClockGreySPRITE [70x70/16z] {
+pTW75kGW30DG8vhW_lVTocfQ89HjUdt2_6SxFTOFGY9PluNC4RQHmFgUah16v7T1a9isIXr4phJ156D4Y8bSSa090TqsmnY9u_vzQjivAeVD2DPDkYl7SQPU
+lAq206SALEnDGXloe_xuZWIR2CL8UK5WDi_43uKBY8OSfEmWOl2YH25hJ7bMi8ge_FIaK7jd9VLxy4DHFxo-of39Bg8EoWz5gEkTLxoPS5EY-bbKx5bfmzvG
+uaC9AcLMWV9GiagPLQeYnJNiJ0dQGISAjV14qMndbE41Y1D5bpyxLPBMdIZK1VHKYV-9Kd-RWj-YXB_GKGtdqnLpSBmOvvYipdSPrMn7ZCxfOqPBzXZtM9Dj
+bq4joV-wmTacetz32tOOFPaLxUirHbTAhtsDFOQw8xewKupnOfbl3Mb2k6U4A4LtnEbYZBmwxgDsbmhRU2GpPVdXyEDfK5CgYqZw64JMBzC95mtKLSP_73zw
+RiwBbQJhdxc4iBi1ywyIxFXp5tnGI9-XcoXaS9HYuhKx525tRx4ruNfxd7il3_qF72wqNdH43CjH63s-Mm1YAlgvUBiFM4SfqUQ2t3KOZh_ZCC5MWvZBi-1j
+F_WUkyjN
+}
+
+AzureEntityColoring(APClockGrey)
+!define APClockGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, APClockGrey)
+!define APClockGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, APClockGrey)
+AzureEntityColoring(APClockGrey_m)
+!define APClockGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockGreySPRITE, APClockGrey_m)
+!define APClockGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockGreySPRITE, APClockGrey_m)
+

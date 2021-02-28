@@ -1,0 +1,12 @@
+sprite $APWhitepaperSPRITE [70x70/16z] {
+xTO54WCX58FXaa3kV-DwE_fca7No7-1RGIKXjGUzmktRa28ieWYBAC8YYh288YoY28iemYAAqAlmN_vAQIWSGB5YfQWsnWfLNwn0rPLOIM1jdY_7KRoEl8wi
+M65rM7i5S14bvLABqFFb38eLAmXQwCwGwnKghbw1ml8I_mMUTJtA0m
+}
+
+AzureEntityColoring(APWhitepaper)
+!define APWhitepaper(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWhitepaper_tbg.png, APWhitepaper)
+!define APWhitepaper(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWhitepaper_tbg.png, APWhitepaper)
+AzureEntityColoring(APWhitepaper_m)
+!define APWhitepaper_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWhitepaperSPRITE, APWhitepaper_m)
+!define APWhitepaper_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWhitepaperSPRITE, APWhitepaper_m)
+

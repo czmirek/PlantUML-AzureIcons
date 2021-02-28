@@ -1,0 +1,9 @@
+sprite $APConsultingServiceSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APConsultingService)
+!define APConsultingService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APConsultingService_tbg.png, APConsultingService)
+!define APConsultingService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APConsultingService_tbg.png, APConsultingService)
+AzureEntityColoring(APConsultingService_m)
+!define APConsultingService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APConsultingServiceSPRITE, APConsultingService_m)
+!define APConsultingService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APConsultingServiceSPRITE, APConsultingService_m)
+

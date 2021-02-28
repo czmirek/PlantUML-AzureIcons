@@ -1,0 +1,14 @@
+sprite $APHadoopClustersSPRITE [70x70/16z] {
+xTM7Sk9048JX2Qqqx__0juFeoribr1Tj_nKSW8zjuhgNtBxMR-sZRH7RMbbCRFcFbGy5RhfoL8MayF-ReYJWbgS2u9xY0C9ihyFv-mqbCMgDlzzH0gFyveyR
+2ZgtoCWqon7yPIKmYYTcvj4PYrVEmYb-ClRCjugBYeS_hOnenft-KRLVKXX6F0NvwfQh2jBCmQF0lxbgnJLbU_oTvr6MgiFONgFzaX8rwaEGB4mtpHNd_HcL
+jEcc-IBKaMOu5yNU5qusJHKMV7JPVDDS2OpY6sQwQQuuyDF3SDFLHJaYCjaaV0TmawPmaw9mqx6cgDXIEm0N5LimIbKnTA4gZiv5nPAR58MRH8MRD8MRL8MR
+lbM4JLJMk56YYqThtUr0jvROXculiGNTKUoDRJAFsm7yib0w6JSjlf_Kq8LD-jXaQab5Yug-oVIIYXOLhQ2YbPy
+}
+
+AzureEntityColoring(APHadoopClusters)
+!define APHadoopClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHadoopClusters_tbg.png, APHadoopClusters)
+!define APHadoopClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHadoopClusters_tbg.png, APHadoopClusters)
+AzureEntityColoring(APHadoopClusters_m)
+!define APHadoopClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHadoopClustersSPRITE, APHadoopClusters_m)
+!define APHadoopClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHadoopClustersSPRITE, APHadoopClusters_m)
+

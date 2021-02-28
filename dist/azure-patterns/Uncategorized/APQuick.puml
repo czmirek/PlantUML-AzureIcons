@@ -1,0 +1,14 @@
+sprite $APQuickSPRITE [70x70/16z] {
+tPW5RiHG30NVXv3gTUv_sf8LBGMaZaMT0ymtlA0uRPp5gAEjtmXGGe4iPGu3ieGZSFsDPflXDdLQY4zLWeNuIFAn1fC0OpYiCWalH3qaJS8pSIQf4P4YHAou
+2Z7TPqBx6VQoV4LzwUT3EwnNz9Sb5sYnw0TPeXJJBlsASYybd7n19iXqdmgChIkZeKMGCR8FMUAn0p6ueNiwPq4QtVCz_Zt5KbCieip_oyAdcx_f8IMxSyfr
+PDoITcSulalPBij-O9R3IdUn_IKvjPHuK4ABvhCjzLtQtgE4n_TU3AJulHZwOFCYYC6dxFw0-PigVsikAJqPrRJGDBpkNv8qOux6AdqU17CHeNcAfophvcce
+AzyyFhT2_tW4hXIF06MwKKjGGoHE7vSl
+}
+
+AzureEntityColoring(APQuick)
+!define APQuick(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQuick_tbg.png, APQuick)
+!define APQuick(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQuick_tbg.png, APQuick)
+AzureEntityColoring(APQuick_m)
+!define APQuick_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQuickSPRITE, APQuick_m)
+!define APQuick_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQuickSPRITE, APQuick_m)
+

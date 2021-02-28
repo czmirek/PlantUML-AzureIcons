@@ -1,0 +1,15 @@
+sprite $APMagnifyWithLinesSPRITE [70x70/16z] {
+xPS5TWGn28Q114dkVzywAtaBPEhsj-ky3n-1GFGeU8CQwtoHISTN8MGkCiQZ39kt94SuP3CIRqDu9hBDS6pcQb0BRLQI6ZAksz88WQZBY35vEdOr8YXnZMF8
+wB08PRCsd0TDu-G3OmYj8SUbrurysXjCsX99YXcvWTUaY_Hi57eQYdlHEJKpiziKzOnp2bXM6LnyX1JonBD8MqK1I-hhamabnMSJOmzQKp3fai_AIa74m277
+3cYXKEyzwAO6bNyt2cvGkAJ06oXlYENDTObxrFOfainBG6cjuGtJm845b8SN2ZOksewSuXkNxJINb94Sflp7KL4uACjre59GXgUUBlp4b2B56KclZfb8z8H3
+z9VhqmrLfqQ3K5ZRY9j8VM6246eKdbfm8e-iHijYdRPxOQYq_kQHhbSUiRlrOgg9JTS-na7A3nBrC8vYSjMO_cPCVSdBoSLTr8vLYW2OOtAED_yG1fe6jqS1
+9XGngzfGLMxWoZ2rVX3c7_EF-SS8m5inDQJ6EEIj686t2_dfvHu
+}
+
+AzureEntityColoring(APMagnifyWithLines)
+!define APMagnifyWithLines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMagnifyWithLines_tbg.png, APMagnifyWithLines)
+!define APMagnifyWithLines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMagnifyWithLines_tbg.png, APMagnifyWithLines)
+AzureEntityColoring(APMagnifyWithLines_m)
+!define APMagnifyWithLines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMagnifyWithLinesSPRITE, APMagnifyWithLines_m)
+!define APMagnifyWithLines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMagnifyWithLinesSPRITE, APMagnifyWithLines_m)
+

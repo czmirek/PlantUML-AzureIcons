@@ -1,0 +1,12 @@
+sprite $APNetworkRoutingSPRITE [70x70/16z] {
+xT575i9040FHRk7xNvcSnA39IzKARBtl57zopZddd7FEEOSTKw33Ihot0daDCjx9aM3m6KW7D6eEK55IZq19fRw2Ed_SWfmnCg1e9cUL3CbeHI7C1CKAHmWn
+eqf6MGufZ31JtlHTEPLNvl_CyF2WVfICpY2GmK38EfEn4WXPOp9Mmm8ozaql
+}
+
+AzureEntityColoring(APNetworkRouting)
+!define APNetworkRouting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetworkRouting_tbg.png, APNetworkRouting)
+!define APNetworkRouting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetworkRouting_tbg.png, APNetworkRouting)
+AzureEntityColoring(APNetworkRouting_m)
+!define APNetworkRouting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkRoutingSPRITE, APNetworkRouting_m)
+!define APNetworkRouting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkRoutingSPRITE, APNetworkRouting_m)
+

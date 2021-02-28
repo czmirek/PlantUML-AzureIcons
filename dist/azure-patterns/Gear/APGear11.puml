@@ -1,0 +1,15 @@
+sprite $APGear11SPRITE [70x70/16z] {
+xTW7SiCm34HH0g3h_U-RdYoryXVJ-qutuSScZahRJlMxL9laHod_IaPR9BBwGshTHaZlCPHLjzJOsdiI8YRxnQGGOvR_2wq6Ep6QZZmmWOGAW55LTOuND6Bc
+0OIPpBXBPW4oPJAM5mWZp2HiummPDwVmG6Yh8FcIagIX0FAoee9sO0gR7NbvNMd2kmCbXhMfhIvQQuSp9SSh8dWeCLU21wEMcQ8USK8nKQnOCNwkQE0meNoU
+aZ2bnHXhD-HuGGbJyY5uK6iz5dMgVoy222WKG5wc520lL0WvcLAR2Y37UedI0MdvejK5PAROCGB453n8zhCXBU44y4EJ8wPujUBwpX1J0kucouQz8QuaB8jM
+tH1Nh9Qcb8wi5PNolTuGK-nkGJU1Wo5hPVjElO6qq5sjR2YMP4GHabJm4gGQ9ER8_2besEAJnakFP3b7L6O6C83uGsPaTK_E4AKgioG0WmY7cJWzxKxqxLHe
+Q0sOevQH-oz3d3bERXGLQXTYpD6s5TUXXAmO8RQvsdSn3HBD4wM9_7yX-5VUAzS
+}
+
+AzureEntityColoring(APGear11)
+!define APGear11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGear11_tbg.png, APGear11)
+!define APGear11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGear11_tbg.png, APGear11)
+AzureEntityColoring(APGear11_m)
+!define APGear11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGear11SPRITE, APGear11_m)
+!define APGear11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGear11SPRITE, APGear11_m)
+

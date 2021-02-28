@@ -1,0 +1,16 @@
+sprite $APEasyGlyphSPRITE [70x70/16z] {
+fTXNWeGm20RWa0hU_xxRiR3wOmXlM-QRI92K12BNrWTBYWVL8TjlX8d6sn51es-NY1coBIjDZGKb6qDuz3QB53aBlQH8j9C121pZP50A1WDZVYIIKpYw8ann
+f2eoKZoo8cq18QsJ6ZUEpFRtzLaUduVV8xMMXqeHca2-mlpkRoXb2h4CWpb6IBqR2gqWMhLj2KdoWyWQal5GC69RKrv24jy_44qXT5_xLCi4elDSB5ALGOXj
+B6GHPI1YasiHPI1YQqwCeWn6R6lXX1cCw4IFX1cCQFtt11Y00CKm2D6qwXC11Y2QLiqkO3H0MdMcVGObHAiEC2YnVssb0YMHW-YxN0jiBraHqoZiktnq1iGG
+tcdGqQK0GxZQsE-O6I17ptQxToPlEvbdLvAdHSXVrRoXTB32-a6NNG871zClkvuS6mnjrzaTYde1DomviaiT_vwWlzuTee_GzXTrUfTDTxziasSWkw6QoSru
+-jBn_ZH1_FoLR4ys_jcI_LEMVzXcvyGdZT1X6sUmEwVFSlw7vbI11hUZGL5kl9sZuioPuD7QE82NCz3K0I5-RLBt39t25QTJv1R799o2DqeQCYecyEtMp_L9
+XRFo2G
+}
+
+AzureEntityColoring(APEasyGlyph)
+!define APEasyGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEasyGlyph_tbg.png, APEasyGlyph)
+!define APEasyGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEasyGlyph_tbg.png, APEasyGlyph)
+AzureEntityColoring(APEasyGlyph_m)
+!define APEasyGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEasyGlyphSPRITE, APEasyGlyph_m)
+!define APEasyGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEasyGlyphSPRITE, APEasyGlyph_m)
+

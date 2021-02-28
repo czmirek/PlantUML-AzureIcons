@@ -1,0 +1,14 @@
+sprite $APSpeechTranslationSPRITE [70x70/16z] {
+xPK5ebin30H5A-N-9swjW1ns-g0VF673PAs0w0Pc-WG-GZT4BBMuCIB05lpl5eupIoo4EE6BJXG14NneAL6xDuzZQLiOfUDCpT_TvxI8C8kKDezoFXXeZ3kB
+eBA05zN5JNrvTPT_HXmNT44MA5a4MB7yTyIq757QcCd4ElHcJcsKGqVSME8mYXHnRv51g7XWeK5-kgMQqBPP1FKSdrYGX503GcSOUS-i0vPSv-ULtHhL5WtG
+d1E3lhBqnr3hB4A51IpyPAdwbgN7kPwZUyxHWeKypsBSMGGXlSKeqSYtrQSMHeraVJn7cuL9HYsgNHIZjEHkY96TWmLIzTnIMTXJTQeFm2Gkvp3keQ--Bswg
+QY0opM4cj4oQeV2NPc9LVlqBO94SKcg8GtFKTlbDJyiwFM2TVhHERwGVnMGogSvnTryl1XPjn-GF
+}
+
+AzureEntityColoring(APSpeechTranslation)
+!define APSpeechTranslation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeechTranslation_tbg.png, APSpeechTranslation)
+!define APSpeechTranslation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeechTranslation_tbg.png, APSpeechTranslation)
+AzureEntityColoring(APSpeechTranslation_m)
+!define APSpeechTranslation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, APSpeechTranslation_m)
+!define APSpeechTranslation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, APSpeechTranslation_m)
+

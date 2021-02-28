@@ -1,0 +1,15 @@
+sprite $APAzureResourceManagerSPRITE [70x70/16z] {
+xTS5RaL120NGZ-v_nrLIoEymt2UHoeq-EsCLUFpoq0qlafbYY9fH_yWCGiYi6L3C36NYLNc-psOH7eJ-PR8IS2eHgXkIaLaHAz7c7X3zzeqlvvUXvKtB-8VY
+ljbOuhVGPelTG_bqf3CwHpwCghWjZxHaULZ-f50_aNuwr2YjKHrSuMMEATm6LuWt8KmX7aA0ma0cXHWARHL68rj51J7KTQ-eZeQupyeq7ND42QStGALtn1rK
+8es1Akrqp76bSpG9M8dKnPnLqd6_eCIop2yhAkQN5M5MjIjAd99gE9TEMZKTN4aabMHG9OrKqZdxswWPEw98HLXhS2MCfQA6AMbKfJgZ4aQhX3CemhrIqoiV
+3AWC_s49KNZ-RpygWbKUUmMkWgXNw4X5Hck5ZrQ72qNmwZ3ph02LghQLToZKLCr01V-boAQ21xg93qMGRcBVsR3IjhDnlwNBahiwld0kTfyH0ZfXv6K-tfLp
+krnw8F7TGIXwHWBD-J-l
+}
+
+AzureEntityColoring(APAzureResourceManager)
+!define APAzureResourceManager(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureResourceManager_tbg.png, APAzureResourceManager)
+!define APAzureResourceManager(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureResourceManager_tbg.png, APAzureResourceManager)
+AzureEntityColoring(APAzureResourceManager_m)
+!define APAzureResourceManager_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureResourceManagerSPRITE, APAzureResourceManager_m)
+!define APAzureResourceManager_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureResourceManagerSPRITE, APAzureResourceManager_m)
+

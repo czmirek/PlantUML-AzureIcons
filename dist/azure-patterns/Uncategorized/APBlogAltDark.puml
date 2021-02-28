@@ -1,0 +1,12 @@
+sprite $APBlogAltDarkSPRITE [70x70/16z] {
+xT854W9150DHoY6P-ryNfz6rZqDU-MIgaTs6UqH4HDY-Tx1s6Wg3G7toG9TsQH0ux1w8uDQPEoBTG-Vbmg1pNPTLgDpvNLoikEko9poZ2KyQDp_s_hVk_B2X
+CfWlXu513Fyj8Y9qRb5pbfpFYkwAG7T5eBiY496xYCXTHEGk8l9MAm
+}
+
+AzureEntityColoring(APBlogAltDark)
+!define APBlogAltDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlogAltDark_tbg.png, APBlogAltDark)
+!define APBlogAltDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlogAltDark_tbg.png, APBlogAltDark)
+AzureEntityColoring(APBlogAltDark_m)
+!define APBlogAltDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlogAltDarkSPRITE, APBlogAltDark_m)
+!define APBlogAltDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlogAltDarkSPRITE, APBlogAltDark_m)
+

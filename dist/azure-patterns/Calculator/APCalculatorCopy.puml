@@ -1,0 +1,12 @@
+sprite $APCalculatorCopySPRITE [70x70/16z] {
+xTE54SD044FHDH_iMFrN6sRZGLYlW3yaoIygJA1AHZW4KXcXkIeIG5cvOANL9G3qXYc65OjWVbW1UWtI0sCL8q7CPrTOOSK0-BCAAwmOJFdMIcqk582vubxI
+AwpeMLBb8hxIhAZipp1P6TXN0dnGXHLMR1N4ZbLwX9E15i4w6Iex4wIhv2Tj0G
+}
+
+AzureEntityColoring(APCalculatorCopy)
+!define APCalculatorCopy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCopy_tbg.png, APCalculatorCopy)
+!define APCalculatorCopy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCopy_tbg.png, APCalculatorCopy)
+AzureEntityColoring(APCalculatorCopy_m)
+!define APCalculatorCopy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, APCalculatorCopy_m)
+!define APCalculatorCopy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, APCalculatorCopy_m)
+

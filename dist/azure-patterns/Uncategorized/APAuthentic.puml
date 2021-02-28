@@ -1,0 +1,15 @@
+sprite $APAuthenticSPRITE [70x70/16z] {
+xPO7RiKm34EZhVjVk5D_k0hJA2XcFp4wB3zGD3isA69rpm-vAM_N99xF2gKBZCWc7nfYprtPW46MfJ3zaZ_s6Z1w4cmJ3fuclv_meGknM1A0QOK9_JZxa6er
+e-Jq-yk5cwemyzVix4Kr-dYZj7RXv335ppMzykiKTmK4-3Dc7Yj5juloVqPvKLuKip-WMAP1oW2IGIj5fvI2D4fzCeQKSauf2AHukq4GqYXyFsmz23e3uJj5
+yaEzJ44Gyf3MtGSFNC6G-gul2HrYP1UoHMRQqZ-8mH3A3ydJSY1C1EatgLO260IfXVpvYu3zm12kXHw6Kn06G2hGf2MaG9Kl2B3YwtGom3G8kaL5XTbWAmqh
+knW4sRmjGDYu0eZi-DVnVzQnrzM0Entiepsh7JQM9cWg-3v-dsJaqGUXA3woqn13DazYuj2rdCDubGl92ZE4p34482CCHNjZXC7HSJGdg9LuKC0P7fN1xoni
+EwtdUjnkC4_D8WuUPvowWF7l3XpEOaTY44alHcePQTlCjWhH-gHLRV9MEJ026mYCpEm08qDf02CpaUcPiNS
+}
+
+AzureEntityColoring(APAuthentic)
+!define APAuthentic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAuthentic_tbg.png, APAuthentic)
+!define APAuthentic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAuthentic_tbg.png, APAuthentic)
+AzureEntityColoring(APAuthentic_m)
+!define APAuthentic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAuthenticSPRITE, APAuthentic_m)
+!define APAuthentic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAuthenticSPRITE, APAuthentic_m)
+

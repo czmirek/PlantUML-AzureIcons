@@ -1,0 +1,14 @@
+sprite $APSolutionArchitecturesSPRITE [70x70/16z] {
+xTG53iCm44JHsHblyFxthHnQMMKcFr7n9p7XjQgggkWPiL2pCboXcM6HkXLnEMzckgTYpUgUYZShvyJVLs4n9NUFRi8z5RjdfaDgCjvNoOIxlBzYvof6ksI1
+k1Kxkd7t-CY7SHm7bl_IWHc9ET7UbBJZB1KHwU1IFL2PxaRZOh0Y8XtQDWB4ifBVenzN3I1R8qMcsRXHaaL59eaOD_tyYoqIcIOeOopLfCoYCYYZQMDxJvG0
+oSed4e6eTFCl02qOKxGYGA2eCAOeIzlAYiY1W-3mJCUjX3aIp2DokC9XYuGb4gWaApwnzNqS3awKx0zEXXAf91hkqlOpnntOh-wvcxHLY8DgvTrp5EkbmLqu
+mysgggfs
+}
+
+AzureEntityColoring(APSolutionArchitectures)
+!define APSolutionArchitectures(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSolutionArchitectures_tbg.png, APSolutionArchitectures)
+!define APSolutionArchitectures(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSolutionArchitectures_tbg.png, APSolutionArchitectures)
+AzureEntityColoring(APSolutionArchitectures_m)
+!define APSolutionArchitectures_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSolutionArchitecturesSPRITE, APSolutionArchitectures_m)
+!define APSolutionArchitectures_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSolutionArchitecturesSPRITE, APSolutionArchitectures_m)
+

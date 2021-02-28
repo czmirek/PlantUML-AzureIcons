@@ -1,0 +1,13 @@
+sprite $APThreeModulesSPRITE [70x70/16z] {
+xTO7SiCm34HH05pI9kv_u0oSde3sSbnL_bIrfovHHgb_THIYbIb8CrfHlOLYNM-XU5TUiPhNF1XMWO_hUaWhKufNJyEKqeHLrF8G2AcCiq2kLm8Hxkgk_vtc
+i-zaRu__EvH5APesgo3DU4Llea1lea1vHMqGWc4Lmvcqfs5IyRGvHOLKnW4cDr1CRg3OcNyZeH2jKj6lPDNjbU-k7P5LH8jIB4qd5QGPhLYxYUBj9eetNe57
+7J_h_bwxYUBDqp2d55OfXrFrPp7Z68XmoZWBv0PAaHieXNu3Ll9bwD59gNAfDm
+}
+
+AzureEntityColoring(APThreeModules)
+!define APThreeModules(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeModules_tbg.png, APThreeModules)
+!define APThreeModules(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeModules_tbg.png, APThreeModules)
+AzureEntityColoring(APThreeModules_m)
+!define APThreeModules_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeModulesSPRITE, APThreeModules_m)
+!define APThreeModules_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeModulesSPRITE, APThreeModules_m)
+

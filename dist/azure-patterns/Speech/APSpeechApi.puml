@@ -1,0 +1,14 @@
+sprite $APSpeechApiSPRITE [70x70/16z] {
+xTLLaXim381XWKd__GzSppWBGQjJxlfxJiHnv1zr7CTXNg-PodVonWEZgkJPu9cMZbDNtcfNl7QcI8PfGBV7yGFmR90YptH0PSiXx7MIaAtObToX9IRRzddq
+npzIeMwdqcG7ndP1BZjzLs-7r5MQl390bjgxogIjhocKtkszxPfhsO5OSTTt_EFwBHsbmQgRgQysm3wYf3egJ7gffLzgGJzMdPjk9rmc3OPUgYlxwUOtFK1_
+mzL9WFpmBq3QjXWDq1z-6KQcwGhXcrTASo-clwe4aoLPylxrtf-3sXMlZIbCCdITWpKUwVc_8nSVF13D92cW1aojNd6JD6SPLNx0M35SVeGoDPCVquYgygEU
+jN8Snt5y0m
+}
+
+AzureEntityColoring(APSpeechApi)
+!define APSpeechApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeechApi_tbg.png, APSpeechApi)
+!define APSpeechApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeechApi_tbg.png, APSpeechApi)
+AzureEntityColoring(APSpeechApi_m)
+!define APSpeechApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechApiSPRITE, APSpeechApi_m)
+!define APSpeechApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechApiSPRITE, APSpeechApi_m)
+

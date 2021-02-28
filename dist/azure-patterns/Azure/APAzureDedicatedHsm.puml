@@ -1,0 +1,14 @@
+sprite $APAzureDedicatedHsmSPRITE [70x70/16z] {
+xPK5aWD124M17eL__-kkomX9rM-olYykymehMluUgberj5VwJTQsM9-a7IaaiqKBaHIYQJczXLKLrSuIlpcELUe9vUmrFXHDUaPtsL8pQz7aIyQI1izQx8h5
+Yh5yQLqqIrFfUKc_eosMZJE_NEmaqQx5e8ULrRtfh7_RMSim8R5SKjTOuKWh7soM1iAZbJWkp_s_vT-YTfaNI_hrTgfrMQ_Gdjb_wO4jhYBJobe21rna8IqU
+EA6i9P1WdCK3LSiu3CC2O7bvzOVNwJCiopCRIqoyPMXRdYfIjpWkm5W2jx3W5rZcwGdIakEti0Jg5WVgba3Tua3T4aWWBGxKBG7QCfy2eIKGQTL0W4b4T1Wt
+J3IZoI_a7W
+}
+
+AzureEntityColoring(APAzureDedicatedHsm)
+!define APAzureDedicatedHsm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureDedicatedHsm_tbg.png, APAzureDedicatedHsm)
+!define APAzureDedicatedHsm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureDedicatedHsm_tbg.png, APAzureDedicatedHsm)
+AzureEntityColoring(APAzureDedicatedHsm_m)
+!define APAzureDedicatedHsm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureDedicatedHsmSPRITE, APAzureDedicatedHsm_m)
+!define APAzureDedicatedHsm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureDedicatedHsmSPRITE, APAzureDedicatedHsm_m)
+

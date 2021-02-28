@@ -1,0 +1,13 @@
+sprite $APIncreaseSPRITE [70x70/16z] {
+xTT7KaGn40JHrdmxjkz_MZovAOXMHE5HRkJVNlF-q1HcUpwq_bjbA4CPok6YBIYzJQbjGucOQJCKcj9HG1m5n5P0BfkXW8IZW3WAYAE0z2hjqjv3pj6hj5lU
+O0Gf5P244QHMG1wwmWXIA20mWlGfxPe98qYd0WAZ2A6yZToc6umWbG9oY0RpWfoYKXHXVfb1IaKHLY2LeWXha5fHX1sGMb64FP124KHea4fHX7sGKb64sXQb
+eaX_A1Q2OY4e5e9I8VqAYADSG0m5n55036K3SPG4SHGGNm5nb2aS1SHIG7nb-Zc_hFFkDJqeVjlVK-Pzzvlk0G
+}
+
+AzureEntityColoring(APIncrease)
+!define APIncrease(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIncrease_tbg.png, APIncrease)
+!define APIncrease(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIncrease_tbg.png, APIncrease)
+AzureEntityColoring(APIncrease_m)
+!define APIncrease_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIncreaseSPRITE, APIncrease_m)
+!define APIncrease_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIncreaseSPRITE, APIncrease_m)
+

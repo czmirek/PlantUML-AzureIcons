@@ -1,0 +1,16 @@
+sprite $APOffice11SPRITE [70x70/16z] {
+xPTfckCm24GD24lK_GyysKngoABv7C_UxnV8vFKYLSkz78IvP2rDbgGPJQcyQAwb0v4h0FAZ7HXtOslApQQHKxsS602sWGQWRxCumSEfLrBQpRZoC03VXWSG
+zNj9fP3nkjOrXwrxrkAht1lLXHefzN_45rBhF2_w_BoeINLOe6SpCBPfYOn6IO1nSoivHmPWlTKEQgpHgMzdIexwHnQzhUl0FJiTWvC9es7-YRZHvHtYhfCq
+_hLy8PmGCtvIqbQXq3c0bN8KKYyFRlZiy4q2Egyhw79gxn9GqgWuutar0eC_U9iILjfjtO7OzRsaac_xUiFA049dD-mYMRt8cMhP5cgEv0lh5NyppNl4E2hz
+-u7caewWfnvPporyTWCdZEBGfXPhMd8ad2FFqJUMl8zAfhDfcp4jgoTHBFbscBFylYlyn5ioDejOi_T_woJhvvOVvtWBysij7OM_no9AZR858ma0GMsr632o
+2S38qfBPJlVwNzOk2-T80VWkY_JHil6n2bbwKhe0eYUsUuyO_-CiIiXk2uX-ZCLLFhSC3DWy0LEBAcHwwYQMmEh3FhUSyDqMngS9U6Rfth4Hxl0zUzGTtg-C
+S8JRhWHOK2p7UertVqESu4mVmpS
+}
+
+AzureEntityColoring(APOffice11)
+!define APOffice11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOffice11_tbg.png, APOffice11)
+!define APOffice11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOffice11_tbg.png, APOffice11)
+AzureEntityColoring(APOffice11_m)
+!define APOffice11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOffice11SPRITE, APOffice11_m)
+!define APOffice11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOffice11SPRITE, APOffice11_m)
+

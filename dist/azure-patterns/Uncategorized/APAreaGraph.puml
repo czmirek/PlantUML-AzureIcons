@@ -1,0 +1,14 @@
+sprite $APAreaGraphSPRITE [70x70/16z] {
+xTK7ZiCm34JHeUWwzp_mWauX50aG5Hfrym_m4e-BbZlId_ArKaGqhIW0f1KnHRCAh99K55T9HMvHy4XlKKfAKJoIb29ubb9mhr8IIZ50HiDeP9OLLaA1HSaf
+-b1qC8m6Pb7kWs4qCCj63eRHo2oa99J7B4AEXj7nB0l9pOUPLs3j94zOygXyez12LLpnMQnIAJgZo6CMQwqKcL5W7UpycMc57qbSyLaAFxhi4bLybhe3Lbo1
+nQOvHLl5TzQeKdgpzDy67NuL8fUauLaycL3yyH_VQnrzB3iTpJ3wyUiwciL2KuquuxEqbQxYY3C-IzlMLHonciU_wUmhXdZLnxBRBgYJHxWIPs0ns5w9N73b
+NuLfnGyUYCyILXnn1jOnhnJIcKSCAsmIT-ULbbaJYZFCAOGbMUKmPSagF0I52SNx3yfF-IctjEAM_W
+}
+
+AzureEntityColoring(APAreaGraph)
+!define APAreaGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAreaGraph_tbg.png, APAreaGraph)
+!define APAreaGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAreaGraph_tbg.png, APAreaGraph)
+AzureEntityColoring(APAreaGraph_m)
+!define APAreaGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAreaGraphSPRITE, APAreaGraph_m)
+!define APAreaGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAreaGraphSPRITE, APAreaGraph_m)
+

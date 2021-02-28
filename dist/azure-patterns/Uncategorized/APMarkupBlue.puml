@@ -1,0 +1,14 @@
+sprite $APMarkupBlueSPRITE [70x70/16z] {
+xTU72iCm30JGn5FM__zlvq6MwXFTIynYUCrbdF7meIDw6BaH2NgSVAEIJqfuXq2Z7gVSgAJl31HlLEeHQTRAFr2zIw0qEAQKoqidPLnSdfXewZo3jWqagib4
+BZ9n6qZmLHa861e8YBPW8fgSWPA2yIFHM2iJOo8yaCt42I7Lqc52woDXMZMPSOva_ihPZ8mJKgxeoWh6WOJEkkXf2CBA7mn1QFc30SAxaZ9oosus2a5O832D
+8ZGGNhXsU_a7_CzjvI-tFI4WpbSk4eGnF52PtjtKtyq8egIWq9K4KLAMg1Q2AEbSb3z1MgUwUQ0yDU_4H6SWUq-QVf909gB1K3k1w6vQJ0Q1648OL0j13AQo
+tGpJJ0ICU0E51iHWWB10OEpBBEBSpS1CIxUK_y-UpVv7cVSFfCEDSyFPZ7Ob7zwLVEpolt72SVoNiWS
+}
+
+AzureEntityColoring(APMarkupBlue)
+!define APMarkupBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMarkupBlue_tbg.png, APMarkupBlue)
+!define APMarkupBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMarkupBlue_tbg.png, APMarkupBlue)
+AzureEntityColoring(APMarkupBlue_m)
+!define APMarkupBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMarkupBlueSPRITE, APMarkupBlue_m)
+!define APMarkupBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMarkupBlueSPRITE, APMarkupBlue_m)
+

@@ -1,0 +1,14 @@
+sprite $APSignUpSPRITE [70x70/16z] {
+xT67mfqW38RX3mC86iZzN-sPk3YEbdJtVzthSU6PIx8NorNiCMSbsht8NXLbOSQ8rWR6LB9epLKAaVNhQ2VdbomH05ifabXMPVviIBB4IVOKY-_B_XJbI_bI
+Z5uX5ibEgP1u0vTwdS8UZxhSQHGZ1NCQnKvA-1tAb_AbaD4hGKIOb0gF1d2vqodlPJy2fcjMSi8p4c8HyQrAEK-o1xenNYYUDlbQyNXaiYTovOGTXQjIhNHu
+nYdB8twsezJPMi6hmEE3y-MNjIfn-cKR9JpAG_WixYiy_R9oLWxFkAx-BZnkbGdbTQYhtoY4VGLL_vWYn-4isMJNzP4vkh9-eTXrM1Loi7uGXsVsGi51OJ3l
+ouD2eMpAYiHcfVoCmZGheyCKfTYiUCoP51kL4B5ck4tfn6wODWMzq8PfKp1icJQbPYuLFIDGCqNHCm8rKnGz8r0pHT4p0ZLJ53qZK32LSirOEalmJKKv3-lk
+}
+
+AzureEntityColoring(APSignUp)
+!define APSignUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSignUp_tbg.png, APSignUp)
+!define APSignUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSignUp_tbg.png, APSignUp)
+AzureEntityColoring(APSignUp_m)
+!define APSignUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSignUpSPRITE, APSignUp_m)
+!define APSignUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSignUpSPRITE, APSignUp_m)
+

@@ -1,0 +1,16 @@
+sprite $APAdvisorBlueSPRITE [70x70/16z] {
+rPQ74kCW34IHX03n_nzybp8xmHOOArVVz2H-MPRcT0bdrPopgcPECVWX0AKLZZf0wp-fTprve5X_KMu5EKWwiFquuaY0V2K14XcEzXxGK1wnayNesgAZfFOp
+RRSKq3rqTw7uKJ2cU9JzCBgSPM2JlViW2-UHrYU8NuLFdr7t7Lcd5biMSLKBe2s9bbfhcrjaGr9jMAkrscAkPuxF6kMTdRJTiQZDLXTNxvkhHYkb0snxbkBy
+7H71ruvVYcUnuopm-sVo5XLyEu_I3aaOty3JnlMYg_5KBowd1pQiNLr4CJ-jFDMF9QJwZhRQVJefZZyRBkHQoX25imCzxFYPO4JUW0gokcCoQ6Xb4KHnmvIF
+ws1HBgBupKW7mjCbrt2xEJnYTb3JD4kziAGER6tXAmi6FpjOohx5pijADqT4usMWvtfndU-rc-Tl2FipRTwMrBkhJjnJfcxl04WyJxkn6qqExnkgqEoU35NI
+7euaWdmjyKxlABX9EEx0hPR-EeSwATRCPntqA2XgUI0YxbJ_oLL7_u7b_xMmTzB5BVmhB9JeUmkXeYyiXAPZ5e7aeGbR884cOe44ceZbU4g5B9104x500YYT
+-04
+}
+
+AzureEntityColoring(APAdvisorBlue)
+!define APAdvisorBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAdvisorBlue_tbg.png, APAdvisorBlue)
+!define APAdvisorBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAdvisorBlue_tbg.png, APAdvisorBlue)
+AzureEntityColoring(APAdvisorBlue_m)
+!define APAdvisorBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAdvisorBlueSPRITE, APAdvisorBlue_m)
+!define APAdvisorBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAdvisorBlueSPRITE, APAdvisorBlue_m)
+

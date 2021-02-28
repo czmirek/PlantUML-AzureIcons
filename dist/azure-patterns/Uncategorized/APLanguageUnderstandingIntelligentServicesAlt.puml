@@ -1,0 +1,12 @@
+sprite $APLanguageUnderstandingIntelligentServicesAltSPRITE [70x70/16z] {
+xPO53WCn40FZtVd_coiijrwftFE80uR3hDyZX11KhQiJNLfJ6gYhCnnc771NXL6S0agtgWAC-jmDhM4OKtsk8cFok4h_YKfK1Ao7LGgmymOrpik_riA8c3Lp
+bUNNg04DH0m5_S0zDAkCIzwZg9W_oHl-QWrj_h2F_kq5yBQJXpy5FNuYwrg_HmWXx
+}
+
+AzureEntityColoring(APLanguageUnderstandingIntelligentServicesAlt)
+!define APLanguageUnderstandingIntelligentServicesAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLanguageUnderstandingIntelligentServicesAlt_tbg.png, APLanguageUnderstandingIntelligentServicesAlt)
+!define APLanguageUnderstandingIntelligentServicesAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLanguageUnderstandingIntelligentServicesAlt_tbg.png, APLanguageUnderstandingIntelligentServicesAlt)
+AzureEntityColoring(APLanguageUnderstandingIntelligentServicesAlt_m)
+!define APLanguageUnderstandingIntelligentServicesAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLanguageUnderstandingIntelligentServicesAltSPRITE, APLanguageUnderstandingIntelligentServicesAlt_m)
+!define APLanguageUnderstandingIntelligentServicesAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLanguageUnderstandingIntelligentServicesAltSPRITE, APLanguageUnderstandingIntelligentServicesAlt_m)
+

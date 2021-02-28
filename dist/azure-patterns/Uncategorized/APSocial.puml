@@ -1,0 +1,14 @@
+sprite $APSocialSPRITE [70x70/16z] {
+xPM7KYqn34FjLDl__x-l03jHg8b2XpFbzZDhHRuh2FABLWiQQoh_AN580ScHHkCSrngl00RBWn8UZqzD5qsvzcFBBRdvcUKYzmCBe9st8Adp5gGm-LZDIIRK
+WiFgP6h1ubNXj8AdAQrn3BEocYwYfSSTffocpxtrJ4NSeM_pL4POHj_QrHidkslJrHJ20c5SsVHOnSeZjTMxcMA7bkzfZ5i56vuEqIZ_3-4mKujDJB6rZLrB
+Lqn3zwjdjvghRd0nTLcHhc_3qLpAj2g1eXRuQHvPBv2W_GxFszOfYK02TJptdM1iiXYCf3jdFQeFyurWD1OOPNTyPUDfh96nNcqiKzkoH2kv-XnJ7PjbyQdn
+Lv5Ol09MuXMeud6CBnHwRNsJ1mtUo8i5JI-oIFQO40urte8qte8K1mjFChJmTBISJoLd90VBwLHoJ0NBsLJo2cYM7y1V
+}
+
+AzureEntityColoring(APSocial)
+!define APSocial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSocial_tbg.png, APSocial)
+!define APSocial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSocial_tbg.png, APSocial)
+AzureEntityColoring(APSocial_m)
+!define APSocial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSocialSPRITE, APSocial_m)
+!define APSocial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSocialSPRITE, APSocial_m)
+

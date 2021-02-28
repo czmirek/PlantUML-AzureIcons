@@ -1,0 +1,16 @@
+sprite $APBuild03SPRITE [70x70/16z] {
+xPM7Wjmm24G5ibVM_V__ff3oRdAOXFGsryQSzoqhCzAmUKmVeTmEVswFf3g67MyrFx6Zi8TMG_C8MT2ntE_f3OOD9fUpiWv5hFPIjeM5GY_QktsT3KsOth26
+3PbnqRH_ivZrzVHSYrlyINH6qUUB17YFGW9qNheK4g2p6vIzFkg4ObIle2G9e1SQk9KhnNHdw54q0Knraq82P9Hxb3m1NGhwBIa-tQ1eDMHOA9g08GbOMcMY
+fbBg1AnY7uLI9k1ax9EDd33CwWn0EGKLPm3ATtjKdW58gqxhseoU0Uu3KRNyXd_b363MwweTRxVBzPW9Wb6kgxvazrRLGyKuFEGGsE2_T7O7PynU7pgQznGE
+8QfqSisuiXDCsZiK7V1utODbljwsbJNlGf7giFtc7vAZnPsmtMr0eShAKeVh8nKKrNxP_n7FkqEPl4B8LujoyaHqPP9PhocM5JsRTIZrsq994j3lnShPxQ-B
+KaIhyOn8G48fvuL8S9Pcb7fsxIO1fsX6BStH5Qqqb6JQ8zCj0flKdXQCOB9IFKneNV4dmxYx5POF1M63aGHWNMno1knp61YPbrkhvz6rpYY2qTcziRd0V3s5
+eTcp_4I6hJ3aD5_IYVqyXWJaje5fIp7sxPYqbpxc7FVwhzS
+}
+
+AzureEntityColoring(APBuild03)
+!define APBuild03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuild03_tbg.png, APBuild03)
+!define APBuild03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuild03_tbg.png, APBuild03)
+AzureEntityColoring(APBuild03_m)
+!define APBuild03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuild03SPRITE, APBuild03_m)
+!define APBuild03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuild03SPRITE, APBuild03_m)
+

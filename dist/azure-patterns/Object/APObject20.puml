@@ -1,0 +1,13 @@
+sprite $APObject20SPRITE [70x70/16z] {
+xPE7hiKW240HdWB-_mU_OlTCC7VNazKuJcL1Hymzu62-nlRzC0inSwL5c2FCL5fCyUiM_lEHvBCjE_ZxBIehqhVNg5dQ1BG9kAHPsWIq2S00Ha2gjo3C1Agp
+4Am9DHQS7Z7fs6MP9SIQEuG36EBiEXf-FgBzTNLPYeGqBv2ovB9O03X8L1SQT4n0UOeKXQt6L4J9LXtPjJ_6vVkYcX5z5kWezwQLtkcs1BiMvoKsgSjYQQ7v
+AVDZt1Qx9Sj5i-0xBFw8_DbzVANzNHSEBUUCZydAvf2yUyf-ZlPOVZ7tcAr01vPB54gPDf3Jqizlq9sc2c8fJuiXvLr-NI22iTEu-LWDF493y00DmGD0U23_
+}
+
+AzureEntityColoring(APObject20)
+!define APObject20(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APObject20_tbg.png, APObject20)
+!define APObject20(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APObject20_tbg.png, APObject20)
+AzureEntityColoring(APObject20_m)
+!define APObject20_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APObject20SPRITE, APObject20_m)
+!define APObject20_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APObject20SPRITE, APObject20_m)
+

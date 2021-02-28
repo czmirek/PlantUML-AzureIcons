@@ -1,0 +1,15 @@
+sprite $APDivergentArrowsSPRITE [70x70/16z] {
+xTH7UdCn28NX0wXnzh_VlwOXDqcNpF9EKlqzGbmRruZWEl6Q4U70Nyvt3Ti6oSDAZD3UldlJZo9iiJAmf_CV1u363qSHKW5KVf2Z22i0uuU2TOtXFYNyU10X
+uwefHn4QWBu_KcNG01JkxhemydWnj9r8l8c-UPZId56PsXLB95vldxP4nH9dC0_gWWMTaStbiRlfKhit0B0mvDupzoyWjoVi6v5m0nAc7Bf-9tL-afOMRd4x
+OpvcC0ptQ6VWWcZmPSSw8rTCn3dnglYarJapu44cyj5RRRqxWnYPCplSS9UCdOZYaNuQYGhNT0H7Ktd1AyNvmYW6NEoCMlwGbSwZkRpNyfzYWTRnA14oh-d7
+fxtx28MGMI6YAg9gvORXm6r8SKBcZk28v6IW9G0oZgCv6S6fUTqYbq-ZTZgNvgpA4ZOb6YjwDax6G6K696GivTsawO_lUGP8o2WoCeAC32xHiEUB6KL6Hf2H
+0H8oYWGc-6u_VWC
+}
+
+AzureEntityColoring(APDivergentArrows)
+!define APDivergentArrows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDivergentArrows_tbg.png, APDivergentArrows)
+!define APDivergentArrows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDivergentArrows_tbg.png, APDivergentArrows)
+AzureEntityColoring(APDivergentArrows_m)
+!define APDivergentArrows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDivergentArrowsSPRITE, APDivergentArrows_m)
+!define APDivergentArrows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDivergentArrowsSPRITE, APDivergentArrows_m)
+

@@ -1,0 +1,15 @@
+sprite $APMixedGroupSPRITE [70x70/16z] {
+xPPNRiOm38EjuNd_-tQtDdz1QI2dkz-pGv1QIFfpa6QbNOqw7ccIDf0-NiWRJlfu8-wcZaaFMncJk1a5bPfYv4jK15Jo9NNH5AID1Kf1U3yGrhTTiG8vxI6v
+5gLqcbn7hvhEG2mgJBxtpYUghi_mmOIzAoFwYlW3rh4ifTOi14ucP6w07GqgSukcGrq1bR7I3hUHG8KW433d7yJ913fKcI909wl2nudAi3JVYwrkMJgFP5CN
+_o0Hv36Pn0c4_SZM2Ww1jM8pPQmAqg3NaWpIdfuzU-p3OUqsErl6s3C4buoIpmcLJu8fdS9F9CzjwKKIGbQRvRb5b12TJS5V7h7lsPkwDe3oviC-9qN8_EoO
+2sDVizv2wCIU9D45S69bghym-1X5K9_TKSTlU367C5W1ocqD16G1E9P0DrvG5iFgS11R5tKG20HasoFrE5GXj4A-YcG7iRFB7kaOcaws81Os6lyGY-mMPewy
+18NiDeOGlI4iWeJZx8JoDe-ZUP2e5OJ3LObNHZskKQ6BLFu8zm
+}
+
+AzureEntityColoring(APMixedGroup)
+!define APMixedGroup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMixedGroup_tbg.png, APMixedGroup)
+!define APMixedGroup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMixedGroup_tbg.png, APMixedGroup)
+AzureEntityColoring(APMixedGroup_m)
+!define APMixedGroup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMixedGroupSPRITE, APMixedGroup_m)
+!define APMixedGroup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMixedGroupSPRITE, APMixedGroup_m)
+

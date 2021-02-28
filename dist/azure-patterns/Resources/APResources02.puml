@@ -1,0 +1,15 @@
+sprite $APResources02SPRITE [70x70/16z] {
+xTP5bkmm44JHIB0Wzx_V3wt2F2fL68RznlOr2f2IV-5ivZ-fNCAuoIMCAuYsBbyO-sfOZzXmaYaHqQY7Mjz8XE8x8_YKrFXVfRxK-aQYoqhHBpUZCV9JdxiF
+fBtJIFcZAL87abwjwpwb3QJWDV74o5EH2I9zyZmGJumcPOeKP2Knjb06qjk6N3xU5yf0PW_wUeAe-Kiy0hipefxY4OX_odW4y0L38z05GoE0hvad4Wi4ic3q
+5J6iqa_2O2O8VpSw7bOc2C_eSyItXF1FPO0K03mo4ZLpCzKxqgDC43Qz8n5bWl2C32J29mZD26eyImZVgsB3FT8JQUDL7M4atXZnGqo92nYDjogW-ndfxqh3
+VaPAP2Il5VmBoGZ144XcUAHlgZAGU_kHCfkPzoBZ187vM_kG-cbIteE4OC6mI0DsCnQv2fh9I5PuPevq0SFmo9mXa320OtXapXY148mI2C5GICwo8YIIcRdI
+fWZBA1AJ48uHV60Am3DurXB2CuR498HZWCJm2A3fJX9JTkpTL81S8n2YHY0Cyq1--mi
+}
+
+AzureEntityColoring(APResources02)
+!define APResources02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResources02_tbg.png, APResources02)
+!define APResources02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResources02_tbg.png, APResources02)
+AzureEntityColoring(APResources02_m)
+!define APResources02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResources02SPRITE, APResources02_m)
+!define APResources02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResources02SPRITE, APResources02_m)
+

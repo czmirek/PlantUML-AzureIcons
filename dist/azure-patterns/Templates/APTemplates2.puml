@@ -1,0 +1,16 @@
+sprite $APTemplates2SPRITE [70x70/16z] {
+xTS74fim48NXjxjlo_rF730UB35oGP1foNU0dweMBSSaQT5lgOJVKfdCo84PFb57ZzmgvkouuXs9AaKdA-rHCUbOACQyAcqG3XrLnXbc9V4aL3nfLeqgmqnM
+kM1ZaPckh_vUQIc1e_sDgEUgwpmhQYsw3YhxRRouTXMZTMWOLs3PyQOoU3asgeWhmDo5uNCbR5I9SDaxBe3efmhfDgeik7LiJPYDAplbkFBiR8sVAwPTPKE8
+RRvMk9QK5T9NLj0VArxA0bdb5oh40qDnlIB0rueglrJmGuNqCnKVLm0xKG7ibWfWRKK59ok6fWDj4W8OLPLVAr4L-kf0zmPOW7BXNolGVSxiMRuUTbGPpzyz
+ZQgGCnN0Az7BIWNELQ2AdXdmfNAMqOv8d2O3-BS4Ri1oN9TLWgkKGSLrWZlmbamf_fB_JsIHn6MHcRWi5mR0Y2cU531Nff4PcC0yqhaNqWjCaEoLOVwHN27C
+d9vbB1Usdx3Af_yKOgErI3US8unSjFFcQk9dQojnIoMtHy8vdW_Ml9Sqd2ThA0GhoQL2pFzs161P2vkV5B9sATD_NJK24uwHYja7CZv2eS9CJ742a5eehigb
+Wiki6yr_
+}
+
+AzureEntityColoring(APTemplates2)
+!define APTemplates2(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplates2_tbg.png, APTemplates2)
+!define APTemplates2(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplates2_tbg.png, APTemplates2)
+AzureEntityColoring(APTemplates2_m)
+!define APTemplates2_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplates2SPRITE, APTemplates2_m)
+!define APTemplates2_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplates2SPRITE, APTemplates2_m)
+

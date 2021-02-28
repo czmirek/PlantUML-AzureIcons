@@ -1,0 +1,15 @@
+sprite $APGroupOfThreeSPRITE [70x70/16z] {
+lPSBih0W28LJIEFe_hVxFvlXXbRWVNmB-0OEZD7s25LflVScbRPLIkjAAvzqh7koEfIMOn8-9LR38Kc_WqEIW2QGIJmRz2VWa-pzcTrbQI-MjbQAXMEfh2UJ
+-pivj2lhBLM7fRvQn66H7x9q3viXJNSkkdTCwGiwOkRy9HQcotFhi9J1OZNaiD34OfgAXgiM_X3n4L_TdTdsHE66AlWaC2KnaWDW7fB9iNUXG2sqAJMI2W5g
+OUzp1zkFjIXmIn8kbkJIO1ZorU9wPcIpL6CnS7DT38Unl9r1RTycu6B9yxCEfmBsiBCTsN2jwGzgUBRGjWYhHKi9azGIBiMsP2IBnUYKHn8NaV_R9eMVahcj
+95NOxQ_pz7RWHiBeCp2jY8HcVchzZaRUlAG_8Ibwl4VE-A-_Wj0zo9h4Khv20ZlKR3E9IwWmvz2vCFwMx08mnmuW-pkH_t-FiagT4Xa-963lNQZaGG9odcBA
+eHB2IGgNGceHd6XCyIdl62mrFA0CjKGRqWZgQ4dXXZAKwB9KdIcKQ2owNvXO93hd_1cB6REnzAYbVf-bE9bRVWC
+}
+
+AzureEntityColoring(APGroupOfThree)
+!define APGroupOfThree(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGroupOfThree_tbg.png, APGroupOfThree)
+!define APGroupOfThree(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGroupOfThree_tbg.png, APGroupOfThree)
+AzureEntityColoring(APGroupOfThree_m)
+!define APGroupOfThree_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGroupOfThreeSPRITE, APGroupOfThree_m)
+!define APGroupOfThree_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGroupOfThreeSPRITE, APGroupOfThree_m)
+

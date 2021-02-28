@@ -1,0 +1,13 @@
+sprite $APImmersiveReaderSPRITE [70x70/16z] {
+xTC5ekKW38NXaq18EFjVyDIkAsMUyr-fVtMyQ3GQZVmoIrXIkopXQRmk1D3WLVvAqREIEIc9B5dFogyLNAPrId6HDYj8P4QNSfhLhyH_KNmeG_dqfuxVMWdf
+KSmDKm9qA8LqpAKEfR2iYh3iLMO4z6qqxLHcP5Oa1AZHghWVaLb1192P6XMSa4NHMGXlLOnJTdgdYWDUsnMpX9DYd7_Qh5o-tqf1wbQ42c5wfbnMYzu_5dsg
+-6Ka3KRtSgRaEakAzzEW6gVYfBW3cOAMYYx_AqFV3iC3UvgPqxCB6lOpi-8260Nx6Jhcf1PWFxCfNWKTpARaX8xC3Uys6er6_m
+}
+
+AzureEntityColoring(APImmersiveReader)
+!define APImmersiveReader(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APImmersiveReader_tbg.png, APImmersiveReader)
+!define APImmersiveReader(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APImmersiveReader_tbg.png, APImmersiveReader)
+AzureEntityColoring(APImmersiveReader_m)
+!define APImmersiveReader_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APImmersiveReaderSPRITE, APImmersiveReader_m)
+!define APImmersiveReader_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APImmersiveReaderSPRITE, APImmersiveReader_m)
+

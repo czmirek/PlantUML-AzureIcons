@@ -1,0 +1,13 @@
+sprite $APCircleSquareConvertSPRITE [70x70/16z] {
+xTQ5GGKn0C3GwbNstnUNu93YlndWdLJ3JvOU9fLSMFunPIjRsKhAB8KJAhSNgXzHwdoXzbkKhQIAXbNOCQbuX8f7g7Y4oXeoe6Zag50q4g1u18f7e7W4YaUe
+U8IAHwXuX8f7g7Y4YaUeQ8IxNzO8-r5a8w43MME8U8Q8PpIISitnZd58kluPFGOTBohP8tdU5xKoe7IBbCcI_YkiIALDLdzKgVg_i4Xah4swzMdNbtScliqe
+OQbKMsirUk0S
+}
+
+AzureEntityColoring(APCircleSquareConvert)
+!define APCircleSquareConvert(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleSquareConvert_tbg.png, APCircleSquareConvert)
+!define APCircleSquareConvert(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleSquareConvert_tbg.png, APCircleSquareConvert)
+AzureEntityColoring(APCircleSquareConvert_m)
+!define APCircleSquareConvert_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleSquareConvertSPRITE, APCircleSquareConvert_m)
+!define APCircleSquareConvert_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleSquareConvertSPRITE, APCircleSquareConvert_m)
+

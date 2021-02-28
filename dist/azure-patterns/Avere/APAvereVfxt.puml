@@ -1,0 +1,14 @@
+sprite $APAvereVfxtSPRITE [70x70/16z] {
+xTI7kgmW30JW0IAY1FF-JxirspTNl7Yw__RYV1CBUCzHoYm7p9m2_eUFB8yuEYn3Wxmp1DJpB9RiKIc9AaCa1u0eZfEejAX8wVtZzqc3s65MqByINdL5JW9c
+H3c9UA_Ndsj2ijtPPJdgviVfyI_3t51UwzRqzR2mXjJ4C0p96gV-ZpfFHesiCndpJ0urd3aJwH6iqbbbHYlUB3uQUuLGHvkxj-TsGRtfl0QUdXEvkueHzQ8y
+oF4wa4Cz9qycZMOiCSeJlSOIbkXAJaJdXL1JmCOHgXH64Ttb7Wq20z1ABROKWuyhfB2SE3IHCreZPGgjAToJGwDa9cmscqsKH_sMyaq4NY5Z46aB276G8oYI
+1kkaJ2kav0vjAOLJv_2zn5KAYUGOGdEA8VtO553Yqfoo1m
+}
+
+AzureEntityColoring(APAvereVfxt)
+!define APAvereVfxt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvereVfxt_tbg.png, APAvereVfxt)
+!define APAvereVfxt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvereVfxt_tbg.png, APAvereVfxt)
+AzureEntityColoring(APAvereVfxt_m)
+!define APAvereVfxt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvereVfxtSPRITE, APAvereVfxt_m)
+!define APAvereVfxt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvereVfxtSPRITE, APAvereVfxt_m)
+

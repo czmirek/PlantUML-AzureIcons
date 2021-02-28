@@ -1,0 +1,15 @@
+sprite $APPowerMeterSPRITE [70x70/16z] {
+xTQ7Rfin30HW3as-__jsoOVAGdsqNEpaiBp-BwHM95ykgl_vlDSU4Lr4h1HtqtkYZbXPoehRZU4WDWMn6-DKBXs3SIXNJeiW2k9f8Ln1o8ILGnYzhf-hcR_R
+LNqkulnxQczrfJEGML-iHDeJ66B0eOZ_PRgmA45gj0SpYoHn8EVOUCI3wIffx86SCpK330tlh4VSCbfMdlfPgTV8DZG3gqJbxJWOFTUioqNEOYRh9-z9dqeP
+v0dvH-ofc97sqohjIJ51j9JsebVR3ecMbT9UZjZMqanAQR4KKeo89HFKs9Te2JCK-WfXYgEbJXjg0OMtDDdlMd15eR3VjQ3ADZ2nOWHvNr62G24xErO8mXGx
+ZYg2GE7XIAxaCK1qcwYj48KY-YSUAqHXYFFrWXX5e6XokXX59Dy1K80G1Nkw9ygWkn4BOt9b92U3yu4n8Foimy0qeepaU56HGLio8Fpq5gUpP42I_oGIh1WZ
+YA6Xz72raTyQrXYnsulcDnZ3VMnbV7RpmFkF3YCW9kbbAkzdUsH-hkZs4K4uOxAb4eGnnoE388IH8yFbEgvod-zyvoS
+}
+
+AzureEntityColoring(APPowerMeter)
+!define APPowerMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPowerMeter_tbg.png, APPowerMeter)
+!define APPowerMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPowerMeter_tbg.png, APPowerMeter)
+AzureEntityColoring(APPowerMeter_m)
+!define APPowerMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPowerMeterSPRITE, APPowerMeter_m)
+!define APPowerMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPowerMeterSPRITE, APPowerMeter_m)
+

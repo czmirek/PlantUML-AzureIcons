@@ -1,0 +1,15 @@
+sprite $APIotCentralAltSPRITE [70x70/16z] {
+xPZPTeCm30N5OdRR__-rNTvw3uW9edixpydbU4GanURGp7N7tDWrXb8FA8DTeC_L8VVs8Esgnz33hQqPi__EFlUQaDpB6KcFys6CPo6JcJAHdhsGfMNj96Jh
+x93kN8yAILVjin3GumXf36WMrSD273sRwb4XETc3f2nwwXj6ky1OXK3t49qgsosjlXTQMg7qhiTJvtsHyderfVeld3AYUaxfCpLBJcbNh02dpFMGwJHbQs2E
+I3VG54_ULa_O_1ILLqznKaHUB6KJUT4KIqNa1LDCNz4vcA8jS0ccQ0kCfxoIolsKLyOxATfDxgUyweccA6cAfYZVFkK_XJicfSIxDwnTE4cazuUdcknFzoVi
+9e-8J_kvYMyUyYJOWgW8eeSsCduXL0_JYNtMmmjudqaF2yczd4xq-1nDPMjcrgDrKmtq9uo5w8_2qSD214SF2H503mWH73qWH60z8tO9riD2M4yBGY8t9vzs
+YnE_KRf_k_KC
+}
+
+AzureEntityColoring(APIotCentralAlt)
+!define APIotCentralAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, APIotCentralAlt)
+!define APIotCentralAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, APIotCentralAlt)
+AzureEntityColoring(APIotCentralAlt_m)
+!define APIotCentralAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, APIotCentralAlt_m)
+!define APIotCentralAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, APIotCentralAlt_m)
+

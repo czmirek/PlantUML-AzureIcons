@@ -1,0 +1,16 @@
+sprite $APSaasSPRITE [70x70/16z] {
+vPS7hkmm24LDYJ7iVx-_1_sRWfvjFRKvQjDoXc8KqZuB4ZswRHdKFFwmhZX698iExf4iMy2nQ66FVSiHiMsX4ViMydXWkoHs2FDM97x0zKiIrxR4s7TWYmUr
+X6YciX69fO7r5slv7ATOLUSi2f9qJ5hyceveib1Q_nVRVoo4mY2PiaXAEgGpPp7CHtJ9WlqX1MGw8Rg6mWk7towXoD8SAeOYRGQ7DYzAA4um8MfjPPm7p0-4
+Cj4YWxBmegM3XRx9GYT_tl0_w58NgosK5OExkPGMhYrsiH3swDN2O1bmo7xnSbwk5WM_m-pX1_XZW46FHnLIn3d2-X9EXa8POAOx_gSoIE3J3jV0WN7CNrKe
+LrPDi0fo7qVDODB3lqX7Xg8Fsyt09BK4hx2dEwEKcYovGFGdWPMXIeBtBrnniUIiB_33pnEAIqvKHQAHK2hGxeIt-tlVEIwX97HVfEWf6vGulIzapgUQDU7p
+0l601Y4UK9iK_O6UrxzwiOkZtF0n7qIBTHT-WX7NZoD3RmwFhyJR0x6iAV5XWM2JKNF7n_00C98wgHej970Q2bocdv7k64qymWBJpojiKT2fVH5wYyTlZXgn
+1uMqUTJofBXrfRO1vKH_53y1
+}
+
+AzureEntityColoring(APSaas)
+!define APSaas(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSaas_tbg.png, APSaas)
+!define APSaas(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSaas_tbg.png, APSaas)
+AzureEntityColoring(APSaas_m)
+!define APSaas_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSaasSPRITE, APSaas_m)
+!define APSaas_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSaasSPRITE, APSaas_m)
+

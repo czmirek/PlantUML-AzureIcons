@@ -1,0 +1,14 @@
+sprite $APNode02SPRITE [70x70/16z] {
+xTT5jYKn30DGcGBU_twR7gaoIjpqwSwjOfyIW9Ot7KSYRnf-6lamSA3dmwGpEJmRlun9CiKccKaiaZLiikjOJpPqKxkEBIc-wJes8rcNJSkO9GjiqcLiyfa9
+TeqaSabrRDFb2eAUypvhoxkgjxERTXBYjev1FLnn5W90BK9HG27aKuHyXNo5AChKGtytn6-hCEHtGlfhozT36graL5cIg5yFGz5CfYYHl73Kv8MXPYIJyeCc
+0t_YzYggWb-NAdCVjupflxSAl8_i8Nzqdto5o9iD-Ghn3n6YqKSFEmvHCrDPTb4_2r6_qML7p-EGczkPLDQY-8jLcp2SYTSQdpZJI3PibpDRct1DiGchCxC_
+Sb-gJTYS05RyHU5JgJPXlYQhDc6-A2aqOIQYAlXplWC
+}
+
+AzureEntityColoring(APNode02)
+!define APNode02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNode02_tbg.png, APNode02)
+!define APNode02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNode02_tbg.png, APNode02)
+AzureEntityColoring(APNode02_m)
+!define APNode02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode02SPRITE, APNode02_m)
+!define APNode02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode02SPRITE, APNode02_m)
+

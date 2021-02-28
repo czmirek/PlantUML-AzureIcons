@@ -1,0 +1,14 @@
+sprite $APCmsSPRITE [70x70/16z] {
+xTW5ZiGm38NX60ltl-z25Bs1kEWkxoyS-gGcyL3vxX5pYyg9M3H83c048Kps6ApRqHQYkv8SWjOG-HuAzLTa3mKBmvtIT00ULIqWHJfbQ7VnaW09bwE1yiu0
+MZQ4IaizKWRdXn6mHyliOG3OF5JUikOWQXLqCsAbviexHhKQiO9M8LP7ImfoKxbV1s8MBDMsqkT1_yg_WlwLVsLUQCWfO8uf70OcfrGchLGchLGchrGcgpGc
+gpGcfG3xVCMyImuhqI2CXnKPnYwxPbr-jABJtEM75RjaZrYqYw7yhGcuVdLb_14Ju9Seb9W0WrBa_1uDDwNmNeNxum_bBKclIwb9LccHU581PBwWR1NzcoHg
+Xj_qmioRoYi
+}
+
+AzureEntityColoring(APCms)
+!define APCms(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCms_tbg.png, APCms)
+!define APCms(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCms_tbg.png, APCms)
+AzureEntityColoring(APCms_m)
+!define APCms_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCmsSPRITE, APCms_m)
+!define APCms_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCmsSPRITE, APCms_m)
+

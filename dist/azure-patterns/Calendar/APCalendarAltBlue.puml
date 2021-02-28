@@ -1,0 +1,12 @@
+sprite $APCalendarAltBlueSPRITE [70x70/16z] {
+xTK53WGn2030EXp_V_2jqgox4IPMTp6Peu8po-AWeBnMOfQeaE8o61Ia2IgvHg12SCjIfo1IAHxSQNXlAnOArYppNB3JoW5oMq4uvaSY7LyNFNNRM_4nHj_v
+S9nfk5YmIwrm9d2C2owyB-9RONhgR2pOWwUk-wijxv7yLewHtuehSCGM4Tl9iZchCD6AdhhpLrTF7JjqwkItSlxgTkcBEKN5KvXJ_04
+}
+
+AzureEntityColoring(APCalendarAltBlue)
+!define APCalendarAltBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalendarAltBlue_tbg.png, APCalendarAltBlue)
+!define APCalendarAltBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalendarAltBlue_tbg.png, APCalendarAltBlue)
+AzureEntityColoring(APCalendarAltBlue_m)
+!define APCalendarAltBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarAltBlueSPRITE, APCalendarAltBlue_m)
+!define APCalendarAltBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarAltBlueSPRITE, APCalendarAltBlue_m)
+

@@ -1,0 +1,14 @@
+sprite $APDocuments17SPRITE [70x70/16z] {
+xTX9ZWGn24JH03pV_y1TgEQoh6XaRthuUvwKc5NYccWyJ6cAzokLVwNN0qeVe-ugZZX35Oxqp9K8mXMES8KZNE48LpZ25Oh4bS8HhlHH6C8Ldoq4eKeTNbaW
+H9aOWZ3bnX24AgboX2lES8GhgLA4AyvGX2lEE19NUAPgsuh0ipq5jxOK1V8O5T0THQ3ZKe8SK0fmGAahvLzHsxcNc-BPjY82O5DfpIM8nXMLIwxSCW3GcAAu
+zbGoffXY02pBcr97jvWYGFElW8wt9AG0sOVwfs8vIqGfrwaFfRiS-A8qlAPZohwjAEGsCYivyaPjtA8AMSos8h03YW8750FglfA0T40Ho499u0f_Qmqe2QjN
+GaJHnNvhI4a06bik_-SXWFHPCOIpMH74ovz81n2lB9ORh2-M6oijRYwMB6ukM5kivGi
+}
+
+AzureEntityColoring(APDocuments17)
+!define APDocuments17(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments17_tbg.png, APDocuments17)
+!define APDocuments17(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments17_tbg.png, APDocuments17)
+AzureEntityColoring(APDocuments17_m)
+!define APDocuments17_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments17SPRITE, APDocuments17_m)
+!define APDocuments17_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments17SPRITE, APDocuments17_m)
+

@@ -1,0 +1,12 @@
+sprite $APLinkedinSPRITE [70x70/16z] {
+xSy5hiGm38JX2Jjp__i-M7TBeYhbrfyW_4lXaOmnfdArx00ahfFm4RWAEi8L19rqUcNzZrJ1H-Gw4XnyvWj8AQLoeUWL_oIlX3NXmsKkug4-5QWY3b-kjbOo
+L9Tfgip5jHKbxHM7NcojP9Av3pPMX9DbMoLIzT6cIfcTbLMLj7l5AbQ9crJy8ohHg_5Sg7A_VY5ZZFa5
+}
+
+AzureEntityColoring(APLinkedin)
+!define APLinkedin(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLinkedin_tbg.png, APLinkedin)
+!define APLinkedin(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLinkedin_tbg.png, APLinkedin)
+AzureEntityColoring(APLinkedin_m)
+!define APLinkedin_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinkedinSPRITE, APLinkedin_m)
+!define APLinkedin_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinkedinSPRITE, APLinkedin_m)
+

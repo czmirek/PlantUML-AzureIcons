@@ -1,0 +1,16 @@
+sprite $APJavaSPRITE [70x70/16z] {
+rPO9akim24IXWRPq_mj_kpILC96T1VrjtgnPzDnWf8gyZP4XgoX9h4j-HvGWgRz3OhA6nc-eHtaWQu2ScgBo8JP9u2OVueyIOsYXhrcYJbgj9P4TBhMMU2xE
+fDOIJyhGeWJfaSkQHFaF9I1JBuiIOLvOtOp6W_m0gr6u4wjd0QfTqNnvgrgGRv1NBJ9P-7iiLhpJblwlXudSQjABOTAMgivTtAyE3eeZaupbcj8o3hIWyVio
+rCE8CwOZk40yr1HIrA2-iRCcXu4K2S_3NCRrPb6fW_5dhaTz1tAEmXtJPUrH0aPilVVciy7PEqrbuhmSvUwXPFHmDvCpJ2w8xnemnVk0OndIWvsGLoZCwQay
+f33e0nha303cmQtlK2NJUz_a2syziJ6HNs5ChUyxAQi7-oKRmw4oewcY7Dq7uGC0AjVuRd5PvPWEbKNY8ef-ai_EnqFPTLtI-XEBmYU9Nynp2uFE8plcO4kl
+H9x0Z9zCNlzEV2t4rZV8EMZz6Oq-91f3TuK6hmJtwVU0l0Hmvurm1-H7ex8Ejf1bhFU6Kxj_a74C3EcE7TLnM8uJBpxPwzUqU3UFjx8benUUzdfWOUvkDv45
+UsAZusKAO-jqJA4mq5UVA7u1
+}
+
+AzureEntityColoring(APJava)
+!define APJava(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APJava_tbg.png, APJava)
+!define APJava(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APJava_tbg.png, APJava)
+AzureEntityColoring(APJava_m)
+!define APJava_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APJavaSPRITE, APJava_m)
+!define APJava_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APJavaSPRITE, APJava_m)
+

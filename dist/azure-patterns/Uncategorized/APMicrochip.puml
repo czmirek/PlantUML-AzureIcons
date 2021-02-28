@@ -1,0 +1,12 @@
+sprite $APMicrochipSPRITE [70x70/16z] {
+xTX50eD038NXJ4h8DFU_B_BOuExasrJvSIK0jPBWFHlmq0Ub0STKl184efKKxrE3TEX35A0QjhN6ArxXGc8GTRv_ir8B2ysd1Wg_zPKQ6QXu1MkwNk5aNAXN
+6AglU7M5AWCLh-0Wk7aT6QojLEJGYbTAVEkzqIjQYAih2ljiBpfGySgs8wR0xzojpYk1nr5FvJ5NP7wDkHP3kFzTbbVgf7xlt_E4W43h_zgvuXNHab133W
+}
+
+AzureEntityColoring(APMicrochip)
+!define APMicrochip(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicrochip_tbg.png, APMicrochip)
+!define APMicrochip(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicrochip_tbg.png, APMicrochip)
+AzureEntityColoring(APMicrochip_m)
+!define APMicrochip_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicrochipSPRITE, APMicrochip_m)
+!define APMicrochip_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicrochipSPRITE, APMicrochip_m)
+

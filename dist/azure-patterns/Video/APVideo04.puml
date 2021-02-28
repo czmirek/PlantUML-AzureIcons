@@ -1,0 +1,13 @@
+sprite $APVideo04SPRITE [70x70/16z] {
+xTI5SSKm44LHmtB__OQp5ixy5mRT0evOsx_eOAnZg71WyNSgIrdAVcIajsMzSX8SVwUobANiWIT_I5cAcvc_Jr6XvqJVh1ZJ5TlR5AKwVOiYr2QuejIdg68q
+oa25wJbdAc9CoQb4QEaOfCYbX2jb0YbKA16UA2EAfz9UG4InLDgJju5oRjbCoPnHnLibr-I04gsI-nk8meLIdZL3YfIAKgQGugdKlun3IiZm7KbWYjCe1vNm
+8O8geTHcWIlXivbaj6LJ9LoRtn9KCXCc8XQB01IWNweiPMEyOxkfrJq
+}
+
+AzureEntityColoring(APVideo04)
+!define APVideo04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo04_tbg.png, APVideo04)
+!define APVideo04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo04_tbg.png, APVideo04)
+AzureEntityColoring(APVideo04_m)
+!define APVideo04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo04SPRITE, APVideo04_m)
+!define APVideo04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo04SPRITE, APVideo04_m)
+

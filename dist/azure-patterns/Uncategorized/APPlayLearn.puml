@@ -1,0 +1,13 @@
+sprite $APPlayLearnSPRITE [70x70/16z] {
+xTHLOi0W54JHo3pT_tvh42caCdNXVaLF5AP_qI9SowKYoINVgWnbAFEU-EkANbb19z-f36KeivMSI7eb-VIlA4C9AmUgnPkLK1nLXrOSZuktA8OsunL7dxDA
+uAeW5KN9S4uv9L3BK9mAIj5ToNJ1db4AjfhF9UzGCdQ7KVnGQY7xY-cKTIdDBodxw_4hPQgzh8I1LQ9JJEeweMIZU3L8HL5hPWYb53-KC1mvfQHiYWkE93d5
+KHASSr99GvybgwIYJPDMUiQo3VD3qrdfykQTT67QEvG-KvJKCdbbBzpDFJ9vfU_FA4EvRdGB
+}
+
+AzureEntityColoring(APPlayLearn)
+!define APPlayLearn(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPlayLearn_tbg.png, APPlayLearn)
+!define APPlayLearn(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPlayLearn_tbg.png, APPlayLearn)
+AzureEntityColoring(APPlayLearn_m)
+!define APPlayLearn_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPlayLearnSPRITE, APPlayLearn_m)
+!define APPlayLearn_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPlayLearnSPRITE, APPlayLearn_m)
+

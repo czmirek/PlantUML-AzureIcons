@@ -1,0 +1,12 @@
+sprite $APLockSPRITE [70x70/16z] {
+xT95biDG34JHCjE7_Q-sEp5ZAJogEvNEKs8R6stibRXKnbwBQwcriXnApOq4H69UYhqQL1rxk9Bruv20IaA_bl4h3GmD_yMk7nSm5FsQuuy5bBsttE0SgsGF
+LzWNa-yVBd-yEQlKCDK_gwYYYYggP8ko7pQPgUaNosmHlqr2_RAmL1nUvbHHXLB5feegggYYYYh_
+}
+
+AzureEntityColoring(APLock)
+!define APLock(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLock_tbg.png, APLock)
+!define APLock(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLock_tbg.png, APLock)
+AzureEntityColoring(APLock_m)
+!define APLock_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockSPRITE, APLock_m)
+!define APLock_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockSPRITE, APLock_m)
+

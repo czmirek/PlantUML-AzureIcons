@@ -1,0 +1,15 @@
+sprite $APArrowGearSPRITE [70x70/16z] {
+xTX7bWCX38HXf9BZ_UyxoG7pFrTZTfDgYzxNYTXjEwglP9laHod_IZGaiYvHXgjbeWHXY0Ar1gdUD120K4laqaI3JgzroAL9jP4SQf5-jVG22sJkPIqm72Fb
+PoI36CP_sdG86Hf82eXZQD0nY57ILMYkr2tHR3Ixa0ooL1KJX8nyw-LMjJFHuuF7rgsqrWvdamE6dBsLc2WeHVe5fahOpnJTdodzPjm3gKqKN18PRj8hh4O6
+VNTuo8aAxxmdxEZGitj9bDSOWr296f8rH0PPL0n2fIqeG9OL8gV3acAGsAsybp98coXnIK81GkLM7fSyxxj4eA3lcd5418ePHzI9KF5ZEdi342YON-nSHuIA
+d-kw7oC21QL-CmK42bOBzqXx8etAvXeR1g4Yt0eYWookvak8caak8DLSr97dHMdc48Figj9kfCXuv3CPPcz8nYENA3CZaW8PZ_Xu9ZfIiwHdr3znQDFO74Yw
+8Q-SZu20ESMhPpK_ZYw8FJVcE7IRYMBj3Fl_X-1VOR2rC7a7
+}
+
+AzureEntityColoring(APArrowGear)
+!define APArrowGear(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowGear_tbg.png, APArrowGear)
+!define APArrowGear(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowGear_tbg.png, APArrowGear)
+AzureEntityColoring(APArrowGear_m)
+!define APArrowGear_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowGearSPRITE, APArrowGear_m)
+!define APArrowGear_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowGearSPRITE, APArrowGear_m)
+

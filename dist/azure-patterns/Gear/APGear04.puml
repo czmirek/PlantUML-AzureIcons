@@ -1,0 +1,14 @@
+sprite $APGear04SPRITE [70x70/16z] {
+xTP5mkim30JWW4OmzxzlkVKVnIhuBL--JJ5ZXkc_SJWSvXLsXNKUZe2pSSmZ6SfCVyu1U_1RHPnzFlyG4gp4F1YIOyP2min_Zt5kkOXjFW-DJawXmYuWyrIQ
+-M91CWmYkB_rd8-fe2r494Bb0H4GOnBhfwf0jY02xkY7NWb8WYWdOZr0BdU0t1bxl6vGQvAtG0HxR4fMDlRtmK1T6UBDP56v23w4N81TaLACZLne2cKVYXJi
+-jFaxaDbbcNPfVX-nDYpFFP7luVoGO5UNG3KJG8xv0AvNmgMfbfwp3ODqZSfnYwNAqyV2fEme7Ab7lJxMx0q1mikYR7YmaB8Jh1Woa9RpJVGDsC4g-k2eA6r
+Hkkwp2n5y29CH8DNPOWNawKu0meosR-dU9lzfN0FlhMaJN90MegZFEtxGopTUOPesYX7-3hz8KCvkapPYf-iopozTJWS3cS
+}
+
+AzureEntityColoring(APGear04)
+!define APGear04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGear04_tbg.png, APGear04)
+!define APGear04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGear04_tbg.png, APGear04)
+AzureEntityColoring(APGear04_m)
+!define APGear04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGear04SPRITE, APGear04_m)
+!define APGear04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGear04SPRITE, APGear04_m)
+

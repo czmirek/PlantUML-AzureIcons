@@ -1,0 +1,13 @@
+sprite $APHomeSPRITE [70x70/16z] {
+xTK5Wi9050JHk2Tz_zFkujA35WxpSQja7fOyPz9nJ6-Ev9CqvJT6IgdhfFAcI2CrgtC-lLJCBmkfvwwQyetEc5BN8TqK1sPSIhsjheIkVWzqzRq3hZORO-0Q
+rA6h6oDNPEnR0yRXoe6nFGDioVQMhzhbaB5l0HY7gmN6uRt4sFSG6RiMClOgC0vN28n3LsBihiZONPcnkJ9ZSwN6SrU95wIvSNAFIlAvbLZHmNbkXTpt-agi
+n4gin4ginChr_uFXtBjo-_m3
+}
+
+AzureEntityColoring(APHome)
+!define APHome(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHome_tbg.png, APHome)
+!define APHome(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHome_tbg.png, APHome)
+AzureEntityColoring(APHome_m)
+!define APHome_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHomeSPRITE, APHome_m)
+!define APHome_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHomeSPRITE, APHome_m)
+

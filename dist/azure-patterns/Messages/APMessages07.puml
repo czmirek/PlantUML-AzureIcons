@@ -1,0 +1,14 @@
+sprite $APMessages07SPRITE [70x70/16z] {
+vTK5hcuX30JWAb3slzydr_Y5zZ39YTulDh493fNOlFMDrbpea8zP26UwPZ4lXDC57lD025Kavf6mgcGUosiuvZcXn9Y0e3sR4AUjc1XEXe9fmAfWAzCcJEgI
+QEujtcB_Y8lN8t7xBzBufPKbmpxqvnWhVkdqnEUJRX_QYhuAVVuOvT7lsx6CrRrQiferzjZ6aSnerJmDfh_6iU9QtN9IOqGM5wEa1a9t7Du1F7JeSzVHeMpn
+XEWTZrsZZCzZdNAEZ2Id0MnFJWRomUOiaCy-9zuZQUYkX90D-bL4rNPKbUaCgvKKwiW9NH1B8CDHEyHO2LuZ1g046qA1-S1pOiCeC1HqC8RIomrIpM9TewzZ
+rTSeAwOr-dPFyfZNl2-RliJjp94MUOvvZHwEHSkBeA_zdCUbscbb8idZabm0YDvwTk-_HsoWkz-N-zyw4gpaXXeg23AI7ACb-N3mtS5xX0wnYEY625FjBm
+}
+
+AzureEntityColoring(APMessages07)
+!define APMessages07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMessages07_tbg.png, APMessages07)
+!define APMessages07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMessages07_tbg.png, APMessages07)
+AzureEntityColoring(APMessages07_m)
+!define APMessages07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMessages07SPRITE, APMessages07_m)
+!define APMessages07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMessages07SPRITE, APMessages07_m)
+

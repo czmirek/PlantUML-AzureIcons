@@ -1,0 +1,14 @@
+sprite $APConfidentialComputeSPRITE [70x70/16z] {
+xTO5baCn28NX2n42-z_lU9Kc8NFgxJSk_KyUJn71kJOpqoQr9Fm75R53accrKUqKuRL6Zn22ijf0GGI9ZGdcM6scKI0ofsaQ2U5Xn8AKq4LgKGrTOd62Zcmh
+qcHxOXGdLLkJfqk9BuPJpZan_XHRbK2bRPA5y4rjbS3sLGAIhICtgMBhtA5HPBVEdo83HpzurRprYgvN9ivUQI9IW2GY11p_8Cr2C9REKk5eXQIBuXMsBWvK
+QlaogL3v8e6hEa__evo_CfzB9O3gQ2uwhsGWCP06bJgjL92QAK7wbNJou9UzIaApBmsygz3HQO3fT8d-lg8xNTLfPVCTkqhygFEL-L7dfwi2sfmzecwwmOfW
+ZroxaldBOOLK3olWBpLw7ctMuYhVocgbb435SvLpJ9Vv-ll8duqgUzITZVTznVHRvFajEl_zo5UeT56uCdIcIhAOyVFBUPwb7hJIcElljU_mX_lmzlO9
+}
+
+AzureEntityColoring(APConfidentialCompute)
+!define APConfidentialCompute(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APConfidentialCompute_tbg.png, APConfidentialCompute)
+!define APConfidentialCompute(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APConfidentialCompute_tbg.png, APConfidentialCompute)
+AzureEntityColoring(APConfidentialCompute_m)
+!define APConfidentialCompute_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APConfidentialComputeSPRITE, APConfidentialCompute_m)
+!define APConfidentialCompute_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APConfidentialComputeSPRITE, APConfidentialCompute_m)
+

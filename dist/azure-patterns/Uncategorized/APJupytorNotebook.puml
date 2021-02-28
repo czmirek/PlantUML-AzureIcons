@@ -1,0 +1,15 @@
+sprite $APJupytorNotebookSPRITE [70x70/16z] {
+xPW74Xin24KNWK2w_uKJPSmVQoiowScV9blBesxTVe6eiAXPbu-i2ukOTKZMN8kejNwGVE3wd39S32TcBURwF1PM__aobmhN8OdRjJTAMI7CTR4xod-A3GKC
+xPRI8weq-gevIdcPy2MbV9MyHww7_1Ws4gkkVGkzJH0RvY_J5g7uURKFXJsn6g7mhW0mTbkEK7oFKXG2PPUHB-IJZ51T7KCJhQxwPZkCIrdfz3R_iqyqHW6c
+dfnzqbSfszdahLCeJH74dw5qmW4PIjk6ifHUVVOI59_Ycg9WfqKfDhIZO45HYczC51mfAGhEdfQf2vQKfA3T6GekB9gYO3jDKTzDKFpmkanHj7TgTvo2Ui80
+xLwZa6_oR20h51x7QkMnEuSd2nJ_Ln0CdW3Y5FELJHTlHPOXYcA5Ra_tNOh6GjDYNtIEraNnb73sI1QYZ4qMeTFR_L1RcnSzVqWEpgwSGN3RvV3LMqN0WEfJ
+Ztf8LhOIk7h_vcys_oaard8KgB1eb2NmteVEFb1K2r48nysKEJ1h3x6KuR1Db5CHYzefPOv-2uZWSwAi2zLFKn2Ose7o1G
+}
+
+AzureEntityColoring(APJupytorNotebook)
+!define APJupytorNotebook(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APJupytorNotebook_tbg.png, APJupytorNotebook)
+!define APJupytorNotebook(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APJupytorNotebook_tbg.png, APJupytorNotebook)
+AzureEntityColoring(APJupytorNotebook_m)
+!define APJupytorNotebook_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APJupytorNotebookSPRITE, APJupytorNotebook_m)
+!define APJupytorNotebook_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APJupytorNotebookSPRITE, APJupytorNotebook_m)
+

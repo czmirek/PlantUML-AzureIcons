@@ -1,0 +1,13 @@
+sprite $APFlowSPRITE [70x70/16z] {
+xPC5RWKn30Mz7F3Qzxzj5RcYz_cbt8neSPG9-9z3FmHvp60mIEQ0xgzB_0g7l8Zw5Oop85sMOLcJ1ivR9lNx41caPVUFiEX7M6PlMEVi7jxOg9N6864i65Gu
+2mPn5WnYBHZ4Mp0eRf7oGb2GJWSiJoy44M0G1GOHZA0Hz1X_fyuOn5XS8OYp-0f1d2L146dXWoGrmi871M61e1vB15NQOjemR-ou4TDzme9COF47NFqeoGTO
+pka3BBQ8qFDYsgXf5HAOZ0-sy2U07yQFiwmVOfdwBMUTfOCt
+}
+
+AzureEntityColoring(APFlow)
+!define APFlow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFlow_tbg.png, APFlow)
+!define APFlow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFlow_tbg.png, APFlow)
+AzureEntityColoring(APFlow_m)
+!define APFlow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFlowSPRITE, APFlow_m)
+!define APFlow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFlowSPRITE, APFlow_m)
+

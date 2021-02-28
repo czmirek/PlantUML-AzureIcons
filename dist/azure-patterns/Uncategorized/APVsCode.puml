@@ -1,0 +1,15 @@
+sprite $APVsCodeSPRITE [70x70/16z] {
+nTX5mkGW443X8hWatF-qus-CNb35Bs_NaYzkYA6MdPmtvgp-BPGvHpfNllSKTwPG3sSAtTcTALJzcKBbJPJwKKf9Rw3Kx-jzsHMGxzLWKq1e9AC2GjwaW50m
+A21c1KIjk1U8LabzZdyTDwPMgVnfGJIAjFczj20g1QQx5KbbMu5v_7_8xKMXmCpq3zASw1IOVer9MKIZm12hfr1MXarjKc1O6ui2mzgO5JSc9Pi2GjMP510Q
+tgA0F9EINW4fqYOLhG8I_jdXuz8e8CEnmodkAo2OVpDbLm69832qeJ3DVK4ip9uYLxwh48nQePMnAp272ioX0dEihCoujChAD2zYKM1uv3SgC2ETFwbc_nbF
+pNR5XUJTiIBYydX6oz4VAV83-h4_UytXCYfS6_ZkxYK5frQ0oay8h9NeLSeAqOzDTcqhvCipbzXaMmfGNQ1_DjcM0hJHeYm58BC2rFQK8cI7gfUDuW8PHmXY
+VsqmMc65x2Cd2UXm5CS1iKNjq5Ytw5S
+}
+
+AzureEntityColoring(APVsCode)
+!define APVsCode(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVsCode_tbg.png, APVsCode)
+!define APVsCode(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVsCode_tbg.png, APVsCode)
+AzureEntityColoring(APVsCode_m)
+!define APVsCode_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVsCodeSPRITE, APVsCode_m)
+!define APVsCode_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVsCodeSPRITE, APVsCode_m)
+

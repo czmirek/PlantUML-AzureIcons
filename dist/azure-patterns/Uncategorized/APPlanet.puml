@@ -1,0 +1,17 @@
+sprite $APPlanetSPRITE [70x70/16z] {
+xPU5alKm24O94aBU_trNQYaqN1_vvOoiTKu-2ZVCmct-K_WpbWBlWn-nCECd2cB-H1HcUb_olWPvfy1h528-G_YA2Oazz9W54GdF9vOXmkdZmLkujhxHnFLv
+0JnKjQzOvKr5ks77A6XyXjezZO6gzIj3Ww51g3rW-eETfAgwnZ8uyDDIUqJv5sdBztAqG6AO4QLSSpVUq4e0uJoPMQXV4TuHS8Yp57QI27EYKMU1L69DLJdJ
+_1QF42aM79KlY3_Ju48B4k49v1wl497ihNhSumK29MjmP3m-egJJffnGZdeC8YKPa-G5gn_SKMQWSiOUlAOD6YXdq2ffa1OqCCwG9RULEsDx9unc4k0DKQT9
+9Rt01E6TQluZ435toNbuKFjTZE2UXTjTIO4fZPy9mud4pPZqEs0YkMTfOmkOAYOIRv6gtY6ZTtM-Ha5dio4jJ74xtLnmfIRZFZIo11cIxCQs0XoHKvJcXnaY
+PPE0f66Q2_93WKZREqSSqJsB2p8hICOGfPQu46YwWHGMABNu5igqFmOR730N98y2xZEEIHGBEpR2_lQSIvHJoPXQcbrLejcQHPWMvBNj5xFq3YV8BNvyFBaa
+j_2jjIG4CvPfAR11uXLnHmh23bstgbOHLUiPhSglW-40DNyDOtreZvYuqyrPIjGqMGeilZYb-2O47AI7G2iN6928_Y240DUZ6GA8p_nd9BhNIF0wijrPxJMB
+xmd1srXdU1ys-02ey0a8_cA-0G
+}
+
+AzureEntityColoring(APPlanet)
+!define APPlanet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPlanet_tbg.png, APPlanet)
+!define APPlanet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPlanet_tbg.png, APPlanet)
+AzureEntityColoring(APPlanet_m)
+!define APPlanet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPlanetSPRITE, APPlanet_m)
+!define APPlanet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPlanetSPRITE, APPlanet_m)
+

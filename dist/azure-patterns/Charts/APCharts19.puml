@@ -1,0 +1,16 @@
+sprite $APCharts19SPRITE [70x70/16z] {
+xTVPUkCW38PX1B_GSlyNFBLDW_L4IRpqP6Rw7NbzY-XU_kagK6yIK5zJN3T8_97GHQIPxx9s2Q4DKH7Tc4kAp45eExw0mB_YCkBb3DUM8idfkVmhcgUqd9yJ
+nbjQTjbKZzVc17EaTbQfcL8FJK5nNxpavuCDjM-Z0MXX7rgSKEF6XL2siDRs4rW9g7nMAhPe_vJIED7bZ3ueHDI6qeXeVhaQrr8gstZmlQBkF1Hvh5mzrWue
+CXIRyql275F2zmlCHnQObqe7EeCr_WWW5dLNOMgHoPMEnyUTIYWmkS9Wyqp9cLof4ubApkHAdUC49MTghbGqyKJ9cLvo1QreekGCIgfqj79OAJIF8e9oL8bU
+GFYUOkR6O3kaK0jzAye05iIFAGWDHR6q87SKZFn757sj40lNOugbolphXTyg_6aYCb-hRnGRYkOA4V7kE5SMX0UIAWqGtrAWvOen-lXP-bBf7vK5cUKApDUC
+NoWIa5SAhuowSQgeTZ-W05raNNL_LaXT_90oOlF-fAWBdLB0wafHCPToKa7hRa_8UQN0NI9oHIdLN7S8hYaBOyng9WjoLI68s-Eh-R8olxFabiA-PRUKxgFR
+Qxc_BnWFyHrbCDPnKm5t1cugivzNVfLVfSQMTsee_n-M-px-0m
+}
+
+AzureEntityColoring(APCharts19)
+!define APCharts19(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts19_tbg.png, APCharts19)
+!define APCharts19(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts19_tbg.png, APCharts19)
+AzureEntityColoring(APCharts19_m)
+!define APCharts19_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts19SPRITE, APCharts19_m)
+!define APCharts19_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts19SPRITE, APCharts19_m)
+

@@ -1,0 +1,14 @@
+sprite $APAzureHdinsightSPRITE [70x70/16z] {
+xPK7Tkmm24M5P12y_U_t_yG3Bkd8wT4zPVezy40Z1BgSKIHuVykqJCkqYCfbYnW0amiMTy0zWnPtX6V8Cfam4UCghTpHS0qfAu8XjFUk06efmyNuhxqXjr3M
+veqOqCkA0bYVT2IWBGqvFIarCzrIeXWeixeubxCLXuyzEfROaHMo5yqlquiZWB42oeSkYoQcx4doNa2zKLfYohUfwbv0l4-rumt4BziXeR8SQjHCkBedHEih
+JPq6M-lcVKV8GreowOBbd13jwwOB8udwh5ue8Q4PbMYh70UgniAOjDOJ4ebPM5Wi2fDi8tpR4Jhj3cN_60WdOgElMQfRyXqTaUomUgJR3-c2idUASfFeWhQw
+EeiDtsbqRNMNumaGZ65qF8trsYNjT8nIenWg3SCeRnX-09F9v3y
+}
+
+AzureEntityColoring(APAzureHdinsight)
+!define APAzureHdinsight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureHdinsight_tbg.png, APAzureHdinsight)
+!define APAzureHdinsight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureHdinsight_tbg.png, APAzureHdinsight)
+AzureEntityColoring(APAzureHdinsight_m)
+!define APAzureHdinsight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureHdinsightSPRITE, APAzureHdinsight_m)
+!define APAzureHdinsight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureHdinsightSPRITE, APAzureHdinsight_m)
+

@@ -1,0 +1,14 @@
+sprite $APPhone04SPRITE [70x70/16z] {
+xPQ7aiCW34GXgAt-_uDly21VFqnqaxxJN1z8kuvIlggQJyHbBlXKD8MGpuKfHVo0weoYHoYdQr24XYn3KHwoArHqDSgBygA0IgdSZuo9sE90boXjE-QEsuGu
+i1NAE75NsgHn86TGpEKBXI-zb-ZBoTqoVK7h4FZOZFdWwMfUB0w0_U0wsJLkZ7u03cDKHR54aM6qe_Q3wkvCNLXtkkwJdSCiNQSKU0jA8dLmIb1YdEyLIQHE
+rxihmQlxiCMYqp5LXLcs0rFLgwGEgehFUr7LnTJPvWU-zOMnGWbRCnu5XP9vsIdj7oZl5Ptr7Lcyalgc7IgQ-7svvMcFdbqaAJ6dSvIOZJcA1ENwUud8MeOI
+9MawBp33ZV_7V56072K28taA4_6jxCKDr_98Zb3AJCtdibBocq4jSv7zpT0_83cz0G
+}
+
+AzureEntityColoring(APPhone04)
+!define APPhone04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPhone04_tbg.png, APPhone04)
+!define APPhone04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPhone04_tbg.png, APPhone04)
+AzureEntityColoring(APPhone04_m)
+!define APPhone04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPhone04SPRITE, APPhone04_m)
+!define APPhone04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPhone04SPRITE, APPhone04_m)
+

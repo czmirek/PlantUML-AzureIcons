@@ -1,0 +1,14 @@
+sprite $APCurrencyVariationGraphAltSPRITE [70x70/16z] {
+xTQ5ZYiW48NXGKRV_ttlNLyEjO786d-i-eK2avGIbGvLIlJzbQEK2cqgjKFbUof7EKg5ogRIeVRRbQCSvIX7OJ6B23FbXqhhrnEFprot5FR0NDOLZSiiho22
+ULv11FEqCYFmpF8AnnYQcbPiF1X-kJQVBsGLcVRXkM4nISK0uKdnf09xAS_xuXAVIKeHs4fzLY1DAGeA-wnOIh5vSoMmwt-LIeKqPeODbKnsPP1bMT5h4wWR
+2jHLSIXQfk4B_gh4T8aojU4Bh7wn5aqfD2ZNZfzpYiBEpflhbAiENr7bpkhn6LCoZI732N3ALkyeZTArk9NGGXBNCrfATX6ix_uSh6fWrcYdPd1Kj5jfgXQk
+sWijzXy
+}
+
+AzureEntityColoring(APCurrencyVariationGraphAlt)
+!define APCurrencyVariationGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraphAlt_tbg.png, APCurrencyVariationGraphAlt)
+!define APCurrencyVariationGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraphAlt_tbg.png, APCurrencyVariationGraphAlt)
+AzureEntityColoring(APCurrencyVariationGraphAlt_m)
+!define APCurrencyVariationGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphAltSPRITE, APCurrencyVariationGraphAlt_m)
+!define APCurrencyVariationGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphAltSPRITE, APCurrencyVariationGraphAlt_m)
+

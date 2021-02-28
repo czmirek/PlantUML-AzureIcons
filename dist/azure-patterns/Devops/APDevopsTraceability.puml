@@ -1,0 +1,12 @@
+sprite $APDevopsTraceabilitySPRITE [70x70/16z] {
+xT176iCm24HX2w72_G-SmeVBranwvj_p95Y-114HKT5DoLV4De9KkhYELNHn-iPA4QTOHIo0bQ4kXaKBS11CL6I42bKiA7vM6-S_CMC7gB9z_f6LVgzCi5Bk
+XMuLgNZ0Kq0bvXEV4TlL63__6HcRVfyMDxoMr6qpqv5Y1nNxIXZPoh00hIGpiT4N82AYAm
+}
+
+AzureEntityColoring(APDevopsTraceability)
+!define APDevopsTraceability(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsTraceability_tbg.png, APDevopsTraceability)
+!define APDevopsTraceability(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsTraceability_tbg.png, APDevopsTraceability)
+AzureEntityColoring(APDevopsTraceability_m)
+!define APDevopsTraceability_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsTraceabilitySPRITE, APDevopsTraceability_m)
+!define APDevopsTraceability_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsTraceabilitySPRITE, APDevopsTraceability_m)
+

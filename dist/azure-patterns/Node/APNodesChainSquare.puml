@@ -1,0 +1,15 @@
+sprite $APNodesChainSquareSPRITE [70x70/16z] {
+xTTNWYCX34LHb531_lSx0Mk2RF6AoV7-T3vOhaIthyjJyfNAJDdlhpXUuwzH_Yl4p6PCNwFaMEbxdBlAtqCHtIzmNU2QFXn9mSl48s44ZdIAY7sUF8z4h6R2
+b97T-HLvLdpCw3822538PwhN25PiFZUaGB3YiwW7afO1oZNBF90pfSzDzWMApMrohD3SDy8WzgroCPfdPOjGLQ2e2lD4ZKKe4vY8U2s2wghhYc1xLBylDB3Y
+T7BMqSIDTgBmlAcT97SAdoZs6oZ74wt3dA9NXU-Ki-VHn5qd2l7TMSUrueyeBhEE5LCLBfJuNE8o8ppGMcglM5nc-5ZB6dklABLee9UosYjySCeCEbUQWNdE
+5VKQwQ7W8nsfibRZYAYKodPh8LTrami6AdbNe2CT78azZI0b8olgFeBm-CLWe198sjWHCwrF4yCfsY3nUThZ9IQ5459EUxoQmKYQ8d-HcVev_JeGpnGl1Ycj
+vO5g9J5uTyXAUoKOh8YPkHllbIRMjq_xR5kjv5tRjodsbSf_nNmbI15_L2aveAH-1mN_nvSZIr5xwIq
+}
+
+AzureEntityColoring(APNodesChainSquare)
+!define APNodesChainSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodesChainSquare_tbg.png, APNodesChainSquare)
+!define APNodesChainSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodesChainSquare_tbg.png, APNodesChainSquare)
+AzureEntityColoring(APNodesChainSquare_m)
+!define APNodesChainSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodesChainSquareSPRITE, APNodesChainSquare_m)
+!define APNodesChainSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodesChainSquareSPRITE, APNodesChainSquare_m)
+

@@ -1,0 +1,14 @@
+sprite $APLocationSPRITE [70x70/16z] {
+xTQ5UKCn30HWWPzf_ttBlQ0IELTk_W7qwMIKVqVjYIfLmSixjzjAU3dYAgjGWwYZ9U2IPoNaN1hWYW1L17nv9blhJreDogHMfutvhcrbnnRor37tjRAJpzFc
+aP7ET5GaB9ESIfrdzDna76ipvZarrSnndZYJ9W9jCr0JaIoQ2g0PJuobpyXAbJ4ZsCA9AZDKcIhGlgeNO-O2cb-ZajYxZTaluipU1KkV8xaaUwPTBd7cVW4b
+xhhSbTdpRucbtW2LApBlaI-_ZGrlOxuLDCC_rDS84CsO0D6CvB2jO0D_ziTE9KkfLi2fLe0QBHYL1vp90nhceJF9EcVoW5AZ1QFoW3DvGAdr0QU60WM4eDHG
+m927uiX3GHusamdFNMvqzmW
+}
+
+AzureEntityColoring(APLocation)
+!define APLocation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLocation_tbg.png, APLocation)
+!define APLocation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLocation_tbg.png, APLocation)
+AzureEntityColoring(APLocation_m)
+!define APLocation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLocationSPRITE, APLocation_m)
+!define APLocation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLocationSPRITE, APLocation_m)
+

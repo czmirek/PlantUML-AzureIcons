@@ -1,0 +1,14 @@
+sprite $APFunction24SPRITE [70x70/16z] {
+xTZNbSKm24LHoO00zT_lH3oZwmy7NWwdWBsK7CioxHjDPQKxLzvAFQwG_jJANyJriCBz9nyG3cQfUEE9n3QLG6O6bNcux1jA8C6WGcLkMbS22GOLBV_ngX98
+CA1u6RDrXMQ7Y40HK6XZNMeeozLbK6fIeG8b5G5aIYfwbdNnEYgMLBh2K78AxfAd5BoEfa1oIdUXKabwpodOKobkThAY_9tOAOeBHtg24aWmIKLvoBCAZxMa
+Og18Kb66qcCvlo8tMTtyJkTFNVuAo5-DvxyplE-OhasaQLR1Yq0ig-3XjQI2bwDuLf5pN8tEOtBJkvIYOhSRo_gwY6gCpLMrxjuZnR6Cnv3Ack8mb451Xf9d
+5nZQleuaZfntK0Q6zbpJfj9Y8PTAjNYPJTvVeke_I4I_7LPAvLVxp_1MFW4
+}
+
+AzureEntityColoring(APFunction24)
+!define APFunction24(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFunction24_tbg.png, APFunction24)
+!define APFunction24(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFunction24_tbg.png, APFunction24)
+AzureEntityColoring(APFunction24_m)
+!define APFunction24_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFunction24SPRITE, APFunction24_m)
+!define APFunction24_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFunction24SPRITE, APFunction24_m)
+

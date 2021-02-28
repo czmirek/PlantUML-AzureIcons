@@ -1,0 +1,15 @@
+sprite $APDocuments26SPRITE [70x70/16z] {
+xTT7rkGm20JWGW8Kxd_VIVMQXJfXy_xTrDBX8tGqVYhjIv29plqvAQIg4AahiB92fAwOLXKYTSMqgX2fAwPLXKXTCQqgHEgAQLKXKbTCgmgHkcBppBgZx6J-
+AsUcDX50MhTvLp4mZDYweRW0G3SVmxJXI4vP7K2V1tfH6HB6wUIL2S3tKpIh138siyOOCzgve2nv8355znLCKZ707zk9oEIvhBA0zkeEof9K59YlkkUKCwa0
+_TyuE4EyfvG1Z4VhDY8DeEufHO6uUEn8VpIpKaf3ZxkwHWG0b1Sa5E49l4gZdr00YxuX4G3Wh9PG5hSnS4wKLHWganFq2Augx_SYLFBRbTfsEolggxqu_OJY
+mE9YJeNyH4PPW4VZ4ebMBANinffBNkvs8QSuM7IUo68hEMKtO3rtqnRfh381ENyTnQBHbCAR-sQyjpzHZtEULdO7-dgtjgJ2rSZSHuQJIIjBSVx4pWu4ar9u
+AN_CI7W3y8hHTq3KZeTiuSjqCBb_GOCEqyVUE9X4BuHCU-lct10Efl3lC9YI4an5EHczgmHJKu8fAcHcJI4pKLRW_n0qknhyL7u3
+}
+
+AzureEntityColoring(APDocuments26)
+!define APDocuments26(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments26_tbg.png, APDocuments26)
+!define APDocuments26(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments26_tbg.png, APDocuments26)
+AzureEntityColoring(APDocuments26_m)
+!define APDocuments26_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments26SPRITE, APDocuments26_m)
+!define APDocuments26_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments26SPRITE, APDocuments26_m)
+

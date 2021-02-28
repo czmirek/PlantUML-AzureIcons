@@ -1,0 +1,15 @@
+sprite $APProductGuideSPRITE [70x70/16z] {
+xTO7SgKm381X2GbZi43tl-skUQAOJFniRI__jDGl6NV8HVsQWAUekU-ZK6vkKuW8FofN3Gh6RVyf_XQ5DxKYkXNMA_4gkEcjoQdCMZGy5SujxnGR4UPLSy6r
+NlY5003kpFmD2XS_wbN8HiYh3EVma-QYIu7rnGIRrz6d9BstWakPjOWyoXC9u55AP2NeKMY07ChnsvE8fD1nlWnsc4Gy4GIhJIc_jLr8dqAYHORqAODMa6P5
+sf3w-JBPU4pCqPJGVH-XxisuVv8q9zrAq5mgjo7rAelc42mx2NeLiN_bQ7KgvM_9Ss0eHaQNiWKibqV4kfBstu8ZL2jb24MFneOv2ezJmI3HAsvOBoEO-MaR
+LXIRQfq9W4KhnPg2-cnzmTOouAGvgId0-eW0nXEIwrUh2eGdicTGB6xSYWAqNePWkOpdw-zWJSc5P8F07wusEfRDrd0783CFK1HizkAckLHHcfzbIZu5ndAv
+k9HozXAubUlLEpfVyDOOHPQ0ZfTgfVzArmqxItDKkmEQutz6AKStlcduH75KKVuhbdUcwyf_vNc-43U7l-Tw-G8
+}
+
+AzureEntityColoring(APProductGuide)
+!define APProductGuide(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APProductGuide_tbg.png, APProductGuide)
+!define APProductGuide(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APProductGuide_tbg.png, APProductGuide)
+AzureEntityColoring(APProductGuide_m)
+!define APProductGuide_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProductGuideSPRITE, APProductGuide_m)
+!define APProductGuide_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProductGuideSPRITE, APProductGuide_m)
+

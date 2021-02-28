@@ -1,0 +1,13 @@
+sprite $APDotNetSPRITE [70x70/16z] {
+xTC5SeD128PXLc7X_lTj6UAUVFNonkL_PjReDvPbMPODyxISV6tUzeFOINBofIiUeqhKFaHHL8duZY9ZNoUYllt0XuhLsygWAzMjeZ4cK9dEs0ILCM9CcCAq
+_6LXYb0rRu0AJVCAg9366qpPZkcgmdNVTONOt-arvJ2veSIO65MQUGrJjcD2bHZJl7kc-ssbcrU1bTx_Nr6bQ5o0AV7HAgZ45GjLYda3LE8BHHLQ5c5AHPLe
+d2kdZViAwOSe5LMY-QpIvRr99x5uErHEwuUA27rIMPPbRm
+}
+
+AzureEntityColoring(APDotNet)
+!define APDotNet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDotNet_tbg.png, APDotNet)
+!define APDotNet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDotNet_tbg.png, APDotNet)
+AzureEntityColoring(APDotNet_m)
+!define APDotNet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDotNetSPRITE, APDotNet_m)
+!define APDotNet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDotNetSPRITE, APDotNet_m)
+

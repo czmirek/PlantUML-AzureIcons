@@ -1,0 +1,16 @@
+sprite $APNosqlDocumentSPRITE [70x70/16z] {
+tPY7qkCW38HH1xt_0z_OCxv_Oux4Wwv_qrANfMXHqWg8XGcr4ZBon5e1oujest2U5DsC1AXWfMx64ea_gg8_IwM-BgBrFM9LjQeLqGClhGhhWL3ZdWT3jurm
+Es2ewIqZGC781dKZuds4qO-CaCNeBkqZ5DUH02EtKWhw93BoejzNnFDYV929_C9VLqGU5wCaC7YTTTBUu8aedz299EBj3JqHLy0JwOyJEaE1I6Iq5IJQ4x6r
+bsW79BUg8fu7P0AcE-0gyI2GEB61uwqFmI28yo4eeIgaEFNrekbh3WjAj8OZyFfS6pmv62yI3MQxFjdzqBTf7uJlUyNhh12w104NRZj4_NgQlUnPcTVbFYUs
+PSwps7KRvBH7A6Jh1A7-TSgQJwK2GdrzNkGr5pe-9K4XNvzTmkGvNUCJ5F954i7O4BniqSFeNjAtP214tXyG51hFysKDvJenux5AcxnigKHrNURxgB_noO-B
+p9HN8zZZUzhlJOUlNAxTT9uR81tFquGjmivOdreFKWyt-WFzs6G7-4DsvEVOuUzss7jsbv8TXkvmtyw06Dos4rD9Ro29I47b__ebFFUxzNy8j6qIKvZkG0DZ
+joupf5LmAACA9DnElW4
+}
+
+AzureEntityColoring(APNosqlDocument)
+!define APNosqlDocument(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNosqlDocument_tbg.png, APNosqlDocument)
+!define APNosqlDocument(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNosqlDocument_tbg.png, APNosqlDocument)
+AzureEntityColoring(APNosqlDocument_m)
+!define APNosqlDocument_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNosqlDocumentSPRITE, APNosqlDocument_m)
+!define APNosqlDocument_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNosqlDocumentSPRITE, APNosqlDocument_m)
+

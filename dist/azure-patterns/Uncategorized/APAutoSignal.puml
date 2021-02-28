@@ -1,0 +1,14 @@
+sprite $APAutoSignalSPRITE [70x70/16z] {
+xTG5pkmm30HWE-Qv_tr_IBEG1qNXgf-ma94C2dsUswrPuaTQkv0HU8gpEOQ9qHc27oPCnEBuqUWCHp8DBI5qpdIkqGNYMIvqJQ0BkiJH2LtZncn2du1R4rj8
+urC95i0iJGv69FxDTmSrnwB2pLGDC3NpgFxI-CXTaAO3uDhP4kIydY3FKihqgH3w4AjNH6AcRnAf3rRuLIvCVscOrVzI0Y_XrgOincbXmZJWaZIUAWffJMFd
+KMdYXQxarTnazapdLjXIIXOLIewkY1HTFbuv5pQmZ6cnerCoTEn0PHPWWdN60FglDGg9aU8Cn1Wd9rPnBOjfWCkK8e7I3Z33cYJ0nm8LeHjzQS_rIeHXJGXW
+-ik1HmfP7Knf_qZv8PRDtoho_HNnU3KmaFeZ0GgiubYwwu1pX6cZ9mEG1K1fKm6L08h-ekYKjd5EXSmqGcaVyN2XJtIxtMwtspS
+}
+
+AzureEntityColoring(APAutoSignal)
+!define APAutoSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoSignal_tbg.png, APAutoSignal)
+!define APAutoSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoSignal_tbg.png, APAutoSignal)
+AzureEntityColoring(APAutoSignal_m)
+!define APAutoSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, APAutoSignal_m)
+!define APAutoSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, APAutoSignal_m)
+

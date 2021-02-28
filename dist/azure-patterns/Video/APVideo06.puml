@@ -1,0 +1,12 @@
+sprite $APVideo06SPRITE [70x70/16z] {
+xTA72GHH30DHmW-o--_tmgg4CMdHAq0msFqc4H5HFK5RpMcjKnChQzsHbKMpjEmKNR5RUCLPTCLsyHLduHLdyHLdyHLdqHNJnCfjldAgmGeuac2C2SQOuAUO
+O8m9nfXWZ0d6c1m3oJ5GtNwtY8ZO8xu
+}
+
+AzureEntityColoring(APVideo06)
+!define APVideo06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo06_tbg.png, APVideo06)
+!define APVideo06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo06_tbg.png, APVideo06)
+AzureEntityColoring(APVideo06_m)
+!define APVideo06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo06SPRITE, APVideo06_m)
+!define APVideo06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo06SPRITE, APVideo06_m)
+

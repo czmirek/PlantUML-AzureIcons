@@ -1,0 +1,15 @@
+sprite $APCircleCheckSPRITE [70x70/16z] {
+jTW9hkKW34HH0mRisl-2MtCfBqDJilvTm578Q69_NlUv8n8PU_befZTMuAVSBX5j9XxBrIi6srqmQWwDZrRxFf30KJa-a94uRRuY3g4j8093fCmCoAqRqXEt
+v5FSY2YDgn9WGjaBPvP5PJtCgIme9S2IXmAby7YyJaj3_C8apug6a07Fp9GHCZoOb90xC_W0YSZCdwTo5H0kAOe8qCrQ6S4qymB24pCB24_CBYE0MTGHTCiA
+GgMEO5W1eT9GH-3t5QMCODoKxQaYFBj4tFCKeR81iELEvXH1itL3o1mYQURNvP0vHX1c0ooTp172sG7FJ9mWVF7k5-OOGRjzwLD7uk7xcXB2R-o-CHA2zZZH
+fORibq4g5GJzRP9A8iAycZVc647_c7Np5Dd6zfqvGz2CDTpArETc1oji1LPbscMxCdcpA22iXRwL41Xr0ngLvR29mw9PVI-ywfjxx5R_qR1vHWH7DfW77ihP
+JAkDkHCibfCGwsEu--Z_0Vu1
+}
+
+AzureEntityColoring(APCircleCheck)
+!define APCircleCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCheck_tbg.png, APCircleCheck)
+!define APCircleCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCheck_tbg.png, APCircleCheck)
+AzureEntityColoring(APCircleCheck_m)
+!define APCircleCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCheckSPRITE, APCircleCheck_m)
+!define APCircleCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCheckSPRITE, APCircleCheck_m)
+

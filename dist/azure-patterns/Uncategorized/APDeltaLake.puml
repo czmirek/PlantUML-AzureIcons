@@ -1,0 +1,15 @@
+sprite $APDeltaLakeSPRITE [70x70/16z] {
+lPK74kCm24KffeZxttTx8P798ZopRsgALVWy3Fy9lk0v767m55mHyVWq6X6nu1aKFn1uXCTF41vmnK-U5NZ5RnZ6IFp1vob7Gc28HMBXk6ipEayvG-FIPdmg
+q2iy4MXZJGJQaNbfCpXEEMCJWNPechBaj7meaBzUJsO2qMkfroXbU_z21oalt5gG1gNTTR3ZbFrkPJuLY6zlUPYotJUpdAMCzVTzWRGwevwaN4T7_PIlHdQz
+b3DNlKETCZLksnEe_bcRAGz-BpkhxiX6oW4RJPqa4ix_siXRByCbEBYqneRYfm8lB6BSC3fBs-CUmuF6vAXOt9TaHSRDl2XZ9Mp-oLNeJsWabWjGwvIFifHn
+ZrRyVK-gqgPOob31ShLrogJV9ZeXg_yky8K04vtOumKNF1w9ic97gJ53odFiTfTfO-rYRNUj4tfynlY3ThIDbX8Nh7f6YqMgXUYN6goHsHOnKn4pYnCeNT4b
+UuJSNma1h6umzkZWlxgvLB5r80QCy0i-G6cTSXPQweJHEeRR32WWZG8dE01r5OeTSjbkrmWMyvyJx6P4F-Sh
+}
+
+AzureEntityColoring(APDeltaLake)
+!define APDeltaLake(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeltaLake_tbg.png, APDeltaLake)
+!define APDeltaLake(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeltaLake_tbg.png, APDeltaLake)
+AzureEntityColoring(APDeltaLake_m)
+!define APDeltaLake_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeltaLakeSPRITE, APDeltaLake_m)
+!define APDeltaLake_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeltaLakeSPRITE, APDeltaLake_m)
+

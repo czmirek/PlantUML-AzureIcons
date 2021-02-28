@@ -1,0 +1,14 @@
+sprite $APCheckmark03SPRITE [70x70/16z] {
+xTWrOi0m30LGa_3-1-xOq9SjfztozxoOgS0qCZz4gPLiAlyI1oY7i8Cad6uEetMrCXx5Q0andqJcI3EVHbCbmKmUoLTA7IJJu-JBQRW-lXw5YdWY0o3DCx4N
+HJdqOTzk5HusQHbQGSQ1gK-AhI17Xi8AnSYGg4eZYxW_A9n0yFYL18BxMXC8RbvB8yupnHOGvqcDc0mXiIBdpyW04YjyGWuCH9mYnSOuC1ZnWSVkaK487dNL
+7vWGiMXE7va8SOdE2KScGdpCbrs325YbmEYT8RoqfrcCU5lRf0qXyLOz_CRmnXQhLmOZ38ZKxcYru8nLf2MEg32zn97CUG67qyZUVjqJHsyKRMKjLJ8dRvmE
+7Au91Dm611gOoKoTJudpAPzY-WUAbC8lbCFPRTWhnVhXnh-f71yuP5lXSWZjAJQkMyEESlkcrlA_-G4
+}
+
+AzureEntityColoring(APCheckmark03)
+!define APCheckmark03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckmark03_tbg.png, APCheckmark03)
+!define APCheckmark03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckmark03_tbg.png, APCheckmark03)
+AzureEntityColoring(APCheckmark03_m)
+!define APCheckmark03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckmark03SPRITE, APCheckmark03_m)
+!define APCheckmark03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckmark03SPRITE, APCheckmark03_m)
+

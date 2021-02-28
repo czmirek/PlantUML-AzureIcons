@@ -1,0 +1,16 @@
+sprite $APPiggyBankSPRITE [70x70/16z] {
+pPW75YCX240jM13lVzqjJimoueQHhV_LQLz4qBounuIChIEcuEnux1ECJYFlNocTKpGBpg64X8EgPOOi9OI8DAFHBCAJ-JsuF5cph1vFStGM6McMrLFMALGP
+ZBIi7bg77i4rpK9lLSDli51uT5wne8lOxqJ7WN5BjJZkaGF7_WtGBQl7IKlIBODOyHlDEYCvS0L_aDsowHBg0oh39DPUuDliDM7cfdgz9ODXBIBovliDQXyt
+2EY35jn2BArlQK5AFlOyR4q4UmauYJGrbsc-BoKaGjoQa6t4O90C8byCycuINd6U0VUl_6Lrfy1jysm7qv45IRmuWpDGPt7uVCirP7ZicBaODbvii7I0nWWX
+KHyq7YAw0yRNVK21k-jnPaGNbpE90w6mu7bAx93OsIpWVsGf_r4ixRUiaQWNgsKIpPBuMoo5jMFwfGcHmxczs4YlhmCDswzqaPyp0vi4tXKNkZqO-h4qQ0wc
+ik87wt6K-H5q1TEiH-DomWQBfAqt2Cub98f7zSWlA0Zpe6PuD3FS9W6eJ_2fXUHu7ayj-nSZMYmIdyXWqHwY81WiNH0VMvh58XkC5T4Ay3sXVgph5Yz62U7a
+ghDuWRmH9TJl49_jWbUQR7l6X6M4h1mm8W-YIzIVVv5--hUF7qCyR7yF-JinR1x5yGYy-_ry1G
+}
+
+AzureEntityColoring(APPiggyBank)
+!define APPiggyBank(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPiggyBank_tbg.png, APPiggyBank)
+!define APPiggyBank(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPiggyBank_tbg.png, APPiggyBank)
+AzureEntityColoring(APPiggyBank_m)
+!define APPiggyBank_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPiggyBankSPRITE, APPiggyBank_m)
+!define APPiggyBank_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPiggyBankSPRITE, APPiggyBank_m)
+

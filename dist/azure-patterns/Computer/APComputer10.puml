@@ -1,0 +1,14 @@
+sprite $APComputer10SPRITE [70x70/16z] {
+xTO7aiCW38LX0qz8ulxttP8UnMXaPVlwdvBgpzsmV6PxbPwjl2aOpzR-iR8h8fStQdvXayuK8G3y_WPloRYjBYQUAOJZqef3AKKOX_eulv7DYk0SdPN3xfth
+P98LHM0KmyJE4KqKd4yL1ywHm2fsOmWc-TaAJHNIyD5bJ1NqSKZ5f5PHE0eak4ViAZseT5UXe4AkWk1L1r_HuHHMPFLkr8rAuhZabPu_q_6hBde7T4yPKKKS
+HSpzIaP9F1cC4d_kXfL3lAAmFeu1tLM6FYYQ6QVPA7ra5ANxiL5Joj1-CqwJfcSUAc8c7Wd5RLTsfTH985jTR_4gCDKb4qpb1oaff3ZRaaVGjXiLZxKINFPG
+QvZLMZtaUGZNVebIMxIw_F5U0G
+}
+
+AzureEntityColoring(APComputer10)
+!define APComputer10(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APComputer10_tbg.png, APComputer10)
+!define APComputer10(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APComputer10_tbg.png, APComputer10)
+AzureEntityColoring(APComputer10_m)
+!define APComputer10_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputer10SPRITE, APComputer10_m)
+!define APComputer10_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputer10SPRITE, APComputer10_m)
+

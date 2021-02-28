@@ -1,0 +1,14 @@
+sprite $APCloudShellSPRITE [70x70/16z] {
+pTK5qZCn281XGWIv_tr_gRSqB7Juv1sjxBCMMSc8Jz64n_B8fM6LFCBBAdc4oLDyf4BX2eKh5AvGk49XLncnfcdabVccj38hb5cXp6E53nCrSLeHBL14AnIj
+KBH2qGf5eygW96ALKxYoY5Kw0BH1ASGgJBC1B8j8Hg69O1MB-8gv8GTn59nyYcuPv5WXks5E3_577VLRIpIjs8wHDSRelk8ZiWPUQyqe8KGcFjSsYeSiF6MT
+33BnRKRn41c8EoQCwC1jhG91Z3zOh-XQW6unHBkln112lmqYH6iHcqUxLImYi-EbAQSlCAJ8_dKiyyrE4M-83j5nf1Z4leqkFQ0On30OK8BZt5USSH5Nd24Q
+xmaHh51MYJ9-LfcFOOdIVv4oFbNwO_Xfy5GhKQ16QIKAr2XGeq2D0ZKAj0hb1EMalm
+}
+
+AzureEntityColoring(APCloudShell)
+!define APCloudShell(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudShell_tbg.png, APCloudShell)
+!define APCloudShell(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudShell_tbg.png, APCloudShell)
+AzureEntityColoring(APCloudShell_m)
+!define APCloudShell_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudShellSPRITE, APCloudShell_m)
+!define APCloudShell_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudShellSPRITE, APCloudShell_m)
+

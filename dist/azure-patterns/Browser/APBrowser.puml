@@ -1,0 +1,12 @@
+sprite $APBrowserSPRITE [70x70/16z] {
+xTP50eD038NX5mFctV--TT-bgJS_jljm66JgEj5o0imivmzKej9yL0I5FAs8okqchqpaC2186c0a8wyONUO1OSX4W9C49Qt409GmRZUgL81srx5C0qB7_bWG
+bCTSbyVVeqB-q6Uts6CLqqBncAlxRKehhRJIIYkjjDBAGyTInHweM9HJPEgwDG
+}
+
+AzureEntityColoring(APBrowser)
+!define APBrowser(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrowser_tbg.png, APBrowser)
+!define APBrowser(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrowser_tbg.png, APBrowser)
+AzureEntityColoring(APBrowser_m)
+!define APBrowser_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrowserSPRITE, APBrowser_m)
+!define APBrowser_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrowserSPRITE, APBrowser_m)
+

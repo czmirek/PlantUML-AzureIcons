@@ -1,0 +1,15 @@
+sprite $APMonitor12SPRITE [70x70/16z] {
+xPS5hkOm30O3njp_lijVsuqQEuznH3-EJ97JigJLyXHg5nr_CQ77kRgD_p5-i8Xzt20Fyf2F1R8lqR76svwZ-GZXhQgE37cWn8MPVi6Y7cWYYIlJ1R5jJVNJ
+GJDyUYYqs25Xka47g864yIEZUmInMf3FMW8uxxSW7Lfp_2OBnPa2D0a6qGg5U1oCN_F9W-dXm24K3Dty5i5eb112KTHdVejWF9euFNxgKs-WuMZoaD15ij0u
+2hFkyqMoqjYwrmqMICxeRT8eohkqE2Ip1PhOqeyZ993C5kZpMEplh_JEmZx5ajP5PmiaiEJLXGP0alS8yyA7PYKX3ooEgJiq2mbcjmKRCJz7ClvIxY2azAGp
+ZIEW58E4E5xo75iyNYOzt010ilrebvpILTBI9IrvFbgMQBPBs3TMR1r04WdlNJoCesLl9KG6SBtPzC3hzitGJKw5ml4m3KocPZ1SwMbIERc6HeJjQggk7Qr8
+e0aV9O0pKeuqiSVmfnqDg7nDJ1czVO06fiQ_wAqL46boNaVphVdMV6kaF5MJIt8D94_MK7awqijxuoS
+}
+
+AzureEntityColoring(APMonitor12)
+!define APMonitor12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMonitor12_tbg.png, APMonitor12)
+!define APMonitor12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMonitor12_tbg.png, APMonitor12)
+AzureEntityColoring(APMonitor12_m)
+!define APMonitor12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitor12SPRITE, APMonitor12_m)
+!define APMonitor12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitor12SPRITE, APMonitor12_m)
+

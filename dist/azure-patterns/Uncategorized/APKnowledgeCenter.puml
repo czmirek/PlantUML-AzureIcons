@@ -1,0 +1,16 @@
+sprite $APKnowledgeCenterSPRITE [70x70/16z] {
+xPI7jgCm34Ij6Td__ybxJER049jTKhTnNt-HBYfsYfDj9FeBW08wNBwL8sgRi0iF9gFB3ZKnazJCs4Sjtx8pjRIvH1P7bZpRZbKUOH9nJa9I4lGasEyJZRQJ
+uAsDUZzOPaTrfHX6Z2LR9L7IYYAG8gHSWKcYBVI8cuotqgmKUtQa4SDGOXsYzWF5t7KGu6Gqr5ftjLLxbba4nfvQgu6i--8yoEToj2VwDXH7b1ZNCYpDYh6T
+qlTBYw59022DRIhQuMu-zAu321Cws1PKxIgbEZ-uGmEMsXFDWZomO6h1babPk0PpwG35oG6eeGexmWrRuOHaloX6xIpGBc7Gm-IDUJ5gADRHjSf9wUjkGZ_t
+X9ORtlsuZ4tAdC1iA-42ggEWIa0Umpg-s_jZKPWdgFjQo90bKQAtWiSijQVVVb33wCOWfFq9pJkAvOSVtD2SpbkQRXHhojAp8SavYzEJ8vID0ZlgUCXYPzr-
+wJnYIOOd-tlDQOkoKsr4KBQ7BHehjFZdBBhPbXQFMhGQdHYa5yD7BCfZSZqlbEHnImuyRW7VO17_bkMoN1OOprkYR7pESbak2ulnV2tn5ak-nvBn5alYLOjW
+lC4YofVEosNv0G
+}
+
+AzureEntityColoring(APKnowledgeCenter)
+!define APKnowledgeCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKnowledgeCenter_tbg.png, APKnowledgeCenter)
+!define APKnowledgeCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKnowledgeCenter_tbg.png, APKnowledgeCenter)
+AzureEntityColoring(APKnowledgeCenter_m)
+!define APKnowledgeCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKnowledgeCenterSPRITE, APKnowledgeCenter_m)
+!define APKnowledgeCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKnowledgeCenterSPRITE, APKnowledgeCenter_m)
+

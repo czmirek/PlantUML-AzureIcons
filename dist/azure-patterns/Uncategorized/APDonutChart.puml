@@ -1,0 +1,15 @@
+sprite $APDonutChartSPRITE [70x70/16z] {
+vTW9ikCm20HGC3H8tF--i_f7DSBu5qvgdNU0hjOUXsg7g0Ag4SCTmjGdq2zncYRjY2LYiQEViLAM8PHaehlOZ6_xC3I9nBXHv1JP5AhffRXYL44Z9KOlHACJ
+0or48mRQIAbYeEsK7AFQJiah9GzJGcXXVPeoQJ6qK_AO1B1kIXwJ0IZh0EwHv7LI_6Qc2OHEKYV9geABEg1_s6qPmM-f3fWsx3Tb38iLHMxhE16nOLcZeaiI
+LrvpkrZLf6uZvu2sEg2INmy9YHbJYIERT20pke78M94ntPcHI5MbDJCm94gt91AtQa2r8YKFg3inwAVu_v1YI1xCxkTN-lck-ym9-CXfr0Cxd-ZU3CTsrvdF
+Y6ZUKh4z0MEULs39hczCnSf8RtY2ulRcrtH4BD9vIVZhhLyPTsrGlceavtHilFV2aiSr54Ksenfi_gmIcz_z31fHc_xBZDgWqn5la7p0-fnUUCP3a_DkwfDq
+FDhotXpnmA3T-4G8yNWqi--s6Jca7pEeOftLgScChFDLNjyXzTrJan65vhyUevDH4u-22pMm-5K4KniB_CnoXnvK-ma
+}
+
+AzureEntityColoring(APDonutChart)
+!define APDonutChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDonutChart_tbg.png, APDonutChart)
+!define APDonutChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDonutChart_tbg.png, APDonutChart)
+AzureEntityColoring(APDonutChart_m)
+!define APDonutChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDonutChartSPRITE, APDonutChart_m)
+!define APDonutChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDonutChartSPRITE, APDonutChart_m)
+

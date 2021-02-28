@@ -1,0 +1,13 @@
+sprite $APLockBlueSPRITE [70x70/16z] {
+xTDNJiOm303W3E_xtvSDSN_9hd3Pv7jDvTrsHEO9pj4UZ8bY7hKCceFTFmrIMsQB3P-ktxvsjcMqI5_PTCLmvlf0MeHFl-co-itxoOSdPprnK4aGXlDIj6Lw
+NWoxrmnanVJWCUcf9mVNsubfBo3EGEsKn5i8RZij9davryEC6CmsRGc3AEuXWT4CsSqzanVEnvFBZIYALA9OiEWqoewoezZli6sR2XEng5qX24zGh8xW3LkL
+W2DMet2WLiBWb7j2E40hWHk_Fmh10NtdZWoJ5HNFJZ_Y5n2hKrz9tNkslAFiAEX-eZe9_kTA6BBBLEnNkGS
+}
+
+AzureEntityColoring(APLockBlue)
+!define APLockBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockBlue_tbg.png, APLockBlue)
+!define APLockBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockBlue_tbg.png, APLockBlue)
+AzureEntityColoring(APLockBlue_m)
+!define APLockBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockBlueSPRITE, APLockBlue_m)
+!define APLockBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockBlueSPRITE, APLockBlue_m)
+

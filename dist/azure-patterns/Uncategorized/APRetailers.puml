@@ -1,0 +1,12 @@
+sprite $APRetailersSPRITE [70x70/16z] {
+xTW54i9004FH9FMz_trn2ExUF7JjptIyrGmDL-AkUXUlZDG7_h12F82_N4ab5VoIQ6mv4DXKyxz4vNb2wu5PiUMWWKet_ojqdXUQvU1zbLHIIIMLL599HROS
+49X_vaDwteD_zlW5SYRt0RzSIKM6Ayd-yodE5
+}
+
+AzureEntityColoring(APRetailers)
+!define APRetailers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRetailers_tbg.png, APRetailers)
+!define APRetailers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRetailers_tbg.png, APRetailers)
+AzureEntityColoring(APRetailers_m)
+!define APRetailers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRetailersSPRITE, APRetailers_m)
+!define APRetailers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRetailersSPRITE, APRetailers_m)
+

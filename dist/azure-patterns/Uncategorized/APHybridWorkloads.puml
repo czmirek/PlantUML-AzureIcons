@@ -1,0 +1,15 @@
+sprite $APHybridWorkloadsSPRITE [70x70/16z] {
+xTH9eXem38DXMrBkV-MciuDHNmmi-w_U-A648TxhVvdl0gNt2Uy00yGws0qCms17ECJM5JidXmgdIfej0wGpNoEWraw4OIuKQFs9kGF07m78Gwd_Pf6T09uX
+3wLjxSXExE6dmdQJVvI2U8O8x28VCuXHI829dnrCxh2kbL8-f7k5wHokqHR3g1i64TCfS4PFI1pPAQ9DAs4KD6IWuBCAFwBeNg7Wb3LGo7JAXF5R7lkC8lhW
+Nhnhmg1MASqK9dfTsVrRUSfmSYJidZ8OAipTGB57UkR8t8i_KW-0d-AFr1ieOjboHdCWenWcPAOOXS-LK4VqewRuCH7n-FclyksT4ZjAgppqCQqhD4eUysNl
+MXBzbb1XJaLDeKE2LLbMIP0UYInZv5yzcGauPAV2j2bLCKOVOwSmlef_6Paf5qgeCQyeMHXABoh1ob2ZU-cChAAuIPqv4CM8qMz5hoZ1uaWwaRNYifGAT29T
+yL4cemoT9SKeD8A0hE83An6Ha10lLT_tYSmnOCZtCyguRm
+}
+
+AzureEntityColoring(APHybridWorkloads)
+!define APHybridWorkloads(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybridWorkloads_tbg.png, APHybridWorkloads)
+!define APHybridWorkloads(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybridWorkloads_tbg.png, APHybridWorkloads)
+AzureEntityColoring(APHybridWorkloads_m)
+!define APHybridWorkloads_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridWorkloadsSPRITE, APHybridWorkloads_m)
+!define APHybridWorkloads_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridWorkloadsSPRITE, APHybridWorkloads_m)
+

@@ -1,0 +1,15 @@
+sprite $APNodeJsSPRITE [70x70/16z] {
+dPW9SeHG4487chd_aRCdMCgaQAbbDdr-AJ3zytYbULuqZwNuTwe0_NtWYY4pFZ-Revfpl7PQMmMPu4FukZNaSL9XJxFmmkR2nCAUSiKqfpQrEB1RQcDFJbdF
+4J9xtv32aDAUiUTBZJ4CXgmBnmc6hCi_fI7DmmptALXGG4eI2TGKID8SR_uWJKdXrz6NJ1gqfimp2JN5a8JfAJv6901mv9lgAJy9npMlt5AKSgQUmaixlC0j
+1I7qUyh4kAxTLMnyJv7pIk8k1UVi3x6Z-Er9ueBYGbyrAyfh3bgA1UgCqf9Y5ZY6JKd9mg_XDMKapQiH1IM5lgRbafOK-EZx53zUOgdHKfGxlNINbqd0NxAb
+7CSIVcjq9tKn_Vi6P8om_WkRAxtj4KVnyRBl4VYbVoUFoPH-bl9SjwOuEvDcpEaeDfuEbZcgAD3H49xjuREXp7dibpa4FLgiDdKvMUrEENtVRmppKGmPh_Tg
+cSER33T6mzBKlUx-ku4eJ2r2fSAGgY2T8SKsFwLiRoJMXkJqx0p90Mjsoky
+}
+
+AzureEntityColoring(APNodeJs)
+!define APNodeJs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodeJs_tbg.png, APNodeJs)
+!define APNodeJs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodeJs_tbg.png, APNodeJs)
+AzureEntityColoring(APNodeJs_m)
+!define APNodeJs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodeJsSPRITE, APNodeJs_m)
+!define APNodeJs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodeJsSPRITE, APNodeJs_m)
+

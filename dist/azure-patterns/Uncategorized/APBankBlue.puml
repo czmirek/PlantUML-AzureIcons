@@ -1,0 +1,12 @@
+sprite $APBankBlueSPRITE [70x70/16z] {
+xPS53iCm40HhFFZ_Wtjb2grTpereHIDDE9kta8XIhoEp6b92ko8KqIDIOwEZYbx33M6Hz0uyBB4E0uHbqN4uWuVq21uMgYw1qkGLfWDWOPaLGUf0M165eJHv
+XM5XmrSO73PyXU5XKPz0UgN5BQ4OekqKut0lz5ZsWY-r2EyPMc9pO0rPAE-nnVUBRHuMsIh7zL6BMzpY5hUunIrkSGlENri26Te16V7b_m7-PqCT52Di0G
+}
+
+AzureEntityColoring(APBankBlue)
+!define APBankBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBankBlue_tbg.png, APBankBlue)
+!define APBankBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBankBlue_tbg.png, APBankBlue)
+AzureEntityColoring(APBankBlue_m)
+!define APBankBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBankBlueSPRITE, APBankBlue_m)
+!define APBankBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBankBlueSPRITE, APBankBlue_m)
+

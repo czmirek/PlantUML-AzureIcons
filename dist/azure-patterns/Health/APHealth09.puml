@@ -1,0 +1,15 @@
+sprite $APHealth09SPRITE [70x70/16z] {
+xPPdmYGh2011HR3kVz_tTlqYEsCFcsFzwcIHEiclJ9-MziViNo01Gjumm3vJORu0L5xP-_uP-RHWaom1czNBjSHeVS7CHncjEqmfeC_rwsZvUDTjMrIocTY3
+LADWMQXS4cYXe7YOx917D5okCUnxM-eLLOO4SetJllECwg507cDOkVrdEhDwlZwa-eZgxStDhT_XzLGpdQWslrvI_MJ6c1U9kjHGpl629aNi5B3jCrKM9hTe
+GCxI0iBaG8EOTwg19M_eOXDwh0cMtag8B0dtbGuc_EO3rXS0FLqpdYFQQQ2R6FgylxNvSWZHtbK2v5ApS_R5CpFtpgIFqMM2dZIB6uPyQXaV48Cc1zJ9XERp
+CAMDqSH1phJ96zxk35wVamgvf5a0o_gzSx1i34kJEs20dqzjNBx28Zq0OaZHSa8ZLLEqrBzUcGPOmL9wytsznVvP_baAVn2LlnwG4WqlMBxgtqfngH5elMd5
+A-iHCigg_tQTyMCoGPSgUlfgJLpg64lbbhuFrvc4tf7GvRDmLhyn5oLvZRVyCx2QV3Oz86mlr3u3NELBi7NryQ-ZvW643vNFuH__0m
+}
+
+AzureEntityColoring(APHealth09)
+!define APHealth09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealth09_tbg.png, APHealth09)
+!define APHealth09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealth09_tbg.png, APHealth09)
+AzureEntityColoring(APHealth09_m)
+!define APHealth09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealth09SPRITE, APHealth09_m)
+!define APHealth09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealth09SPRITE, APHealth09_m)
+

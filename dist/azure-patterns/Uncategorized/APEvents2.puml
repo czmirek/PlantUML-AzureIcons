@@ -1,0 +1,14 @@
+sprite $APEvents2SPRITE [70x70/16z] {
+xTO5SiD038LXuPFkV-6Y387LD5iA_GCX-pFA4pgA3QxKPGvZwdEyPHs2jvpQ11_HCCP7J5swBjGhUk-AxUDDKJkNRWhRBkpRAOPpsKx1hZzJdefSe0X6wJQD
+ZdCvqS5UZnRoVaj2jYuuJ8d4LCRBE96eIOrAmxp5Zb7EDMzjRgg6BbCrnzTxnZGRtvCYt2jSRMyFltIuC3EaKtWR6jqcmzTbFUfjyBp2YSfyNf5LaPXNA6DH
+yXkABun-Hw7C-70YlgCWyXtAuE_SBynYo8HSznmT7uRg-8YgCmeg8lky1173irjrYgvZOjzGeFNEynjAsAh8lEAeF6nUaGnyVr_8QquYkLVw-qKZCn2fbzul
+Hua1hlys0LfjRuM8pKpLd8b4F-iLL0VFbwZ74NPdzs85Zag_eQJMMujvXTCM9USL2goAp2kw3GDDA-imHE9BoYX1lXVVlNTPpVJc_f49poPuf9wz0W
+}
+
+AzureEntityColoring(APEvents2)
+!define APEvents2(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEvents2_tbg.png, APEvents2)
+!define APEvents2(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEvents2_tbg.png, APEvents2)
+AzureEntityColoring(APEvents2_m)
+!define APEvents2_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEvents2SPRITE, APEvents2_m)
+!define APEvents2_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEvents2SPRITE, APEvents2_m)
+

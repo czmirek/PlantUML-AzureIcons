@@ -1,0 +1,13 @@
+sprite $APDeploy11SPRITE [70x70/16z] {
+xT47WaCX28HX9E8Jxd_VhIdCLZBfvJl0hu0SNTEa2SaYwtG53BQ25hQ2fbMqRnM62b2pmLQGEbLfcecqoLJistKdMy6C5go6RQmhO4gHzRLr1RbLg7IiK4nQ
+Nsj7gSYlbMTbN55bPHJ5YdPAEt75vhGZL2AmygpOVECHFjyONOa4AjEFy1UFS6ul68bmfe8Ho50LZpKdAX21JAcoB0QHnCiLv06SgdW4SgBYyOtNAnX1NgzW
+17czWX7aUrJ6yYcIvTCeL915qi5zLaJN3gg0wwyyAqr_qoDHHLAbaGYBhpmhpmfD4xaPhm
+}
+
+AzureEntityColoring(APDeploy11)
+!define APDeploy11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeploy11_tbg.png, APDeploy11)
+!define APDeploy11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeploy11_tbg.png, APDeploy11)
+AzureEntityColoring(APDeploy11_m)
+!define APDeploy11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeploy11SPRITE, APDeploy11_m)
+!define APDeploy11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeploy11SPRITE, APDeploy11_m)
+

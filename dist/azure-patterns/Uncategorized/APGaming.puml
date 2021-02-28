@@ -1,0 +1,14 @@
+sprite $APGamingSPRITE [70x70/16z] {
+xTHL6YGX30JW8B6w_ttNHg4pOQJN-t-dlWX0kpiS3etLOSg58gMB0YgTCcoui6rGKrn9ULY7Os1SwQ9snOWf90YuVcS8M1gIosCO-3ocu1rC8yDRQjBFkpqv
+tjI6KjvbSIact5coshmJ5TaMqt3XqayK3tNwJd6YmOAuzsLC6OTGDdT5-utZWQb-tiosd-J5rF6GpGrvlyC8N2TH71TbQiXMASfYW36Bpy-WuzbQQlZsRTZP
+SYuobZws1AnsD6u3itPTMNvVyXITtv3p418De67csvz5l-USLX0Efdfuc_6vJXMV4s9ypaYn0x9TKl3df5GaN9NFLDzASMaqAaqSiOQGDWerGuGHi4eFyRCf
+GfdgJwK8vSesfeKXkRhUaT9QmwHiVw8tOiZM8UjD4ISX2Hc_pBASoReflY-EwHNDXmuqkR2PSZxevPIgRjheTOKLohI7m-7m5G
+}
+
+AzureEntityColoring(APGaming)
+!define APGaming(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGaming_tbg.png, APGaming)
+!define APGaming(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGaming_tbg.png, APGaming)
+AzureEntityColoring(APGaming_m)
+!define APGaming_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGamingSPRITE, APGaming_m)
+!define APGaming_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGamingSPRITE, APGaming_m)
+

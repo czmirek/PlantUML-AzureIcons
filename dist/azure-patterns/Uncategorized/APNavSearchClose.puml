@@ -1,0 +1,13 @@
+sprite $APNavSearchCloseSPRITE [70x70/16z] {
+hTX5OeH0443H7c0JhVkVDYv_4tsCwuFshbfhtUmBBllDozFjp0x8pEqhChC3yipSpBmmWCnS7_F603B7-c04MM402GD86K3A0586a3A0b06a321b0Fazi-Td
+tpA0z1U2z3Tmkc40AGD86K3A01Bc0AGC86K0AGD86K3A0586a391W0a2J11WWW03Y2jU8gzTRsdlTJu2V3JwpE2pbC-OFdi3KWQGCe2K0UGdndSUlWlo7Pdl
+3W4f0qWPGCe0KWOG28yeLFEmqKDO3wSzjFSq0p2dP4vkJidYd9HHUcOyk_K8
+}
+
+AzureEntityColoring(APNavSearchClose)
+!define APNavSearchClose(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNavSearchClose_tbg.png, APNavSearchClose)
+!define APNavSearchClose(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNavSearchClose_tbg.png, APNavSearchClose)
+AzureEntityColoring(APNavSearchClose_m)
+!define APNavSearchClose_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNavSearchCloseSPRITE, APNavSearchClose_m)
+!define APNavSearchClose_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNavSearchCloseSPRITE, APNavSearchClose_m)
+

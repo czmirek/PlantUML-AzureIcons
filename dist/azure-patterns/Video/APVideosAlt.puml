@@ -1,0 +1,14 @@
+sprite $APVideosAltSPRITE [70x70/16z] {
+vPU5WIKW30MH5-s_txjrtmJuMPy21esrFyK0YTeLAeHnOkWa_WAXlgU0-fie-hA3pT_5UCq3yn33maRKKoJRpZHVm6Oe4Lz40WdxCbmW2JJiMz2R4dA_N3Dz
+czbUqistiVxIedw0lf30ZvZ1UKxFH7u81Livsmov5sp6_0sKpNCi-N0Ao89dn06a04ZMerBVjG2aYp-lUs01ikkvUoN4bknw4EOLnIEIlxNa5f1cATXYItOz
+jcC1n2ABnvRqUdOj8FroItoYcjkjUUcQNrSJ0JNHM9aPcXLagIXZOYDZZeBiNL192gfQIOKjhlRdcx6IBWYb7LdmPvR_ocKNJDaaSJvHwF6bd6lqS3og7v2u
+PkABwN8sVTPFmlbKxjpRAlIEnwXjCUMD-vXjdm5Mkzk3CaRxI_m7
+}
+
+AzureEntityColoring(APVideosAlt)
+!define APVideosAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideosAlt_tbg.png, APVideosAlt)
+!define APVideosAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideosAlt_tbg.png, APVideosAlt)
+AzureEntityColoring(APVideosAlt_m)
+!define APVideosAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideosAltSPRITE, APVideosAlt_m)
+!define APVideosAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideosAltSPRITE, APVideosAlt_m)
+

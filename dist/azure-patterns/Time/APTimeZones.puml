@@ -1,0 +1,14 @@
+sprite $APTimeZonesSPRITE [70x70/16z] {
+xTP7OiCm34JH0S1-_mE7I96Bo0YmqiE_6hVdReku5tkY8roFe4DYRnleaGxMjW4ElTQBEaeVIKVk8-j8hQSZwb15TCZRpO9sLbdAKfQobAeAdrAIu3MAvK65
+SHE9NxaOruvNOOmIdo8ObprAmAnYLn8kISw9i4NLgXHSIatZAzMg22wrvp8kPPiISOdt2jiKVb-1c1GSA6HHv4Y1HU53HGmAVPfIwPGIse1Xho9jmBWLr04Z
+tlS8V65EAA2DoPxFYs32LCzdDz24ANY9JOfWpB3hsvXenvJMwXiUWqr9s2MoqTMeDCAyrAnAdJF1yKzIC4cQNPaovFo75GnY_p433_xi_KeG9bmIVlXOgaI1
+5jClEpfSobAMifIFwGa
+}
+
+AzureEntityColoring(APTimeZones)
+!define APTimeZones(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTimeZones_tbg.png, APTimeZones)
+!define APTimeZones(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTimeZones_tbg.png, APTimeZones)
+AzureEntityColoring(APTimeZones_m)
+!define APTimeZones_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTimeZonesSPRITE, APTimeZones_m)
+!define APTimeZones_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTimeZonesSPRITE, APTimeZones_m)
+

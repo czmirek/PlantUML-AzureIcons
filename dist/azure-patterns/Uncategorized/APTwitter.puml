@@ -1,0 +1,15 @@
+sprite $APTwitterSPRITE [70x70/16z] {
+lPX7baCX30HfnVlVU5QJJ1CaXrhxrrE29pm-0aHLCDf0FVA7SAsxn9FWKed2SudVHcIvnMgElWTvnJujpKkabaqzAyy2pXs8B14eH5ABnhACiUxKqGU99A7S
+y6p2ygcZjL1S0B7O1MD71_x-CjH9dv1_G6pZbZ3vzm7OlFd0-UWv6HeyV87JS4Nw7mz8Wp2Vg4U9O61Er_zP9d6C6NASM24HczC2qcpXHH1VMS2AxwinWWQz
+09HLVtjE8QedIqxniUauMZ1Pr58Q5gb4mgzMcSnwjkJP4WsBZc5P34OcYysMB9SbZLsMA2QKoW9CAIu4mYpXZaCeREegzLLceVBgbiH3jBKbLXOlQFZ-kihK
+iIaAhsComeLCBMMJQzgj9DPn6gxN95rqpnM5hM-kV1YgYx2nKGfXZiWbu2c7WZzoZasOAoC086eUkUNr6zd89Y_VLFjRS_iPmFlJryHWH5lIryJhNdmSxNQd
+DJVoqbTvtsEl_RVYZ3fLwAYYpXLr055L5M1yW2y
+}
+
+AzureEntityColoring(APTwitter)
+!define APTwitter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwitter_tbg.png, APTwitter)
+!define APTwitter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwitter_tbg.png, APTwitter)
+AzureEntityColoring(APTwitter_m)
+!define APTwitter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwitterSPRITE, APTwitter_m)
+!define APTwitter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwitterSPRITE, APTwitter_m)
+

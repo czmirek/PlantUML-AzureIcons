@@ -1,0 +1,13 @@
+sprite $APLightbulbSPRITE [70x70/16z] {
+rTPP6iCW24NX2sWKzh_WFlVBU3htVtUwc8YEH5_6p9nZwQ67M1jrPpHHFch3uW9ir8vXkgfbxSgcQvOwjEW2ctLYcivurgbqdHXrmU2Py6nQNTIqp-eoGw7m
+QBm01rlXcub20bGPLpiBIP0jpRSNr465O9LcGLCR2jEQVMiM-xrPNf-kig1yxQrx_HSG1OMsy71V4Cnurn-JrphHoyXVntp1Lb0oGLi6tZGa-5d2LeetKv5e
+aiUdoT0AFbGwwBn1zurFDKD0hqrTJ89h3nl58SX0UueIpf2uw7T2tsChugAjX2Xl6vnlPKDyOHPs8fuk1mhzRhuYpDe6-qwbswQ_ldKUgvsuzjm
+}
+
+AzureEntityColoring(APLightbulb)
+!define APLightbulb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightbulb_tbg.png, APLightbulb)
+!define APLightbulb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightbulb_tbg.png, APLightbulb)
+AzureEntityColoring(APLightbulb_m)
+!define APLightbulb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightbulbSPRITE, APLightbulb_m)
+!define APLightbulb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightbulbSPRITE, APLightbulb_m)
+

@@ -1,0 +1,98 @@
+sprite $APBlockchainSPRITE [70x70/16z] {
+vTS7skCe381Xr97kV-1T5omU3B6djs_cx-HDSLFAzmd5vcck8RLvSYcgCIyPKOjvZS5uPYIM33LbpV2bF34O7nXgoffnQCgQWQOyC1W7K-T1KpQcJhDB2U5v
+b4hmebICvq6dwB-i428WqbB9DHyK16GX15eh-r-506Yb8EotS0PSAe2sho6WkK9WSIH02mMXnX71N06ECqTC1KL4JuL0hZM0CuN0eYMWMtN_OuIpDSMZHGib
+LoX8huJ9eI34bS1SgRsIcHdMky9JXK6x5Vcwa9dLwtMf3y-84TjJge2BRGJK40EQAjGsaXDmAfnAjv4g8ZUbQASm0Pc7Am9rIgcTmWXK8we0K2f5KzcOFSmZ
+81aTrl1PBZ5k4I6THYh5TwL5-qSgZKabwnNmNc5LuLGkPgqaywI0Fog57fK2kbIIULGA4auhNRI5i5Mhm5NvsYAaPB-j0lbQij1NAfoZXkQtNwfu_1_baTNv
+us224MOHKMV-oMWCYgZU5DcKq8KIf75JGdMYJ9d8Rih0A0lbxFTQ6Pbg7cVqNabcDjVjuT7mrufxtLmd7uPqyFYKmvkvhjJud3rEGRENGqZionMDBgUoHHvN
+ygoCJobFrlcMOghGeFIFHafB4xahYFqbAzzpd65fOIAZGW0iAWYOoXwVIXaKAtU5W6fioS6aKXTAq5r1z67sIwI_KVyaQLG8D5g8dL8dnuudF2eUBSRvbjRS
+HCcaifph2aMVuVQh7lRrOn4SbQmEFuwAZNDTlWJhQ3dNAVJRY6LlV4YoX_UvZlryyiXxByzrHLFP6DJgne3yMaacvpg4BUANIbPJsI9gna9nJwLdKicMYWDu
+AZtpJl6sOS5d2lWhHQ-Z3sfUPZAGDqgnyFORed8F5fNVgly
+}
+
+AzureEntityColoring(APBlockchain)
+!define APBlockchain(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchain_tbg.png, APBlockchain)
+!define APBlockchain(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchain_tbg.png, APBlockchain)
+AzureEntityColoring(APBlockchain_m)
+!define APBlockchain_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, APBlockchain_m)
+!define APBlockchain_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, APBlockchain_m)
+
+sprite $APBlockchainServiceSPRITE [70x70/16z] {
+xTR9qgmm20NW3e4C-FxlUuiUi3oAYRgy_zdqH7qnz09UvqdqUfuimkcXGV8EFp9OVibtZMJ66hhP40YdUmt1vFkNkNsjB65uNX7XmAXwGIdbs56zffIoOxZh
+PGKTRggtb2BiHb6zgPZpJTTRYeVzCa-K8h_BBCjoNodLaUVAehNf5OKFb6LfzhRFAadAeL8_7oQHKeuL_J0ofKYaB4klimoNM56TPBALKTuhQeXgiozuf7oB
+ae3oJSjatwHpXFmaahtIvNjb7hUM_7AWrEIFIyD_6JhzKnh1yuOXE2R9J-cyxTtW7vA4tvWYc-_ulByil1ivN6fDCEzOyd0ECPtiByI3AKaydCXfBQ51GNnM
+7Wt_F9x8990S5SHd9HuCV-BnP8zAQ693oFYiyL65mmsX3fS8qP-2atqTggwKuAYkhlX4nWAjvqj4Kzqevc01AbXILK6nC1I0WeugA5k7HJLGl3tSDLIAi1UW
+uc5_LbJMM4FEbUANYHNnDGELshNZK3XN5WiepQRZHQKr1QMRtESLNpEsDwe6rNd5rmpihl6pYlN4FtFEcOihUa7vRYiO-oLIv4XPjE-SgWVFqjRHjUlBfu3P
+l_umlKDtky3kuuh5Xsgom56hKd0bHAMyC8nAFPWJ6yM7AXwrAZsOMQwq7Au3hiZP4YJUiTYfyAoO918N-BLgez6IIQzHAB_-u_pb7m
+}
+
+AzureEntityColoring(APBlockchainService)
+!define APBlockchainService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchainService_tbg.png, APBlockchainService)
+!define APBlockchainService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchainService_tbg.png, APBlockchainService)
+AzureEntityColoring(APBlockchainService_m)
+!define APBlockchainService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainServiceSPRITE, APBlockchainService_m)
+!define APBlockchainService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainServiceSPRITE, APBlockchainService_m)
+
+sprite $APBlockchainTokensSPRITE [70x70/16z] {
+xTG9hkCW48HXwAwgsDp_m2F4MtW8Tt2OVUQNeZsVA18xNMQMjiiWaTDUJjQGDZ9-v1jZkc0ROxgGDyPq-SQOFjiOyyeiOvXlZBatAp2MPpaNmyQOfLccPGO7
+hnKHIuPAYPGrvoonKWF3K8rOUUhWKSgY8kBwGbQKs3dB3MK-2qSfjnKHuuMiAtC7BEM-CiuwouuYeLt8fYAgb7r5ns-X_5V-A-T1otbBEOJtFB-cd0_YIpOe
+UK4v2OpbmS4pvKGhPZ9dodayZcO9qrPUc-_fA41qc3xl2QAFc6Tf4ZuGXCLACgg6nTpJF9-VH1TCkchw3Mb2G9ukorD5z66D52d9PygmbAhPFOLwZwG-Ia6Q
+C9hbeS8rXWWL2JuPDHf03XJgg-FEvh0tQXOeK8iLQ5lm4KbybED9OvXdASWM6VSK1WrnXiXJN4PFUFsCXgifSTdS0VSwlbdU6P0cIXpVTxdNe9QbMvbcCTqC
+0R9r6gHNSgeBERrODhJSqb_UDm
+}
+
+AzureEntityColoring(APBlockchainTokens)
+!define APBlockchainTokens(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchainTokens_tbg.png, APBlockchainTokens)
+!define APBlockchainTokens(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchainTokens_tbg.png, APBlockchainTokens)
+AzureEntityColoring(APBlockchainTokens_m)
+!define APBlockchainTokens_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainTokensSPRITE, APBlockchainTokens_m)
+!define APBlockchainTokens_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainTokensSPRITE, APBlockchainTokens_m)
+
+sprite $APBlockchainToolsSPRITE [70x70/16z] {
+lPO93YCh30MDjmVS_y1VHFbMJmUtt48pfJLRXNfPwM_J6fqZPaA7iDg2ZsBKlcWxY5cSUTXko47C1ULZn_iiiHHvzUhcy45CFIjY3ZriHQGGKu4F7P5L6-Hz
+bgYzHkt7ulQs21E_5d_bKPjpPrdKDMCcbhf7-tAabbAMOixSKlMCMR0yPsauSakW-I0rIvwbFcVH4YI3L2s1PeFKBU69GLvR0jCO9BLmRWbYaCmYy9PRWeZP
+MXW092mfuz623rQsz0xqSRCuld3LuWkCgqNnrZB7lH0I4gtlCl3d5GZyrReV3K8Qq2jBlrxJBwEyFultsr64IXQCZIKaHZLB7CWt5gUoPJroh5L24q6jQbaX
+-DI4PlGOfMePzwj6I8pAbjbl4doHHbVuoNBJz3W8qntDBOk1k2A6DVgbMMvPZD77M3RyluhI3dco1Dtxx5W8MQCDMh3CiP8CyBKcKoqhBC4dXhrzxbp8sXOf
+u2H2PBumfXtwP1b63YSIjxYVK9ALMRoH0cjJDW_s8nFlBPs9193VCpDjqL_Bq7LEm7OJAZrcXSLfuV1zkj4UlbhGQ650Iru9eGI9pxJGeYd0sO9A6SsMPHXz
+Q00qBMVAOHlnpmA8dY16Ddg4OmC0ld-crLCXZdA80dui8OVHCGmbEgVHl-4_
+}
+
+AzureEntityColoring(APBlockchainTools)
+!define APBlockchainTools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchainTools_tbg.png, APBlockchainTools)
+!define APBlockchainTools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchainTools_tbg.png, APBlockchainTools)
+AzureEntityColoring(APBlockchainTools_m)
+!define APBlockchainTools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainToolsSPRITE, APBlockchainTools_m)
+!define APBlockchainTools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainToolsSPRITE, APBlockchainTools_m)
+
+sprite $APBlockchainWorkbenchSPRITE [70x70/16z] {
+xPVNelCW38CRcsNU_tsxG2LoIic_fsxEShx80aFFvRVJV_sNY7mRG4FAJIdgro4s8A3u5Pv2FYfkNnX6Vg_mjKPOyJmaPgVIzCpvwo35wajMJcFY105G-j9C
+m63EcMnsHkf4ikvd3QcstB7SZKMvxpG9hZLTMI78I429KnQKVJlM-fTcifnFHa51QNWyN9wUzcuiwQ8Xz1CUrj32dIYLbQU64lff2r5eML9rYfyRihOESVzc
+CWEslc4aHDjJyLlDwa4U8sxZ-tVhI6cEqJpKEr0VGgmBJCYEOjvBX1SlOGWFqCNdCgDaoWGoEELz1kgqfoqHeobnI-6Law46iiFfLeBSgPhR4CLX6oEP1Dzv
+CsamnhrAenowQUnwtiY9e-tZYw5wSc9EONjM0N3065dHHx41dclcXqm8OxH-MuR649iyGx7GVMavdfI1WdcDu7x-2bvMjew6nI7QaG4K-aDe3zDKnZN5UFOJ
+ZCqfjgCWN3T_cIXdlHHt3iKtb48GfNG3TZwPL9UBF_ffDhSx4nJTyJEGH2dlhTZh3keriPTl-1OKlzPYb64VHgGdsIn7b7bABRsfwAQnjqId7o140IV5o6U3
+ZLl8hMMmwYXpwUla1jsIYaYqnGtYhS2CgoIAVeG8A3B_p1Ceosa_wEbzJQ8TDdlBmDZybfXZ_6Xf_boZDik4bJxNI9axdTUP7lvETYt9z7-Y5e_bA9E_b-OY
+w-h3gYmAvF8xwB_-wmO
+}
+
+AzureEntityColoring(APBlockchainWorkbench)
+!define APBlockchainWorkbench(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchainWorkbench_tbg.png, APBlockchainWorkbench)
+!define APBlockchainWorkbench(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchainWorkbench_tbg.png, APBlockchainWorkbench)
+AzureEntityColoring(APBlockchainWorkbench_m)
+!define APBlockchainWorkbench_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainWorkbenchSPRITE, APBlockchainWorkbench_m)
+!define APBlockchainWorkbench_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainWorkbenchSPRITE, APBlockchainWorkbench_m)
+
+sprite $APBlockchainWorkbenchAltSPRITE [70x70/16z] {
+xPTNajmm4CKO7yFzx-kWwd70jXBbxCNlS514AuTJicfuIgngi-TdaYAfpJbRMdTaoInpAguvalIoRDIrWRoOnYWh0w5btXnpbZpBhJ6dAizYwE941ERtf6jR
+-USi-QTO-Xzi2R_FKeeUMyf6UsIfvKLVjPZ3q5Yp5A05It5eDop5OXnglswX0-EvM5GEKRX6Alla6C32TbAuGtGzEO053sBMnWF7aYVTol37dAcF9-TRedSR
+2BUeSdJzrBV_YOwtIChxRneLCzYRrROsEZ4o2pp-lBLHJcvCpE8v92CZXhUtv6u45iko65ZWeSCiHh4Ops9PZA75igfSYv6m4TyYI6Z9UxSAWMNBk-NTqcQx
+Oj5iscVCEKSzisXRTk3OwDMpuAqA7kzDilaMlk5rWJQ_OuWMl9OP3J5arBUMwYnZ3EdrUqlTMSOOqhwr72mJOvWL3CGmAsgwy3kypdqKGqZizJzwqrvIjsLb
+UDlC0N0Pl_UHXHXcCUO5iX23BCHmluZnoGCn1hC6OaZrOfZLyAENXHXIEc9ySaVCHm
+}
+
+AzureEntityColoring(APBlockchainWorkbenchAlt)
+!define APBlockchainWorkbenchAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchainWorkbenchAlt_tbg.png, APBlockchainWorkbenchAlt)
+!define APBlockchainWorkbenchAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchainWorkbenchAlt_tbg.png, APBlockchainWorkbenchAlt)
+AzureEntityColoring(APBlockchainWorkbenchAlt_m)
+!define APBlockchainWorkbenchAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainWorkbenchAltSPRITE, APBlockchainWorkbenchAlt_m)
+!define APBlockchainWorkbenchAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainWorkbenchAltSPRITE, APBlockchainWorkbenchAlt_m)
+
+

@@ -1,0 +1,13 @@
+sprite $APMeterPlusSPRITE [70x70/16z] {
+xT85WiCm3031bMJ-_t_BpDBrs5k6J6BWROadxgJ9ato3CXKnJ_pGthztBNkI7wDCPIfJ-I_buKb_f3ALgKnbAYslQnzHUXQs2M6biadP5r4oOBMjXrKigXIW
+73_5b0hInx4c4KMXxLPfznfG2li_rDJsy-HM31aNoX2t0kbACQ_Ie5mfsQlKpTpMl2xbTNNrCQYaOokbUPKEzMf49J2x-Kf9RaNHAqKZkwvUA1MtCWJfPqhd
+Lg8F4x3jqNsh6S6qZNrDYPSljcqqiMp2psy9
+}
+
+AzureEntityColoring(APMeterPlus)
+!define APMeterPlus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMeterPlus_tbg.png, APMeterPlus)
+!define APMeterPlus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMeterPlus_tbg.png, APMeterPlus)
+AzureEntityColoring(APMeterPlus_m)
+!define APMeterPlus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMeterPlusSPRITE, APMeterPlus_m)
+!define APMeterPlus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMeterPlusSPRITE, APMeterPlus_m)
+

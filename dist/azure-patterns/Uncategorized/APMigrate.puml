@@ -1,0 +1,13 @@
+sprite $APMigrateSPRITE [70x70/16z] {
+xTV5eGD024NHSPV-g_sk2HiUn7CBEAiHC2ViML9HzkvHGNclHRdo2GMf8eVslse0bODMzO3IzbQ18WKL1Eh7q2pkWb2Ye6pPZgMW0K63W180vLD2FHa0cWGK
+-P1JWme1DJKey25VrZ5KbQ05GNNfl2A1WeetKGEQtV0BxSWfK7FVMCzMG3fy2glAnGmAhyr8SY9Rw1N6lqwR1_2DgnDfK0-JcAXCeejVVefeF29IH1GJdKaq
+WaWOWOy_WI8oZwZaV2d-xee3_t1yWDSP0yYHHAPy4vWYNa71-PDGUZB2tWXhn5bpxJrx1G
+}
+
+AzureEntityColoring(APMigrate)
+!define APMigrate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMigrate_tbg.png, APMigrate)
+!define APMigrate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMigrate_tbg.png, APMigrate)
+AzureEntityColoring(APMigrate_m)
+!define APMigrate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMigrateSPRITE, APMigrate_m)
+!define APMigrate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMigrateSPRITE, APMigrate_m)
+

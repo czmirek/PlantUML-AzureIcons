@@ -1,0 +1,15 @@
+sprite $APVehicle03SPRITE [70x70/16z] {
+xTK73kGW341H6p2s__qFl1D4fel9zfQdXjfFeScTq-bqEfsqMlSDuUxTcihNgZrvvLzJKakcZ727Y4Y6g0SRVI-ujG76m7fmaIOVbMkZjntu79clErgAcNao
+URi9lEqi5z-byAZT2QBjRgzgLUL9uL7QdI1y5zmBVspn7TpgIoM2mu8fJIxQdXtL6doMJKLlwy94DFUX9sINpYSkDO6eDHbKZC7sMegp5k8mM6MmMGb9qdjt
+26MjDeXkdb0x6vyLCx2vAAgp93aNKHA5JSnASR8DYHiheM1juo0Cy--M8AwhrLZnkbViLX5rnhl4mNVnT-yY4bXJ0vlzvYm9-FvVb8im4INa8ibkvabAjILj
+46Oze4efAfk2YznMNwfyv31qkIgO3C65on4jWQmopNUPLEMm8ey8aU_NwOixmTsh796Ol3L_UIygdsaILiiRdKsu7Ro7LkmhRkPtd4qlybqq6Lo-Imd0vBjf
+AIg_pUbqEdq1
+}
+
+AzureEntityColoring(APVehicle03)
+!define APVehicle03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVehicle03_tbg.png, APVehicle03)
+!define APVehicle03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVehicle03_tbg.png, APVehicle03)
+AzureEntityColoring(APVehicle03_m)
+!define APVehicle03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVehicle03SPRITE, APVehicle03_m)
+!define APVehicle03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVehicle03SPRITE, APVehicle03_m)
+

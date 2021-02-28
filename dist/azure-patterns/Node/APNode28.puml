@@ -1,0 +1,15 @@
+sprite $APNode28SPRITE [70x70/16z] {
+xTW7SYCn34JHHc3g-nzuAL3Z6fhKEcSzPwFmbIC0QmE6t4B1HMaXOoLjK0JZS5GOhXM6RON39rJk5VK1Wtcm-OyD7mH1vefkAefxnT-Z8lbr5QYcxAe8hMIz
+aD5KovrZGzN7sg4mOQXiWZDbo8fLYhMraad1uugaIhBQSojE6fOA02iaMvRdL8pnSwrqaXh9OazMfB5WNmaM9op9_okL5VlAGV9qJkygXKsUg7GUHyXlLJ9f
+UB9odDFCigiOwNYwSZgdgosLGcOyKLcFq559eP9i_QTD-p7AP0eoHIvBZImnCauAJX8dEX_vi_AvbNl5qDc-8XApfokbfewsgrZBVLRgavM7LLihqZZKfoh2
+eMAjFEpQKnL8GLVtvqjM0Cb-u_KbbRE4RyGdXXFrYU34VF5TAZPHd8XDSARBxCUwkrDpTrDiY7bdibqxFxbNyM2GtPFqKR5rXEiCCKlPf5Elwx5XDksybBNI
+KinIJL7XOLCvR2ey_BZAlI9uhDwk20z-VdkY6XPIMeooOA5bh2LSQIUuGHKtgU0T_GC
+}
+
+AzureEntityColoring(APNode28)
+!define APNode28(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNode28_tbg.png, APNode28)
+!define APNode28(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNode28_tbg.png, APNode28)
+AzureEntityColoring(APNode28_m)
+!define APNode28_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode28SPRITE, APNode28_m)
+!define APNode28_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode28SPRITE, APNode28_m)
+

@@ -1,0 +1,14 @@
+sprite $APBotFrameworkSPRITE [70x70/16z] {
+xPU7SeL024Nb0fl__-8qKfRdu4L7fox9wyoX2OjlpygI9Kk6AO0DWFfLXCes2-mAOzkBdeG4GzGZ4ZS4vum_7fP7_l8RX3R4ilUP8wCVZOoQFxeGb4cN7iP8
+y5yONc6QGIaLk8udEqgJ8XDI_kFKVo1DpQU2l_YrjmyIayw_p-MmX8aVc2iPiiUWpan4Z1qaOtu3b08HDYn32Wp2vxBC6L9Xh0mf72qWCoOqGTAI80Nce0qq
+T1AamCWXnJC4c_XlrXC6eL9J492_remNcRonADBp51uHZYEoLdP1ijkgD4YbMrSTo5NNwW3m3k3T2DwDV3A0JmO-fS2d59-Ou1EJJs_mwSrF4f2JvBvJZUWG
+E_KWugSzn_3Du_ujwFwDBFlDjyFhcwgVt9f1jkOknyW6V-vkGiZTn2soPCcI3m
+}
+
+AzureEntityColoring(APBotFramework)
+!define APBotFramework(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBotFramework_tbg.png, APBotFramework)
+!define APBotFramework(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBotFramework_tbg.png, APBotFramework)
+AzureEntityColoring(APBotFramework_m)
+!define APBotFramework_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBotFrameworkSPRITE, APBotFramework_m)
+!define APBotFramework_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBotFrameworkSPRITE, APBotFramework_m)
+

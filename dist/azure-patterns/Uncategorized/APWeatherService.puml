@@ -1,0 +1,14 @@
+sprite $APWeatherServiceSPRITE [70x70/16z] {
+vTPfsYGX20DW457C_Uyx-qvZMQcUNzzxW3mIw4N-Fst-HMl2in7uPHYN4VXRkCfDBP0jariShmsv8L099KAoO4AoAKS6zbmE6AxqrjsjgMmibCuFo777KEOf
+cJ6jPEDWormC29u7ObZQ42CsTyi_Pe8IAOMYyetv2CG80FIQDF3C596-KEd9A58wIhCd2w-8BfIyU4eYWPgb5Bncg4N_XwrYSaVD3-V1d7S6GY6_iTwpeRBR
+qEX_c_NHpUEdE2fD72KxdCT5xFHmO_kz46S3ZSqyNoWATZQFRRziu-HeiPhyqAyFTnpyAz9rDL3HlybVcWV-jlQbh3bTvPBsHEvhAKJblXJIv0qf9eIMGXYM
+ccMaPYdwbQLc6QaKXXOXt9xa4KlDCbAp34qXT2qc3wLc6PgQPRHK2iDI22CrIzOYpxNKB2ELGdbBYCe7zna
+}
+
+AzureEntityColoring(APWeatherService)
+!define APWeatherService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWeatherService_tbg.png, APWeatherService)
+!define APWeatherService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWeatherService_tbg.png, APWeatherService)
+AzureEntityColoring(APWeatherService_m)
+!define APWeatherService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWeatherServiceSPRITE, APWeatherService_m)
+!define APWeatherService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWeatherServiceSPRITE, APWeatherService_m)
+

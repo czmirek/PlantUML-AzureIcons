@@ -1,0 +1,13 @@
+sprite $APPillarHybridSPRITE [70x70/16z] {
+xTK5aiCm343H28ptF_26MUCrbFM7Odhb9gRhqZr1KSNFzPTXkynL38-P_j9jbx-W034p8LGfn7DGeH2l8H92lh8XMrZohUDBcAyWNyjNYAzXtYz0LjBlRdi5
+-IQ2F8M5A4S1bifHaAKWwnNLFnVvoH1yzJt0pVMNVhlKUy2dA9Jk7mgdYsAVggJl0PlYfan_QRVBePntD_RD6_ns-KwAAdxAzfTkk_oENu0ggWI_9IjcwrRn
+kwsIiby9Nw2eeahNf3y
+}
+
+AzureEntityColoring(APPillarHybrid)
+!define APPillarHybrid(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPillarHybrid_tbg.png, APPillarHybrid)
+!define APPillarHybrid(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPillarHybrid_tbg.png, APPillarHybrid)
+AzureEntityColoring(APPillarHybrid_m)
+!define APPillarHybrid_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPillarHybridSPRITE, APPillarHybrid_m)
+!define APPillarHybrid_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPillarHybridSPRITE, APPillarHybrid_m)
+

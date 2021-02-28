@@ -1,0 +1,16 @@
+sprite $APCircleCloudAltSPRITE [70x70/16z] {
+jPW7Tg0m34HHl_-9KzWuApnWoRoNsKstFneLsl7t8XRv-i92z98W7j-ohs_jttUy6uEUY4mvvRB16BioPKZx3AHiSSOEf6HLlYYYGGbVGWIMduKHyvX4NJSc
+UIc9WwlIZlD32zMcQ6AWs1EamAoQb9SGyu7nOoqVIrnkglE3gPjAVo1GAQwyeiuC7HT1odgGC6YKBOnZsp0CMYaTMm2yumY3OU1sb3TbB6zH-9e5tlA39Ha_
+BOQTnLHuENMS3Tgg4h88nh8XHaPnfXWxyze5vCdmE3uO0WXWq9Bc74qAa8SftrZo_vGgb27F8VtkbGTAF8flA7gV5ebdqPmOIXbgKtosBOVQASRqDppnxsQK
+c5ki9AqpHoLhZUe-XUKKfKxgKqXEOOqaQYdMQC9RrAAvNw1tPISjFYWyAFsyu0JWJ5lRJuuWPQo3KPnxIvikz-rFugTp7KEWFULJ4rhgI_E8-zjWBhCfE1sr
+CA7nAXYQ3YwlBjG-rpPU95XXZqJxtcDrp-FR2VQRyAcNc6g7r134O5bjG8phdDZ0m5eVZLnMIXSt-pGWXREqXAhCbstYwyC01nW5XZoIN0cUzvDius5QXRu1
+ebkFr58yJpV7dxoWD0T5AehHqP6iADwVUt6al7gJmmOKvPTlfTJqkzbCYZTJdm
+}
+
+AzureEntityColoring(APCircleCloudAlt)
+!define APCircleCloudAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloudAlt_tbg.png, APCircleCloudAlt)
+!define APCircleCloudAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloudAlt_tbg.png, APCircleCloudAlt)
+AzureEntityColoring(APCircleCloudAlt_m)
+!define APCircleCloudAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudAltSPRITE, APCircleCloudAlt_m)
+!define APCircleCloudAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudAltSPRITE, APCircleCloudAlt_m)
+

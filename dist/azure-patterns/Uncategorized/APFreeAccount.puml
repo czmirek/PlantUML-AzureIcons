@@ -1,0 +1,14 @@
+sprite $APFreeAccountSPRITE [70x70/16z] {
+xTK7OiCm241HfeMu_tsx5qvC5K9ttm6-hGqFa5X4c13gaEKPbpiaRp6Ki4HS_9FhCoYdg3gU22ubvs1BXLigye6L_mfzpNwXwdQ9ghyIOHQfPmWQxYcy_k9b
+WgiWqOKlmB_rASDxPm8w_95jlBZG-wLMys2ZXSJkgLO_DIZVj_iEcP-bwtSTWVeHmwmIcH-Qc5Rg6IbbU9jXzUMGJbzWd5TayoM6QKNCbqnAA-gBK3B3rqnf
+-Hb9MKjbj5IqfI8UJRE6YW9OeM9_jO8xPC7qP_EU0envpoFOywLBUxnJiOOAwq5bo3rwVdeigIINP3wxoM1g5VE62dj7nJegw0i6SrvXhuaLRQbGImLRAZ1Q
+AjHI0MsfWBHK04Uv4b79BG
+}
+
+AzureEntityColoring(APFreeAccount)
+!define APFreeAccount(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFreeAccount_tbg.png, APFreeAccount)
+!define APFreeAccount(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFreeAccount_tbg.png, APFreeAccount)
+AzureEntityColoring(APFreeAccount_m)
+!define APFreeAccount_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFreeAccountSPRITE, APFreeAccount_m)
+!define APFreeAccount_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFreeAccountSPRITE, APFreeAccount_m)
+

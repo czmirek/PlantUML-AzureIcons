@@ -1,0 +1,14 @@
+sprite $APFactorySignalSPRITE [70x70/16z] {
+xPC7aWCW2005HD3__pVDYPZ23T7hTpkDhBBfwKqW5pbH2D8of6qWkDQ0th3EIeHQfufS9tWvWkrCeVwoihOJklHQ5AU7TU6rdA2IPa0WhOE4QHUkxOJkXSQN
+pJiLiYzvByD4Of4T8FrjA7VCPDU0qmZil5S5uXNR-VHAO0VZ5PGpgeNCT7YOB9s2NYK__8FfmR0P1_PtPA4Y7rsHgobR5JCE4jZPgjI5IWiOZLVqmRH1lD8M
+AdMh4ja1r_WLZ9Xe1HtpyHLuhP8V0iuEFUoW6PvNoSY62JEpObKncF8Ir6RavrJ-Aymy1hR1ENCgV9hxXREy37AQdBCVKH6HVlCy3EMSlVztz5_vhu2nKqa3
+-YML_mhW4v81-1oPuIC
+}
+
+AzureEntityColoring(APFactorySignal)
+!define APFactorySignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFactorySignal_tbg.png, APFactorySignal)
+!define APFactorySignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFactorySignal_tbg.png, APFactorySignal)
+AzureEntityColoring(APFactorySignal_m)
+!define APFactorySignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFactorySignalSPRITE, APFactorySignal_m)
+!define APFactorySignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFactorySignalSPRITE, APFactorySignal_m)
+

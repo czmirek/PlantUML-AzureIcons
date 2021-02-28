@@ -1,0 +1,15 @@
+sprite $APHybridSPRITE [70x70/16z] {
+dTK7iWGX28HXC85z__k-K6bJZqFlTu2_C9HQaNlxv_OrR-C9AGc99zt5HX-4s6dZKhSY7qUk3i8rDS8rDS8rFQ9dV1Iv7OmokzP7MLVNmxamYZwC3uaBeyZ3
+395muSIhr-UBRvRKriPy9owf1O2OduHJyeL_QnBbIj_W5TxXspk1OsLMAecxohol9EuhywwoKAdCSsM2L9XJfO5KkCD99vw5NlbO3x3doLN5yMQfcMPcIwpm
+RTbua_E8BcW0sZ1qGQ5Mw890p2FoqdKGeLJywR88QoAtFy1akTADL2fh8ezb0kgQo8iBo1doR4FFaFSMUePy81lNObBaNmqSR3eE-U8dZf9qtXh_1g1sHc_s
+nd4lrbDf3ICI9HcnLaG2RiI49ernQ8PH0OaRrQ2OHgZ3RBlYwYZSL0-8IzHijvEDacP7NifqCpd38sUUEDia8b-RTAlfMxqdt08NRWgVP9xb9kihNzxBRb_o
+DkQ_qTngVW4
+}
+
+AzureEntityColoring(APHybrid)
+!define APHybrid(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybrid_tbg.png, APHybrid)
+!define APHybrid(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybrid_tbg.png, APHybrid)
+AzureEntityColoring(APHybrid_m)
+!define APHybrid_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridSPRITE, APHybrid_m)
+!define APHybrid_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridSPRITE, APHybrid_m)
+

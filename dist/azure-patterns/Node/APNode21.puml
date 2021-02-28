@@ -1,0 +1,15 @@
+sprite $APNode21SPRITE [70x70/16z] {
+pPS5aWKX34HZMEv_ttNfaMmDOR-yigzT3KaQXXuE2orJ_Orkj88E_wHH7XxkwpBTVp5A8WvqIgAEK9BYY50E-nSlzX_xeZP0fL06CREoQaNjWnyHJXenKoBk
+i9oK4VuQQHDQC0BaZMGGYOomN5JavcyC0oFRRyfCZ_Qz4HsNAwtkACFWqQ-d5FPvrIYboaIAj6nA5GU60NKY6PeZ1hJBASNIPhsmo4vY_zikm2wbS0CQWyG7
+M2Eblsl4_TkqeeIPMDWLZ5RskWeI_6CIHCBUBRY58F61zC-FemdpSh94BvyIY2Yy3xznf0fdZzpbKs7TIx0lkX7IqberEa7WcvCQeL3zRjneL8SUpQYQWH1y
+fU4AZCvwL-qR7CSHXiRWapa2eU909O0TQF5Cwpv5kWAW3pRFOEqNKuediYwhKk8LJUGkJ-pkjIKDqyWcNp_Mwkwsq6S6kE4nRHfCG0HEOwy6bnUSnjxAGovI
+FtQ45k6djCD4fRkFfajsh4DFf-r0F-Pt1qD3qp9F-zp8_wBoWEVfy3vDMHIjvAa_KIgqW0uyKFE85MLwEbu1
+}
+
+AzureEntityColoring(APNode21)
+!define APNode21(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNode21_tbg.png, APNode21)
+!define APNode21(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNode21_tbg.png, APNode21)
+AzureEntityColoring(APNode21_m)
+!define APNode21_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode21SPRITE, APNode21_m)
+!define APNode21_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode21SPRITE, APNode21_m)
+

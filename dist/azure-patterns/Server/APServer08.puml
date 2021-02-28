@@ -1,0 +1,12 @@
+sprite $APServer08SPRITE [70x70/16z] {
+xTZ50OH0343HSUk_uCrfSNVuEKOUhcgNCB4HMYczF6DiQOGMTofZH6bcRgkWeA2WeA2WeA2WeA2W98d_p4YcKgfCfJZdV7F6zsR-oZzp9sN__NB_8ysHZXB_
+cP7CN_bdkB-CAVlyb_e1
+}
+
+AzureEntityColoring(APServer08)
+!define APServer08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer08_tbg.png, APServer08)
+!define APServer08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer08_tbg.png, APServer08)
+AzureEntityColoring(APServer08_m)
+!define APServer08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer08SPRITE, APServer08_m)
+!define APServer08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer08SPRITE, APServer08_m)
+

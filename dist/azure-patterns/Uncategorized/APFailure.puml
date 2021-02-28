@@ -1,0 +1,12 @@
+sprite $APFailureSPRITE [70x70/16z] {
+xTW53iDG30FGJ-NU_xnJBF0Oud7ZGIDwvK_fKwaMLCMgx4DM2yh9gbvGGdbF8drd_sMok8rbxNcdtSOgAZ141OQYqA2IUulRM5fY_jsefqcMTc3SQhtNqrGS
+2OrRhTHD1OQem10L6Ae2mzTwKyd97ohf9vLGGWcb7eJAmP1QQBq7E7AB2KTMw8WA75s1unzxbsazSBofzphXzCBO6uu-teMZAt0qXOwaq6c7O-_8xw-SXB83
+}
+
+AzureEntityColoring(APFailure)
+!define APFailure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFailure_tbg.png, APFailure)
+!define APFailure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFailure_tbg.png, APFailure)
+AzureEntityColoring(APFailure_m)
+!define APFailure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFailureSPRITE, APFailure_m)
+!define APFailure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFailureSPRITE, APFailure_m)
+

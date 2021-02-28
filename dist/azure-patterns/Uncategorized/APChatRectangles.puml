@@ -1,0 +1,12 @@
+sprite $APChatRectanglesSPRITE [70x70/16z] {
+xSp50SDG34J1P-sFgVz-Gxg5mUoT0gRhlzBoqDeMBrwyUF7YnOkNI4r_TOXtUAM-9eN_r4Car4Car4Car4Car4CaLBmIx_21ghoplCMB5ozUlA1x9Idn8sN2
+dpJ8WWPPq20B6cH1OWX1EW4
+}
+
+AzureEntityColoring(APChatRectangles)
+!define APChatRectangles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APChatRectangles_tbg.png, APChatRectangles)
+!define APChatRectangles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APChatRectangles_tbg.png, APChatRectangles)
+AzureEntityColoring(APChatRectangles_m)
+!define APChatRectangles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APChatRectanglesSPRITE, APChatRectangles_m)
+!define APChatRectangles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APChatRectanglesSPRITE, APChatRectangles_m)
+

@@ -1,0 +1,13 @@
+sprite $APConnectedCirclesSPRITE [70x70/16z] {
+xTS5SWCn341HeK7tls-v7hdJ9Jd5w0qLahyCWWDQUwyAIwZRYquGnpOmX7KREaHLSoe4sGGXX6n2Fra1cq1GCwT3a9WZS8ELQH268zCH5gYzK5Z4jJAi4nV9
+IbQoafMie0JHLrGeiaLuRvMiP2KhMK4jhGh2PqXQs-eW2u-CsYlP7WGQRZytwCFWKQvCmYJl-7LD1Za_2UFqE45pEfwUX5aSLFFux2ICub4rJy51cz1sXUTA
+FJi9aqpEhmlkhClUVkdcTDYkqDunKdDqxnZTvdpnvswDdxjZnNlqEXg_bwgRrtGfczSqCRqs7W4
+}
+
+AzureEntityColoring(APConnectedCircles)
+!define APConnectedCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APConnectedCircles_tbg.png, APConnectedCircles)
+!define APConnectedCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APConnectedCircles_tbg.png, APConnectedCircles)
+AzureEntityColoring(APConnectedCircles_m)
+!define APConnectedCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APConnectedCirclesSPRITE, APConnectedCircles_m)
+!define APConnectedCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APConnectedCirclesSPRITE, APConnectedCircles_m)
+

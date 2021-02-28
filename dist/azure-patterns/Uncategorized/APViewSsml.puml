@@ -1,0 +1,14 @@
+sprite $APViewSsmlSPRITE [70x70/16z] {
+xPO5iiKm24Nf3H3P_tw_CAyygGpXkvoH6ZtnX950w97VQL74ERO8nVb15iIuwyUD1IC1_eW550RVnF9l-RVyMmXWVPl5-JqMi4Z1conSnmL5re8sRj0bPU7T
+7NmzwpXcqN6XzVMkcCK9MFYsFqhrlwOiYqKr3olst2SjLhZI3TOkdhB0Ijw-6WGZrhjgCJllYalFBLxzkfiOpbYi3_Ogs8AMun2nZhaDKJa2QyZ6pHlBCHAe
+Iyoo1Flbc7ewHZLewKVpXRs2KwT7svkxKxJDEcgpkRkNt1P_xecg-4Odve4E0xCIfpVVVZafSVAIUrT3IW8YwUueb9EiHwEgCCqI68v_IGR-NHAyMUAdUSzB
+jdja7j_WtmIKAS0p
+}
+
+AzureEntityColoring(APViewSsml)
+!define APViewSsml(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APViewSsml_tbg.png, APViewSsml)
+!define APViewSsml(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APViewSsml_tbg.png, APViewSsml)
+AzureEntityColoring(APViewSsml_m)
+!define APViewSsml_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APViewSsmlSPRITE, APViewSsml_m)
+!define APViewSsml_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APViewSsmlSPRITE, APViewSsml_m)
+

@@ -1,0 +1,15 @@
+sprite $APCharts04SPRITE [70x70/16z] {
+xTPN6kCW30JW0Q72tF--MrAj3oV1PVl-xvP7Sa7yZGHF4CuJ-3bLb2TGuGcay0G5dOTrm7cO0yB3101NT7Sr3yu1LbiARHVQES60jPQyFVJ9Xe1WrjkJygC0
+ri9eMx39A42CKUR316ugbw8b_A3YplDia-1RZeVIzsRfM92zSn4iwRvdfCXYFOpsJqF9Olkx6nZ5E63TN2GtvQRgmRaYcNC3nolAQOhNQkUKNl6MxWsI5US7
+NZ2XEj_mYab5ErU55cmX6cC9mGwrgRj7kBksYj_CVsegs2aV2evZZ1U2GvmN-ZjKCLuK79EckrzJ5Qpuxp-ne9lWhMP1rvBE6sTOowyx3Q-Lu9KEPt5SAlTF
+6qbUGdrSKmfWCwTuyAbT6-HJGBXKiAfneQSEBffoIMUMB1cNVfzPisAubJA9cIfCRAoIizXibiOa5srOPLogmroyz67yWtnDZF4aPHEyeCFRKF8qOUDKHZxS
+IN8uIB-s8nCRR9JXqrBSL3MjUA-8MgjvNCrKBcM_0W
+}
+
+AzureEntityColoring(APCharts04)
+!define APCharts04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts04_tbg.png, APCharts04)
+!define APCharts04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts04_tbg.png, APCharts04)
+AzureEntityColoring(APCharts04_m)
+!define APCharts04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts04SPRITE, APCharts04_m)
+!define APCharts04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts04SPRITE, APCharts04_m)
+

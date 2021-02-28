@@ -1,0 +1,12 @@
+sprite $APFaceApiSPRITE [70x70/16z] {
+xTP50WCn20LG8CN-_UzRTvTDs_blEH8F87-CY0QUr3_KIif3obREiHNF9PUTND6NMqdWU61OCRRoukhoxB8LarFsHYlMhN8iaA-teeqUSk10lDRAhXc4xbuK
+a6-jYnQ0SfzvD01_Tu-yiLFsmKwFp4Abg_3iNiDMEX_xeHfJx5donuXe0G
+}
+
+AzureEntityColoring(APFaceApi)
+!define APFaceApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFaceApi_tbg.png, APFaceApi)
+!define APFaceApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFaceApi_tbg.png, APFaceApi)
+AzureEntityColoring(APFaceApi_m)
+!define APFaceApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFaceApiSPRITE, APFaceApi_m)
+!define APFaceApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFaceApiSPRITE, APFaceApi_m)
+

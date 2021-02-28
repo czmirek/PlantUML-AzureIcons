@@ -1,0 +1,12 @@
+sprite $APGrid26SPRITE [70x70/16z] {
+xTT5WeC044JHDlJ-zvr9SAXunTD_XptSv2wfBLEPik98BfZ7iiKSHNkawibAAkPze7YrhKP5ksOC52mM2YprkKegwX6Xh19ToYaQNKOeC8RTbfSVbowFy1x9
+QnTUTyef1IppqKeg42ZGLobgIYlTGiugqQM40azYKd5E4M9Ru1jG3YXgHofHwMQMGqhL7WiKw9EKLA1BdfZOyvLKKj5bboYrGV0_VLx1wWzGKla7
+}
+
+AzureEntityColoring(APGrid26)
+!define APGrid26(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid26_tbg.png, APGrid26)
+!define APGrid26(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid26_tbg.png, APGrid26)
+AzureEntityColoring(APGrid26_m)
+!define APGrid26_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid26SPRITE, APGrid26_m)
+!define APGrid26_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid26SPRITE, APGrid26_m)
+

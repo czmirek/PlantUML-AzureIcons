@@ -1,0 +1,13 @@
+sprite $APScriptFileSPRITE [70x70/16z] {
+xTI7QaL128JXxAp-x__6gQODIDWhDQoKMuvy74OKq3el0Q2dgf62vWh5p1KqLegPAyNC5JHLYfagnJogxA-AajQezF-LgrnblzPO4J1N0dAD5I36IW3pT1Fo
+0KM_1_JTj0-KGCshaBjLt00rOmPIZU86gCas0K9_AFkZpRCDRr2dkE7PUfChdM7PkcDAR_WAkUEA6SqAcPFwgTJNVR92Ic3_Kch0MKwVhO_A57CispuMLyeX
+scozpHHlK9-jVXYk-Cjcb-t7qsWsm1tLTpzF5fqfxiXNwEmobADcp6QOSd3wZnLW3vKwJpEbiXqgbUrOYSnOCyNhAbUvobMkyW8
+}
+
+AzureEntityColoring(APScriptFile)
+!define APScriptFile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScriptFile_tbg.png, APScriptFile)
+!define APScriptFile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScriptFile_tbg.png, APScriptFile)
+AzureEntityColoring(APScriptFile_m)
+!define APScriptFile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScriptFileSPRITE, APScriptFile_m)
+!define APScriptFile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScriptFileSPRITE, APScriptFile_m)
+

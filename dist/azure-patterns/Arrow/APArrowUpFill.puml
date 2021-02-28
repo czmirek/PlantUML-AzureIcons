@@ -1,0 +1,12 @@
+sprite $APArrowUpFillSPRITE [70x70/16z] {
+xSm55W9130HH99EL-n-OjreuD2vTCqcU_iLEw_QwciL1twvOiMB5YfNgklAy4bTcvKXMh5YnKkMzIeUqRTwhT0YCh830o0e8ZAo0mEWA28okW3JpIba1oMuN
+6441YTATW16Lx95HwPccw4faXunAnu0eIcG4IXGGIGaK-ap5YfNL_SfnjrCMGZ-YR
+}
+
+AzureEntityColoring(APArrowUpFill)
+!define APArrowUpFill(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowUpFill_tbg.png, APArrowUpFill)
+!define APArrowUpFill(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowUpFill_tbg.png, APArrowUpFill)
+AzureEntityColoring(APArrowUpFill_m)
+!define APArrowUpFill_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowUpFillSPRITE, APArrowUpFill_m)
+!define APArrowUpFill_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowUpFillSPRITE, APArrowUpFill_m)
+

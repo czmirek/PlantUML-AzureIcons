@@ -1,0 +1,12 @@
+sprite $APCloudPolicySPRITE [70x70/16z] {
+xTM55SCm303HWD3xxrlccg6eFy0z9QPf46ECMLmkd5p8yXaLgrX5cP1OsYeCHwGD5OOphAyeN55DHPd5CToGqihfKn3X1fTNu1aLLmIUOMb5g7qMHV11HDBy
+2a6Ov5OKOZIp8X33NIfKy4NjipY8aLDb2PbE5Kb-aCEC5rOmyZt-BvhGTux4Hvqhg_XzTSKgAv_CBPMhrWeUlkZtAZFdMhsLzR16KpDZp1O
+}
+
+AzureEntityColoring(APCloudPolicy)
+!define APCloudPolicy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudPolicy_tbg.png, APCloudPolicy)
+!define APCloudPolicy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudPolicy_tbg.png, APCloudPolicy)
+AzureEntityColoring(APCloudPolicy_m)
+!define APCloudPolicy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudPolicySPRITE, APCloudPolicy_m)
+!define APCloudPolicy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudPolicySPRITE, APCloudPolicy_m)
+

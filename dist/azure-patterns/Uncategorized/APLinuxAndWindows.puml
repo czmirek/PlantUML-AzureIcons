@@ -1,0 +1,16 @@
+sprite $APLinuxAndWindowsSPRITE [70x70/16z] {
+xTPRigKW38NX5P90MFCVS7kh4uwxkjt2Q__bAvzt3Mvf3VQcM4c2Pu65WbndZ9bZjiQiOxRE8S5ah5990spbb0Y0n1R9Yicy1EBOd6pp2YK84bnG6fncGTSb
+9G9RKfTkTMiuuzwqGkn9M92KMSLOW6f0MNXW2BHhSP1TC9DN_AHryYufS-TYLgVEIRgFoC78v0rAP5S2BpFMtuXpuZvrIY9xfUsLFNoRaedS4tnPq1APLOJ4
+LPbNd1KtHjNttYYTWXiZ26wzK9G4FXX_gKGgoUXRXIJkZABE7aio2l1RHR1d90stH1yLaL9KpGnRqWL1nU_O_g7iooq3eDq1V1mDqLB9fAZQFGasmrOXwqqn
+alLKheDNY6LPQyFO4RyLb2AmBRMhlodUnjjT4X7Yg6xvar88N1a3MV37PlY3eiFAfYCoAAmFIZDal1WeoKYbsuFI5PdHztZagVYJKjci2CuAprAH_fK2yTf8
+Eo0dsTjMNFEBCBvJZhJsq6AiPPZ2JQnN-rgve0Y_3VDHR5JQi_AP26HKEliR9HkLJZ9M5TyLnfAIp8I2KduKS-v5EPCnFCLxWRU9AZ-Ayj732PdneseVlLUg
+JIXPIsHEISHiIN7kgQmfLaawffLagguhvhQWPF-L73FMbN5YMbEo3IlhodXe3yeSXcm1-mC
+}
+
+AzureEntityColoring(APLinuxAndWindows)
+!define APLinuxAndWindows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLinuxAndWindows_tbg.png, APLinuxAndWindows)
+!define APLinuxAndWindows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLinuxAndWindows_tbg.png, APLinuxAndWindows)
+AzureEntityColoring(APLinuxAndWindows_m)
+!define APLinuxAndWindows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinuxAndWindowsSPRITE, APLinuxAndWindows_m)
+!define APLinuxAndWindows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinuxAndWindowsSPRITE, APLinuxAndWindows_m)
+

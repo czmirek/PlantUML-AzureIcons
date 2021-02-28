@@ -1,0 +1,15 @@
+sprite $APManagedPlatformSPRITE [70x70/16z] {
+xTTNekGm24HH49I0slz-9xJTGNgPoU5-TJpEjYJ_LkepIR82sZOc7mhj8SKraqR1hP96tEgjJ7AhjA6Wk3OxYYENDO6t57T47YkK0NUtbd86FniDPVeMEWet
+1jLIc0yEWkmfP6LCO4PKzwmhRhMKoQteABwUl3MxvylCAvJpcyuwNF9BzerdNV_SBVXQQaC1mn-Q5T89P0RW3imiXlGQiPyiNGY804n-Zv9_aV9V6I-N72-d
+Yy9cM9L2exahAOsieVnN_Yj_RGEwlZqoETEXSZI6VCtNv18uv9w2Ht5Z_GJL_U9XLw0wamanaoFV5JDtEtAtyLK1xuMBLl5ICS_5FQCiFQE8yzgnxPbPcyAb
+U4v9CasjoBd_vVtAEAToW-IBIhWZtPtkdiyeznyNoMWgaGzAeAc8dhlLoNfnYogpAZEPcVMS8a4M32Jn4INlJHUvg-FzUtS_TvNdwP6LxrVy4e1J4HFnP9Ye
+lLlPBw_jQdplMMVFNTCw7iHxTlze-rJ7alnrVGO
+}
+
+AzureEntityColoring(APManagedPlatform)
+!define APManagedPlatform(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APManagedPlatform_tbg.png, APManagedPlatform)
+!define APManagedPlatform(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APManagedPlatform_tbg.png, APManagedPlatform)
+AzureEntityColoring(APManagedPlatform_m)
+!define APManagedPlatform_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManagedPlatformSPRITE, APManagedPlatform_m)
+!define APManagedPlatform_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManagedPlatformSPRITE, APManagedPlatform_m)
+

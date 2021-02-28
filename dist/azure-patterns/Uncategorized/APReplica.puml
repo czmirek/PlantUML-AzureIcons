@@ -1,0 +1,9 @@
+sprite $APReplicaSPRITE [70x70/16z] xTSn0a0040F1AE_-_s0L00A0tJxJHoD5hcsbWY8pIq79rQrKKEHLE0hA-cAbWYAp6nGK51GKbDxs70KbL7U4Wb9tZe8IgyuZYjzA1QK4
+
+AzureEntityColoring(APReplica)
+!define APReplica(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APReplica_tbg.png, APReplica)
+!define APReplica(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APReplica_tbg.png, APReplica)
+AzureEntityColoring(APReplica_m)
+!define APReplica_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APReplicaSPRITE, APReplica_m)
+!define APReplica_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APReplicaSPRITE, APReplica_m)
+

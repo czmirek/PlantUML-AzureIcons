@@ -1,0 +1,14 @@
+sprite $APUiInterface14SPRITE [70x70/16z] {
+xTO5WWCX44HHQAgeXllVTpVk7VVmup9lND9xDXhPNHGzLXcAtK79HNTGZCSLyoYxG2azgjnJoUKUYl4-2lDKoJnRQIBe6qgUA3BDdivM723WAuNSLNIEeju5
+RIXQAoKduXobUoKYXPR8Kufxwm9OOwNCb9mPAu0wCP5YHQHo4MKvK0Im4tAibNf0COgYaKIowKhCB6MbL03k09OAQJrMEgaad__0fTA0YjgRU_CsPwzGXDg0
+jhtjUgo8P2gpEH9MSmHu9xIbn4kt75wwZbbS8_6QBbd1cgwOvx5oUgjhWC-iUamvjGS8cC_NVFbUkJTMQl7gMqgs3ULUHwdN7p6VTYOnHLcWNDLGuYO4nzNX
+VZbzTAFHQFGF
+}
+
+AzureEntityColoring(APUiInterface14)
+!define APUiInterface14(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface14_tbg.png, APUiInterface14)
+!define APUiInterface14(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface14_tbg.png, APUiInterface14)
+AzureEntityColoring(APUiInterface14_m)
+!define APUiInterface14_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, APUiInterface14_m)
+!define APUiInterface14_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, APUiInterface14_m)
+

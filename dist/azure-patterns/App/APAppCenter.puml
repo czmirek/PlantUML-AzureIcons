@@ -1,0 +1,15 @@
+sprite $APAppCenterSPRITE [70x70/16z] {
+rTX95gCw341HoKAshFtlz_-gXFDE61dXLFTc2N3fMtcGkNmXp-pj6qfcsBRoQhfkAcV3jXGAros5UjjIABOK-giL_OQYCyDDznJBTrCtb8F_stEbvxu2SbKE
+jueI-REuAZfoP7QxgUXxygDT59lvKyaJMYbjlXP41OLr7FbkB1LZF9HJlglm_o4NnJDhohasduf6Fb12v5FfIHKbHqEXid8wA1XwMnc9Wm9SsDEHxmQZSEUQ
+jnK6NOrNML2aHNusNQIYqCYaBbHG60YZJnHMYBokC6GaJQyfB4ZNbXzDgoWO8YZixjiA1afIL9Hu6IWpgQAaNnJpkXB9qd2jQr5LPB17K4H6JU6EvXT5R9OK
+1eMYi8piywN2pMJwHP5Zleb3RzvXsqn24Gs8jS9D5eKW5Wh5rfC7ZMs5FJw7WzGKCjD_-wbPLR-oBDPZk3VTNYFhCpDZ-05MLu1UHNThpnGW6c0L1UZI15if
+2mXC5ye2edDdtb602WdjG48Rq9H5rYCNXScDr868PbUXXr0SGa-XteIUGNpis866oLxgB0Rz3m
+}
+
+AzureEntityColoring(APAppCenter)
+!define APAppCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppCenter_tbg.png, APAppCenter)
+!define APAppCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppCenter_tbg.png, APAppCenter)
+AzureEntityColoring(APAppCenter_m)
+!define APAppCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppCenterSPRITE, APAppCenter_m)
+!define APAppCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppCenterSPRITE, APAppCenter_m)
+

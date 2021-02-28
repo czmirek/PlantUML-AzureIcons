@@ -1,0 +1,9 @@
+sprite $APFolderSPRITE [70x70/16z] xSor0S0m402nfohx3vm-36QV1f0CINU-9B6dIPRG94kaMS8UsYsVQ1SBop8e0000080b8SDP0G
+
+AzureEntityColoring(APFolder)
+!define APFolder(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFolder_tbg.png, APFolder)
+!define APFolder(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFolder_tbg.png, APFolder)
+AzureEntityColoring(APFolder_m)
+!define APFolder_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFolderSPRITE, APFolder_m)
+!define APFolder_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFolderSPRITE, APFolder_m)
+

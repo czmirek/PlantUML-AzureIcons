@@ -1,0 +1,17 @@
+sprite $APBusinessHealthSPRITE [70x70/16z] {
+lTW7aeGs48LXlTVT2YJV_xOMOcPbuYw8ybzfI1yPLOrx73W7k2QYzXJYfkO3AJKWRGhVKFXGGQvEF56mlP-ygrIZEhYl7ApDsmhttLR0asufV4F1AmhVKFwo
+rZkAoF-Ye4a1GA190MkFbHlRdohWKNfF0NzLA7EyKlYR8g9B8gSAIpXHYc5Pc2LJEL6s1ZQAp0AMCvyvdYWhH8YL8chBXZzJHmfMHw33GEA_YffzaH22eweU
+A5mfQPZyweoqxBmgJanvfk2Zo1Xr9gjYjgncXgAuXLqhgCUIIEh8N5NuLNm8N1HPATWeVbJnrg-LZ6ZP9CIlmdC5O3U6EAIEIrKH9zFKXob-56TsSKP3w8TX
+J3j5Fyg4AwLUtJ7fvCyLYKM1sUMT3igaEyL-b2w6pzsoKwLM5GjPaQ_IJx70NlgjWeLm-5GvSQuFFZDLcSgXfBtYU5nHlAhbGl0Q0dq8JipCqtOAcCEnafEP
+WLj2cRZrVH5NiZaLE4WvCDxurbN5gTKASgpWMd7y8RpXOYIvK4fKxpCXk1wFSAMKnFuomg9TAM7JMh60bK9ySjUjb3XE__IkLY-Hlg9q0OyLLgLBSg7e7uyb
+vyyL4TIASdZfkxd4K-RgM6hTaZKgryNLeoYQ4pnHk4f4sAeKnpKf8iASAfuheb9IaQUAb4BmNacw9YNAKfkIJXMVRYZUJ0bt4EpGIJ6Mom30EInCa3cuuyI7
+rANWlPcA7Fw_KvZeCqlN4b3VevPUKb9MeZlgNm
+}
+
+AzureEntityColoring(APBusinessHealth)
+!define APBusinessHealth(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBusinessHealth_tbg.png, APBusinessHealth)
+!define APBusinessHealth(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBusinessHealth_tbg.png, APBusinessHealth)
+AzureEntityColoring(APBusinessHealth_m)
+!define APBusinessHealth_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBusinessHealthSPRITE, APBusinessHealth_m)
+!define APBusinessHealth_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBusinessHealthSPRITE, APBusinessHealth_m)
+

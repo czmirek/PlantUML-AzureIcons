@@ -1,0 +1,13 @@
+sprite $APCheckSPRITE [70x70/16z] {
+hSm7ZGC100D1V__KvSys029BgpiFWCbf7_VFGVBW-Jb8uBb8O98mIPWaJ18c2SUJ9shn2PE4IS8aOP8mIPWaJ18c2PE4_5pF9_o0RpwVDA8HYMXK0hTpoHUz
+yKdeZKz2RtmIUkEJq1kVXDBev6tXVZ09lV59w8rFGczy4dhZaz0RduJU-2JqnYUXDpu9jVdoIMZD5pu9hG6VXCud-LiaoUyWAOr8H2CIqOX4D28HZKX48nBH
+Y4Gq8X6DI4GZ4j68H3GY4Or8H2CIqOX4D28HZKX48nBHY4Gq8Z6DI4mZ4jE8PEq5
+}
+
+AzureEntityColoring(APCheck)
+!define APCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheck_tbg.png, APCheck)
+!define APCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheck_tbg.png, APCheck)
+AzureEntityColoring(APCheck_m)
+!define APCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckSPRITE, APCheck_m)
+!define APCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckSPRITE, APCheck_m)
+

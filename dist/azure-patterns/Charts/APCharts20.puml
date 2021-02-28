@@ -1,0 +1,13 @@
+sprite $APCharts20SPRITE [70x70/16z] {
+xTT5OWCm34JH4TMsxd_VC4quAhV-gvXUcF2dKtV5-_AUcxgZdBGyr0IrREH9mr19jaXlhMyPL6h7EoBRomN4SrLWLwn7NhifxNpuShbAZaDPZ_5SVAhZf47g
+azds7l1TChoONbEqzBZS6wDHXgiDlWTs_ZX9KdxxcHwCjgSLtjLbD-ZhaJnGX3k-N4See37ewcufdMOQrj5aNK4xPqeAVEIkGSnh2YHQp-mjn8bvGU68AIZC
+b1LcgWepMbEO2PGKPW8bXLCK5Uu7A69KLN7gsvMf25TKp4-p7wHCPIfJcSfKfZ8LvG28KTV_myRRQR44
+}
+
+AzureEntityColoring(APCharts20)
+!define APCharts20(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts20_tbg.png, APCharts20)
+!define APCharts20(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts20_tbg.png, APCharts20)
+AzureEntityColoring(APCharts20_m)
+!define APCharts20_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts20SPRITE, APCharts20_m)
+!define APCharts20_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts20SPRITE, APCharts20_m)
+

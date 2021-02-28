@@ -1,0 +1,12 @@
+sprite $APPortalSPRITE [70x70/16z] {
+xT7N0S8m303HL770_lloIqzi7pMw0PujgTjAMR_Oi5W_ntBpOX464meJ2XCA4mfpK3g-hqovqPwbTdShLN0K70L7mL5m570K70L7mL5m51m5Hy5HS1GS1KV1
+KN0K70L78PLKrfPAAgdC5msLTHifEm4
+}
+
+AzureEntityColoring(APPortal)
+!define APPortal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPortal_tbg.png, APPortal)
+!define APPortal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPortal_tbg.png, APPortal)
+AzureEntityColoring(APPortal_m)
+!define APPortal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPortalSPRITE, APPortal_m)
+!define APPortal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPortalSPRITE, APPortal_m)
+

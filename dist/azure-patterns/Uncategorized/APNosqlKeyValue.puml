@@ -1,0 +1,15 @@
+sprite $APNosqlKeyValueSPRITE [70x70/16z] {
+xTSrWkn030HGeGNtl--77PO2MGlHpWlBJ5rkk21H9bX1LdtPvCWBXTCaBmpXWY9l7E4KjBm9-KWudo6S4Vb4Mf8E9npvBB0ccGeZpgn7pY9WP5aGPSKqoKeq
+gqC6sZVfaUttOZtI_LwKii9HLlmjpmX1Io8mgkTl0E0j6Ma_UugIJEgH-ID2RsUoE1kdU-QNWE4qlcmI-fAI42oH4C8lz8PgaNu8BEZX6QRu2DhRFE8edO7U
+UcHLIDR7dEHDILySBSb0664RC35APFiHCu2oHQEiw5kQX6s_bwDlyZrxqQnu8dqJoi9Xb1L2bEI0aVK3y_f1jtUCsfu9HlN8savG5gLMNdQ9nUzk6GY27vaS
+5gOC2wmMfWA_q1kogX2iaBpE-D3sCpwjGu3iPtpacQ-VWBGwMXOIjoGDJl1MXBx_WzTMXFEusqKMA5dHXBDY_Q5MEsHWVPFlcV7nTypug4K68y-Y5nsTggDM
+IDwIaVKtZ5eoy_xfeRSpMPoDOPdn6S5fVDcFoqjAXB24J73r5m
+}
+
+AzureEntityColoring(APNosqlKeyValue)
+!define APNosqlKeyValue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNosqlKeyValue_tbg.png, APNosqlKeyValue)
+!define APNosqlKeyValue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNosqlKeyValue_tbg.png, APNosqlKeyValue)
+AzureEntityColoring(APNosqlKeyValue_m)
+!define APNosqlKeyValue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNosqlKeyValueSPRITE, APNosqlKeyValue_m)
+!define APNosqlKeyValue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNosqlKeyValueSPRITE, APNosqlKeyValue_m)
+

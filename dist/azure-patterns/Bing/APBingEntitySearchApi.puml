@@ -1,0 +1,13 @@
+sprite $APBingEntitySearchApiSPRITE [70x70/16z] {
+xTG5qiKm20JW9Ia1zlxt_QKsrioKvvBlwTX6WEAz3SCmg7ahk9BpNyLLb0jS9RXeWYjmPmMNc6BPoywGryYwtqkeamn1af7KzPTH_xT6igHtGiM_sapdFOXd
+TpCTzeYJZlCao7RSWfewZnscavHCbvHUV4lSYdMEIaQYoXN7_7oretzwFN-_P9IE-R2d5BBlmIcuEcKlH4VYTgrVezP9oPKpplTBwSvk9GEvvhrsg0iPdG6Z
+8BCPFpmFxTh7bCISdOnn-V_JIAlRSKAGZg7A_3FVjUmXwHWwPo60qt013Uuge1DcL-GehX7xNgwXd3ckOtE8u4f5TSAp3CCm_08
+}
+
+AzureEntityColoring(APBingEntitySearchApi)
+!define APBingEntitySearchApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBingEntitySearchApi_tbg.png, APBingEntitySearchApi)
+!define APBingEntitySearchApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBingEntitySearchApi_tbg.png, APBingEntitySearchApi)
+AzureEntityColoring(APBingEntitySearchApi_m)
+!define APBingEntitySearchApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBingEntitySearchApiSPRITE, APBingEntitySearchApi_m)
+!define APBingEntitySearchApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBingEntitySearchApiSPRITE, APBingEntitySearchApi_m)
+

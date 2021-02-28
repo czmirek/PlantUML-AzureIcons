@@ -1,0 +1,14 @@
+sprite $APCustomVisionServiceSPRITE [70x70/16z] {
+xPK54jmm300ZWs3__z_YWNLaDmCbxr1mXPCSVn2RpMQpaThLJ7kLqugYpetGUiPH7JBHppd2Mf7Za58rJdWCm6ho6e3BUaC2iAVdHG7QQZL0r9Tw1tHPOcCA
+PJZHHKrzV0v6JLlII7fALHgOD4jHwipYeqIuqKTDoBGUpnF73OZS6vqkYgGNeZnV3VXiIUEfUgb4m8UrxL0cbfuIkvm2fBBxnEB3LFsUIsZAfSxwKj9fo7DV
+77vfHXqmytonpVVEeJ_lorY21CZ4Kj8RxjN0guMCadxCQ8yRdaybm8uvIWxMUkuRVgpGtt_Jb26J2JLuMNjBrwU80w6IKupBDt1AVWNlbvTACyY9h7j-4Cw5
+bDmgpHdm9kT_q_Q3oO_whsIpsMmsNm4
+}
+
+AzureEntityColoring(APCustomVisionService)
+!define APCustomVisionService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCustomVisionService_tbg.png, APCustomVisionService)
+!define APCustomVisionService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCustomVisionService_tbg.png, APCustomVisionService)
+AzureEntityColoring(APCustomVisionService_m)
+!define APCustomVisionService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCustomVisionServiceSPRITE, APCustomVisionService_m)
+!define APCustomVisionService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCustomVisionServiceSPRITE, APCustomVisionService_m)
+

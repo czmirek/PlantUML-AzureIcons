@@ -1,0 +1,12 @@
+sprite $APScale08SPRITE [70x70/16z] {
+xTQ30GD154NHUGZxxpTsriQ_1Pp5C5LfKrOL1CUovgY40W8j5ShNn3QA_4pD592GFsgWq7-fja9dn9eAd9LgAd9cDHLdXzaga3DZ3GNEZvKL5zMDWc4LTV55
+HOmGktT6eRI-1IskOrb8YSUovgQ44aeeeOGIIYYXd04
+}
+
+AzureEntityColoring(APScale08)
+!define APScale08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScale08_tbg.png, APScale08)
+!define APScale08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScale08_tbg.png, APScale08)
+AzureEntityColoring(APScale08_m)
+!define APScale08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale08SPRITE, APScale08_m)
+!define APScale08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale08SPRITE, APScale08_m)
+

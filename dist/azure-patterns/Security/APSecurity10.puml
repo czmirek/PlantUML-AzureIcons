@@ -1,0 +1,14 @@
+sprite $APSecurity10SPRITE [70x70/16z] {
+xTW5TiGm34NHSMHPiF_z5foV4mqRoiqh3jqmdjQAJ_NRb4FHfI--gSYfB_fkvL0E9IsrX8SBFUbAkHNb9wNlKhX9eQ8kPRcd56rGak1VlgqKRr2I-PO69I0j
+YhYxYSZPs510MXJQrhMaxfw20gH94NVVdw6W06bIT5_jmoJHXZGeo6JDTv20D2kng00HdLEaFf7d5211OUbGE3pCGM7pbT6t1FbP5fI018KDpvZlQJGKumOb
+8520k4j4eeBLH3U5HAIET0uAMnZf--EIhfTqK2fY2eZlp5qjzaXP4Su2f7b9HyM0v2puEw8ua7S6VmSK83NEWmeGDAuOpnv95CYaSZLFU4IfIDWQpUsUGboZ
+6mgGkigzO-vUxYZbtjozFZ2PEuyhcGiupiDAxDSfxSqhXt8e9dtfRxj3S2Z4Kxq2
+}
+
+AzureEntityColoring(APSecurity10)
+!define APSecurity10(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecurity10_tbg.png, APSecurity10)
+!define APSecurity10(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecurity10_tbg.png, APSecurity10)
+AzureEntityColoring(APSecurity10_m)
+!define APSecurity10_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecurity10SPRITE, APSecurity10_m)
+!define APSecurity10_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecurity10SPRITE, APSecurity10_m)
+

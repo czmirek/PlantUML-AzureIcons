@@ -1,0 +1,13 @@
+sprite $APMonitorSquareSPRITE [70x70/16z] {
+xTXLeiCW58JX6-uX0sV_-wqHfcvCwlmlrNnnpJv7twjOQCWEbV-_XiAtALtfoX1kQBYc1BkXyCaAvb3WYa94KeZe2bnIYEXAyXcKx8f2H5I8P4KX4XM5Y2aA
+aLqbuXOb-RQAx2WnUs5YMeVIU5OXGgKWxgXlM3gh4A72OK7akaA42eTDH0wLiti0bSC90COuTRjI45GBz-m1L2R4gcPDIXssCB0sXSYQWJKfH0fZxGh4epSH
+MO6f2X5HWUaA4Kd1-rs_T4M_Kcr8KBhI5VrfXTBtAai
+}
+
+AzureEntityColoring(APMonitorSquare)
+!define APMonitorSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMonitorSquare_tbg.png, APMonitorSquare)
+!define APMonitorSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMonitorSquare_tbg.png, APMonitorSquare)
+AzureEntityColoring(APMonitorSquare_m)
+!define APMonitorSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitorSquareSPRITE, APMonitorSquare_m)
+!define APMonitorSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitorSquareSPRITE, APMonitorSquare_m)
+

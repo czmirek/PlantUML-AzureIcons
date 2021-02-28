@@ -1,0 +1,17 @@
+sprite $APMachineLearning01SPRITE [70x70/16z] {
+xPY74hGg38N5d3JU_u6lCskk4Dq5_jw-QLi_YkPCS7i7szwztustLSXhhLAseCZntcd9iLjzmJ6nyxtkynAf_sDql2UxFf191tjjaLCQEAyi9j1DQu-DbbNY
+7ycIqF99mhKEB05_khhJbkeqjPXicLlMdhQG8Qt51PmsVXzR680s5WN0gnR7WJGMmS4NpSKQYotD9N25Thkh45-m1B3EOgZ1kkMVnHSj_cW1Brc4zgTm0aYd
+BKQ0s_vGpmQ0WA45H01Phckk9u837bY00ybn1Uzh40CBzNNfkAKrNSFepQ9NdL9AyzhX88cGqfHr6Z75X5oNzGaNgDyIqnKSdqvOB48WBArzsgByDhtvjx4e
+I5fBV1GM8LYo2966HLxWm3gBuq1FYm2WnXBr8YzsD7GMmGlQ22-aiw2XN6BePOcFM8Gt5c4SU6VHPlhxjKYkZIK-YdrX8atxmaJoRQxHNsQ1lR4OvYnsTZp-
+O75-5RlTBBsR0V8pf3nP_8mffzo3QDzOrokz5UoTnUEsHEg7Z59_slx2RxdhzSd2kRqqQWlXPcbl_LY1bjItEq36i3gmL0CR0VxGo_DL5WFBLNYytIYyrZCu
+oh-Ex4ij2h0t5cT0boquqAyz1tYsA0vyTIxoS9gGyLoAfutHLDEQjiNBzWGldVXuuHmSbgMpCDcKnMZx34zOU1jIT63HilRSv6w9O5fzxC7TAfst5IH6xcOd
+IuxuerpMKAv2HkdTU_u3
+}
+
+AzureEntityColoring(APMachineLearning01)
+!define APMachineLearning01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMachineLearning01_tbg.png, APMachineLearning01)
+!define APMachineLearning01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMachineLearning01_tbg.png, APMachineLearning01)
+AzureEntityColoring(APMachineLearning01_m)
+!define APMachineLearning01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMachineLearning01SPRITE, APMachineLearning01_m)
+!define APMachineLearning01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMachineLearning01SPRITE, APMachineLearning01_m)
+

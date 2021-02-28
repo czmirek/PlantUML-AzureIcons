@@ -1,0 +1,16 @@
+sprite $APServiceUpdatesSPRITE [70x70/16z] {
+fTXfphCX28NXWmZwkF_zVYDlJQdbTBYJ_hs2s1btoPXhZM62h_BrlwdVCk4ql9IqabaAyDITC9qQOkuk8DFmGToLxUOIEeWRN_5WWyHM2DFgGTohtHaT9X17
+qLW_5ST9gpNa5hcc5eXXDsS-z5QiL1fsQoMcRsLKMr7SAOaPHB7J9Q_Cp4e9nEmUmKoCh5BfUw_v09jHdsldoEaPWQrW8Fs_kEiSYTeAPgw7b26xQptj4eBa
+8vsR3DbTdE48T1668EnCu--38z4u8_vlJET8v6S4VvbvGmGadKysefS0BH2UpGT4h05824kwZJ5CUo0mzrOW9BqXxb8WbB50tBH066DGZmX2e8GC_KJfM-d_
+dr6VCEOx_QjymhG0ACD7sJN2iDtkJzEP69RO0S7StqPeJNiOwQed-OQLjreWPuOZrdiW1KEGBkbjxC1GH94HpiWPSG-aOCZznYTDmH346oZ34HT4LZ0CSTpo
+WY68WpCSQQYP-Ih26OvmXY6Q3CeK26KC7E7C9CYBZ13as3n-cLM2KCQUpDAnuqp3aR4QoOmWc0AXp00YAn36D2JcW516WSHiX6V7_sai8JmraqUS8BnWmlwk
+_Z7o6m
+}
+
+AzureEntityColoring(APServiceUpdates)
+!define APServiceUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServiceUpdates_tbg.png, APServiceUpdates)
+!define APServiceUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServiceUpdates_tbg.png, APServiceUpdates)
+AzureEntityColoring(APServiceUpdates_m)
+!define APServiceUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServiceUpdatesSPRITE, APServiceUpdates_m)
+!define APServiceUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServiceUpdatesSPRITE, APServiceUpdates_m)
+

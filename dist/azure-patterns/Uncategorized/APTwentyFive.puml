@@ -1,0 +1,15 @@
+sprite $APTwentyFiveSPRITE [70x70/16z] {
+xTU7jTim44JHsHta_llzMH9C3KWkZxFz2hYCIBZdkTRQnbkjbko8nzB6jfOCNzbH7yHOLEmJIKSXzx5JEQUqiL_tCyeuZ555H_yUIcTGqPNlekJyEodvh59p
+SZTtvdPHwOMOObihbBqR6TlQHdam1jN6K4m_LYfad9GsAmZLlujI7qgzhkJlhPH9uP-hLAtuvI-TBoiK0o2krE-XS2mKyZ6stR1VFpczqB6k1IQffLF6N5U8
+TjR8Q4TAeaIsIZfClvEv6bUiYvKngl0PwHvLodX6BAXOKmXYIXeIULT8-djc_XPtb2AGPj1jfPsd6HNhN2Zi0idOxKd9UdDvq4OfWQVH3wMHdd2YMIcBRnEv
+6OLa8AXGR6znCakt0ayJK0f4KOK8v4898w1MY519AXcXN2eLAbk_MwauLEJ2IL9forUe74yB9SjI_kXRo1WysTomb7YRUISYhEZ-A-k8xw0Gtq5n11Ljd55w
+sL7S81HTApal2QteEioTPFg8T3DClG8
+}
+
+AzureEntityColoring(APTwentyFive)
+!define APTwentyFive(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwentyFive_tbg.png, APTwentyFive)
+!define APTwentyFive(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwentyFive_tbg.png, APTwentyFive)
+AzureEntityColoring(APTwentyFive_m)
+!define APTwentyFive_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwentyFiveSPRITE, APTwentyFive_m)
+!define APTwentyFive_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwentyFiveSPRITE, APTwentyFive_m)
+

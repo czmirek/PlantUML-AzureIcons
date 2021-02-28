@@ -1,0 +1,15 @@
+sprite $APSqlSPRITE [70x70/16z] {
+xTQ7pgmW48RX3wR1tFy57uuu4jagsTJVPtlnpIHMTBe8uHULX0th4juZX4xqn9eoiKPF11qLx7W4obiZHTYPAuBCXVSbGP3YBZXaAL-IZ0ENLd5B639h-K0v
+OqXQjagCSqYPHAqyC1NA2I46YOhNw4or8PQU6vq7JRWeIGa-LCduMXOhWvyPVr5A3sl07nKLIdWgPOuPtbT2tTP9m_-9w5XhtrNcNFXpbRjoL-wAYOZvp4HO
+lwueDZIDGTZebnNiv5HXTEbY1QTH42vK4XhrGT3GnOea07aQ9SlLYg8n3_tZvKezhwO487bKT5vP7FcfqfUetXaQNQXKDEnTHkCB5QSnJ44ZIvKQApk2InNF
+0DAncidNAeR6Ok6wKedLIx75-Mf5qTJ-OiiLHqFx5hTU4JGIwsggoBULYbtoKwKaDAG7UbTnHYTJnJ1vMwa9iO96PSFfGqKQywvooacgTyPDsPaAXpnLriua
+_9CABLNqR8lagnN54_Q3Ih9ojM9vmdPVl_ooSbVkoZy
+}
+
+AzureEntityColoring(APSql)
+!define APSql(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSql_tbg.png, APSql)
+!define APSql(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSql_tbg.png, APSql)
+AzureEntityColoring(APSql_m)
+!define APSql_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSqlSPRITE, APSql_m)
+!define APSql_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSqlSPRITE, APSql_m)
+

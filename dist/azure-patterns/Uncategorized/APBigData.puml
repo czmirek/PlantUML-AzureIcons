@@ -1,0 +1,14 @@
+sprite $APBigDataSPRITE [70x70/16z] {
+xTS54iD028NXDl1WWVkVjy9CPUiqzUOVZNrnu_41U0Y2Xo1u28A787W4aWgDx5vbKj1Cg0igN5LiLJS3cvaM5HmfOgjg2iBDl9l1ojlImY4Qje-4DUM2mXwv
+l8RI9W-jdIF4PWaBfemZX4fA2zzCuF2D2weexD5ec-HMIRgtAgpM3jPg8QJXbMjNpSovXzqiZ2gAhPBDP82xIwsqBSWja7MeAna4r2lSRnugrsug6v4ozknU
+XQfAotYauXa-LH5TXqzI9cLI9gN-b4AsLTQZB9k-3glAG_woCAg787W8WeSWU8G13CD0fyE9w7J3x5ppTg9PEJr6fAx8iS9r1SSAFKGPwee-Gg5s71w0L3Tc
+JjfE9zSSHYOYUZ4HGSQd544n-MLb2G
+}
+
+AzureEntityColoring(APBigData)
+!define APBigData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBigData_tbg.png, APBigData)
+!define APBigData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBigData_tbg.png, APBigData)
+AzureEntityColoring(APBigData_m)
+!define APBigData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBigDataSPRITE, APBigData_m)
+!define APBigData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBigDataSPRITE, APBigData_m)
+

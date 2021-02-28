@@ -1,0 +1,15 @@
+sprite $APPriceTagSPRITE [70x70/16z] {
+lTM9Ygmm54NHeyQnKfx__zetXGj4YiqbhxitSvKkCAE-l-N0jXnYhWuWg332oW322YFrStSeAMJHvmvG26654LQo22kZoBpy2PGCCbMtU8uOqU6kEeIekk-S
+1n3jVdOCBRRRZ-u54AvirOwsBCBZV2B2IiSmmafTkp4611LDR_yBa8IYwGg54LQaLoYCiD8-2f2Sejas84b5kmr8Lb4r86cb692qelSOCjLEsKUHJfb6aNuN
+3Y0w6tAfKxPX9FeIH5-2oCSN88AXpICoC6b41YQDoC2a4HcOD283aqQc1PWieat0P15L0PD5LWkO9ABR0YQ9R70VfP45xiOqCjLGW46akwUHOMGw7GenZCpL
+eG0JY6TzghYr2vdJqJ7fsLBTkYHY6XBEt3ySV_gGY3dTLu_I_bdASJlQ969YO7TJYqHC8DByygDkk8ZffdYj_jJP360UmxzSVlIEuMOcaAWSrMxLrnO4CJtI
+MMLMggL3XbiGoJE8v1b2yitw-Nu3
+}
+
+AzureEntityColoring(APPriceTag)
+!define APPriceTag(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPriceTag_tbg.png, APPriceTag)
+!define APPriceTag(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPriceTag_tbg.png, APPriceTag)
+AzureEntityColoring(APPriceTag_m)
+!define APPriceTag_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPriceTagSPRITE, APPriceTag_m)
+!define APPriceTag_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPriceTagSPRITE, APPriceTag_m)
+

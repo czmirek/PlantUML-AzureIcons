@@ -1,0 +1,12 @@
+sprite $APMonitorListSPRITE [70x70/16z] {
+xTK5aWGX30NG817-_U-xE-wIgZ2ULzADE-0fKXgOGHLne_U14zpzP5j2mhLONx1WBQClCOu9-oa0vHM3HqhMIcc66AELWIEL_1W0xty3jTGfjRIBjVJg9_iH
+2M8gBJH4sRlV2qahKLCSC_Mp_Mcqs0deRtWQOs-Zq8eYfjD2HvIf6kP9ATKfw0EbKkyevC2uWp-nbgpb7m
+}
+
+AzureEntityColoring(APMonitorList)
+!define APMonitorList(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMonitorList_tbg.png, APMonitorList)
+!define APMonitorList(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMonitorList_tbg.png, APMonitorList)
+AzureEntityColoring(APMonitorList_m)
+!define APMonitorList_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitorListSPRITE, APMonitorList_m)
+!define APMonitorList_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitorListSPRITE, APMonitorList_m)
+

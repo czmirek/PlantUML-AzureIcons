@@ -1,0 +1,13 @@
+sprite $APToolBlueSquaresSPRITE [70x70/16z] {
+xTTbGWOn38JXp2J5xdzV74BGxZHutp-VxhCklIWDcspKwNwmifMjm3t27IkAnsDG5KP64nKlo6lAA74ICHybAqqWMkn0q83KzR6EHGclFsbRfJACUILg_fI7
+geGd4XGsIs6ORuygoJ1a9Hcc9soNxA3YxoWKZvSQJDymcNMi4JkGQ47GWR03yH-3i05ng8Y3zryH9YDs4v22X6JVZMm4DnFIrn2xF-MvXE3X7F5490NbvhUu
+B8desmKoaiy2u0AIcxKY-ZCbx52ZnDdBY8_ItnfbRMKhMxa2
+}
+
+AzureEntityColoring(APToolBlueSquares)
+!define APToolBlueSquares(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APToolBlueSquares_tbg.png, APToolBlueSquares)
+!define APToolBlueSquares(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APToolBlueSquares_tbg.png, APToolBlueSquares)
+AzureEntityColoring(APToolBlueSquares_m)
+!define APToolBlueSquares_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APToolBlueSquaresSPRITE, APToolBlueSquares_m)
+!define APToolBlueSquares_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APToolBlueSquaresSPRITE, APToolBlueSquares_m)
+

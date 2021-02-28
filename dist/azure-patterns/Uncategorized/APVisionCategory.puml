@@ -1,0 +1,13 @@
+sprite $APVisionCategorySPRITE [70x70/16z] {
+xPP55iCm34H5CTx_l6sJgDpECspzDp7C6vaLeiLYiLZ80Ot35ajrIZIc0IpN3x9DUAJqA9QDEf3J8qTbRz7eJKgjXBeJvSCwditK1ET3p3zwGjc78ospGSeZ
+Gj464ppghTwm1fDV8jqEr1LA2Bv9og_Pn7eGF50H0kpJ5a8kRfC9Jze8kkpehRJHFzXrsCMZCT5VQQOM5yfW7trH6bpiVppnBkZo33ZWmWvsUSwe2SF3peJv
+N5syqnZVQNpgC7xgscu0lh6vxJPYao9jBmDMQCi34tfVgVaN4oXh-FbwLu_Gdad2XreymVHcjHBKdSH20Lcj8SFcPx7qP-eucUqTjfWV3j6c_uAOQB5OB1PN
+}
+
+AzureEntityColoring(APVisionCategory)
+!define APVisionCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVisionCategory_tbg.png, APVisionCategory)
+!define APVisionCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVisionCategory_tbg.png, APVisionCategory)
+AzureEntityColoring(APVisionCategory_m)
+!define APVisionCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVisionCategorySPRITE, APVisionCategory_m)
+!define APVisionCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVisionCategorySPRITE, APVisionCategory_m)
+

@@ -1,0 +1,13 @@
+sprite $APShieldLockedSPRITE [70x70/16z] {
+xTVLWiGm28LX9e70EU__lkiosbAollrkHllN9RBAJAOPIAXCKV3HLCV0Dp2fQ0CyWT5aenwy8dfrCMeBr8yIDq9zfM31bB2R9UScBbS5DudPobx1C3NpgGfC
+NtYz4lhEgXNeCIjMz945wI-PIcNeWpXwZqhbPAEQgev21VhWz5EX4gVxLrMjM0doU9M-jJByJR7YUke7L_QAcSvNGFfqnKZYXrJK0TkFbxto6v-2zefo4vNh
+6fY69hSSWabna0M3APOORwv1bpKD4skJ7oSDoJ7U1fMiZi8EpkzobsqyiOCJjBusnnhIEpY_SKognl7XMjUHM9lind6PvOJAF4liu7i
+}
+
+AzureEntityColoring(APShieldLocked)
+!define APShieldLocked(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldLocked_tbg.png, APShieldLocked)
+!define APShieldLocked(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldLocked_tbg.png, APShieldLocked)
+AzureEntityColoring(APShieldLocked_m)
+!define APShieldLocked_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldLockedSPRITE, APShieldLocked_m)
+!define APShieldLocked_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldLockedSPRITE, APShieldLocked_m)
+

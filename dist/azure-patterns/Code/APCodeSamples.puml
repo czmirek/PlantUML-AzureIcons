@@ -1,0 +1,14 @@
+sprite $APCodeSamplesSPRITE [70x70/16z] {
+xTO7RiH034DHIXhg_ZTEfGD3Cukre_JueszvRap1b8_pBP6-4ctbKYxbKiOlL_WH2hEd26agGleAiwa8wIliAa9wYf2k8gIlm7XQCHGaWF62s675wtiaO3gL
+WufFxp43A1TaxX7XjbPY_aU0IS3pDNzzb_iJdGnxCQnCrW6c0hmEkZWoedni095RjXh0Zl5g24a3ygtwfkBUG8o2b5F92L4iDxL-JazPpOXYc8pLxZMuIM6M
+N0zcXMXm1nJgjYuG3QueGbOC41EYmHrJSjZaSBjOhXJcAaPnk9rav0bbZCtntQSCu5B9MyhE4QB1BHJcJMRlRATYTHHtbRsJMGQdS4oHatLm2YGBiLQOmsmQ
+d19xLs5k3NYUZ8iXaEzKoEp4DYAbZoGBqb2oczRqhxkw8kwL1tBq5HhQod0Sw14
+}
+
+AzureEntityColoring(APCodeSamples)
+!define APCodeSamples(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCodeSamples_tbg.png, APCodeSamples)
+!define APCodeSamples(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCodeSamples_tbg.png, APCodeSamples)
+AzureEntityColoring(APCodeSamples_m)
+!define APCodeSamples_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCodeSamplesSPRITE, APCodeSamples_m)
+!define APCodeSamples_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCodeSamplesSPRITE, APCodeSamples_m)
+

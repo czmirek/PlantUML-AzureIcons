@@ -1,0 +1,15 @@
+sprite $APTrainingAltSPRITE [70x70/16z] {
+vTDP4jum20DW0LumzpzmNVxTauMKlFLxpcWiMy7_X5Ya_2LC-4TSVZ2bCvpW8YgRE7cG9qc7E4c7E8c7v6Eed604I3aJM2AN2tPpoYL2WLi9eC2j172waEDq
+8KUP5tgJzBKuJgUuUr88JyGJbPAfn2Nd-Rv9yP3Uwr5A2QXzc9csieqYxzBKdaRVIJclCkoRRXG3drHHMsmLEoxKXYqsYp7YLMot625UPJNUnO1ebUrYzVa3
+yFOuehHjBxUfNJ8gfhqRZHkDmBUaG7ADjC19udQxu8N3Bxsg-CPoVNLQrfI9LdnueCw0fvmhkhSH0c8fZG5i7KW5ar0evVavrV4x3dwUaeCfpq51-k_SkTaK
+JdalWhnOb_TbXLEMTPP67cSkdABBdpA9sWT2ANMPElq-Lu-bODY1GS4K6eSXmHHGjnqzkbqdklSFJSriC4AuBK5Q2QvuCqIHrFvGA-FjKPUGybm2akYvcYHI
+Cq5QDzCxKkw8QJQDadubfpNvIcu8KjGcfHicqv16AhZF7m
+}
+
+AzureEntityColoring(APTrainingAlt)
+!define APTrainingAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTrainingAlt_tbg.png, APTrainingAlt)
+!define APTrainingAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTrainingAlt_tbg.png, APTrainingAlt)
+AzureEntityColoring(APTrainingAlt_m)
+!define APTrainingAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTrainingAltSPRITE, APTrainingAlt_m)
+!define APTrainingAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTrainingAltSPRITE, APTrainingAlt_m)
+

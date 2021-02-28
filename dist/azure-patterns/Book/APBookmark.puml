@@ -1,0 +1,14 @@
+sprite $APBookmarkSPRITE [70x70/16z] {
+xTX5WkGm38LXoRBWtV_2CouL1JJWvcv_c_0Vs2cqXGsd2I-iA0ecbCHGqFEAQt8CqOYe1GfbHNSxXGG7LILyEAd0SE57SQWq6hOLrSqj3zhjG1-ygf0W2LKL
+7m6agaA6mQYeRDGLni0lh106-bl5LVLF5GVWTILKrVFCwKeUqfzIuVxo2Xk0pY-h15Ayg7BtEIeg_kAAqcyIBwba8plJ5MDw49ci77ryPLLMPLLMPLLMPLN2
+3rIUAjBDzs9RALcxLDXGA2g5TwfKM0nt9aoLhDJOKCngHQKWcwcnh5WxOdfWOBFPZWmLxqo9xoizyF-CwGax9lNDk_z1EwMwcwC35wRQpb19xxyyIBAXD84Z
+FxC6Xc2QetXGcjO2AHgzX7WWNEZFVW4
+}
+
+AzureEntityColoring(APBookmark)
+!define APBookmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBookmark_tbg.png, APBookmark)
+!define APBookmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBookmark_tbg.png, APBookmark)
+AzureEntityColoring(APBookmark_m)
+!define APBookmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, APBookmark_m)
+!define APBookmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, APBookmark_m)
+

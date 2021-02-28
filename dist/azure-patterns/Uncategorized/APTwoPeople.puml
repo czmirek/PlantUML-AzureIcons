@@ -1,0 +1,14 @@
+sprite $APTwoPeopleSPRITE [70x70/16z] {
+xTG7RWGn20LGwjZ3_U-RddWzZ9UmA3rFVSiNV4j05X8B4q85ogj23il0XP1w3CcCAfqCMDYdjfDyK8fKQXdmerFg6tty6v4S4ToWij20bMu7SlkKfq6eNnY6
+6YGYX8_m3ubPc2lz4il010l8sfHnzQNCpd-8tPvr18_5Ot3K1bs4X37DBZMOoGfCn6RY9ucdmTrcExgGEARPKLkUf_MnwdRKNIdnCEQjplRwY9DvD5g9XubJ
+9FAUZL0Y276xB14ENZgPWdQ4lfQu6BMPGZh5DzCXdUAhQJ1m32x8RizsWG9aRNrnCgl-eQWsLIcqIzhjLLU2M-1cimqXJSrJIDhip0OftSvrI6YsqahhvBiX
+kuOofLHtOhkESwDKtWajabYek5ApIFl055zklLwB_R2KUm
+}
+
+AzureEntityColoring(APTwoPeople)
+!define APTwoPeople(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoPeople_tbg.png, APTwoPeople)
+!define APTwoPeople(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoPeople_tbg.png, APTwoPeople)
+AzureEntityColoring(APTwoPeople_m)
+!define APTwoPeople_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoPeopleSPRITE, APTwoPeople_m)
+!define APTwoPeople_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoPeopleSPRITE, APTwoPeople_m)
+

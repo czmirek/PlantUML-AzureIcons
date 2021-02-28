@@ -1,0 +1,14 @@
+sprite $APLightningSPRITE [70x70/16z] {
+xTO5JW0n50RXTjtt_gV5VNYadU3mHrSw-U9Dh-yuhzVXVNlp_aX56sv-tXAstdmOy5vGzdUXz3-Kqhu7PVqEb36YREz1wRuRPNiNIlVZA6S5vP_Irr2cYBBN
+Kvhte2mHfIsAv9XoiodUK4PvUqSke5H410KHGs74K_Qx22X5sn01HKH0iP4qtr54H50G4HH458KHKcOH8IMB22acGegEt562xHMH73HuoSY824hUuqWJKhho
+I5gYo5OHIMs7FL8OsNAgldapaaftW8A8e20YA8W82YA2WeYW828eZ7XAFaJaZjAA22Wh8uQ2YA4WeYY860eYdjBOo7X7GSHG434KH1G54K5P436K1X53UOoi
+gMQN
+}
+
+AzureEntityColoring(APLightning)
+!define APLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightning_tbg.png, APLightning)
+!define APLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightning_tbg.png, APLightning)
+AzureEntityColoring(APLightning_m)
+!define APLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightningSPRITE, APLightning_m)
+!define APLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightningSPRITE, APLightning_m)
+

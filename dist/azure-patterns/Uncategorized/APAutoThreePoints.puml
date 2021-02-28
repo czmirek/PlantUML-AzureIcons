@@ -1,0 +1,15 @@
+sprite $APAutoThreePointsSPRITE [70x70/16z] {
+xTO7SkCm341HDX3Wl_zzjyWSOX8wGMnc-_wfSNcHG9bI2igbjPBJOUtg42djglmzIcvN-NGmZnrA4SdfNhs_SGdSiGL0qftWpMFChsMkweSKdzTsA5SIAC7Q
+JKNFbFBC6Us3qKknZohrZOkngZR3GcKYDTUQq_qCYvI9RAy53CH8pC03Y3D3NWJoejvZ91N2IgmOOHOY5U9gf0oW6BPFTmws02D0Ej1zfLpnrUc0XACTQy5T
+SMGURev6sv8phZYIMZ3W-RupKt74_rSmskJCKXpnymv6-ue1HxOFUbbcu6Dp1YRYPG2PvVr2Q_jF4nQo4howAJvwPs0XdhsdrBGpi2EflgVerW3CT8jTEUYJ
+bQ97bVJNbgiycTyVw-0WA_C7UfWuSbAxxJXISbcQtlO84n45kaYVhnfmlJhJMce7HjQrlGctjBK6M6jD0MbDvgi6NA_UwklA5zyEygDANfk4uWzpZoh-53O-
+HR6n_goFAcNTEDItStjKqRKeBGDObpwOsMqd6wfgS_kRhmxWUdKsvkfRIes3_DJQuAXns-ooZWEZfrKsuk9dC-Mfz9Se_nNJ8Fk88Yb8_aJbl_8L
+}
+
+AzureEntityColoring(APAutoThreePoints)
+!define APAutoThreePoints(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoThreePoints_tbg.png, APAutoThreePoints)
+!define APAutoThreePoints(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoThreePoints_tbg.png, APAutoThreePoints)
+AzureEntityColoring(APAutoThreePoints_m)
+!define APAutoThreePoints_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoThreePointsSPRITE, APAutoThreePoints_m)
+!define APAutoThreePoints_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoThreePointsSPRITE, APAutoThreePoints_m)
+

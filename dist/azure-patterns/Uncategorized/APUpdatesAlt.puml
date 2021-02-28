@@ -1,0 +1,14 @@
+sprite $APUpdatesAltSPRITE [70x70/16z] {
+xPO7SiGW34MH-1Jh_lTDmKo6Q2FG3axVDsthi_InGU4tyU01w0e9i2zXNAA9069mmsnhsEb82I0p6L_2iLQxSF95mqKagIlQFTaE4M3oKrMCvP0AJDQ2fyKG
+gfnaD8RBixEOcEMDX0ODVoD7CJ4VCe0JjfRbWtOvLUbeYxKiSRGIfzmCXYLQIL1laKivnAAYyou9kcc9P4P1H_rDjrJkjN1_DzP6CYMZGpg9yIt3RHbROcN9
+CkV8og8MzvGMML7NbdZ8ajGiHhnD6cLDqPRRqhmMthNaTIsENB3EfRZ2rHVNbYnJQWOMberxLrckUOwkUQOlsbz2B4NktElOsBw9KzdPTqSuY-yCK2afM1eR
+vv6o66TZd9oDsaBfiCxfQ9_JsjBc7-_CO5fMyujAoRGqk3fdATlImB6SwsoBdZ5j2Vaizhoh0hCjwzbxqy8zbFrQmhubHDgsD7w19V19-4GUF7W6
+}
+
+AzureEntityColoring(APUpdatesAlt)
+!define APUpdatesAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpdatesAlt_tbg.png, APUpdatesAlt)
+!define APUpdatesAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpdatesAlt_tbg.png, APUpdatesAlt)
+AzureEntityColoring(APUpdatesAlt_m)
+!define APUpdatesAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpdatesAltSPRITE, APUpdatesAlt_m)
+!define APUpdatesAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpdatesAltSPRITE, APUpdatesAlt_m)
+

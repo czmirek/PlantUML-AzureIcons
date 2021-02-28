@@ -1,0 +1,12 @@
+sprite $APCharts31SPRITE [70x70/16z] {
+xTT50e0W0011k_x_NxkxwDsBFISLyDvNT0NTaHCA2ahUFHewfA2Wf5r1z-XBPVvehhs2WZBSPB22WeBYTtrKeYxV20K59UpwflZ3euOfA2ZpBo3eQdQJBd-s
+iZdShG
+}
+
+AzureEntityColoring(APCharts31)
+!define APCharts31(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts31_tbg.png, APCharts31)
+!define APCharts31(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts31_tbg.png, APCharts31)
+AzureEntityColoring(APCharts31_m)
+!define APCharts31_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts31SPRITE, APCharts31_m)
+!define APCharts31_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts31SPRITE, APCharts31_m)
+

@@ -1,0 +1,13 @@
+sprite $APCode02SPRITE [70x70/16z] {
+xPA7RiGm34Cpg67-__zsE03OgQ2-TFlT9I44uNakFvx9VWcu30y3B1p7UmmZ6n2a0oGDGpX98Cc0ZLiGpG5hQK1auDk8I-2VOJB9yGRXYF46zG39WW2aANfW
+V9zcEDLubpIUQl8cYJGtIQIvIIBDcIIsPTtpg2h6lYvxK9fQaaldCKTFQrCrAKqbuRvqZEHsH2TfgafJt9FjbSNatjXfUALHiR3WY3ixeRaBQJJtK4oIVaH_
+NwALQZBerKrx0Kr56r1fqhs77aFHKqVXGrTRI3AkaMHS8ycvPbmYZLSDajGQhniaAMXntl37cKmcsoKi7s0okGS
+}
+
+AzureEntityColoring(APCode02)
+!define APCode02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCode02_tbg.png, APCode02)
+!define APCode02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCode02_tbg.png, APCode02)
+AzureEntityColoring(APCode02_m)
+!define APCode02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCode02SPRITE, APCode02_m)
+!define APCode02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCode02SPRITE, APCode02_m)
+

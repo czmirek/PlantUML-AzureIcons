@@ -1,0 +1,15 @@
+sprite $APAppServiceContainerSPRITE [70x70/16z] {
+xTTN4jim34NHXyAk_QytLl4WzD0J64fFxh-EM5tmDicrA48PqLghfHWK8qwb61GWBgMDUa4Xee-nAtsqNPaWFx5jMx_MnQeb-IVI7yJejYvbXiWpYjx6jXEJ
+CfV8CP6njKdnGBOZuvh8hFWWsv7hQQSoGzT4Gef1lVLZ8X75eF5GMWifbhIxIkkrfDjA7-qxABNT6elrxoZ_bVzALcO6CMkgKKNmTPngGE7ZKT4zOG90wLD5
+TqAVfPIp4i3v8uLsmv2yTpZ9hsG0EY5N0eXJsH6Q44i1SIe0Bv6z1B1BeVL8ZF4e2kYip8bBMI1px504_0qbEPJbKERUAZKnzfX1KQKoB0qg2ZjcJ9EItOe0
+hEkILnbaauWhkaPIkWINafQ84JvbYPZXKnJa7uWfHwO0xf5OwKKfW1knx7z07-U4s8rOsDFIdWaagW2KwgcmAOOubJtEfw8nnPAo64jsAnQzAYcY0FnT5FnE
+2dqN1VVsQCsag89Rofg9Aw30RLmwucVm6_K5
+}
+
+AzureEntityColoring(APAppServiceContainer)
+!define APAppServiceContainer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceContainer_tbg.png, APAppServiceContainer)
+!define APAppServiceContainer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceContainer_tbg.png, APAppServiceContainer)
+AzureEntityColoring(APAppServiceContainer_m)
+!define APAppServiceContainer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceContainerSPRITE, APAppServiceContainer_m)
+!define APAppServiceContainer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceContainerSPRITE, APAppServiceContainer_m)
+

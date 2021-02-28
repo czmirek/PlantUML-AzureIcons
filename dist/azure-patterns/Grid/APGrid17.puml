@@ -1,0 +1,9 @@
+sprite $APGrid17SPRITE [70x70/16z] xTCt0e0m30D0EfR__r-QLarqY6xA5FV-5FbAPeQHa4UC5Oq__yM_w7snw2X4e__qYtz147mCkhkoqV_vnRyW2F8OV04XdxceQFpsB_u5GP3FN8o4_34pcm4
+
+AzureEntityColoring(APGrid17)
+!define APGrid17(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid17_tbg.png, APGrid17)
+!define APGrid17(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid17_tbg.png, APGrid17)
+AzureEntityColoring(APGrid17_m)
+!define APGrid17_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid17SPRITE, APGrid17_m)
+!define APGrid17_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid17SPRITE, APGrid17_m)
+

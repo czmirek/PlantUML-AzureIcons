@@ -1,0 +1,13 @@
+sprite $APGetStartedSPRITE [70x70/16z] {
+pPO7KWLH0CA0zVvNjdVT3wEnv02PiFNf8pvEkNhcK26BHOr54XMCf6H98GOTgWmfLiF_9qL8Ye6xBALQeWwIOYGbmAMLa1Jt56AGDO2a64b9JI46QQBUPM3G
+WQHO4qYAaPIK56AGY44HCKWZ9GKOT6WabrAi4IJ5I4g855rA4J4eMWcH8YH5nAMLporcKWYBTeoavDnYFU4Nva4dtWVI1tNBKGPjAMNG9h7sGRja7rGbMYJr
+zE7ltPvzK9S8aGYHUBU8IB7EGIHUBT450aZAeFbKv_UaV3X7GaXK_h4RBZ-sZH0IVUblVmC
+}
+
+AzureEntityColoring(APGetStarted)
+!define APGetStarted(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGetStarted_tbg.png, APGetStarted)
+!define APGetStarted(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGetStarted_tbg.png, APGetStarted)
+AzureEntityColoring(APGetStarted_m)
+!define APGetStarted_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGetStartedSPRITE, APGetStarted_m)
+!define APGetStarted_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGetStartedSPRITE, APGetStarted_m)
+

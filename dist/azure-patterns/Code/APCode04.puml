@@ -1,0 +1,13 @@
+sprite $APCode04SPRITE [70x70/16z] {
+xT05SaH128HXO9pxtpUolbqPgkF6NpRwFP7_MPPbMPMmgeIXqxi4DP_A8EujGXoO7R8qEB208H6UGOHcU8Hd4E4P7k4PNO0G384m38_m329MYYaEjS_P3PW0
+gOTmkFovooc3IuXOFMJtm-g7ccoOTNv6g3G_D6J37FOxg-p-C39Q3oaC_L3P8C2Sty1mME4G8eACgBumL3CD4628024O2a66HmI2lySY14CWDCCZoD08p_08
+CYr0d40EpD90MO3i64IG6V81cNntMPPbsIC
+}
+
+AzureEntityColoring(APCode04)
+!define APCode04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCode04_tbg.png, APCode04)
+!define APCode04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCode04_tbg.png, APCode04)
+AzureEntityColoring(APCode04_m)
+!define APCode04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCode04SPRITE, APCode04_m)
+!define APCode04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCode04SPRITE, APCode04_m)
+

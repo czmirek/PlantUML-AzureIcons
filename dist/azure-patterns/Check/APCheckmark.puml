@@ -1,0 +1,16 @@
+sprite $APCheckmarkSPRITE [70x70/16z] {
+hPW9ZYCX30098B21_tzthzAgHKPk0w9cSYVLDZU45r8HLHr3LQMaS42gVNpHwvufJef959V3qF62fcs7Qlc7wfwdZl_KF4KVyvDcTGBf0oG7cCWoeAU5GEed
+67pgWEf918VbaNTD8zWS739fjnU9X0N4r3GhJZltPhoVmoAPQ_gIVKqo9AvcQZSTyGw4tx_VaB29p9TEMBVfKqvg5ufVD1eWaSy1GZ1FA9-mIenFdtg2YNlr
+4tkFSxL4dks44liOQ0Y622XfsP6G10YrIq7dBKaByFoQX4uaq4c9XmC9L58Yf5C9AT7auh64TfBAFzUnX5oAK76d4bg-A9PJ2Ir6_rhAcGIAOOaR4Ynj_B2q
+7bSbM62sD7hRgWGB6Kr5ZcPHGaPOvj-WyILpwMgmDBw4cXOiXiQNqEhe0PR6bz03w8s6Pa52Rvn7XbcJaVXpaZ5AeHcUv1cbU30qheGWhD4RZI_XryPCWiQN
+C9DOineQNyAizZh3HbrR2IL_jlT3qJihZokhe3ihiYkhmoihrUkhvlCL_EtTnFdEvlOkwtp7TtltUNydxE_AqzAkd72WEoS4EwSLKluXpcd5pPEJ-wSua17D
+YXpsuNIhZT7SqwtV
+}
+
+AzureEntityColoring(APCheckmark)
+!define APCheckmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckmark_tbg.png, APCheckmark)
+!define APCheckmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckmark_tbg.png, APCheckmark)
+AzureEntityColoring(APCheckmark_m)
+!define APCheckmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckmarkSPRITE, APCheckmark_m)
+!define APCheckmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckmarkSPRITE, APCheckmark_m)
+

@@ -1,0 +1,12 @@
+sprite $APPackageSPRITE [70x70/16z] {
+xTJ50O0m44JHkFNVByujkZYPTz-FH48KsEDS2EmuyPuAAgYWeeyp8GES8Dl6myGoicty8nLKK4455IxYU5D5XpZRUKNeE8cz6tVuxxBDiPL69NupODUTKF6M
+RAySyzVAgum
+}
+
+AzureEntityColoring(APPackage)
+!define APPackage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPackage_tbg.png, APPackage)
+!define APPackage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPackage_tbg.png, APPackage)
+AzureEntityColoring(APPackage_m)
+!define APPackage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPackageSPRITE, APPackage_m)
+!define APPackage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPackageSPRITE, APPackage_m)
+

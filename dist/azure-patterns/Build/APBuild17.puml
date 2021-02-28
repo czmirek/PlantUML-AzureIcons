@@ -1,0 +1,13 @@
+sprite $APBuild17SPRITE [70x70/16z] {
+xTPNbYiX38JXWeO6rVxtU-zaORM3a2SFtxFFVroTuP6jX7cPLlkwoggioggiIhPAfCA3trgf-KqALpACIALZpiL3aTeWNCaStFDV-4oY_qNmwEuplSKgLejL
+hEdAgkI3I8K7Nr5PbQg_bd2b0wXyiKSh6KZcEQ5czdI-aOHHPC_n04_kKHM3sJqgGSNssFTSR8_TDBEd5jLFNjtEFOLaAoCX-qnb0vAGKaxKyHAkDnK0xMsF
+Qde9k-WUkqdWfNkicIzVtMFj94jqZ-gafD0Ukwd7zjZJNU6mcJt7q-tPr4aM5JjFcJShT5PgkQJwAeaavM94wBk06s_PVPUBYd_RfyOhfC8hvKlmv3y
+}
+
+AzureEntityColoring(APBuild17)
+!define APBuild17(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuild17_tbg.png, APBuild17)
+!define APBuild17(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuild17_tbg.png, APBuild17)
+AzureEntityColoring(APBuild17_m)
+!define APBuild17_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuild17SPRITE, APBuild17_m)
+!define APBuild17_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuild17SPRITE, APBuild17_m)
+

@@ -1,0 +1,14 @@
+sprite $APDarkVisibilityEyeSPRITE [70x70/16z] {
+xPQ7SkmW34LDKVt__trb2vvBX0SxFU5CsthsIWk2xHDOB1QBJCJo7o8gwOgXi3fYJETCcSrlc0ZV0ZsUwxoeF5C8rGQ9FqHbna46ZakUydGOrHUGJNbowwXI
+3Q3slepxGzuaTK3JE1qMW-N4HTtGA0xx3aWGyfswzOZlI3r0V8VHaTGnobmOLv2OOvJPC6vf8776jQOg48uTDR74u8U3UDPf8ebhB-arwe567P6mauJgliNY
+OukCNaLu8-_XCBjYUn6Ijx18ieiLONzBQEdtdj61fS0yWEmOdeD_6cS4Em8BrMv9O3axmZWKuXt08amW3YIWERqRSJWKlpOPl8u7Z8uTs5ihHyEEOq7V5Ksl
+dzukMmZ3Z0ang2OcQv0cJY9fvgGt3dhI99fdJsgbu7YTlpQqZolN1k-EUlOMv2etci8uRoSeOjwZKhRJfC8YBHBS3p-AnMAn-0i
+}
+
+AzureEntityColoring(APDarkVisibilityEye)
+!define APDarkVisibilityEye(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDarkVisibilityEye_tbg.png, APDarkVisibilityEye)
+!define APDarkVisibilityEye(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDarkVisibilityEye_tbg.png, APDarkVisibilityEye)
+AzureEntityColoring(APDarkVisibilityEye_m)
+!define APDarkVisibilityEye_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDarkVisibilityEyeSPRITE, APDarkVisibilityEye_m)
+!define APDarkVisibilityEye_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDarkVisibilityEyeSPRITE, APDarkVisibilityEye_m)
+

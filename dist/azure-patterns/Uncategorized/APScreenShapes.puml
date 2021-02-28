@@ -1,0 +1,12 @@
+sprite $APScreenShapesSPRITE [70x70/16z] {
+xTM5SGGn343HWBZ_ViCvq1X6XaFz0jwk-ML9S4CXmeBK2EQp9GeLaSmsbMLPnZxxIzLwgJ2pg9c1J-qtmGuZ1B-HD1HeCefm31jAYs4eL5GQZ410gJ4A0QNA
+K4mfCmenfSnGK2ap65JA38me0EUCZYcU6LL0vnNFq93Y6HvNGCPtNVblU4pnVqD3YcSKHnNFZ2iWnRdXWE8OPK80G68ryHsVYNBkBL6Bb6LPbhqiwHC
+}
+
+AzureEntityColoring(APScreenShapes)
+!define APScreenShapes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScreenShapes_tbg.png, APScreenShapes)
+!define APScreenShapes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScreenShapes_tbg.png, APScreenShapes)
+AzureEntityColoring(APScreenShapes_m)
+!define APScreenShapes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScreenShapesSPRITE, APScreenShapes_m)
+!define APScreenShapes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScreenShapesSPRITE, APScreenShapes_m)
+

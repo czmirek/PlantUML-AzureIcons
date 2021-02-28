@@ -1,0 +1,13 @@
+sprite $APPixelatedArrowSPRITE [70x70/16z] {
+xTW5SiKm38JXNvA3zxzlmTiPbIaCtuDe0XicyvbM3Cmhu-zi50SlbUyivKwX4mEFoZcDF7OnuH_QiMh1YXmjvKwvUIy6yVyJtKSnY5BjBULEoJC0Uy4kDMBW
+gWAofzP4tKQ0KEM0Izu66rKTa3tfr2-thlezQt9Z_P0Igc92IlPifgJajMwMPIdJKXYUYu4VKl8X8rGrGFR4sgTUjUW4Q5G5M0Y7P4AQT6NGHWsRc6AbcfZY
+Ih4TN35pMNQmNRGmnd-uS6mwWRKT9vo-UNsPybnNnghiuHcpoOlZz3MAQIdqpo4z4rE8fedZ7xiXWCb9sppkb45-d_88
+}
+
+AzureEntityColoring(APPixelatedArrow)
+!define APPixelatedArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPixelatedArrow_tbg.png, APPixelatedArrow)
+!define APPixelatedArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPixelatedArrow_tbg.png, APPixelatedArrow)
+AzureEntityColoring(APPixelatedArrow_m)
+!define APPixelatedArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPixelatedArrowSPRITE, APPixelatedArrow_m)
+!define APPixelatedArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPixelatedArrowSPRITE, APPixelatedArrow_m)
+

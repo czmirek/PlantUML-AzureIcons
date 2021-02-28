@@ -1,0 +1,15 @@
+sprite $APDynamicsSPRITE [70x70/16z] {
+hTW7beKW30LG2DBB_dSxFRzANi1vfqszdc22yeSszJ3p37sg0ueocO2YJB90qQL72nIb4u2YJFD0qJeljxqC45txk5sdq9D3kqu6pcRxKDvZUlmdv_ksDtVH
+QVJJBybSSOhvpaiBsRI6nD__-hrbTi_flzUtxUbRThfwINvI1wVOPOV_fRxSiIKdyIIUs6g7BvfF6kZ9YNEdSvibeLJaLFwxgDiEJvtCl_LZaahGkLtfMDcT
+GpzT4kE6b4g2q-Y6TD3PnioSOZW445wz5wVzJ1_7CW8xwjNXwUS910NXG6HaZDG1Sq2aOAGh49o4a3GKSHYvNb3012x8Om4NTEYG9Y9kw195f2iL4X3222x8
+0WGKXCTONr1L8nKWkWGmWRhO6P8NaB8_WNZ3DN6inE8nnYcROrmL1HtuW8Bt9zVneGiyGHW19m7q1A6kETs0Wcn39xPN9Ga8UC-H2wfp8vwVFliAaf_xKoge
+g3zn49uWMNsSDlCDDu45ELKY76DU44aXD87yzYaf3I3SPR8InJ7cBaCAeGbCra2bWWaiPAHy0W
+}
+
+AzureEntityColoring(APDynamics)
+!define APDynamics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDynamics_tbg.png, APDynamics)
+!define APDynamics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDynamics_tbg.png, APDynamics)
+AzureEntityColoring(APDynamics_m)
+!define APDynamics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDynamicsSPRITE, APDynamics_m)
+!define APDynamics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDynamicsSPRITE, APDynamics_m)
+

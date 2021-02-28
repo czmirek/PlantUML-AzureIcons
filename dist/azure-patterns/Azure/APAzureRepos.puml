@@ -1,0 +1,15 @@
+sprite $APAzureReposSPRITE [70x70/16z] {
+xTS7TkCm30HG3GQ5rltlkuN15j5E897EreoRwdymrBTZxBQVICZsLdG_5tzJyPFAxQzGsFOhQVOGsUlKBMxxvJnGRjSLF4MHew3HvXBs4zBcuz-LQ0l1bcah
+aNTLmiqy7ZVJpCyfnXwxDuYl4J-XA4djNmFY0g13LYgMLVXOJGZ44ej2YRvoCeVI5OZam49nicMKnygXEMJflQuOTHZC1E33uEkAqagb0LRz8nt0-rKTy4gX
+3qCPWMGtMFQbATKxeiCEOm0Z1xGLIf1KSoKPTtkkg9a04fNIGjcZyVW0o9BAez6KL6ltSVc-_zUAazdPCRqQ_r2E2PDL9RGJ2qeIyyf801BNbP7GmQYLcgYL
+cgWLAOXQiID1I-AYKXFdbPgebIGM5ROYKyg74in3TqKnmKjiGJ40QgR9p2aX4Cy1nAnYW7-_lz1PHI4jGt126LVLUKN1fLh6-ySGsAmI0BCgm5Vs5yRB3gmB
+-ou1YA1Z4yfm2DZpdu_U_rdjkK-Vje14_LHUnx3z5CXKjgVcCm
+}
+
+AzureEntityColoring(APAzureRepos)
+!define APAzureRepos(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureRepos_tbg.png, APAzureRepos)
+!define APAzureRepos(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureRepos_tbg.png, APAzureRepos)
+AzureEntityColoring(APAzureRepos_m)
+!define APAzureRepos_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureReposSPRITE, APAzureRepos_m)
+!define APAzureRepos_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureReposSPRITE, APAzureRepos_m)
+

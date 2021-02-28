@@ -1,0 +1,13 @@
+sprite $APOffice04SPRITE [70x70/16z] {
+xTK5aiOW38RX3H3i_lUj9IF8LBxjxxnZrQTUJ17zORcYTrI6OfQKq2SDHgh00A2GiTRGFnMhLuygYcZM68CgnXKHfhWgIA5QCRSezcNdGgOv5sgKi9FNUzja
+QYNl57Mx9eih-BaicSwfq3LbftTMKfIMIPrAW19aYfT9bidmfSf-_fqLtlBhAfa45A1NA_XzAPUm5Ay-etA9arwW32K6QGMbg4IvH2VJDtm1umiOolvehnLB
+TF9NlW2DfTmhidIix9rRTDAhbQ4CvPvc
+}
+
+AzureEntityColoring(APOffice04)
+!define APOffice04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOffice04_tbg.png, APOffice04)
+!define APOffice04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOffice04_tbg.png, APOffice04)
+AzureEntityColoring(APOffice04_m)
+!define APOffice04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOffice04SPRITE, APOffice04_m)
+!define APOffice04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOffice04SPRITE, APOffice04_m)
+

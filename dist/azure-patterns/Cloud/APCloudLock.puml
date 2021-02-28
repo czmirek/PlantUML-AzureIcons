@@ -1,0 +1,15 @@
+sprite $APCloudLockSPRITE [70x70/16z] {
+xTD7WkCW48NXHp06LERT_xOpb3gt0gYqx6_fy9EnoQT56YcI8wvAmY-AnmMFnX-AmwpC3G5JdF1T4-67X1d2LOdeV98BcKAL7Jx4r-oY4bN4DvLTmo3NjaTT
+CnbZyaP4BUmSXkXKAdxp4niSsBdTNL_65xGS380HklfqiDWuVEFYx7VAkw5Vwc4_iIS4DrB9npSch1bx9TnJyVPAvswfU4F5Xv1pK1ShCGjLKEv2nMT-2CfF
+LtoXaf9ZZBrHHR6JRVgEcdIzvJAxylYokvm3XDQRoG66IlfuL8PA8IaEniew4NibmLpHYBton1qLJ5IUqJ_4M6aENRLL0bRDLC6RRAc8kQBmffegJoXFKuL9
+lvInYkA6YlyIZHLTKh1M8Zfh1KfibHTKiLKgLB9L92l3N0xzLVugLNuZ-P9D1UCAcM7cIJgOBMIvPp8HPfbaW5czPpOlakcUsRHuozwmvG0RBrHo36T2vJcS
+SuyYmaF_
+}
+
+AzureEntityColoring(APCloudLock)
+!define APCloudLock(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudLock_tbg.png, APCloudLock)
+!define APCloudLock(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudLock_tbg.png, APCloudLock)
+AzureEntityColoring(APCloudLock_m)
+!define APCloudLock_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudLockSPRITE, APCloudLock_m)
+!define APCloudLock_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudLockSPRITE, APCloudLock_m)
+

@@ -1,0 +1,14 @@
+sprite $APMultipleMessagingSPRITE [70x70/16z] {
+xTS5TiOm30DWDOvZf_U_xw3mF7AqxMVGmz9NRXMnSHJ09ECKw3oE0IXr73cdybIwTwwe3fM-BFQXelrznPOhNjVOGD5zVgRqkgUdIYpIH0c-fKeiiKHfCLyZ
+KiqZFOwSA5-IF0lzE6TqdAjxr3jz_ASk3gVnDs0vwB5YrwOybQ9BB9ux_HG1C9Kb6oPbzl8f4xReYc2g1Lcc5G5cIzRG5U6AW2WEhWY8uk2AW2WEhWY8uk2A
+W2W2hW1CmVqeOf_Igl9UDplfTO_nVNagouzJVQpO-ugQA_qtV_i-BscfeiTe7lwB5gInTgBOZVKwVaQX-o-kRcEzhh5U5-k6yfKntkjc8oCRfs-0Dht-iTfJ
+8RrELLclgoMIzBfHfXL17Ws4A22A0rm1KHnS4H35GHM6G1rSOGW4Lv1N
+}
+
+AzureEntityColoring(APMultipleMessaging)
+!define APMultipleMessaging(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMultipleMessaging_tbg.png, APMultipleMessaging)
+!define APMultipleMessaging(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMultipleMessaging_tbg.png, APMultipleMessaging)
+AzureEntityColoring(APMultipleMessaging_m)
+!define APMultipleMessaging_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMultipleMessagingSPRITE, APMultipleMessaging_m)
+!define APMultipleMessaging_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMultipleMessagingSPRITE, APMultipleMessaging_m)
+

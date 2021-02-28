@@ -1,0 +1,12 @@
+sprite $APDevopsCodeSearchSPRITE [70x70/16z] {
+xT85hiD030RXjHF3tF_03ykYwaz5aKSO-hAqpjiqJTDaXuKj0MexOdX3HIIWEmxnFvqTTXtnTSbQ7KtXzmi3SIZnUBbhSqhiwPfIbEfNLL6wdg_Zuue-evAK
+m1ylZLGKevvGyTZbumbnUaaPTyR1D2M1yZylmLKaBQ6h6ifav7SKKTsLjdJatWcHGTQxo3HDqpHz0m
+}
+
+AzureEntityColoring(APDevopsCodeSearch)
+!define APDevopsCodeSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsCodeSearch_tbg.png, APDevopsCodeSearch)
+!define APDevopsCodeSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsCodeSearch_tbg.png, APDevopsCodeSearch)
+AzureEntityColoring(APDevopsCodeSearch_m)
+!define APDevopsCodeSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsCodeSearchSPRITE, APDevopsCodeSearch_m)
+!define APDevopsCodeSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsCodeSearchSPRITE, APDevopsCodeSearch_m)
+

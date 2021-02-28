@@ -1,0 +1,15 @@
+sprite $APShieldCloudSPRITE [70x70/16z] {
+lTI7ZkKW38LXrq1u__VT6h4wf7dFb4zrsYzZk2ClrDnDPT9iROpUDbS1JuKu7ANiuv_kjGBot0Tg9Wzc0VHn5dT3p0AQWw2jT8m98f0f5l0uAvV9ubaRzsnM
+FC3ZULeVe46bD4fJ-GMtPCNAwMQrmp2boZOE2VUHur2gp0lgWcAv9Y_jDcMnuVUzj1QNHS9YdYkvNiRaJ2LkPjcbNcak9zxBimHi1Vd_LkIA7f_hGgNVpnBp
+9yMtsqDbeN-VafOgEHxrugUnZoTUh6Hf5F5l-LyN-xYJKg_aNQO9L9WCHiI2osnoLwclU0yfLL0sQBHG0Hf5M_jxiDuoWgfC6GTP1CDbuK4mMHXPGHe4EM7N
+Wemy45BsGCY90m7kI2fNs56GiQCWUXJ-ckIMSs-57qOU6BjQvEnv474_x6habR5BGSuk1R5BGLgEy1afCtQpoDW8CZQ2h13XLYo0oxXmw0XoUFOqXmZDu79e
+2YlXUU4qFm4
+}
+
+AzureEntityColoring(APShieldCloud)
+!define APShieldCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCloud_tbg.png, APShieldCloud)
+!define APShieldCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCloud_tbg.png, APShieldCloud)
+AzureEntityColoring(APShieldCloud_m)
+!define APShieldCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCloudSPRITE, APShieldCloud_m)
+!define APShieldCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCloudSPRITE, APShieldCloud_m)
+

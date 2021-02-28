@@ -1,0 +1,14 @@
+sprite $APTooltipSPRITE [70x70/16z] {
+pTXNOkj028NXCnKu-z_llUbz11hSliUKNmMKsCPQ6rFK-CHqzbPmNfl6dwJXZ3Av82tTU6430LNei0QFC40AZXHZpC1QPvWwLvFCA4-nufp9VcQIYOmVYT-R
+GPS_yCfD3LyOrrIzM-DVpt2-BtXNk3JTUzy2wrRnelbpQbmhxjco-PjV_HcgUnpsmCDUtOKpVnCexa_GnXFZeG9KfdLWCaq0Ove193FxygBMIrHwkqHbZ4jK
+H2vHKRr4nUmI5JvIHIzIkSYCR5vaqXUfpF4upr739Ie5Ue4ACF8L0Mg-qW1Ojc9uChALWMUHYlyp8rTH_qVYhpmmCnN1cvAf5BmR-vKUUIEXycBzVUVTLKp5
+LurRnYNU24py9Cc8ipNUfkGkIl6tdZYJlKbrh5LbY1OSwhOnd9rPISr_wZ4BehewZQ0oZ3_eQ3Ylr3x5I9hAF2xy1m
+}
+
+AzureEntityColoring(APTooltip)
+!define APTooltip(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTooltip_tbg.png, APTooltip)
+!define APTooltip(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTooltip_tbg.png, APTooltip)
+AzureEntityColoring(APTooltip_m)
+!define APTooltip_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTooltipSPRITE, APTooltip_m)
+!define APTooltip_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTooltipSPRITE, APTooltip_m)
+

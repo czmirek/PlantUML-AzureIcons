@@ -1,0 +1,15 @@
+sprite $APDatacenterSPRITE [70x70/16z] {
+lTS7RkGm341HkdVv_gVTJPZo2K6oGgOG9Vt1VqO5aURCwNwVjPFWOE343PouSKwxSOB6A29zn1bFO-W4dCy_I9CmnlcIyl4aU_w8NeKUdcKBF0iEHa31mN0h
+vhsUCTRBfrJMxkbLScVlHGAAEjQ8AUfWX1M--dk5hPZce8A14r0mSBmAXdLyYZNMZdMIaaFfDsFawxQjODWrYkDGJcimIqpPD8QP0mel2aa11GSZeE1WE1Lx
+SIMMNM7L3O-x6CTiWOAoF2gV3aPHEHgAEXWLvMug8eE-A6hKb35ykbbb2ojsCQUuOXVH55CmTFQWeWRJHHICSvpq6n45GqJqav228NAmbpmA1c_tvbOmTBho
+akdkbe9HJvgRYZ3LfCEXa5G8QYkjfDcfb9DEdr9EwjMedKjZofLoqdRNpyYHvsmafV9vZO5IJnhATmT6Vfp03rdGkXf7VyKQVS4WYQ1UEXpcqT0a6tHfw-ep
+RDB6bOdJDiwD98B4EcrZDE-I3R9EstYPYoI2hDCoT1QIJ91rbk7HOECaWfB_NtsIFeEsY66Jade1WoI20eP9qg1phOszq0gZ8Qi61GTUWxuz_Ny
+}
+
+AzureEntityColoring(APDatacenter)
+!define APDatacenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatacenter_tbg.png, APDatacenter)
+!define APDatacenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatacenter_tbg.png, APDatacenter)
+AzureEntityColoring(APDatacenter_m)
+!define APDatacenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatacenterSPRITE, APDatacenter_m)
+!define APDatacenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatacenterSPRITE, APDatacenter_m)
+

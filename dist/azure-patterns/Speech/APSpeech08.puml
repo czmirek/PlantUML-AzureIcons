@@ -1,0 +1,12 @@
+sprite $APSpeech08SPRITE [70x70/16z] {
+xTTL0i9038JXWMP9jlU_BvBWK1sS_6-rhsxuf9f29jYcBPcDLL9HLUCL0EL3bLGq0Y3grJaAhYjFLRHuoYa5djnLhEEuT2gppf55f28HewHoTOfLF1sft9RA
+RHgHYaIfUDMyIYd7HRvDIIKLKyzEpvVRKKTubVy1Fw2aqjsojjS9kkjcQ2GO6Wc6HA95vP5WZWZFD039148pWR1C8D_J1W
+}
+
+AzureEntityColoring(APSpeech08)
+!define APSpeech08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeech08_tbg.png, APSpeech08)
+!define APSpeech08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeech08_tbg.png, APSpeech08)
+AzureEntityColoring(APSpeech08_m)
+!define APSpeech08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeech08SPRITE, APSpeech08_m)
+!define APSpeech08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeech08SPRITE, APSpeech08_m)
+

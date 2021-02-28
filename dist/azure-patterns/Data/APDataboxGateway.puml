@@ -1,0 +1,14 @@
+sprite $APDataboxGatewaySPRITE [70x70/16z] {
+xTG7SWCX38NXfmhS_y3f2RDc5sbBkl-fAVv6WCQO9EPUQckr5bV6WSHgkwaeOKzaRRsgo2QbJSevt4zoV1vhSOK2P7gO_B58lROuHnXxp5GaqfWX9B8Zqz10
+KmcOWXwh-KUcZ9wbhzY7bDCRA5rPYRFxGrsPE15Jveehtl8vuwR2yCseJnFcsmbUgpabE1N5Z2SOZfKCO-SKbzpLU12bpkHHgUVs8R6Lg-6T2W0PpXGDitgT
+70mJAeg1eVYPjXvbW2rGGYO-aYSOndCPPLnxkVc57rAWooF9HA4nl2UBCz94mImDBYQdqEACPsUnQEyygYlbfEBzgKyh-fyKcPLMC4ikKVWIHREA_RcNfaiK
+q2KAv185FsSMkN-_d5NkobqHkq81mAATijNm7F5hegPgNcfxgXPNnYC
+}
+
+AzureEntityColoring(APDataboxGateway)
+!define APDataboxGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataboxGateway_tbg.png, APDataboxGateway)
+!define APDataboxGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataboxGateway_tbg.png, APDataboxGateway)
+AzureEntityColoring(APDataboxGateway_m)
+!define APDataboxGateway_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxGatewaySPRITE, APDataboxGateway_m)
+!define APDataboxGateway_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxGatewaySPRITE, APDataboxGateway_m)
+

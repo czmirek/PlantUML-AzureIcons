@@ -1,0 +1,14 @@
+sprite $APRamSPRITE [70x70/16z] {
+xPU9aeGW34GnJYUC___1YsNFpOQu9rZJTIHUZxC5KatB9WcaLC-KIKJuqYcIrYcsx5FVb0b0BazCOrhV1I2F524VfvYChuz1MHhI8IYJcPrtKinihiowdPH4
+zKcX0-8KEk3Wy-Nu3dWxO0P01oW0KqKH9pZJjWC85NPu2LO2RaN17QFEA3CdIGcvX5nY2MTUbe081Kj3zbSK4MKpwbeVYeZw3k2cw5E5PbrN5C18qHUHmdxn
+7G1IwiM5ngWhYbdsAKpzlTGMXw8OQifqGBXttRrtLnJ0MfICJPUxZ-aAYVOkdBDQPnGHRVQBY4phgvlIOneV8qUTKUB_NOn3uLx7esG0uaAYwtGQYIANGn6W
+D-Fdszqv07dUaT5iThkRng9y
+}
+
+AzureEntityColoring(APRam)
+!define APRam(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRam_tbg.png, APRam)
+!define APRam(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRam_tbg.png, APRam)
+AzureEntityColoring(APRam_m)
+!define APRam_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRamSPRITE, APRam_m)
+!define APRam_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRamSPRITE, APRam_m)
+

@@ -1,0 +1,12 @@
+sprite $APDatabase08SPRITE [70x70/16z] {
+xTG54iCm34HHWpHPw_u7RZJKXcdB-eEX5x9T66LXL3zU2KMQ4SANAw0edJQ68jeOYZC4nHc2ScU6YkvF1in0aQDf8oZEC1G1Gu4H533-4HZZ1KPGO0G5Hb1W
+10Ma5VFtbK8fVL1bKExtvEd3va5fkcluTRl-kDgWt5yXWnokCkXJb5122KNqiUfhXGxQjtpyNCqsygyW6zLFKK899PHkArVgHkK6
+}
+
+AzureEntityColoring(APDatabase08)
+!define APDatabase08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabase08_tbg.png, APDatabase08)
+!define APDatabase08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabase08_tbg.png, APDatabase08)
+AzureEntityColoring(APDatabase08_m)
+!define APDatabase08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase08SPRITE, APDatabase08_m)
+!define APDatabase08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase08SPRITE, APDatabase08_m)
+

@@ -1,0 +1,13 @@
+sprite $APAzureCloudSPRITE [70x70/16z] {
+xPC7hiGW44E7Zdt_-_xAQeAoA0oehdZftVWfyh4S3eV3mOli4wFiao7xL2RncsaSYEqu0MGM0VDEhoJf9FojLydaNvH2igptolyG_2MizlfBQUDYNUpr3__A
+nBZMQqlW-8_TTc8ZwBxPjgT64V25izffH7sZsNOWjOfCnMGRf6e15QnK2yr5gsq7DfA855x1TC6bSyAURBNChCDJdD4odKQpsewt-oixWiaoVTUsoNP-4zs3
+LzApvRV9Wz6sLbdbGZBP3gCIUr5-jbeC_6lE8MdympZCsdQ3A7THUB0yjXdcRFk7RwKfs_NfKsN6jbVkbVcOAthR9dnC1RnHPH8NKgaS4MUUpyFdUmE7m-4R
+}
+
+AzureEntityColoring(APAzureCloud)
+!define APAzureCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureCloud_tbg.png, APAzureCloud)
+!define APAzureCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureCloud_tbg.png, APAzureCloud)
+AzureEntityColoring(APAzureCloud_m)
+!define APAzureCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureCloudSPRITE, APAzureCloud_m)
+!define APAzureCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureCloudSPRITE, APAzureCloud_m)
+

@@ -1,0 +1,14 @@
+sprite $APLaptopWithClockSPRITE [70x70/16z] {
+xTL7UkOW48JXQfeEr4Btl-sCyv-G7y3PrhjI_9J5rdM8Tu7lvd1GZyOMhbWcpdl9UovOucIQu9vOaevvaap5YIPJfYEDZalEDfj96fuadXWJK-8K0N7A12Oe
+0yyAoobEdReUwLPavfeg3TqAZ1MZajYfW8b1mjoj9358MNShbOenne8JkshQKYNeIvKW2lcyEPz56036S4Ka8lJvVcQ4tLC1XB5qHIXOl2-AFJfSANJiSGe6
+jJQtgizPfawphp1V-TY7EIjwAXtZf3NfFFVJuZ7Ax5IIYYd69bSLQJHWEbClAlKKcQ1awcaksNHvc0upDOl5WVeqFDzx6h2NIQbMY-2xEHpqNMnT1tGTubri
+7ocZgsrJ55swVN__0G
+}
+
+AzureEntityColoring(APLaptopWithClock)
+!define APLaptopWithClock(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLaptopWithClock_tbg.png, APLaptopWithClock)
+!define APLaptopWithClock(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLaptopWithClock_tbg.png, APLaptopWithClock)
+AzureEntityColoring(APLaptopWithClock_m)
+!define APLaptopWithClock_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLaptopWithClockSPRITE, APLaptopWithClock_m)
+!define APLaptopWithClock_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLaptopWithClockSPRITE, APLaptopWithClock_m)
+

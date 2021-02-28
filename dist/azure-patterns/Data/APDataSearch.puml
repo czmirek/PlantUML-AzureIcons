@@ -1,0 +1,14 @@
+sprite $APDataSearchSPRITE [70x70/16z] {
+xPQ7RiD034D9Ift__xyT9YvUgdl8NWzBe9A7Ws-2aI40K0u4eCybRvZojkhJVptG4Zd0monfU0rZKGxWC0l2GpdG0f9kSW2Z9TKWfb2DR9Q2PX7-GqUro8pZ
+vDyMYgMbNY-rXVxXWPRMFj1Y3hCmpJMC1Thukc40q9K0lXak9pgqZDuCxexnwuBXOWR7J_hRrYuCrfQnMlMRn1ewh2ojLqolmpHZoCBIUe7Qmj4IBQmilMDf
+5dP_5xQmzxkuASpHV8vY6HeQ668J5jKDiB6d9VJkwNtEbtvBcgVb15-tdcbTuSk3fkprlwNI42C7l7Ulr_AqqE0E6LzaKxGH4WNbRHyReSvjULge0Q8_l7Ou
+iAkhTXsNNxTzl-8HNhyUexQ4gmwBCvMMDBMb26FBmbvBdd0iBjNnNS9PQO4YGnrpv5yItm
+}
+
+AzureEntityColoring(APDataSearch)
+!define APDataSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataSearch_tbg.png, APDataSearch)
+!define APDataSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataSearch_tbg.png, APDataSearch)
+AzureEntityColoring(APDataSearch_m)
+!define APDataSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataSearchSPRITE, APDataSearch_m)
+!define APDataSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataSearchSPRITE, APDataSearch_m)
+

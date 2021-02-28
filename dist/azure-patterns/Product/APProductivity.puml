@@ -1,0 +1,15 @@
+sprite $APProductivitySPRITE [70x70/16z] {
+tTY73ZGh20NWGr6Kzt_WEriCuPeYvkzVwfHZ1hD6N3oa3nzT4BYP7ubOzu-EfVcXYCqO61_c9HD0zz3mebxK8UcQ0D3qAcdfiW4GBskMBYscjiB6DefvsSYP
+VlajEQC0sCiQkOT9U0ol8hJyAJSVqz9iMdq1H4odlqp5miDFHOoaMHC2WZGx4R5_4kl_woDfHvJm9TDV1c6XuSS6uwNx8clO-e-kUI2ya1T9ZWnShQE9bgxv
+SatRLg9wMTyNLlUoCNoVxZBB5Udb7g3xVkHbWf4BkYd90F9jdnvUCWa0hv0HwjjzhBzcxjCKGMpw6Mi8E-83XBy9dK1WVGWZiEYf5Li9mI9QGNZ4fSGW9PGZ
+70MMWFBbYvOnRoMIbebi4yvQ9_dgSXJUleMqxeVC2oCNz29QHQ1qXHSj4W2oBGag3n8XGP1IELz4JCY8Zn3-OQJTcbvrpVqLInsyOE5PREi0ozVrFiYG8mBS
+768jHQvFMT9-H1Ta--bJlMxyYExGVyYft7_8FmH3qwNSTOUAiPq3kXTDW4PS4QwE4uo7RTrXToyViw3xlrjz-8dLLFu7
+}
+
+AzureEntityColoring(APProductivity)
+!define APProductivity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APProductivity_tbg.png, APProductivity)
+!define APProductivity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APProductivity_tbg.png, APProductivity)
+AzureEntityColoring(APProductivity_m)
+!define APProductivity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProductivitySPRITE, APProductivity_m)
+!define APProductivity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProductivitySPRITE, APProductivity_m)
+

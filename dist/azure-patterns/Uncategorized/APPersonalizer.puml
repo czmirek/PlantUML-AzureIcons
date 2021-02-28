@@ -1,0 +1,15 @@
+sprite $APPersonalizerSPRITE [70x70/16z] {
+xTRPSiCW341H2La8tV__t-usOSOUSFhgyz9cku2ooZsFn-EXLeDlhMugxx7VGaRxBPcymybgUz7RkvtnGIKWvFzA8rLMUFnmELL9amN1ZxYUbSgQx9NtCvKs
+L8hAUAiiCDAEYjO6K8iS6flCDKhPAvRG8eOZ5d9bAo5xnS7tvxYV8t2P2Ofe-D_PZfFKlXkTJMQyIyE6WmxNJmxahsVhIh-qJOyKVHt7ngcl7wanJ6Zeg_o1
+IONhokjWT5A9oyf9_u8ISZ54sb1PtOkIqZb-ezBaKAclILsl9DAr8sE9dTpfIg1oq4PwASK2J3foKd6syUAlLgGpwgHIYFx_vbuJeBgxwUlhUwAXnoX6-muK
+PCR_xboW-g1H-prc4ktRFjcc9YfJJboyunphhwAPXbzLN6GZPOM2NLOAc2mni8kA9fiiCjXEAmsgB3CuhO3B3Th0PQ2UfCaz3bbj_7aMSfjMW1RL8-XVrlTP
+97zYK_c7ykr-uV5uF3u1
+}
+
+AzureEntityColoring(APPersonalizer)
+!define APPersonalizer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPersonalizer_tbg.png, APPersonalizer)
+!define APPersonalizer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPersonalizer_tbg.png, APPersonalizer)
+AzureEntityColoring(APPersonalizer_m)
+!define APPersonalizer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizerSPRITE, APPersonalizer_m)
+!define APPersonalizer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizerSPRITE, APPersonalizer_m)
+

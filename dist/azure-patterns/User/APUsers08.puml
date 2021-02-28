@@ -1,0 +1,15 @@
+sprite $APUsers08SPRITE [70x70/16z] {
+xTXNOiCm20PWCIMu_tqxR6TG6JAwstpFpXz0ycmrz5UZlK_t1Nr8Ydn82hTtOL_01mp6kBqN8CPA7W2HNY70_H5yxguH0_5RT7CEyXviDo7UHxTqmxcF2AbZ
+I5IWRJZGFaRN_HWGbTEin5yOxCn4p1ScExEXSD40N_HvTTIFJZ58n4o4RVWh2va-vg6O7nbFV8KnPUfd-9bUfiIEviDYCNEbDaqtJaKy4Dx4gN5OwR3AMKea
+lNUXDgbIE44Njgt5kMIWFfMxdr5ELUToNEh1EQnJn498Xk9jvvGIcpBbqdHzd8Ygy0KG6gdLW-6AY8e8rwYiHBhvmhhKALXa-9bUfkGXve59deASK0_A6AIo
+aiWu0PoOGgeTd8sb-ovDjWlTK4hM4oGfwWdPttEmRIxJhA6yfTUVTURj8cdJ0SCJO_gh0UlrJUO3x9eKNxK5wJovdj7qhXPgkO77ftlBJhVQYEzEPFUKWjZN
+uHuXmessYpMqF-tX0QGhlpl4jaVXTz4VzitZ_IdoCTyyXh_GzbuaWkrhF0C
+}
+
+AzureEntityColoring(APUsers08)
+!define APUsers08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUsers08_tbg.png, APUsers08)
+!define APUsers08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUsers08_tbg.png, APUsers08)
+AzureEntityColoring(APUsers08_m)
+!define APUsers08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsers08SPRITE, APUsers08_m)
+!define APUsers08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsers08SPRITE, APUsers08_m)
+

@@ -1,0 +1,12 @@
+sprite $APQuoteSPRITE [70x70/16z] {
+xTJ75OHG049HwB_fMKvI17FWhJtNdod2PmogKgLAbIfLgbIf0byHdq7r68K7ABoYWbJ9XxAbmaYXhI1KbW-5OmWJXAiW1CX4OP8mWZ81go1RAeYKP9SL0W_9
+5MHAzZWf12wYjy55z3POnkGsk8XUGCCmfcuGnjIbOG-QC1iHqfJm0W
+}
+
+AzureEntityColoring(APQuote)
+!define APQuote(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQuote_tbg.png, APQuote)
+!define APQuote(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQuote_tbg.png, APQuote)
+AzureEntityColoring(APQuote_m)
+!define APQuote_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQuoteSPRITE, APQuote_m)
+!define APQuote_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQuoteSPRITE, APQuote_m)
+

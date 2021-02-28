@@ -1,0 +1,18 @@
+sprite $APWebjobsSPRITE [70x70/16z] {
+dPPT0gCu38CZsqgu_ubtcQ6OO17QqMlJB_9lQ5Bm8Dd92BVsJqBqMVIV4MZD9iRl812j9MRIrvpedMsNAmpn3SEudus3fsJl49-EibyKxWO0zeg9D3vXw3gG
+DUIJciRVQsozLmnL05X0y6rH0Nk4DFHt33ooYj8a-gpYs-AjuD5Ul63kGifuTekBxZ9-CmpSANpgTB1NGHHvHtlnkw94jVA7OWMon9H31rb1x17ZTGYPmyZP
+12j6E-RX3mptQ2cRHdETNsHbYqU9qSsWKvv_eqbCY2kNTJ6rH5dt2Yka5iHjceNg73MSLAsSfh1aThN-8OeaXmlBoV5IfAyfvTTtIbjIMgLGUbaFSSrBgAQp
+TKIQqkNZf3iU96kbNQtPNiNhUTwxmzG6fCJaJ_Hx5kIwS8L1sZHOlRTMoQITYBba8FBQZ0WMCiCwsR5j_PhAwtoZs97o6Dl_ulqph9rhANy9Tsrg-oZEAaMw
+cXeLZs_0E2cU3r9cI7u7BYWZMwQkLfSJeGCw5AWtSkAyMSduiLgJJrRw6wL3ZIV3pM8xXRTrO2AY8qwSRbvdX_LhpC_oZnDZbLBD86OkZjCPrA1fIcByDeux
+v3HpQa4PezFYALTTKvhFYDshMZ6QeglqDs9PDHrHAcxDkNXFiANe3sjxavIE6f3OauAYCTHTbwt1rZmoBmn7upoabgcryY5_lIwEZhARoR7bHETCbqU8S_P2
+XVfEwOUpYSAqSbCyH6INYBgNW59gDSnFYKsfemXeKQJZRFGCUc55LwdPmrBb2KyDbfqvdHQfuyv0Q_wvOSyUOYW8YckSc42MBd-86P9Fgl6OCAhCjP5XAELN
+EezOuEgYV5RNiany5HwQHBaUYnzLGFy1
+}
+
+AzureEntityColoring(APWebjobs)
+!define APWebjobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebjobs_tbg.png, APWebjobs)
+!define APWebjobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebjobs_tbg.png, APWebjobs)
+AzureEntityColoring(APWebjobs_m)
+!define APWebjobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebjobsSPRITE, APWebjobs_m)
+!define APWebjobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebjobsSPRITE, APWebjobs_m)
+

@@ -1,0 +1,15 @@
+sprite $APDiamondInCirclesSquaresSPRITE [70x70/16z] {
+xPY7QYmn34MF99UT_F__lZ8I268pdP1sQPTPwRXYMyj3AgrN0QIxW702rPs1kQi05YcWhJS5-ji_BGBwvWB2ANHt5Qgx3hJu5Shg2XfX9oYIl6Lr2oK-7QLa
+u2i3iSkKJbAYU-Ke9SVHW5VqYXg_dQ1Of88iiJI85GMGwWB22PWx1NLda2c0LkLJAJiw7v7eAdateb8DCf2wlT9MLWaP63ls9HbuXIBksZsAXdk4yhezeljz
+2Rj81kRXCp-br2NlJgaQfrIcV1xbvaHTWBW01fU1wUQpMrm2vav1tHbOh3H8fCZdf_nI-7OgUMmK5-Iy-5S3SbuoCETbXoAHUe-YuUvHBDndw4jyv1u5FRH6
+UTOXBjAbXbFFhRhuH9hVHuYP-K5jgmJ4dOA_fLSJAUDBTO6OFsL-CiHZJycxSQHaBdEAHCeUfMnIz4Cf6WbpIhoQwnu5Y_WvnHRFICfuJnFRSxvZMUK9NsZl
+XfDuciXUuDwxZfXSDWFtAB4ojoXvxdu6YZmo8kp8xExKHxdIcu6VlkBRhs7LTAZuJjRsuybmYHAdr3sAXliC57c4Cjvgm-5pw7-fqdiJCf2_
+}
+
+AzureEntityColoring(APDiamondInCirclesSquares)
+!define APDiamondInCirclesSquares(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDiamondInCirclesSquares_tbg.png, APDiamondInCirclesSquares)
+!define APDiamondInCirclesSquares(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDiamondInCirclesSquares_tbg.png, APDiamondInCirclesSquares)
+AzureEntityColoring(APDiamondInCirclesSquares_m)
+!define APDiamondInCirclesSquares_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDiamondInCirclesSquaresSPRITE, APDiamondInCirclesSquares_m)
+!define APDiamondInCirclesSquares_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDiamondInCirclesSquaresSPRITE, APDiamondInCirclesSquares_m)
+

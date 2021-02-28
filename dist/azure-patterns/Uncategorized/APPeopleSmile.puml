@@ -1,0 +1,15 @@
+sprite $APPeopleSmileSPRITE [70x70/16z] {
+pPO5jcin24MRN2IS-S_tQTP_9nMky6tNRHS8aTjBkggvgVRRPRe5C0cx9cgE5M_d9Of7zAp4y0mx9nbupYX4GjY5cbHgqv3HQlbC_62p8QUNGpbUu41E56fB
+jDemJ_IlMGoJqbZx8Kiz5llFgrllbto5AgrKMYjkVKupLWkbljOnaaZaB-y1zVselZSoKgW9qGmhrcvNQ3f-2gA_7ArlyidMsr6HgBgga4AOVhl2LnH5JvTd
+j8A4w9LiZcjwrq-sJf6SqZInu6wHZFP2CR0m92TfMq8bfoSBRnPA7imMOBWgwgwoeEPAmUHBGiWdu-ifUyPFd1jNPE0PBX_uGtB6xv0ay1IRVnm1GBxWTtIc
+b4hcrm3ernrRJ88igGJoYIE-xZYZc7TKc874ai4MHyaYr6l5M1ggbZmV7XPLMT5b9ct8C9d4shiQS9cqT7ouNtKsyiGvsnbAnlAxS5DHys3djbObJycm44Pb
+QSYXXbNEtPMxHR27KKazlitaa4u9vS4m-gHPi8_lTdz7KTDu2kLO9c5BZcSIBcxEIDQLunQ49zjPu31XGcoyF-CKmqrLjeTZtJi
+}
+
+AzureEntityColoring(APPeopleSmile)
+!define APPeopleSmile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPeopleSmile_tbg.png, APPeopleSmile)
+!define APPeopleSmile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPeopleSmile_tbg.png, APPeopleSmile)
+AzureEntityColoring(APPeopleSmile_m)
+!define APPeopleSmile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPeopleSmileSPRITE, APPeopleSmile_m)
+!define APPeopleSmile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPeopleSmileSPRITE, APPeopleSmile_m)
+

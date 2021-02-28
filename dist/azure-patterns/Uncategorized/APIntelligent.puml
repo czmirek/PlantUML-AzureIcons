@@ -1,0 +1,15 @@
+sprite $APIntelligentSPRITE [70x70/16z] {
+xPW7ZkmW343TmE3x7_YBQOPuai3VlZjFBRB2erTu2ii5z0ZA1OPvM6vuI6HLWtA7u0R97OH9I4BExEBb2dcLFCAVMnOCZH12AuNXM4jQxke47MbP0bGrQr7e
+iA9PCwn0rXWi7la95doJnOS2lz52OO3bOWUKZ4VZz1RWQYTKxf8JFfqWGHAfOpqeMf9DaBOJHJOMjGcgDh8dvQSMtSKSbJlSjwvRO1TpaZpmdbwsv7unOvUi
+MRHl3BPIYi7MGXp0qLBxnc1h10jBWBOJmHlZBHOWlaJVO75-fqKiS6I9oBxbPU7Iq1jrnbBrXbkSzPws1h-d1H7VR25fu9iilcA-nOBo83NAVrdyPnt72r80
+WqLpoihzGJRtbbtSukK5u3TOUDYEOere5xVqrmN_h3QDXYFw_PlfGhO9KhmkZ2SojWaubAM1OI8Tel4Q5T0fIOEzA17a-n1EpYsI4oE0Qw8a5YX620QGc13U
+O77-aYKbIRaEbjn2EvR55m9vlH2yNWWY55EmX-OXsavv92BuKFu1
+}
+
+AzureEntityColoring(APIntelligent)
+!define APIntelligent(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIntelligent_tbg.png, APIntelligent)
+!define APIntelligent(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIntelligent_tbg.png, APIntelligent)
+AzureEntityColoring(APIntelligent_m)
+!define APIntelligent_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIntelligentSPRITE, APIntelligent_m)
+!define APIntelligent_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIntelligentSPRITE, APIntelligent_m)
+

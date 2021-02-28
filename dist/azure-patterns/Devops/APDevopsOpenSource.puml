@@ -1,0 +1,13 @@
+sprite $APDevopsOpenSourceSPRITE [70x70/16z] {
+xTL7eiGW30DG2Ho3TVy3_-bz9fZjv-tI5BgnBCko5DiEh61UyT15-6GGcvuq8i_rnkSReldciEkZJYGqVT4mRjE1U-X1kEjWmoXA1m0irDj1LnY0q04no6zj
+9ovuwwUdcjA-ZHPJAmLlKgicVhSb4XqICq_UrUUcl3Uc3YyMROb7_ocb0-_QU4hTc-cQM2_-TL4piNPbU64wYSJfSh1zkps4Kj122gy59wLww88Our9dYOVH
+sIOA0KDgnHv-J5q5CSeabLBT3HUwCXna-aIMybeKF5iPmyfRYayLsFQSuiYgyPWIag8YZoxrXnGdfj0C5sR4FxSio_87
+}
+
+AzureEntityColoring(APDevopsOpenSource)
+!define APDevopsOpenSource(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsOpenSource_tbg.png, APDevopsOpenSource)
+!define APDevopsOpenSource(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsOpenSource_tbg.png, APDevopsOpenSource)
+AzureEntityColoring(APDevopsOpenSource_m)
+!define APDevopsOpenSource_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsOpenSourceSPRITE, APDevopsOpenSource_m)
+!define APDevopsOpenSource_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsOpenSourceSPRITE, APDevopsOpenSource_m)
+

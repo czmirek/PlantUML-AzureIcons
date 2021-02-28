@@ -1,0 +1,12 @@
+sprite $APMessages03SPRITE [70x70/16z] {
+xSp70S8054EnZqdVVr_QetEBwR46K46DvPLBbXx3F7s3SN9ywP8bIvOiMR9aoP8bonhUqXM-UydoIDEreUQHcK1c0fa9P2QGdR3u2Gk9l_Jb4Ob992QHc4HY
+4ebfLP-q1G
+}
+
+AzureEntityColoring(APMessages03)
+!define APMessages03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMessages03_tbg.png, APMessages03)
+!define APMessages03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMessages03_tbg.png, APMessages03)
+AzureEntityColoring(APMessages03_m)
+!define APMessages03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMessages03SPRITE, APMessages03_m)
+!define APMessages03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMessages03SPRITE, APMessages03_m)
+

@@ -1,0 +1,15 @@
+sprite $APAzureResourceGroupBlueSPRITE [70x70/16z] {
+xPTRifmm34GbsLA3sVz-4uRK6DC6koe_UN0-x-ECt0q3ah-B5rNvVJAGsOpLXGY4Ie-47PKMBpzP4ga1E7iqqB6ajHn0sG9SvEeuC3bXIwduzV0xONGO86ip
+NMbOS-zpNK-7uNFwMguixQI13uVSEiD9MagFKEu3SHEKWWMzUFI8nt_bbAdTMzR4rQeuW4JjFW6xjfLaTr6x0qBRIySlbYXJhFvaqQNCWQw5avr9c2ryoGxR
+Pijym51vjAHlUrmstmNQjzYsMerdq8q6xYpR1dsw2QAvrkuiEtvxGy9EZe5bAxdvSk1sBJ2sRATuWjjL1uQMWqNbm71fDmD3IoLgFATs4p1lQUEXGEOjDHuA
+PDvIuw50fYqSJmhCMvZo6OSS0mjXdxxdBA_bjRmMoMNUWj2kPITcBP6UdjEwJ5dow6blwz3YAbTBq6jxBe-MC3bZdz6yUN6dUCYIEdj54gr3KZnioTtzOJz0
+z_UsieLsedGQB_LdpQLQJe7m8f2QkUYZlB7q3mFNYvRZmTVY8iC5gHvBMWowssYvQqBW_K9bXjGiPRGwXaoXDKN6aanYRl8Vyl83
+}
+
+AzureEntityColoring(APAzureResourceGroupBlue)
+!define APAzureResourceGroupBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureResourceGroupBlue_tbg.png, APAzureResourceGroupBlue)
+!define APAzureResourceGroupBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureResourceGroupBlue_tbg.png, APAzureResourceGroupBlue)
+AzureEntityColoring(APAzureResourceGroupBlue_m)
+!define APAzureResourceGroupBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureResourceGroupBlueSPRITE, APAzureResourceGroupBlue_m)
+!define APAzureResourceGroupBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureResourceGroupBlueSPRITE, APAzureResourceGroupBlue_m)
+

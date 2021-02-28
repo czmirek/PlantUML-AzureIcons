@@ -1,0 +1,14 @@
+sprite $APBuild19SPRITE [70x70/16z] {
+xTX7UiKW34NXAucg_UytbUzXB8S4fIUS4QFVlG1C5D6AXA5mY34jQaOhQtGgHO-A9fUIT5GqE1JHir9fNSb6qRIia5gbBYjoeIYlAl5AYQjA-X0bVg1ISwkg
+3dSCXzxyTh4HBXXC8hKLm322QSag0OPfoCBE58prCxjmPYejAvQf39S2AHqf1AS2I6qx8e1JwVUiPlmgPIjRsSfM-A57HPYPt4eu9ElALhQobQrmxNzrRYNg
+BN4hGG-9Ko4T8f-IHYNwbDkVRdWUkHJkUn3rCVWLxaFoADGlZVZt1NrILDh8eRIxlwPKLTMxvW6UJB8az0ZJuikJHdhZ0VLZCiTZPyBpmccMPHaXl1w5b7CK
+N4GiGUoPlGS
+}
+
+AzureEntityColoring(APBuild19)
+!define APBuild19(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuild19_tbg.png, APBuild19)
+!define APBuild19(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuild19_tbg.png, APBuild19)
+AzureEntityColoring(APBuild19_m)
+!define APBuild19_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuild19SPRITE, APBuild19_m)
+!define APBuild19_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuild19SPRITE, APBuild19_m)
+

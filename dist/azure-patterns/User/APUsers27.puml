@@ -1,0 +1,15 @@
+sprite $APUsers27SPRITE [70x70/16z] {
+xTW5SiGm30LGeUd-zrsA5nn5KQTEkMzuuSSWgG3xi5qLc9FR3H-IeeUa24pH9GMFE1Y5MSYCCFY7n5SqSJ0aBvZWFLZMQ68T4paisnZU3iKt6nB7aEhpRHbe
+BYNhTWogAewDMt7ZJBIqcw8RPqFrTO1XkydsTb9jNNt64FLABCixiE3-F7iejJrKCTe2nnIpdznUP2-5x8xin_p5z9L2bthcwbIq3LHMqcgmi-RboYH8CLMG
+bM4GfOY3WhAjuxbuqBQoUqT9F6nwsLrC4H_jfwYftM0nU36a39lAigj7iBWq9PK0zetCeJ14BoJ0ko6QQp_S5AIG3BnwgNatHGnppU5bCyOXSGnn71At4efZ
+28dQ0AA37QbJBl5IuZsXKosfELGixeCfrrgIko5togHIInRfGxAQ3vJcAEPH1PVvflO3rKtnVf9miYUNFSdzgQOcnUV_XCNgpBD06VzsukhNfO_v6bC97eWO
+rsW78YvV8_ZT_lsJf0npUhzdcDCd67sZ_tde8Jj2cDDFTvQeCdoECm
+}
+
+AzureEntityColoring(APUsers27)
+!define APUsers27(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUsers27_tbg.png, APUsers27)
+!define APUsers27(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUsers27_tbg.png, APUsers27)
+AzureEntityColoring(APUsers27_m)
+!define APUsers27_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsers27SPRITE, APUsers27_m)
+!define APUsers27_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsers27SPRITE, APUsers27_m)
+

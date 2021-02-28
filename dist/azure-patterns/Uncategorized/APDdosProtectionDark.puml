@@ -1,0 +1,14 @@
+sprite $APDdosProtectionDarkSPRITE [70x70/16z] {
+xTS7SiGW38NXfs6GRU3f_hTDZyciWmU4q_CTuDz2nnyK8-O9AHT4pAOpQayK4mBjHGbmMcXl5CKmMOiTv4NGHrItH6jYMbKx_ibU-kML_mflUIe1juJ3bOoZ
+PRYISAIkoiggYBEY5BLTSLPI0bY7p5a9rCrssLc15kvM0VGBnqYq2d3_BvcsMxvqZDO2cPylGjgEyPen-jhATj5gZDzbDSPhLcDCrO8VFjB_bKh6AW7l6wkW
+eOnK2XhYI4NHmluAqHJxRnwAjdmw13pza4hOToEZu4omBX7duaoaYew89rCZ_WnZ_ukpYO9ksHgIu-rwe1WZsGwok9_IbS8b7VuH5odseWWcX59VzdETslX3
+xW4
+}
+
+AzureEntityColoring(APDdosProtectionDark)
+!define APDdosProtectionDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDdosProtectionDark_tbg.png, APDdosProtectionDark)
+!define APDdosProtectionDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDdosProtectionDark_tbg.png, APDdosProtectionDark)
+AzureEntityColoring(APDdosProtectionDark_m)
+!define APDdosProtectionDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDdosProtectionDarkSPRITE, APDdosProtectionDark_m)
+!define APDdosProtectionDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDdosProtectionDarkSPRITE, APDdosProtectionDark_m)
+

@@ -1,0 +1,14 @@
+sprite $APAvailabilitySetSPRITE [70x70/16z] {
+rT07bYCX38HX95MLv_udtjORHqI_DU0Dypjs-WZDCHSPhJIFa2ZA0aBkARnc8qKp_Lo5uTnMeXq5jnJSxejPXO_2_LQ0jV3C1WenLs95MK18srFuNOmKlfsE
+JXLDz6yKV411thIfq5fct53exLPmJY7c8hqe2mWPHPasibxX0Z9Mg9b-ha9pxYhqTXHxIhHhM5VG7XdN57fxoRcWH2jXf30xLUWz4XmesRb2YTRAnemKdYi6
+IdXT3Q9J_8gSA-Pux4v8OaIlD8z0TgeSER-t9t-962ZNubp9WX9knh9Y3afAOrt9F95jnQJuSKgsgsIRYYDZLU1L0NkbMr9HH7YdKAhABSkyKpB6imAfAbrM
+b8n-Kq0jAXdSf9knh8YGA2qefR-lWDckad6grhU2e2WnZz1QoIFGnPVG5GKPz_MIjRNqZ5pQ9nHzHE4YObyVc8jVRi32P283g4k9G1pv6mf_c_vBvHS
+}
+
+AzureEntityColoring(APAvailabilitySet)
+!define APAvailabilitySet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvailabilitySet_tbg.png, APAvailabilitySet)
+!define APAvailabilitySet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvailabilitySet_tbg.png, APAvailabilitySet)
+AzureEntityColoring(APAvailabilitySet_m)
+!define APAvailabilitySet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvailabilitySetSPRITE, APAvailabilitySet_m)
+!define APAvailabilitySet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvailabilitySetSPRITE, APAvailabilitySet_m)
+

@@ -1,0 +1,12 @@
+sprite $APPortalAltSPRITE [70x70/16z] {
+xTS5hiKm34JHSgE9azd_QZz36MA_Ydo4fLiclf3B9l005yOzuNZYJ5FjwO5kTsBpHCKhNl6ALxmIQekAI6jG2UIWh_GafTPM6dxgjEU8NuAo8lmYdQeI-4Cm
+rJLx1g1VZ-IlX7AH_oAASK8kVRzioPp8LuxkbiIfqegOLA991VoJKookv9-4u5Df9KtEJdb5-0dAIloCH6q5auYYaYamg0WCAX4M5IWgYZ-RGywvTm
+}
+
+AzureEntityColoring(APPortalAlt)
+!define APPortalAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPortalAlt_tbg.png, APPortalAlt)
+!define APPortalAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPortalAlt_tbg.png, APPortalAlt)
+AzureEntityColoring(APPortalAlt_m)
+!define APPortalAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPortalAltSPRITE, APPortalAlt_m)
+!define APPortalAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPortalAltSPRITE, APPortalAlt_m)
+

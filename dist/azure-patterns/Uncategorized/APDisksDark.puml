@@ -1,0 +1,15 @@
+sprite $APDisksDarkSPRITE [70x70/16z] {
+xPPNagmm40InKfigxd_RzLhRMYGqpx_y9wDdeWXo2bdMFMLHUuTAshTrcLfOjfJLGkIPV29RareTbG_aFJ3DMxRlaS8xqJg_LoGB24w9J4sEWaIeFR0_7BI8
+jQ2Hef1dQoDGzAD3YiA0mW6InmC4tFI20Zm-Gw3p31uXz1x9KODZbiBF_4K5C73Wmj3K03xBIC2x3IglME6Aeg13YiB0EzTzYWUAtbCS1xqe0Zh6HPCQBNVm
+RPBnCPqRZqLwUaK4NDjEyMAeGNWPZSRFWpmQ8G4GZxZZ4VARftdS04nvsCFq-8KTyo1FBsnwzGnTf_ViYkuhP0lwnG4s6zn4KhLV7EJP1aoR-gLCv1s01o-_
+ZlUB_ilzyWpyXltYlw1Vx7Vg5nmtwHSF--LAVPYpl9cy533Z_M8wllRnVZ4TxfUuFbhtXH9Y8n7q05HgD3gUWKb8zpWH_xNz0SFF9hiSC7pD5z6gWAtvyfmj
+NdZzGFsYVldVBwLXn5jlyBpDKvqrgPyCIlPbQc5Ujptb_7vtAZcbVQiyVmy
+}
+
+AzureEntityColoring(APDisksDark)
+!define APDisksDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDisksDark_tbg.png, APDisksDark)
+!define APDisksDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDisksDark_tbg.png, APDisksDark)
+AzureEntityColoring(APDisksDark_m)
+!define APDisksDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDisksDarkSPRITE, APDisksDark_m)
+!define APDisksDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDisksDarkSPRITE, APDisksDark_m)
+

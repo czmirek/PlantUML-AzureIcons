@@ -1,0 +1,13 @@
+sprite $APTime01SPRITE [70x70/16z] {
+xTY7ZSKm30DGMUxSV-1RuEWl0kd96u0mAANQZkh_YYao2Eqe8B89EeXgWWbYM9o3ihW2oYsiWQfABLItg0HkAZktGJ4L2oLoZ3xnqsX9634tNQnLt-62i2JK
+olanARELXHPCwMLfB5A-bD7B1Yb0kqnAg_b1C_fIlfGlfNXwm5rgWvHlNqPPch4KO2ni-HQqVqf2M5A_qVHFaug8MUq7T-zOgEvk4KKeX7Dmy-1lDHlQSFH9
+PGlBGhbSaihLwssR_Aqec_mvSHCu29CuORlw0m
+}
+
+AzureEntityColoring(APTime01)
+!define APTime01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTime01_tbg.png, APTime01)
+!define APTime01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTime01_tbg.png, APTime01)
+AzureEntityColoring(APTime01_m)
+!define APTime01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTime01SPRITE, APTime01_m)
+!define APTime01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTime01SPRITE, APTime01_m)
+

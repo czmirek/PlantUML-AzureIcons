@@ -1,0 +1,13 @@
+sprite $APCalculatorCollapseSPRITE [70x70/16z] {
+xTN54SH030LHcTcJVxIBNLx6lau7y4ed_R3L4RucJHvfKqfpeP5Z2un2qbh6bnNriS8XqQHZxND4A1r84KAv84Av84BfDqGe84iHGhaWGXasH2WNH2WNH2WN
+H2WAYVgiZ6Ta1ldlbiKXA20HIW5n2eXNxcl2ArcfvkTLSIgNovNzqphto6ZrIbRkcxK2Wg8Ghym0A0gf5XI518f3K2I28X4KYQ1814KYA191aGYAH50aWY8H
+58b4ovByZ9XgYL03OXaGou38V7i
+}
+
+AzureEntityColoring(APCalculatorCollapse)
+!define APCalculatorCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, APCalculatorCollapse)
+!define APCalculatorCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, APCalculatorCollapse)
+AzureEntityColoring(APCalculatorCollapse_m)
+!define APCalculatorCollapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, APCalculatorCollapse_m)
+!define APCalculatorCollapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, APCalculatorCollapse_m)
+

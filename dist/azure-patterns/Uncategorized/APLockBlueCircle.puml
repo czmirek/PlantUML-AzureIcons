@@ -1,0 +1,15 @@
+sprite $APLockBlueCircleSPRITE [70x70/16z] {
+xPTdmjj024Ht0DNx7pXMIR24vcD9R--FLPyfQZGAn2wej2gYzeIWNm4rYgBauFHuYACKZrWNKWb4HR0ZSj_pEVk3YoJsW_SDxw4t1sdga9icMa0Sj71oiGG9
+EYy4YHPUVnuExfQUG6BOUhLeAg7DT8iG2UNHmYIS1ukM9Gt10j8T0dGZMFHoRwI81Tv2mTTRab26UNqnQcxXeUYodin8B4936LTdqGyjF1JRpvw6OTeNq669
+eM1BPyA-E6-BxGJYw44JTgqCxsTkHcaSPGdDhopygArJ-GtH0iCmR6bwC7DgqPQmLJYzg-Hti0Whhgo1xsFXLNss_BSWiopJd5haj0YpB6OsKCkNiy-Oc6Mo
+5ujRo7LY1ymozrdqN61r6Sqccj7ziIkqHultY9H5VQdUQO_0eq9kuGcvCBVmXDnOjtXZV4Mg5jZ1TGr5ozlt2l_oa41ea8TI_GhY9_4lCex5fbX1my-GO4vG
+2xMiVpKh-LShQFZ1IAQ9paFHErmgaRWc3qUoev0FyT8pnrxdru_7THGcOO2CmlWEKxdc5rGEMWgefpe0LHpr-WXQ3KXe65FagXEqdy0d
+}
+
+AzureEntityColoring(APLockBlueCircle)
+!define APLockBlueCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockBlueCircle_tbg.png, APLockBlueCircle)
+!define APLockBlueCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockBlueCircle_tbg.png, APLockBlueCircle)
+AzureEntityColoring(APLockBlueCircle_m)
+!define APLockBlueCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockBlueCircleSPRITE, APLockBlueCircle_m)
+!define APLockBlueCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockBlueCircleSPRITE, APLockBlueCircle_m)
+

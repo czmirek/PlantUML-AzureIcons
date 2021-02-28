@@ -1,0 +1,14 @@
+sprite $APServersSyncSPRITE [70x70/16z] {
+xPU7aiKW24LL1E7-__zkKrxwh8dPlcVgApc1Qo9ZkWLy0lzOOUQ2GJY_CgZHNBd7ehTO32EOTpI6UBfZQ96Y-8Ry4tuTFsW6_7FB391VEGF6BTzg1XHXKNHW
+gaKD0vXGQCIhXHk71L6kH1SdGVCbFJt9mqI4ToRd96bIf9JnqEGhCu3KjJ5SXGsD0Otu5cA0qjaP46iU-ke8hxH5DpUXXsfHG5FriNz1_HQfcRH29hA7qsL9
+Rwtlv2c0z5fiAd-Djcvx6ufJFpC8uBd52kU36K0j5GfR07NBT0wGmnKgGDZYNtVic2q13JjmpRvZzswbbtwB3LciMGvpKTZ1cnKd2-Hu7D7qzmrMvHtdW3mz
+6MlyASBxiDyrxYqqTLhKSvImWln7T407Br8q_meT5B-nQyWbNbxf8JuqiQwNxy4QpaDlGIS3GcBp8az3DMM7msK45VE1UrbZXIaC8fx76EAMCJRjF0C
+}
+
+AzureEntityColoring(APServersSync)
+!define APServersSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServersSync_tbg.png, APServersSync)
+!define APServersSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServersSync_tbg.png, APServersSync)
+AzureEntityColoring(APServersSync_m)
+!define APServersSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServersSyncSPRITE, APServersSync_m)
+!define APServersSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServersSyncSPRITE, APServersSync_m)
+

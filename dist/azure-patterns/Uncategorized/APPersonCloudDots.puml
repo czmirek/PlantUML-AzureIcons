@@ -1,0 +1,15 @@
+sprite $APPersonCloudDotsSPRITE [70x70/16z] {
+xTW7pkGW30LWt33u_lVTaamZpXka8TltK__Bap4jIPaGZrQfhE7uhfKr7Xkv9CKkIT6on693LpH6oofYfZBuZrY-MsaCwmlXyWdH8rweOo57z9oK15DiDMGU
+GsO2GioRkvt7a9hHk74xdVJ4McoQdVI6--i1Hh7nF3lMuwO_OvXlAx7jloaxYKtBu-dnq3M97OqfgHIF5uvIE8qebPAAoRyU3rTENOc1wK4z7EpgljzSCab9
+gw1L0GiEf2Z0vO1qtfUCu5R6SvH9tijulM04Ki3QdHT3jAUCsZ0SvD4GnAfxDNsFzen5dBgHcEcCl0-fjztlTPB22ldhJDUtAGhr63I5X1ImHyXyuJ7FAvd7
+aCn3vdi9jQN6AGFDdPSoxp21rM81c6PoM_tLczjuiW3rU6_MVHSzDgxbhPnvwftpVgPO7dCFeA6RH6jU3GrnTAkHfHGCtx2SYyNIYFhuv67wKSpBauXPvJC2
+C3ELGcP6vM_ptt_NlmdNAzxADJPqyTUAN__bH7w7Bqf5FBfJcVWA
+}
+
+AzureEntityColoring(APPersonCloudDots)
+!define APPersonCloudDots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPersonCloudDots_tbg.png, APPersonCloudDots)
+!define APPersonCloudDots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPersonCloudDots_tbg.png, APPersonCloudDots)
+AzureEntityColoring(APPersonCloudDots_m)
+!define APPersonCloudDots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonCloudDotsSPRITE, APPersonCloudDots_m)
+!define APPersonCloudDots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonCloudDotsSPRITE, APPersonCloudDots_m)
+

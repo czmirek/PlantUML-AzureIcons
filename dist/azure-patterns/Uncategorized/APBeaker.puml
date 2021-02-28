@@ -1,0 +1,13 @@
+sprite $APBeakerSPRITE [70x70/16z] {
+xPP7RWKn3CNSBRtxtpTzbVWpBxroFN0HJM3AKvQGLe3lkShOD-X4x1jgyKaTc0NuSQlyh_A_olyg_wjKdOZoChQEZF8IkixaowVoribCNIAhFzhKHNPnMG9Q
+yMW2RDiXmBKznAHhcLckPQQQ0J7R3OZfPa1CkfQP-RpbqP3za1C75CRyqVQ2KEolclcc-CHXlkz1ENLipTqkxUxRPTlpfJ_vzMWP2h4_FZucBh_ZLTq1nyii
+kq871C-sVSlyq3aDtpPdoZoslRtHmYmX86l0E5e_9mZ87t1MQiBFYVhqSseKa9yJ1kJdX9Pzsm6MRTj3DyH-0obfXjw1CVHsifOGulxEhBUjawkMT-8Q
+}
+
+AzureEntityColoring(APBeaker)
+!define APBeaker(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBeaker_tbg.png, APBeaker)
+!define APBeaker(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBeaker_tbg.png, APBeaker)
+AzureEntityColoring(APBeaker_m)
+!define APBeaker_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBeakerSPRITE, APBeaker_m)
+!define APBeaker_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBeakerSPRITE, APBeaker_m)
+

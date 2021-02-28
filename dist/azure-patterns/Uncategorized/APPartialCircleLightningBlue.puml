@@ -1,0 +1,15 @@
+sprite $APPartialCircleLightningBlueSPRITE [70x70/16z] {
+xTTNagCn20HW0OhS_xuR_owLyT8Q-NMdtoRuAr1s-U-YvLUaV1nhVRZxBqPghQOgzqHV_YjGdbn1qXtP2g0x8ohSuGQKEyUMCmKHYZH7cCBBaVaApD7Qt_MY
+Qe6n55alH8jb1obZ-ZOwY025dYWp9AtNA282nYUTIJ5IoLfWHZb4WRoDpN1_c5gE4I3LuZe1y-My3O-wNpFlgnWBPLqZrTxNVVkwec0qbZBAHGmCIY7za8HY
+K8gLBF_yYxmKKu_zcESzOPfm76YEUCcAmJG9IY68ym7U3RaH955ajpGU9KFO7_SiyORCcQ9eIMb3vb1uInWMYlXfIpuBTrB43zj0HpuivhTAeuWVTZPkr4gG
+irB9YkKA3n2Yt0SEFvZrRuGe396_cOSJboEOesUcErM0f4exd2uCsQkk7KxkZR2Z0NjQKWK8KKGyBDuGYWYMRfbyO1Y2OR5zfn4523anbP_UG6X3-sgSYGA4
+toIbqs888hiXj9GLin5-mvR1NYyveg_l876-ydW_DJwMvuqIdy-xcFx1YomyLEyLb89CWb36mfSQWX0c_8eWX8cpsXA4Cbe-o7U-ynC
+}
+
+AzureEntityColoring(APPartialCircleLightningBlue)
+!define APPartialCircleLightningBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPartialCircleLightningBlue_tbg.png, APPartialCircleLightningBlue)
+!define APPartialCircleLightningBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPartialCircleLightningBlue_tbg.png, APPartialCircleLightningBlue)
+AzureEntityColoring(APPartialCircleLightningBlue_m)
+!define APPartialCircleLightningBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPartialCircleLightningBlueSPRITE, APPartialCircleLightningBlue_m)
+!define APPartialCircleLightningBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPartialCircleLightningBlueSPRITE, APPartialCircleLightningBlue_m)
+

@@ -1,0 +1,17 @@
+sprite $APWrenchGearAltSPRITE [70x70/16z] {
+xTS7ikGW30HG93Btl--6BXk1DUr9bJRqnczSZo2Smdqq8Xg-Ian8_AkK_yfbMuZ2E1oLhL6Lzwj6c62IGOfpsU1rdeGm1-rAaAD9qat4Eb62e4aPu4vGef1G
+y6KcnfSGpipgYYX7E6FreBMd6yORtD70yk0SKLMTuZ8lYkZr5Cbj8Bt4lIC-5haW8CuqDrxXyp54wd28Eyr7jzRO2HBaTZ3RXDDWY7KNoQhCDcK84jV1y2Pn
+qo4TkgmjRKDuZsn264fq23lPyMmeNNWbzEQu38GmsCLA5cOPOnutJ1bbcTASoP7bC2PKSwxDCmKBPLMAYAOjK0OK_5ZwoW0PGspe9tQZ8BKl392XNB7baar9
+sPWofXAVAJftIad8oG1vPInfBtIlosY048MlI_wzj0sCkKHvKEaAvIXHnnAlI0zGjagpNLVFfQtunn2twyWLe51oEYPJBeD11OYo79_tVKm6SyfaGbm1Odkc
+Zuo_7qr8w5tAa6ComERHnkzIIqiV5jIvZBOkZDpVCSKG2vPaLJAvUyyOmbEiF_9Oq-T8SWykdsT84_w4jRHx8riL47aHQR6Umoln-buHNqMEjw2eOeMSUHLv
+_OsC8zsz7IfzE-I8VOVOzmbZE7B6Rc6KuSXBqS-H6FH1jQklpjCl6uSaZypJw1nqH_3qQHf2xeRGBpvR1zqGl3S9_ZCHAouXm2m87Xir8DsGjx-4wrIQGrvN
+ybm8Zxoko7aVR8PGXQVY3fGxa8yLMKhyiMARDuUlbA2vrYpX2-Kd
+}
+
+AzureEntityColoring(APWrenchGearAlt)
+!define APWrenchGearAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWrenchGearAlt_tbg.png, APWrenchGearAlt)
+!define APWrenchGearAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWrenchGearAlt_tbg.png, APWrenchGearAlt)
+AzureEntityColoring(APWrenchGearAlt_m)
+!define APWrenchGearAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWrenchGearAltSPRITE, APWrenchGearAlt_m)
+!define APWrenchGearAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWrenchGearAltSPRITE, APWrenchGearAlt_m)
+

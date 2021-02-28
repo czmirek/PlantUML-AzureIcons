@@ -1,0 +1,15 @@
+sprite $APDeploy05SPRITE [70x70/16z] {
+xTS7ZkCm38LXok9ZUVS_y2ezqjYxEuHHfdo8K8FVZGfYAVZLr7mmR5BMWqy9gGbEiac1SH5Im0ygDoTFgHWNrWeLHV9DcfOggl2y9y9KjLSgDnXqA5PC5wK1
+pYM3h5J8WBuuMQeCwOx1F3ZqKwQkdp5rti-OkkgyM3n2PqmTJfmwBKqTT1QjK07zlUFfKW4otPvJvrBJ4BnBswIkTGozbZXVy1jLVYiubiInUHnPXBaIMu5-
+g4X1_w6LtugR56okygs1cxnHtlZp1cYNgwRQP81EHDhu6D7agMEfj55fDy-Alq2bfHal476Fw5hHIRzKm1TN4Ll-_IbWIyKdjbTnCWrEKfy_Uqk54z-fD9Bj
+TaVZi1BkdcDnhDofm1vV9eb-K75LXAfohDYfSB3dowONAxAzNKdvYaIIX4XpqkjtLvGFxR3YW2K0ZfNNYkADlhzycyZ_tXV5HCJRTXsPrl-xicolPJSULZ8Y
+nmgETRsYhK_kqRVDw2_OtG4ug7mhVm
+}
+
+AzureEntityColoring(APDeploy05)
+!define APDeploy05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeploy05_tbg.png, APDeploy05)
+!define APDeploy05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeploy05_tbg.png, APDeploy05)
+AzureEntityColoring(APDeploy05_m)
+!define APDeploy05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeploy05SPRITE, APDeploy05_m)
+!define APDeploy05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeploy05SPRITE, APDeploy05_m)
+

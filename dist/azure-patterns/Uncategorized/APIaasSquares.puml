@@ -1,0 +1,15 @@
+sprite $APIaasSquaresSPRITE [70x70/16z] {
+xSq7OkKW38HXjP74tF--ssql2Q-cbz_Tm8TylRwpPTkeJfr4dCksBMBgRPLlfTqCuubAokzqB9NYgdYabFnDBVf-nUMehbNKjeA_QvCZlLRns4gI9NFtAVui
+Yiw8tQV4X6WVYkYVS8t2n54ERihUeKYTK1OjbGIo1UW4S9sYgWyLGGgqt2nASPKI4JOhBQIOqo75kvKKc1ge4BYEEnLO5Nkme5NadSe-Cq5kofJiMUpvf4oz
+GqNclfxYjSeTg-H26bEMNAKVHVbMm5MsKjf1sbCLMh6pC_FtlL1OAtrHeL67yVVXQDBDz84owfBIRToEqa4YmcTbW6ULuGbeQcahD1ssK8PNZdFAunQAjvDF
+LgBrVqLiIgzKHdaVogEkKZ9_Eur-aZAogWRpQGep2zcz3Vx9RbL60LxaavH0_Id7KnHs8f1LFAKuzhBsObAQMxEop6DlLZ2gardzLCMzqBvIBhSf2I_jU9eI
+ZII8V9AIt7gAmZkLxtu2
+}
+
+AzureEntityColoring(APIaasSquares)
+!define APIaasSquares(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIaasSquares_tbg.png, APIaasSquares)
+!define APIaasSquares(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIaasSquares_tbg.png, APIaasSquares)
+AzureEntityColoring(APIaasSquares_m)
+!define APIaasSquares_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIaasSquaresSPRITE, APIaasSquares_m)
+!define APIaasSquares_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIaasSquaresSPRITE, APIaasSquares_m)
+

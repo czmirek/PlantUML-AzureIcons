@@ -1,0 +1,14 @@
+sprite $APPythonSPRITE [70x70/16z] {
+tTA9iIqX28JXfb7H_0C--ohbbCfRxn_0Luqp6CPSpDezCyl4SicQh-OrexP11TDP6rTr1_4bpAJjckKoOkQdv1VdAxDAFJnjLZ5Som4bjCM_IsfHfLcs5bDS
+_xbIhCihEzaVLYIRRtoHw3tAfs5j9O3wZ7YMMbjM7ADjGt5CYoag052YYhefMue0AQuGiBYYEmUPKsJZeEGKvcMa0j1EiML50D6kPKNz5DMwPXG1GASi2DLk
+1aJd54l4CEgKKWy8SKC6Ii4r8NK-SqlSwJiA0L23Ijr1D7TA1aHNO_B_jov7TihE51KuXReSKE8A0SOL0L2Z2W50WmfngyGKFBA0Gi6pigq8Fb8xK3XCq2Lw
+3rx1UhzDOT-Eulin2aKOLWG065I8Q_9B5FpPBOY_Yn_Zlv5WX_6dnHbYEXbVXPM4UuPFXBnZ9EL8E0C
+}
+
+AzureEntityColoring(APPython)
+!define APPython(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPython_tbg.png, APPython)
+!define APPython(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPython_tbg.png, APPython)
+AzureEntityColoring(APPython_m)
+!define APPython_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPythonSPRITE, APPython_m)
+!define APPython_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPythonSPRITE, APPython_m)
+

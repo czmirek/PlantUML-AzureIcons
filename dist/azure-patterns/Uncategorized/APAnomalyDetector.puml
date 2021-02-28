@@ -1,0 +1,12 @@
+sprite $APAnomalyDetectorSPRITE [70x70/16z] {
+xSm53WCn34HHWwRW-n-u6qv4PPud2FhB1o0Y8WEWuuZD-cXo0KI4ZMDiraUyhS9AR4R5jcN_BHLMM6655GUWTrVsvVQxAllDjlYsg8Xk2yOjjaNBeylN8oAY
+4m
+}
+
+AzureEntityColoring(APAnomalyDetector)
+!define APAnomalyDetector(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAnomalyDetector_tbg.png, APAnomalyDetector)
+!define APAnomalyDetector(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAnomalyDetector_tbg.png, APAnomalyDetector)
+AzureEntityColoring(APAnomalyDetector_m)
+!define APAnomalyDetector_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAnomalyDetectorSPRITE, APAnomalyDetector_m)
+!define APAnomalyDetector_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAnomalyDetectorSPRITE, APAnomalyDetector_m)
+

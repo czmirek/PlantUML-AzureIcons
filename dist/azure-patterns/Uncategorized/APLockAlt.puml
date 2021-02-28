@@ -1,0 +1,16 @@
+sprite $APLockAltSPRITE [70x70/16z] {
+tPW74jmW34M_Q1BS_xufww94HYopaFgcC_P3pHMW8krpf0G0Y6sL3D1m8yuvXX0p3yEDuEPHCq6Xv8igt30YBD7ra9lh6K5cvfnFPQwjI-Y765-ABBfoj8Bw
+uNINwx6nMIslClMF3vr5SdQDgh7hgNjmzAibtLNYdskM1gDOO2UiSe1360pOD1gqvECgOMqgPicQyKMun0mF2WeqSGc0mfhJZoSG3b9j2ciebRffYXwX0QCy
+gdTQerDoijMNnxZGdP1uvKhtHXgDM2sIrzDJpuy4chapC4QOmYXaXzb5s_IqX6cBdliSRl06Yu3gYaLxBmiMlJ4Y5RumusqejuNu9hkT60F3NsZHIanR7dU6
+a1IQj51IZhjX-j2YQ2GhbeYqmPBsMEWlicofRdZRQU72yhRJgkbQ-BLSHfQ85-HV0JKTLFyAeFTNevmMNhgcUTwo7ekzOqxMHU-O9GEmT-z-ZtJ9kNjJRIDB
+gyAYXtXF4cw-HHbR16s3fUsnX2qMaYqPnGsM39HbY-YRwiUMcX_FHlhWsVY_lZDGgPDlP4gmNrcfAVCMSr9eovOMpNT02NCa-uTW1xJ54lR4mXia5JjIYa2i
+ImRzGo0B2ddDxbS
+}
+
+AzureEntityColoring(APLockAlt)
+!define APLockAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockAlt_tbg.png, APLockAlt)
+!define APLockAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockAlt_tbg.png, APLockAlt)
+AzureEntityColoring(APLockAlt_m)
+!define APLockAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockAltSPRITE, APLockAlt_m)
+!define APLockAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockAltSPRITE, APLockAlt_m)
+

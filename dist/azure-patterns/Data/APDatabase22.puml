@@ -1,0 +1,14 @@
+sprite $APDatabase22SPRITE [70x70/16z] {
+xTG7hiCW48HXPjbLXEz_tzSc1Il18y6-db_DzPDCSLchiZK4pdwkybJqJ7zzOBFlW3d3p93U3d--ybJAbuMQehXYd44CH9qTtNhBoKmey7qrHV6QedXDKIn3
+iJ9MZ1Mb4676-iDXTel8Of28iUuG3nGJxmHxVpMOtIjM-X2iErGAUofpezlj06SFbB24lpU2p4ouPg4OiFwG8VRPqJl3qKKC6357GWbBKI95GOQ2Z771yWw8
+yECTC5elUyNb6jF1ovTqOhWTrYB2YNM76tiVqes5KcnZtU7NAK26OWqPojQGeP0PAyCTODkkThYFr4pqZ4Wecj5VT6F6NpGStNkboZdIIhEohZJChHUxvaH-
+njfj-98z_Ge
+}
+
+AzureEntityColoring(APDatabase22)
+!define APDatabase22(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabase22_tbg.png, APDatabase22)
+!define APDatabase22(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabase22_tbg.png, APDatabase22)
+AzureEntityColoring(APDatabase22_m)
+!define APDatabase22_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase22SPRITE, APDatabase22_m)
+!define APDatabase22_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase22SPRITE, APDatabase22_m)
+

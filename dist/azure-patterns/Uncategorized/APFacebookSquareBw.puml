@@ -1,0 +1,12 @@
+sprite $APFacebookSquareBwSPRITE [70x70/16z] {
+xTE5ZGD000F1Onsx_sh_muaWxB2tW16k-OsKijwddFqYTpEHEWuADnbb3zoi-8xx5G_ShzZEK2e8YWD3gHHbCXI7mrfUvwvK4lPLQsuixv5f347952LIbF25
+YfJIDyszqdUL2vMEKt6KJ54YHGaKnL8Kmr06HUaK9NEKHtyaHOeKALAaIFa7
+}
+
+AzureEntityColoring(APFacebookSquareBw)
+!define APFacebookSquareBw(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFacebookSquareBw_tbg.png, APFacebookSquareBw)
+!define APFacebookSquareBw(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFacebookSquareBw_tbg.png, APFacebookSquareBw)
+AzureEntityColoring(APFacebookSquareBw_m)
+!define APFacebookSquareBw_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFacebookSquareBwSPRITE, APFacebookSquareBw_m)
+!define APFacebookSquareBw_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFacebookSquareBwSPRITE, APFacebookSquareBw_m)
+

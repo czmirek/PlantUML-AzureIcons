@@ -1,0 +1,17 @@
+sprite $APWebAppUmbracoSPRITE [70x70/16z] {
+jPRfUYCx24IBrU__nFVE-5E6fYahokBp9_jfA4HQOAXxH6Q4cmg-XNWsmXNV8V966Bw2-xEQoC6vHpDJdvgSXEA8PnuXopTnV4Qr4UYQovpaK589s8fLSKnF
+GfUceZX5Sse4NyNQE0GCCNFtCmlNg4N5nb50TnPjEo6WYFLqCtgPaOq0nGr05aOTXV8XMzj0dPjvK8m_BKObNAEOvDEYypVMWR6JXTBrtRXBF4DVQ328rQY5
+cUbjhuY6jyJTEbPpsv9Ijzt6hfzCoPZR-b-izCpYrVbriXj1ra6h9deSPe6RC3LUMfGsn7V2w6ApBdLtG5vQncRjDiU2Z2DEB8w6ACj5PYwy5h4dCZUQTEaq
+5u_7FyB8Sp-BHI7-kE5Z7jujCL8fHv5sVx1kD0R91oLwl3FV8Q6aj2Yn4EidFTCXZu9eAfYevgAN4rK99QkbVasGIYSC61AUZNs4EzwXWZ6ToSTlht25l61f
+ABmdot4BConeARoOM39o5ro_gP1uD5nWlHXbs-FNKW1OjsXrgxZ0DZ3gSJxxc1l5BPTnnbp6dY-t623zJuektbb2OADyQhaS3EJGS4iL43DUYIzRl7vS-3Tg
+cHPePECybuwzjkIPPTufQzBirCr9ysksNi-Lp4skppcYPkxQdgPv-q-fLUaUQxyejX1W79STjS838mrnAbCx_0cded2LYirxpWV9x56S47k9uupSIGA7I7vJ
+CZNVbnJndKmcHif9HV5DJng-XNfUJY2-ZsZjuXlu7m
+}
+
+AzureEntityColoring(APWebAppUmbraco)
+!define APWebAppUmbraco(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, APWebAppUmbraco)
+!define APWebAppUmbraco(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, APWebAppUmbraco)
+AzureEntityColoring(APWebAppUmbraco_m)
+!define APWebAppUmbraco_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, APWebAppUmbraco_m)
+!define APWebAppUmbraco_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, APWebAppUmbraco_m)
+

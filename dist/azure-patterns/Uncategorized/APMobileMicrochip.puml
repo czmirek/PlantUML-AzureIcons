@@ -1,0 +1,13 @@
+sprite $APMobileMicrochipSPRITE [70x70/16z] {
+xTO5iYCn34NH9ueSxN_1CtA7GQNFv1Cike4suJqnvnC1b4-lfGgG2i3ANreH4TNZKpu8hw2t-Fqgvedgju8DCQlg_codAio0HsAWUclOYAOuSqs0M2BW-Tjp
+1KHt5IP2nwmStLVGOyQDIX-Bt5L414trlqlegt_H-rV42jIzqb6nyd_fLxPhDCvsnsjKL7pSL3fp-hOorFgL_dVfhb9HiNh5VF-AFxCFw-ua4QPFZ6FbnhjM
+LiLTtg4IOT-yiguqCwqh_GqgQ-ok6R0gQmQitVxGuKYEv35nuupPhXIE5VkFymrP4YInYJgLfZWRFhsnuZgzjMBJsof7NrSnBz0_
+}
+
+AzureEntityColoring(APMobileMicrochip)
+!define APMobileMicrochip(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMobileMicrochip_tbg.png, APMobileMicrochip)
+!define APMobileMicrochip(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMobileMicrochip_tbg.png, APMobileMicrochip)
+AzureEntityColoring(APMobileMicrochip_m)
+!define APMobileMicrochip_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMobileMicrochipSPRITE, APMobileMicrochip_m)
+!define APMobileMicrochip_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMobileMicrochipSPRITE, APMobileMicrochip_m)
+

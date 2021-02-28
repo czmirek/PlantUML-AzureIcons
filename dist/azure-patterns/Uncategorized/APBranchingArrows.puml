@@ -1,0 +1,13 @@
+sprite $APBranchingArrowsSPRITE [70x70/16z] {
+xTO7RiKm30HHqkQNQTt_lka90os8ODBR7E1XKLJinIvXE4NcZFT06eOYod146Ouq34UKuOWo75668yfm1304KOOZd8dvqBae5pFEZ37lEh8Gp0mR3vfb8P0P
+Lefb8OWPzbonB0HMIlMJ5FTtKFnCnueYSwPZHP5Yi5B87SCKHOfH1I9pxnMESAMGin2gUDObj2qT3mfOqZSGqYiSuSenNwVuUspPOkFC42GuKqeXqJDxTx-i
+260QnIC0qs-1J2cGEHgbOyXTvqjxonGYIeRMCsbOKIQTAyeKWfHmaxZY1XI0SCLV__FO1M6A8bnHX2izmXLNX2l5k6556JUiAEF65M7y-_sQ_vL_XNSD
+}
+
+AzureEntityColoring(APBranchingArrows)
+!define APBranchingArrows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBranchingArrows_tbg.png, APBranchingArrows)
+!define APBranchingArrows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBranchingArrows_tbg.png, APBranchingArrows)
+AzureEntityColoring(APBranchingArrows_m)
+!define APBranchingArrows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBranchingArrowsSPRITE, APBranchingArrows_m)
+!define APBranchingArrows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBranchingArrowsSPRITE, APBranchingArrows_m)
+

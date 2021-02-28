@@ -1,0 +1,15 @@
+sprite $APGrid30SPRITE [70x70/16z] {
+xTU7Zjmm38HXO6-eeVZ-xviY49wOMCMoeVJyrsnB-xbU-y3eu_LwVRiulW1uZNBmDOqnSW1-MdHOH1WovWXiJ0B3z1BUKO9Rb6XRb6XR53yKOeDYsA7Wf5W6
+e2oEpyWqE1GM1JSR2h518J0_eyOZ0y2Z1i1o4UP2PbStCm2vc8FK8du_XSyL8hFkJvIAn5D527eyLeGWdYbPrw13tLCO6nJ6H6a-8W1JgAk9L4KJbcD8ALVt
+7l9S4J9NccV3irm1wAE6pEAab1-Fr8s0vjPZhKhj9oj-T9oAMbHgSOgN2XMUAw6sAtsB0cvHq2wLlg30-lULRfXbELFCH9aYce3C9ye5KW-MCsNCCFLEqT6q
+_bvfEjHHKUfMw--KXbN53CYvLMa0Q6jAJuOXXSWOLT5FGC1id0Dqza1hgKGNKfLwCLnRgHULUxUk92Eb2RbKwEvwT235XLmeodGMO892rXKnrFc0SLF96ena
+8iRCq7XKxhGo7c5FTXLMyhXebrAl2xtMbfJwxDPeLoqfkEedAiPQ-OThIM7KU9xuN_clt7tgj0XeKDbd
+}
+
+AzureEntityColoring(APGrid30)
+!define APGrid30(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid30_tbg.png, APGrid30)
+!define APGrid30(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid30_tbg.png, APGrid30)
+AzureEntityColoring(APGrid30_m)
+!define APGrid30_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid30SPRITE, APGrid30_m)
+!define APGrid30_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid30SPRITE, APGrid30_m)
+

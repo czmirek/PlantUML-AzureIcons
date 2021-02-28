@@ -1,0 +1,16 @@
+sprite $APResourcesAltSPRITE [70x70/16z] {
+fTPd6jem48JXsG8kylslcqBnHDcm3EJxh_THSy7SE1wDW9hXx_naZXIDIE-O1KAUcOwEkIWJ-HNGCY5C9DFGCmDTbhS2GCzStqs4KwbTXSd40t6yQdr_t9wF
+yBBtfsqvhmTRuUm6j4jw6DpQKQOT1-jtXIFhwfU3HRiWerAOlLU809DoEC2EHY4I0R3jjeja48r2n82Yd8pbElvKJ4DmFKucblsO6oyG1-RyEO2JO9k80EDe
+IimHAKkI6IBQP5Xe22wjCbn2W4LYUeHtlhRuE9c2gCm2_6Qs4mcqBI-G6nCY0iJ-JyG0Jm6XiupdVfv8fF6j5D3oY0o_RzF-62mZLHidabaHdTduSYs8pgom
+P0LHcnK0M9V_LFn-fRvWF9FPJVc2IVOzuoamwgum0Ek7Z1VaV9zT8MLMZJG0gV_3eWf414P02YCZRlnyYqmr-9WtZ8Iu4I4Z8m5mHqGcIuQFcIX800qJ6fAE
+ZXak85GQHa3I834zue32z4W0AgCZmD8m3I8nkESD8Z2BW0YCDOZEN8ZC0T2PjK5qPeFf29cYm6I4RVMGJ4RONjyGrY0ACu3263vb0cGAeZASl16HkupRNJ4m
+8wBd4PYpYa3l9m
+}
+
+AzureEntityColoring(APResourcesAlt)
+!define APResourcesAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResourcesAlt_tbg.png, APResourcesAlt)
+!define APResourcesAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResourcesAlt_tbg.png, APResourcesAlt)
+AzureEntityColoring(APResourcesAlt_m)
+!define APResourcesAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResourcesAltSPRITE, APResourcesAlt_m)
+!define APResourcesAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResourcesAltSPRITE, APResourcesAlt_m)
+

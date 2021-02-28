@@ -1,0 +1,12 @@
+sprite $APRecommendationsSPRITE [70x70/16z] {
+xTK5ZiKm34LH1mrl_-iTjYBw9NVOfoIyvOI-I4efJJbWqWx10V9b5HcRv5XbqARnuofPQUsE2lCT5RCRAXMeeKhn3_xrUBb2rV31wkNA-iKv-5pO8w6AlbOq
+MAa0Cr1ZbMcDgDcCLRZGYy9_SMJ8YefRFHhYzFGCs-b33ytJtIFdAdqi2g1-_4tGiNGweHfWTHsly4o9HVnM_CQkw-iXXpETeXXWYkDBaPHIUWO
+}
+
+AzureEntityColoring(APRecommendations)
+!define APRecommendations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRecommendations_tbg.png, APRecommendations)
+!define APRecommendations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRecommendations_tbg.png, APRecommendations)
+AzureEntityColoring(APRecommendations_m)
+!define APRecommendations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRecommendationsSPRITE, APRecommendations_m)
+!define APRecommendations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRecommendationsSPRITE, APRecommendations_m)
+

@@ -1,0 +1,12 @@
+sprite $APCustomBarGraphSPRITE [70x70/16z] {
+xTYr0S0m34HHcM7_WLC6Z4tuNsbBBunw5oKYgXWP9-HjV34I7gYW-BYDBu_zbEBiDgvSkoyeA6LFCOA2Wk9t8_4Y1GK51GK51QNyiYb7IcNyrcoBaGyeA1-z
+Zb36VxV68reM
+}
+
+AzureEntityColoring(APCustomBarGraph)
+!define APCustomBarGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCustomBarGraph_tbg.png, APCustomBarGraph)
+!define APCustomBarGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCustomBarGraph_tbg.png, APCustomBarGraph)
+AzureEntityColoring(APCustomBarGraph_m)
+!define APCustomBarGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCustomBarGraphSPRITE, APCustomBarGraph_m)
+!define APCustomBarGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCustomBarGraphSPRITE, APCustomBarGraph_m)
+
