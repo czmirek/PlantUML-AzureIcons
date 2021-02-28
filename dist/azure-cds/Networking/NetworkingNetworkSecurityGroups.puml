@@ -1,0 +1,15 @@
+sprite $NetworkingNetworkSecurityGroupsSPRITE [70x70/16z] {
+xT875jmm201HB2C4S__xfkkzjUJ6fYV-1nWLa3EhEG2uhVAUqjYm8dd6f4fISI1QrK_ia-O1-28P5GZJh-oh1g1os-f0qyuw1toLEvOQG5ITAsO1X2xdWQ8M
+05Wl31NpFlYobwhDWwutXahlTE6jRY9Avwtgm0RzmEct3TpCUc2gpDed0RQjX1woGp5MN0-rG_uxAq_bgJoLf_9Kwbd5Zr5_G2LGUQ647z93GsM5zaO5Yhnw
+gr91DXpFLmoN3IFo5STaOuLy1OfiHRvYX0oCo5O2aq61PAL2aL4ZSXMdYTo_JE8g9vSv-PNP0ecA4OligN2_0YhxdBXR2LmE5F2OwQmDxvdUTATYe7BCmQyh
+5PgSM0ByiW8kfmg4NrHY-fJ92Z6O8qKadKb5EeMJIi0gNUOs-Plq3BkLEaNEb82TYj6dayYCbPQAzFKRAW6-ICxYz4p_4fharVx7_JKgUVrpGBLEhybeG8Gs
+eChxD02OjoJ_oM3olJHYbIiV0G
+}
+
+AzureEntityColoring(CDSNetworkingNetworkSecurityGroups)
+!define CDSNetworkingNetworkSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/NetworkingNetworkSecurityGroups_tbg.png, CDSNetworkingNetworkSecurityGroups)
+!define CDSNetworkingNetworkSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/NetworkingNetworkSecurityGroups_tbg.png, CDSNetworkingNetworkSecurityGroups)
+AzureEntityColoring(CDSNetworkingNetworkSecurityGroups_m)
+!define CDSNetworkingNetworkSecurityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NetworkingNetworkSecurityGroupsSPRITE, CDSNetworkingNetworkSecurityGroups_m)
+!define CDSNetworkingNetworkSecurityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NetworkingNetworkSecurityGroupsSPRITE, CDSNetworkingNetworkSecurityGroups_m)
+

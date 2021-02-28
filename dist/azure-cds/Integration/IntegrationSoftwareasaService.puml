@@ -1,0 +1,15 @@
+sprite $IntegrationSoftwareasaServiceSPRITE [70x70/16z] {
+xT89ZgGm38LXhy_fll-1nwgAciqKeJBxp2U9dL_8WRh__kD4CyGSdUkRASEM2zscIBCTHqdf1i4PlnMPpp3YXT4CuYMb4HONcAvnNF79J-c4BaLCVume8irC
+HZm6wNa3CSmdXhh0y9-6WrWCHk1svCjuXoBXLea5T60cNdgrKX9LnJGzTzQt7bjWMaHPKKhkd5jroIqlbM8-sWedbRQpPD0A6AkqeAxL5LigLbKwq8FELPeI
+9J-f5CeA-bZcAeqfnMp5ABKIt3YvIsxDDRToKW6bc9jkNspSgBJIiaQp5Pcj155g7mN09G6QMuVbLe7wKQBaTQLGLumeSPkhC3rOMN5DW2Q7QQehZRfMLOmI
+y9WkDBTSLvGw-JY8qKhG5tsxqfWMzcwbHpezL9mJ8BbrQ6wbg0WjYlMEaPKEfWEDoyhXTwkmnSVdqqdbyqjpfdCivWbTdsxdJwRADCBA2jFYJwlu-aN_XPNz
+iW0TtIGeEDt6H_Il--yR
+}
+
+AzureEntityColoring(CDSIntegrationSoftwareasaService)
+!define CDSIntegrationSoftwareasaService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/IntegrationSoftwareasaService_tbg.png, CDSIntegrationSoftwareasaService)
+!define CDSIntegrationSoftwareasaService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/IntegrationSoftwareasaService_tbg.png, CDSIntegrationSoftwareasaService)
+AzureEntityColoring(CDSIntegrationSoftwareasaService_m)
+!define CDSIntegrationSoftwareasaService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntegrationSoftwareasaServiceSPRITE, CDSIntegrationSoftwareasaService_m)
+!define CDSIntegrationSoftwareasaService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntegrationSoftwareasaServiceSPRITE, CDSIntegrationSoftwareasaService_m)
+

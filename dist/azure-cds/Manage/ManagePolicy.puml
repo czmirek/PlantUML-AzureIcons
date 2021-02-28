@@ -1,0 +1,15 @@
+sprite $ManagePolicySPRITE [70x70/16z] {
+rPRHOi8m24Lx0UB-_uUdgbZQH4BmoVksgQVX92LilnDk_3M3sZtVSQ3j6QKwHDeUHLN8CLeIqaSgGao9xXmk234Tv9a58MJrBMhs3vOnMfQ4uEE-Sre8HKze
+zYz298GdrUBzVGc5nERX5Xu9YOk6spSPgQDj4hrJVFqzH78ds_t6KLYNtrpkARUiTH7lnLEOY-rdynJ9LGCMOUmOHO52uhuBklCI512pE-QGLpPBWiBwYdbd
+er2Q0jqZxeltS9P2UWXA5EWnukJcAv9cyTrYqIwrBjWt2Uy-m255UWezySpadwCHHMUt6jwL1fJMHyVlj7wce0toeUHWBPS-kavfFKN2_ZAssrDe6_f7GA6U
+WkDEuucXyEpgtodiMWEisV3iRRmS8K-9o_s53f0Bglt5hKOB_SKYjX3QIXGBoAq-Nr4S17QhDucesgBAjngT1oOdB9zkL77AeYJwIwwgk3DOk3W5cNeBPHQ1
+lY8xJnRCTU1irm9Eb4MwToOQJuBmPSNplPswDlecXML9SqB3kB9E79hDzmazcCxt2Jsv-JxMmy5ydzKJ2SdhYOJao_92wfn8I5vFA2Izwqv8ESGcv6To1G
+}
+
+AzureEntityColoring(CDSManagePolicy)
+!define CDSManagePolicy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/ManagePolicy_tbg.png, CDSManagePolicy)
+!define CDSManagePolicy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/ManagePolicy_tbg.png, CDSManagePolicy)
+AzureEntityColoring(CDSManagePolicy_m)
+!define CDSManagePolicy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ManagePolicySPRITE, CDSManagePolicy_m)
+!define CDSManagePolicy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ManagePolicySPRITE, CDSManagePolicy_m)
+

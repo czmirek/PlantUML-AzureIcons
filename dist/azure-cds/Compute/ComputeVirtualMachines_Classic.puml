@@ -1,0 +1,14 @@
+sprite $ComputeVirtualMachines_ClassicSPRITE [70x70/16z] {
+xTG5SWKX383X4264tl--dJnVHUlzLyQ_5GHs-u_ZU0nnHc6AGdwJaUuAmKXyKmACX3S5_vL5LAMGK5bHrJC5nKCupeLp1LckSUXM0iip2dqAoJBgK91b7MEh
+mh8NjoaXCcyDoQrA55uZbjkLbSEQSuVYCJy_9dSgtesnFAJuPt5ou5H9APqedkHyfhXGevZDKSpcA3P3yGeArIZU3CLhKu1s5JvG-421m1ib0ZGgxiX2KOHs
+nQCNXG5E53DpvSHnHU0m5mgAVvQO1XXHF1G465QyVkLVKHo8qaqPR9wI9sH0KOzAY_Im6E0aUNiDeI_9htqdXQOe0dtf1oWH-hA5ag0hpCkWAx5b11q5MvMW
+8xLr4Lf3jMsAJOIexQTS2ucTnxMxyJYJYaKe5yl11_KE
+}
+
+AzureEntityColoring(CDSComputeVirtualMachines_Classic)
+!define CDSComputeVirtualMachines_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/ComputeVirtualMachines_Classic_tbg.png, CDSComputeVirtualMachines_Classic)
+!define CDSComputeVirtualMachines_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/ComputeVirtualMachines_Classic_tbg.png, CDSComputeVirtualMachines_Classic)
+AzureEntityColoring(CDSComputeVirtualMachines_Classic_m)
+!define CDSComputeVirtualMachines_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ComputeVirtualMachines_ClassicSPRITE, CDSComputeVirtualMachines_Classic_m)
+!define CDSComputeVirtualMachines_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ComputeVirtualMachines_ClassicSPRITE, CDSComputeVirtualMachines_Classic_m)
+

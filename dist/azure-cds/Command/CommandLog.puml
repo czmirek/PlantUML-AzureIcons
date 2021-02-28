@@ -1,0 +1,9 @@
+sprite $CommandLogSPRITE [70x70/16z] xTP50e0W503HVmFlVrg1BTqvipIUBOZfQwst8dMjK51Gt9orWL3yPJwZy7FRNK512OOIRhSn00K51ONvhXlAa-yB2af3soaA
+
+AzureEntityColoring(CDSCommandLog)
+!define CDSCommandLog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandLog_tbg.png, CDSCommandLog)
+!define CDSCommandLog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandLog_tbg.png, CDSCommandLog)
+AzureEntityColoring(CDSCommandLog_m)
+!define CDSCommandLog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandLogSPRITE, CDSCommandLog_m)
+!define CDSCommandLog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandLogSPRITE, CDSCommandLog_m)
+

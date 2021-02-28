@@ -1,0 +1,14 @@
+sprite $OtherUniversalPrintServiceSPRITE [70x70/16z] {
+xTO5Okim381XiPpq_kTziAbSK-NnlZBa3mDyd5_88geYJF0iKhkW34yGkpFTONk8O8PQI4mEMfqc8q6JaI1pooIpRDYwC3S_GUStDda0eSDkC3PK6YH-Oxh2
+wl-aAYWU4XLsprVKynKqhs9gg4GIbNfasxPcHLNxowGS3WUXXd-_HuPyHSLMLDXNLAmq35TAbNlPzrsvuT_lXWZ0fSR6aPOAjt5gkKhm9PNoYQR5CXKXZSMR
+gJ1AlCbKJECLolQOsmIm9HLUKW5VKg4b5R0b5IXBAbYg5LLfKJrN01iLfePp9QOcLmcMh0GgZohMgLXKpjZt2r6nPiN2xVNKloaguzSC7g2cn3G9DUpXIrGq
+jLnk8JN0A6pvmHN8HV9-_GK
+}
+
+AzureEntityColoring(CDSOtherUniversalPrintService)
+!define CDSOtherUniversalPrintService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/OtherUniversalPrintService_tbg.png, CDSOtherUniversalPrintService)
+!define CDSOtherUniversalPrintService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/OtherUniversalPrintService_tbg.png, CDSOtherUniversalPrintService)
+AzureEntityColoring(CDSOtherUniversalPrintService_m)
+!define CDSOtherUniversalPrintService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, OtherUniversalPrintServiceSPRITE, CDSOtherUniversalPrintService_m)
+!define CDSOtherUniversalPrintService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, OtherUniversalPrintServiceSPRITE, CDSOtherUniversalPrintService_m)
+

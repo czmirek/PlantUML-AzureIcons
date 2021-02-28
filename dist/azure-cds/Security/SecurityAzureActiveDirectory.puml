@@ -1,0 +1,15 @@
+sprite $SecurityAzureActiveDirectorySPRITE [70x70/16z] {
+vTK9QWKn38FXPylnpFqlt3KT4_W9k2bhTO0F4O7p-eUnFq4Y_a29o7D64PawHo8p_GZn-5RIJf78CyQYb760bFBheLGAC2sabDG1Kahwx-PPbVvG5g1q6GjG
+sdi7A6r6eCn44s4brPo7bLGBOUMwBk_EKqeXLreVYIXY9bilErD8CMqa7gCosaYKKOdjF9I9hD7cPJ4NnZk8f4naZ1KIt5tv5M8W0i6dGj2TU-G1IgbCuYF0
+-5g1bOBkhmn0fW0AvKkATPv5G8KbBGe36uK_bxR2LzXQIlqhPdDZ6TGX1UvuP3xp-BV7ogQ8VwwU4ucOTMoZm0aVFzV6OgRgW8AlghncvF74k8vuNXlBwTF3
+2EjeLwHEJTK9XpgYUHEEvxQEODv2wdFQrn7EknQ1EhRM4S_BlwHndLB6Dvxu3-phbF9DB_DoJELK7MtcvNWyUUe8viKYN6V2-faNNfN2e_jctauTBjAlm_Do
+U7ISjrs7vktN6KkHRgmKADAjCs3UVfs1ytPVULmtpDkBQTpvEe_yzG_p3W
+}
+
+AzureEntityColoring(CDSSecurityAzureActiveDirectory)
+!define CDSSecurityAzureActiveDirectory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/SecurityAzureActiveDirectory_tbg.png, CDSSecurityAzureActiveDirectory)
+!define CDSSecurityAzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/SecurityAzureActiveDirectory_tbg.png, CDSSecurityAzureActiveDirectory)
+AzureEntityColoring(CDSSecurityAzureActiveDirectory_m)
+!define CDSSecurityAzureActiveDirectory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, SecurityAzureActiveDirectorySPRITE, CDSSecurityAzureActiveDirectory_m)
+!define CDSSecurityAzureActiveDirectory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, SecurityAzureActiveDirectorySPRITE, CDSSecurityAzureActiveDirectory_m)
+

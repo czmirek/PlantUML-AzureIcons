@@ -1,0 +1,13 @@
+sprite $NetworkingCDNProfilesSPRITE [70x70/16z] {
+xT7POSGm24NHnwxqNt3sUF0ku_dAw1Hm9G0lQXW68i8jhEO_b574vXdN6vdXClKDL8zaN8tKVoE-2_qyTXbwQHnWzA58gfyXYqCunnPdvFmsSKvnpAA7OOLa
+ej5f7T69HI_60kiaBZ3U-Ol79Kv8U6yffODhPDLRHLB-3RU2m8Ar2WE8asWb4CjQ3TipAlgKYhDbqKe2eCJBbKpgbQoL6EQqLJ1-4Vze5VX1tcwmZQs-NTNI
+EkgPnrPkL1GJ4dtmIcIDedidWWFIzPyGd67HGyBufuPX-
+}
+
+AzureEntityColoring(CDSNetworkingCDNProfiles)
+!define CDSNetworkingCDNProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/NetworkingCDNProfiles_tbg.png, CDSNetworkingCDNProfiles)
+!define CDSNetworkingCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/NetworkingCDNProfiles_tbg.png, CDSNetworkingCDNProfiles)
+AzureEntityColoring(CDSNetworkingCDNProfiles_m)
+!define CDSNetworkingCDNProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NetworkingCDNProfilesSPRITE, CDSNetworkingCDNProfiles_m)
+!define CDSNetworkingCDNProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NetworkingCDNProfilesSPRITE, CDSNetworkingCDNProfiles_m)
+

@@ -1,18 +1,16 @@
 param(
-    [int] $targetHeight = 70,
-    [string] $plantUmlPath = "C:\Users\lesar\Desktop\bin\plantuml.jar"
+    [int] $targetHeight = 70
 )
 $sourceCollection = "https://github.com/benc-uk/icon-collection"
 $iconFolder = "icon-collection"
 $iconPath = "$($iconFolder)/azure-cds/*.svg"
-$dist = "dist"
 
 if(!(Test-Path $iconFolder)) {
     git clone $sourceCollection $iconFolder
 }
 
-Get-ChildItem $iconPath | ForEach-Object {
-    
+Get-ChildItem $iconPath | ForEach-Object -Parallel {
+    $dist = "dist"
     $fileName = $_
     $fullPath = $_.FullName
     $noext = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
@@ -22,58 +20,94 @@ Get-ChildItem $iconPath | ForEach-Object {
     $category = $ti.ToTitleCase($split[0])
     $serviceId = @($category, ($split[2..$split.length] -join "")) -join ""
     $serviceId = ($serviceId -replace "\(", "_") -replace "\)", ""    
-    if(!$serviceId.StartsWith("Azure")) {
-        $serviceId = "Azure" + $serviceId
+    
+    $outputFolder = "$($dist)/azure-cds/$($category)"
+    
+    if(!(Test-Path $outputFolder)) {
+        New-Item $outputFolder -ItemType "directory"
     }
 
     $pngWbg = "$($serviceId)_wbg.png"
     $pngTbg = "$($serviceId)_tbg.png"
-    $pngWbgPath = $dist + "/" + $pngWbg
-    $pngTbgPath = $dist + "/" + $pngTbg
-    $pumlOutput = $dist + "/$($serviceId).puml"
+    $pngWbgPath = "$($outputFolder)/$($pngWbg)"
+    $pngTbgPath = "$($outputFolder)/$($pngTbg)"
+    $pumlOutput = "$($outputFolder)/$($serviceId).puml"
 
     Write-Host $serviceId
     
     if(!((Test-Path $pngWbgPath) -and (Test-Path $pngTbgPath))) {
-        inkscape --export-background="white" --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngWbgPath
-        inkscape --export-type="png" -w $targetHeight -h $targetHeight "$($fullPath)" -o $pngTbgPath
+        $targetHeight = $using:targetHeight
+        svgexport "$($fullPath)" "$($pngWbgPath)" "$($targetHeight):$($targetHeight)" "svg{background:white;}"
+        svgexport "$($fullPath)" "$($pngTbgPath)" "$($targetHeight):$($targetHeight)"
     }
 
-    
-    $colored = $serviceId
-    $monochromatic = $serviceId + "_m"
-    
+    $coloredMacro = "CDS" + $serviceId
+    $monochromaticMacro = "CDS" + $serviceId + "_m"
     $spriteId = "$($serviceId)SPRITE"
-
-    $sprite = ((java -jar "$($plantUmlPath)" -encodesprite "16z" "$($pngWbgPath)") | Out-String) -replace "`r", ""
+    $sprite = ((java -jar "lib/plantuml.jar" -encodesprite 16z "$($pngWbgPath)") | Out-String) -replace "`r", ""
     $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
     
+    $sourcePath = "IMAGE_SOURCE/azure-cds/$($category)/$($pngTbg)"
     $puml = $sprite
-    $puml += "AzureEntityColoring($($colored))`n"
-    $puml += "!define $($colored)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/$($pngTbg), $($colored))`n"
-    $puml += "!define $($colored)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/$($pngTbg), $($colored))`n"
+    $puml += "AzureEntityColoring($($coloredMacro))`n"
+    $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, $($sourcePath), $($coloredMacro))`n"
+    $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), $($coloredMacro))`n"
     
-    $puml += "AzureEntityColoring($($monochromatic))`n"
-    $puml += "!define $($monochromatic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n"
-    $puml += "!define $($monochromatic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromatic))`n`n"
+    $puml += "AzureEntityColoring($($monochromaticMacro))`n"
+    $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n"
+    $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n`n"
+
     $puml | Out-File $pumlOutput -NoNewLine   
-}
+} -ThrottleLimit 8
+
+
 $allPuml = ""
-$markdownList = "Macro (Name) | Image`n"
-$markdownList += "--- | ---`n"
+$markdownList = "Category | Macro | Image`n"
+$markdownList += "| --- | --- | ---`n"
 
-Get-ChildItem ($dist + "/*.puml") | ForEach-Object { 
-    $fileName = $_.Name
-    if($fileName -eq "all.puml" -or $fileName -eq "AzureCommon.puml") {
-        return
+Get-ChildItem ("dist/azure-cds") -directory | ForEach-Object { 
+    $category = $_.Name
+    $categoryPuml = ""
+
+    Get-ChildItem ("dist/azure-cds/$($category)/*.puml") | ForEach-Object { 
+        $fileName = $_.Name
+        if($fileName -eq "all.puml" -or $fileName -eq "AzureCommon.puml") {
+            return
+        }
+        $imageId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
+        $serviceId = "CDS" + $imageId
+        $markdownList += "$($category) | ``$($serviceId)``<br>``$($serviceId)_m`` | ![$($serviceId)](dist/azure-cds/$($category)/$($imageId)_tbg.png) |`n"
+        
+        $content = Get-Content $_.FullName -Raw
+
+        $categoryPuml += $content
+        $allPuml += $content
     }
-    $content = Get-Content $_ -Raw
-    $allPuml += $content
 
-    $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-    $markdownList +="Image: ``$($serviceId)``<br>Monochrome sprite: ``$($serviceId)_m`` | ![$($serviceId)](dist/$($serviceId)_tbg.png) |`n"
+    $categoryPuml | Out-File "dist/azure-cds/$($category)/all.puml"
 }
-$allPuml | Out-File "dist/all.puml" -NoNewLine
-$markdownList | Out-File "table.md" -NoNewLine
 
-Copy-Item "AzureCommon.puml" "$($dist)/AzureCommon.puml"
+$allPuml | Out-File "dist/azure-cds/all.puml" -NoNewLine
+
+'# Azure CDS macro table
+List of PUML macros for the Azure CDS image repository.
+See [README.md](README.md) for more info.
+
+## Colored image 
+```
+CDSAzureComputeFunctionApps(functionAlias, "Label", "Technology", "Optional description")
+```
+## Monochromatic sprite
+```
+CDSAzureComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional description")
+```
+
+You may need to CTRL+F here, the list is not sorted.
+
+## List of macros
+' + $markdownList | Out-File "dist/azure-cds/table.md" -NoNewLine
+
+
+
+
+Copy-Item "AzureCommon.puml" "dist/AzureCommon.puml"

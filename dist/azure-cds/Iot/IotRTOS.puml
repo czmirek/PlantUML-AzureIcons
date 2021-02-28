@@ -1,0 +1,16 @@
+sprite $IotRTOSSPRITE [70x70/16z] {
+lTK7ibqf38HXXPOET_yBdd4wcAQ0mdBuAZd-htMZhAcf_2x7LoQ_1I__lIMTgzGeIB7Zc5bv2hFobE9XwZTCZloMofuvAMQS53FgrKozubgjCFkr2W1STtGR
+sMK0grNOuXMjfmWEn-fD9RuvPE2x2lh_Yn_uppa3hl00E10TqF_ui4OfSeB3cFlAuYHTNHGphrGGJ8qFsbVC1v4Z2B8BFpr9Fa8EGcHCBYecBsmh9hQly1J3
+xY8NGUuluYc4xv780HXF6T1_KX5D4W7Yyk84toCMNt5fDKNnoeU4T7W6UPmoLrHU_cmgIbDM5PSkTnLv-QQI5E7AQGfNfFCf4fifNVmCuVt2K6h4xcbcyGni
+kYSmCdh5iUai-Zs8qHGMhKiHQuDOL-nSSP7deeA5uV-fH1kjBzBpb4UyiRYjPEkWRV9SLiOJFDii5XNPJDdBLSM1sVFvgcMsJzT_zvnVBvpv_YFZZSJtrpH5
+gB9SapJhq_1T97OLKSTEVXPdSEMY4_sWNOKO9dGIQXL-sfzgXVtRYg94XQ549eu2brbv2lFo4gRC46lwZLppO1cPQKAkEqmgviDCQXGZALEdI9tJirjdPhBs
+Fm
+}
+
+AzureEntityColoring(CDSIotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotRTOS_tbg.png, CDSIotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotRTOS_tbg.png, CDSIotRTOS)
+AzureEntityColoring(CDSIotRTOS_m)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotRTOSSPRITE, CDSIotRTOS_m)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotRTOSSPRITE, CDSIotRTOS_m)
+

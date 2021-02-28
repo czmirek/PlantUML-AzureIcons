@@ -1,0 +1,14 @@
+sprite $IntuneSoftwareUpdatesSPRITE [70x70/16z] {
+xTHN4gGm38JXjjJg2VS_y2vOk0RN1B4vyBtpuupdJiRuJZJe_WFeUdyhiFBxMoFo_Q9z1sRarhxBBJFMliVzpwdOJwsSbRDoLixAMN7_pefJYVwaKkBQSKk7
+Ag7PyOhh2JzOSJt5kLAFa1hyI4KF782DaDShcYj02tNbYa-LZbgnMj6A-LsGzfWfLN8eqG1eM3lHwxKAnpHS0m4qBQ9MaG8fDDYOqwrO4P8fzRBLAow9dY5g
+Q40xL5aiYLt5jkM-PeN52aCfcljSkLtVk6Hb7iWOo-rUS1lBO1g8HNDuhrm_PlBlyqQdjNBbnqgVKimRtL5Q5XQm3vX_tsTyEymqGuKwB3oKjjUXeOPQnRuQ
+p7MkKihVXXwWpFORJ6bmr56RSFVGG1mHUYfm3FK4SPH_PoGrJes6xZiwD7oxPlwLDPISlW
+}
+
+AzureEntityColoring(CDSIntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneSoftwareUpdates_tbg.png, CDSIntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneSoftwareUpdates_tbg.png, CDSIntuneSoftwareUpdates)
+AzureEntityColoring(CDSIntuneSoftwareUpdates_m)
+!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneSoftwareUpdatesSPRITE, CDSIntuneSoftwareUpdates_m)
+!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneSoftwareUpdatesSPRITE, CDSIntuneSoftwareUpdates_m)
+

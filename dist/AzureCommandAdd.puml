@@ -1,9 +1,0 @@
-sprite $AzureCommandAddSPRITE [70x70/16z] xT950S103031uE_0lzl6GFbJs1Km1ucyAEkLtLLyLlvc1GK51GK51SLygvnL-bOcLPytwzzKxlykkuk2WeA2We9YlJ9vKGi
-
-AzureEntityColoring(AzureCommandAdd)
-!define AzureCommandAdd(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/AzureCommandAdd_tbg.png, AzureCommandAdd)
-!define AzureCommandAdd(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/AzureCommandAdd_tbg.png, AzureCommandAdd)
-AzureEntityColoring(AzureCommandAdd_m)
-!define AzureCommandAdd_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommandAddSPRITE, AzureCommandAdd_m)
-!define AzureCommandAdd_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommandAddSPRITE, AzureCommandAdd_m)
-

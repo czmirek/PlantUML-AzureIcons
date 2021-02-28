@@ -1,0 +1,15 @@
+sprite $AzurestackInfrastructureBackupSPRITE [70x70/16z] {
+xTDPegGW38LXJWY4SV_RRMsiEO9OTT_y5_0nnlmqZ1iQn4SQANme-ebYVw8mpIlpZZjISp1K96Mjw5gsCGCbrX92gPyLtvG1qvIIU2ahJ6xATdzTHQhd9L-L
+DeLupPvLV5EspQ2Z-2gy99szz3UptKjnpAueIBmfw6scARxKKggER8hfVJwt9L4fUFTGR6EwIZzhj2FDAzqZpIksfuXsCU8_5TvN95UzEAFaufcbQCo7WZr5
+zlzkUIXse8pd24itPUsSmcz1dSR8Isd_HDH5ck9IJI5eI9Mc6EeXc-9YgLfPxYzD6ZB_Tqb1vXL32ZAl6Ff-fZS6vcl54CnNIZz_g5L1wxJ2181kQTGnmrf-
+P2q1ame3nEzPO4uXW3y3CBqN-uuGG5DAibWT-tejG9XISlQ4_z4QMfppdB8K7U4HMKdvX9BJKlHh8QsTLXvTogNeNSgbN4hSKMHAaQGgqJp7VbX87qfaynhP
+0x74Xo2EpEb0Qp1_qJy
+}
+
+AzureEntityColoring(CDSAzurestackInfrastructureBackup)
+!define CDSAzurestackInfrastructureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/AzurestackInfrastructureBackup_tbg.png, CDSAzurestackInfrastructureBackup)
+!define CDSAzurestackInfrastructureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/AzurestackInfrastructureBackup_tbg.png, CDSAzurestackInfrastructureBackup)
+AzureEntityColoring(CDSAzurestackInfrastructureBackup_m)
+!define CDSAzurestackInfrastructureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurestackInfrastructureBackupSPRITE, CDSAzurestackInfrastructureBackup_m)
+!define CDSAzurestackInfrastructureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurestackInfrastructureBackupSPRITE, CDSAzurestackInfrastructureBackup_m)
+

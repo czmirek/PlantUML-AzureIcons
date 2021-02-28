@@ -70,8 +70,8 @@ I did not study the former repo in much detail but the Raw and C4 options were r
 ## Building
 If you want to rebuild the image collection yourself, you need:
 - Powershell core
-- [Inkscape](https://inkscape.org/)
-- java + [plantuml.jar](https://plantuml.com/download)
+- svgexport `npm install svgexport -g`
+- Java
 - GUI interface - at the time of writting, it was not possible to run the inkscape commands in the terminal only OS.
 - time. It's a lot of images and inkscape is slow as hell, but the output is reliable, which cannot be said about `rsvg-convert` which produces broken or corrupted images. It takes approx. 5-10 minutes to generate everything.
 - patince: the inkscape command froze once or twice and terminal has to be restarted

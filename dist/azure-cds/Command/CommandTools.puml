@@ -1,0 +1,12 @@
+sprite $CommandToolsSPRITE [70x70/16z] {
+xSu53iCm50DG1ylj_KyxpBuKAWX6jSMEzVBRvP4PUURdKok5N-9uUT6XiHbYmuj6nWWYwSCn2d5KEAK7oemlVJcg61b3Rr1cFAACmfIG4N5y6O4LlbKlevNE
+8adeaMPS9D5IJjcbs1N5xbRWguh3VWMceXWSKM2AYi4n1KK5twDGeKA52XKgotR-Gg7oeGadd7322IUSS785
+}
+
+AzureEntityColoring(CDSCommandTools)
+!define CDSCommandTools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandTools_tbg.png, CDSCommandTools)
+!define CDSCommandTools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandTools_tbg.png, CDSCommandTools)
+AzureEntityColoring(CDSCommandTools_m)
+!define CDSCommandTools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandToolsSPRITE, CDSCommandTools_m)
+!define CDSCommandTools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandToolsSPRITE, CDSCommandTools_m)
+

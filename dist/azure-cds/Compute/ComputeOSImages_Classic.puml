@@ -1,0 +1,15 @@
+sprite $ComputeOSImages_ClassicSPRITE [70x70/16z] {
+tTPLbkKm34NHAxILdlzu2nvQON1JdM-j7OwD7nV9vHZm7lLHo7l4xgvq8RQ7GhYIz5VO_9LYkJmsLioRi1XvaumLyYR5SjvaSmfcOo7CHGSKKZEJJQMKigA8
+tL9UKRw4LONLdYcTL4YjJHOKNLN4nl5XXMqcfMCAgSufVb1nrubXmx2XmDtoYDl8YI4fSDUiF4fAThH-6La1OLkvfNetVBY7r5x5JUytP4EfjIug3wSEgygN
+iAruYJvAH1VbgtsA6AygCL5OQQAu-vhoSFA8jWe3e7NbqKYn3GNpIbbGP461J9MgEAg0RAGOS5m1s1gb45QKY4XAIfvAPM19YOXr1QGtnO15nROLWAmuuO2o
+zBD7cppJ6GL-Si-G5VLtjbEXf8mtleJbkDtcPkLSMH5SgJoKA1UgyL2k9qEFg5utgc4b-zN6E51_PMZxkqhjefIaI9TpCPnhwA5mLYfEfP4Zd2b6EKxaCOvw
+854PXoAfCLSHx8sjndB5zY6nKILiLsChswDivlYd-mG
+}
+
+AzureEntityColoring(CDSComputeOSImages_Classic)
+!define CDSComputeOSImages_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/ComputeOSImages_Classic_tbg.png, CDSComputeOSImages_Classic)
+!define CDSComputeOSImages_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/ComputeOSImages_Classic_tbg.png, CDSComputeOSImages_Classic)
+AzureEntityColoring(CDSComputeOSImages_Classic_m)
+!define CDSComputeOSImages_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ComputeOSImages_ClassicSPRITE, CDSComputeOSImages_Classic_m)
+!define CDSComputeOSImages_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ComputeOSImages_ClassicSPRITE, CDSComputeOSImages_Classic_m)
+

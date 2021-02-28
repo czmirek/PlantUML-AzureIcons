@@ -1,0 +1,14 @@
+sprite $StatusWarningOutlineSPRITE [70x70/16z] {
+xTP7Wi8m44HHjzA__uadYanPBlUMlvi1Ie_CTh9F4VcD3j2J8_mtKYEDMKjIPia7PTQJb5c6aiS43oKeQKpmL98oQqdAB4dH69y29odzsWrZK_hpwYdAU7up
+j1CKU5x1ewYLPb7K2YSen6tNnWHw1OUYLvfDeMwpYeiP-olDeEWLN0hztJky6HIzWaFHAysZCDvkur5krmS74nnPmQ7ebMfH2F5_Xw9Nga7HA-nIn9cLuvZW
+-0e6HQOnWPMcv361cQ9aCPeoUbVxXoaZ_auO0gCf-lD5OuvUJMBMb2P-e2dCyexN9KPHABTh5DucAEgefgwnF8YnF0T94T-mgpiToCepLcCAkbuYIYUn8X9t
+AP8hCnA95wRNs6wrB6LMQlEhiUtrwHi
+}
+
+AzureEntityColoring(CDSStatusWarningOutline)
+!define CDSStatusWarningOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/StatusWarningOutline_tbg.png, CDSStatusWarningOutline)
+!define CDSStatusWarningOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/StatusWarningOutline_tbg.png, CDSStatusWarningOutline)
+AzureEntityColoring(CDSStatusWarningOutline_m)
+!define CDSStatusWarningOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, StatusWarningOutlineSPRITE, CDSStatusWarningOutline_m)
+!define CDSStatusWarningOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, StatusWarningOutlineSPRITE, CDSStatusWarningOutline_m)
+

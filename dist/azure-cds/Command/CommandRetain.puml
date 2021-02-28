@@ -1,0 +1,13 @@
+sprite $CommandRetainSPRITE [70x70/16z] {
+xSm5biCm40HHioK5vlwdNGpMUvrUnYcZw7UcEHwQEzFNAgcaaaeggPI7vlSeywCG3xNtA2qEVQkIIYhzovJ-fZBiwakKkXjkAEC-edgbHkn7gKpnM75AYSSc
+fSnnPgWGYLae9sOL2X2bTCk1qSfwXK01iq0Hwr0aSr0a0eNC38M8LiXGcO481GmK848XCrqh4n6ja3aeG9n2vg00CGgPyQ08n2dTUc2UbH68KyYKmuk8LiYW
+jJEAOuXuXGmHhv01OXJ74F4A6I9QCGmHhx02n2YI4OXHREzNKabbltr7-_YmxW4
+}
+
+AzureEntityColoring(CDSCommandRetain)
+!define CDSCommandRetain(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandRetain_tbg.png, CDSCommandRetain)
+!define CDSCommandRetain(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandRetain_tbg.png, CDSCommandRetain)
+AzureEntityColoring(CDSCommandRetain_m)
+!define CDSCommandRetain_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandRetainSPRITE, CDSCommandRetain_m)
+!define CDSCommandRetain_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandRetainSPRITE, CDSCommandRetain_m)
+

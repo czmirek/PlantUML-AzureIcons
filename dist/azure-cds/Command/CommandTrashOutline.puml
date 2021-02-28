@@ -1,0 +1,12 @@
+sprite $CommandTrashOutlineSPRITE [70x70/16z] {
+xTO3ciH004JX2jgw_srtOsEi-ZyaQRmni4dg6OdBkRJWS2cPLaXSAAvL8YvKRV9wn5SZrrGqHlHdLV9YhjfZnWEc6baionStT0tztPMy_5UDgl8KLQsjJlBL
+5xV4AUNaPMU5bUwDMNQZkZgvKuKLLbXXXHLMM6655VvJPKNX5BLT2TMKFwLQ6R1Afej8hFENH3msvFw2I8vDGfyaCF47
+}
+
+AzureEntityColoring(CDSCommandTrashOutline)
+!define CDSCommandTrashOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandTrashOutline_tbg.png, CDSCommandTrashOutline)
+!define CDSCommandTrashOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandTrashOutline_tbg.png, CDSCommandTrashOutline)
+AzureEntityColoring(CDSCommandTrashOutline_m)
+!define CDSCommandTrashOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandTrashOutlineSPRITE, CDSCommandTrashOutline_m)
+!define CDSCommandTrashOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandTrashOutlineSPRITE, CDSCommandTrashOutline_m)
+

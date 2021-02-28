@@ -1,0 +1,15 @@
+sprite $ManageMetricsSPRITE [70x70/16z] {
+xTO7ql8w38NX8zb7Tc3_wwKAEnEbZRdtxy-Khm0lSZh-02cRvOIl2Es5WYzOSOPnB4t6A2ap6ALrHZ0erHdzJsR1iDeL3EFKA8P9dPnXNAPdClQ9oFPh9AtK
+m-C_sLFQ7EKXumZDOOtoISwV9iGAdXf5IgS8qhbHKkdonYW9HwnsjZ4Algi8dnI7Skquk9S1dReyDegV9QvI1qS1sIeaTU20ywyhFicJdjtBSKzcpUg_Ki_j
+vJWpvv-YX554dM2DzC_5J1_bSdKNhCbn3PuHrVxQjTdPAE4_JFRYh-rNr2CXR1-K_OgcrCTVBD9AWxsAsfilV94f7NSgkJXZGi0oirtHql3elYoR5IlTUAKi
+hxH2f_7klbNHEfFmK2yVUAfJmysAXEUHIxEuRjMTFRrOTwY0aqix5KvDmLe5Mbyl2dOgVU5LOiMfmcrLfFQ9GoMA5ST7fnemL8b-VaNSLaNTReNs4IlXEhjP
+iOFAjVaPbN-LVvL_bNyLcYDUoiLLlDIhcyBVlvmx
+}
+
+AzureEntityColoring(CDSManageMetrics)
+!define CDSManageMetrics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/ManageMetrics_tbg.png, CDSManageMetrics)
+!define CDSManageMetrics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/ManageMetrics_tbg.png, CDSManageMetrics)
+AzureEntityColoring(CDSManageMetrics_m)
+!define CDSManageMetrics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ManageMetricsSPRITE, CDSManageMetrics_m)
+!define CDSManageMetrics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ManageMetricsSPRITE, CDSManageMetrics_m)
+

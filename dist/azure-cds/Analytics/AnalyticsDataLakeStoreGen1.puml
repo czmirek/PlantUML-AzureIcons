@@ -1,0 +1,13 @@
+sprite $AnalyticsDataLakeStoreGen1SPRITE [70x70/16z] {
+xT1LWkGm30RXakrVQhZ_UPUQIG6zxCoamlGbCOlQsjBnKpjZTiSaLPLJUrkakFjxMdNbz3bh5LiyEiUyWsigW38YW38Y0r94gYjxpLSEdzfhlXAgPe3A6PXd
+wJIDxhgR4YL9ZEmbCnL3dZHF6PYN5K6lAmOgAntmgYAWbHK3HbNf05vK1D2gYW5OFpLMAetxsZf5FAHr2WyDNwNqv7zcAuE7V9t2GygL-53dlkvncXOghbC6
+OFvw_JgTb3G7G94qGn50ZwBI08kg0k1LnO4HLQL3Yx9Y46N5GNLbqAEkD8jvoYwh-MaRvobHgdq9PLFObnM0s1SB5hMrzHi
+}
+
+AzureEntityColoring(CDSAnalyticsDataLakeStoreGen1)
+!define CDSAnalyticsDataLakeStoreGen1(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/AnalyticsDataLakeStoreGen1_tbg.png, CDSAnalyticsDataLakeStoreGen1)
+!define CDSAnalyticsDataLakeStoreGen1(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/AnalyticsDataLakeStoreGen1_tbg.png, CDSAnalyticsDataLakeStoreGen1)
+AzureEntityColoring(CDSAnalyticsDataLakeStoreGen1_m)
+!define CDSAnalyticsDataLakeStoreGen1_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AnalyticsDataLakeStoreGen1SPRITE, CDSAnalyticsDataLakeStoreGen1_m)
+!define CDSAnalyticsDataLakeStoreGen1_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AnalyticsDataLakeStoreGen1SPRITE, CDSAnalyticsDataLakeStoreGen1_m)
+

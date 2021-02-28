@@ -1,0 +1,14 @@
+sprite $ManageResourceGraphExplorerSPRITE [70x70/16z] {
+xSy7SiKW38JX5T9ASFy3fpZC-E5kI4--wIx_h33vbzHCLJ12lM92Bw7Fs1ln5cPYT7TJdFDeSUDGmGd6acwyESb8h66YyS1lJAbq8qyv4Xk85nOj7ibRjaOw
+z_bk9IzyV8Mx5H-jE5umj-n8v3N5YrGQZYEfh6HCM1uHXxYg6DxaCdCQ3aNPs-uF4Pva93UHm4oZl0fERgmXMf80vQMCvjhmXBNB6OYIL5IzcNtZcV_CVqOn
+n2vd_ZCYevbaCN6JxWmzPfI-Z4ShzMHYnUvdeXhAU6nHt9Bofi0jaRVPu9GADrZUapeE6Zifx_BFhiXdR1cl4DTvsMEupieUmNLITWIgeJ49j-InALKQZ5HQ
+rWJZcH1qa6WYZawQvuQWdoWPfE9FU0O
+}
+
+AzureEntityColoring(CDSManageResourceGraphExplorer)
+!define CDSManageResourceGraphExplorer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/ManageResourceGraphExplorer_tbg.png, CDSManageResourceGraphExplorer)
+!define CDSManageResourceGraphExplorer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/ManageResourceGraphExplorer_tbg.png, CDSManageResourceGraphExplorer)
+AzureEntityColoring(CDSManageResourceGraphExplorer_m)
+!define CDSManageResourceGraphExplorer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ManageResourceGraphExplorerSPRITE, CDSManageResourceGraphExplorer_m)
+!define CDSManageResourceGraphExplorer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ManageResourceGraphExplorerSPRITE, CDSManageResourceGraphExplorer_m)
+

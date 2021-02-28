@@ -1,0 +1,12 @@
+sprite $StorageStorageAccounts_ClassicSPRITE [70x70/16z] {
+xTM50SCW04HHNFOVkEv-nU7U03_11OP8cIJg474naTjNOggGfH97hh32YakshzXalLOCwcL5mCQii69GtPy0csL42ZPUXPNq_SANv6hkYZlwf-AEibSSNd4l
+AXRsefAWjufnYSo-8fLEegI046q1
+}
+
+AzureEntityColoring(CDSStorageStorageAccounts_Classic)
+!define CDSStorageStorageAccounts_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/StorageStorageAccounts_Classic_tbg.png, CDSStorageStorageAccounts_Classic)
+!define CDSStorageStorageAccounts_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/StorageStorageAccounts_Classic_tbg.png, CDSStorageStorageAccounts_Classic)
+AzureEntityColoring(CDSStorageStorageAccounts_Classic_m)
+!define CDSStorageStorageAccounts_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, StorageStorageAccounts_ClassicSPRITE, CDSStorageStorageAccounts_Classic_m)
+!define CDSStorageStorageAccounts_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, StorageStorageAccounts_ClassicSPRITE, CDSStorageStorageAccounts_Classic_m)
+

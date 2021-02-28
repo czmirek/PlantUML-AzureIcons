@@ -1,0 +1,15 @@
+sprite $CommandWrenchSPRITE [70x70/16z] {
+xTPN4kGW30HGOJ0cw_wdtS24daWXD9ktlyspK9584kj3QVmj9LXQYmrybq3o-CQFQLvecC8luoI8uqjA225UoIH1_6NGJkViScG_6mQDbY4OKYszHimstzXa
+tY4bp2YnL_9KMy4_9f2jZzcU9cXGw35PYXyW-CSWVP4EaV5Um2W_GD2ZGVeED0Eanz8utx_C8yJnH7yneTU8fJfOnHY8ZTkmZO5GGlk7cta3UHu9vDov2ONE
+0GD4h81nGAQK7P_SCa1EIfdOHVObOv_MmdWNHNfcG6Ez315i030TmPoT0043f2yN5Y1W6X23Oq-282Z5hoDeKbCWs4r1WU1aro5RhuID2l7SunI8yOrxl1pn
+qH7HPdtcS_O5X15Stbea6ZLI3qCwfEQm4QqZktCEpLX40Fnso7-aVGAfvjz3mYSGfq0GN2aAnFPF5GYwOjSHJ2Wf43nYWnOXN6zh26ev50Zw4ZK8bhzH85Yw
+yGb9XaHfOB2h4WdZRwzSMu38ahYdV0y3MMEGIAHccgF5-8P23At77QboYTxIKhu2
+}
+
+AzureEntityColoring(CDSCommandWrench)
+!define CDSCommandWrench(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandWrench_tbg.png, CDSCommandWrench)
+!define CDSCommandWrench(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandWrench_tbg.png, CDSCommandWrench)
+AzureEntityColoring(CDSCommandWrench_m)
+!define CDSCommandWrench_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandWrenchSPRITE, CDSCommandWrench_m)
+!define CDSCommandWrench_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandWrenchSPRITE, CDSCommandWrench_m)
+

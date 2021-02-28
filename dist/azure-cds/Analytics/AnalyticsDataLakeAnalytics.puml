@@ -1,0 +1,15 @@
+sprite $AnalyticsDataLakeAnalyticsSPRITE [70x70/16z] {
+xTW7Sbin38JX1POjzpzmgcPWKKk69Jt-fx_o3M2huu_FKqeqtCNqDVejyiYlrhbtKXVjR9GxnqaoonAVSmnAPIj2bSjc-HxHqrWv27r-eXYwUABuko9B_YEK
+dCAvKX9jJV57MabfIM5SeHLVKIoU8bf92merefLK1zda_BBokCJhMA5Gv2XM9ee9HOwIwqH1DBZEkts4ujzLShUFKX1PcOoIwqHnH9HA-NQkpXH4bgJ2h-Vg
+J24YfZ8S9UL7KZ54IIh4sqmfHEHQiIUa2AKRHIa9RojLADqeeGoU9RagfHib53rHgb91P5F5n4D6xSoPacVF8tQZ31KJY5BuJMco3C1g6nGAqannm4gxL0g0
+t8OjRaI1QCN7IWLIMrF0eKAmhIh6WLBDsx82k5QIroKb7AMOHiOAajgeNIZHNwtmH75q-Oc2bye-al6IRICLgl9XfvQWCwRdSf5jVCtMS02ttwz_nqy6UZ42
+k7PekCgSOVp1VG8
+}
+
+AzureEntityColoring(CDSAnalyticsDataLakeAnalytics)
+!define CDSAnalyticsDataLakeAnalytics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/AnalyticsDataLakeAnalytics_tbg.png, CDSAnalyticsDataLakeAnalytics)
+!define CDSAnalyticsDataLakeAnalytics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/AnalyticsDataLakeAnalytics_tbg.png, CDSAnalyticsDataLakeAnalytics)
+AzureEntityColoring(CDSAnalyticsDataLakeAnalytics_m)
+!define CDSAnalyticsDataLakeAnalytics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AnalyticsDataLakeAnalyticsSPRITE, CDSAnalyticsDataLakeAnalytics_m)
+!define CDSAnalyticsDataLakeAnalytics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AnalyticsDataLakeAnalyticsSPRITE, CDSAnalyticsDataLakeAnalytics_m)
+

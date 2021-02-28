@@ -1,0 +1,14 @@
+sprite $CommandTagsSPRITE [70x70/16z] {
+tTK5ReLW403X7tUu_sahItq2-wPfh1F1FnnAOSrnDfIBwbZSbBjg8bwfTo120I8KWK2HoBZ-Q7ijneR7aUEwwHePWGX5850KGiKW-ygWf4XTs0h58LGyGiKZ
+L3n29K468jUAHwXuX8f7g0WaKzOZse3WErIDFrhMb-OOhVOZcb9aEwuhP7A42XYDXFB920JATwRNI2ZVc7jaAUpSuFjwaq2Wl1_DOX0gmH29W5mgmG29LY1t
+Ika5KethM5F94Ppb3aKYrRag58LGUHZ14fnHwn1UtMyRp3S8Wm86IAAG8P8hP8Za2XaYkKA6IAwGcO3a2fdjHDOY532hGSeC9HYFKAaSCk7_72s_GVRgBv3w
+Vo0Z42WU8UCGmGW4Z40yCm2vO1Q124OWO3H2HY2IwO4uXeXdY7Y6Y6GIH3CT4CVao3C
+}
+
+AzureEntityColoring(CDSCommandTags)
+!define CDSCommandTags(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandTags_tbg.png, CDSCommandTags)
+!define CDSCommandTags(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandTags_tbg.png, CDSCommandTags)
+AzureEntityColoring(CDSCommandTags_m)
+!define CDSCommandTags_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandTagsSPRITE, CDSCommandTags_m)
+!define CDSCommandTags_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandTagsSPRITE, CDSCommandTags_m)
+

@@ -1,0 +1,15 @@
+sprite $GeneralCostManagementSPRITE [70x70/16z] {
+xPHNiYKn24D11B_zRtXYLtNm5J0vdbyecI0iFvl_Q87CG6H9G7eYMs8YykqobYDCAZI7QDlFj_Q4t0appnq89NUSDVf5emNhr8J0nsZpOZnvBQJNwPQTX_GB
+jXm6dsyREOTlEocSwG6v0Qg0Zyv9kvz4RL2CzwkqDaKdVh1ksy5T6vbkoWeEEJ4wERyaexdjfE5pLzvjswc_aIrU7f2I41jm5FQswUU9zP9ZRCXrKcIID3zT
+6wiaU2dhQYY5v-AeY2_2ym1Y5PayQ7B7YvPYKKBbXd4LNmLXztEZ7M7L7BVOcI9Nos51afkaMphfuB5S0vIg9EtsuA8FgW8--Wm7HFDqCYixv43f2tRspX9F
+ApXz0d7TaTTtKlaVfLqwRviyG9kKlOpnBLS3Ne4pRibTn0_jNBYvHz9ZPiLmU2byspqkE_HdS2SXsM2tdVpI8Az8dffCVqVv09r6Tk9j1omImbXxiii7T0yi
+eVZRJW3sGjs4iwKpbXHWgWAfo9b8IiqQzbE3DH21T6Xq8g4oG65ECQZy2xm7
+}
+
+AzureEntityColoring(CDSGeneralCostManagement)
+!define CDSGeneralCostManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/GeneralCostManagement_tbg.png, CDSGeneralCostManagement)
+!define CDSGeneralCostManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/GeneralCostManagement_tbg.png, CDSGeneralCostManagement)
+AzureEntityColoring(CDSGeneralCostManagement_m)
+!define CDSGeneralCostManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, GeneralCostManagementSPRITE, CDSGeneralCostManagement_m)
+!define CDSGeneralCostManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, GeneralCostManagementSPRITE, CDSGeneralCostManagement_m)
+

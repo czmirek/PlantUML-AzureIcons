@@ -1,0 +1,14 @@
+sprite $CommandHelpSPRITE [70x70/16z] {
+xPO7UiKW38Djzagu_saxADqDA0ztl_y0mfPYVQ4Hh5qejPRWDDE5c5nVa0sTHyNwZgZEpb4_vDmyeNQs5BmFQQkTG33S3TczeexoUxU72IG-Q3XwXUlc48Rl
+ZnwCw0X1rtlyiRv6JDa7BeQsAeFn53gWW46rKHGTeDemDCEs72RvMIZbmU8CfLtkGwO1kTasXgTVX6l30hRmz1q3v4n3WAp3VEioLucbb8Zulqe13nlnPH45
+j0FOFeeMQLKbib2YHG9qqyYTxIAkU8bzDbvR9zRrcBaq4IqXOYL4l8H8aX1ntoz28YBnnuWu2H6M4247r3MO3_-8YlIhTzn84XL9kyH21DS1yDEpYFdrAbSL
+UQvSONq7qqLSh_4M
+}
+
+AzureEntityColoring(CDSCommandHelp)
+!define CDSCommandHelp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandHelp_tbg.png, CDSCommandHelp)
+!define CDSCommandHelp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandHelp_tbg.png, CDSCommandHelp)
+AzureEntityColoring(CDSCommandHelp_m)
+!define CDSCommandHelp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandHelpSPRITE, CDSCommandHelp_m)
+!define CDSCommandHelp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandHelpSPRITE, CDSCommandHelp_m)
+

@@ -1,0 +1,14 @@
+sprite $IotmanageSPRITE [70x70/16z] {
+xTP7aiGW38LXG198zFtlEmMTWvv5sRlnltPzJgHqO6TdHIgNlKQTITbhx7IAr15mmWPsuWPsiE56-mtiO0CxsC3ERWCxsC0EDd3yOMHWG2V7ZAPcsf2pRUZb
+ccqvNFtQvPv91Gv4gZwKpWmShZ2x8y8Z3v8DfgdrhdKGmE5S0mapSYIbHB8A_LvqohBZZ3kkQv0uQn-jEJ8VuwlL5wFabLUOuZBDj8MTx2gzzmsdQRShGxuo
+CjzHcnVWTwhzcgax7MRACq-nHze-3NkfyQX0vTjfQk_nYB1ohpc66V4efem7ciItCfaCb4XK_0zJDHhbGvJaAn9ME35dsgyCmb5QD7Q4LINz8uLhD09A2Iiv
+7V0md60IGWG8uQVX0qxVd5EaJ3uXz6KWI20HhnHYcPY8C1Ken3ix-mC
+}
+
+AzureEntityColoring(CDSIotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/Iotmanage_tbg.png, CDSIotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/Iotmanage_tbg.png, CDSIotmanage)
+AzureEntityColoring(CDSIotmanage_m)
+!define CDSIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotmanageSPRITE, CDSIotmanage_m)
+!define CDSIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotmanageSPRITE, CDSIotmanage_m)
+

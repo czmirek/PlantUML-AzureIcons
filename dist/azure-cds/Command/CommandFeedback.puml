@@ -1,0 +1,15 @@
+sprite $CommandFeedbackSPRITE [70x70/16z] {
+hTS75keW58JXeJv0zEv_jQ-R8TKo_AVBFP-Q7Yo5SklT_jKzZekbzlumwxsNW6sXshhgiC_VDaCho1NRL-Xmwc8eFkomScgmH-JoIPtVbEoiujRBDKQ7a4lV
+CvaVrH_H-To6tv-8z0IMDapcxr_okI-C_Qjvh7At9pCY1UjYiw5xmAwdNnVavh4h4sauojt_C_ydCuuAooy1BXaYLqp0MOt8-L3Y_td5X5T37XVbrmZySrU-
+O08kwsO9BvcCwv8PNfKpNcKL4seH4ufp58S92SXqnitPBWaJIWKJgXqJwkOWvymQv9gPHOZ5vor7oNKZeo1a18ICWf3Ha3iP0N5a10Ha10G38o0Z8o0Z8o0Z
+8o0Z8o0Z8o0Z8o0Z8o0Z8o03Wykk4J8L5rKYhnW16Ha16Ha16Ha5uTj8FKKQtgaz6GKX8o5a98ICX92H438IGaP2o4W86I8AGqHWY0WC4O4X8Z5498Q8n5Iy
+x1S
+}
+
+AzureEntityColoring(CDSCommandFeedback)
+!define CDSCommandFeedback(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandFeedback_tbg.png, CDSCommandFeedback)
+!define CDSCommandFeedback(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandFeedback_tbg.png, CDSCommandFeedback)
+AzureEntityColoring(CDSCommandFeedback_m)
+!define CDSCommandFeedback_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandFeedbackSPRITE, CDSCommandFeedback_m)
+!define CDSCommandFeedback_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandFeedbackSPRITE, CDSCommandFeedback_m)
+

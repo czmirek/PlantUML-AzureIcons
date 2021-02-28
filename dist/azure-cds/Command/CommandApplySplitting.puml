@@ -1,0 +1,15 @@
+sprite $CommandApplySplittingSPRITE [70x70/16z] {
+xPNNWjmW34MHwOFW_l_NfZ2sqZI0GthslEnEEqZM1SoF1XttqorlbZUB5T09ylgEXV6AxxEyMHm3x3Sj2Psya1UoALYz4fpugSKr04WqUX8yirWyAOe5minI
+fUeD2-7YiT6H4mkFdkvEBHchawuu2OgazDGvCxKad93vYWVOw7376Y6YTKT38rKoHYG7-HIjoQYq8P6VdHfvTLiY6bMv914AAXaNB6r8kgQr7a2qcn8zydC9
+XPG2QHBJS7BC9BRrV6WIYuiqaHmuKOutBvOyiPJ1xdFBjKZhF3hStCGoFF-379yJwgWM4vyIcbdokFKZvcI_o8LBmRuiffeb_8iLgVG9qPB4lPxyuTtnXJSp
+M6yGWtIfYMKo6s6MgPLH31yJIS35piPAkF23fDiTIv4PRNIKqQIVCNHLpOga4dd9xbejLf4OOIPnfQ7b0DWDYVtgNtdPxabaSIRbatM9tCsq9n5DubRyXgHh
+JfOaf4iC0LZDMGPGehPUnCLCOWT5b-MEAZfg77ZrHdAZFPnMEugZa-TOlQZ3m2AVJdUG7RVkAe2iIVGvy21CSuYxf1vcZy2Le_ajl0S
+}
+
+AzureEntityColoring(CDSCommandApplySplitting)
+!define CDSCommandApplySplitting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandApplySplitting_tbg.png, CDSCommandApplySplitting)
+!define CDSCommandApplySplitting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandApplySplitting_tbg.png, CDSCommandApplySplitting)
+AzureEntityColoring(CDSCommandApplySplitting_m)
+!define CDSCommandApplySplitting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandApplySplittingSPRITE, CDSCommandApplySplitting_m)
+!define CDSCommandApplySplitting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandApplySplittingSPRITE, CDSCommandApplySplitting_m)
+

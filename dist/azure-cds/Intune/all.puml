@@ -1,0 +1,222 @@
+sprite $IntuneClientAppsSPRITE [70x70/16z] {
+xT130WHH40JHB3JlV-0nOsnKB7FnFdIqojlzGh8McHGONSlQUvJstvHIEZHJkCuKhhSefPGIo2IxTDK7PWphqT5E_gvpzIE_UvrIIXvJyjbAZsOArvd2zTkL
+KafnP0VNwMXSzO4bSicuckHS7_kx0vefN6SArzzJIYcbEQOqVwMC-ysK4SqKZ6ibXjkL8NIqQW8
+}
+
+AzureEntityColoring(CDSIntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneClientApps_tbg.png, CDSIntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneClientApps_tbg.png, CDSIntuneClientApps)
+AzureEntityColoring(CDSIntuneClientApps_m)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneClientAppsSPRITE, CDSIntuneClientApps_m)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneClientAppsSPRITE, CDSIntuneClientApps_m)
+
+sprite $IntuneDeviceComplianceSPRITE [70x70/16z] {
+xSnLOW0n24LHWaxtl-3wgumGgpVtBm4E_RJOl26bFFEcE5VyVSBFxNJfKWnvdvBKfwYaMPEYfTA7AFo5YdsMifI8g2eHqQeiPIbBMSfIz8SeCgtmVOzAETQi
+i2TPgoAUjPHzHZgl617fJd6-J2uHiZa5o5jbsxO-1SYK0cHA0JAd0EbNbFV8WA94PO_qAqnWW8meO80CAM2032fWW0mfO80CAs3C4oLKhb97XKWzKTBS4QjF
+AQX7CIBYQKNnEwsKNYNsIWYpzIeIDqcfOlJJkWC
+}
+
+AzureEntityColoring(CDSIntuneDeviceCompliance)
+!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneDeviceCompliance_tbg.png, CDSIntuneDeviceCompliance)
+!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneDeviceCompliance_tbg.png, CDSIntuneDeviceCompliance)
+AzureEntityColoring(CDSIntuneDeviceCompliance_m)
+!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneDeviceComplianceSPRITE, CDSIntuneDeviceCompliance_m)
+!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneDeviceComplianceSPRITE, CDSIntuneDeviceCompliance_m)
+
+sprite $IntuneDeviceConfigurationSPRITE [70x70/16z] {
+xTO7ZiGW38LXt9wpzp_mL5A94xoz_MfJFqM09SftYmqTwObYw8gF5QmJhcrqIIasXfmIb5TK3hCkHUcaTr7u4nNxAELVSVTJnTs_k_Al_2l_ohyYjzwi46x9
+6nKLt7kjmbMn-JAKLnGGkIlBcnaffHJ5FNUCAHSo09HG667Khv0XIXAA82grkXOWcb8aK98x_IxAQbCM9ZSAE4mswp2fsg-eeMQbngYPB9LX60B5Ti_OubFh
+K6H_CRcnknMR5NeNXHkbVrrcHVlNfIRMpjwyHrHEbPfk7zwQyzAXyFgmqlmsfIoFXsAkf1IqvHL5a6OKX3MAgmGPmdIhn3aUENOwKHnOCJvozR39lDMnSZ_N
+F3DUFrqUFhQAn8hks-l9eTAXKFifZcyUpRAeAXf57Wn5YlXBHoXaPbg-ULS
+}
+
+AzureEntityColoring(CDSIntuneDeviceConfiguration)
+!define CDSIntuneDeviceConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneDeviceConfiguration_tbg.png, CDSIntuneDeviceConfiguration)
+!define CDSIntuneDeviceConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneDeviceConfiguration_tbg.png, CDSIntuneDeviceConfiguration)
+AzureEntityColoring(CDSIntuneDeviceConfiguration_m)
+!define CDSIntuneDeviceConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneDeviceConfigurationSPRITE, CDSIntuneDeviceConfiguration_m)
+!define CDSIntuneDeviceConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneDeviceConfigurationSPRITE, CDSIntuneDeviceConfiguration_m)
+
+sprite $IntuneDeviceEnrollmentSPRITE [70x70/16z] {
+xTG5SeOm48RXZxK4xd_W3jBf8jbPKczvHtxbGIAux8dAz9xAWBaGCLqA_uAvCJoJpjaKD69kVYVSrtoHzLMfGs_ZeppATM91abJ8NBfahkorU8IMj5_nzIdK
+w9uoDD8VeZnAAKsbb5cXHD-fYEYSSByYvf8-XUsGT2XYv_YkedOLtr4y8W0v9wzun010knInlU8_vnNx24KYnRAAXGet5Dih72kQKpHMZ5AAVPoYl3KhmzPw
+cHmferSKbos_IQHCrGy4hhDOUMlilnRFd9yByPfO_5nez4eyHjpSaW6Yz7nfAowA5MqfjS8NAv9K95GegI1IIbhXGAbf1TBSTsjUySVnRj1AhBGP7zLx2iJE
+3RYhWEoG0BDYUbrrYezrRynA6AuRI4HKX0auAmfeGuchFWAeMtd_jMWDCbpsz08
+}
+
+AzureEntityColoring(CDSIntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneDeviceEnrollment_tbg.png, CDSIntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneDeviceEnrollment_tbg.png, CDSIntuneDeviceEnrollment)
+AzureEntityColoring(CDSIntuneDeviceEnrollment_m)
+!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneDeviceEnrollmentSPRITE, CDSIntuneDeviceEnrollment_m)
+!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneDeviceEnrollmentSPRITE, CDSIntuneDeviceEnrollment_m)
+
+sprite $IntuneDevicesSPRITE [70x70/16z] {
+xTI5SS1034HHMR7Whlz-0sQKZyBw1RpPeONBF9HOatI3OY9CGz681oL48naGZaPXKE9x_KjP7oDrLhGhBRZYodKz6_M92l8c6k9DgLks20vHYMAKfU1DUKft
+4_qGnHMHMqNaGy64_elYYdoFuWeRYYkXYHALdtjG4ZELP4PD1KEoOfm602ObjfAOgDuggdz7SKL_bi9qdMOeHeKA0L2zWW3uZLj8ZHWkyzu
+}
+
+AzureEntityColoring(CDSIntuneDevices)
+!define CDSIntuneDevices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneDevices_tbg.png, CDSIntuneDevices)
+!define CDSIntuneDevices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneDevices_tbg.png, CDSIntuneDevices)
+AzureEntityColoring(CDSIntuneDevices_m)
+!define CDSIntuneDevices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneDevicesSPRITE, CDSIntuneDevices_m)
+!define CDSIntuneDevices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneDevicesSPRITE, CDSIntuneDevices_m)
+
+sprite $IntuneeBooksSPRITE [70x70/16z] {
+xTI5aSGm38LXaRd_Vi_B5CLqlFeAUFCdep7y4mRf09_063fONI5b1KS_Pxs5UB25di013xQWF68uuAuM3fNeAtgBprM00vSFFAZq5byECbIfkQAtb2EeycfB
+eSFASWjzIGiz6MwPkPUXbU__BofhGNxqxVVIRh5xUQDxiVV5xiNknUw5u6pfNdYXHLsnUrbj2JCjyNabnx35uQ55Ghg9LwayhQWI0xkohxsI4qbfG008ZHaV
+6oCPAchCn5ns9O4_m7m
+}
+
+AzureEntityColoring(CDSIntuneeBooks)
+!define CDSIntuneeBooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneeBooks_tbg.png, CDSIntuneeBooks)
+!define CDSIntuneeBooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneeBooks_tbg.png, CDSIntuneeBooks)
+AzureEntityColoring(CDSIntuneeBooks_m)
+!define CDSIntuneeBooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneeBooksSPRITE, CDSIntuneeBooks_m)
+!define CDSIntuneeBooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneeBooksSPRITE, CDSIntuneeBooks_m)
+
+sprite $IntuneExchangeAccessSPRITE [70x70/16z] {
+xTS73gCm48LXc-bp_mElMLc9uK70R2-_Mfe_JJngb3ybKeziXUloaAWIEHHIotpQ3wzrJgO7yLLmqvxvAldSEBmQffiiCeCdZ7KGrttccMbqYrWaXa5md0ok
+7quJYvfdt-nnhysR2XDilqRs-fsUPZ7yT3ULV3tkReO4GkQj5UEz4gQJMQQ0ejF5VKLQtwW8zsHEGQJtME5DznJR9xn9RDyTHVlPbwTF5Ed8MtoYR0u-LPHR
+2k-UAFRgeIAeoFTH_YigJ2rvHIqMdL9aEOxqsnMYxw3GfSAee84AJofqHw4BXOuLsYerqqS53LGyivPj0GeWg4JPPHd-JaQ3HyNVHTfUaJE5cFbCuRrICq7f
+Hkj8mMjf-JYClf4UAf5M84Q5U0YKJ2fO38m2qjegaLuEuft2qAZWA3YCza70qTqe60rhakCkHe4r7OSBmcfct4MYbhFu9XFZ_y4i8suXKZvK8-Cwk9H7J4Qv
+Y3AlaQLCCDC8ClC8ClC8Cf5d1YBdBP5vWjHolth8P7gTVX96nCfidbidEpAPZ4p2i_J47RUw0LSoSpclj3nFkX5SlgN5iwMrV6CKiPG_gIy
+}
+
+AzureEntityColoring(CDSIntuneExchangeAccess)
+!define CDSIntuneExchangeAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneExchangeAccess_tbg.png, CDSIntuneExchangeAccess)
+!define CDSIntuneExchangeAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneExchangeAccess_tbg.png, CDSIntuneExchangeAccess)
+AzureEntityColoring(CDSIntuneExchangeAccess_m)
+!define CDSIntuneExchangeAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneExchangeAccessSPRITE, CDSIntuneExchangeAccess_m)
+!define CDSIntuneExchangeAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneExchangeAccessSPRITE, CDSIntuneExchangeAccess_m)
+
+sprite $IntuneExchangeOnPremisesAccessSPRITE [70x70/16z] {
+xPL50eGm40GZ4_t_V_4-uBqkJ9rgXS8YvekHI20d4Hifx775Hmhtb8h_jKeOs56oWcVdvkgXRwka3XmwLm_j-7H5db3H2iFz5QrW3TXJ7RlFhsZ5msSgKAAI
+AUwlQ2N8G9XhX98L319eHwU2RxMY5I2vGzo0p8TQmBTCXKBUKYaKFro9RY0-Li7G-PyAThNNLRIY5LVdH3yGwnndZecbdbAY-M9Q
+}
+
+AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneExchangeOnPremisesAccess_tbg.png, CDSIntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneExchangeOnPremisesAccess_tbg.png, CDSIntuneExchangeOnPremisesAccess)
+AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess_m)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneExchangeOnPremisesAccessSPRITE, CDSIntuneExchangeOnPremisesAccess_m)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneExchangeOnPremisesAccessSPRITE, CDSIntuneExchangeOnPremisesAccess_m)
+
+sprite $IntuneIntuneSPRITE [70x70/16z] {
+xTG7SWCX341HDK1m_mCdi1FB32PcvLx-DDUt3G4txHk5w2iWMD4TNqMHNX7S7OL10KSyAEXGvDsLb99BIMbLGRnO8Mdhd2zHqCQBtGeEItrKmbabreI9socH
+Jv4s-IsgZ4_P46FOezG_4lublwH7aNegXsXXcr5LbsBTLk4weeVgE-OwVZmcSwKzbeEoROvuUlPnha1e3ybEXLmAjJcachJ7u59WcsSHQHC0FgKo5heLe60R
+mtabvunmCc8H8G2_OYqhzC8ANaKfV1MbCeCIQI5EYMch66FAOgMBhwBaNc4jI_LAnawP9MeDTxSYIqeirg0emfgY_oWAbb-1PIKLYzoANaKfHubNmMCbUfMG
+ZtCgcBkYIq7DVM6tWXpoa0hlKKZpwNI7WjdoAwopzYX8itX1MTgzWuo5lSgabrKWJ121c_Rj1m
+}
+
+AzureEntityColoring(CDSIntuneIntune)
+!define CDSIntuneIntune(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneIntune_tbg.png, CDSIntuneIntune)
+!define CDSIntuneIntune(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneIntune_tbg.png, CDSIntuneIntune)
+AzureEntityColoring(CDSIntuneIntune_m)
+!define CDSIntuneIntune_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneIntuneSPRITE, CDSIntuneIntune_m)
+!define CDSIntuneIntune_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneIntuneSPRITE, CDSIntuneIntune_m)
+
+sprite $IntuneIntuneAppProtectionSPRITE [70x70/16z] {
+xTG7SWCX341HDK1m_mCdi1FB32PcvLx-DDUt3G4txHk5w2iWMD4TNqMHNX7S7OL10KSyAEXGvDsLb99BIMbLGRnO8Mdhd2zHqCQBtGeEItrKmbabreI9socH
+Jv4s-IsgZ4_P46FOezG_4lublwH7aNegXsXXcr5LbsBTLk4weeVgE-OwVZmcSwKzbeEoROvuUlPnha1e3ybEXLmAjJcachJ7u59WcsSHQHC0FgKo5heLe60R
+mtabvunmCc8H8G2_OYqhzC8ANaKfV1MbCeCIQI5EYMch66FAOgMBhwBaNc4jI_LAnawP9MeDTxSYIqeirg0emfgY_oWAbb-1PIKLYzoANaKfHubNmMCbUfMG
+ZtCgcBkYIq7DVM6tWXpoa0hlKKZpwNI7WjdoAwopzYX8itX1MTgzWuo5lSgabrKWJ121c_Rj1m
+}
+
+AzureEntityColoring(CDSIntuneIntuneAppProtection)
+!define CDSIntuneIntuneAppProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneIntuneAppProtection_tbg.png, CDSIntuneIntuneAppProtection)
+!define CDSIntuneIntuneAppProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneIntuneAppProtection_tbg.png, CDSIntuneIntuneAppProtection)
+AzureEntityColoring(CDSIntuneIntuneAppProtection_m)
+!define CDSIntuneIntuneAppProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneIntuneAppProtectionSPRITE, CDSIntuneIntuneAppProtection_m)
+!define CDSIntuneIntuneAppProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneIntuneAppProtectionSPRITE, CDSIntuneIntuneAppProtection_m)
+
+sprite $IntuneIntuneForEducationSPRITE [70x70/16z] {
+xTG7SWCX341HDK1m_mCdi1FB32PcvLx-DDUt3G4txHk5w2iWMD4TNqMHNX7S7OL10KSyAEXGvDsLb99BIMbLGRnO8Mdhd2zHqCQBtGeEItrKmbabreI9socH
+Jv4s-IsgZ4_P46FOezG_4lublwH7aNegXsXXcr5LbsBTLk4weeVgE-OwVZmcSwKzbeEoROvuUlPnha1e3ybEXLmAjJcachJ7u59WcsSHQHC0FgKo5heLe60R
+mtabvunmCc8H8G2_OYqhzC8ANaKfV1MbCeCIQI5EYMch66FAOgMBhwBaNc4jI_LAnawP9MeDTxSYIqeirg0emfgY_oWAbb-1PIKLYzoANaKfHubNmMCbUfMG
+ZtCgcBkYIq7DVM6tWXpoa0hlKKZpwNI7WjdoAwopzYX8itX1MTgzWuo5lSgabrKWJ121c_Rj1m
+}
+
+AzureEntityColoring(CDSIntuneIntuneForEducation)
+!define CDSIntuneIntuneForEducation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneIntuneForEducation_tbg.png, CDSIntuneIntuneForEducation)
+!define CDSIntuneIntuneForEducation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneIntuneForEducation_tbg.png, CDSIntuneIntuneForEducation)
+AzureEntityColoring(CDSIntuneIntuneForEducation_m)
+!define CDSIntuneIntuneForEducation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneIntuneForEducationSPRITE, CDSIntuneIntuneForEducation_m)
+!define CDSIntuneIntuneForEducation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneIntuneForEducationSPRITE, CDSIntuneIntuneForEducation_m)
+
+sprite $IntuneRolesSPRITE [70x70/16z] {
+vTPNWbin28LXu1nmzh_YC9LHheJnf2VVeyklyYBahw004qo_8q4MoAU0wJixIh-WFCZe6rHvXFg1FC9FA7Fq8yYKUKEclCFlkTeYCuYMoOX7Yp8IFPS9ZJl-
+quhyaehB2AC56R5RIsKckaZ84BgAoLGJSHcpxxcLWkyvJ-4-0daClozIX_hoZRgJAIF1jU6WVUAX5sMyDG8YJ7YiaLII6c0goVZCP49FamRVoBDCdy7BMbyc
+1xMaJQJOwHjxCtdckNzs2Il7dHJTJG2mXTwT5N3T9IsrdUPbrphCnftPnzQpLkEu7Uk6bJwIsjbdMO4yTHZomhfXXP6SoJPGJvrtmqgyLNRRyKZzwwoIK9Ng
+LACgx5v2hygpQd1zlEEahinPwa8-LgmR1dcj4BMFgZ1EMFlamkDIyJWIsrK0-gKIP_1h1MPOjxDSIwiQ2MHQAhWDH4KIrjkHn7a5PbMfZYIVLc2fAjMH5BCA
+h80iBvNRHC1E5VgmaXp7YevFbBYlM4qhCxnMqCs3_UrKHOh6lECVAoeB1SVmLZ7vBiyLoFTIKEMFzHK
+}
+
+AzureEntityColoring(CDSIntuneRoles)
+!define CDSIntuneRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneRoles_tbg.png, CDSIntuneRoles)
+!define CDSIntuneRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneRoles_tbg.png, CDSIntuneRoles)
+AzureEntityColoring(CDSIntuneRoles_m)
+!define CDSIntuneRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneRolesSPRITE, CDSIntuneRoles_m)
+!define CDSIntuneRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneRolesSPRITE, CDSIntuneRoles_m)
+
+sprite $IntuneSecurityBaselinesSPRITE [70x70/16z] {
+xTVfji8m20JW1f9Gy_xlwoxbzgHpAUxB_FSxX4dL3g-TH9pB8KmfR70noJ67ZfyzvZnGO91yCZIHSTWOPXxsEubowI77PFeN8k9pAMeeOfAPcH8w1YOijQpa
+RaetAvLodQ94NC58HOgJs0SfpZbMA60GXu8Dju8tub8mubKmOPK4583u5K3u5T3CjOeI8KNdk5fH8gXWHFnANJHahmm-1HXOiGH4fEGbXMmp6Ac5bvJaEinP
+eM4f6SrnpAHm9zDYviJO_14zKfsbhSYemzn0ILShEiprof3dohWYrToyQYEq9kOn-8F457icsIUgQ4zoXQAhaKdXl4xHkaKcXLlR4970UbInZ5LAQus9y5LH
+fJUDdGKfTXRBNBSNNV4rJLlcEaNVIYvAu4IQFLEFszsqCT2qhIhUj3tLrFG6AQ9ABtngccDxqP3cavJhzp9rDCOx6gwwBvghxgwc_npzxaiYVzBmKja1
+}
+
+AzureEntityColoring(CDSIntuneSecurityBaselines)
+!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneSecurityBaselines_tbg.png, CDSIntuneSecurityBaselines)
+!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneSecurityBaselines_tbg.png, CDSIntuneSecurityBaselines)
+AzureEntityColoring(CDSIntuneSecurityBaselines_m)
+!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneSecurityBaselinesSPRITE, CDSIntuneSecurityBaselines_m)
+!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneSecurityBaselinesSPRITE, CDSIntuneSecurityBaselines_m)
+
+sprite $IntuneSoftwareUpdatesSPRITE [70x70/16z] {
+xTHN4gGm38JXjjJg2VS_y2vOk0RN1B4vyBtpuupdJiRuJZJe_WFeUdyhiFBxMoFo_Q9z1sRarhxBBJFMliVzpwdOJwsSbRDoLixAMN7_pefJYVwaKkBQSKk7
+Ag7PyOhh2JzOSJt5kLAFa1hyI4KF782DaDShcYj02tNbYa-LZbgnMj6A-LsGzfWfLN8eqG1eM3lHwxKAnpHS0m4qBQ9MaG8fDDYOqwrO4P8fzRBLAow9dY5g
+Q40xL5aiYLt5jkM-PeN52aCfcljSkLtVk6Hb7iWOo-rUS1lBO1g8HNDuhrm_PlBlyqQdjNBbnqgVKimRtL5Q5XQm3vX_tsTyEymqGuKwB3oKjjUXeOPQnRuQ
+p7MkKihVXXwWpFORJ6bmr56RSFVGG1mHUYfm3FK4SPH_PoGrJes6xZiwD7oxPlwLDPISlW
+}
+
+AzureEntityColoring(CDSIntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneSoftwareUpdates_tbg.png, CDSIntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneSoftwareUpdates_tbg.png, CDSIntuneSoftwareUpdates)
+AzureEntityColoring(CDSIntuneSoftwareUpdates_m)
+!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneSoftwareUpdatesSPRITE, CDSIntuneSoftwareUpdates_m)
+!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneSoftwareUpdatesSPRITE, CDSIntuneSoftwareUpdates_m)
+
+sprite $IntuneTenantStatusSPRITE [70x70/16z] {
+rTRNObiX30PWRJ7U_trR0eaEZcd09rtVJIO_aZna-3-GYFuaZF0g5BqWU8deJ12EeNQtoY5zXiyhkH-ZtRscM9Vkz1FuJYdX_bHCpGZsqAUZLm9xk1zSWJrY
+uRUb86pHRqcHRqlvLwPBzYiAc-oHctzWsAJpqHdiGbyJsAQ-OWZRq7o1u03UwIUGFwDmYEvK4iZy0PzdgB94GFAah78sMzO6aSnJuoROTpyThm32oT7EHuaF
+2LTyif58msCfWno5A6CW3NAsYZ28RiUWpcXgQ3T6RIOnMvlnoHjkbBAz2SW-OUp87kd1DbFinBgKQorvNE2f55UOiJqnvZiowf0kFnHPbpBFboEaIzSV-Eij
+T6cenC4o_R0gPPulpQKqfLxeOfNDy-LHoafQpJRG-smVJgPdBQajCDAp5A8Qeg7r7XD_KuSyhlV-a3SRIvLiIYcO-a2fVGyJzYNpAKM0MqD0u5L1KWE3-9VA
+noHBpK05A0EMjnvZB5_AuucA85L1gm22ZV86tz2V6fW12a5kLT4exoGbfvG8h4tcxRn2wkNjfiIof_vKrLP3xyVXB2K9SxkU079zbo5usbB7xHJFVeB0QKlk
+9r6daA0dCQb4o4py86OAcT4MBZ5OWfTHhbs2Mxms1ZTfB90xo17-OJy
+}
+
+AzureEntityColoring(CDSIntuneTenantStatus)
+!define CDSIntuneTenantStatus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneTenantStatus_tbg.png, CDSIntuneTenantStatus)
+!define CDSIntuneTenantStatus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneTenantStatus_tbg.png, CDSIntuneTenantStatus)
+AzureEntityColoring(CDSIntuneTenantStatus_m)
+!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneTenantStatusSPRITE, CDSIntuneTenantStatus_m)
+!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneTenantStatusSPRITE, CDSIntuneTenantStatus_m)
+
+sprite $IntuneTroubleshootSPRITE [70x70/16z] {
+xTU7ikCm28NXWm19UD__URVTLCQ7iBt-qrE-aP5IZEV-9pXBrCnqe9c5uon_owHXo8hOvy_urS6hR4U4eMPSNYuaOW5DXYyaGl2Q0Mt5vnnupIX8_ePieCEG
+BTTuIr6cvJN9VaCMwhGUy4KHrFarvQFT-RcXJ74wsYt8YYlPQoV8sHEQbgw5ulISM9g0SOKZq3H8lqSGgboFc0ox8zP787vbnXj8TjeIGhwRFAV81t-2ffCr
+4h9GD3dJHw0Lan6ULKn6U4uLbnBfCr8W_OlQ2QaQJXc24CS-GMuwSmofkPaJV4NwVHZxhPZvFHYFbHN7boMwZkFuDcOURmLX-aZDz94t9kTTvAc2wIDR9cFw
+o350cJuo0Svm93Lmoim6aXN8obc9v0IKwIE6IuCpVQHcQkHfXjfXZ2ESwI8renqavpkdJQHcbk1UXTJChFOdW2OZZyoxfm8qhoQp4i9RpuhXiQ18pHWomn7E
+32I68vnPm1bpPBnc1awOX70cYZlXI0ZFTqJiWMzD1lxcFW
+}
+
+AzureEntityColoring(CDSIntuneTroubleshoot)
+!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/IntuneTroubleshoot_tbg.png, CDSIntuneTroubleshoot)
+!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/IntuneTroubleshoot_tbg.png, CDSIntuneTroubleshoot)
+AzureEntityColoring(CDSIntuneTroubleshoot_m)
+!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IntuneTroubleshootSPRITE, CDSIntuneTroubleshoot_m)
+!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IntuneTroubleshootSPRITE, CDSIntuneTroubleshoot_m)
+
+

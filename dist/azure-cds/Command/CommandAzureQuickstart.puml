@@ -1,0 +1,14 @@
+sprite $CommandAzureQuickstartSPRITE [70x70/16z] {
+fPPNZWCX6CPWUkV-fzs2qXECDVbUV-Irl2tXRKVwNmoVr-Rh4YhhyhErTDxlNuEsv6TTuJhbwrY3nFpiA5oRVDr3RMD-DnMkMxws1AYt7I2jRXiJffLj5qYh
+stQGrhSz8ArkEq5QtRQ5jBxjdcz3-AhjU4bhsuxmem9fJTiLqkgsFQJrRGz8gzlEa5QtRI6jRxj3Mjrsz6d3MceR4wJLRHT8gzjUqkuRRAIszxIyjTfsa11k
+UpW8jvqTXDl6jLZq0jdWvxQ-vGroQRkSWq1R3u6s4i8VIZpaVDlv3g6s7i9jFOJRUWYtzP1xstdwi553kbJUyb4xxV6DiWAbiP18AXOI9bAnaB1i7tRSLH32
+soyg6bB-d36__wDX2AimX5KMWdWL1V4g0q2qoWLo00HK0A9L6E9L6E9Lxf0cVA7I0qIe0CIh4CIh04Ihp03nAb50d4e74AS24Az24Ay24Az24Ay24Azo3l8B
+}
+
+AzureEntityColoring(CDSCommandAzureQuickstart)
+!define CDSCommandAzureQuickstart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandAzureQuickstart_tbg.png, CDSCommandAzureQuickstart)
+!define CDSCommandAzureQuickstart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandAzureQuickstart_tbg.png, CDSCommandAzureQuickstart)
+AzureEntityColoring(CDSCommandAzureQuickstart_m)
+!define CDSCommandAzureQuickstart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandAzureQuickstartSPRITE, CDSCommandAzureQuickstart_m)
+!define CDSCommandAzureQuickstart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandAzureQuickstartSPRITE, CDSCommandAzureQuickstart_m)
+

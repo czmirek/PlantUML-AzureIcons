@@ -1,0 +1,384 @@
+sprite $IotAzureCosmosDBSPRITE [70x70/16z] {
+xPVNTgqm44EdkV7__tkJU0N46976URpxxRGTQS1s413o0ZHKdcDXyXmFVqMXU46b-E1vdm_yuMHtJFw6ciSPDyqVc-Pl-_75FDQCw_59xTisjdTwCH5pybMW
+-DWEHUdRI1IFAouaqE5eK83gFzB89tLmjXfkgefvBjV3y8QFBx3BfLMw0c9yIQmDZAt6CixqIPvoJhDEHXT9tu6fXdlu4aREn9GdHsOqaubzOPbH824Szu4o
+2sZPaK448tC1yPK4KuN6sG9U9Msdl-EfFGhfRHH8uCbtrtqXI5R79ROkDntmEqb5Z3GPPrUemf8a1P9KoLWKwJnADU7GdLfPbFgE0BQWCv4iaBWmz6Qpzmyi
+QfB0mYH-bUpUQBkbtblk94ZdsH94KlXHQkUE9LcgyZf1QngKsH9SehAop3jRgZD99KF9bjgofjZbJE-Lta1cSg0Mi4nAPFeehAUBvJVBMNDi3tMN36Tzvc9F
+J4shhRQTtifqb7V9O55iBlQ4jfKQaxds6uaoupaD0yf9SXaBhlr2i23HnqH98PcO98m4AP-IIWePjKHV7T7wG9HiGI7FS-dlj0v7xNsaA7micWlrgQdnIJia
+ct8B2TEcemI2x9BXygK56gtCWJxqTZdmIPG-K2NAsJ7wtGvgota21OOA2MFz_xUsMkBi68acd8Y9kvcvnvdI5iTMvC2NJe0gG3S1wxfnfXXN8lznaupv-bWI
+OwMv98oT0cPpC7R4jDAsRKosqO9TMtY_nAAK6UtB8_RvavdfumV4XtdKyBJs09o43u7a2OQ9FE5f5AoZvvXypN_U
+}
+
+AzureEntityColoring(CDSIotAzureCosmosDB)
+!define CDSIotAzureCosmosDB(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotAzureCosmosDB_tbg.png, CDSIotAzureCosmosDB)
+!define CDSIotAzureCosmosDB(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotAzureCosmosDB_tbg.png, CDSIotAzureCosmosDB)
+AzureEntityColoring(CDSIotAzureCosmosDB_m)
+!define CDSIotAzureCosmosDB_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotAzureCosmosDBSPRITE, CDSIotAzureCosmosDB_m)
+!define CDSIotAzureCosmosDB_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotAzureCosmosDBSPRITE, CDSIotAzureCosmosDB_m)
+
+sprite $IotAzureMapsAccountsSPRITE [70x70/16z] {
+rPH9jYCn20GXcQhlV-0_wrbb2OnwvrXv36KYNj6Rm828cga8mFG_GEm9mQb2ROlYm645E7BKddF7UI-r5jALrEYHv5p3bWDTD7oSH4cADDqwJEYLalfAk7LJ
+i38AKMV_-EMoIgAViG8fmhQ7OboaHJiALx_fHW6gJP3UQ0NWwgZMlYc61LQ7CKynV4FVSFABKSXp1DzmTHZJ3-8fYb-gtyaeLFSPOL1LuYhAR64lAg6ACgX2
+exO8S0kZXKNAFeDNurLFm0pdWz7gYWGtNknTFjebZ1rRi5ZImSoMjSzI2OSMmmAdWqcdArX9JymiYWtCRAb5Oy6necw0nWQbBoGMbZvYlzSciK7e2yGpXZls
+67bi07rJzn6RTyXZXNwmeezwn3nqZGMZ7oJh8t_-AOmaOo7YRHInAVrZZMA1wPTRMHrD1hF6ri4u_J6NzQd9HWFRRCjQIMIAiMfKrq9h61-Ap2ERA8DeiRFG
+XFOrleaoYAj5kDljFTt0rTPS4w0xsjNC5g5dhAjvb3TQyUiGfmqSPvAWBNncOKhmapevrfKOLKXF8bJ3tcZ3z194xGXG2pqeKtl-RRcKZc2DPqKeqpcivXxZ
+WQ1Cxy4d
+}
+
+AzureEntityColoring(CDSIotAzureMapsAccounts)
+!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotAzureMapsAccounts_tbg.png, CDSIotAzureMapsAccounts)
+!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotAzureMapsAccounts_tbg.png, CDSIotAzureMapsAccounts)
+AzureEntityColoring(CDSIotAzureMapsAccounts_m)
+!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotAzureMapsAccountsSPRITE, CDSIotAzureMapsAccounts_m)
+!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotAzureMapsAccountsSPRITE, CDSIotAzureMapsAccounts_m)
+
+sprite $IotAzureSphereSPRITE [70x70/16z] {
+tPXTqjiw34C94fHyzx_WsrPVC55CntBYFlKyUPJX6O3vjoq1x2u8aenxek23k2a9zxYXyKYIDY2PuL-i8rCIQJ8_MX2O0z9rvDGPhZjaCHEoNFH4Yc8HOGiy
+9qWy0p8dS5sIP4pFUSxukeqW2KMHPTsAcKKJZoJriRL4a28BNDSHHR8evVanNYJ8Bu3joAyec_qAtbkAmDK-v2BCCWfX0-U5v-d40RW3Pk1gmN7iS3C41u6t
+UKAMR9N9CNbQHM6mcuzmc1ol7eD7x5nQNNlXnunWOTX_qrvm6t1l2PuGUmkjg8U5fvG15RfXKQMuQmcjvPQ5Vy-ITosff-YMfVsBbhfTh2oeswqMNrdyoCB-
+IgpUZT5VuP65vZp1oq2OML4t0q-0jICB-WwtE2laVGViDyMTXhCeMR8FMCCut-0r2crGpXlUTOhQlxlzC2OpioqxgSyyO0-o9mSfJnYE9I679dhAuaaoSvoM
+rHmk9Qc9zFd7h6ojQggaQJh9K1IIwiPyBWtxEfBqf7eCkQxiAMn5KoIDT9D6OHvd2hCzw648EG8McqYc2Nz408bY6T3CjHBZLYsQFiuY4eOOGQ3Zeop5GhPj
+ehl17UPzcsYJ9SZfGXBsJIYEWaoMUIBgdbLeZgCWJvACai19EX19fYPEwIGpW35emZcGP4rFFl1wAo2sot0GXxSsS3KBD75Cko9fjYBwCaYOM7ZkEUJvxmtT
+xGF00r4Zx5CGhMyIRBs5tG3kwmI_
+}
+
+AzureEntityColoring(CDSIotAzureSphere)
+!define CDSIotAzureSphere(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotAzureSphere_tbg.png, CDSIotAzureSphere)
+!define CDSIotAzureSphere(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotAzureSphere_tbg.png, CDSIotAzureSphere)
+AzureEntityColoring(CDSIotAzureSphere_m)
+!define CDSIotAzureSphere_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotAzureSphereSPRITE, CDSIotAzureSphere_m)
+!define CDSIotAzureSphere_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotAzureSphereSPRITE, CDSIotAzureSphere_m)
+
+sprite $IotDataBoxEdgeSPRITE [70x70/16z] {
+xTH7OYCn34JHGY5fxd_W2GfKSwW0q2k7jt7-1j41NzIF7rJp-ClTADWY5XCd-YnMYXx6GuOEZITSKERn7AeiNt3KC5yob4I-9YZmVCDtphFYnYYhm6kYbWNo
+CX5PevsxfBzVhdFq5wFPidEQbN5hafKJCyajWVN1YRDiuNmUTxloLaWnHDXaAwFsFyywmPdOolDK5IEoybEPuYyR2EnaSbuA09gPsbcKCuJS0bJ1NwI0TbQk
+s7KKmKHxmmJiJ35fRYPfjWv3Qnv9xui5X2h7IbPdkLHKnet3aQal9ex7qSE6FbYnZOgT4MUyVyvM1MfdEeOP2wfN7FEL5XcrHaN6lyKHMnKVjoanwLJoFFsh
+og_tJdBu2-4b9MOKgrTIS4ORncZbYkD6btTTjPB4dTgYK3cv0YXab4y9LhI7Y1xHQgKV8hwu7p_-
+}
+
+AzureEntityColoring(CDSIotDataBoxEdge)
+!define CDSIotDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotDataBoxEdge_tbg.png, CDSIotDataBoxEdge)
+!define CDSIotDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotDataBoxEdge_tbg.png, CDSIotDataBoxEdge)
+AzureEntityColoring(CDSIotDataBoxEdge_m)
+!define CDSIotDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotDataBoxEdgeSPRITE, CDSIotDataBoxEdge_m)
+!define CDSIotDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotDataBoxEdgeSPRITE, CDSIotDataBoxEdge_m)
+
+sprite $IotDeviceProvisioningServicesSPRITE [70x70/16z] {
+lPRfOkqW28I16Rmvx__0tRACzIhf_lqwDMGOC5BjrmcGsLv84l4rXMm3-Labj0MmZ-9iugiwR3U4tHBj7dxAI2BStseCy3DsF2-9CT8ZfRyM0CDFD_IgxtYB
+nYIcFLxOQ9QjfPSbquoFLz86_ZrsQDvmbk3pzXyfNsZsZdoSk3gqQADRND6qdkrObSksCx4ZAuCPVuphh7PZKxZr_AVIJcgLRR7EGSLlAn8SkvkL5tKtLZkz
+4yKHNkmq_TZhJTeiJmpFbAwrjs0FXdK4CtDUaUtHRWOzn_hWt8m1TjqlEe1Y2aJsmyRLWKMsSg2z7zKsfnWcLtRzmNL6b8EHlOeN7Sn95hLYA6-1pa9H4cxc
+Ugo7BQN2NiNTRQ2O_D0dale9wHsI0AI2kGgb4l9EWEH7_fk5bjKwj0bPU77rIogytYG1kBkyLfiqzS99GgtNAki3bRAohYZrQiogHsiaEVFYunx1LXnXc9W9
+lSfQXQr9RG2t9q2cSIMEzGceJsEs77-AlklhKGUc7iZMR39OBahIxgc0nG4e9gPh86Yx49EsBAUtrDjaJyPlJivpDPx64fltLZ24nxmYzbQgURsOY5JOv6R4
+yIMifX084r9H0J2HE_wnspsxLwm3MgkWsirPthoJKUdiqcAy_-_GRl3IUrGog-2m4QHCte0Y8yzdRYKAB9_MTZmbKiYKTXo3I2MJZEjBsxQ6KQFsonHmNO_R
+VZVj7jxjeN1TxDCiEy9gN0bf_hXmwn_S4xnSXrHWCRJiWpemIeKM2urAX-JeXIJSFeK7yBulGDZNwFVew-Xx-JBwTcb_mZC
+}
+
+AzureEntityColoring(CDSIotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotDeviceProvisioningServices_tbg.png, CDSIotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotDeviceProvisioningServices_tbg.png, CDSIotDeviceProvisioningServices)
+AzureEntityColoring(CDSIotDeviceProvisioningServices_m)
+!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotDeviceProvisioningServicesSPRITE, CDSIotDeviceProvisioningServices_m)
+!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotDeviceProvisioningServicesSPRITE, CDSIotDeviceProvisioningServices_m)
+
+sprite $IotDigitalTwinsSPRITE [70x70/16z] {
+xSo55ODG40J0S-Y_uUYpFE3lnMsdW94pzKH21ObiW4jsw4CM-xY52nVz_8LBTN1P5tx9zAPbmHwon6CM_V5bMlYaPVh9XSkyyB25YynBDopra4MYe83BaiR2
+snSkNBXmuI98D3XSp0CnbRCz
+}
+
+AzureEntityColoring(CDSIotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotDigitalTwins_tbg.png, CDSIotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotDigitalTwins_tbg.png, CDSIotDigitalTwins)
+AzureEntityColoring(CDSIotDigitalTwins_m)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotDigitalTwinsSPRITE, CDSIotDigitalTwins_m)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotDigitalTwinsSPRITE, CDSIotDigitalTwins_m)
+
+sprite $IotEventGridSubscriptionsSPRITE [70x70/16z] {
+xTXNOeGm38JXaKO3zxznLcHxjmMf_jxvwM0Rsnge56mMIaIQohweCYhgS5jnDFErAgF22DhBYk4Pry9npiug7ebuIdk6Supam6ksG-q5-kZomIv4gfMCa8nI
+HVj7mBJdtP54BQ8GIHPIU25omrQ8X7Qi6D4dhnz9UhBbQphmLIhSjBB_OWZFwC1HoFZD9w8hmvUHvAyong03NHb6XE56KyOr9TOo6KdUdB6JcFQ4jim3M2M3
+DiupclQ40flsY0hEYq2DQPv5F1PAWGwXn9kHHnFxZIEoKL67NpFB6fNQ2W4ZEROrV
+}
+
+AzureEntityColoring(CDSIotEventGridSubscriptions)
+!define CDSIotEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotEventGridSubscriptions_tbg.png, CDSIotEventGridSubscriptions)
+!define CDSIotEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotEventGridSubscriptions_tbg.png, CDSIotEventGridSubscriptions)
+AzureEntityColoring(CDSIotEventGridSubscriptions_m)
+!define CDSIotEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotEventGridSubscriptionsSPRITE, CDSIotEventGridSubscriptions_m)
+!define CDSIotEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotEventGridSubscriptionsSPRITE, CDSIotEventGridSubscriptions_m)
+
+sprite $IotEventHubsSPRITE [70x70/16z] {
+xTW53iDG281XzDt_o4k5agNAOpw-UEMlApnNOHq8XuaE60OjxKMLgcY7TOKWZ5vRgGhQAD7PQHUz0YG3XXcfOJZ3CY1muOhxnmhnZ3ALje0GD92ek5-f81k4
+TOKk7Z5kHjOL7qcX2lACxaTogE9-feApL4MR2LLGpEfyMOty-UieVd-9NqVvYYmo5VSz5T61z5HazSJ1U0NttuAe6VwmDxAgQ8Ul-SggIkuFWNy6F5Ev0G
+}
+
+AzureEntityColoring(CDSIotEventHubs)
+!define CDSIotEventHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotEventHubs_tbg.png, CDSIotEventHubs)
+!define CDSIotEventHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotEventHubs_tbg.png, CDSIotEventHubs)
+AzureEntityColoring(CDSIotEventHubs_m)
+!define CDSIotEventHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotEventHubsSPRITE, CDSIotEventHubs_m)
+!define CDSIotEventHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotEventHubsSPRITE, CDSIotEventHubs_m)
+
+sprite $IotFunctionAppSPRITE [70x70/16z] {
+xTHPRWCn38DXIeeGt__2NOsw6c90n5Nty5dvy6SRxEw-ECut42V5VauAEbBGaM8TATwIWeuKTAHOHugtfDpoofh2Y4v2Z94bXJwK72CqifXBcRyXn32oZhmW
+GHS26JPJ686DnIY4KmnWHYD67men6a7G-o5689G228OHJZ48XX5ESK0mX71A089XX5C0mJ32AGR1CC8f3aY6aPLoFcOOWGd4gSOPGMYaCdvbn2HoPAwlIhf8
+EVjBvQjYpqoMJ87Kwdn1yCHa2GsD0Ei9bCy8W3nyylv-8P0dPdwciHXQA2G0I4OZq4neH38rHIBCS8gT89hH23GJ6e5cDX1cOWDX9kTkG9Y9d5C8C-l62a87
+cYafXhA520OhXH1W8c8-jOhm0Q1dXEmiTX5E2NniqO5O1uBeGAm3GH2obt91Gqe3OXq8FD2p-nu1
+}
+
+AzureEntityColoring(CDSIotFunctionApp)
+!define CDSIotFunctionApp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotFunctionApp_tbg.png, CDSIotFunctionApp)
+!define CDSIotFunctionApp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotFunctionApp_tbg.png, CDSIotFunctionApp)
+AzureEntityColoring(CDSIotFunctionApp_m)
+!define CDSIotFunctionApp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotFunctionAppSPRITE, CDSIotFunctionApp_m)
+!define CDSIotFunctionApp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotFunctionAppSPRITE, CDSIotFunctionApp_m)
+
+sprite $IotIoTCentralApplicationsSPRITE [70x70/16z] {
+fPK7hWCn20MNyhZ_ZN-rXFMy8EICwhO9JDh3C18XpwSWVi1d3e-5tpiqDlJE8K78NH06bq4OlmrYpsCtUGJ74liPcGVXeC9vva6qsjBdGRnzWN6G_heCWkXm
+LiOYiOSOtgRDUp0TMUZTtH5LFXElURG9edyqQocVF8k9BlWTyJEE0HI47EdXFC1k0QfbalCD0TXI3DAEqrZOmPwvHKlc5j46wItag97EWZMjkhR0MWiW_nOt
+BV68sh9m-REK7eieBU90ZgF-Xxw0g2n_A5bo779KbeMnXJqUqLboBRQuxq5QIw9fOG-YiJ1sMjnocSP2QnqMDu-1XT5Z5CUr9Tyb_m7t5ZDTblICBVnnST9C
+BUb8Ithc5jF44ymj957VcLjs1riSCuieuOIIPQHXYrI_tjPwU93A0YXv2elr_sgTXvPfBU1xX2rAr_smx2Tu75g67Y9BiTQoy0M0BUBeF6SGHI9ykiXJ17cB
+O7IbngfNxDVYPVhRXBRjR-6HcppZ86sUUP0-ppn8-s6O1-b7vo1ZzgVOEeGtQ8BCyzmimtaIV-uGfo2NA0MvnIZ8BJu8yWq
+}
+
+AzureEntityColoring(CDSIotIoTCentralApplications)
+!define CDSIotIoTCentralApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotIoTCentralApplications_tbg.png, CDSIotIoTCentralApplications)
+!define CDSIotIoTCentralApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotIoTCentralApplications_tbg.png, CDSIotIoTCentralApplications)
+AzureEntityColoring(CDSIotIoTCentralApplications_m)
+!define CDSIotIoTCentralApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotIoTCentralApplicationsSPRITE, CDSIotIoTCentralApplications_m)
+!define CDSIotIoTCentralApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotIoTCentralApplicationsSPRITE, CDSIotIoTCentralApplications_m)
+
+sprite $IotIoTEdgeSPRITE [70x70/16z] {
+xTDPSi8m48JXdjtS_y3PLQ3OqWZ9sVEzClLNsm3wY4LKHOGnYzLkw5H8REVk3gaT8To3hLYOezOaQv52roFZQyGIZ1nPYf2od0uzp_eOi_Kn93Oa-VSDuko5
+h3mIczy5HzHRLDK6AwqXvVd5twDTWreHfUQ9qEWInHNvZb7sJlQhsRiTzWP1HRjpBPbIY1-nP8gZw1vQVugXHhtlmAUt5BB_B7ylUu164wFIlXHODDLZk7C8
+ZpR5LVUGeqTGa4Q7UlIKdpWdPnPz9ioQ7Rb6mbGzCd96nN5EnK-e66JhSrNV4WB4UWM0B5SCJsArGdX2MIK6fW2yL0cyaPKAeU3v2kEAOguIX8h4HCMn8t4v
+uAfnEHQCG-AnRIELBLm9uqIJy__A7BORiocoojgKWhwo8kTKlF8RAb7v1HNTAemfibK8Swg8OnAf5wReUGG
+}
+
+AzureEntityColoring(CDSIotIoTEdge)
+!define CDSIotIoTEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotIoTEdge_tbg.png, CDSIotIoTEdge)
+!define CDSIotIoTEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotIoTEdge_tbg.png, CDSIotIoTEdge)
+AzureEntityColoring(CDSIotIoTEdge_m)
+!define CDSIotIoTEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotIoTEdgeSPRITE, CDSIotIoTEdge_m)
+!define CDSIotIoTEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotIoTEdgeSPRITE, CDSIotIoTEdge_m)
+
+sprite $IotIoTHubSPRITE [70x70/16z] {
+rPPfUiCm24GPOEZzJznTuNFmGgLqU_xJ9iep8oTZotz6umvYmi8e_8W5MBR0-OgjMOoVOC6YlB5WOR8DvNrBZbA7mK0lBLOi5NpDWbcBFcGMCB49Ius4UOju
+1fgsv3GHEcD9e0hcgYbBBkMvXNADHOJ9Bchle5jBa4KoqtfVkooGcLIMYLUWvehLJFnWPIRd3Lkqh4vZl2gj18gJAkzbqgFp0CeDVZsqZa-QESbuXrjQ3Hc5
+hiNIiKCtaLSBwMOAeB-xEOkR0fYxqdg-fdkXdV5--D4FYUEG4-0Hnpt2zlENkhiUTw-gkTbAOMLd-am9PvuYdEaesuIR78Nbloxbx6MoDcgUEr5sgOd7E-Kk
+vpFF_5RKEBXdgnGi1lNhWxlrkRBc6UYUdTXvbi51e1e9-NArj6T9EneMZS71TWMhfN-Daev5-FI6rnS7w5X4ZOQYJgHQcbXAOjuYQR5YKGpa0XqIIbeAtjIu
+d5dOQWo3B5YIFsgHnrZu40kAHkK_ym8
+}
+
+AzureEntityColoring(CDSIotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotIoTHub_tbg.png, CDSIotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotIoTHub_tbg.png, CDSIotIoTHub)
+AzureEntityColoring(CDSIotIoTHub_m)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotIoTHubSPRITE, CDSIotIoTHub_m)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotIoTHubSPRITE, CDSIotIoTHub_m)
+
+sprite $IotLogicAppsSPRITE [70x70/16z] {
+xTS7TiCm281XXi3h_lTjDXAMrOVSNVrlPNw6xC2tDHeXin048c7oXkWbXa2ebn92bcgNSWairbjkGfQyX7vyV-IQ0RYMQNqQjoAuo2aJ-99UmaAXYZBHCwaf
+j5UmeaX1WW-Z2ZXbA4DflNPJlrBKgQ1Jj4i1b6lNAUGIGronjcqJi8uLEgDGyMa3dGhdPwIXJ72GsXAYvK8ovwtRfMNEet8ObTf7zxgzqmoEASPwj0KKUYcs
+aIdpOQROHiLOfYWSDkUAvCTdE-EVshPIV3bIb-9VTNX6mVqvqMSrYFGLjHIr47Q9lfAMCbcVfzYr7SfGtAU8IqtH4ufTUq8HkrPQ2gLd3FimlSA64gck48IZ
+lP8WclyUKqEZewZ_Do4ODvJ1qk0qTkJoEUnJqcv25Wp_u_k-HgCt
+}
+
+AzureEntityColoring(CDSIotLogicApps)
+!define CDSIotLogicApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotLogicApps_tbg.png, CDSIotLogicApps)
+!define CDSIotLogicApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotLogicApps_tbg.png, CDSIotLogicApps)
+AzureEntityColoring(CDSIotLogicApps_m)
+!define CDSIotLogicApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotLogicAppsSPRITE, CDSIotLogicApps_m)
+!define CDSIotLogicApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotLogicAppsSPRITE, CDSIotLogicApps_m)
+
+sprite $IotMachineLearningStudioWebServicePlansSPRITE [70x70/16z] {
+rPQ7WkCW34GNL77-_t_FO8bOMKXihi_TTl7GZ73v-c-Ka5XKorPKc2cl8BXihnAunyYy3QLuWo6sg0WJGWOaxh-woc6hvsW0pADU2GZUr89kLVGHGWTZbYEs
+FUIIc-uz0-tV9yZfERksI_e8qNGEGkhANUWaA04piICX0wTKOJhQqOgP1rjNyM7564PnWMFcsII3U5C32jFHZbfu0prta6r6OSvjmpsRCem6wqdpaEUKPEOd
+dchqsMSrfQHJ1OpdmyrOn5HAXEHi_dKORMcqHpFCWH8WpEu9HgrWhNay0aRgsSK8OR8Hw20LROq-72FdoocXG_gWSi-n2wmLg137KB1CkK6aFBRU37-xW8gt
+ufZnhQ7-LLepO6k28VPMffXiUsoMJ8cMkaT-T3qZoPPCCOPwqFnomo9hRkiGTRweAjPRiVKep-iIulcjGOcDsPIj4MqgXkOkEivOUOa5KqgukJHLxKthePP6
+EfzYExyv7boWxyfVOXH_4h7BWu5uMlA00fs2LedX3e4XNgmMXhsGKL8Vc2iTktCOaUu56108kQUBqxkZ1efKTBHp5BBg_2aVXiHJobm-sqkzpEK79io8wRQu
+nCEhMvM46jckA9rRqmNAu6q6a6uBmJe9oZNJN0Njo2sfKhn3_BSei4Y1VvQ2YnJY4uKfBK7Gtt7wqtX1SM55uf8VPZTXRnjvoG-SerxmD5X4zpqb3duMFL7p
+4vMTlEx7qNJJp-3tx1rEDArUzuGYGjE_y3L8VbFA8e8V2LwPPud9hYkUAFXPz0IowqEdOPDfo_0XDJSy5UiknhbQWNmOibxJUqzwLUdtKq2qn7z3kQD_NZy
+}
+
+AzureEntityColoring(CDSIotMachineLearningStudioWebServicePlans)
+!define CDSIotMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotMachineLearningStudioWebServicePlans_tbg.png, CDSIotMachineLearningStudioWebServicePlans)
+!define CDSIotMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotMachineLearningStudioWebServicePlans_tbg.png, CDSIotMachineLearningStudioWebServicePlans)
+AzureEntityColoring(CDSIotMachineLearningStudioWebServicePlans_m)
+!define CDSIotMachineLearningStudioWebServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotMachineLearningStudioWebServicePlansSPRITE, CDSIotMachineLearningStudioWebServicePlans_m)
+!define CDSIotMachineLearningStudioWebServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotMachineLearningStudioWebServicePlansSPRITE, CDSIotMachineLearningStudioWebServicePlans_m)
+
+sprite $IotMachineLearningStudioWebServicesSPRITE [70x70/16z] {
+rPQ7kfiX2415PTZtV-0Adw6aHcAwUphkF_J8qDoK_usAB5-KmLX_J06eXW2tZntD5G7vp0FiCpKd6O-xyO47HrXz2X785FeVtKfi2fDAe9YbbAvtPXUubem6
+CarG7XRJj6gPthHB1n8KdAfQt6Bo0QKD_N4bmL9W_kWbMc3OHRtHj3LRGodHOZcDiZGbPwmkYCsD5WkcBms_pOSdeirWOyIhyNXPqtnkaJIKQ_0e0TqeYcsE
+nOoVrYNfPbPw5WmzjoDMrnFs9a3IeFhGqGjByRBsyu6gta6sdkuMVmx7FQCBD0-glR9Gt4NrM9OQ8zyjwD6YHRLZ-zLxfLUxfRkb7GiJXXmipOTKlzejWWPD
+2pwGEHvnUv5OFkEtMA0Qp4m6imnM_2GlvDlrRi4T_hYwW3jqwZG5tzjO10wx3iFLLXXyudG2S3i1IL9TuccCndZIoZiBMVwxPOHF1dbhiPsvM-hswoMr-45o
+YpScwd8BNNvw_xm5VeK5Is9nva3slKD-rNMiQ8DEbWf6H-nMKuxLNIK5asY_JvQdo-P3tQARQ4cmN5YesWRZQ5dUgX8gLvRH_OkCMVnBK1yckRFCybLMZLj0
+rhD4KkgJ1NMqjRilYoKYtkC3I4Xk8Jr82svgCQF1S9Pq8l9OQ5B1lpdFdywevKobIVEubh9h1b51cSFdHMUti1h9CZ3wAaa-1D_TXqdXrKK-3hhs2gycxbui
+5oGBUqxtj9SJoDKVvdELqtq-d-VKYObV3YQUm5q-FC7pAxgoK3AoRoja0rks1DUtafgl1goyjV2R0hQRd925fPS4KLgUZoXC2QBaxMQv9Cr9Rg7CWh8nNlx9
+cmtrYlBR-Ge
+}
+
+AzureEntityColoring(CDSIotMachineLearningStudioWebServices)
+!define CDSIotMachineLearningStudioWebServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotMachineLearningStudioWebServices_tbg.png, CDSIotMachineLearningStudioWebServices)
+!define CDSIotMachineLearningStudioWebServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotMachineLearningStudioWebServices_tbg.png, CDSIotMachineLearningStudioWebServices)
+AzureEntityColoring(CDSIotMachineLearningStudioWebServices_m)
+!define CDSIotMachineLearningStudioWebServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotMachineLearningStudioWebServicesSPRITE, CDSIotMachineLearningStudioWebServices_m)
+!define CDSIotMachineLearningStudioWebServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotMachineLearningStudioWebServicesSPRITE, CDSIotMachineLearningStudioWebServices_m)
+
+sprite $IotMachineLearningStudioWorkspacesSPRITE [70x70/16z] {
+xPPNOiCm3CKiJiNtFt2pu-T9iRiLVh8X8fx3Bq2q0TwGa3NHPkaMHGpH6K7BYFmsIxTqIxSSd0fYvnS-M7n4Vh25xeW_gEsMeajgiuMIbkFByodpxp9ysq-v
+RKHe6R_RqYtrmA9oWn36xmoh5YeNhi-67FHootTR62py1om25icEOiy1nCme8oas-IMTdsl9z9ZPgqBXLHYsCmKdurGFBwqXe42NxsHxyasuVT2SwyatySQD
+Y9sHR0_QAMWnTvVrKdUtc4JWgyi5D28XFqDx7tB0uhlBgP-1pPrAnwRio1nfydh6P1kh5_QRjCQmNKkDKZx4Sh3pnw3XD_06
+}
+
+AzureEntityColoring(CDSIotMachineLearningStudioWorkspaces)
+!define CDSIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotMachineLearningStudioWorkspaces_tbg.png, CDSIotMachineLearningStudioWorkspaces)
+!define CDSIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotMachineLearningStudioWorkspaces_tbg.png, CDSIotMachineLearningStudioWorkspaces)
+AzureEntityColoring(CDSIotMachineLearningStudioWorkspaces_m)
+!define CDSIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotMachineLearningStudioWorkspacesSPRITE, CDSIotMachineLearningStudioWorkspaces_m)
+!define CDSIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotMachineLearningStudioWorkspacesSPRITE, CDSIotMachineLearningStudioWorkspaces_m)
+
+sprite $IotmanageSPRITE [70x70/16z] {
+xTP7aiGW38LXG198zFtlEmMTWvv5sRlnltPzJgHqO6TdHIgNlKQTITbhx7IAr15mmWPsuWPsiE56-mtiO0CxsC3ERWCxsC0EDd3yOMHWG2V7ZAPcsf2pRUZb
+ccqvNFtQvPv91Gv4gZwKpWmShZ2x8y8Z3v8DfgdrhdKGmE5S0mapSYIbHB8A_LvqohBZZ3kkQv0uQn-jEJ8VuwlL5wFabLUOuZBDj8MTx2gzzmsdQRShGxuo
+CjzHcnVWTwhzcgax7MRACq-nHze-3NkfyQX0vTjfQk_nYB1ohpc66V4efem7ciItCfaCb4XK_0zJDHhbGvJaAn9ME35dsgyCmb5QD7Q4LINz8uLhD09A2Iiv
+7V0md60IGWG8uQVX0qxVd5EaJ3uXz6KWI20HhnHYcPY8C1Ken3ix-mC
+}
+
+AzureEntityColoring(CDSIotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/Iotmanage_tbg.png, CDSIotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/Iotmanage_tbg.png, CDSIotmanage)
+AzureEntityColoring(CDSIotmanage_m)
+!define CDSIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotmanageSPRITE, CDSIotmanage_m)
+!define CDSIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotmanageSPRITE, CDSIotmanage_m)
+
+sprite $IotNotificationHubNamespacesSPRITE [70x70/16z] {
+xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
+LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKhHBf2n7A5Q5U8T0M-gYIkTDlk7W
+}
+
+AzureEntityColoring(CDSIotNotificationHubNamespaces)
+!define CDSIotNotificationHubNamespaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotNotificationHubNamespaces_tbg.png, CDSIotNotificationHubNamespaces)
+!define CDSIotNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotNotificationHubNamespaces_tbg.png, CDSIotNotificationHubNamespaces)
+AzureEntityColoring(CDSIotNotificationHubNamespaces_m)
+!define CDSIotNotificationHubNamespaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotNotificationHubNamespacesSPRITE, CDSIotNotificationHubNamespaces_m)
+!define CDSIotNotificationHubNamespaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotNotificationHubNamespacesSPRITE, CDSIotNotificationHubNamespaces_m)
+
+sprite $IotNotificationHubsSPRITE [70x70/16z] {
+xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
+LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKhHBf2n7A5Q5U8T0M-gYIkTDlk7W
+}
+
+AzureEntityColoring(CDSIotNotificationHubs)
+!define CDSIotNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotNotificationHubs_tbg.png, CDSIotNotificationHubs)
+!define CDSIotNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotNotificationHubs_tbg.png, CDSIotNotificationHubs)
+AzureEntityColoring(CDSIotNotificationHubs_m)
+!define CDSIotNotificationHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotNotificationHubsSPRITE, CDSIotNotificationHubs_m)
+!define CDSIotNotificationHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotNotificationHubsSPRITE, CDSIotNotificationHubs_m)
+
+sprite $IotRTOSSPRITE [70x70/16z] {
+lTK7ibqf38HXXPOET_yBdd4wcAQ0mdBuAZd-htMZhAcf_2x7LoQ_1I__lIMTgzGeIB7Zc5bv2hFobE9XwZTCZloMofuvAMQS53FgrKozubgjCFkr2W1STtGR
+sMK0grNOuXMjfmWEn-fD9RuvPE2x2lh_Yn_uppa3hl00E10TqF_ui4OfSeB3cFlAuYHTNHGphrGGJ8qFsbVC1v4Z2B8BFpr9Fa8EGcHCBYecBsmh9hQly1J3
+xY8NGUuluYc4xv780HXF6T1_KX5D4W7Yyk84toCMNt5fDKNnoeU4T7W6UPmoLrHU_cmgIbDM5PSkTnLv-QQI5E7AQGfNfFCf4fifNVmCuVt2K6h4xcbcyGni
+kYSmCdh5iUai-Zs8qHGMhKiHQuDOL-nSSP7deeA5uV-fH1kjBzBpb4UyiRYjPEkWRV9SLiOJFDii5XNPJDdBLSM1sVFvgcMsJzT_zvnVBvpv_YFZZSJtrpH5
+gB9SapJhq_1T97OLKSTEVXPdSEMY4_sWNOKO9dGIQXL-sfzgXVtRYg94XQ549eu2brbv2lFo4gRC46lwZLppO1cPQKAkEqmgviDCQXGZALEdI9tJirjdPhBs
+Fm
+}
+
+AzureEntityColoring(CDSIotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotRTOS_tbg.png, CDSIotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotRTOS_tbg.png, CDSIotRTOS)
+AzureEntityColoring(CDSIotRTOS_m)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotRTOSSPRITE, CDSIotRTOS_m)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotRTOSSPRITE, CDSIotRTOS_m)
+
+sprite $IotStreamAnalyticsJobsSPRITE [70x70/16z] {
+xTK7agWy30DWItAu_ut_GkPvR1mcmzjUlktPeCYmnJxOB_faB-8-uLLIzDA1NZwI1zeJw2cz3BGz78k1oZ9s4zOBu8akYtO7FYRdMMHKOjeo_3uak8yxcnYD
+Ps0h68-ulKOPsXfUL2NeHLL2F6bWjWDzhDazdH5MGPigpN3O0XzKgG30WhTxkmNw7w9DUDY57YAerU4kenDAp7Oa-4JYHFb9RIZiYWXzpN5zL6f3SQueCWf6
+pAZ4wpOYDbSH7sKojT8f19HS8j8EYp9PEMlIDJK6vFpeFILXkW1UoS9T2cCJBkE9b4yMj4n1d5M7evNCRKh_ZrLpKJRuSPKl8m6GKIHJIcqf8pPbSR2FuuYy
+S5I2mHMZNv-8ZicjGAbndZ6Y3wCFSIrkcPSQqIv-DG4YFX_dj-JN5AOYTKrMn3ISSRHa747NAMaPvrPOo261VTq9pAcyzEqXeRSFjQvmztZwCUePSRH73lq8
+RUA-mrcFTfVaH-FM0PH4fD-N7TYEZZstfW-uHxi3HSJMiBNZ6Jwu6u_lp4Xrrv4Q9MGJmzLTzhJQGdgCqb-8C12hFQJ7-FfEoGAyXdJ2pLE3FTRlzx2_npJG
+2xnieFQxRI_16EX5nWJx2B_-1G
+}
+
+AzureEntityColoring(CDSIotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotStreamAnalyticsJobs_tbg.png, CDSIotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotStreamAnalyticsJobs_tbg.png, CDSIotStreamAnalyticsJobs)
+AzureEntityColoring(CDSIotStreamAnalyticsJobs_m)
+!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotStreamAnalyticsJobsSPRITE, CDSIotStreamAnalyticsJobs_m)
+!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotStreamAnalyticsJobsSPRITE, CDSIotStreamAnalyticsJobs_m)
+
+sprite $IotTimeSeriesDataSetsSPRITE [70x70/16z] {
+xTK7hYiX38LX7moupFxt-x3YcwOX0uhAQz_jXLyUfz6V0aze7wRs2oXFjahtyypr3VEzjT8eNASuGrSDhXSuEvyYTS6dp6EIjMasHjaOPhwLbfOtayilURoB
+sYkHZFty9vqm91u5cr1fZ6HqmXK_QfVB1inFAyV1I3cHYEPfaTuhuu6FOrOvj619iMDQ2SgunD6OLfBLWgdIpFrOgFXWptlC1tditCDYPUvlh_ol_A_aWx5K
+zs2D2xZb0qW1w4f5a3mqKBmHjQsAOIYS5QQX51fufz81I5n9lKr2nTmjEdsZKW5uiXZ4Wu48jbvfEKleES7GujlrYcAevZzRoQ0G4IzMGaLeMO4d6ZOgHqU8
+fHQYibz9tX6PbojI8a9yMQ-uCO3kbOZaiMZUcsK0gBdUZeQymwpEqYKhiU2ITtshj7T_wU0cShiYLneAC-Zdlaj0uM0NbLHyKD2Fde-Zf1yhWXjM3zP0ePhl
+L0wNtbkFHjAd1uBf3zz-hejC_VuPiqN6lgru9L2nRoicmpUL_wzg_oj69_fkfTCPtwiOdOBjL0mqqPShtcWEibRfeC-g-GLje6keOjD2PzfGkBOkcZbJ4Ma5
+z0Vu1G
+}
+
+AzureEntityColoring(CDSIotTimeSeriesDataSets)
+!define CDSIotTimeSeriesDataSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesDataSets_tbg.png, CDSIotTimeSeriesDataSets)
+!define CDSIotTimeSeriesDataSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesDataSets_tbg.png, CDSIotTimeSeriesDataSets)
+AzureEntityColoring(CDSIotTimeSeriesDataSets_m)
+!define CDSIotTimeSeriesDataSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotTimeSeriesDataSetsSPRITE, CDSIotTimeSeriesDataSets_m)
+!define CDSIotTimeSeriesDataSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotTimeSeriesDataSetsSPRITE, CDSIotTimeSeriesDataSets_m)
+
+sprite $IotTimeSeriesInsightsAccessPoliciesSPRITE [70x70/16z] {
+pTS5Zcin50HHszNU_v8_J4lXc7geXA6ZcySkanf0Ar5LSZL0q2LIn94YZWY1W45STayxPN3rRbznXd0psJxJSAqKL_7cQGS8zLOniu_Gxjuoiut0_NOoiutG
+xjypiuMuwesonpJ6cPaZELDXZQaZ1HOPqb7Cr5JnbbdQjkglqeLXIUaZ1Qcj_IEzYarbt7XNJqOHbygerUrIXjNXFf9m-Oba96ICX8oHa34ICaP2naZ860aP
+8o5Z96IC14o0c8aGzm99bPegBb5o1kWzPgpSCxdIKiL8h1Z9bP8hPdxDTZ6JAyIA42LL96LRLmX9AeSXUbUwf9PavSBaYfbSqK_FaY85kG0n4oAE576aY2D5
+74PoPexy1G
+}
+
+AzureEntityColoring(CDSIotTimeSeriesInsightsAccessPolicies)
+!define CDSIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesInsightsAccessPolicies_tbg.png, CDSIotTimeSeriesInsightsAccessPolicies)
+!define CDSIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesInsightsAccessPolicies_tbg.png, CDSIotTimeSeriesInsightsAccessPolicies)
+AzureEntityColoring(CDSIotTimeSeriesInsightsAccessPolicies_m)
+!define CDSIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotTimeSeriesInsightsAccessPoliciesSPRITE, CDSIotTimeSeriesInsightsAccessPolicies_m)
+!define CDSIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotTimeSeriesInsightsAccessPoliciesSPRITE, CDSIotTimeSeriesInsightsAccessPolicies_m)
+
+sprite $IotTimeSeriesInsightsEnvironmentsSPRITE [70x70/16z] {
+lPNdmkim24D18hp_6z_HvPOQsSaTvyytIEGJqM4ATu0a0NUxX3CAE9k4QF2B6HNySSP-JcnmGOGKEciHmiV4mKqTZ-D5-CvSXz2RIxYAyNB1yYXN8G6J84PC
+UqROad5fDw5jm19JGs1RO1f34I9ZE6cMjWs_6muLeYkEgXTsYbf2TEk7Mqiz6-tp13UU2Hz_sHUCS1Dyo7GglleWuTln52eH6mLJgK1zgjKklFkAM7seYNkB
+YhvaZSS3sXz0_NMuh_BdCeo1NGMdlvaTP2Nky5CcfX2ZWHdm3ncAhtz6osjOdh92bUAlErqvwnIEAjYLCiRiLTvag4FC73FyVIz4t6alrA1iunfUtF_VUq7B
+k5s7Mo5-Ooq3UM_U26lfcusyKNvLoxP24V2yGMlfIc7Uk8-E3HdqAiU8r38rP7fV3hCvqn3FEoNqi7r64QZ_23j1V1sDbDM8KXB5hlnFWvpffsXOD9lDlt76
+9BqRX2s9_aZcWyDDuaUAPJ27ZXQH6qM-e5omRX0v24pcaGENZpm8-XWvHyIoF6RXk945sd830YcYTOI8WeVm41bo6tfp6l2e5h1BEC28209kYfy
+}
+
+AzureEntityColoring(CDSIotTimeSeriesInsightsEnvironments)
+!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesInsightsEnvironments_tbg.png, CDSIotTimeSeriesInsightsEnvironments)
+!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesInsightsEnvironments_tbg.png, CDSIotTimeSeriesInsightsEnvironments)
+AzureEntityColoring(CDSIotTimeSeriesInsightsEnvironments_m)
+!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotTimeSeriesInsightsEnvironmentsSPRITE, CDSIotTimeSeriesInsightsEnvironments_m)
+!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotTimeSeriesInsightsEnvironmentsSPRITE, CDSIotTimeSeriesInsightsEnvironments_m)
+
+sprite $IotTimeSeriesInsightsEventSourcesSPRITE [70x70/16z] {
+xTW7aaKX24HH6aLwzh_WoV555Mhgfxk0Owo4PAKbbBuZreBPczB2lIA8AxX8nQPg_jQF8bFnlSjG7if3KJkfz2XsscKgTKQfIqNWumfqeRncf6meRJy0TVKh
+eECAr9ei6rUWDKDvBKT1Ze9J1NtbACXHW1m5EGfmESh5tEv__3hVRs545SbGv5pXVdXBJU9ASSOL8nSAXXLrBfLA7rGQkLJUs465IwMG2Gft5NywgqUfF47i
+H1deKfI7yb1iAd_lGubsOOg44KkPufICYH8agnS
+}
+
+AzureEntityColoring(CDSIotTimeSeriesInsightsEventSources)
+!define CDSIotTimeSeriesInsightsEventSources(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesInsightsEventSources_tbg.png, CDSIotTimeSeriesInsightsEventSources)
+!define CDSIotTimeSeriesInsightsEventSources(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotTimeSeriesInsightsEventSources_tbg.png, CDSIotTimeSeriesInsightsEventSources)
+AzureEntityColoring(CDSIotTimeSeriesInsightsEventSources_m)
+!define CDSIotTimeSeriesInsightsEventSources_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotTimeSeriesInsightsEventSourcesSPRITE, CDSIotTimeSeriesInsightsEventSources_m)
+!define CDSIotTimeSeriesInsightsEventSources_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotTimeSeriesInsightsEventSourcesSPRITE, CDSIotTimeSeriesInsightsEventSources_m)
+
+sprite $IotWindows10CoreServicesSPRITE [70x70/16z] {
+lTM7jjiW48JXsJ8BUVyNJcH3G2nok-LBEStdzwoKWbyW3RuaxeZaZR95essOgfgPawJZLMnJIETAtpo8oLjJD4RcyoaUpLUc8BhtffZaW_QPnw-4cWxQPkpP
+UsqTPSnUVJ2CpW2B1L_BC1vZ8ll8rpFsGSMHH7dYfOoM2x5cffo-C2QyVKhKopyjCg-IPsD2bmVNCgVZ_F6OCAoin6tAAMEFnaIVgcRMHqa4kJvgh3WYlH51
+Ci9wXb6MZARA6l7mkw2iLryz6PdE4L5Zq3i6JKKWwRrJrgVN22H8-Xd945WQO_jtH43eEnGWZzc_8fahAe3E5KbZ58EDALD5WIb3GHupJbAM_tIg6CJS13Og
+wScqYdYPoLHHQFjzLF9903JAIU1KiMFHgOBOLAoSyMc5QqLonQUA2UG0qLmPZrTpnQQAe9EfufkAxxOWjfN0gLAkAtnQYHUsjE_RLlowKiyA3ifDXOf3xQQA
+UAadWiEsWeDkAWUng8EFCQQTZIbZVFeNHepda-3qCpfkIcqA6mnZgU4cLLgzhXN7h9p7IFWiP9bIO_kFdTN6HoP5MFUFPQYTzGpxDJrY8nBfeFNadYVl4Q9r
+wy1qKFeYdVz72iyVg94E6eztFGeQ31rR1ruSf7KMYhlHgxifYhF-gTJ9ZNhz7spDmlNWKHUyUYgihsDdMDG_hneHny8_Y50-dbAOxXduuf1WkcUVgOweJuQC
+IChq1k2CadSKfaWMnqS309I7g2cH8jjC20xEBY9AYU3AS4rmOtn6yHoVSC5pzdp8bok6LwbppnNl46DcYhU9ceyHfeBFoG6_uYy
+}
+
+AzureEntityColoring(CDSIotWindows10CoreServices)
+!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/IotWindows10CoreServices_tbg.png, CDSIotWindows10CoreServices)
+!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/IotWindows10CoreServices_tbg.png, CDSIotWindows10CoreServices)
+AzureEntityColoring(CDSIotWindows10CoreServices_m)
+!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IotWindows10CoreServicesSPRITE, CDSIotWindows10CoreServices_m)
+!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IotWindows10CoreServicesSPRITE, CDSIotWindows10CoreServices_m)
+
+

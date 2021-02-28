@@ -1,0 +1,12 @@
+sprite $CommandFileSPRITE [70x70/16z] {
+xTF50OG050FHl-vB_zNY5fpWa2dWtSO9kbkN_axMpQ2-oYTcxeEKnnKOLZ5WQ0KOMW66Le3X5MHu1HbUiGimZ88ChI33AiWyY8-UMP-4wQjKzs0LRBSAtNsb
+YXGfKgH8aI95YXGfKgH8yG
+}
+
+AzureEntityColoring(CDSCommandFile)
+!define CDSCommandFile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandFile_tbg.png, CDSCommandFile)
+!define CDSCommandFile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandFile_tbg.png, CDSCommandFile)
+AzureEntityColoring(CDSCommandFile_m)
+!define CDSCommandFile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandFileSPRITE, CDSCommandFile_m)
+!define CDSCommandFile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandFileSPRITE, CDSCommandFile_m)
+

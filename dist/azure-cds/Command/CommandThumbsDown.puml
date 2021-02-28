@@ -1,0 +1,14 @@
+sprite $CommandThumbsDownSPRITE [70x70/16z] {
+pPS7TiCW40K_0YCGQxZ_QTFpKrHXDsLUSP_7gAxnJYZIDX59ANfSmKaxeKIlaf2Q0uuexIfvVqMXTL3J6d0f1PjCuPRIMJ00k9Td3WUuMCuiyMM7uWGNbxfd
+OL361VoylIG61Lman9H5LfQNe0e538fGmJsa8_9W-IT1aqNGtIGecGHvYw3wBu9WieV0GqvjYIOMPs4HM5Xc4yjaORb3ZqaGJ89W4WIJ89W4mIG82mPmiKXj
+dqZe9fH6HYr1sfgCFdBR9EqmCaMkmGQUirsP0pxHOQ6ata1wBPHaXs4B9HwuRAadabEchRjBw9GWRXoDaPA-iKWf0Ry_Ak4M48s4PygibA1o4bz9neDojuHx
+o6aaFEIK4YmyM1GIpj0Q2UPFCxGhb8oFd4v69H0UB0e9-5zfM4ABIaABIa9BIZe96b5881OIU9M4H0i9DUAWmgSdPdJn2
+}
+
+AzureEntityColoring(CDSCommandThumbsDown)
+!define CDSCommandThumbsDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandThumbsDown_tbg.png, CDSCommandThumbsDown)
+!define CDSCommandThumbsDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandThumbsDown_tbg.png, CDSCommandThumbsDown)
+AzureEntityColoring(CDSCommandThumbsDown_m)
+!define CDSCommandThumbsDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandThumbsDownSPRITE, CDSCommandThumbsDown_m)
+!define CDSCommandThumbsDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandThumbsDownSPRITE, CDSCommandThumbsDown_m)
+

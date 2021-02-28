@@ -1,0 +1,16 @@
+sprite $GeneralServiceHealthSPRITE [70x70/16z] {
+xPE7iXin24L15Dd__y5fM9CxOkNhCZqvh-qyC72GLYZ_qM6H6Mv3Jt6l19KJba0CsHcUWCiL8pV211cH6oODpqxG-4Ra9ShZlKX78SwciJm2EgICvXclnHyP
+tAVID9z1HodAXmr3ih9yw6RoEtHTsgym429GfVoMLwkeiCLeKfnVl34flzDo7h7NgaXBQrLiCbn-4q_ZzfAGY69lGVHKnMCJWc5IDlGWRBXDNyau6hAV4NGp
+5C9XGgwgw64Hkz3Ar7e6AXq0SKUXmk70zgOvDxIlmKfhJJOc0aqB54_8MQcFKxx8rpuADFHwh8zhjBuLQKekYxz23ajkRQMmzi_2G0XlREn2HPjFwpS8DTEs
+0F5-obf_bX2gjhDOxACyWcC9OLVle-oRILdhheT0XRXOhGkGj-AFmFZzz2TSZUBsG2iJc89eAmdnUNkGrG4OSYfZbM1Iu0TDvmrnsT2zTQq8X3efHnotW4AD
+AHVe-CDSIR49DOPqUZeHCccijVRTtGuuMmbws_kRZJvpq2ATQAdaUAx9xHIC5k5bfjCYN8eibfNXHJZ-NP5-_JeXmc7lZiiRA7a1NqJdjqMA-6ol_1MdS2jk
+mwrIXS6jGhv2v_r-fpQSk4-LxndoJ_8J
+}
+
+AzureEntityColoring(CDSGeneralServiceHealth)
+!define CDSGeneralServiceHealth(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/GeneralServiceHealth_tbg.png, CDSGeneralServiceHealth)
+!define CDSGeneralServiceHealth(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/GeneralServiceHealth_tbg.png, CDSGeneralServiceHealth)
+AzureEntityColoring(CDSGeneralServiceHealth_m)
+!define CDSGeneralServiceHealth_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, GeneralServiceHealthSPRITE, CDSGeneralServiceHealth_m)
+!define CDSGeneralServiceHealth_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, GeneralServiceHealthSPRITE, CDSGeneralServiceHealth_m)
+

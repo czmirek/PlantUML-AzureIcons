@@ -1,0 +1,16 @@
+sprite $WebMediaServicesSPRITE [70x70/16z] {
+rPT7kkGm20P55FBz3po3EXadwFRgrLBmbSNltFuGm28CDoKa4xhZG7c3DuPPmN33SSz3SW3z74W4xmoJZvKx8bmB98NoGBJ0TJmWMaJEus7zWfDuIB-4Ye48
+8K1h04Y7PIm4mg49EOtdo06xx8yywxhkm5S9__FUJz4ITqewbeafdKmEvnP-E6nPOGyFbotoM5isQ7FatDBNp0hOigF3j8VcKmkk9143ZxXaaI29z3bJnUBh
+pqm8-q4sKB3u-Q7bWP-J4JNeQxd5s-njyTfk9imjthMyBGw5xSo1CuiF9D4Ij-CDd5d81meMXooCH9d5OrcY9Lx9OmQJMo1OTjl9BNCL3otlAn5Y_xhXJSrY
+Ryui-KIvnTCTQRgPvUHCZtYcCqljgiiifJkWPvOPJ4_kHaijucsdJuQ1Fd5kCVWamxkdb3owSuluIhzwObOibZszhMJfrs-INhEONhtLr19BZAR5Q1LR36Ll
+6HlqKGHvpcNoND2nuSeo-l6NHnyNbgQxwZnw1CJsHmiTClO8hRTBHorzrH4c3YWJ0Y3nOTKeACBGPQGTmZRgABGpfEgmwp-1Nd9mIo2h19B3ruuEhOR-54Zz
+h2U1bEAHzZMS1584DBdSYw0bWHIXCT5s4vcFhDj0qN6VVm
+}
+
+AzureEntityColoring(CDSWebMediaServices)
+!define CDSWebMediaServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/WebMediaServices_tbg.png, CDSWebMediaServices)
+!define CDSWebMediaServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/WebMediaServices_tbg.png, CDSWebMediaServices)
+AzureEntityColoring(CDSWebMediaServices_m)
+!define CDSWebMediaServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, WebMediaServicesSPRITE, CDSWebMediaServices_m)
+!define CDSWebMediaServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, WebMediaServicesSPRITE, CDSWebMediaServices_m)
+

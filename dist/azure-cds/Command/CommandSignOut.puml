@@ -1,0 +1,16 @@
+sprite $CommandSignOutSPRITE [70x70/16z] {
+tPPNmkCW38HN41EAWkv_sYtsfC9QHlnz7cFxYpGQoYz5KVugQczz0yhFevoeHw7J2CEpX1ub2FkZ39T4X7iK5f7a3Z9M-PRYPPNEeIXGRYbPe4ZQH7IADhKa
+K8skvukBLQ2aGyB_yn8K336U5zfB7HMynhG7MRJiBZiOG2wahm2w0DDwqdJRKFIt4smzkXf33nEHr-DhshUvSRTA54fRpSDgo82CK839zyq4nOrHOCFfQSYL
+HYbK7yUze9zH2df2IWkGenGqKRR2qDuu1OQkLfpNuDlEW7Kfd6zb1HibR6OWSTLw7ct9GqF9IabeYU6jXG9_6HEodx3RbE2FaO9M5ksjOyypRB49ncH-2mg_
+3GKZiWep1iMkDwHKhEsvZhxIZ0fs5wEmmvoHyAdxSCBIDektAYP7ZQr_XVafSyLjZMKh9QCLBnEvSxTRJ9sOKaH3sCRhXBS5jo9hy08cf9xsUbZuqQ9b7BB0
+bKt9DYR2W222IOCgBtyUB0Qt7_4m1X3kt8734AHTW477AE_h61sYOtH8-wYGng3IG5gCB7fY0Td5SDXfXlSWm40rTljoKKHq_poBGCatUsowFMIlsdyJSupU
+_sNx61dyVY5_
+}
+
+AzureEntityColoring(CDSCommandSignOut)
+!define CDSCommandSignOut(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandSignOut_tbg.png, CDSCommandSignOut)
+!define CDSCommandSignOut(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandSignOut_tbg.png, CDSCommandSignOut)
+AzureEntityColoring(CDSCommandSignOut_m)
+!define CDSCommandSignOut_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandSignOutSPRITE, CDSCommandSignOut_m)
+!define CDSCommandSignOut_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandSignOutSPRITE, CDSCommandSignOut_m)
+

@@ -1,0 +1,15 @@
+sprite $CommandPropertiesSPRITE [70x70/16z] {
+tTY7Th0m20LW2AXPoli_xJ-Yfy7OvUtkTrPtiovew4JZOIPSj0U52IFLF2M4s02PLR0E7qsn_x8s-m9jTDTa_maTmch_HBgfhuHVfG0CfPAJxWocxZOt5B_Q
+zNNCOV8CHD_ehoZyLsYtj2Dt2KH6phzGLv0CfE70QF_y1jvQSfHs2XpT_djMuomYUpGNkY_R81DYjfD46DcicmZ5gHuAqmSASc32JTRqCm7WOax4-vLNaLcn
+ZIgXhMQDpGPEQZg5WYCKD1vRJKBcD8-_nBuYoIlLdWfV7fCqU7cN7z1gy1dfApsnkbcRj-xqkvmwB04pdW2VnWgbiMCRhGIGTVWZ_DuL4w_UkA07fYTnnBhQ
+-tVOsJfuzP9ry4E3siL2s1EPLMsoOJ59voNL5Obi6AUWo4OjbtJbEuzsvinme_XzRpR-ZK-kfQs-ZYySYPm9oTBbhBRH1QIAbU7w8sADeWPgE64t11JyQbkZ
+xtnpWlSR9L12RvJUvtRhBm
+}
+
+AzureEntityColoring(CDSCommandProperties)
+!define CDSCommandProperties(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandProperties_tbg.png, CDSCommandProperties)
+!define CDSCommandProperties(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandProperties_tbg.png, CDSCommandProperties)
+AzureEntityColoring(CDSCommandProperties_m)
+!define CDSCommandProperties_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandPropertiesSPRITE, CDSCommandProperties_m)
+!define CDSCommandProperties_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandPropertiesSPRITE, CDSCommandProperties_m)
+

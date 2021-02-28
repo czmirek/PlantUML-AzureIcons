@@ -1,0 +1,14 @@
+sprite $ManageManagedDesktopSPRITE [70x70/16z] {
+xT87GaGn28HXI8Nr_kUrjuaxxYE9tVy0Nmh8jqgN4ybjGxdkK2WIh-I5ofCYIpszQasftqzf4geqWTgCKiqQKKB8FODAxxr54UkWzFjQ656kn15KuWXNuWWg
+SOGhSGILE19N4A5Abp4D8DA9acic25EUzXcGYWmYOtV4MoNLkp93k88LO009A0eCHRY2346OmXY248Ko124AOJf7k88C81456OA4556xByannUHy2H2QtURk
+9em1X7L7W3AcAW65zpsKVyLRMQZvjcmBKauRAYA9vb2YoRjTGJBP2VfN7jCjIa8bpIa5bJAdT5JQ5A8-f3DA6vMsWAmmsVnCbeyBMXeOuBIY2zS8NaYV4Cxe
+aQjSB5zMD5rCvJjt0m
+}
+
+AzureEntityColoring(CDSManageManagedDesktop)
+!define CDSManageManagedDesktop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/ManageManagedDesktop_tbg.png, CDSManageManagedDesktop)
+!define CDSManageManagedDesktop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/ManageManagedDesktop_tbg.png, CDSManageManagedDesktop)
+AzureEntityColoring(CDSManageManagedDesktop_m)
+!define CDSManageManagedDesktop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ManageManagedDesktopSPRITE, CDSManageManagedDesktop_m)
+!define CDSManageManagedDesktop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ManageManagedDesktopSPRITE, CDSManageManagedDesktop_m)
+
