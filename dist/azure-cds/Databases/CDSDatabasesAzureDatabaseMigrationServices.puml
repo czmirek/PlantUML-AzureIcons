@@ -7,9 +7,9 @@ RZE46WoFbLb6cD2XsxE0qWigNYgVS9RVMNvd-PtbTnQXs_JcBBH2sqfYMi9wK06j4vrL548dxRyx4Y32
 }
 
 AzureEntityColoring(CDSDatabasesAzureDatabaseMigrationServices)
-!define CDSDatabasesAzureDatabaseMigrationServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureDatabaseMigrationServices_tbg.png, CDSDatabasesAzureDatabaseMigrationServices)
-!define CDSDatabasesAzureDatabaseMigrationServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureDatabaseMigrationServices_tbg.png, CDSDatabasesAzureDatabaseMigrationServices)
+!define CDSDatabasesAzureDatabaseMigrationServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureDatabaseMigrationServices_tbg.png, DatabasesAzureDatabaseMigrationServices)
+!define CDSDatabasesAzureDatabaseMigrationServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureDatabaseMigrationServices_tbg.png, DatabasesAzureDatabaseMigrationServices)
 AzureEntityColoring(CDSDatabasesAzureDatabaseMigrationServices_m)
-!define CDSDatabasesAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureDatabaseMigrationServicesSPRITE, CDSDatabasesAzureDatabaseMigrationServices_m)
-!define CDSDatabasesAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureDatabaseMigrationServicesSPRITE, CDSDatabasesAzureDatabaseMigrationServices_m)
+!define CDSDatabasesAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureDatabaseMigrationServicesSPRITE, DatabasesAzureDatabaseMigrationServices)
+!define CDSDatabasesAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureDatabaseMigrationServicesSPRITE, DatabasesAzureDatabaseMigrationServices)
 

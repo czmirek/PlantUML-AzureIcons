@@ -5,9 +5,9 @@ J2Uceo9jkbQapOvdprMW5jDlrklrx24DVr9l2G
 }
 
 AzureEntityColoring(APShapesBrower)
-!define APShapesBrower(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShapesBrower_tbg.png, APShapesBrower)
-!define APShapesBrower(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShapesBrower_tbg.png, APShapesBrower)
+!define APShapesBrower(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShapesBrower_tbg.png, ShesBrower)
+!define APShapesBrower(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShapesBrower_tbg.png, ShesBrower)
 AzureEntityColoring(APShapesBrower_m)
-!define APShapesBrower_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShapesBrowerSPRITE, APShapesBrower_m)
-!define APShapesBrower_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShapesBrowerSPRITE, APShapesBrower_m)
+!define APShapesBrower_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShapesBrowerSPRITE, ShesBrower)
+!define APShapesBrower_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShapesBrowerSPRITE, ShesBrower)
 

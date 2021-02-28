@@ -5,9 +5,9 @@ N5syqnZVQNpgC7xgscu0lh6vxJPYao9jBmDMQCi34tfVgVaN4oXh-FbwLu_Gdad2XreymVHcjHBKdSH2
 }
 
 AzureEntityColoring(APVisionCategory)
-!define APVisionCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVisionCategory_tbg.png, APVisionCategory)
-!define APVisionCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVisionCategory_tbg.png, APVisionCategory)
+!define APVisionCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVisionCategory_tbg.png, VisionCategory)
+!define APVisionCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVisionCategory_tbg.png, VisionCategory)
 AzureEntityColoring(APVisionCategory_m)
-!define APVisionCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVisionCategorySPRITE, APVisionCategory_m)
-!define APVisionCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVisionCategorySPRITE, APVisionCategory_m)
+!define APVisionCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVisionCategorySPRITE, VisionCategory)
+!define APVisionCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVisionCategorySPRITE, VisionCategory)
 

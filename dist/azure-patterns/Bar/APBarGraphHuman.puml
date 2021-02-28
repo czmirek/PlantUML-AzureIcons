@@ -5,9 +5,9 @@ b8UfJ-ayhBkKmfEAHn6U91wbygJwMSeT
 }
 
 AzureEntityColoring(APBarGraphHuman)
-!define APBarGraphHuman(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, APBarGraphHuman)
-!define APBarGraphHuman(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, APBarGraphHuman)
+!define APBarGraphHuman(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, BarGrhHuman)
+!define APBarGraphHuman(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, BarGrhHuman)
 AzureEntityColoring(APBarGraphHuman_m)
-!define APBarGraphHuman_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, APBarGraphHuman_m)
-!define APBarGraphHuman_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, APBarGraphHuman_m)
+!define APBarGraphHuman_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, BarGrhHuman)
+!define APBarGraphHuman_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, BarGrhHuman)
 

@@ -5,9 +5,9 @@ UG4
 }
 
 AzureEntityColoring(CDSCommandCheck)
-!define CDSCommandCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandCheck_tbg.png, CDSCommandCheck)
-!define CDSCommandCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandCheck_tbg.png, CDSCommandCheck)
+!define CDSCommandCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandCheck_tbg.png, CommandCheck)
+!define CDSCommandCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandCheck_tbg.png, CommandCheck)
 AzureEntityColoring(CDSCommandCheck_m)
-!define CDSCommandCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandCheckSPRITE, CDSCommandCheck_m)
-!define CDSCommandCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandCheckSPRITE, CDSCommandCheck_m)
+!define CDSCommandCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandCheckSPRITE, CommandCheck)
+!define CDSCommandCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandCheckSPRITE, CommandCheck)
 

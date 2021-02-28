@@ -9,9 +9,9 @@ _yS3
 }
 
 AzureEntityColoring(APShareConnection)
-!define APShareConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShareConnection_tbg.png, APShareConnection)
-!define APShareConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShareConnection_tbg.png, APShareConnection)
+!define APShareConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShareConnection_tbg.png, ShareConnection)
+!define APShareConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShareConnection_tbg.png, ShareConnection)
 AzureEntityColoring(APShareConnection_m)
-!define APShareConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShareConnectionSPRITE, APShareConnection_m)
-!define APShareConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShareConnectionSPRITE, APShareConnection_m)
+!define APShareConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShareConnectionSPRITE, ShareConnection)
+!define APShareConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShareConnectionSPRITE, ShareConnection)
 

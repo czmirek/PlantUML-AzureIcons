@@ -5,9 +5,9 @@ XtsRkZK4eOOOl-h8DQGX1ioX8Z9HHFkU1DmVGqsSEBcQHIO1hiL-q3J5a13N01aQ06FEXDCIwXHBAZ7M
 }
 
 AzureEntityColoring(APBot)
-!define APBot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBot_tbg.png, APBot)
-!define APBot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBot_tbg.png, APBot)
+!define APBot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBot_tbg.png, Bot)
+!define APBot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBot_tbg.png, Bot)
 AzureEntityColoring(APBot_m)
-!define APBot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBotSPRITE, APBot_m)
-!define APBot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBotSPRITE, APBot_m)
+!define APBot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBotSPRITE, Bot)
+!define APBot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBotSPRITE, Bot)
 

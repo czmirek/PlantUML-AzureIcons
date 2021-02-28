@@ -7,9 +7,9 @@ O77-aYKbIRaEbjn2EvR55m9vlH2yNWWY55EmX-OXsavv92BuKFu1
 }
 
 AzureEntityColoring(APIntelligent)
-!define APIntelligent(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIntelligent_tbg.png, APIntelligent)
-!define APIntelligent(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIntelligent_tbg.png, APIntelligent)
+!define APIntelligent(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIntelligent_tbg.png, Intelligent)
+!define APIntelligent(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIntelligent_tbg.png, Intelligent)
 AzureEntityColoring(APIntelligent_m)
-!define APIntelligent_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIntelligentSPRITE, APIntelligent_m)
-!define APIntelligent_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIntelligentSPRITE, APIntelligent_m)
+!define APIntelligent_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIntelligentSPRITE, Intelligent)
+!define APIntelligent_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIntelligentSPRITE, Intelligent)
 

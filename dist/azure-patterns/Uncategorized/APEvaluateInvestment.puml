@@ -9,9 +9,9 @@ h7YFw71O0Z1p6dD5PeEqzlr8oNCkKIy7mJRF0u5AAfsHZor8begj1sdjeb57FqX9syVg1x6DVLJX81-j
 }
 
 AzureEntityColoring(APEvaluateInvestment)
-!define APEvaluateInvestment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEvaluateInvestment_tbg.png, APEvaluateInvestment)
-!define APEvaluateInvestment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEvaluateInvestment_tbg.png, APEvaluateInvestment)
+!define APEvaluateInvestment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEvaluateInvestment_tbg.png, EvaluateInvestment)
+!define APEvaluateInvestment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEvaluateInvestment_tbg.png, EvaluateInvestment)
 AzureEntityColoring(APEvaluateInvestment_m)
-!define APEvaluateInvestment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEvaluateInvestmentSPRITE, APEvaluateInvestment_m)
-!define APEvaluateInvestment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEvaluateInvestmentSPRITE, APEvaluateInvestment_m)
+!define APEvaluateInvestment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEvaluateInvestmentSPRITE, EvaluateInvestment)
+!define APEvaluateInvestment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEvaluateInvestmentSPRITE, EvaluateInvestment)
 

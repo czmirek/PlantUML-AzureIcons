@@ -5,9 +5,9 @@ jMS
 }
 
 AzureEntityColoring(CDSStorageStorageExplorer)
-!define CDSStorageStorageExplorer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorageExplorer_tbg.png, CDSStorageStorageExplorer)
-!define CDSStorageStorageExplorer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorageExplorer_tbg.png, CDSStorageStorageExplorer)
+!define CDSStorageStorageExplorer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorageExplorer_tbg.png, StorageStorageExplorer)
+!define CDSStorageStorageExplorer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorageExplorer_tbg.png, StorageStorageExplorer)
 AzureEntityColoring(CDSStorageStorageExplorer_m)
-!define CDSStorageStorageExplorer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageStorageExplorerSPRITE, CDSStorageStorageExplorer_m)
-!define CDSStorageStorageExplorer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageStorageExplorerSPRITE, CDSStorageStorageExplorer_m)
+!define CDSStorageStorageExplorer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageStorageExplorerSPRITE, StorageStorageExplorer)
+!define CDSStorageStorageExplorer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageStorageExplorerSPRITE, StorageStorageExplorer)
 

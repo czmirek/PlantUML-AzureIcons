@@ -8,9 +8,9 @@ Fm
 }
 
 AzureEntityColoring(CDSIotRTOS)
-!define CDSIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, CDSIotRTOS)
-!define CDSIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, CDSIotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, IotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, IotRTOS)
 AzureEntityColoring(CDSIotRTOS_m)
-!define CDSIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, CDSIotRTOS_m)
-!define CDSIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, CDSIotRTOS_m)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, IotRTOS)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, IotRTOS)
 

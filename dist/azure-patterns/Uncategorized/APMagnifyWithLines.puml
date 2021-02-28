@@ -7,9 +7,9 @@ z9VhqmrLfqQ3K5ZRY9j8VM6246eKdbfm8e-iHijYdRPxOQYq_kQHhbSUiRlrOgg9JTS-na7A3nBrC8vY
 }
 
 AzureEntityColoring(APMagnifyWithLines)
-!define APMagnifyWithLines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMagnifyWithLines_tbg.png, APMagnifyWithLines)
-!define APMagnifyWithLines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMagnifyWithLines_tbg.png, APMagnifyWithLines)
+!define APMagnifyWithLines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMagnifyWithLines_tbg.png, MagnifyWithLines)
+!define APMagnifyWithLines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMagnifyWithLines_tbg.png, MagnifyWithLines)
 AzureEntityColoring(APMagnifyWithLines_m)
-!define APMagnifyWithLines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMagnifyWithLinesSPRITE, APMagnifyWithLines_m)
-!define APMagnifyWithLines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMagnifyWithLinesSPRITE, APMagnifyWithLines_m)
+!define APMagnifyWithLines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMagnifyWithLinesSPRITE, MagnifyWithLines)
+!define APMagnifyWithLines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMagnifyWithLinesSPRITE, MagnifyWithLines)
 

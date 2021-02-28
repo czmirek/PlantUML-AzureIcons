@@ -9,9 +9,9 @@ qiqnDS4PkZN642waoqmLk267cyR7NDFf64_m01SV93B2KvIwKhMI4Dv2OcQ2Axy
 }
 
 AzureEntityColoring(CDSWebazuremediaservice)
-!define CDSWebazuremediaservice(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, CDSWebazuremediaservice)
-!define CDSWebazuremediaservice(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, CDSWebazuremediaservice)
+!define CDSWebazuremediaservice(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, Webazuremediaservice)
+!define CDSWebazuremediaservice(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, Webazuremediaservice)
 AzureEntityColoring(CDSWebazuremediaservice_m)
-!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, CDSWebazuremediaservice_m)
-!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, CDSWebazuremediaservice_m)
+!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, Webazuremediaservice)
+!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, Webazuremediaservice)
 

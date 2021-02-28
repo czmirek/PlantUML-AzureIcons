@@ -7,9 +7,9 @@ RIVSSBhlodboFINVkrh15RwAy_OL9RwwzGa
 }
 
 AzureEntityColoring(APIotBlueAlt)
-!define APIotBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, APIotBlueAlt)
-!define APIotBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, APIotBlueAlt)
+!define APIotBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, IotBlueAlt)
+!define APIotBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, IotBlueAlt)
 AzureEntityColoring(APIotBlueAlt_m)
-!define APIotBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, APIotBlueAlt_m)
-!define APIotBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, APIotBlueAlt_m)
+!define APIotBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, IotBlueAlt)
+!define APIotBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, IotBlueAlt)
 

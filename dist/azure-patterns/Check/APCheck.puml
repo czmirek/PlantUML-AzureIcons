@@ -5,9 +5,9 @@ Y4Gq8X6DI4GZ4j68H3GY4Or8H2CIqOX4D28HZKX48nBHY4Gq8Z6DI4mZ4jE8PEq5
 }
 
 AzureEntityColoring(APCheck)
-!define APCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheck_tbg.png, APCheck)
-!define APCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheck_tbg.png, APCheck)
+!define APCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheck_tbg.png, Check)
+!define APCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheck_tbg.png, Check)
 AzureEntityColoring(APCheck_m)
-!define APCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckSPRITE, APCheck_m)
-!define APCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckSPRITE, APCheck_m)
+!define APCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckSPRITE, Check)
+!define APCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckSPRITE, Check)
 

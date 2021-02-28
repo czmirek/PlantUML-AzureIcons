@@ -6,9 +6,9 @@ K6eCIer1ARMtH-mP
 }
 
 AzureEntityColoring(APUpRightArrow)
-!define APUpRightArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpRightArrow_tbg.png, APUpRightArrow)
-!define APUpRightArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpRightArrow_tbg.png, APUpRightArrow)
+!define APUpRightArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpRightArrow_tbg.png, UpRightArrow)
+!define APUpRightArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpRightArrow_tbg.png, UpRightArrow)
 AzureEntityColoring(APUpRightArrow_m)
-!define APUpRightArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpRightArrowSPRITE, APUpRightArrow_m)
-!define APUpRightArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpRightArrowSPRITE, APUpRightArrow_m)
+!define APUpRightArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpRightArrowSPRITE, UpRightArrow)
+!define APUpRightArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpRightArrowSPRITE, UpRightArrow)
 

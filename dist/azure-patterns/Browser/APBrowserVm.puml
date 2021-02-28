@@ -5,9 +5,9 @@ wAnvE44Gb2wa7o6O
 }
 
 AzureEntityColoring(APBrowserVm)
-!define APBrowserVm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrowserVm_tbg.png, APBrowserVm)
-!define APBrowserVm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrowserVm_tbg.png, APBrowserVm)
+!define APBrowserVm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrowserVm_tbg.png, BrowserVm)
+!define APBrowserVm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrowserVm_tbg.png, BrowserVm)
 AzureEntityColoring(APBrowserVm_m)
-!define APBrowserVm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrowserVmSPRITE, APBrowserVm_m)
-!define APBrowserVm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrowserVmSPRITE, APBrowserVm_m)
+!define APBrowserVm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrowserVmSPRITE, BrowserVm)
+!define APBrowserVm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrowserVmSPRITE, BrowserVm)
 

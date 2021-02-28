@@ -7,9 +7,9 @@ YnE_KRf_k_KC
 }
 
 AzureEntityColoring(APIotCentralAlt)
-!define APIotCentralAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, APIotCentralAlt)
-!define APIotCentralAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, APIotCentralAlt)
+!define APIotCentralAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, IotCentralAlt)
+!define APIotCentralAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, IotCentralAlt)
 AzureEntityColoring(APIotCentralAlt_m)
-!define APIotCentralAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, APIotCentralAlt_m)
-!define APIotCentralAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, APIotCentralAlt_m)
+!define APIotCentralAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, IotCentralAlt)
+!define APIotCentralAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, IotCentralAlt)
 

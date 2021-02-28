@@ -1,11 +1,11 @@
 sprite $APBarGraphSPRITE [70x70/16z] xSn55eH000FHrl7X_hV5oME5ErNhv9lr8x9EpL1SK2WexL1GK9ugJ5ViHyNT5HGK59Hdelo559JNf-arG_dey-bLK52SRtAcp7hLJ9GrLLQP6qKP
 
 AzureEntityColoring(APBarGraph)
-!define APBarGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarGraph_tbg.png, APBarGraph)
-!define APBarGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarGraph_tbg.png, APBarGraph)
+!define APBarGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarGraph_tbg.png, BarGrh)
+!define APBarGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarGraph_tbg.png, BarGrh)
 AzureEntityColoring(APBarGraph_m)
-!define APBarGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, APBarGraph_m)
-!define APBarGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, APBarGraph_m)
+!define APBarGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, BarGrh)
+!define APBarGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, BarGrh)
 
 sprite $APBarGraphHumanSPRITE [70x70/16z] {
 xTHNTe0m34HHWZMMFVlVRteJLHRfqVlcNDodLREOfa0_J4abbLHIcKqtQsNherLYAjkAcEO_fgIIIYgfe3MoDLnIbCzfJB48gM45V1UYIkUxUbIXAQY09doy
@@ -14,11 +14,11 @@ b8UfJ-ayhBkKmfEAHn6U91wbygJwMSeT
 }
 
 AzureEntityColoring(APBarGraphHuman)
-!define APBarGraphHuman(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, APBarGraphHuman)
-!define APBarGraphHuman(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, APBarGraphHuman)
+!define APBarGraphHuman(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, BarGrhHuman)
+!define APBarGraphHuman(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarGraphHuman_tbg.png, BarGrhHuman)
 AzureEntityColoring(APBarGraphHuman_m)
-!define APBarGraphHuman_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, APBarGraphHuman_m)
-!define APBarGraphHuman_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, APBarGraphHuman_m)
+!define APBarGraphHuman_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, BarGrhHuman)
+!define APBarGraphHuman_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, BarGrhHuman)
 
 sprite $APBargraphWithDollarSignSPRITE [70x70/16z] {
 xTC5OWKn28HXPY2r-z-t0bkZFaaz_vFrR_sYedqiC2BSITXDai9u43G5yIXA2cA5uYiKrgOt60mK5IyabLGXApYKh2dZD7DxhJgXLvJJ6Xzl7uilKS8d5SIH
@@ -27,11 +27,11 @@ lGakAgrVfMnbAwnqvU4uroXRsSfMxiRdbQriPIjN
 }
 
 AzureEntityColoring(APBargraphWithDollarSign)
-!define APBargraphWithDollarSign(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBargraphWithDollarSign_tbg.png, APBargraphWithDollarSign)
-!define APBargraphWithDollarSign(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBargraphWithDollarSign_tbg.png, APBargraphWithDollarSign)
+!define APBargraphWithDollarSign(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBargraphWithDollarSign_tbg.png, BargrhWithDollarSign)
+!define APBargraphWithDollarSign(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBargraphWithDollarSign_tbg.png, BargrhWithDollarSign)
 AzureEntityColoring(APBargraphWithDollarSign_m)
-!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, APBargraphWithDollarSign_m)
-!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, APBargraphWithDollarSign_m)
+!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, BargrhWithDollarSign)
+!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, BargrhWithDollarSign)
 
 sprite $APBarChartSPRITE [70x70/16z] {
 xTF50SCm50HHCwuo_LSRqZLeXfq2dl13dOmiqCwgMB7IwbaxJX7Fj89YnOgLNB5gb58GQmwYM16nzugLB8-bevI6M75unOgLGOrGh5W96XcqJ56hRmNGjxvV
@@ -39,11 +39,11 @@ IWN9rmwWM6aWcmA1V2JIWO1oZ94AkYIxV1ty6m
 }
 
 AzureEntityColoring(APBarChart)
-!define APBarChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, APBarChart)
-!define APBarChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, APBarChart)
+!define APBarChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, BarChart)
+!define APBarChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, BarChart)
 AzureEntityColoring(APBarChart_m)
-!define APBarChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartSPRITE, APBarChart_m)
-!define APBarChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartSPRITE, APBarChart_m)
+!define APBarChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartSPRITE, BarChart)
+!define APBarChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartSPRITE, BarChart)
 
 sprite $APBarChartLastFilledSPRITE [70x70/16z] {
 xTO33i0m043HMlU_x-mjcFN_ZBwaOSMDIJrggs96dQwWeA2WeA2WeA1etoMtApPrgQiL51GKLRTFKSseRoee_QzlLwIrLkrKwZ7s6uhstilTYgq_tA_qCvB5
@@ -51,20 +51,20 @@ HHUVVLdpfcvv_Q97YHm
 }
 
 AzureEntityColoring(APBarChartLastFilled)
-!define APBarChartLastFilled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChartLastFilled_tbg.png, APBarChartLastFilled)
-!define APBarChartLastFilled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChartLastFilled_tbg.png, APBarChartLastFilled)
+!define APBarChartLastFilled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChartLastFilled_tbg.png, BarChartLastFilled)
+!define APBarChartLastFilled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChartLastFilled_tbg.png, BarChartLastFilled)
 AzureEntityColoring(APBarChartLastFilled_m)
-!define APBarChartLastFilled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, APBarChartLastFilled_m)
-!define APBarChartLastFilled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, APBarChartLastFilled_m)
+!define APBarChartLastFilled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, BarChartLastFilled)
+!define APBarChartLastFilled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, BarChartLastFilled)
 
 sprite $APBarChartTwoFilledSPRITE [70x70/16z] xSm53a8n50NHkkr_lzWDKVWQgSn4gk-OwpNbZ5f1GK6f6lKBAIWeJVc551IKfjpo2WeAIb1s20K5nQbxYlsE3goWe7XbNXNr_fJL_-qJ
 
 AzureEntityColoring(APBarChartTwoFilled)
-!define APBarChartTwoFilled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChartTwoFilled_tbg.png, APBarChartTwoFilled)
-!define APBarChartTwoFilled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChartTwoFilled_tbg.png, APBarChartTwoFilled)
+!define APBarChartTwoFilled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChartTwoFilled_tbg.png, BarChartTwoFilled)
+!define APBarChartTwoFilled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChartTwoFilled_tbg.png, BarChartTwoFilled)
 AzureEntityColoring(APBarChartTwoFilled_m)
-!define APBarChartTwoFilled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, APBarChartTwoFilled_m)
-!define APBarChartTwoFilled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, APBarChartTwoFilled_m)
+!define APBarChartTwoFilled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, BarChartTwoFilled)
+!define APBarChartTwoFilled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, BarChartTwoFilled)
 
 sprite $APBarsWithStarSPRITE [70x70/16z] {
 xTL50i8m04HHHj3xtnTtQWaEyrVLLsyMtKr6Wtgg4YLAb2XHm4SeyWCKsBnVaUsx5TWsxrNaJNSgy3RMAY3biqIYM96RGfdIpA3ylgW1ALAQcRAxsyoe-adh
@@ -72,11 +72,11 @@ wapUgLpVsliLrYhmDjsdSBytxtf6idNogXNXJAnLS3MJKQsfAEXkc49tDrI94YLAb2Wh
 }
 
 AzureEntityColoring(APBarsWithStar)
-!define APBarsWithStar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarsWithStar_tbg.png, APBarsWithStar)
-!define APBarsWithStar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarsWithStar_tbg.png, APBarsWithStar)
+!define APBarsWithStar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarsWithStar_tbg.png, BarsWithStar)
+!define APBarsWithStar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarsWithStar_tbg.png, BarsWithStar)
 AzureEntityColoring(APBarsWithStar_m)
-!define APBarsWithStar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarsWithStarSPRITE, APBarsWithStar_m)
-!define APBarsWithStar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarsWithStarSPRITE, APBarsWithStar_m)
+!define APBarsWithStar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarsWithStarSPRITE, BarsWithStar)
+!define APBarsWithStar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarsWithStarSPRITE, BarsWithStar)
 
 sprite $APBarWithSearchSPRITE [70x70/16z] {
 xTG5SWCn44JH5daqS_y3Ptctm-bmebzWVcKX_a4v9xolTEinvLQWLptsRb2pkEGPKYsMkcqCb79CUSLKCdbGFI9wklwlYZTNOYhJ79asAmr7AQQq1IeuyuX8
@@ -85,10 +85,10 @@ pWI544rXH5TkT3-g2emGLO4H8YZK7rKgzLUKeHHAL5AbFaiPob26CfIX36KeXNgLGidT0G
 }
 
 AzureEntityColoring(APBarWithSearch)
-!define APBarWithSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, APBarWithSearch)
-!define APBarWithSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, APBarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, BarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, BarWithSearch)
 AzureEntityColoring(APBarWithSearch_m)
-!define APBarWithSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, APBarWithSearch_m)
-!define APBarWithSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, APBarWithSearch_m)
+!define APBarWithSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, BarWithSearch)
+!define APBarWithSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, BarWithSearch)
 
 

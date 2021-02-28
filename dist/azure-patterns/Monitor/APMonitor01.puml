@@ -8,9 +8,9 @@ ESFca_qIdMa6nqeWJdT8lqqhqm8IO-QGnszna152Jn3lPuNHSrWjMX_ZxJs1JGVzxm
 }
 
 AzureEntityColoring(APMonitor01)
-!define APMonitor01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMonitor01_tbg.png, APMonitor01)
-!define APMonitor01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMonitor01_tbg.png, APMonitor01)
+!define APMonitor01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMonitor01_tbg.png, Monitor01)
+!define APMonitor01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMonitor01_tbg.png, Monitor01)
 AzureEntityColoring(APMonitor01_m)
-!define APMonitor01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitor01SPRITE, APMonitor01_m)
-!define APMonitor01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitor01SPRITE, APMonitor01_m)
+!define APMonitor01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitor01SPRITE, Monitor01)
+!define APMonitor01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitor01SPRITE, Monitor01)
 

@@ -10,9 +10,9 @@ AZtpJl6sOS5d2lWhHQ-Z3sfUPZAGDqgnyFORed8F5fNVgly
 }
 
 AzureEntityColoring(APBlockchain)
-!define APBlockchain(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchain_tbg.png, APBlockchain)
-!define APBlockchain(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchain_tbg.png, APBlockchain)
+!define APBlockchain(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlockchain_tbg.png, Blockchain)
+!define APBlockchain(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlockchain_tbg.png, Blockchain)
 AzureEntityColoring(APBlockchain_m)
-!define APBlockchain_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, APBlockchain_m)
-!define APBlockchain_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, APBlockchain_m)
+!define APBlockchain_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, Blockchain)
+!define APBlockchain_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, Blockchain)
 

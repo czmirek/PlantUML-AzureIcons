@@ -7,9 +7,9 @@ Ztf8LhOIk7h_vcys_oaard8KgB1eb2NmteVEFb1K2r48nysKEJ1h3x6KuR1Db5CHYzefPOv-2uZWSwAi
 }
 
 AzureEntityColoring(APJupytorNotebook)
-!define APJupytorNotebook(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APJupytorNotebook_tbg.png, APJupytorNotebook)
-!define APJupytorNotebook(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APJupytorNotebook_tbg.png, APJupytorNotebook)
+!define APJupytorNotebook(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APJupytorNotebook_tbg.png, JupytorNotebook)
+!define APJupytorNotebook(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APJupytorNotebook_tbg.png, JupytorNotebook)
 AzureEntityColoring(APJupytorNotebook_m)
-!define APJupytorNotebook_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APJupytorNotebookSPRITE, APJupytorNotebook_m)
-!define APJupytorNotebook_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APJupytorNotebookSPRITE, APJupytorNotebook_m)
+!define APJupytorNotebook_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APJupytorNotebookSPRITE, JupytorNotebook)
+!define APJupytorNotebook_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APJupytorNotebookSPRITE, JupytorNotebook)
 

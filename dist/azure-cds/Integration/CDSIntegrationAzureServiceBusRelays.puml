@@ -6,9 +6,9 @@ EiHGNc_u1m
 }
 
 AzureEntityColoring(CDSIntegrationAzureServiceBusRelays)
-!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, CDSIntegrationAzureServiceBusRelays)
-!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, CDSIntegrationAzureServiceBusRelays)
+!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, IntegrationAzureServiceBusRelays)
+!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, IntegrationAzureServiceBusRelays)
 AzureEntityColoring(CDSIntegrationAzureServiceBusRelays_m)
-!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, CDSIntegrationAzureServiceBusRelays_m)
-!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, CDSIntegrationAzureServiceBusRelays_m)
+!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, IntegrationAzureServiceBusRelays)
+!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, IntegrationAzureServiceBusRelays)
 

@@ -8,9 +8,9 @@ w4dq0lhDBGW1hLu-0W
 }
 
 AzureEntityColoring(APGeofencing)
-!define APGeofencing(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGeofencing_tbg.png, APGeofencing)
-!define APGeofencing(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGeofencing_tbg.png, APGeofencing)
+!define APGeofencing(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGeofencing_tbg.png, Geofencing)
+!define APGeofencing(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGeofencing_tbg.png, Geofencing)
 AzureEntityColoring(APGeofencing_m)
-!define APGeofencing_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeofencingSPRITE, APGeofencing_m)
-!define APGeofencing_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeofencingSPRITE, APGeofencing_m)
+!define APGeofencing_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeofencingSPRITE, Geofencing)
+!define APGeofencing_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeofencingSPRITE, Geofencing)
 

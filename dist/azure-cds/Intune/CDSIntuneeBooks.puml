@@ -5,9 +5,9 @@ eSFASWjzIGiz6MwPkPUXbU__BofhGNxqxVVIRh5xUQDxiVV5xiNknUw5u6pfNdYXHLsnUrbj2JCjyNab
 }
 
 AzureEntityColoring(CDSIntuneeBooks)
-!define CDSIntuneeBooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, CDSIntuneeBooks)
-!define CDSIntuneeBooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, CDSIntuneeBooks)
+!define CDSIntuneeBooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, IntuneeBooks)
+!define CDSIntuneeBooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, IntuneeBooks)
 AzureEntityColoring(CDSIntuneeBooks_m)
-!define CDSIntuneeBooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, CDSIntuneeBooks_m)
-!define CDSIntuneeBooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, CDSIntuneeBooks_m)
+!define CDSIntuneeBooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, IntuneeBooks)
+!define CDSIntuneeBooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, IntuneeBooks)
 

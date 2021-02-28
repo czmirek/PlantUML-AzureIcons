@@ -5,9 +5,9 @@ nkzYn0n6HuXhhqn4910o24YUCP9dZFIPD68cYPXPh1WnSqR4635pHiWOCND2n03f5CNLyhUDHgFHFm
 }
 
 AzureEntityColoring(APAdvancedFunctionality)
-!define APAdvancedFunctionality(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAdvancedFunctionality_tbg.png, APAdvancedFunctionality)
-!define APAdvancedFunctionality(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAdvancedFunctionality_tbg.png, APAdvancedFunctionality)
+!define APAdvancedFunctionality(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAdvancedFunctionality_tbg.png, AdvancedFunctionality)
+!define APAdvancedFunctionality(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAdvancedFunctionality_tbg.png, AdvancedFunctionality)
 AzureEntityColoring(APAdvancedFunctionality_m)
-!define APAdvancedFunctionality_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAdvancedFunctionalitySPRITE, APAdvancedFunctionality_m)
-!define APAdvancedFunctionality_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAdvancedFunctionalitySPRITE, APAdvancedFunctionality_m)
+!define APAdvancedFunctionality_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAdvancedFunctionalitySPRITE, AdvancedFunctionality)
+!define APAdvancedFunctionality_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAdvancedFunctionalitySPRITE, AdvancedFunctionality)
 

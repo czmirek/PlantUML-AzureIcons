@@ -9,9 +9,9 @@ SLpkggHUnPRkHkHdu3IAuEFgWobfMXQRtM23IN-MIKUIqG-JrYeam6yC42dfoyfHJd_q0G
 }
 
 AzureEntityColoring(APDatabaseSync)
-!define APDatabaseSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabaseSync_tbg.png, APDatabaseSync)
-!define APDatabaseSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabaseSync_tbg.png, APDatabaseSync)
+!define APDatabaseSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabaseSync_tbg.png, DatabaseSync)
+!define APDatabaseSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabaseSync_tbg.png, DatabaseSync)
 AzureEntityColoring(APDatabaseSync_m)
-!define APDatabaseSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabaseSyncSPRITE, APDatabaseSync_m)
-!define APDatabaseSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabaseSyncSPRITE, APDatabaseSync_m)
+!define APDatabaseSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabaseSyncSPRITE, DatabaseSync)
+!define APDatabaseSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabaseSyncSPRITE, DatabaseSync)
 

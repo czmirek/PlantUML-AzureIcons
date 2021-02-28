@@ -1,9 +1,9 @@
 sprite $APServer02SPRITE [70x70/16z] xTQt0S0m20LHPG7x3-pwbyxftW1NIK0wH9cRT55ARE5Dr0CgLAXGEUHFfyyfNSnDIct2Oui3AbIeK3dcJwVFoNsJ9Z8RbWeLxhfdoqtqJVAtTYCLAjnr2m
 
 AzureEntityColoring(APServer02)
-!define APServer02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer02_tbg.png, APServer02)
-!define APServer02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer02_tbg.png, APServer02)
+!define APServer02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer02_tbg.png, Server02)
+!define APServer02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer02_tbg.png, Server02)
 AzureEntityColoring(APServer02_m)
-!define APServer02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer02SPRITE, APServer02_m)
-!define APServer02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer02SPRITE, APServer02_m)
+!define APServer02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer02SPRITE, Server02)
+!define APServer02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer02SPRITE, Server02)
 

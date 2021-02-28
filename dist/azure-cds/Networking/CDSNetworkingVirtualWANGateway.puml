@@ -9,9 +9,9 @@ rqCsnWtHWW6iTYdPWd2BjUfGQxRy5tFSHLxN9fcEPVMiwXV8iosSy2rIZ__S67_W7m
 }
 
 AzureEntityColoring(CDSNetworkingVirtualWANGateway)
-!define CDSNetworkingVirtualWANGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualWANGateway_tbg.png, CDSNetworkingVirtualWANGateway)
-!define CDSNetworkingVirtualWANGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualWANGateway_tbg.png, CDSNetworkingVirtualWANGateway)
+!define CDSNetworkingVirtualWANGateway(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualWANGateway_tbg.png, NetworkingVirtualWANGateway)
+!define CDSNetworkingVirtualWANGateway(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualWANGateway_tbg.png, NetworkingVirtualWANGateway)
 AzureEntityColoring(CDSNetworkingVirtualWANGateway_m)
-!define CDSNetworkingVirtualWANGateway_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualWANGatewaySPRITE, CDSNetworkingVirtualWANGateway_m)
-!define CDSNetworkingVirtualWANGateway_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualWANGatewaySPRITE, CDSNetworkingVirtualWANGateway_m)
+!define CDSNetworkingVirtualWANGateway_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualWANGatewaySPRITE, NetworkingVirtualWANGateway)
+!define CDSNetworkingVirtualWANGateway_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualWANGatewaySPRITE, NetworkingVirtualWANGateway)
 

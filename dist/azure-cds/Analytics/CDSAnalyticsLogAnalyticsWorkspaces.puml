@@ -6,9 +6,9 @@ R-Mjs105bXu3ABa4lwTF
 }
 
 AzureEntityColoring(CDSAnalyticsLogAnalyticsWorkspaces)
-!define CDSAnalyticsLogAnalyticsWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsLogAnalyticsWorkspaces_tbg.png, CDSAnalyticsLogAnalyticsWorkspaces)
-!define CDSAnalyticsLogAnalyticsWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsLogAnalyticsWorkspaces_tbg.png, CDSAnalyticsLogAnalyticsWorkspaces)
+!define CDSAnalyticsLogAnalyticsWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsLogAnalyticsWorkspaces_tbg.png, AnalyticsLogAnalyticsWorkspaces)
+!define CDSAnalyticsLogAnalyticsWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsLogAnalyticsWorkspaces_tbg.png, AnalyticsLogAnalyticsWorkspaces)
 AzureEntityColoring(CDSAnalyticsLogAnalyticsWorkspaces_m)
-!define CDSAnalyticsLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsLogAnalyticsWorkspacesSPRITE, CDSAnalyticsLogAnalyticsWorkspaces_m)
-!define CDSAnalyticsLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsLogAnalyticsWorkspacesSPRITE, CDSAnalyticsLogAnalyticsWorkspaces_m)
+!define CDSAnalyticsLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsLogAnalyticsWorkspacesSPRITE, AnalyticsLogAnalyticsWorkspaces)
+!define CDSAnalyticsLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsLogAnalyticsWorkspacesSPRITE, AnalyticsLogAnalyticsWorkspaces)
 

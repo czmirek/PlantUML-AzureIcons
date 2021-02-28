@@ -8,9 +8,9 @@ _V7w0W
 }
 
 AzureEntityColoring(CDSContainersKubernetesServices)
-!define CDSContainersKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, CDSContainersKubernetesServices)
-!define CDSContainersKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, CDSContainersKubernetesServices)
+!define CDSContainersKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, ContainersKubernetesServices)
+!define CDSContainersKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, ContainersKubernetesServices)
 AzureEntityColoring(CDSContainersKubernetesServices_m)
-!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, CDSContainersKubernetesServices_m)
-!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, CDSContainersKubernetesServices_m)
+!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, ContainersKubernetesServices)
+!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, ContainersKubernetesServices)
 

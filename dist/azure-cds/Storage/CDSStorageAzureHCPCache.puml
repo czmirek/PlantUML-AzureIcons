@@ -6,9 +6,9 @@ SuMfhYofqF_An7HJVsS5YI8D62bAuMzr
 }
 
 AzureEntityColoring(CDSStorageAzureHCPCache)
-!define CDSStorageAzureHCPCache(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureHCPCache_tbg.png, CDSStorageAzureHCPCache)
-!define CDSStorageAzureHCPCache(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureHCPCache_tbg.png, CDSStorageAzureHCPCache)
+!define CDSStorageAzureHCPCache(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureHCPCache_tbg.png, StorageAzureHCPCache)
+!define CDSStorageAzureHCPCache(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureHCPCache_tbg.png, StorageAzureHCPCache)
 AzureEntityColoring(CDSStorageAzureHCPCache_m)
-!define CDSStorageAzureHCPCache_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureHCPCacheSPRITE, CDSStorageAzureHCPCache_m)
-!define CDSStorageAzureHCPCache_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureHCPCacheSPRITE, CDSStorageAzureHCPCache_m)
+!define CDSStorageAzureHCPCache_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureHCPCacheSPRITE, StorageAzureHCPCache)
+!define CDSStorageAzureHCPCache_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureHCPCacheSPRITE, StorageAzureHCPCache)
 

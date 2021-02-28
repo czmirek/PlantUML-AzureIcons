@@ -7,9 +7,9 @@ m2zUyUtT7Ohn2EGPXZ8-Hqy
 }
 
 AzureEntityColoring(APServerCloud)
-!define APServerCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerCloud_tbg.png, APServerCloud)
-!define APServerCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerCloud_tbg.png, APServerCloud)
+!define APServerCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerCloud_tbg.png, ServerCloud)
+!define APServerCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerCloud_tbg.png, ServerCloud)
 AzureEntityColoring(APServerCloud_m)
-!define APServerCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerCloudSPRITE, APServerCloud_m)
-!define APServerCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerCloudSPRITE, APServerCloud_m)
+!define APServerCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerCloudSPRITE, ServerCloud)
+!define APServerCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerCloudSPRITE, ServerCloud)
 

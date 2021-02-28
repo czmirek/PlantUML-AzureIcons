@@ -10,9 +10,9 @@ l2CONjpigxSLFdeV_l9j1T8cDEFhryxqFgpTndoBCuPrPVeR-GS
 }
 
 AzureEntityColoring(CDSSecurityKeyVaults)
-!define CDSSecurityKeyVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityKeyVaults_tbg.png, CDSSecurityKeyVaults)
-!define CDSSecurityKeyVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityKeyVaults_tbg.png, CDSSecurityKeyVaults)
+!define CDSSecurityKeyVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityKeyVaults_tbg.png, SecurityKeyVaults)
+!define CDSSecurityKeyVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityKeyVaults_tbg.png, SecurityKeyVaults)
 AzureEntityColoring(CDSSecurityKeyVaults_m)
-!define CDSSecurityKeyVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityKeyVaultsSPRITE, CDSSecurityKeyVaults_m)
-!define CDSSecurityKeyVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityKeyVaultsSPRITE, CDSSecurityKeyVaults_m)
+!define CDSSecurityKeyVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityKeyVaultsSPRITE, SecurityKeyVaults)
+!define CDSSecurityKeyVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityKeyVaultsSPRITE, SecurityKeyVaults)
 

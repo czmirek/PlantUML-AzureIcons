@@ -6,9 +6,9 @@ GfdgJwK8vSesfeKXkRhUaT9QmwHiVw8tOiZM8UjD4ISX2Hc_pBASoReflY-EwHNDXmuqkR2PSZxevPIg
 }
 
 AzureEntityColoring(APGaming)
-!define APGaming(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGaming_tbg.png, APGaming)
-!define APGaming(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGaming_tbg.png, APGaming)
+!define APGaming(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGaming_tbg.png, Gaming)
+!define APGaming(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGaming_tbg.png, Gaming)
 AzureEntityColoring(APGaming_m)
-!define APGaming_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGamingSPRITE, APGaming_m)
-!define APGaming_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGamingSPRITE, APGaming_m)
+!define APGaming_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGamingSPRITE, Gaming)
+!define APGaming_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGamingSPRITE, Gaming)
 

@@ -4,9 +4,9 @@ xTW53iDG30FGJ-NU_xnJBF0Oud7ZGIDwvK_fKwaMLCMgx4DM2yh9gbvGGdbF8drd_sMok8rbxNcdtSOg
 }
 
 AzureEntityColoring(APFailure)
-!define APFailure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFailure_tbg.png, APFailure)
-!define APFailure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFailure_tbg.png, APFailure)
+!define APFailure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFailure_tbg.png, Failure)
+!define APFailure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFailure_tbg.png, Failure)
 AzureEntityColoring(APFailure_m)
-!define APFailure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFailureSPRITE, APFailure_m)
-!define APFailure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFailureSPRITE, APFailure_m)
+!define APFailure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFailureSPRITE, Failure)
+!define APFailure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFailureSPRITE, Failure)
 

@@ -6,9 +6,9 @@ kuOofLHtOhkESwDKtWajabYek5ApIFl055zklLwB_R2KUm
 }
 
 AzureEntityColoring(APTwoPeople)
-!define APTwoPeople(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoPeople_tbg.png, APTwoPeople)
-!define APTwoPeople(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoPeople_tbg.png, APTwoPeople)
+!define APTwoPeople(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoPeople_tbg.png, TwoPeople)
+!define APTwoPeople(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoPeople_tbg.png, TwoPeople)
 AzureEntityColoring(APTwoPeople_m)
-!define APTwoPeople_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoPeopleSPRITE, APTwoPeople_m)
-!define APTwoPeople_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoPeopleSPRITE, APTwoPeople_m)
+!define APTwoPeople_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoPeopleSPRITE, TwoPeople)
+!define APTwoPeople_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoPeopleSPRITE, TwoPeople)
 

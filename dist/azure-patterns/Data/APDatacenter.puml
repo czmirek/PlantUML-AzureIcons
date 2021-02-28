@@ -7,9 +7,9 @@ RDB6bOdJDiwD98B4EcrZDE-I3R9EstYPYoI2hDCoT1QIJ91rbk7HOECaWfB_NtsIFeEsY66Jade1WoI2
 }
 
 AzureEntityColoring(APDatacenter)
-!define APDatacenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatacenter_tbg.png, APDatacenter)
-!define APDatacenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatacenter_tbg.png, APDatacenter)
+!define APDatacenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatacenter_tbg.png, Datacenter)
+!define APDatacenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatacenter_tbg.png, Datacenter)
 AzureEntityColoring(APDatacenter_m)
-!define APDatacenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatacenterSPRITE, APDatacenter_m)
-!define APDatacenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatacenterSPRITE, APDatacenter_m)
+!define APDatacenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatacenterSPRITE, Datacenter)
+!define APDatacenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatacenterSPRITE, Datacenter)
 

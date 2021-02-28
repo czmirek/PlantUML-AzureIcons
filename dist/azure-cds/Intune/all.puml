@@ -4,11 +4,11 @@ KafnP0VNwMXSzO4bSicuckHS7_kx0vefN6SArzzJIYcbEQOqVwMC-ysK4SqKZ6ibXjkL8NIqQW8
 }
 
 AzureEntityColoring(CDSIntuneClientApps)
-!define CDSIntuneClientApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, CDSIntuneClientApps)
-!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, CDSIntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, IntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, IntuneClientApps)
 AzureEntityColoring(CDSIntuneClientApps_m)
-!define CDSIntuneClientApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, CDSIntuneClientApps_m)
-!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, CDSIntuneClientApps_m)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, IntuneClientApps)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, IntuneClientApps)
 
 sprite $CDSIntuneDeviceComplianceSPRITE [70x70/16z] {
 xSnLOW0n24LHWaxtl-3wgumGgpVtBm4E_RJOl26bFFEcE5VyVSBFxNJfKWnvdvBKfwYaMPEYfTA7AFo5YdsMifI8g2eHqQeiPIbBMSfIz8SeCgtmVOzAETQi
@@ -17,25 +17,18 @@ AQX7CIBYQKNnEwsKNYNsIWYpzIeIDqcfOlJJkWC
 }
 
 AzureEntityColoring(CDSIntuneDeviceCompliance)
-!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceCompliance_tbg.png, CDSIntuneDeviceCompliance)
-!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceCompliance_tbg.png, CDSIntuneDeviceCompliance)
+!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceCompliance_tbg.png, IntuneDeviceCompliance)
+!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceCompliance_tbg.png, IntuneDeviceCompliance)
 AzureEntityColoring(CDSIntuneDeviceCompliance_m)
-!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceComplianceSPRITE, CDSIntuneDeviceCompliance_m)
-!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceComplianceSPRITE, CDSIntuneDeviceCompliance_m)
-
-sprite $CDSIntuneDeviceConfigurationSPRITE [70x70/16z] {
-xTO7ZiGW38LXt9wpzp_mL5A94xoz_MfJFqM09SftYmqTwObYw8gF5QmJhcrqIIasXfmIb5TK3hCkHUcaTr7u4nNxAELVSVTJnTs_k_Al_2l_ohyYjzwi46x9
-6nKLt7kjmbMn-JAKLnGGkIlBcnaffHJ5FNUCAHSo09HG667Khv0XIXAA82grkXOWcb8aK98x_IxAQbCM9ZSAE4mswp2fsg-eeMQbngYPB9LX60B5Ti_OubFh
-K6H_CRcnknMR5NeNXHkbVrrcHVlNfIRMpjwyHrHEbPfk7zwQyzAXyFgmqlmsfIoFXsAkf1IqvHL5a6OKX3MAgmGPmdIhn3aUENOwKHnOCJvozR39lDMnSZ_N
-F3DUFrqUFhQAn8hks-l9eTAXKFifZcyUpRAeAXf57Wn5YlXBHoXaPbg-ULS
-}
+!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceComplianceSPRITE, IntuneDeviceCompliance)
+!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceComplianceSPRITE, IntuneDeviceCompliance)
 
 AzureEntityColoring(CDSIntuneDeviceConfiguration)
-!define CDSIntuneDeviceConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceConfiguration_tbg.png, CDSIntuneDeviceConfiguration)
-!define CDSIntuneDeviceConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceConfiguration_tbg.png, CDSIntuneDeviceConfiguration)
+!define CDSIntuneDeviceConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceConfiguration_tbg.png, IntuneDeviceConfiguration)
+!define CDSIntuneDeviceConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceConfiguration_tbg.png, IntuneDeviceConfiguration)
 AzureEntityColoring(CDSIntuneDeviceConfiguration_m)
-!define CDSIntuneDeviceConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceConfigurationSPRITE, CDSIntuneDeviceConfiguration_m)
-!define CDSIntuneDeviceConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceConfigurationSPRITE, CDSIntuneDeviceConfiguration_m)
+!define CDSIntuneDeviceConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceConfigurationSPRITE, IntuneDeviceConfiguration)
+!define CDSIntuneDeviceConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceConfigurationSPRITE, IntuneDeviceConfiguration)
 
 sprite $CDSIntuneDeviceEnrollmentSPRITE [70x70/16z] {
 xTG5SeOm48RXZxK4xd_W3jBf8jbPKczvHtxbGIAux8dAz9xAWBaGCLqA_uAvCJoJpjaKD69kVYVSrtoHzLMfGs_ZeppATM91abJ8NBfahkorU8IMj5_nzIdK
@@ -45,11 +38,11 @@ cHmferSKbos_IQHCrGy4hhDOUMlilnRFd9yByPfO_5nez4eyHjpSaW6Yz7nfAowA5MqfjS8NAv9K95Ge
 }
 
 AzureEntityColoring(CDSIntuneDeviceEnrollment)
-!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, CDSIntuneDeviceEnrollment)
-!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, CDSIntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, IntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, IntuneDeviceEnrollment)
 AzureEntityColoring(CDSIntuneDeviceEnrollment_m)
-!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, CDSIntuneDeviceEnrollment_m)
-!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, CDSIntuneDeviceEnrollment_m)
+!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, IntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, IntuneDeviceEnrollment)
 
 sprite $CDSIntuneDevicesSPRITE [70x70/16z] {
 xTI5SS1034HHMR7Whlz-0sQKZyBw1RpPeONBF9HOatI3OY9CGz681oL48naGZaPXKE9x_KjP7oDrLhGhBRZYodKz6_M92l8c6k9DgLks20vHYMAKfU1DUKft
@@ -57,11 +50,11 @@ xTI5SS1034HHMR7Whlz-0sQKZyBw1RpPeONBF9HOatI3OY9CGz681oL48naGZaPXKE9x_KjP7oDrLhGh
 }
 
 AzureEntityColoring(CDSIntuneDevices)
-!define CDSIntuneDevices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDevices_tbg.png, CDSIntuneDevices)
-!define CDSIntuneDevices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDevices_tbg.png, CDSIntuneDevices)
+!define CDSIntuneDevices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDevices_tbg.png, IntuneDevices)
+!define CDSIntuneDevices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDevices_tbg.png, IntuneDevices)
 AzureEntityColoring(CDSIntuneDevices_m)
-!define CDSIntuneDevices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDevicesSPRITE, CDSIntuneDevices_m)
-!define CDSIntuneDevices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDevicesSPRITE, CDSIntuneDevices_m)
+!define CDSIntuneDevices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDevicesSPRITE, IntuneDevices)
+!define CDSIntuneDevices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDevicesSPRITE, IntuneDevices)
 
 sprite $CDSIntuneeBooksSPRITE [70x70/16z] {
 xTI5aSGm38LXaRd_Vi_B5CLqlFeAUFCdep7y4mRf09_063fONI5b1KS_Pxs5UB25di013xQWF68uuAuM3fNeAtgBprM00vSFFAZq5byECbIfkQAtb2EeycfB
@@ -70,26 +63,18 @@ eSFASWjzIGiz6MwPkPUXbU__BofhGNxqxVVIRh5xUQDxiVV5xiNknUw5u6pfNdYXHLsnUrbj2JCjyNab
 }
 
 AzureEntityColoring(CDSIntuneeBooks)
-!define CDSIntuneeBooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, CDSIntuneeBooks)
-!define CDSIntuneeBooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, CDSIntuneeBooks)
+!define CDSIntuneeBooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, IntuneeBooks)
+!define CDSIntuneeBooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneeBooks_tbg.png, IntuneeBooks)
 AzureEntityColoring(CDSIntuneeBooks_m)
-!define CDSIntuneeBooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, CDSIntuneeBooks_m)
-!define CDSIntuneeBooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, CDSIntuneeBooks_m)
-
-sprite $CDSIntuneExchangeAccessSPRITE [70x70/16z] {
-xTS73gCm48LXc-bp_mElMLc9uK70R2-_Mfe_JJngb3ybKeziXUloaAWIEHHIotpQ3wzrJgO7yLLmqvxvAldSEBmQffiiCeCdZ7KGrttccMbqYrWaXa5md0ok
-7quJYvfdt-nnhysR2XDilqRs-fsUPZ7yT3ULV3tkReO4GkQj5UEz4gQJMQQ0ejF5VKLQtwW8zsHEGQJtME5DznJR9xn9RDyTHVlPbwTF5Ed8MtoYR0u-LPHR
-2k-UAFRgeIAeoFTH_YigJ2rvHIqMdL9aEOxqsnMYxw3GfSAee84AJofqHw4BXOuLsYerqqS53LGyivPj0GeWg4JPPHd-JaQ3HyNVHTfUaJE5cFbCuRrICq7f
-Hkj8mMjf-JYClf4UAf5M84Q5U0YKJ2fO38m2qjegaLuEuft2qAZWA3YCza70qTqe60rhakCkHe4r7OSBmcfct4MYbhFu9XFZ_y4i8suXKZvK8-Cwk9H7J4Qv
-Y3AlaQLCCDC8ClC8ClC8Cf5d1YBdBP5vWjHolth8P7gTVX96nCfidbidEpAPZ4p2i_J47RUw0LSoSpclj3nFkX5SlgN5iwMrV6CKiPG_gIy
-}
+!define CDSIntuneeBooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, IntuneeBooks)
+!define CDSIntuneeBooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneeBooksSPRITE, IntuneeBooks)
 
 AzureEntityColoring(CDSIntuneExchangeAccess)
-!define CDSIntuneExchangeAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeAccess_tbg.png, CDSIntuneExchangeAccess)
-!define CDSIntuneExchangeAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeAccess_tbg.png, CDSIntuneExchangeAccess)
+!define CDSIntuneExchangeAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeAccess_tbg.png, IntuneExchangeAccess)
+!define CDSIntuneExchangeAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeAccess_tbg.png, IntuneExchangeAccess)
 AzureEntityColoring(CDSIntuneExchangeAccess_m)
-!define CDSIntuneExchangeAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeAccessSPRITE, CDSIntuneExchangeAccess_m)
-!define CDSIntuneExchangeAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeAccessSPRITE, CDSIntuneExchangeAccess_m)
+!define CDSIntuneExchangeAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeAccessSPRITE, IntuneExchangeAccess)
+!define CDSIntuneExchangeAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeAccessSPRITE, IntuneExchangeAccess)
 
 sprite $CDSIntuneExchangeOnPremisesAccessSPRITE [70x70/16z] {
 xPL50eGm40GZ4_t_V_4-uBqkJ9rgXS8YvekHI20d4Hifx775Hmhtb8h_jKeOs56oWcVdvkgXRwka3XmwLm_j-7H5db3H2iFz5QrW3TXJ7RlFhsZ5msSgKAAI
@@ -97,11 +82,11 @@ AUwlQ2N8G9XhX98L319eHwU2RxMY5I2vGzo0p8TQmBTCXKBUKYaKFro9RY0-Li7G-PyAThNNLRIY5LVd
 }
 
 AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess)
-!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, CDSIntuneExchangeOnPremisesAccess)
-!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, CDSIntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, IntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, IntuneExchangeOnPremisesAccess)
 AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess_m)
-!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, CDSIntuneExchangeOnPremisesAccess_m)
-!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, CDSIntuneExchangeOnPremisesAccess_m)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, IntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, IntuneExchangeOnPremisesAccess)
 
 sprite $CDSIntuneIntuneSPRITE [70x70/16z] {
 xTG7SWCX341HDK1m_mCdi1FB32PcvLx-DDUt3G4txHk5w2iWMD4TNqMHNX7S7OL10KSyAEXGvDsLb99BIMbLGRnO8Mdhd2zHqCQBtGeEItrKmbabreI9socH
@@ -111,11 +96,11 @@ ZtCgcBkYIq7DVM6tWXpoa0hlKKZpwNI7WjdoAwopzYX8itX1MTgzWuo5lSgabrKWJ121c_Rj1m
 }
 
 AzureEntityColoring(CDSIntuneIntune)
-!define CDSIntuneIntune(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntune_tbg.png, CDSIntuneIntune)
-!define CDSIntuneIntune(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntune_tbg.png, CDSIntuneIntune)
+!define CDSIntuneIntune(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntune_tbg.png, IntuneIntune)
+!define CDSIntuneIntune(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntune_tbg.png, IntuneIntune)
 AzureEntityColoring(CDSIntuneIntune_m)
-!define CDSIntuneIntune_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneIntuneSPRITE, CDSIntuneIntune_m)
-!define CDSIntuneIntune_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneIntuneSPRITE, CDSIntuneIntune_m)
+!define CDSIntuneIntune_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneIntuneSPRITE, IntuneIntune)
+!define CDSIntuneIntune_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneIntuneSPRITE, IntuneIntune)
 
 sprite $CDSIntuneIntuneAppProtectionSPRITE [70x70/16z] {
 xTG7SWCX341HDK1m_mCdi1FB32PcvLx-DDUt3G4txHk5w2iWMD4TNqMHNX7S7OL10KSyAEXGvDsLb99BIMbLGRnO8Mdhd2zHqCQBtGeEItrKmbabreI9socH
@@ -125,11 +110,11 @@ ZtCgcBkYIq7DVM6tWXpoa0hlKKZpwNI7WjdoAwopzYX8itX1MTgzWuo5lSgabrKWJ121c_Rj1m
 }
 
 AzureEntityColoring(CDSIntuneIntuneAppProtection)
-!define CDSIntuneIntuneAppProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneAppProtection_tbg.png, CDSIntuneIntuneAppProtection)
-!define CDSIntuneIntuneAppProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneAppProtection_tbg.png, CDSIntuneIntuneAppProtection)
+!define CDSIntuneIntuneAppProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneAppProtection_tbg.png, IntuneIntuneAppProtection)
+!define CDSIntuneIntuneAppProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneAppProtection_tbg.png, IntuneIntuneAppProtection)
 AzureEntityColoring(CDSIntuneIntuneAppProtection_m)
-!define CDSIntuneIntuneAppProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneIntuneAppProtectionSPRITE, CDSIntuneIntuneAppProtection_m)
-!define CDSIntuneIntuneAppProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneIntuneAppProtectionSPRITE, CDSIntuneIntuneAppProtection_m)
+!define CDSIntuneIntuneAppProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneIntuneAppProtectionSPRITE, IntuneIntuneAppProtection)
+!define CDSIntuneIntuneAppProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneIntuneAppProtectionSPRITE, IntuneIntuneAppProtection)
 
 sprite $CDSIntuneIntuneForEducationSPRITE [70x70/16z] {
 xTG7SWCX341HDK1m_mCdi1FB32PcvLx-DDUt3G4txHk5w2iWMD4TNqMHNX7S7OL10KSyAEXGvDsLb99BIMbLGRnO8Mdhd2zHqCQBtGeEItrKmbabreI9socH
@@ -139,11 +124,11 @@ ZtCgcBkYIq7DVM6tWXpoa0hlKKZpwNI7WjdoAwopzYX8itX1MTgzWuo5lSgabrKWJ121c_Rj1m
 }
 
 AzureEntityColoring(CDSIntuneIntuneForEducation)
-!define CDSIntuneIntuneForEducation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneForEducation_tbg.png, CDSIntuneIntuneForEducation)
-!define CDSIntuneIntuneForEducation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneForEducation_tbg.png, CDSIntuneIntuneForEducation)
+!define CDSIntuneIntuneForEducation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneForEducation_tbg.png, IntuneIntuneForEducation)
+!define CDSIntuneIntuneForEducation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneIntuneForEducation_tbg.png, IntuneIntuneForEducation)
 AzureEntityColoring(CDSIntuneIntuneForEducation_m)
-!define CDSIntuneIntuneForEducation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneIntuneForEducationSPRITE, CDSIntuneIntuneForEducation_m)
-!define CDSIntuneIntuneForEducation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneIntuneForEducationSPRITE, CDSIntuneIntuneForEducation_m)
+!define CDSIntuneIntuneForEducation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneIntuneForEducationSPRITE, IntuneIntuneForEducation)
+!define CDSIntuneIntuneForEducation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneIntuneForEducationSPRITE, IntuneIntuneForEducation)
 
 sprite $CDSIntuneRolesSPRITE [70x70/16z] {
 vTPNWbin28LXu1nmzh_YC9LHheJnf2VVeyklyYBahw004qo_8q4MoAU0wJixIh-WFCZe6rHvXFg1FC9FA7Fq8yYKUKEclCFlkTeYCuYMoOX7Yp8IFPS9ZJl-
@@ -154,11 +139,11 @@ h80iBvNRHC1E5VgmaXp7YevFbBYlM4qhCxnMqCs3_UrKHOh6lECVAoeB1SVmLZ7vBiyLoFTIKEMFzHK
 }
 
 AzureEntityColoring(CDSIntuneRoles)
-!define CDSIntuneRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneRoles_tbg.png, CDSIntuneRoles)
-!define CDSIntuneRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneRoles_tbg.png, CDSIntuneRoles)
+!define CDSIntuneRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneRoles_tbg.png, IntuneRoles)
+!define CDSIntuneRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneRoles_tbg.png, IntuneRoles)
 AzureEntityColoring(CDSIntuneRoles_m)
-!define CDSIntuneRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneRolesSPRITE, CDSIntuneRoles_m)
-!define CDSIntuneRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneRolesSPRITE, CDSIntuneRoles_m)
+!define CDSIntuneRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneRolesSPRITE, IntuneRoles)
+!define CDSIntuneRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneRolesSPRITE, IntuneRoles)
 
 sprite $CDSIntuneSecurityBaselinesSPRITE [70x70/16z] {
 xTVfji8m20JW1f9Gy_xlwoxbzgHpAUxB_FSxX4dL3g-TH9pB8KmfR70noJ67ZfyzvZnGO91yCZIHSTWOPXxsEubowI77PFeN8k9pAMeeOfAPcH8w1YOijQpa
@@ -168,11 +153,11 @@ fJUDdGKfTXRBNBSNNV4rJLlcEaNVIYvAu4IQFLEFszsqCT2qhIhUj3tLrFG6AQ9ABtngccDxqP3cavJh
 }
 
 AzureEntityColoring(CDSIntuneSecurityBaselines)
-!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSecurityBaselines_tbg.png, CDSIntuneSecurityBaselines)
-!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSecurityBaselines_tbg.png, CDSIntuneSecurityBaselines)
+!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSecurityBaselines_tbg.png, IntuneSecurityBaselines)
+!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSecurityBaselines_tbg.png, IntuneSecurityBaselines)
 AzureEntityColoring(CDSIntuneSecurityBaselines_m)
-!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneSecurityBaselinesSPRITE, CDSIntuneSecurityBaselines_m)
-!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneSecurityBaselinesSPRITE, CDSIntuneSecurityBaselines_m)
+!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneSecurityBaselinesSPRITE, IntuneSecurityBaselines)
+!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneSecurityBaselinesSPRITE, IntuneSecurityBaselines)
 
 sprite $CDSIntuneSoftwareUpdatesSPRITE [70x70/16z] {
 xTHN4gGm38JXjjJg2VS_y2vOk0RN1B4vyBtpuupdJiRuJZJe_WFeUdyhiFBxMoFo_Q9z1sRarhxBBJFMliVzpwdOJwsSbRDoLixAMN7_pefJYVwaKkBQSKk7
@@ -182,11 +167,11 @@ p7MkKihVXXwWpFORJ6bmr56RSFVGG1mHUYfm3FK4SPH_PoGrJes6xZiwD7oxPlwLDPISlW
 }
 
 AzureEntityColoring(CDSIntuneSoftwareUpdates)
-!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSoftwareUpdates_tbg.png, CDSIntuneSoftwareUpdates)
-!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSoftwareUpdates_tbg.png, CDSIntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSoftwareUpdates_tbg.png, IntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSoftwareUpdates_tbg.png, IntuneSoftwareUpdates)
 AzureEntityColoring(CDSIntuneSoftwareUpdates_m)
-!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneSoftwareUpdatesSPRITE, CDSIntuneSoftwareUpdates_m)
-!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneSoftwareUpdatesSPRITE, CDSIntuneSoftwareUpdates_m)
+!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneSoftwareUpdatesSPRITE, IntuneSoftwareUpdates)
+!define CDSIntuneSoftwareUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneSoftwareUpdatesSPRITE, IntuneSoftwareUpdates)
 
 sprite $CDSIntuneTenantStatusSPRITE [70x70/16z] {
 rTRNObiX30PWRJ7U_trR0eaEZcd09rtVJIO_aZna-3-GYFuaZF0g5BqWU8deJ12EeNQtoY5zXiyhkH-ZtRscM9Vkz1FuJYdX_bHCpGZsqAUZLm9xk1zSWJrY
@@ -198,11 +183,11 @@ noHBpK05A0EMjnvZB5_AuucA85L1gm22ZV86tz2V6fW12a5kLT4exoGbfvG8h4tcxRn2wkNjfiIof_vK
 }
 
 AzureEntityColoring(CDSIntuneTenantStatus)
-!define CDSIntuneTenantStatus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, CDSIntuneTenantStatus)
-!define CDSIntuneTenantStatus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, CDSIntuneTenantStatus)
+!define CDSIntuneTenantStatus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, IntuneTenantStatus)
+!define CDSIntuneTenantStatus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, IntuneTenantStatus)
 AzureEntityColoring(CDSIntuneTenantStatus_m)
-!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, CDSIntuneTenantStatus_m)
-!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, CDSIntuneTenantStatus_m)
+!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, IntuneTenantStatus)
+!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, IntuneTenantStatus)
 
 sprite $CDSIntuneTroubleshootSPRITE [70x70/16z] {
 xTU7ikCm28NXWm19UD__URVTLCQ7iBt-qrE-aP5IZEV-9pXBrCnqe9c5uon_owHXo8hOvy_urS6hR4U4eMPSNYuaOW5DXYyaGl2Q0Mt5vnnupIX8_ePieCEG
@@ -213,10 +198,10 @@ o350cJuo0Svm93Lmoim6aXN8obc9v0IKwIE6IuCpVQHcQkHfXjfXZ2ESwI8renqavpkdJQHcbk1UXTJC
 }
 
 AzureEntityColoring(CDSIntuneTroubleshoot)
-!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, CDSIntuneTroubleshoot)
-!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, CDSIntuneTroubleshoot)
+!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, IntuneTroubleshoot)
+!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, IntuneTroubleshoot)
 AzureEntityColoring(CDSIntuneTroubleshoot_m)
-!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, CDSIntuneTroubleshoot_m)
-!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, CDSIntuneTroubleshoot_m)
+!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, IntuneTroubleshoot)
+!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, IntuneTroubleshoot)
 
 

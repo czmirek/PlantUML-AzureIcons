@@ -9,9 +9,9 @@ WmhESLexbR7eDPm9jLpCS8wcX5w-JiU2vs1Thz9x__nw3m
 }
 
 AzureEntityColoring(APBrochure)
-!define APBrochure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrochure_tbg.png, APBrochure)
-!define APBrochure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrochure_tbg.png, APBrochure)
+!define APBrochure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrochure_tbg.png, Brochure)
+!define APBrochure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrochure_tbg.png, Brochure)
 AzureEntityColoring(APBrochure_m)
-!define APBrochure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrochureSPRITE, APBrochure_m)
-!define APBrochure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrochureSPRITE, APBrochure_m)
+!define APBrochure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrochureSPRITE, Brochure)
+!define APBrochure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrochureSPRITE, Brochure)
 

@@ -4,9 +4,9 @@ uUnq5QmpBkuDczbf0_OPVhoG3emDd6xyuGhTaFCDtG2WT4CVNZC0eHjlLzgDiqBjnbbfD_JXDPsLTkCR
 }
 
 AzureEntityColoring(APFinancial)
-!define APFinancial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFinancial_tbg.png, APFinancial)
-!define APFinancial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFinancial_tbg.png, APFinancial)
+!define APFinancial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFinancial_tbg.png, Financial)
+!define APFinancial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFinancial_tbg.png, Financial)
 AzureEntityColoring(APFinancial_m)
-!define APFinancial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFinancialSPRITE, APFinancial_m)
-!define APFinancial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFinancialSPRITE, APFinancial_m)
+!define APFinancial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFinancialSPRITE, Financial)
+!define APFinancial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFinancialSPRITE, Financial)
 

@@ -7,9 +7,9 @@ v6CmKMBuf6HZbBFx4kDSwUqoWoy_5_2IMK6P1B7mznWdvRDScGBNuWhz2h8eA75CFCdn3aW3I6UvCWYU
 }
 
 AzureEntityColoring(CDSBlockchainOutboundConnection)
-!define CDSBlockchainOutboundConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainOutboundConnection_tbg.png, CDSBlockchainOutboundConnection)
-!define CDSBlockchainOutboundConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainOutboundConnection_tbg.png, CDSBlockchainOutboundConnection)
+!define CDSBlockchainOutboundConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainOutboundConnection_tbg.png, BlockchainOutboundConnection)
+!define CDSBlockchainOutboundConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainOutboundConnection_tbg.png, BlockchainOutboundConnection)
 AzureEntityColoring(CDSBlockchainOutboundConnection_m)
-!define CDSBlockchainOutboundConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainOutboundConnectionSPRITE, CDSBlockchainOutboundConnection_m)
-!define CDSBlockchainOutboundConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainOutboundConnectionSPRITE, CDSBlockchainOutboundConnection_m)
+!define CDSBlockchainOutboundConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainOutboundConnectionSPRITE, BlockchainOutboundConnection)
+!define CDSBlockchainOutboundConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainOutboundConnectionSPRITE, BlockchainOutboundConnection)
 

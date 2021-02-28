@@ -6,9 +6,9 @@ fBnElxBXVfqIJ-NysZTK-ZsKhlTGIlr6nLUhtwPqIHS
 }
 
 AzureEntityColoring(APAutoscale)
-!define APAutoscale(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoscale_tbg.png, APAutoscale)
-!define APAutoscale(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoscale_tbg.png, APAutoscale)
+!define APAutoscale(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoscale_tbg.png, Autoscale)
+!define APAutoscale(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoscale_tbg.png, Autoscale)
 AzureEntityColoring(APAutoscale_m)
-!define APAutoscale_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoscaleSPRITE, APAutoscale_m)
-!define APAutoscale_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoscaleSPRITE, APAutoscale_m)
+!define APAutoscale_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoscaleSPRITE, Autoscale)
+!define APAutoscale_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoscaleSPRITE, Autoscale)
 

@@ -7,9 +7,9 @@ F4qQMIneIg1eBYc9eeMaeFuVfNI5zJUK9egE_0wbLGKWYAna4aHM8WaYAsCGGrRS2A8gPGQ2Y4gQ1K54
 }
 
 AzureEntityColoring(APSupportFaq)
-!define APSupportFaq(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSupportFaq_tbg.png, APSupportFaq)
-!define APSupportFaq(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSupportFaq_tbg.png, APSupportFaq)
+!define APSupportFaq(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSupportFaq_tbg.png, SupportFaq)
+!define APSupportFaq(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSupportFaq_tbg.png, SupportFaq)
 AzureEntityColoring(APSupportFaq_m)
-!define APSupportFaq_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSupportFaqSPRITE, APSupportFaq_m)
-!define APSupportFaq_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSupportFaqSPRITE, APSupportFaq_m)
+!define APSupportFaq_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSupportFaqSPRITE, SupportFaq)
+!define APSupportFaq_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSupportFaqSPRITE, SupportFaq)
 

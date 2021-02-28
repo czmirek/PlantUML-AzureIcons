@@ -8,9 +8,9 @@ RUA-mrcFTfVaH-FM0PH4fD-N7TYEZZstfW-uHxi3HSJMiBNZ6Jwu6u_lp4Xrrv4Q9MGJmzLTzhJQGdgC
 }
 
 AzureEntityColoring(CDSIotStreamAnalyticsJobs)
-!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, CDSIotStreamAnalyticsJobs)
-!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, CDSIotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, IotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, IotStreamAnalyticsJobs)
 AzureEntityColoring(CDSIotStreamAnalyticsJobs_m)
-!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, CDSIotStreamAnalyticsJobs_m)
-!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, CDSIotStreamAnalyticsJobs_m)
+!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, IotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, IotStreamAnalyticsJobs)
 

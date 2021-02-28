@@ -9,9 +9,9 @@ BJOxT7xBJwKxlHLCdvMRtVPwoGh3yfpmfmZDwLdiP2rnN38PobCdq8EM-Ml6ZOpI9MGX9obe5SzrRPp9
 }
 
 AzureEntityColoring(APClockMoving)
-!define APClockMoving(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, APClockMoving)
-!define APClockMoving(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, APClockMoving)
+!define APClockMoving(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, ClockMoving)
+!define APClockMoving(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, ClockMoving)
 AzureEntityColoring(APClockMoving_m)
-!define APClockMoving_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, APClockMoving_m)
-!define APClockMoving_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, APClockMoving_m)
+!define APClockMoving_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, ClockMoving)
+!define APClockMoving_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, ClockMoving)
 

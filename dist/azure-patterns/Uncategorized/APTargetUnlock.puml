@@ -5,9 +5,9 @@ il9TXeEq_9kCtlEPgGXqolCoE4Gc2y0JEvEdPwBTx6vGJa_XHkGU5P_nj4fKecAgQhTMClyHkx4Y_4zl
 }
 
 AzureEntityColoring(APTargetUnlock)
-!define APTargetUnlock(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTargetUnlock_tbg.png, APTargetUnlock)
-!define APTargetUnlock(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTargetUnlock_tbg.png, APTargetUnlock)
+!define APTargetUnlock(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTargetUnlock_tbg.png, TargetUnlock)
+!define APTargetUnlock(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTargetUnlock_tbg.png, TargetUnlock)
 AzureEntityColoring(APTargetUnlock_m)
-!define APTargetUnlock_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTargetUnlockSPRITE, APTargetUnlock_m)
-!define APTargetUnlock_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTargetUnlockSPRITE, APTargetUnlock_m)
+!define APTargetUnlock_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTargetUnlockSPRITE, TargetUnlock)
+!define APTargetUnlock_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTargetUnlockSPRITE, TargetUnlock)
 

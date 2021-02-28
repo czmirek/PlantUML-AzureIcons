@@ -6,9 +6,9 @@ xW4
 }
 
 AzureEntityColoring(APDdosProtectionDark)
-!define APDdosProtectionDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDdosProtectionDark_tbg.png, APDdosProtectionDark)
-!define APDdosProtectionDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDdosProtectionDark_tbg.png, APDdosProtectionDark)
+!define APDdosProtectionDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDdosProtectionDark_tbg.png, DdosProtectionDark)
+!define APDdosProtectionDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDdosProtectionDark_tbg.png, DdosProtectionDark)
 AzureEntityColoring(APDdosProtectionDark_m)
-!define APDdosProtectionDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDdosProtectionDarkSPRITE, APDdosProtectionDark_m)
-!define APDdosProtectionDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDdosProtectionDarkSPRITE, APDdosProtectionDark_m)
+!define APDdosProtectionDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDdosProtectionDarkSPRITE, DdosProtectionDark)
+!define APDdosProtectionDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDdosProtectionDarkSPRITE, DdosProtectionDark)
 

@@ -7,9 +7,9 @@ z8t6DbF6oMkkqWeP5p08GMzBNxzHMP3zSzDYvYH16EvrmFnBWX2aBhEudGOXhmj840ekJu8mC0K9Sfm7
 }
 
 AzureEntityColoring(APSynapseAnalytics)
-!define APSynapseAnalytics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSynapseAnalytics_tbg.png, APSynapseAnalytics)
-!define APSynapseAnalytics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSynapseAnalytics_tbg.png, APSynapseAnalytics)
+!define APSynapseAnalytics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSynapseAnalytics_tbg.png, SynseAnalytics)
+!define APSynapseAnalytics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSynapseAnalytics_tbg.png, SynseAnalytics)
 AzureEntityColoring(APSynapseAnalytics_m)
-!define APSynapseAnalytics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSynapseAnalyticsSPRITE, APSynapseAnalytics_m)
-!define APSynapseAnalytics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSynapseAnalyticsSPRITE, APSynapseAnalytics_m)
+!define APSynapseAnalytics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSynapseAnalyticsSPRITE, SynseAnalytics)
+!define APSynapseAnalytics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSynapseAnalyticsSPRITE, SynseAnalytics)
 

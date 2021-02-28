@@ -6,9 +6,9 @@ yQStLJud7eeywficQ--bQwEfD5nfK1Yzxw7G0gK1POK9TOM0ijA0ii90MM52NMaeHxUDt_u1
 }
 
 AzureEntityColoring(CDSNetworkingFrontDoors)
-!define CDSNetworkingFrontDoors(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingFrontDoors_tbg.png, CDSNetworkingFrontDoors)
-!define CDSNetworkingFrontDoors(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingFrontDoors_tbg.png, CDSNetworkingFrontDoors)
+!define CDSNetworkingFrontDoors(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingFrontDoors_tbg.png, NetworkingFrontDoors)
+!define CDSNetworkingFrontDoors(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingFrontDoors_tbg.png, NetworkingFrontDoors)
 AzureEntityColoring(CDSNetworkingFrontDoors_m)
-!define CDSNetworkingFrontDoors_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingFrontDoorsSPRITE, CDSNetworkingFrontDoors_m)
-!define CDSNetworkingFrontDoors_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingFrontDoorsSPRITE, CDSNetworkingFrontDoors_m)
+!define CDSNetworkingFrontDoors_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingFrontDoorsSPRITE, NetworkingFrontDoors)
+!define CDSNetworkingFrontDoors_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingFrontDoorsSPRITE, NetworkingFrontDoors)
 

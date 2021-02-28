@@ -7,9 +7,9 @@ oYF1hCm8CHD27OevoC7uo7GUJGXbQO7myZi8vI5yVOaZphME4BDhnBdk7aY7z4k41sDd2A-mZ_3zg9mY
 }
 
 AzureEntityColoring(APCharts21)
-!define APCharts21(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts21_tbg.png, APCharts21)
-!define APCharts21(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts21_tbg.png, APCharts21)
+!define APCharts21(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts21_tbg.png, Charts21)
+!define APCharts21(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts21_tbg.png, Charts21)
 AzureEntityColoring(APCharts21_m)
-!define APCharts21_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts21SPRITE, APCharts21_m)
-!define APCharts21_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts21SPRITE, APCharts21_m)
+!define APCharts21_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts21SPRITE, Charts21)
+!define APCharts21_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts21SPRITE, Charts21)
 

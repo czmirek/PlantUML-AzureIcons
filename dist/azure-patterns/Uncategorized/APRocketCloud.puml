@@ -8,9 +8,9 @@ g35w6Bq61rpckSKhCrdgFUeqrzzsZRVjCaMv5okKRfBrvQzOw1iMfRjezlakzerGw2kX84BeDX9Ez_40
 }
 
 AzureEntityColoring(APRocketCloud)
-!define APRocketCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRocketCloud_tbg.png, APRocketCloud)
-!define APRocketCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRocketCloud_tbg.png, APRocketCloud)
+!define APRocketCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRocketCloud_tbg.png, RocketCloud)
+!define APRocketCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRocketCloud_tbg.png, RocketCloud)
 AzureEntityColoring(APRocketCloud_m)
-!define APRocketCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRocketCloudSPRITE, APRocketCloud_m)
-!define APRocketCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRocketCloudSPRITE, APRocketCloud_m)
+!define APRocketCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRocketCloudSPRITE, RocketCloud)
+!define APRocketCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRocketCloudSPRITE, RocketCloud)
 

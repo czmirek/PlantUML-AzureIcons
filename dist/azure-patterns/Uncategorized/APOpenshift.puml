@@ -8,9 +8,9 @@ XNV4RoYGqUGt-6_NqC-vsGISlsKzKSqJAFw2ssSc7C5VS2jF_qEG1o_rQetWMoYqY8YfY30X_4Ty0G
 }
 
 AzureEntityColoring(APOpenshift)
-!define APOpenshift(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOpenshift_tbg.png, APOpenshift)
-!define APOpenshift(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOpenshift_tbg.png, APOpenshift)
+!define APOpenshift(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOpenshift_tbg.png, Openshift)
+!define APOpenshift(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOpenshift_tbg.png, Openshift)
 AzureEntityColoring(APOpenshift_m)
-!define APOpenshift_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOpenshiftSPRITE, APOpenshift_m)
-!define APOpenshift_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOpenshiftSPRITE, APOpenshift_m)
+!define APOpenshift_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOpenshiftSPRITE, Openshift)
+!define APOpenshift_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOpenshiftSPRITE, Openshift)
 

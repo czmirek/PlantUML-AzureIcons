@@ -1,9 +1,9 @@
 sprite $APAudioStopSPRITE [70x70/16z] xSmn0G00100m3VHlImRujW3BRyI2fLai5el5Oh5OB1QBnMBvHW4
 
 AzureEntityColoring(APAudioStop)
-!define APAudioStop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAudioStop_tbg.png, APAudioStop)
-!define APAudioStop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAudioStop_tbg.png, APAudioStop)
+!define APAudioStop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAudioStop_tbg.png, AudioStop)
+!define APAudioStop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAudioStop_tbg.png, AudioStop)
 AzureEntityColoring(APAudioStop_m)
-!define APAudioStop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioStopSPRITE, APAudioStop_m)
-!define APAudioStop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioStopSPRITE, APAudioStop_m)
+!define APAudioStop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioStopSPRITE, AudioStop)
+!define APAudioStop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioStopSPRITE, AudioStop)
 

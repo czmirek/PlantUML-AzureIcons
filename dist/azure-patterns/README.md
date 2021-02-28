@@ -814,37 +814,6 @@ Macro for including this category
 ```
 Image | Macro
 | --- | ---
-![APDocuments01](Documents/APDocuments01_tbg.png) | `APDocuments01`<br>`APDocuments01_m` |
-![APDocuments02](Documents/APDocuments02_tbg.png) | `APDocuments02`<br>`APDocuments02_m` |
-![APDocuments03](Documents/APDocuments03_tbg.png) | `APDocuments03`<br>`APDocuments03_m` |
-![APDocuments04](Documents/APDocuments04_tbg.png) | `APDocuments04`<br>`APDocuments04_m` |
-![APDocuments05](Documents/APDocuments05_tbg.png) | `APDocuments05`<br>`APDocuments05_m` |
-![APDocuments06](Documents/APDocuments06_tbg.png) | `APDocuments06`<br>`APDocuments06_m` |
-![APDocuments07](Documents/APDocuments07_tbg.png) | `APDocuments07`<br>`APDocuments07_m` |
-![APDocuments08](Documents/APDocuments08_tbg.png) | `APDocuments08`<br>`APDocuments08_m` |
-![APDocuments09](Documents/APDocuments09_tbg.png) | `APDocuments09`<br>`APDocuments09_m` |
-![APDocuments10](Documents/APDocuments10_tbg.png) | `APDocuments10`<br>`APDocuments10_m` |
-![APDocuments11](Documents/APDocuments11_tbg.png) | `APDocuments11`<br>`APDocuments11_m` |
-![APDocuments12](Documents/APDocuments12_tbg.png) | `APDocuments12`<br>`APDocuments12_m` |
-![APDocuments13](Documents/APDocuments13_tbg.png) | `APDocuments13`<br>`APDocuments13_m` |
-![APDocuments14](Documents/APDocuments14_tbg.png) | `APDocuments14`<br>`APDocuments14_m` |
-![APDocuments15](Documents/APDocuments15_tbg.png) | `APDocuments15`<br>`APDocuments15_m` |
-![APDocuments16](Documents/APDocuments16_tbg.png) | `APDocuments16`<br>`APDocuments16_m` |
-![APDocuments17](Documents/APDocuments17_tbg.png) | `APDocuments17`<br>`APDocuments17_m` |
-![APDocuments18](Documents/APDocuments18_tbg.png) | `APDocuments18`<br>`APDocuments18_m` |
-![APDocuments19](Documents/APDocuments19_tbg.png) | `APDocuments19`<br>`APDocuments19_m` |
-![APDocuments20](Documents/APDocuments20_tbg.png) | `APDocuments20`<br>`APDocuments20_m` |
-![APDocuments21](Documents/APDocuments21_tbg.png) | `APDocuments21`<br>`APDocuments21_m` |
-![APDocuments22](Documents/APDocuments22_tbg.png) | `APDocuments22`<br>`APDocuments22_m` |
-![APDocuments23](Documents/APDocuments23_tbg.png) | `APDocuments23`<br>`APDocuments23_m` |
-![APDocuments24](Documents/APDocuments24_tbg.png) | `APDocuments24`<br>`APDocuments24_m` |
-![APDocuments25](Documents/APDocuments25_tbg.png) | `APDocuments25`<br>`APDocuments25_m` |
-![APDocuments26](Documents/APDocuments26_tbg.png) | `APDocuments26`<br>`APDocuments26_m` |
-![APDocuments27](Documents/APDocuments27_tbg.png) | `APDocuments27`<br>`APDocuments27_m` |
-![APDocuments28](Documents/APDocuments28_tbg.png) | `APDocuments28`<br>`APDocuments28_m` |
-![APDocuments29](Documents/APDocuments29_tbg.png) | `APDocuments29`<br>`APDocuments29_m` |
-![APDocuments30](Documents/APDocuments30_tbg.png) | `APDocuments30`<br>`APDocuments30_m` |
-![APDocumentShield](Documents/APDocumentShield_tbg.png) | `APDocumentShield`<br>`APDocumentShield_m` |
 
 
 ## Function

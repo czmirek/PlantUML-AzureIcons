@@ -9,9 +9,9 @@ DSovnpjme5zyOftRNLZ7zEpMK6hF8MQYTi9l
 }
 
 AzureEntityColoring(APPricing02)
-!define APPricing02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPricing02_tbg.png, APPricing02)
-!define APPricing02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPricing02_tbg.png, APPricing02)
+!define APPricing02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPricing02_tbg.png, Pricing02)
+!define APPricing02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPricing02_tbg.png, Pricing02)
 AzureEntityColoring(APPricing02_m)
-!define APPricing02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPricing02SPRITE, APPricing02_m)
-!define APPricing02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPricing02SPRITE, APPricing02_m)
+!define APPricing02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPricing02SPRITE, Pricing02)
+!define APPricing02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPricing02SPRITE, Pricing02)
 

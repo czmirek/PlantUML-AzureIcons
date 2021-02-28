@@ -7,9 +7,9 @@ CsUO44c6YY2cBD2PdJ6fuYSbENkckNmIiz5u1m
 }
 
 AzureEntityColoring(CDSCommandRepair)
-!define CDSCommandRepair(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandRepair_tbg.png, CDSCommandRepair)
-!define CDSCommandRepair(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandRepair_tbg.png, CDSCommandRepair)
+!define CDSCommandRepair(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandRepair_tbg.png, CommandRepair)
+!define CDSCommandRepair(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandRepair_tbg.png, CommandRepair)
 AzureEntityColoring(CDSCommandRepair_m)
-!define CDSCommandRepair_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandRepairSPRITE, CDSCommandRepair_m)
-!define CDSCommandRepair_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandRepairSPRITE, CDSCommandRepair_m)
+!define CDSCommandRepair_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandRepairSPRITE, CommandRepair)
+!define CDSCommandRepair_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandRepairSPRITE, CommandRepair)
 

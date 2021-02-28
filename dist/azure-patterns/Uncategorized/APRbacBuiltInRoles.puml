@@ -7,9 +7,9 @@ p4UOoy5vxOOJsy_sF5UketBTqQXStqYV
 }
 
 AzureEntityColoring(APRbacBuiltInRoles)
-!define APRbacBuiltInRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRbacBuiltInRoles_tbg.png, APRbacBuiltInRoles)
-!define APRbacBuiltInRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRbacBuiltInRoles_tbg.png, APRbacBuiltInRoles)
+!define APRbacBuiltInRoles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRbacBuiltInRoles_tbg.png, RbacBuiltInRoles)
+!define APRbacBuiltInRoles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRbacBuiltInRoles_tbg.png, RbacBuiltInRoles)
 AzureEntityColoring(APRbacBuiltInRoles_m)
-!define APRbacBuiltInRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRbacBuiltInRolesSPRITE, APRbacBuiltInRoles_m)
-!define APRbacBuiltInRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRbacBuiltInRolesSPRITE, APRbacBuiltInRoles_m)
+!define APRbacBuiltInRoles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRbacBuiltInRolesSPRITE, RbacBuiltInRoles)
+!define APRbacBuiltInRoles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRbacBuiltInRolesSPRITE, RbacBuiltInRoles)
 

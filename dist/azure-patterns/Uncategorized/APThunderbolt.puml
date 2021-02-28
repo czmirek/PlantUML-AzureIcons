@@ -4,9 +4,9 @@ B99P93D8pYxkQi-UWgVSqdDQaf0a90b9GfAG92G9IKAIa2Ga2Kb2af0a90b9GfAG92G9IKAIa2Ga2Kb2
 }
 
 AzureEntityColoring(APThunderbolt)
-!define APThunderbolt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThunderbolt_tbg.png, APThunderbolt)
-!define APThunderbolt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThunderbolt_tbg.png, APThunderbolt)
+!define APThunderbolt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThunderbolt_tbg.png, Thunderbolt)
+!define APThunderbolt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThunderbolt_tbg.png, Thunderbolt)
 AzureEntityColoring(APThunderbolt_m)
-!define APThunderbolt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThunderboltSPRITE, APThunderbolt_m)
-!define APThunderbolt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThunderboltSPRITE, APThunderbolt_m)
+!define APThunderbolt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThunderboltSPRITE, Thunderbolt)
+!define APThunderbolt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThunderboltSPRITE, Thunderbolt)
 

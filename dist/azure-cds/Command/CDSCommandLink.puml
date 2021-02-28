@@ -7,9 +7,9 @@ myEofh5pHpzS5X1kFWl8_A35xo6DM8VN0b4p_03s1W
 }
 
 AzureEntityColoring(CDSCommandLink)
-!define CDSCommandLink(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandLink_tbg.png, CDSCommandLink)
-!define CDSCommandLink(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandLink_tbg.png, CDSCommandLink)
+!define CDSCommandLink(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandLink_tbg.png, CommandLink)
+!define CDSCommandLink(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandLink_tbg.png, CommandLink)
 AzureEntityColoring(CDSCommandLink_m)
-!define CDSCommandLink_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandLinkSPRITE, CDSCommandLink_m)
-!define CDSCommandLink_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandLinkSPRITE, CDSCommandLink_m)
+!define CDSCommandLink_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandLinkSPRITE, CommandLink)
+!define CDSCommandLink_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandLinkSPRITE, CommandLink)
 

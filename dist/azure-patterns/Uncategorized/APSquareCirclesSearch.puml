@@ -6,9 +6,9 @@ UrNz_T27kokqyqutEtqc0VmZ2T2LVR4ut81cR5Vqq3C
 }
 
 AzureEntityColoring(APSquareCirclesSearch)
-!define APSquareCirclesSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquareCirclesSearch_tbg.png, APSquareCirclesSearch)
-!define APSquareCirclesSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquareCirclesSearch_tbg.png, APSquareCirclesSearch)
+!define APSquareCirclesSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquareCirclesSearch_tbg.png, SquareCirclesSearch)
+!define APSquareCirclesSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquareCirclesSearch_tbg.png, SquareCirclesSearch)
 AzureEntityColoring(APSquareCirclesSearch_m)
-!define APSquareCirclesSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareCirclesSearchSPRITE, APSquareCirclesSearch_m)
-!define APSquareCirclesSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareCirclesSearchSPRITE, APSquareCirclesSearch_m)
+!define APSquareCirclesSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareCirclesSearchSPRITE, SquareCirclesSearch)
+!define APSquareCirclesSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareCirclesSearchSPRITE, SquareCirclesSearch)
 

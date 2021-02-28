@@ -4,9 +4,9 @@ eqf6MGufZ31JtlHTEPLNvl_CyF2WVfICpY2GmK38EfEn4WXPOp9Mmm8ozaql
 }
 
 AzureEntityColoring(APNetworkRouting)
-!define APNetworkRouting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetworkRouting_tbg.png, APNetworkRouting)
-!define APNetworkRouting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetworkRouting_tbg.png, APNetworkRouting)
+!define APNetworkRouting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetworkRouting_tbg.png, NetworkRouting)
+!define APNetworkRouting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetworkRouting_tbg.png, NetworkRouting)
 AzureEntityColoring(APNetworkRouting_m)
-!define APNetworkRouting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkRoutingSPRITE, APNetworkRouting_m)
-!define APNetworkRouting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkRoutingSPRITE, APNetworkRouting_m)
+!define APNetworkRouting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkRoutingSPRITE, NetworkRouting)
+!define APNetworkRouting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkRoutingSPRITE, NetworkRouting)
 

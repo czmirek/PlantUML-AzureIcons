@@ -10,9 +10,9 @@ RqdtxyhHJjyvzflBHK7ER_rJQVxZqmeYYlG5Vk-fHmVcm3m5SHJ00H1A6nbQ2TlVOSFrwLQm6yOd
 }
 
 AzureEntityColoring(APGlobe)
-!define APGlobe(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGlobe_tbg.png, APGlobe)
-!define APGlobe(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGlobe_tbg.png, APGlobe)
+!define APGlobe(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGlobe_tbg.png, Globe)
+!define APGlobe(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGlobe_tbg.png, Globe)
 AzureEntityColoring(APGlobe_m)
-!define APGlobe_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGlobeSPRITE, APGlobe_m)
-!define APGlobe_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGlobeSPRITE, APGlobe_m)
+!define APGlobe_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGlobeSPRITE, Globe)
+!define APGlobe_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGlobeSPRITE, Globe)
 

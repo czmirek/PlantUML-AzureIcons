@@ -6,9 +6,9 @@ fF7p6vThnUNjAuV2zT7cihU5vENMva9IdMaR_ZWBRHvinYi
 }
 
 AzureEntityColoring(APTrophy)
-!define APTrophy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTrophy_tbg.png, APTrophy)
-!define APTrophy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTrophy_tbg.png, APTrophy)
+!define APTrophy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTrophy_tbg.png, Trophy)
+!define APTrophy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTrophy_tbg.png, Trophy)
 AzureEntityColoring(APTrophy_m)
-!define APTrophy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTrophySPRITE, APTrophy_m)
-!define APTrophy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTrophySPRITE, APTrophy_m)
+!define APTrophy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTrophySPRITE, Trophy)
+!define APTrophy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTrophySPRITE, Trophy)
 

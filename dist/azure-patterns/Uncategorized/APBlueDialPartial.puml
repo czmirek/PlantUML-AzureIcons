@@ -6,9 +6,9 @@ yikDhvVYZp1qf0t2nDxcazzBtQHO5C-HP4l1SqgAHRT5VlU9Ief5CzOYDMCjcZ6Gr8o1QiP0MXFYNp9Q
 }
 
 AzureEntityColoring(APBlueDialPartial)
-!define APBlueDialPartial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueDialPartial_tbg.png, APBlueDialPartial)
-!define APBlueDialPartial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueDialPartial_tbg.png, APBlueDialPartial)
+!define APBlueDialPartial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueDialPartial_tbg.png, BlueDialPartial)
+!define APBlueDialPartial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueDialPartial_tbg.png, BlueDialPartial)
 AzureEntityColoring(APBlueDialPartial_m)
-!define APBlueDialPartial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueDialPartialSPRITE, APBlueDialPartial_m)
-!define APBlueDialPartial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueDialPartialSPRITE, APBlueDialPartial_m)
+!define APBlueDialPartial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueDialPartialSPRITE, BlueDialPartial)
+!define APBlueDialPartial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueDialPartialSPRITE, BlueDialPartial)
 

@@ -6,9 +6,9 @@ Y2i9059OyNw7mZ2ltB85ZvKCYoHma9Vq257O994b7kxcI8QJCiy9ump7aTYN1C754b9XKRDggiA5CjpI
 }
 
 AzureEntityColoring(CDSManageEducation)
-!define CDSManageEducation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageEducation_tbg.png, CDSManageEducation)
-!define CDSManageEducation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageEducation_tbg.png, CDSManageEducation)
+!define CDSManageEducation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageEducation_tbg.png, ManageEducation)
+!define CDSManageEducation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageEducation_tbg.png, ManageEducation)
 AzureEntityColoring(CDSManageEducation_m)
-!define CDSManageEducation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageEducationSPRITE, CDSManageEducation_m)
-!define CDSManageEducation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageEducationSPRITE, CDSManageEducation_m)
+!define CDSManageEducation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageEducationSPRITE, ManageEducation)
+!define CDSManageEducation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageEducationSPRITE, ManageEducation)
 

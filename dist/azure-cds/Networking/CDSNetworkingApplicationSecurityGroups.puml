@@ -7,9 +7,9 @@ vXrIo6RtwVATRzTZHtCRe6Goet6pGuap5l4hrmoMCj4GWn1YcG1YP-Dda22ZYSRB4SIM54v2JvC8Ogiu
 }
 
 AzureEntityColoring(CDSNetworkingApplicationSecurityGroups)
-!define CDSNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationSecurityGroups_tbg.png, CDSNetworkingApplicationSecurityGroups)
-!define CDSNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationSecurityGroups_tbg.png, CDSNetworkingApplicationSecurityGroups)
+!define CDSNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationSecurityGroups_tbg.png, NetworkingApplicationSecurityGroups)
+!define CDSNetworkingApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationSecurityGroups_tbg.png, NetworkingApplicationSecurityGroups)
 AzureEntityColoring(CDSNetworkingApplicationSecurityGroups_m)
-!define CDSNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationSecurityGroupsSPRITE, CDSNetworkingApplicationSecurityGroups_m)
-!define CDSNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationSecurityGroupsSPRITE, CDSNetworkingApplicationSecurityGroups_m)
+!define CDSNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationSecurityGroupsSPRITE, NetworkingApplicationSecurityGroups)
+!define CDSNetworkingApplicationSecurityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationSecurityGroupsSPRITE, NetworkingApplicationSecurityGroups)
 

@@ -6,9 +6,9 @@ H7HCv7cfdfHpD3KW1eKB59fRWy2zASXOTBlXVJwD1KoNnlmI1VFfW2ZcIoiKj-H6aiOYvdAIzehkXm7l
 }
 
 AzureEntityColoring(APDsvm)
-!define APDsvm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDsvm_tbg.png, APDsvm)
-!define APDsvm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDsvm_tbg.png, APDsvm)
+!define APDsvm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDsvm_tbg.png, Dsvm)
+!define APDsvm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDsvm_tbg.png, Dsvm)
 AzureEntityColoring(APDsvm_m)
-!define APDsvm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDsvmSPRITE, APDsvm_m)
-!define APDsvm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDsvmSPRITE, APDsvm_m)
+!define APDsvm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDsvmSPRITE, Dsvm)
+!define APDsvm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDsvmSPRITE, Dsvm)
 

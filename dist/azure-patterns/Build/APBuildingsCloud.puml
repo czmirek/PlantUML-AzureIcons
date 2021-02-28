@@ -5,9 +5,9 @@ Oie_
 }
 
 AzureEntityColoring(APBuildingsCloud)
-!define APBuildingsCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuildingsCloud_tbg.png, APBuildingsCloud)
-!define APBuildingsCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuildingsCloud_tbg.png, APBuildingsCloud)
+!define APBuildingsCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuildingsCloud_tbg.png, BuildingsCloud)
+!define APBuildingsCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuildingsCloud_tbg.png, BuildingsCloud)
 AzureEntityColoring(APBuildingsCloud_m)
-!define APBuildingsCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuildingsCloudSPRITE, APBuildingsCloud_m)
-!define APBuildingsCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuildingsCloudSPRITE, APBuildingsCloud_m)
+!define APBuildingsCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuildingsCloudSPRITE, BuildingsCloud)
+!define APBuildingsCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuildingsCloudSPRITE, BuildingsCloud)
 

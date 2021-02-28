@@ -6,9 +6,9 @@ e-X3vIsrMzvR4QPAGz3hUOKOyRYY6FMW8XWdgKBCkQqevbqgM2A7Yc0LLV61_GO
 }
 
 AzureEntityColoring(CDSIdentityAppRegistrations)
-!define CDSIdentityAppRegistrations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAppRegistrations_tbg.png, CDSIdentityAppRegistrations)
-!define CDSIdentityAppRegistrations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAppRegistrations_tbg.png, CDSIdentityAppRegistrations)
+!define CDSIdentityAppRegistrations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAppRegistrations_tbg.png, IdentityAppRegistrations)
+!define CDSIdentityAppRegistrations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAppRegistrations_tbg.png, IdentityAppRegistrations)
 AzureEntityColoring(CDSIdentityAppRegistrations_m)
-!define CDSIdentityAppRegistrations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAppRegistrationsSPRITE, CDSIdentityAppRegistrations_m)
-!define CDSIdentityAppRegistrations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAppRegistrationsSPRITE, CDSIdentityAppRegistrations_m)
+!define CDSIdentityAppRegistrations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAppRegistrationsSPRITE, IdentityAppRegistrations)
+!define CDSIdentityAppRegistrations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAppRegistrationsSPRITE, IdentityAppRegistrations)
 

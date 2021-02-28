@@ -8,9 +8,9 @@ xz_uzba_jwPy-pii_UvlvGkjMVwvV0G
 }
 
 AzureEntityColoring(APWrenchGear)
-!define APWrenchGear(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWrenchGear_tbg.png, APWrenchGear)
-!define APWrenchGear(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWrenchGear_tbg.png, APWrenchGear)
+!define APWrenchGear(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWrenchGear_tbg.png, WrenchGear)
+!define APWrenchGear(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWrenchGear_tbg.png, WrenchGear)
 AzureEntityColoring(APWrenchGear_m)
-!define APWrenchGear_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWrenchGearSPRITE, APWrenchGear_m)
-!define APWrenchGear_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWrenchGearSPRITE, APWrenchGear_m)
+!define APWrenchGear_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWrenchGearSPRITE, WrenchGear)
+!define APWrenchGear_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWrenchGearSPRITE, WrenchGear)
 

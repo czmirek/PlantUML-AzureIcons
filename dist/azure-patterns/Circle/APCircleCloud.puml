@@ -8,9 +8,9 @@ S_I_gZxcvNxJaz4v82BkKleSTRwn3Cd0oYmByWAkdooJyXBEm78DI0NEorlMeDHHzZd_3M7DsQaIyni
 }
 
 AzureEntityColoring(APCircleCloud)
-!define APCircleCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, APCircleCloud)
-!define APCircleCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, APCircleCloud)
+!define APCircleCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, CircleCloud)
+!define APCircleCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, CircleCloud)
 AzureEntityColoring(APCircleCloud_m)
-!define APCircleCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, APCircleCloud_m)
-!define APCircleCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, APCircleCloud_m)
+!define APCircleCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, CircleCloud)
+!define APCircleCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, CircleCloud)
 

@@ -1,9 +1,9 @@
 sprite $APSquaresOneLightSPRITE [70x70/16z] xT074O1034N1JuPfvrymAA1tzWdOb3PN9Lq_ryiK2eL2eL0ebFaoLdFbGIsww93lLflhRGg5Gg5GA1JA
 
 AzureEntityColoring(APSquaresOneLight)
-!define APSquaresOneLight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresOneLight_tbg.png, APSquaresOneLight)
-!define APSquaresOneLight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresOneLight_tbg.png, APSquaresOneLight)
+!define APSquaresOneLight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresOneLight_tbg.png, SquaresOneLight)
+!define APSquaresOneLight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresOneLight_tbg.png, SquaresOneLight)
 AzureEntityColoring(APSquaresOneLight_m)
-!define APSquaresOneLight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresOneLightSPRITE, APSquaresOneLight_m)
-!define APSquaresOneLight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresOneLightSPRITE, APSquaresOneLight_m)
+!define APSquaresOneLight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresOneLightSPRITE, SquaresOneLight)
+!define APSquaresOneLight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresOneLightSPRITE, SquaresOneLight)
 

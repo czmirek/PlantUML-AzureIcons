@@ -1,9 +1,9 @@
 sprite $APLaptopSPRITE [70x70/16z] xSm50O1G3431uJRfdnPjWCD_5-3aHVGKSIruUuZ7IkKGVSd2miB2miB2mi9I7ABn2UZbi7vBZkhbeu3s574XJ
 
 AzureEntityColoring(APLaptop)
-!define APLaptop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLaptop_tbg.png, APLaptop)
-!define APLaptop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLaptop_tbg.png, APLaptop)
+!define APLaptop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLaptop_tbg.png, Ltop)
+!define APLaptop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLaptop_tbg.png, Ltop)
 AzureEntityColoring(APLaptop_m)
-!define APLaptop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLaptopSPRITE, APLaptop_m)
-!define APLaptop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLaptopSPRITE, APLaptop_m)
+!define APLaptop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLaptopSPRITE, Ltop)
+!define APLaptop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLaptopSPRITE, Ltop)
 

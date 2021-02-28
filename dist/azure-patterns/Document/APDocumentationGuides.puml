@@ -5,9 +5,9 @@ f4oxHa15CS0gvrA_B_tFgFw-VBClu5yHYBrRLKQ2osBU2cF0dEx78pzZR1JFfPAXttkqLn6vNBdlcoZX
 }
 
 AzureEntityColoring(APDocumentationGuides)
-!define APDocumentationGuides(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocumentationGuides_tbg.png, APDocumentationGuides)
-!define APDocumentationGuides(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocumentationGuides_tbg.png, APDocumentationGuides)
+!define APDocumentationGuides(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocumentationGuides_tbg.png, DocumentationGuides)
+!define APDocumentationGuides(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocumentationGuides_tbg.png, DocumentationGuides)
 AzureEntityColoring(APDocumentationGuides_m)
-!define APDocumentationGuides_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocumentationGuidesSPRITE, APDocumentationGuides_m)
-!define APDocumentationGuides_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocumentationGuidesSPRITE, APDocumentationGuides_m)
+!define APDocumentationGuides_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocumentationGuidesSPRITE, DocumentationGuides)
+!define APDocumentationGuides_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocumentationGuidesSPRITE, DocumentationGuides)
 

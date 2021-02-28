@@ -6,9 +6,9 @@ tlS8V65EAA2DoPxFYs32LCzdDz24ANY9JOfWpB3hsvXenvJMwXiUWqr9s2MoqTMeDCAyrAnAdJF1yKzI
 }
 
 AzureEntityColoring(APTimeZones)
-!define APTimeZones(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTimeZones_tbg.png, APTimeZones)
-!define APTimeZones(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTimeZones_tbg.png, APTimeZones)
+!define APTimeZones(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTimeZones_tbg.png, TimeZones)
+!define APTimeZones(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTimeZones_tbg.png, TimeZones)
 AzureEntityColoring(APTimeZones_m)
-!define APTimeZones_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTimeZonesSPRITE, APTimeZones_m)
-!define APTimeZones_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTimeZonesSPRITE, APTimeZones_m)
+!define APTimeZones_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTimeZonesSPRITE, TimeZones)
+!define APTimeZones_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTimeZonesSPRITE, TimeZones)
 

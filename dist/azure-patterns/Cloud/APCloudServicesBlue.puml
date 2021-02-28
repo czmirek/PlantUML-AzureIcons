@@ -9,9 +9,9 @@ P_HsgKbSYgYcaUHDwllajVRZNPvUIv2vzbPoxCAGgmfxBf9tZLAvPesAl9GvhQi1fl8mZdy1
 }
 
 AzureEntityColoring(APCloudServicesBlue)
-!define APCloudServicesBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudServicesBlue_tbg.png, APCloudServicesBlue)
-!define APCloudServicesBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudServicesBlue_tbg.png, APCloudServicesBlue)
+!define APCloudServicesBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudServicesBlue_tbg.png, CloudServicesBlue)
+!define APCloudServicesBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudServicesBlue_tbg.png, CloudServicesBlue)
 AzureEntityColoring(APCloudServicesBlue_m)
-!define APCloudServicesBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudServicesBlueSPRITE, APCloudServicesBlue_m)
-!define APCloudServicesBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudServicesBlueSPRITE, APCloudServicesBlue_m)
+!define APCloudServicesBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudServicesBlueSPRITE, CloudServicesBlue)
+!define APCloudServicesBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudServicesBlueSPRITE, CloudServicesBlue)
 

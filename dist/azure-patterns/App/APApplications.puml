@@ -10,9 +10,9 @@ sXhJfmf0BJBTcnzLA2T4qMCRfmlX06ErAmGZiJJ1uKIzP_rd_m8
 }
 
 AzureEntityColoring(APApplications)
-!define APApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APApplications_tbg.png, APApplications)
-!define APApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APApplications_tbg.png, APApplications)
+!define APApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APApplications_tbg.png, plications)
+!define APApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APApplications_tbg.png, plications)
 AzureEntityColoring(APApplications_m)
-!define APApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApplicationsSPRITE, APApplications_m)
-!define APApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApplicationsSPRITE, APApplications_m)
+!define APApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApplicationsSPRITE, plications)
+!define APApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApplicationsSPRITE, plications)
 

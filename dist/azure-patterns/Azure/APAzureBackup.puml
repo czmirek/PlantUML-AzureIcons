@@ -5,9 +5,9 @@ xSnLjaCn34DHXMFFVxuFYrgNudBhyorjNANyH9Lo3KMqNa7HgoXr4l7qHdcUvnLETudeMj9ggUrt1sv_
 }
 
 AzureEntityColoring(APAzureBackup)
-!define APAzureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureBackup_tbg.png, APAzureBackup)
-!define APAzureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureBackup_tbg.png, APAzureBackup)
+!define APAzureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureBackup_tbg.png, AzureBackup)
+!define APAzureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureBackup_tbg.png, AzureBackup)
 AzureEntityColoring(APAzureBackup_m)
-!define APAzureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureBackupSPRITE, APAzureBackup_m)
-!define APAzureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureBackupSPRITE, APAzureBackup_m)
+!define APAzureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureBackupSPRITE, AzureBackup)
+!define APAzureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureBackupSPRITE, AzureBackup)
 

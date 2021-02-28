@@ -9,9 +9,9 @@ IChq1k2CadSKfaWMnqS309I7g2cH8jjC20xEBY9AYU3AS4rmOtn6yHoVSC5pzdp8bok6LwbppnNl46Dc
 }
 
 AzureEntityColoring(CDSIotWindows10CoreServices)
-!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, CDSIotWindows10CoreServices)
-!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, CDSIotWindows10CoreServices)
+!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, IotWindows10CoreServices)
+!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, IotWindows10CoreServices)
 AzureEntityColoring(CDSIotWindows10CoreServices_m)
-!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, CDSIotWindows10CoreServices_m)
-!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, CDSIotWindows10CoreServices_m)
+!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, IotWindows10CoreServices)
+!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, IotWindows10CoreServices)
 

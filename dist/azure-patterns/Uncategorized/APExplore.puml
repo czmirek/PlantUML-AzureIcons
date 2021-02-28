@@ -6,9 +6,9 @@ BhGjaq0EwfyEwP0axa3_PqZpNMHEZOR4RnlaK3WaVjkID1OIJ-cGXkekIZx6XMHjuYvAchYGj2e4qvSl
 }
 
 AzureEntityColoring(APExplore)
-!define APExplore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APExplore_tbg.png, APExplore)
-!define APExplore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APExplore_tbg.png, APExplore)
+!define APExplore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APExplore_tbg.png, Explore)
+!define APExplore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APExplore_tbg.png, Explore)
 AzureEntityColoring(APExplore_m)
-!define APExplore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APExploreSPRITE, APExplore_m)
-!define APExplore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APExploreSPRITE, APExplore_m)
+!define APExplore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APExploreSPRITE, Explore)
+!define APExplore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APExploreSPRITE, Explore)
 

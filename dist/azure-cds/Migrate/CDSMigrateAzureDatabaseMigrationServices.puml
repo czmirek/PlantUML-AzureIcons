@@ -7,9 +7,9 @@ SS9abQwsgAGMYbzM_c_vl-N_blzRSgijSYZxlCNaMChv5geS3zpRGiYtgG7e0W1J-IFw1G
 }
 
 AzureEntityColoring(CDSMigrateAzureDatabaseMigrationServices)
-!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureDatabaseMigrationServices_tbg.png, CDSMigrateAzureDatabaseMigrationServices)
-!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureDatabaseMigrationServices_tbg.png, CDSMigrateAzureDatabaseMigrationServices)
+!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureDatabaseMigrationServices_tbg.png, MigrateAzureDatabaseMigrationServices)
+!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureDatabaseMigrationServices_tbg.png, MigrateAzureDatabaseMigrationServices)
 AzureEntityColoring(CDSMigrateAzureDatabaseMigrationServices_m)
-!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateAzureDatabaseMigrationServicesSPRITE, CDSMigrateAzureDatabaseMigrationServices_m)
-!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateAzureDatabaseMigrationServicesSPRITE, CDSMigrateAzureDatabaseMigrationServices_m)
+!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateAzureDatabaseMigrationServicesSPRITE, MigrateAzureDatabaseMigrationServices)
+!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateAzureDatabaseMigrationServicesSPRITE, MigrateAzureDatabaseMigrationServices)
 

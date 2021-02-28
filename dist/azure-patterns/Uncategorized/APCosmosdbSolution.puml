@@ -14,9 +14,9 @@ mVZUAV_K7EJVgbyO_m4
 }
 
 AzureEntityColoring(APCosmosdbSolution)
-!define APCosmosdbSolution(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCosmosdbSolution_tbg.png, APCosmosdbSolution)
-!define APCosmosdbSolution(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCosmosdbSolution_tbg.png, APCosmosdbSolution)
+!define APCosmosdbSolution(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCosmosdbSolution_tbg.png, CosmosdbSolution)
+!define APCosmosdbSolution(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCosmosdbSolution_tbg.png, CosmosdbSolution)
 AzureEntityColoring(APCosmosdbSolution_m)
-!define APCosmosdbSolution_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCosmosdbSolutionSPRITE, APCosmosdbSolution_m)
-!define APCosmosdbSolution_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCosmosdbSolutionSPRITE, APCosmosdbSolution_m)
+!define APCosmosdbSolution_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCosmosdbSolutionSPRITE, CosmosdbSolution)
+!define APCosmosdbSolution_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCosmosdbSolutionSPRITE, CosmosdbSolution)
 

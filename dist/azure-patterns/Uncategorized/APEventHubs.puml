@@ -4,9 +4,9 @@ xTS54iCm34HHhsJh_aVk1BPCEofNRw2Gv8UfFLdnYK5cFbaQ8vBwL8cq5rMgOarcxwbK1KPGAeDV5pR8
 }
 
 AzureEntityColoring(APEventHubs)
-!define APEventHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEventHubs_tbg.png, APEventHubs)
-!define APEventHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEventHubs_tbg.png, APEventHubs)
+!define APEventHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEventHubs_tbg.png, EventHubs)
+!define APEventHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEventHubs_tbg.png, EventHubs)
 AzureEntityColoring(APEventHubs_m)
-!define APEventHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEventHubsSPRITE, APEventHubs_m)
-!define APEventHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEventHubsSPRITE, APEventHubs_m)
+!define APEventHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEventHubsSPRITE, EventHubs)
+!define APEventHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEventHubsSPRITE, EventHubs)
 

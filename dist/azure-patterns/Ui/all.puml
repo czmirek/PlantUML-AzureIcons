@@ -4,11 +4,11 @@ u4quLc34Orl95Kf-e-btbVrV156g0ZvQuTdQv1D5E1wnzJzNZUXDUFnif7NL28P0lXgPbrPZAQMKCbQa
 }
 
 AzureEntityColoring(APUiGlyph)
-!define APUiGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, APUiGlyph)
-!define APUiGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, APUiGlyph)
+!define APUiGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, UiGlyph)
+!define APUiGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, UiGlyph)
 AzureEntityColoring(APUiGlyph_m)
-!define APUiGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, APUiGlyph_m)
-!define APUiGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, APUiGlyph_m)
+!define APUiGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, UiGlyph)
+!define APUiGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, UiGlyph)
 
 sprite $APUiInterface01SPRITE [70x70/16z] {
 xTPLOjWm48JXaPRd_WTkrOPv5Kxqlva-iosyLT9gFg9egyzGZZ9QuOlszjV5MicxAKSvob6qrSJNRxOQZoXivLzJESfHZdAKS3FFLoaf-D-OsqhzDmPMkqek
@@ -17,11 +17,11 @@ mO9akkug2z7YHJcsb1f0y4QoeoXW_pcxm6PVIM3olw9-CQklA51t55fR6PYygsHNAS3kAUmg2JXPyJTN
 }
 
 AzureEntityColoring(APUiInterface01)
-!define APUiInterface01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface01_tbg.png, APUiInterface01)
-!define APUiInterface01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface01_tbg.png, APUiInterface01)
+!define APUiInterface01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface01_tbg.png, UiInterface01)
+!define APUiInterface01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface01_tbg.png, UiInterface01)
 AzureEntityColoring(APUiInterface01_m)
-!define APUiInterface01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface01SPRITE, APUiInterface01_m)
-!define APUiInterface01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface01SPRITE, APUiInterface01_m)
+!define APUiInterface01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface01SPRITE, UiInterface01)
+!define APUiInterface01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface01SPRITE, UiInterface01)
 
 sprite $APUiInterface02SPRITE [70x70/16z] {
 rTM7hkiW381X6xpV_ttFmhgAY9CYqhi-hSw_6RZ0ktJM1Gm_H6VIuGl76iUh3oC0n2e108r20sYnIlzEnVnfnPNf2zkJYX6Hg0gH-5Ob8vfV8lBDYX--QiIR
@@ -32,11 +32,11 @@ HwNFQ-W4Rh55A4uHAi2z_tyQiJFXqqht79oj2Wuz1iRAYqgR9yUfr6yhH6b_FthRhjRdCmggmMNbE1gI
 }
 
 AzureEntityColoring(APUiInterface02)
-!define APUiInterface02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface02_tbg.png, APUiInterface02)
-!define APUiInterface02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface02_tbg.png, APUiInterface02)
+!define APUiInterface02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface02_tbg.png, UiInterface02)
+!define APUiInterface02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface02_tbg.png, UiInterface02)
 AzureEntityColoring(APUiInterface02_m)
-!define APUiInterface02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface02SPRITE, APUiInterface02_m)
-!define APUiInterface02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface02SPRITE, APUiInterface02_m)
+!define APUiInterface02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface02SPRITE, UiInterface02)
+!define APUiInterface02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface02SPRITE, UiInterface02)
 
 sprite $APUiInterface03SPRITE [70x70/16z] {
 xTU7biGW28LXCQ83x_--s-vs3eDBtEv_ofGaNtehwoAsqVt_DUoLKjLsFxnfM4qfMrcqZ-QA5MfX52kLmq9bAu2EShegjPoFgEnMdaT_MQ5XeolA4BcmKPmS
@@ -45,11 +45,11 @@ TPcEhtJzh2Ce7jFnDQk0wVZAQKK529Yqej9VljQ4OZk-LzaABr3c-bqArR09fMdOyPkKhPHgAuctpn_H
 }
 
 AzureEntityColoring(APUiInterface03)
-!define APUiInterface03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface03_tbg.png, APUiInterface03)
-!define APUiInterface03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface03_tbg.png, APUiInterface03)
+!define APUiInterface03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface03_tbg.png, UiInterface03)
+!define APUiInterface03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface03_tbg.png, UiInterface03)
 AzureEntityColoring(APUiInterface03_m)
-!define APUiInterface03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface03SPRITE, APUiInterface03_m)
-!define APUiInterface03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface03SPRITE, APUiInterface03_m)
+!define APUiInterface03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface03SPRITE, UiInterface03)
+!define APUiInterface03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface03SPRITE, UiInterface03)
 
 sprite $APUiInterface04SPRITE [70x70/16z] {
 xTC7UiCW44HX2RFCpjp_m17P3qES7fJESr7_rRS_rMgrIcUqvpEwVBDIt66JYf4EgimfP3w2R4OnnURkCmhOXZDA6PJvCo9cbEoiZCkcb0pHHMBsgGDADYAK
@@ -59,11 +59,11 @@ sUelnTXgjLhT0G
 }
 
 AzureEntityColoring(APUiInterface04)
-!define APUiInterface04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface04_tbg.png, APUiInterface04)
-!define APUiInterface04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface04_tbg.png, APUiInterface04)
+!define APUiInterface04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface04_tbg.png, UiInterface04)
+!define APUiInterface04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface04_tbg.png, UiInterface04)
 AzureEntityColoring(APUiInterface04_m)
-!define APUiInterface04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface04SPRITE, APUiInterface04_m)
-!define APUiInterface04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface04SPRITE, APUiInterface04_m)
+!define APUiInterface04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface04SPRITE, UiInterface04)
+!define APUiInterface04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface04SPRITE, UiInterface04)
 
 sprite $APUiInterface05SPRITE [70x70/16z] {
 xTG5sjmW58LX2ETmPV_xhH2vD0tpCDJb-rtcJOAbb3bLIQrSZyeMfLJCvzAc53yYefpKPwjZ9VjqCbOsdoyrvYXtfRUKKK-AL99LlabH0Y01wkY9ej4J2I3c
@@ -75,11 +75,11 @@ aMc5z4YtC7Br5QKb9JUZq7n5YLH2c5Tc2aNjsnLpwBDYyufYf2XSR4x90D6AB_ttd2cdxz97
 }
 
 AzureEntityColoring(APUiInterface05)
-!define APUiInterface05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface05_tbg.png, APUiInterface05)
-!define APUiInterface05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface05_tbg.png, APUiInterface05)
+!define APUiInterface05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface05_tbg.png, UiInterface05)
+!define APUiInterface05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface05_tbg.png, UiInterface05)
 AzureEntityColoring(APUiInterface05_m)
-!define APUiInterface05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface05SPRITE, APUiInterface05_m)
-!define APUiInterface05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface05SPRITE, APUiInterface05_m)
+!define APUiInterface05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface05SPRITE, UiInterface05)
+!define APUiInterface05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface05SPRITE, UiInterface05)
 
 sprite $APUiInterface06SPRITE [70x70/16z] {
 xTTLWkL034FHW6JPjV_z3dkWybZJtFSpSC9GomkqJQsF82kcjfTN-3yKobP2P8e8yHzbswSkAcHIA6hQbnrJwoL5aGoaQ2cfP4bCSLR8cnLqn47H_GgEIgMW
@@ -89,11 +89,11 @@ eFNxxBEl
 }
 
 AzureEntityColoring(APUiInterface06)
-!define APUiInterface06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface06_tbg.png, APUiInterface06)
-!define APUiInterface06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface06_tbg.png, APUiInterface06)
+!define APUiInterface06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface06_tbg.png, UiInterface06)
+!define APUiInterface06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface06_tbg.png, UiInterface06)
 AzureEntityColoring(APUiInterface06_m)
-!define APUiInterface06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface06SPRITE, APUiInterface06_m)
-!define APUiInterface06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface06SPRITE, APUiInterface06_m)
+!define APUiInterface06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface06SPRITE, UiInterface06)
+!define APUiInterface06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface06SPRITE, UiInterface06)
 
 sprite $APUiInterface07SPRITE [70x70/16z] {
 xPO7jfqm34HjgrZI_XUSGC14GmubFkMt--jhbz68LyeCF_pGHAHt5Q7wduOg5dzXIkyTrEE4INsNOtCWpYya4WF47iVHkC0VQYm_oimZyQXbgAGpuu0Fqd1a
@@ -105,11 +105,11 @@ _F0B
 }
 
 AzureEntityColoring(APUiInterface07)
-!define APUiInterface07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, APUiInterface07)
-!define APUiInterface07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, APUiInterface07)
+!define APUiInterface07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, UiInterface07)
+!define APUiInterface07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, UiInterface07)
 AzureEntityColoring(APUiInterface07_m)
-!define APUiInterface07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, APUiInterface07_m)
-!define APUiInterface07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, APUiInterface07_m)
+!define APUiInterface07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, UiInterface07)
+!define APUiInterface07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, UiInterface07)
 
 sprite $APUiInterface08SPRITE [70x70/16z] {
 tTO7hXmn30DGUrQKBDt_m04zs3Y6cVuxKpz1FCnuQuVArHwgVhGBAlsgE5DeaMSzea7Ehwli3c3VGsKy-rK7bREsfQ0IIeaQId7EJyMhf38gjL9ACVVZZhX3
@@ -122,11 +122,11 @@ ZXuglLsglbgNy_Q1lk--pFlk2rtBY-GBFjBV
 }
 
 AzureEntityColoring(APUiInterface08)
-!define APUiInterface08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface08_tbg.png, APUiInterface08)
-!define APUiInterface08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface08_tbg.png, APUiInterface08)
+!define APUiInterface08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface08_tbg.png, UiInterface08)
+!define APUiInterface08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface08_tbg.png, UiInterface08)
 AzureEntityColoring(APUiInterface08_m)
-!define APUiInterface08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface08SPRITE, APUiInterface08_m)
-!define APUiInterface08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface08SPRITE, APUiInterface08_m)
+!define APUiInterface08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface08SPRITE, UiInterface08)
+!define APUiInterface08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface08SPRITE, UiInterface08)
 
 sprite $APUiInterface09SPRITE [70x70/16z] {
 xTL9RkDG38HXM-PKlF-1Mu-IEuMG6m6Parh-8hw5nzjNckOmdxFUVCut3Mt3hg3ds9KXenIfgQiy5qlfsNTbkYO56PCIYQPKZb7nzAPG9eKpAoOl8yKfaKAP
@@ -138,11 +138,11 @@ dE-tRSnVwP_aRLwNBwNylFq3
 }
 
 AzureEntityColoring(APUiInterface09)
-!define APUiInterface09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface09_tbg.png, APUiInterface09)
-!define APUiInterface09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface09_tbg.png, APUiInterface09)
+!define APUiInterface09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface09_tbg.png, UiInterface09)
+!define APUiInterface09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface09_tbg.png, UiInterface09)
 AzureEntityColoring(APUiInterface09_m)
-!define APUiInterface09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface09SPRITE, APUiInterface09_m)
-!define APUiInterface09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface09SPRITE, APUiInterface09_m)
+!define APUiInterface09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface09SPRITE, UiInterface09)
+!define APUiInterface09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface09SPRITE, UiInterface09)
 
 sprite $APUiInterface10SPRITE [70x70/16z] {
 xPU53S0W54IBo_u3Tm7i4fnxyI-lYdrzC361mSBRM6YXXPPE29b0OE5UJoHD0Wc6Ew5S0eM5ExsNhL0cWSB2srXeeOMMZNXd9U5A8bG20OO_gHD8BDp3GWij
@@ -150,11 +150,11 @@ j7mY0HXEmtctpwhMvuawdHlxy0C
 }
 
 AzureEntityColoring(APUiInterface10)
-!define APUiInterface10(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface10_tbg.png, APUiInterface10)
-!define APUiInterface10(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface10_tbg.png, APUiInterface10)
+!define APUiInterface10(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface10_tbg.png, UiInterface10)
+!define APUiInterface10(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface10_tbg.png, UiInterface10)
 AzureEntityColoring(APUiInterface10_m)
-!define APUiInterface10_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface10SPRITE, APUiInterface10_m)
-!define APUiInterface10_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface10SPRITE, APUiInterface10_m)
+!define APUiInterface10_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface10SPRITE, UiInterface10)
+!define APUiInterface10_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface10SPRITE, UiInterface10)
 
 sprite $APUiInterface11SPRITE [70x70/16z] {
 xTX7bjmm30HG50BJ_G_i9YbOL7A0l7FNRW9_5oHndZZq7uO5RubKsYSrlO6aDe-54MjBSX3XCOjPUTMcV1286T9a447qiv07W1oVwREqq9n5MqyD3fGtXTj8
@@ -166,11 +166,11 @@ UZqUQnbLFAnhG3DgQt1tEgYW1mRaqJDotew57_uqo05tGsc9rkT_6u1P6BXyLrKOvu-qd4r0lyutFm
 }
 
 AzureEntityColoring(APUiInterface11)
-!define APUiInterface11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface11_tbg.png, APUiInterface11)
-!define APUiInterface11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface11_tbg.png, APUiInterface11)
+!define APUiInterface11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface11_tbg.png, UiInterface11)
+!define APUiInterface11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface11_tbg.png, UiInterface11)
 AzureEntityColoring(APUiInterface11_m)
-!define APUiInterface11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface11SPRITE, APUiInterface11_m)
-!define APUiInterface11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface11SPRITE, APUiInterface11_m)
+!define APUiInterface11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface11SPRITE, UiInterface11)
+!define APUiInterface11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface11SPRITE, UiInterface11)
 
 sprite $APUiInterface12SPRITE [70x70/16z] {
 xPS7ZkqW34KDkBxzB_XFBXF5lsFGgCqxAXI94zC9_PKtNMmRQJIHrn42YI9_g1clOpgHdLkKACujJdHe0D_EuYfyeHRR5XT-iDYon7I8cioSRrWWqVWi6C8f
@@ -181,11 +181,11 @@ oXF7v6oXE1H6PyLk7hH7Eh_zGDFqqp5eGBFB4E6E33H7_5VprYYTCvI-b3S_
 }
 
 AzureEntityColoring(APUiInterface12)
-!define APUiInterface12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface12_tbg.png, APUiInterface12)
-!define APUiInterface12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface12_tbg.png, APUiInterface12)
+!define APUiInterface12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface12_tbg.png, UiInterface12)
+!define APUiInterface12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface12_tbg.png, UiInterface12)
 AzureEntityColoring(APUiInterface12_m)
-!define APUiInterface12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface12SPRITE, APUiInterface12_m)
-!define APUiInterface12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface12SPRITE, APUiInterface12_m)
+!define APUiInterface12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface12SPRITE, UiInterface12)
+!define APUiInterface12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface12SPRITE, UiInterface12)
 
 sprite $APUiInterface13SPRITE [70x70/16z] {
 xTC7SiCm34HH2G88OEz_NvUbQdf2fVExghq1vV7mMVLwlTveQnEtPOsR4-CXiLkwlspTJ6oDjstHjVlc19R3BSEj83WuveoRs2MR4YYpehTyfoWPTrL4H1QH
@@ -195,11 +195,11 @@ IajasXMDD2gDURl2pbFaX8QVNQ_Nwrq1
 }
 
 AzureEntityColoring(APUiInterface13)
-!define APUiInterface13(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface13_tbg.png, APUiInterface13)
-!define APUiInterface13(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface13_tbg.png, APUiInterface13)
+!define APUiInterface13(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface13_tbg.png, UiInterface13)
+!define APUiInterface13(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface13_tbg.png, UiInterface13)
 AzureEntityColoring(APUiInterface13_m)
-!define APUiInterface13_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface13SPRITE, APUiInterface13_m)
-!define APUiInterface13_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface13SPRITE, APUiInterface13_m)
+!define APUiInterface13_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface13SPRITE, UiInterface13)
+!define APUiInterface13_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface13SPRITE, UiInterface13)
 
 sprite $APUiInterface14SPRITE [70x70/16z] {
 xTO5WWCX44HHQAgeXllVTpVk7VVmup9lND9xDXhPNHGzLXcAtK79HNTGZCSLyoYxG2azgjnJoUKUYl4-2lDKoJnRQIBe6qgUA3BDdivM723WAuNSLNIEeju5
@@ -209,10 +209,10 @@ VZbzTAFHQFGF
 }
 
 AzureEntityColoring(APUiInterface14)
-!define APUiInterface14(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface14_tbg.png, APUiInterface14)
-!define APUiInterface14(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface14_tbg.png, APUiInterface14)
+!define APUiInterface14(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface14_tbg.png, UiInterface14)
+!define APUiInterface14(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface14_tbg.png, UiInterface14)
 AzureEntityColoring(APUiInterface14_m)
-!define APUiInterface14_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, APUiInterface14_m)
-!define APUiInterface14_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, APUiInterface14_m)
+!define APUiInterface14_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, UiInterface14)
+!define APUiInterface14_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, UiInterface14)
 
 

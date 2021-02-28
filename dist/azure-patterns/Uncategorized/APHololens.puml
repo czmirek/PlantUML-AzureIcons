@@ -8,9 +8,9 @@ S6GOS4S0AFoJe-25U_qYlpjWGdgo85_lMbmhoamis10NzwT9cDtrOgiuxDHJRX31IRiF4SwYJtcycIpb
 }
 
 AzureEntityColoring(APHololens)
-!define APHololens(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHololens_tbg.png, APHololens)
-!define APHololens(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHololens_tbg.png, APHololens)
+!define APHololens(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHololens_tbg.png, Hololens)
+!define APHololens(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHololens_tbg.png, Hololens)
 AzureEntityColoring(APHololens_m)
-!define APHololens_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHololensSPRITE, APHololens_m)
-!define APHololens_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHololensSPRITE, APHololens_m)
+!define APHololens_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHololensSPRITE, Hololens)
+!define APHololens_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHololensSPRITE, Hololens)
 

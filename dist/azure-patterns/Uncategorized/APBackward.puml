@@ -6,9 +6,9 @@ jhZ2pgP271JTXYA7HT4ukrn9LRZXJOaLHLTEKs92yMscn72ZwERTh-GGtsnzVNt_
 }
 
 AzureEntityColoring(APBackward)
-!define APBackward(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBackward_tbg.png, APBackward)
-!define APBackward(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBackward_tbg.png, APBackward)
+!define APBackward(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBackward_tbg.png, Backward)
+!define APBackward(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBackward_tbg.png, Backward)
 AzureEntityColoring(APBackward_m)
-!define APBackward_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBackwardSPRITE, APBackward_m)
-!define APBackward_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBackwardSPRITE, APBackward_m)
+!define APBackward_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBackwardSPRITE, Backward)
+!define APBackward_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBackwardSPRITE, Backward)
 

@@ -11,9 +11,9 @@ w0Y9yz7ZMOqKPxLmO_mN9Nsc0PXX0wMuFotJLOYTXJvtdcPChXlGuzaUMNaCnZSS0f9d7k5JYi5Fxtt_
 }
 
 AzureEntityColoring(APNestedCirclesDots)
-!define APNestedCirclesDots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNestedCirclesDots_tbg.png, APNestedCirclesDots)
-!define APNestedCirclesDots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNestedCirclesDots_tbg.png, APNestedCirclesDots)
+!define APNestedCirclesDots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNestedCirclesDots_tbg.png, NestedCirclesDots)
+!define APNestedCirclesDots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNestedCirclesDots_tbg.png, NestedCirclesDots)
 AzureEntityColoring(APNestedCirclesDots_m)
-!define APNestedCirclesDots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNestedCirclesDotsSPRITE, APNestedCirclesDots_m)
-!define APNestedCirclesDots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNestedCirclesDotsSPRITE, APNestedCirclesDots_m)
+!define APNestedCirclesDots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNestedCirclesDotsSPRITE, NestedCirclesDots)
+!define APNestedCirclesDots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNestedCirclesDotsSPRITE, NestedCirclesDots)
 

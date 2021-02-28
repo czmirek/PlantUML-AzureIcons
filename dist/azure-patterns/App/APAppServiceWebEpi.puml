@@ -9,9 +9,9 @@ ZkkLHo1EfT9RiQgWV2hQjn7Q-hyfbeXGJaECl10QDifX_8SLyapv_yS_
 }
 
 AzureEntityColoring(APAppServiceWebEpi)
-!define APAppServiceWebEpi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceWebEpi_tbg.png, APAppServiceWebEpi)
-!define APAppServiceWebEpi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceWebEpi_tbg.png, APAppServiceWebEpi)
+!define APAppServiceWebEpi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceWebEpi_tbg.png, pServiceWebEpi)
+!define APAppServiceWebEpi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceWebEpi_tbg.png, pServiceWebEpi)
 AzureEntityColoring(APAppServiceWebEpi_m)
-!define APAppServiceWebEpi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceWebEpiSPRITE, APAppServiceWebEpi_m)
-!define APAppServiceWebEpi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceWebEpiSPRITE, APAppServiceWebEpi_m)
+!define APAppServiceWebEpi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceWebEpiSPRITE, pServiceWebEpi)
+!define APAppServiceWebEpi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceWebEpiSPRITE, pServiceWebEpi)
 

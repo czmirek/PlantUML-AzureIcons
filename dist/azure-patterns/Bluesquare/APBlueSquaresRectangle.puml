@@ -1,9 +1,9 @@
 sprite $APBlueSquaresRectangleSPRITE [70x70/16z] xTQr0G0X0CNGKsp_WQbnQR1aW8TK_ohtbLjDGK51GNb-B-drroY_AIJdKb1GK51GK51GoYleX7NeFRbJyRv_SGK51SK2
 
 AzureEntityColoring(APBlueSquaresRectangle)
-!define APBlueSquaresRectangle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueSquaresRectangle_tbg.png, APBlueSquaresRectangle)
-!define APBlueSquaresRectangle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueSquaresRectangle_tbg.png, APBlueSquaresRectangle)
+!define APBlueSquaresRectangle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueSquaresRectangle_tbg.png, BlueSquaresRectangle)
+!define APBlueSquaresRectangle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueSquaresRectangle_tbg.png, BlueSquaresRectangle)
 AzureEntityColoring(APBlueSquaresRectangle_m)
-!define APBlueSquaresRectangle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueSquaresRectangleSPRITE, APBlueSquaresRectangle_m)
-!define APBlueSquaresRectangle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueSquaresRectangleSPRITE, APBlueSquaresRectangle_m)
+!define APBlueSquaresRectangle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueSquaresRectangleSPRITE, BlueSquaresRectangle)
+!define APBlueSquaresRectangle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueSquaresRectangleSPRITE, BlueSquaresRectangle)
 

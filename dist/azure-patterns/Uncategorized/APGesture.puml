@@ -6,9 +6,9 @@ wVNR4YZhJQ-gl0C
 }
 
 AzureEntityColoring(APGesture)
-!define APGesture(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGesture_tbg.png, APGesture)
-!define APGesture(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGesture_tbg.png, APGesture)
+!define APGesture(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGesture_tbg.png, Gesture)
+!define APGesture(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGesture_tbg.png, Gesture)
 AzureEntityColoring(APGesture_m)
-!define APGesture_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGestureSPRITE, APGesture_m)
-!define APGesture_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGestureSPRITE, APGesture_m)
+!define APGesture_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGestureSPRITE, Gesture)
+!define APGesture_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGestureSPRITE, Gesture)
 

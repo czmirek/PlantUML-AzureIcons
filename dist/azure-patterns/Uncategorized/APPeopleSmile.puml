@@ -7,9 +7,9 @@ QSYXXbNEtPMxHR27KKazlitaa4u9vS4m-gHPi8_lTdz7KTDu2kLO9c5BZcSIBcxEIDQLunQ49zjPu31X
 }
 
 AzureEntityColoring(APPeopleSmile)
-!define APPeopleSmile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPeopleSmile_tbg.png, APPeopleSmile)
-!define APPeopleSmile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPeopleSmile_tbg.png, APPeopleSmile)
+!define APPeopleSmile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPeopleSmile_tbg.png, PeopleSmile)
+!define APPeopleSmile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPeopleSmile_tbg.png, PeopleSmile)
 AzureEntityColoring(APPeopleSmile_m)
-!define APPeopleSmile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPeopleSmileSPRITE, APPeopleSmile_m)
-!define APPeopleSmile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPeopleSmileSPRITE, APPeopleSmile_m)
+!define APPeopleSmile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPeopleSmileSPRITE, PeopleSmile)
+!define APPeopleSmile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPeopleSmileSPRITE, PeopleSmile)
 

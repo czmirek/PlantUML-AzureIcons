@@ -1,9 +1,9 @@
 sprite $APVstsWhiteSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
 
 AzureEntityColoring(APVstsWhite)
-!define APVstsWhite(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVstsWhite_tbg.png, APVstsWhite)
-!define APVstsWhite(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVstsWhite_tbg.png, APVstsWhite)
+!define APVstsWhite(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVstsWhite_tbg.png, VstsWhite)
+!define APVstsWhite(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVstsWhite_tbg.png, VstsWhite)
 AzureEntityColoring(APVstsWhite_m)
-!define APVstsWhite_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVstsWhiteSPRITE, APVstsWhite_m)
-!define APVstsWhite_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVstsWhiteSPRITE, APVstsWhite_m)
+!define APVstsWhite_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVstsWhiteSPRITE, VstsWhite)
+!define APVstsWhite_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVstsWhiteSPRITE, VstsWhite)
 

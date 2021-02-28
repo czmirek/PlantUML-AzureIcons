@@ -8,9 +8,9 @@ MIvqxE4SHHQLjLrid5LicGZgamLJHaiSxFszPM9rqX9sILYlHYcsiFBgeg9pOekw9B7e1aDBLtidbhOn
 }
 
 AzureEntityColoring(APDivisions)
-!define APDivisions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDivisions_tbg.png, APDivisions)
-!define APDivisions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDivisions_tbg.png, APDivisions)
+!define APDivisions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDivisions_tbg.png, Divisions)
+!define APDivisions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDivisions_tbg.png, Divisions)
 AzureEntityColoring(APDivisions_m)
-!define APDivisions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDivisionsSPRITE, APDivisions_m)
-!define APDivisions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDivisionsSPRITE, APDivisions_m)
+!define APDivisions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDivisionsSPRITE, Divisions)
+!define APDivisions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDivisionsSPRITE, Divisions)
 

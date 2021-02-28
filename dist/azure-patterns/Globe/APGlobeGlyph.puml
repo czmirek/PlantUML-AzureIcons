@@ -8,9 +8,9 @@ iDTHl43-BClRUGy
 }
 
 AzureEntityColoring(APGlobeGlyph)
-!define APGlobeGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGlobeGlyph_tbg.png, APGlobeGlyph)
-!define APGlobeGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGlobeGlyph_tbg.png, APGlobeGlyph)
+!define APGlobeGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGlobeGlyph_tbg.png, GlobeGlyph)
+!define APGlobeGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGlobeGlyph_tbg.png, GlobeGlyph)
 AzureEntityColoring(APGlobeGlyph_m)
-!define APGlobeGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGlobeGlyphSPRITE, APGlobeGlyph_m)
-!define APGlobeGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGlobeGlyphSPRITE, APGlobeGlyph_m)
+!define APGlobeGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGlobeGlyphSPRITE, GlobeGlyph)
+!define APGlobeGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGlobeGlyphSPRITE, GlobeGlyph)
 

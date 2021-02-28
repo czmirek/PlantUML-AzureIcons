@@ -7,9 +7,9 @@ p8GNxTx5i2YtBbE0HMKkv7wsQpCFoR7Bs2-Mk5ZyX0sIzV08mKOirVW9EorswUUv42a9S5uHsQPot5s3
 }
 
 AzureEntityColoring(APMicrosoftAuthenticator)
-!define APMicrosoftAuthenticator(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicrosoftAuthenticator_tbg.png, APMicrosoftAuthenticator)
-!define APMicrosoftAuthenticator(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicrosoftAuthenticator_tbg.png, APMicrosoftAuthenticator)
+!define APMicrosoftAuthenticator(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicrosoftAuthenticator_tbg.png, MicrosoftAuthenticator)
+!define APMicrosoftAuthenticator(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicrosoftAuthenticator_tbg.png, MicrosoftAuthenticator)
 AzureEntityColoring(APMicrosoftAuthenticator_m)
-!define APMicrosoftAuthenticator_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicrosoftAuthenticatorSPRITE, APMicrosoftAuthenticator_m)
-!define APMicrosoftAuthenticator_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicrosoftAuthenticatorSPRITE, APMicrosoftAuthenticator_m)
+!define APMicrosoftAuthenticator_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicrosoftAuthenticatorSPRITE, MicrosoftAuthenticator)
+!define APMicrosoftAuthenticator_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicrosoftAuthenticatorSPRITE, MicrosoftAuthenticator)
 

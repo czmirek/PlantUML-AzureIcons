@@ -7,9 +7,9 @@ fW12-WYN55OyvB6u0iYdbzGIKZpqFHPGFEJhAbBAcW8e49G05580xIk0-k-8nhHGkJpakmlvub0_4_dY
 }
 
 AzureEntityColoring(APAppCenterMono)
-!define APAppCenterMono(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppCenterMono_tbg.png, APAppCenterMono)
-!define APAppCenterMono(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppCenterMono_tbg.png, APAppCenterMono)
+!define APAppCenterMono(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppCenterMono_tbg.png, pCenterMono)
+!define APAppCenterMono(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppCenterMono_tbg.png, pCenterMono)
 AzureEntityColoring(APAppCenterMono_m)
-!define APAppCenterMono_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppCenterMonoSPRITE, APAppCenterMono_m)
-!define APAppCenterMono_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppCenterMonoSPRITE, APAppCenterMono_m)
+!define APAppCenterMono_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppCenterMonoSPRITE, pCenterMono)
+!define APAppCenterMono_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppCenterMonoSPRITE, pCenterMono)
 

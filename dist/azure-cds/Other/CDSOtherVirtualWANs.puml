@@ -10,9 +10,9 @@ EMtMY-GU3GUH5kr8kj2lqK0oyZSPJe-GDh3eIizXTM_kGd-7Vm
 }
 
 AzureEntityColoring(CDSOtherVirtualWANs)
-!define CDSOtherVirtualWANs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherVirtualWANs_tbg.png, CDSOtherVirtualWANs)
-!define CDSOtherVirtualWANs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherVirtualWANs_tbg.png, CDSOtherVirtualWANs)
+!define CDSOtherVirtualWANs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherVirtualWANs_tbg.png, OtherVirtualWANs)
+!define CDSOtherVirtualWANs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherVirtualWANs_tbg.png, OtherVirtualWANs)
 AzureEntityColoring(CDSOtherVirtualWANs_m)
-!define CDSOtherVirtualWANs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherVirtualWANsSPRITE, CDSOtherVirtualWANs_m)
-!define CDSOtherVirtualWANs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherVirtualWANsSPRITE, CDSOtherVirtualWANs_m)
+!define CDSOtherVirtualWANs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherVirtualWANsSPRITE, OtherVirtualWANs)
+!define CDSOtherVirtualWANs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherVirtualWANsSPRITE, OtherVirtualWANs)
 

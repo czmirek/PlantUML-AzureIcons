@@ -8,9 +8,9 @@ vGt3WXAR0F7ytj91WXIlfGNwXjHTbitT4TzR3lURXdkBCBa8kLl1ISzVmMIZ1aNWSFrrVW8
 }
 
 AzureEntityColoring(APGithubIcon)
-!define APGithubIcon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGithubIcon_tbg.png, APGithubIcon)
-!define APGithubIcon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGithubIcon_tbg.png, APGithubIcon)
+!define APGithubIcon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGithubIcon_tbg.png, GithubIcon)
+!define APGithubIcon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGithubIcon_tbg.png, GithubIcon)
 AzureEntityColoring(APGithubIcon_m)
-!define APGithubIcon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGithubIconSPRITE, APGithubIcon_m)
-!define APGithubIcon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGithubIconSPRITE, APGithubIcon_m)
+!define APGithubIcon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGithubIconSPRITE, GithubIcon)
+!define APGithubIcon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGithubIconSPRITE, GithubIcon)
 

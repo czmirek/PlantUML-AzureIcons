@@ -8,9 +8,9 @@ Rf6_tZngeQj-4KNvP64r7S4N
 }
 
 AzureEntityColoring(APKnowledgeMining)
-!define APKnowledgeMining(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKnowledgeMining_tbg.png, APKnowledgeMining)
-!define APKnowledgeMining(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKnowledgeMining_tbg.png, APKnowledgeMining)
+!define APKnowledgeMining(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKnowledgeMining_tbg.png, KnowledgeMining)
+!define APKnowledgeMining(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKnowledgeMining_tbg.png, KnowledgeMining)
 AzureEntityColoring(APKnowledgeMining_m)
-!define APKnowledgeMining_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKnowledgeMiningSPRITE, APKnowledgeMining_m)
-!define APKnowledgeMining_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKnowledgeMiningSPRITE, APKnowledgeMining_m)
+!define APKnowledgeMining_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKnowledgeMiningSPRITE, KnowledgeMining)
+!define APKnowledgeMining_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKnowledgeMiningSPRITE, KnowledgeMining)
 

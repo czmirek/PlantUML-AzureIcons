@@ -7,9 +7,9 @@ yMziiGpN_-0hIyeu2_9JYuolTehzpOB8Q6U47onfALr1AQC_QBP4nXt46ZB-
 }
 
 AzureEntityColoring(APSuite)
-!define APSuite(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSuite_tbg.png, APSuite)
-!define APSuite(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSuite_tbg.png, APSuite)
+!define APSuite(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSuite_tbg.png, Suite)
+!define APSuite(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSuite_tbg.png, Suite)
 AzureEntityColoring(APSuite_m)
-!define APSuite_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSuiteSPRITE, APSuite_m)
-!define APSuite_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSuiteSPRITE, APSuite_m)
+!define APSuite_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSuiteSPRITE, Suite)
+!define APSuite_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSuiteSPRITE, Suite)
 

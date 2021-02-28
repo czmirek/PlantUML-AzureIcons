@@ -5,9 +5,9 @@ fXLZBFcG-fv8kGGIh5u2CJ0g0aP5oFYH00IC0m53X0oHEGC431074unr5q8621WWGXs8pW3H6I0w0qHd
 }
 
 AzureEntityColoring(APHealthcareArchive)
-!define APHealthcareArchive(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealthcareArchive_tbg.png, APHealthcareArchive)
-!define APHealthcareArchive(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealthcareArchive_tbg.png, APHealthcareArchive)
+!define APHealthcareArchive(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealthcareArchive_tbg.png, HealthcareArchive)
+!define APHealthcareArchive(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealthcareArchive_tbg.png, HealthcareArchive)
 AzureEntityColoring(APHealthcareArchive_m)
-!define APHealthcareArchive_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthcareArchiveSPRITE, APHealthcareArchive_m)
-!define APHealthcareArchive_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthcareArchiveSPRITE, APHealthcareArchive_m)
+!define APHealthcareArchive_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthcareArchiveSPRITE, HealthcareArchive)
+!define APHealthcareArchive_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthcareArchiveSPRITE, HealthcareArchive)
 

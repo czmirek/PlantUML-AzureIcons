@@ -7,9 +7,9 @@ Y3AlaQLCCDC8ClC8ClC8Cf5d1YBdBP5vWjHolth8P7gTVX96nCfidbidEpAPZ4p2i_J47RUw0LSoSpcl
 }
 
 AzureEntityColoring(CDSIdentityConditionalAccess)
-!define CDSIdentityConditionalAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityConditionalAccess_tbg.png, CDSIdentityConditionalAccess)
-!define CDSIdentityConditionalAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityConditionalAccess_tbg.png, CDSIdentityConditionalAccess)
+!define CDSIdentityConditionalAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityConditionalAccess_tbg.png, IdentityConditionalAccess)
+!define CDSIdentityConditionalAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityConditionalAccess_tbg.png, IdentityConditionalAccess)
 AzureEntityColoring(CDSIdentityConditionalAccess_m)
-!define CDSIdentityConditionalAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityConditionalAccessSPRITE, CDSIdentityConditionalAccess_m)
-!define CDSIdentityConditionalAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityConditionalAccessSPRITE, CDSIdentityConditionalAccess_m)
+!define CDSIdentityConditionalAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityConditionalAccessSPRITE, IdentityConditionalAccess)
+!define CDSIdentityConditionalAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityConditionalAccessSPRITE, IdentityConditionalAccess)
 

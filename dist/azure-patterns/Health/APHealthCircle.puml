@@ -6,9 +6,9 @@ vFJjyxId6EyfcQdX5mBVyGrxpS_HLvpv5wMPrwqV
 }
 
 AzureEntityColoring(APHealthCircle)
-!define APHealthCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealthCircle_tbg.png, APHealthCircle)
-!define APHealthCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealthCircle_tbg.png, APHealthCircle)
+!define APHealthCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealthCircle_tbg.png, HealthCircle)
+!define APHealthCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealthCircle_tbg.png, HealthCircle)
 AzureEntityColoring(APHealthCircle_m)
-!define APHealthCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthCircleSPRITE, APHealthCircle_m)
-!define APHealthCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthCircleSPRITE, APHealthCircle_m)
+!define APHealthCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthCircleSPRITE, HealthCircle)
+!define APHealthCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthCircleSPRITE, HealthCircle)
 

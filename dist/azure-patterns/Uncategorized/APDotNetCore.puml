@@ -9,9 +9,9 @@ kQsK-HtbUu-iZovjHNVqqMNt1qwQ0kL-rZrJ0Q4QuRWQOybYg4RmBhouz9q1iGkkmsBkttKfTqiT4-zs
 }
 
 AzureEntityColoring(APDotNetCore)
-!define APDotNetCore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDotNetCore_tbg.png, APDotNetCore)
-!define APDotNetCore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDotNetCore_tbg.png, APDotNetCore)
+!define APDotNetCore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDotNetCore_tbg.png, DotNetCore)
+!define APDotNetCore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDotNetCore_tbg.png, DotNetCore)
 AzureEntityColoring(APDotNetCore_m)
-!define APDotNetCore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDotNetCoreSPRITE, APDotNetCore_m)
-!define APDotNetCore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDotNetCoreSPRITE, APDotNetCore_m)
+!define APDotNetCore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDotNetCoreSPRITE, DotNetCore)
+!define APDotNetCore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDotNetCoreSPRITE, DotNetCore)
 

@@ -7,9 +7,9 @@ z1q
 }
 
 AzureEntityColoring(APShieldCheckRoundedBlue)
-!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, APShieldCheckRoundedBlue)
-!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, APShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, ShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShieldCheckRoundedBlue_tbg.png, ShieldCheckRoundedBlue)
 AzureEntityColoring(APShieldCheckRoundedBlue_m)
-!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, APShieldCheckRoundedBlue_m)
-!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, APShieldCheckRoundedBlue_m)
+!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, ShieldCheckRoundedBlue)
+!define APShieldCheckRoundedBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCheckRoundedBlueSPRITE, ShieldCheckRoundedBlue)
 

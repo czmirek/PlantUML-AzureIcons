@@ -7,9 +7,9 @@ wGfbku9J1gKFfLDPCfeLbhwuh9Yayb1M9EbWvPYn5nNzHiLavoCLmXsGLnM2-CcpOjDZMmMQcJ9GMPYy
 }
 
 AzureEntityColoring(CDSAzurestackUserSubscriptions)
-!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, CDSAzurestackUserSubscriptions)
-!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, CDSAzurestackUserSubscriptions)
+!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, AzurestackUserSubscriptions)
+!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, AzurestackUserSubscriptions)
 AzureEntityColoring(CDSAzurestackUserSubscriptions_m)
-!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, CDSAzurestackUserSubscriptions_m)
-!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, CDSAzurestackUserSubscriptions_m)
+!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, AzurestackUserSubscriptions)
+!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, AzurestackUserSubscriptions)
 

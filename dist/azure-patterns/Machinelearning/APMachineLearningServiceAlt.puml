@@ -5,9 +5,9 @@ tsTP2fbfHmdkk6RYMA5wvioffGG4c7IEZDHCwn9KJyr4ht0zDTChWlKmS-BsgPwQQKC0gPbeRvWj
 }
 
 AzureEntityColoring(APMachineLearningServiceAlt)
-!define APMachineLearningServiceAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMachineLearningServiceAlt_tbg.png, APMachineLearningServiceAlt)
-!define APMachineLearningServiceAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMachineLearningServiceAlt_tbg.png, APMachineLearningServiceAlt)
+!define APMachineLearningServiceAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMachineLearningServiceAlt_tbg.png, MachineLearningServiceAlt)
+!define APMachineLearningServiceAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMachineLearningServiceAlt_tbg.png, MachineLearningServiceAlt)
 AzureEntityColoring(APMachineLearningServiceAlt_m)
-!define APMachineLearningServiceAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMachineLearningServiceAltSPRITE, APMachineLearningServiceAlt_m)
-!define APMachineLearningServiceAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMachineLearningServiceAltSPRITE, APMachineLearningServiceAlt_m)
+!define APMachineLearningServiceAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMachineLearningServiceAltSPRITE, MachineLearningServiceAlt)
+!define APMachineLearningServiceAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMachineLearningServiceAltSPRITE, MachineLearningServiceAlt)
 

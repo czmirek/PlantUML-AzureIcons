@@ -7,9 +7,9 @@ H_m3_3_zDvxAgPnA7gBuViM1_Gfy0m
 }
 
 AzureEntityColoring(APMongoDb)
-!define APMongoDb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMongoDb_tbg.png, APMongoDb)
-!define APMongoDb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMongoDb_tbg.png, APMongoDb)
+!define APMongoDb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMongoDb_tbg.png, MongoDb)
+!define APMongoDb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMongoDb_tbg.png, MongoDb)
 AzureEntityColoring(APMongoDb_m)
-!define APMongoDb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMongoDbSPRITE, APMongoDb_m)
-!define APMongoDb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMongoDbSPRITE, APMongoDb_m)
+!define APMongoDb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMongoDbSPRITE, MongoDb)
+!define APMongoDb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMongoDbSPRITE, MongoDb)
 

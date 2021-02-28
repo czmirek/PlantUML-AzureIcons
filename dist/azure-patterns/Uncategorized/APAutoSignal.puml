@@ -6,9 +6,9 @@ KMdYXQxarTnazapdLjXIIXOLIewkY1HTFbuv5pQmZ6cnerCoTEn0PHPWWdN60FglDGg9aU8Cn1Wd9rPn
 }
 
 AzureEntityColoring(APAutoSignal)
-!define APAutoSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoSignal_tbg.png, APAutoSignal)
-!define APAutoSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoSignal_tbg.png, APAutoSignal)
+!define APAutoSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoSignal_tbg.png, AutoSignal)
+!define APAutoSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoSignal_tbg.png, AutoSignal)
 AzureEntityColoring(APAutoSignal_m)
-!define APAutoSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, APAutoSignal_m)
-!define APAutoSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, APAutoSignal_m)
+!define APAutoSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, AutoSignal)
+!define APAutoSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, AutoSignal)
 

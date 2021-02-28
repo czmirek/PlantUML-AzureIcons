@@ -7,9 +7,9 @@ krnw8F7TGIXwHWBD-J-l
 }
 
 AzureEntityColoring(APAzureResourceManager)
-!define APAzureResourceManager(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureResourceManager_tbg.png, APAzureResourceManager)
-!define APAzureResourceManager(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureResourceManager_tbg.png, APAzureResourceManager)
+!define APAzureResourceManager(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureResourceManager_tbg.png, AzureResourceManager)
+!define APAzureResourceManager(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureResourceManager_tbg.png, AzureResourceManager)
 AzureEntityColoring(APAzureResourceManager_m)
-!define APAzureResourceManager_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureResourceManagerSPRITE, APAzureResourceManager_m)
-!define APAzureResourceManager_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureResourceManagerSPRITE, APAzureResourceManager_m)
+!define APAzureResourceManager_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureResourceManagerSPRITE, AzureResourceManager)
+!define APAzureResourceManager_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureResourceManagerSPRITE, AzureResourceManager)
 

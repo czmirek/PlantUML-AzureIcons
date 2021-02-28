@@ -8,9 +8,9 @@ cgVadg-VFgiUK7thITW7jVsft4_4HmxU48170xSL01KGWQ9G-XR4jNNHUOjJcO9tIkat-0i
 }
 
 AzureEntityColoring(APLocationServicesGlobeBlue)
-!define APLocationServicesGlobeBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLocationServicesGlobeBlue_tbg.png, APLocationServicesGlobeBlue)
-!define APLocationServicesGlobeBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLocationServicesGlobeBlue_tbg.png, APLocationServicesGlobeBlue)
+!define APLocationServicesGlobeBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLocationServicesGlobeBlue_tbg.png, LocationServicesGlobeBlue)
+!define APLocationServicesGlobeBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLocationServicesGlobeBlue_tbg.png, LocationServicesGlobeBlue)
 AzureEntityColoring(APLocationServicesGlobeBlue_m)
-!define APLocationServicesGlobeBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLocationServicesGlobeBlueSPRITE, APLocationServicesGlobeBlue_m)
-!define APLocationServicesGlobeBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLocationServicesGlobeBlueSPRITE, APLocationServicesGlobeBlue_m)
+!define APLocationServicesGlobeBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLocationServicesGlobeBlueSPRITE, LocationServicesGlobeBlue)
+!define APLocationServicesGlobeBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLocationServicesGlobeBlueSPRITE, LocationServicesGlobeBlue)
 

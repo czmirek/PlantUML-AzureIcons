@@ -8,9 +8,9 @@ CGrTyNL7IaVkA_mlb8gVP1qVA5LmghL25aOu5rkKLDcFrSjjfKTYKMyhunUpAxTZ5Kpz0W
 }
 
 AzureEntityColoring(APSharepointServer)
-!define APSharepointServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSharepointServer_tbg.png, APSharepointServer)
-!define APSharepointServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSharepointServer_tbg.png, APSharepointServer)
+!define APSharepointServer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSharepointServer_tbg.png, SharepointServer)
+!define APSharepointServer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSharepointServer_tbg.png, SharepointServer)
 AzureEntityColoring(APSharepointServer_m)
-!define APSharepointServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSharepointServerSPRITE, APSharepointServer_m)
-!define APSharepointServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSharepointServerSPRITE, APSharepointServer_m)
+!define APSharepointServer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSharepointServerSPRITE, SharepointServer)
+!define APSharepointServer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSharepointServerSPRITE, SharepointServer)
 

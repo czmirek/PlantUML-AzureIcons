@@ -5,9 +5,9 @@ A-JjFDeykuD8Pet_CD31oE1sxyR2E82l1zQ9QNbtexrUEg1H5aDJSSAgn5Kpo68akCmv5Z7KoodzrKGQ
 }
 
 AzureEntityColoring(APAudioMicrophone)
-!define APAudioMicrophone(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAudioMicrophone_tbg.png, APAudioMicrophone)
-!define APAudioMicrophone(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAudioMicrophone_tbg.png, APAudioMicrophone)
+!define APAudioMicrophone(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAudioMicrophone_tbg.png, AudioMicrophone)
+!define APAudioMicrophone(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAudioMicrophone_tbg.png, AudioMicrophone)
 AzureEntityColoring(APAudioMicrophone_m)
-!define APAudioMicrophone_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, APAudioMicrophone_m)
-!define APAudioMicrophone_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, APAudioMicrophone_m)
+!define APAudioMicrophone_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, AudioMicrophone)
+!define APAudioMicrophone_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, AudioMicrophone)
 

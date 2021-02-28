@@ -9,9 +9,9 @@ F3pJkNR51xJN74uqGymBRxfgvysIuv_TTVzJ-79x2m3zFkrDLzjR-jM7f02MRm
 }
 
 AzureEntityColoring(APCommonDataService)
-!define APCommonDataService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCommonDataService_tbg.png, APCommonDataService)
-!define APCommonDataService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCommonDataService_tbg.png, APCommonDataService)
+!define APCommonDataService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCommonDataService_tbg.png, CommonDataService)
+!define APCommonDataService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCommonDataService_tbg.png, CommonDataService)
 AzureEntityColoring(APCommonDataService_m)
-!define APCommonDataService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCommonDataServiceSPRITE, APCommonDataService_m)
-!define APCommonDataService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCommonDataServiceSPRITE, APCommonDataService_m)
+!define APCommonDataService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCommonDataServiceSPRITE, CommonDataService)
+!define APCommonDataService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCommonDataServiceSPRITE, CommonDataService)
 

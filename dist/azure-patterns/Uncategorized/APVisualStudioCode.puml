@@ -7,9 +7,9 @@ L04A5bLBAlkAlL08yqg1sAd26JrLUFD1cJXZkDAHQsoLWMHzeqoaQqjbuA1Ab9p1_mrsQF0Ps-5lmsTi
 }
 
 AzureEntityColoring(APVisualStudioCode)
-!define APVisualStudioCode(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVisualStudioCode_tbg.png, APVisualStudioCode)
-!define APVisualStudioCode(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVisualStudioCode_tbg.png, APVisualStudioCode)
+!define APVisualStudioCode(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVisualStudioCode_tbg.png, VisualStudioCode)
+!define APVisualStudioCode(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVisualStudioCode_tbg.png, VisualStudioCode)
 AzureEntityColoring(APVisualStudioCode_m)
-!define APVisualStudioCode_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVisualStudioCodeSPRITE, APVisualStudioCode_m)
-!define APVisualStudioCode_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVisualStudioCodeSPRITE, APVisualStudioCode_m)
+!define APVisualStudioCode_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVisualStudioCodeSPRITE, VisualStudioCode)
+!define APVisualStudioCode_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVisualStudioCodeSPRITE, VisualStudioCode)
 

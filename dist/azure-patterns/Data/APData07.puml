@@ -5,9 +5,9 @@ aUbZsiQP7j2C261v1KO4iBm28m9ONe4H0Iolu8AmZC9-ZF9GIWqBbKtzCgLvs0Qb8wnyaV9GcfPGVaPd
 }
 
 AzureEntityColoring(APData07)
-!define APData07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APData07_tbg.png, APData07)
-!define APData07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APData07_tbg.png, APData07)
+!define APData07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APData07_tbg.png, Data07)
+!define APData07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APData07_tbg.png, Data07)
 AzureEntityColoring(APData07_m)
-!define APData07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APData07SPRITE, APData07_m)
-!define APData07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APData07SPRITE, APData07_m)
+!define APData07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APData07SPRITE, Data07)
+!define APData07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APData07SPRITE, Data07)
 

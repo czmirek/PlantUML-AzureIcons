@@ -10,9 +10,9 @@ CGLNOpVZEv_EtlXqNEtSxVCfFF8D4wwS4Dgkr4up7G0dtyh127vtky_2ZNnQ6hz1R_zRWHIMf41IxqIY
 }
 
 AzureEntityColoring(CDSManageMonitor)
-!define CDSManageMonitor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageMonitor_tbg.png, CDSManageMonitor)
-!define CDSManageMonitor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageMonitor_tbg.png, CDSManageMonitor)
+!define CDSManageMonitor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageMonitor_tbg.png, ManageMonitor)
+!define CDSManageMonitor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageMonitor_tbg.png, ManageMonitor)
 AzureEntityColoring(CDSManageMonitor_m)
-!define CDSManageMonitor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageMonitorSPRITE, CDSManageMonitor_m)
-!define CDSManageMonitor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageMonitorSPRITE, CDSManageMonitor_m)
+!define CDSManageMonitor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageMonitorSPRITE, ManageMonitor)
+!define CDSManageMonitor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageMonitorSPRITE, ManageMonitor)
 

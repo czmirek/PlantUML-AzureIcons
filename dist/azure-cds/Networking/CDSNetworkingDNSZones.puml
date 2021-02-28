@@ -12,9 +12,9 @@ Kt4ZUePWY9s3xATmdJkZ2o17vIl8f7f3Xho3vSsNlGSYCbo67M9weyGTsdz3WEV4MzL-48FnLhdoXf12
 }
 
 AzureEntityColoring(CDSNetworkingDNSZones)
-!define CDSNetworkingDNSZones(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingDNSZones_tbg.png, CDSNetworkingDNSZones)
-!define CDSNetworkingDNSZones(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingDNSZones_tbg.png, CDSNetworkingDNSZones)
+!define CDSNetworkingDNSZones(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingDNSZones_tbg.png, NetworkingDNSZones)
+!define CDSNetworkingDNSZones(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingDNSZones_tbg.png, NetworkingDNSZones)
 AzureEntityColoring(CDSNetworkingDNSZones_m)
-!define CDSNetworkingDNSZones_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingDNSZonesSPRITE, CDSNetworkingDNSZones_m)
-!define CDSNetworkingDNSZones_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingDNSZonesSPRITE, CDSNetworkingDNSZones_m)
+!define CDSNetworkingDNSZones_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingDNSZonesSPRITE, NetworkingDNSZones)
+!define CDSNetworkingDNSZones_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingDNSZonesSPRITE, NetworkingDNSZones)
 

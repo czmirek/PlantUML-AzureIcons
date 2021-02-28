@@ -5,9 +5,9 @@ JAy
 }
 
 AzureEntityColoring(APCode12)
-!define APCode12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCode12_tbg.png, APCode12)
-!define APCode12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCode12_tbg.png, APCode12)
+!define APCode12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCode12_tbg.png, Code12)
+!define APCode12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCode12_tbg.png, Code12)
 AzureEntityColoring(APCode12_m)
-!define APCode12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCode12SPRITE, APCode12_m)
-!define APCode12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCode12SPRITE, APCode12_m)
+!define APCode12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCode12SPRITE, Code12)
+!define APCode12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCode12SPRITE, Code12)
 

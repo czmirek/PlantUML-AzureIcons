@@ -6,9 +6,9 @@ yN_bid_5ZtkVL-g7AlcqvLEx1G
 }
 
 AzureEntityColoring(APUserCloud)
-!define APUserCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUserCloud_tbg.png, APUserCloud)
-!define APUserCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUserCloud_tbg.png, APUserCloud)
+!define APUserCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUserCloud_tbg.png, UserCloud)
+!define APUserCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUserCloud_tbg.png, UserCloud)
 AzureEntityColoring(APUserCloud_m)
-!define APUserCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUserCloudSPRITE, APUserCloud_m)
-!define APUserCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUserCloudSPRITE, APUserCloud_m)
+!define APUserCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUserCloudSPRITE, UserCloud)
+!define APUserCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUserCloudSPRITE, UserCloud)
 

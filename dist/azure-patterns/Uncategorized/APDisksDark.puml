@@ -7,9 +7,9 @@ NdZzGFsYVldVBwLXn5jlyBpDKvqrgPyCIlPbQc5Ujptb_7vtAZcbVQiyVmy
 }
 
 AzureEntityColoring(APDisksDark)
-!define APDisksDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDisksDark_tbg.png, APDisksDark)
-!define APDisksDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDisksDark_tbg.png, APDisksDark)
+!define APDisksDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDisksDark_tbg.png, DisksDark)
+!define APDisksDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDisksDark_tbg.png, DisksDark)
 AzureEntityColoring(APDisksDark_m)
-!define APDisksDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDisksDarkSPRITE, APDisksDark_m)
-!define APDisksDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDisksDarkSPRITE, APDisksDark_m)
+!define APDisksDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDisksDarkSPRITE, DisksDark)
+!define APDisksDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDisksDarkSPRITE, DisksDark)
 

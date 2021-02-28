@@ -8,9 +8,9 @@ E9uDvMeDrB4Ud9y8rBWSNJQLKFllyma
 }
 
 AzureEntityColoring(CDSIdentityAzureADDomainServices)
-!define CDSIdentityAzureADDomainServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADDomainServices_tbg.png, CDSIdentityAzureADDomainServices)
-!define CDSIdentityAzureADDomainServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADDomainServices_tbg.png, CDSIdentityAzureADDomainServices)
+!define CDSIdentityAzureADDomainServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADDomainServices_tbg.png, IdentityAzureADDomainServices)
+!define CDSIdentityAzureADDomainServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADDomainServices_tbg.png, IdentityAzureADDomainServices)
 AzureEntityColoring(CDSIdentityAzureADDomainServices_m)
-!define CDSIdentityAzureADDomainServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureADDomainServicesSPRITE, CDSIdentityAzureADDomainServices_m)
-!define CDSIdentityAzureADDomainServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureADDomainServicesSPRITE, CDSIdentityAzureADDomainServices_m)
+!define CDSIdentityAzureADDomainServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureADDomainServicesSPRITE, IdentityAzureADDomainServices)
+!define CDSIdentityAzureADDomainServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureADDomainServicesSPRITE, IdentityAzureADDomainServices)
 

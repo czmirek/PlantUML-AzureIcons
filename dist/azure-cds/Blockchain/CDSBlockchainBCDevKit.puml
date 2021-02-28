@@ -7,9 +7,9 @@ R_P0gaeiMVbVPI5L1QzC83KbOn38IkwLWpct8qTTRfK9k9alPY6hSQliZyHq5ITAoenBfab5cMjKfyl6
 }
 
 AzureEntityColoring(CDSBlockchainBCDevKit)
-!define CDSBlockchainBCDevKit(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainBCDevKit_tbg.png, CDSBlockchainBCDevKit)
-!define CDSBlockchainBCDevKit(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainBCDevKit_tbg.png, CDSBlockchainBCDevKit)
+!define CDSBlockchainBCDevKit(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainBCDevKit_tbg.png, BlockchainBCDevKit)
+!define CDSBlockchainBCDevKit(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainBCDevKit_tbg.png, BlockchainBCDevKit)
 AzureEntityColoring(CDSBlockchainBCDevKit_m)
-!define CDSBlockchainBCDevKit_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainBCDevKitSPRITE, CDSBlockchainBCDevKit_m)
-!define CDSBlockchainBCDevKit_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainBCDevKitSPRITE, CDSBlockchainBCDevKit_m)
+!define CDSBlockchainBCDevKit_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainBCDevKitSPRITE, BlockchainBCDevKit)
+!define CDSBlockchainBCDevKit_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainBCDevKitSPRITE, BlockchainBCDevKit)
 

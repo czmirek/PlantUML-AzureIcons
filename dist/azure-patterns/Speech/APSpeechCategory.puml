@@ -6,9 +6,9 @@ fKK3BT6zU11NG8zrBzr7Q-ePUNtqBoNnZ6wF5yD6yx5xUnxTdjDQ7bnVBCZwZRNEmctSK7UDuTl4FI0c
 }
 
 AzureEntityColoring(APSpeechCategory)
-!define APSpeechCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeechCategory_tbg.png, APSpeechCategory)
-!define APSpeechCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeechCategory_tbg.png, APSpeechCategory)
+!define APSpeechCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeechCategory_tbg.png, SpeechCategory)
+!define APSpeechCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeechCategory_tbg.png, SpeechCategory)
 AzureEntityColoring(APSpeechCategory_m)
-!define APSpeechCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechCategorySPRITE, APSpeechCategory_m)
-!define APSpeechCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechCategorySPRITE, APSpeechCategory_m)
+!define APSpeechCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechCategorySPRITE, SpeechCategory)
+!define APSpeechCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechCategorySPRITE, SpeechCategory)
 

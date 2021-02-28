@@ -6,9 +6,9 @@ FxC6Xc2QetXGcjO2AHgzX7WWNEZFVW4
 }
 
 AzureEntityColoring(APBookmark)
-!define APBookmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBookmark_tbg.png, APBookmark)
-!define APBookmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBookmark_tbg.png, APBookmark)
+!define APBookmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBookmark_tbg.png, Bookmark)
+!define APBookmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBookmark_tbg.png, Bookmark)
 AzureEntityColoring(APBookmark_m)
-!define APBookmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, APBookmark_m)
-!define APBookmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, APBookmark_m)
+!define APBookmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, Bookmark)
+!define APBookmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, Bookmark)
 

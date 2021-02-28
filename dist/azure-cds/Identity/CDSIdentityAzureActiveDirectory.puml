@@ -7,9 +7,9 @@ U7ISjrs7vktN6KkHRgmKADAjCs3UVfs1ytPVULmtpDkBQTpvEe_yzG_p3W
 }
 
 AzureEntityColoring(CDSIdentityAzureActiveDirectory)
-!define CDSIdentityAzureActiveDirectory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureActiveDirectory_tbg.png, CDSIdentityAzureActiveDirectory)
-!define CDSIdentityAzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureActiveDirectory_tbg.png, CDSIdentityAzureActiveDirectory)
+!define CDSIdentityAzureActiveDirectory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureActiveDirectory_tbg.png, IdentityAzureActiveDirectory)
+!define CDSIdentityAzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureActiveDirectory_tbg.png, IdentityAzureActiveDirectory)
 AzureEntityColoring(CDSIdentityAzureActiveDirectory_m)
-!define CDSIdentityAzureActiveDirectory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureActiveDirectorySPRITE, CDSIdentityAzureActiveDirectory_m)
-!define CDSIdentityAzureActiveDirectory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureActiveDirectorySPRITE, CDSIdentityAzureActiveDirectory_m)
+!define CDSIdentityAzureActiveDirectory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureActiveDirectorySPRITE, IdentityAzureActiveDirectory)
+!define CDSIdentityAzureActiveDirectory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureActiveDirectorySPRITE, IdentityAzureActiveDirectory)
 

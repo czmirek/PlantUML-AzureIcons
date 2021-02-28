@@ -8,9 +8,9 @@ F22NZLlv_Wl1-ryhFlm4
 }
 
 AzureEntityColoring(CDSStatusPendingOutline)
-!define CDSStatusPendingOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusPendingOutline_tbg.png, CDSStatusPendingOutline)
-!define CDSStatusPendingOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusPendingOutline_tbg.png, CDSStatusPendingOutline)
+!define CDSStatusPendingOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusPendingOutline_tbg.png, StatusPendingOutline)
+!define CDSStatusPendingOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusPendingOutline_tbg.png, StatusPendingOutline)
 AzureEntityColoring(CDSStatusPendingOutline_m)
-!define CDSStatusPendingOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusPendingOutlineSPRITE, CDSStatusPendingOutline_m)
-!define CDSStatusPendingOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusPendingOutlineSPRITE, CDSStatusPendingOutline_m)
+!define CDSStatusPendingOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusPendingOutlineSPRITE, StatusPendingOutline)
+!define CDSStatusPendingOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusPendingOutlineSPRITE, StatusPendingOutline)
 

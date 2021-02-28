@@ -5,9 +5,9 @@ COQA8466YY01HfMDI83fH14am50H9CHG4IJ8K14ao50H9CXG4IJAK14aoXGbWv2PrdKdacAMwoS3I3Bx
 }
 
 AzureEntityColoring(APThreeArrows)
-!define APThreeArrows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeArrows_tbg.png, APThreeArrows)
-!define APThreeArrows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeArrows_tbg.png, APThreeArrows)
+!define APThreeArrows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeArrows_tbg.png, ThreeArrows)
+!define APThreeArrows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeArrows_tbg.png, ThreeArrows)
 AzureEntityColoring(APThreeArrows_m)
-!define APThreeArrows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeArrowsSPRITE, APThreeArrows_m)
-!define APThreeArrows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeArrowsSPRITE, APThreeArrows_m)
+!define APThreeArrows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeArrowsSPRITE, ThreeArrows)
+!define APThreeArrows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeArrowsSPRITE, ThreeArrows)
 

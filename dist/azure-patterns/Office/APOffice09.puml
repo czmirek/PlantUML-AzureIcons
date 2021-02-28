@@ -5,9 +5,9 @@ vmrmnHKUfIfbQ5t1OJPgIXbcqnKKLrnvJZy
 }
 
 AzureEntityColoring(APOffice09)
-!define APOffice09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOffice09_tbg.png, APOffice09)
-!define APOffice09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOffice09_tbg.png, APOffice09)
+!define APOffice09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOffice09_tbg.png, Office09)
+!define APOffice09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOffice09_tbg.png, Office09)
 AzureEntityColoring(APOffice09_m)
-!define APOffice09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOffice09SPRITE, APOffice09_m)
-!define APOffice09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOffice09SPRITE, APOffice09_m)
+!define APOffice09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOffice09SPRITE, Office09)
+!define APOffice09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOffice09SPRITE, Office09)
 

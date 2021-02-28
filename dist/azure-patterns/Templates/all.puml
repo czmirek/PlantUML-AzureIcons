@@ -4,11 +4,11 @@ Yd7HV4-JaJKeK68OMPunT0K
 }
 
 AzureEntityColoring(APTemplates)
-!define APTemplates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplates_tbg.png, APTemplates)
-!define APTemplates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplates_tbg.png, APTemplates)
+!define APTemplates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplates_tbg.png, Templates)
+!define APTemplates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplates_tbg.png, Templates)
 AzureEntityColoring(APTemplates_m)
-!define APTemplates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplatesSPRITE, APTemplates_m)
-!define APTemplates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplatesSPRITE, APTemplates_m)
+!define APTemplates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplatesSPRITE, Templates)
+!define APTemplates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplatesSPRITE, Templates)
 
 sprite $APTemplates2SPRITE [70x70/16z] {
 xTS74fim48NXjxjlo_rF730UB35oGP1foNU0dweMBSSaQT5lgOJVKfdCo84PFb57ZzmgvkouuXs9AaKdA-rHCUbOACQyAcqG3XrLnXbc9V4aL3nfLeqgmqnM
@@ -20,11 +20,11 @@ Wiki6yr_
 }
 
 AzureEntityColoring(APTemplates2)
-!define APTemplates2(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplates2_tbg.png, APTemplates2)
-!define APTemplates2(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplates2_tbg.png, APTemplates2)
+!define APTemplates2(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplates2_tbg.png, Templates2)
+!define APTemplates2(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplates2_tbg.png, Templates2)
 AzureEntityColoring(APTemplates2_m)
-!define APTemplates2_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplates2SPRITE, APTemplates2_m)
-!define APTemplates2_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplates2SPRITE, APTemplates2_m)
+!define APTemplates2_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplates2SPRITE, Templates2)
+!define APTemplates2_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplates2SPRITE, Templates2)
 
 sprite $APTemplatesAltSPRITE [70x70/16z] {
 xTQ5OG0X343H7pj2zj-txXxgBN-0TuBomOcsukdCMts3ifNkIF_CFlwBHhNwOSfMjhALlx_NnMZrTqTwArlPobOo540zrvKq7jLM3W2nE5mxocF4PbqMYye0
@@ -33,10 +33,10 @@ zJGVxPsBa8VoAPq2
 }
 
 AzureEntityColoring(APTemplatesAlt)
-!define APTemplatesAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplatesAlt_tbg.png, APTemplatesAlt)
-!define APTemplatesAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplatesAlt_tbg.png, APTemplatesAlt)
+!define APTemplatesAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTemplatesAlt_tbg.png, TemplatesAlt)
+!define APTemplatesAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTemplatesAlt_tbg.png, TemplatesAlt)
 AzureEntityColoring(APTemplatesAlt_m)
-!define APTemplatesAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplatesAltSPRITE, APTemplatesAlt_m)
-!define APTemplatesAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplatesAltSPRITE, APTemplatesAlt_m)
+!define APTemplatesAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTemplatesAltSPRITE, TemplatesAlt)
+!define APTemplatesAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTemplatesAltSPRITE, TemplatesAlt)
 
 

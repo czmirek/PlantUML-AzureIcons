@@ -10,9 +10,9 @@ Fyh8GhCLYBX9_jnJGeMssyMoCblt2Tg8siStk80z0yT1jkPl-12y-R_y0m
 }
 
 AzureEntityColoring(APNodesChain)
-!define APNodesChain(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodesChain_tbg.png, APNodesChain)
-!define APNodesChain(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodesChain_tbg.png, APNodesChain)
+!define APNodesChain(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodesChain_tbg.png, NodesChain)
+!define APNodesChain(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodesChain_tbg.png, NodesChain)
 AzureEntityColoring(APNodesChain_m)
-!define APNodesChain_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodesChainSPRITE, APNodesChain_m)
-!define APNodesChain_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodesChainSPRITE, APNodesChain_m)
+!define APNodesChain_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodesChainSPRITE, NodesChain)
+!define APNodesChain_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodesChainSPRITE, NodesChain)
 

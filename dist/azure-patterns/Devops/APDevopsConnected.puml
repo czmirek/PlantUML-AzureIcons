@@ -5,9 +5,9 @@ P7lYpuDbMPPbUG
 }
 
 AzureEntityColoring(APDevopsConnected)
-!define APDevopsConnected(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsConnected_tbg.png, APDevopsConnected)
-!define APDevopsConnected(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsConnected_tbg.png, APDevopsConnected)
+!define APDevopsConnected(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsConnected_tbg.png, DevopsConnected)
+!define APDevopsConnected(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsConnected_tbg.png, DevopsConnected)
 AzureEntityColoring(APDevopsConnected_m)
-!define APDevopsConnected_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsConnectedSPRITE, APDevopsConnected_m)
-!define APDevopsConnected_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsConnectedSPRITE, APDevopsConnected_m)
+!define APDevopsConnected_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsConnectedSPRITE, DevopsConnected)
+!define APDevopsConnected_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsConnectedSPRITE, DevopsConnected)
 

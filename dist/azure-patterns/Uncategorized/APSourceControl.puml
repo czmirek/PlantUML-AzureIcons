@@ -9,9 +9,9 @@ o9qSizXfMmnRektC45EopehfO5PAXYOZfI7ccPAzWgBlGAELGeVIWNuenIdbef0E3e-bGUDPocHepIcT
 }
 
 AzureEntityColoring(APSourceControl)
-!define APSourceControl(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSourceControl_tbg.png, APSourceControl)
-!define APSourceControl(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSourceControl_tbg.png, APSourceControl)
+!define APSourceControl(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSourceControl_tbg.png, SourceControl)
+!define APSourceControl(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSourceControl_tbg.png, SourceControl)
 AzureEntityColoring(APSourceControl_m)
-!define APSourceControl_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSourceControlSPRITE, APSourceControl_m)
-!define APSourceControl_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSourceControlSPRITE, APSourceControl_m)
+!define APSourceControl_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSourceControlSPRITE, SourceControl)
+!define APSourceControl_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSourceControlSPRITE, SourceControl)
 

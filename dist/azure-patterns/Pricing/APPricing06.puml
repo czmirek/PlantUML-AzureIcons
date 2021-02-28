@@ -6,9 +6,9 @@ BRkID16JNSywAxf-mEokLmsTgvr2j8twlLpTNdHuBxcwkR67RoJT6Zwi5mMpWeHGIztrme6usyR8Voy1
 }
 
 AzureEntityColoring(APPricing06)
-!define APPricing06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPricing06_tbg.png, APPricing06)
-!define APPricing06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPricing06_tbg.png, APPricing06)
+!define APPricing06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPricing06_tbg.png, Pricing06)
+!define APPricing06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPricing06_tbg.png, Pricing06)
 AzureEntityColoring(APPricing06_m)
-!define APPricing06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPricing06SPRITE, APPricing06_m)
-!define APPricing06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPricing06SPRITE, APPricing06_m)
+!define APPricing06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPricing06SPRITE, Pricing06)
+!define APPricing06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPricing06SPRITE, Pricing06)
 

@@ -7,9 +7,9 @@ y9cAlEa5Q2pJcKfuOUMk3CqGlg2a2zcVwNRx1W
 }
 
 AzureEntityColoring(CDSAnalyticsAnalysisServices)
-!define CDSAnalyticsAnalysisServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsAnalysisServices_tbg.png, CDSAnalyticsAnalysisServices)
-!define CDSAnalyticsAnalysisServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsAnalysisServices_tbg.png, CDSAnalyticsAnalysisServices)
+!define CDSAnalyticsAnalysisServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsAnalysisServices_tbg.png, AnalyticsAnalysisServices)
+!define CDSAnalyticsAnalysisServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsAnalysisServices_tbg.png, AnalyticsAnalysisServices)
 AzureEntityColoring(CDSAnalyticsAnalysisServices_m)
-!define CDSAnalyticsAnalysisServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsAnalysisServicesSPRITE, CDSAnalyticsAnalysisServices_m)
-!define CDSAnalyticsAnalysisServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsAnalysisServicesSPRITE, CDSAnalyticsAnalysisServices_m)
+!define CDSAnalyticsAnalysisServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsAnalysisServicesSPRITE, AnalyticsAnalysisServices)
+!define CDSAnalyticsAnalysisServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsAnalysisServicesSPRITE, AnalyticsAnalysisServices)
 

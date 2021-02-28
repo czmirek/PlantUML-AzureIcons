@@ -8,9 +8,9 @@ GAJkdq8ay3r9woK3vApeYaxp722HhkIjZPmNv4FXwT55220nvs4huWK2OpkGiG5nfduO6wiif5-BA-7q
 }
 
 AzureEntityColoring(APGearTurn)
-!define APGearTurn(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGearTurn_tbg.png, APGearTurn)
-!define APGearTurn(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGearTurn_tbg.png, APGearTurn)
+!define APGearTurn(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGearTurn_tbg.png, GearTurn)
+!define APGearTurn(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGearTurn_tbg.png, GearTurn)
 AzureEntityColoring(APGearTurn_m)
-!define APGearTurn_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGearTurnSPRITE, APGearTurn_m)
-!define APGearTurn_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGearTurnSPRITE, APGearTurn_m)
+!define APGearTurn_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGearTurnSPRITE, GearTurn)
+!define APGearTurn_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGearTurnSPRITE, GearTurn)
 

@@ -8,11 +8,11 @@ xQk5BcX_a5u1
 }
 
 AzureEntityColoring(APClockBlue)
-!define APClockBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, APClockBlue)
-!define APClockBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, APClockBlue)
+!define APClockBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, ClockBlue)
+!define APClockBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, ClockBlue)
 AzureEntityColoring(APClockBlue_m)
-!define APClockBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, APClockBlue_m)
-!define APClockBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, APClockBlue_m)
+!define APClockBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, ClockBlue)
+!define APClockBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, ClockBlue)
 
 sprite $APClockBlueAltSPRITE [70x70/16z] {
 hPXNaiGm24J1Ma3o_U-x6MSQoQN-7hqYZ4aKYukerVLRrLGAqxYAjlMYfcKGiGRg1vMw0jKkpkACcBDa3DQrGyhOcMj8pKp4pAw1Hcx9oV1J9BdeoLK98VMO
@@ -23,11 +23,11 @@ H0Q49ZAotRZH8TFcJAgpf-Rt4_oKRMBYPZD_onhV-6PldtWJPh09ZstbAgAzMxcBRUsGyQHhnVpBoVWL
 }
 
 AzureEntityColoring(APClockBlueAlt)
-!define APClockBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockBlueAlt_tbg.png, APClockBlueAlt)
-!define APClockBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockBlueAlt_tbg.png, APClockBlueAlt)
+!define APClockBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockBlueAlt_tbg.png, ClockBlueAlt)
+!define APClockBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockBlueAlt_tbg.png, ClockBlueAlt)
 AzureEntityColoring(APClockBlueAlt_m)
-!define APClockBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueAltSPRITE, APClockBlueAlt_m)
-!define APClockBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueAltSPRITE, APClockBlueAlt_m)
+!define APClockBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueAltSPRITE, ClockBlueAlt)
+!define APClockBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueAltSPRITE, ClockBlueAlt)
 
 sprite $APClockGreySPRITE [70x70/16z] {
 pTW75kGW30DG8vhW_lVTocfQ89HjUdt2_6SxFTOFGY9PluNC4RQHmFgUah16v7T1a9isIXr4phJ156D4Y8bSSa090TqsmnY9u_vzQjivAeVD2DPDkYl7SQPU
@@ -39,11 +39,11 @@ F_WUkyjN
 }
 
 AzureEntityColoring(APClockGrey)
-!define APClockGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, APClockGrey)
-!define APClockGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, APClockGrey)
+!define APClockGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, ClockGrey)
+!define APClockGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, ClockGrey)
 AzureEntityColoring(APClockGrey_m)
-!define APClockGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockGreySPRITE, APClockGrey_m)
-!define APClockGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockGreySPRITE, APClockGrey_m)
+!define APClockGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockGreySPRITE, ClockGrey)
+!define APClockGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockGreySPRITE, ClockGrey)
 
 sprite $APClockMovingSPRITE [70x70/16z] {
 xTTNOkig54RXVzC40h7cFzkh9EvDxVPplXVyj1AQBMcJngEigx-xCePRUojPj_PMYhzrhVohLtTP03tuNN4-5SZP-zs5LBdHIp1jPAbnqjhbOmcR6falTRZy
@@ -56,11 +56,11 @@ BJOxT7xBJwKxlHLCdvMRtVPwoGh3yfpmfmZDwLdiP2rnN38PobCdq8EM-Ml6ZOpI9MGX9obe5SzrRPp9
 }
 
 AzureEntityColoring(APClockMoving)
-!define APClockMoving(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, APClockMoving)
-!define APClockMoving(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, APClockMoving)
+!define APClockMoving(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, ClockMoving)
+!define APClockMoving(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockMoving_tbg.png, ClockMoving)
 AzureEntityColoring(APClockMoving_m)
-!define APClockMoving_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, APClockMoving_m)
-!define APClockMoving_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, APClockMoving_m)
+!define APClockMoving_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, ClockMoving)
+!define APClockMoving_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockMovingSPRITE, ClockMoving)
 
 sprite $APClockTwoToneArrowSPRITE [70x70/16z] {
 nPZNOcmX24KHH97__zzRfkrJ6SijwoLz2MoIZ8SY4kiBIJG5Q_KTLMLGaKhp2reP48dvBPPN7A1fHo_Lls92CUfTb51oYaNvWMXjliMUoKjzikkcEJ3bGwzg
@@ -72,10 +72,10 @@ FYdhbtklQVr1Wp5rmA77PEaX3kxy_KYnqqZ754ZtbO_L6Z_V-Wa
 }
 
 AzureEntityColoring(APClockTwoToneArrow)
-!define APClockTwoToneArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockTwoToneArrow_tbg.png, APClockTwoToneArrow)
-!define APClockTwoToneArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockTwoToneArrow_tbg.png, APClockTwoToneArrow)
+!define APClockTwoToneArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockTwoToneArrow_tbg.png, ClockTwoToneArrow)
+!define APClockTwoToneArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockTwoToneArrow_tbg.png, ClockTwoToneArrow)
 AzureEntityColoring(APClockTwoToneArrow_m)
-!define APClockTwoToneArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockTwoToneArrowSPRITE, APClockTwoToneArrow_m)
-!define APClockTwoToneArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockTwoToneArrowSPRITE, APClockTwoToneArrow_m)
+!define APClockTwoToneArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockTwoToneArrowSPRITE, ClockTwoToneArrow)
+!define APClockTwoToneArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockTwoToneArrowSPRITE, ClockTwoToneArrow)
 
 

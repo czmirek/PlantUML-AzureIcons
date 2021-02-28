@@ -5,9 +5,9 @@ Sq1MibBR09Hl
 }
 
 AzureEntityColoring(APUpdatesLight)
-!define APUpdatesLight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpdatesLight_tbg.png, APUpdatesLight)
-!define APUpdatesLight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpdatesLight_tbg.png, APUpdatesLight)
+!define APUpdatesLight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpdatesLight_tbg.png, UpdatesLight)
+!define APUpdatesLight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpdatesLight_tbg.png, UpdatesLight)
 AzureEntityColoring(APUpdatesLight_m)
-!define APUpdatesLight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpdatesLightSPRITE, APUpdatesLight_m)
-!define APUpdatesLight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpdatesLightSPRITE, APUpdatesLight_m)
+!define APUpdatesLight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpdatesLightSPRITE, UpdatesLight)
+!define APUpdatesLight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpdatesLightSPRITE, UpdatesLight)
 

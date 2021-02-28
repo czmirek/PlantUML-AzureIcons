@@ -7,9 +7,9 @@ nYjA1grYY5mhfIIXGvy1
 }
 
 AzureEntityColoring(APCurlyBracketShapes)
-!define APCurlyBracketShapes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurlyBracketShapes_tbg.png, APCurlyBracketShapes)
-!define APCurlyBracketShapes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurlyBracketShapes_tbg.png, APCurlyBracketShapes)
+!define APCurlyBracketShapes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurlyBracketShapes_tbg.png, CurlyBracketShes)
+!define APCurlyBracketShapes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurlyBracketShapes_tbg.png, CurlyBracketShes)
 AzureEntityColoring(APCurlyBracketShapes_m)
-!define APCurlyBracketShapes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurlyBracketShapesSPRITE, APCurlyBracketShapes_m)
-!define APCurlyBracketShapes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurlyBracketShapesSPRITE, APCurlyBracketShapes_m)
+!define APCurlyBracketShapes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurlyBracketShapesSPRITE, CurlyBracketShes)
+!define APCurlyBracketShapes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurlyBracketShapesSPRITE, CurlyBracketShes)
 

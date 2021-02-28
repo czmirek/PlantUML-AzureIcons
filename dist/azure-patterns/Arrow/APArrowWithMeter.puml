@@ -7,9 +7,9 @@ p04X7fSw50S1On7l1TeS18oBKCKxzpa2naT8SBTJ12qV8VVz1GW2udyQDMTXrtF4UTyr2EEyYzWfbLC4
 }
 
 AzureEntityColoring(APArrowWithMeter)
-!define APArrowWithMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowWithMeter_tbg.png, APArrowWithMeter)
-!define APArrowWithMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowWithMeter_tbg.png, APArrowWithMeter)
+!define APArrowWithMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowWithMeter_tbg.png, ArrowWithMeter)
+!define APArrowWithMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowWithMeter_tbg.png, ArrowWithMeter)
 AzureEntityColoring(APArrowWithMeter_m)
-!define APArrowWithMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowWithMeterSPRITE, APArrowWithMeter_m)
-!define APArrowWithMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowWithMeterSPRITE, APArrowWithMeter_m)
+!define APArrowWithMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowWithMeterSPRITE, ArrowWithMeter)
+!define APArrowWithMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowWithMeterSPRITE, ArrowWithMeter)
 

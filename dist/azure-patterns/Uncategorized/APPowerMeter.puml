@@ -7,9 +7,9 @@ YA6Xz72raTyQrXYnsulcDnZ3VMnbV7RpmFkF3YCW9kbbAkzdUsH-hkZs4K4uOxAb4eGnnoE388IH8yFb
 }
 
 AzureEntityColoring(APPowerMeter)
-!define APPowerMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPowerMeter_tbg.png, APPowerMeter)
-!define APPowerMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPowerMeter_tbg.png, APPowerMeter)
+!define APPowerMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPowerMeter_tbg.png, PowerMeter)
+!define APPowerMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPowerMeter_tbg.png, PowerMeter)
 AzureEntityColoring(APPowerMeter_m)
-!define APPowerMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPowerMeterSPRITE, APPowerMeter_m)
-!define APPowerMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPowerMeterSPRITE, APPowerMeter_m)
+!define APPowerMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPowerMeterSPRITE, PowerMeter)
+!define APPowerMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPowerMeterSPRITE, PowerMeter)
 

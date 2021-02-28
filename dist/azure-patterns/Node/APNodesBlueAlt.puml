@@ -6,9 +6,9 @@ NNVL4t3zqtXzoq3_MIbilKHOHjCV5XDdBQPRRzrWlHckuaaOhk7L2bpDmyQzlLmjyeX7GTUAoEBHORbI
 }
 
 AzureEntityColoring(APNodesBlueAlt)
-!define APNodesBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodesBlueAlt_tbg.png, APNodesBlueAlt)
-!define APNodesBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodesBlueAlt_tbg.png, APNodesBlueAlt)
+!define APNodesBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodesBlueAlt_tbg.png, NodesBlueAlt)
+!define APNodesBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodesBlueAlt_tbg.png, NodesBlueAlt)
 AzureEntityColoring(APNodesBlueAlt_m)
-!define APNodesBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodesBlueAltSPRITE, APNodesBlueAlt_m)
-!define APNodesBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodesBlueAltSPRITE, APNodesBlueAlt_m)
+!define APNodesBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodesBlueAltSPRITE, NodesBlueAlt)
+!define APNodesBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodesBlueAltSPRITE, NodesBlueAlt)
 

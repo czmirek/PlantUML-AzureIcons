@@ -10,9 +10,9 @@ zB4VJ-0LEgINbvAe9KHYPaA4zWtn3m
 }
 
 AzureEntityColoring(CDSGeneralRecent)
-!define CDSGeneralRecent(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralRecent_tbg.png, CDSGeneralRecent)
-!define CDSGeneralRecent(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralRecent_tbg.png, CDSGeneralRecent)
+!define CDSGeneralRecent(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralRecent_tbg.png, GeneralRecent)
+!define CDSGeneralRecent(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralRecent_tbg.png, GeneralRecent)
 AzureEntityColoring(CDSGeneralRecent_m)
-!define CDSGeneralRecent_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralRecentSPRITE, CDSGeneralRecent_m)
-!define CDSGeneralRecent_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralRecentSPRITE, CDSGeneralRecent_m)
+!define CDSGeneralRecent_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralRecentSPRITE, GeneralRecent)
+!define CDSGeneralRecent_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralRecentSPRITE, GeneralRecent)
 

@@ -6,9 +6,9 @@ PVHi7qeSeJtXR5iYlyusTjrAskWJ
 }
 
 AzureEntityColoring(APBusinessIntelligence)
-!define APBusinessIntelligence(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBusinessIntelligence_tbg.png, APBusinessIntelligence)
-!define APBusinessIntelligence(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBusinessIntelligence_tbg.png, APBusinessIntelligence)
+!define APBusinessIntelligence(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBusinessIntelligence_tbg.png, BusinessIntelligence)
+!define APBusinessIntelligence(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBusinessIntelligence_tbg.png, BusinessIntelligence)
 AzureEntityColoring(APBusinessIntelligence_m)
-!define APBusinessIntelligence_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBusinessIntelligenceSPRITE, APBusinessIntelligence_m)
-!define APBusinessIntelligence_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBusinessIntelligenceSPRITE, APBusinessIntelligence_m)
+!define APBusinessIntelligence_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBusinessIntelligenceSPRITE, BusinessIntelligence)
+!define APBusinessIntelligence_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBusinessIntelligenceSPRITE, BusinessIntelligence)
 

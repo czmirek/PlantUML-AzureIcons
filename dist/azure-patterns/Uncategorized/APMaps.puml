@@ -6,9 +6,9 @@ LIIbZYbLfMPaQdKb0TjrfHP8JU75zPdaKiYdhDQLjlPXLuy
 }
 
 AzureEntityColoring(APMaps)
-!define APMaps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMaps_tbg.png, APMaps)
-!define APMaps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMaps_tbg.png, APMaps)
+!define APMaps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMaps_tbg.png, Ms)
+!define APMaps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMaps_tbg.png, Ms)
 AzureEntityColoring(APMaps_m)
-!define APMaps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMapsSPRITE, APMaps_m)
-!define APMaps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMapsSPRITE, APMaps_m)
+!define APMaps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMapsSPRITE, Ms)
+!define APMaps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMapsSPRITE, Ms)
 

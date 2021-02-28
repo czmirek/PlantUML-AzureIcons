@@ -7,9 +7,9 @@ o350cJuo0Svm93Lmoim6aXN8obc9v0IKwIE6IuCpVQHcQkHfXjfXZ2ESwI8renqavpkdJQHcbk1UXTJC
 }
 
 AzureEntityColoring(CDSIntuneTroubleshoot)
-!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, CDSIntuneTroubleshoot)
-!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, CDSIntuneTroubleshoot)
+!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, IntuneTroubleshoot)
+!define CDSIntuneTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTroubleshoot_tbg.png, IntuneTroubleshoot)
 AzureEntityColoring(CDSIntuneTroubleshoot_m)
-!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, CDSIntuneTroubleshoot_m)
-!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, CDSIntuneTroubleshoot_m)
+!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, IntuneTroubleshoot)
+!define CDSIntuneTroubleshoot_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTroubleshootSPRITE, IntuneTroubleshoot)
 

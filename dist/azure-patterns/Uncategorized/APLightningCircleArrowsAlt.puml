@@ -9,9 +9,9 @@ HI9sCZ0a1IDg6xCJkenGrFunYqYVH5JDh6Gpqtk9dm
 }
 
 AzureEntityColoring(APLightningCircleArrowsAlt)
-!define APLightningCircleArrowsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightningCircleArrowsAlt_tbg.png, APLightningCircleArrowsAlt)
-!define APLightningCircleArrowsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightningCircleArrowsAlt_tbg.png, APLightningCircleArrowsAlt)
+!define APLightningCircleArrowsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightningCircleArrowsAlt_tbg.png, LightningCircleArrowsAlt)
+!define APLightningCircleArrowsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightningCircleArrowsAlt_tbg.png, LightningCircleArrowsAlt)
 AzureEntityColoring(APLightningCircleArrowsAlt_m)
-!define APLightningCircleArrowsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightningCircleArrowsAltSPRITE, APLightningCircleArrowsAlt_m)
-!define APLightningCircleArrowsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightningCircleArrowsAltSPRITE, APLightningCircleArrowsAlt_m)
+!define APLightningCircleArrowsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightningCircleArrowsAltSPRITE, LightningCircleArrowsAlt)
+!define APLightningCircleArrowsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightningCircleArrowsAltSPRITE, LightningCircleArrowsAlt)
 

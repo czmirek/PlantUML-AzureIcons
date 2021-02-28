@@ -7,9 +7,9 @@ iXcbdR7azZuphbDUiFQ5bCvjO-L-4adfzKYnVj9uAzpkAvyiX_ZQxAs1aECnl3HbdN3br2tBKUiFuBLG
 }
 
 AzureEntityColoring(APAzureTestPlans)
-!define APAzureTestPlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureTestPlans_tbg.png, APAzureTestPlans)
-!define APAzureTestPlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureTestPlans_tbg.png, APAzureTestPlans)
+!define APAzureTestPlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureTestPlans_tbg.png, AzureTestPlans)
+!define APAzureTestPlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureTestPlans_tbg.png, AzureTestPlans)
 AzureEntityColoring(APAzureTestPlans_m)
-!define APAzureTestPlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureTestPlansSPRITE, APAzureTestPlans_m)
-!define APAzureTestPlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureTestPlansSPRITE, APAzureTestPlans_m)
+!define APAzureTestPlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureTestPlansSPRITE, AzureTestPlans)
+!define APAzureTestPlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureTestPlansSPRITE, AzureTestPlans)
 

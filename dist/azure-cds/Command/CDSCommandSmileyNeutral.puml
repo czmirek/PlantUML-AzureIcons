@@ -9,9 +9,9 @@ N9l8i4oBjChaymq
 }
 
 AzureEntityColoring(CDSCommandSmileyNeutral)
-!define CDSCommandSmileyNeutral(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandSmileyNeutral_tbg.png, CDSCommandSmileyNeutral)
-!define CDSCommandSmileyNeutral(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandSmileyNeutral_tbg.png, CDSCommandSmileyNeutral)
+!define CDSCommandSmileyNeutral(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandSmileyNeutral_tbg.png, CommandSmileyNeutral)
+!define CDSCommandSmileyNeutral(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandSmileyNeutral_tbg.png, CommandSmileyNeutral)
 AzureEntityColoring(CDSCommandSmileyNeutral_m)
-!define CDSCommandSmileyNeutral_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandSmileyNeutralSPRITE, CDSCommandSmileyNeutral_m)
-!define CDSCommandSmileyNeutral_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandSmileyNeutralSPRITE, CDSCommandSmileyNeutral_m)
+!define CDSCommandSmileyNeutral_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandSmileyNeutralSPRITE, CommandSmileyNeutral)
+!define CDSCommandSmileyNeutral_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandSmileyNeutralSPRITE, CommandSmileyNeutral)
 

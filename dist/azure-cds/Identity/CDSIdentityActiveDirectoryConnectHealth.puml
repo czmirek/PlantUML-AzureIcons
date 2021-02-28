@@ -8,9 +8,9 @@ hZy8U2HrJYZpyLhKzWovlYoFkiw9Gl77xBM8U12DlSpAb3g7BqPzw9vdGJqs4A-TKgtCKI6InySJnp5c
 }
 
 AzureEntityColoring(CDSIdentityActiveDirectoryConnectHealth)
-!define CDSIdentityActiveDirectoryConnectHealth(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityActiveDirectoryConnectHealth_tbg.png, CDSIdentityActiveDirectoryConnectHealth)
-!define CDSIdentityActiveDirectoryConnectHealth(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityActiveDirectoryConnectHealth_tbg.png, CDSIdentityActiveDirectoryConnectHealth)
+!define CDSIdentityActiveDirectoryConnectHealth(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityActiveDirectoryConnectHealth_tbg.png, IdentityActiveDirectoryConnectHealth)
+!define CDSIdentityActiveDirectoryConnectHealth(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityActiveDirectoryConnectHealth_tbg.png, IdentityActiveDirectoryConnectHealth)
 AzureEntityColoring(CDSIdentityActiveDirectoryConnectHealth_m)
-!define CDSIdentityActiveDirectoryConnectHealth_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityActiveDirectoryConnectHealthSPRITE, CDSIdentityActiveDirectoryConnectHealth_m)
-!define CDSIdentityActiveDirectoryConnectHealth_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityActiveDirectoryConnectHealthSPRITE, CDSIdentityActiveDirectoryConnectHealth_m)
+!define CDSIdentityActiveDirectoryConnectHealth_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityActiveDirectoryConnectHealthSPRITE, IdentityActiveDirectoryConnectHealth)
+!define CDSIdentityActiveDirectoryConnectHealth_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityActiveDirectoryConnectHealthSPRITE, IdentityActiveDirectoryConnectHealth)
 

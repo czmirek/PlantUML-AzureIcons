@@ -6,9 +6,9 @@ sYuIGBPBDSSadEbh9hWaleeehWgwtQVWEgcRICAHsbS23cNFNLbeT5SNtNm9_5jPW9iO_S7-SLh4ANvq
 }
 
 AzureEntityColoring(APHeart)
-!define APHeart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHeart_tbg.png, APHeart)
-!define APHeart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHeart_tbg.png, APHeart)
+!define APHeart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHeart_tbg.png, Heart)
+!define APHeart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHeart_tbg.png, Heart)
 AzureEntityColoring(APHeart_m)
-!define APHeart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHeartSPRITE, APHeart_m)
-!define APHeart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHeartSPRITE, APHeart_m)
+!define APHeart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHeartSPRITE, Heart)
+!define APHeart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHeartSPRITE, Heart)
 

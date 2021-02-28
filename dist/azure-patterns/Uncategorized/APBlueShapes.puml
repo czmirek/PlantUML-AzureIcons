@@ -6,9 +6,9 @@ bMJDgcR95RQry8Vl6OG2YHtPYjsXKh34JdNC_ynm4DJGvzGfgxjdiEaJ7sL9dZvBuYJi5Nxvde4k7h9d
 }
 
 AzureEntityColoring(APBlueShapes)
-!define APBlueShapes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueShapes_tbg.png, APBlueShapes)
-!define APBlueShapes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueShapes_tbg.png, APBlueShapes)
+!define APBlueShapes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueShapes_tbg.png, BlueShes)
+!define APBlueShapes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueShapes_tbg.png, BlueShes)
 AzureEntityColoring(APBlueShapes_m)
-!define APBlueShapes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueShapesSPRITE, APBlueShapes_m)
-!define APBlueShapes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueShapesSPRITE, APBlueShapes_m)
+!define APBlueShapes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueShapesSPRITE, BlueShes)
+!define APBlueShapes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueShapesSPRITE, BlueShes)
 

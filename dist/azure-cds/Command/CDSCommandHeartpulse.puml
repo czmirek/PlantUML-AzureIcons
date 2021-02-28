@@ -8,9 +8,9 @@ OaY0CIJ2619WtY2ypIM2yF5dh-4f1HYi_fvJW8aWniGGlENNBOPWPQ88620n1aYS6LCq8v0eyrFaDty
 }
 
 AzureEntityColoring(CDSCommandHeartpulse)
-!define CDSCommandHeartpulse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandHeartpulse_tbg.png, CDSCommandHeartpulse)
-!define CDSCommandHeartpulse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandHeartpulse_tbg.png, CDSCommandHeartpulse)
+!define CDSCommandHeartpulse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandHeartpulse_tbg.png, CommandHeartpulse)
+!define CDSCommandHeartpulse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandHeartpulse_tbg.png, CommandHeartpulse)
 AzureEntityColoring(CDSCommandHeartpulse_m)
-!define CDSCommandHeartpulse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandHeartpulseSPRITE, CDSCommandHeartpulse_m)
-!define CDSCommandHeartpulse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandHeartpulseSPRITE, CDSCommandHeartpulse_m)
+!define CDSCommandHeartpulse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandHeartpulseSPRITE, CommandHeartpulse)
+!define CDSCommandHeartpulse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandHeartpulseSPRITE, CommandHeartpulse)
 

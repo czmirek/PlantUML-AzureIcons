@@ -8,9 +8,9 @@ alwQolyAFwa4z3of6FJmUAL27yTWfI2yOp5GgGoVqVf9nGb6a9RegCRm0B9QgR6fnKq8lX8Y4I5yg_--
 }
 
 AzureEntityColoring(CDSOtherSQLServerRegistries)
-!define CDSOtherSQLServerRegistries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherSQLServerRegistries_tbg.png, CDSOtherSQLServerRegistries)
-!define CDSOtherSQLServerRegistries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherSQLServerRegistries_tbg.png, CDSOtherSQLServerRegistries)
+!define CDSOtherSQLServerRegistries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherSQLServerRegistries_tbg.png, OtherSQLServerRegistries)
+!define CDSOtherSQLServerRegistries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherSQLServerRegistries_tbg.png, OtherSQLServerRegistries)
 AzureEntityColoring(CDSOtherSQLServerRegistries_m)
-!define CDSOtherSQLServerRegistries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherSQLServerRegistriesSPRITE, CDSOtherSQLServerRegistries_m)
-!define CDSOtherSQLServerRegistries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherSQLServerRegistriesSPRITE, CDSOtherSQLServerRegistries_m)
+!define CDSOtherSQLServerRegistries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherSQLServerRegistriesSPRITE, OtherSQLServerRegistries)
+!define CDSOtherSQLServerRegistries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherSQLServerRegistriesSPRITE, OtherSQLServerRegistries)
 

@@ -6,9 +6,9 @@ z7sn_0pOBBIJTg6pT_y
 }
 
 AzureEntityColoring(CDSComputeVirtualMachine)
-!define CDSComputeVirtualMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, CDSComputeVirtualMachine)
-!define CDSComputeVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, CDSComputeVirtualMachine)
+!define CDSComputeVirtualMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, ComputeVirtualMachine)
+!define CDSComputeVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, ComputeVirtualMachine)
 AzureEntityColoring(CDSComputeVirtualMachine_m)
-!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, CDSComputeVirtualMachine_m)
-!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, CDSComputeVirtualMachine_m)
+!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, ComputeVirtualMachine)
+!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, ComputeVirtualMachine)
 

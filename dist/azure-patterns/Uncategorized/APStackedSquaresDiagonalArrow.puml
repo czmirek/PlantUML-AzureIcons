@@ -4,9 +4,9 @@ BYzEl3ZnuiIB4ozEl3ZnuiIB4ozEl5oLHBrbUucEoKAnhOoTnecNw91uMJHEl4I7n8lTlkIIIr5TfJX7
 }
 
 AzureEntityColoring(APStackedSquaresDiagonalArrow)
-!define APStackedSquaresDiagonalArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStackedSquaresDiagonalArrow_tbg.png, APStackedSquaresDiagonalArrow)
-!define APStackedSquaresDiagonalArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStackedSquaresDiagonalArrow_tbg.png, APStackedSquaresDiagonalArrow)
+!define APStackedSquaresDiagonalArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStackedSquaresDiagonalArrow_tbg.png, StackedSquaresDiagonalArrow)
+!define APStackedSquaresDiagonalArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStackedSquaresDiagonalArrow_tbg.png, StackedSquaresDiagonalArrow)
 AzureEntityColoring(APStackedSquaresDiagonalArrow_m)
-!define APStackedSquaresDiagonalArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackedSquaresDiagonalArrowSPRITE, APStackedSquaresDiagonalArrow_m)
-!define APStackedSquaresDiagonalArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackedSquaresDiagonalArrowSPRITE, APStackedSquaresDiagonalArrow_m)
+!define APStackedSquaresDiagonalArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackedSquaresDiagonalArrowSPRITE, StackedSquaresDiagonalArrow)
+!define APStackedSquaresDiagonalArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackedSquaresDiagonalArrowSPRITE, StackedSquaresDiagonalArrow)
 

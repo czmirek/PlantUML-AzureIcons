@@ -6,9 +6,9 @@ W5jXXLyHmAsmmgy8u5HWWxWKG8052lmALYZuFmh-H64N0gRlF4XJeaTHie83WH1PSXrHQebp7uibdaSq
 }
 
 AzureEntityColoring(APMediaProtection)
-!define APMediaProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaProtection_tbg.png, APMediaProtection)
-!define APMediaProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaProtection_tbg.png, APMediaProtection)
+!define APMediaProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaProtection_tbg.png, Medirotection)
+!define APMediaProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaProtection_tbg.png, Medirotection)
 AzureEntityColoring(APMediaProtection_m)
-!define APMediaProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaProtectionSPRITE, APMediaProtection_m)
-!define APMediaProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaProtectionSPRITE, APMediaProtection_m)
+!define APMediaProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaProtectionSPRITE, Medirotection)
+!define APMediaProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaProtectionSPRITE, Medirotection)
 

@@ -5,9 +5,9 @@ eFzI1KYkAW1DLGmON5KAP9UL22uh3KnN1ehhIew-XMA2Cj5FL7O5bmCOczZ8elRsxW
 }
 
 AzureEntityColoring(APDataLakeStore)
-!define APDataLakeStore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataLakeStore_tbg.png, APDataLakeStore)
-!define APDataLakeStore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataLakeStore_tbg.png, APDataLakeStore)
+!define APDataLakeStore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataLakeStore_tbg.png, DataLakeStore)
+!define APDataLakeStore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataLakeStore_tbg.png, DataLakeStore)
 AzureEntityColoring(APDataLakeStore_m)
-!define APDataLakeStore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataLakeStoreSPRITE, APDataLakeStore_m)
-!define APDataLakeStore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataLakeStoreSPRITE, APDataLakeStore_m)
+!define APDataLakeStore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataLakeStoreSPRITE, DataLakeStore)
+!define APDataLakeStore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataLakeStoreSPRITE, DataLakeStore)
 

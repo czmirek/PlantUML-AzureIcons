@@ -8,9 +8,9 @@ zcDE3bF6wd-tvYO_CC2LHUo8wHWDBThRTWkodQhBGR3e3vnboZIiFxWbBRi5pLrYt5eOhk74KjT2yf25
 }
 
 AzureEntityColoring(APCircleMeter)
-!define APCircleMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, APCircleMeter)
-!define APCircleMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, APCircleMeter)
+!define APCircleMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, CircleMeter)
+!define APCircleMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, CircleMeter)
 AzureEntityColoring(APCircleMeter_m)
-!define APCircleMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, APCircleMeter_m)
-!define APCircleMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, APCircleMeter_m)
+!define APCircleMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, CircleMeter)
+!define APCircleMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, CircleMeter)
 

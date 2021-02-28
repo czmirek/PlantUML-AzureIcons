@@ -8,9 +8,9 @@ xnpYMGixgiNhBtQod6YdUoC0ywc66krPLsx8yV7PueJ8FT4owz0eHykiGvusVhAu4NEmzYrOtB28MIK0
 }
 
 AzureEntityColoring(APCharts32)
-!define APCharts32(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts32_tbg.png, APCharts32)
-!define APCharts32(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts32_tbg.png, APCharts32)
+!define APCharts32(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts32_tbg.png, Charts32)
+!define APCharts32(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts32_tbg.png, Charts32)
 AzureEntityColoring(APCharts32_m)
-!define APCharts32_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts32SPRITE, APCharts32_m)
-!define APCharts32_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts32SPRITE, APCharts32_m)
+!define APCharts32_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts32SPRITE, Charts32)
+!define APCharts32_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts32SPRITE, Charts32)
 

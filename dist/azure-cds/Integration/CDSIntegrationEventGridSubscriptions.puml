@@ -5,9 +5,9 @@ GaCPndTkC2EgGk3DWE6v7SbeIfuCFy9dWReopvAZGh9NyRliLInaHglshww5JC-DF42NexaeNV5l797D
 }
 
 AzureEntityColoring(CDSIntegrationEventGridSubscriptions)
-!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, CDSIntegrationEventGridSubscriptions)
-!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, CDSIntegrationEventGridSubscriptions)
+!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, IntegrationEventGridSubscriptions)
+!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, IntegrationEventGridSubscriptions)
 AzureEntityColoring(CDSIntegrationEventGridSubscriptions_m)
-!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, CDSIntegrationEventGridSubscriptions_m)
-!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, CDSIntegrationEventGridSubscriptions_m)
+!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, IntegrationEventGridSubscriptions)
+!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, IntegrationEventGridSubscriptions)
 

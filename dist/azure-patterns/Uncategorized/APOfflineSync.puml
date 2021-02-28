@@ -8,9 +8,9 @@ Wmgce2232cQIogNxWhcAWO8CAXWgoFXN
 }
 
 AzureEntityColoring(APOfflineSync)
-!define APOfflineSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOfflineSync_tbg.png, APOfflineSync)
-!define APOfflineSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOfflineSync_tbg.png, APOfflineSync)
+!define APOfflineSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOfflineSync_tbg.png, OfflineSync)
+!define APOfflineSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOfflineSync_tbg.png, OfflineSync)
 AzureEntityColoring(APOfflineSync_m)
-!define APOfflineSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOfflineSyncSPRITE, APOfflineSync_m)
-!define APOfflineSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOfflineSyncSPRITE, APOfflineSync_m)
+!define APOfflineSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOfflineSyncSPRITE, OfflineSync)
+!define APOfflineSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOfflineSyncSPRITE, OfflineSync)
 

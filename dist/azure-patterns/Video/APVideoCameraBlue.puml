@@ -5,9 +5,9 @@ biJ3rLHsBCKhrg71IYe325Qq0WXMh0FHIXb0j581X2kAlrGvAaVbg4YzIqLIZLUMJhGYabgmyaPRhB9q
 }
 
 AzureEntityColoring(APVideoCameraBlue)
-!define APVideoCameraBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, APVideoCameraBlue)
-!define APVideoCameraBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, APVideoCameraBlue)
+!define APVideoCameraBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, VideoCameraBlue)
+!define APVideoCameraBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, VideoCameraBlue)
 AzureEntityColoring(APVideoCameraBlue_m)
-!define APVideoCameraBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, APVideoCameraBlue_m)
-!define APVideoCameraBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, APVideoCameraBlue_m)
+!define APVideoCameraBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, VideoCameraBlue)
+!define APVideoCameraBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, VideoCameraBlue)
 

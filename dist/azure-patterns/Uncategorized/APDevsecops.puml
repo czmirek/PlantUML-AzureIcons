@@ -4,9 +4,9 @@ SubwJsbY-UcliLNUZ_0POtWdmcRIQ4M4ayMoKQBu4auYx0hk
 }
 
 AzureEntityColoring(APDevsecops)
-!define APDevsecops(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevsecops_tbg.png, APDevsecops)
-!define APDevsecops(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevsecops_tbg.png, APDevsecops)
+!define APDevsecops(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevsecops_tbg.png, Devsecops)
+!define APDevsecops(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevsecops_tbg.png, Devsecops)
 AzureEntityColoring(APDevsecops_m)
-!define APDevsecops_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevsecopsSPRITE, APDevsecops_m)
-!define APDevsecops_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevsecopsSPRITE, APDevsecops_m)
+!define APDevsecops_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevsecopsSPRITE, Devsecops)
+!define APDevsecops_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevsecopsSPRITE, Devsecops)
 

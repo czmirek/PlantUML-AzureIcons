@@ -6,9 +6,9 @@ OgqQ_ixILIAKkMOplBFfBckMPAwBMpGrZr87kzk6I50jGZtYJc_kKXhf4d2F52sd2SXpW1ZokrcGWgpB
 }
 
 AzureEntityColoring(APLever)
-!define APLever(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLever_tbg.png, APLever)
-!define APLever(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLever_tbg.png, APLever)
+!define APLever(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLever_tbg.png, Lever)
+!define APLever(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLever_tbg.png, Lever)
 AzureEntityColoring(APLever_m)
-!define APLever_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLeverSPRITE, APLever_m)
-!define APLever_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLeverSPRITE, APLever_m)
+!define APLever_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLeverSPRITE, Lever)
+!define APLever_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLeverSPRITE, Lever)
 

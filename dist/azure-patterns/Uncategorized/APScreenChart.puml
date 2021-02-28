@@ -5,9 +5,9 @@ LNsdxr3dyQPJuqfjNVLxVk_cMLc7O_7jssbOdvOb_7lwwny
 }
 
 AzureEntityColoring(APScreenChart)
-!define APScreenChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScreenChart_tbg.png, APScreenChart)
-!define APScreenChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScreenChart_tbg.png, APScreenChart)
+!define APScreenChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScreenChart_tbg.png, ScreenChart)
+!define APScreenChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScreenChart_tbg.png, ScreenChart)
 AzureEntityColoring(APScreenChart_m)
-!define APScreenChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScreenChartSPRITE, APScreenChart_m)
-!define APScreenChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScreenChartSPRITE, APScreenChart_m)
+!define APScreenChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScreenChartSPRITE, ScreenChart)
+!define APScreenChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScreenChartSPRITE, ScreenChart)
 

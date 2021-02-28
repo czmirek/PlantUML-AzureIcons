@@ -6,9 +6,9 @@ og_tJdBu2-4b9MOKgrTIS4ORncZbYkD6btTTjPB4dTgYK3cv0YXab4y9LhI7Y1xHQgKV8hwu7p_-
 }
 
 AzureEntityColoring(CDSStorageDataBoxEdge)
-!define CDSStorageDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataBoxEdge_tbg.png, CDSStorageDataBoxEdge)
-!define CDSStorageDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataBoxEdge_tbg.png, CDSStorageDataBoxEdge)
+!define CDSStorageDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataBoxEdge_tbg.png, StorageDataBoxEdge)
+!define CDSStorageDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataBoxEdge_tbg.png, StorageDataBoxEdge)
 AzureEntityColoring(CDSStorageDataBoxEdge_m)
-!define CDSStorageDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageDataBoxEdgeSPRITE, CDSStorageDataBoxEdge_m)
-!define CDSStorageDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageDataBoxEdgeSPRITE, CDSStorageDataBoxEdge_m)
+!define CDSStorageDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageDataBoxEdgeSPRITE, StorageDataBoxEdge)
+!define CDSStorageDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageDataBoxEdgeSPRITE, StorageDataBoxEdge)
 

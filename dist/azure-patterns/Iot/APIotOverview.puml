@@ -10,9 +10,9 @@ P44mP4a0of-ltm
 }
 
 AzureEntityColoring(APIotOverview)
-!define APIotOverview(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, APIotOverview)
-!define APIotOverview(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, APIotOverview)
+!define APIotOverview(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, IotOverview)
+!define APIotOverview(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, IotOverview)
 AzureEntityColoring(APIotOverview_m)
-!define APIotOverview_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, APIotOverview_m)
-!define APIotOverview_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, APIotOverview_m)
+!define APIotOverview_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, IotOverview)
+!define APIotOverview_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, IotOverview)
 

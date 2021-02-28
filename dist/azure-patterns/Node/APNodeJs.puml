@@ -7,9 +7,9 @@ cSER33T6mzBKlUx-ku4eJ2r2fSAGgY2T8SKsFwLiRoJMXkJqx0p90Mjsoky
 }
 
 AzureEntityColoring(APNodeJs)
-!define APNodeJs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodeJs_tbg.png, APNodeJs)
-!define APNodeJs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodeJs_tbg.png, APNodeJs)
+!define APNodeJs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNodeJs_tbg.png, NodeJs)
+!define APNodeJs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNodeJs_tbg.png, NodeJs)
 AzureEntityColoring(APNodeJs_m)
-!define APNodeJs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodeJsSPRITE, APNodeJs_m)
-!define APNodeJs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodeJsSPRITE, APNodeJs_m)
+!define APNodeJs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodeJsSPRITE, NodeJs)
+!define APNodeJs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodeJsSPRITE, NodeJs)
 

@@ -4,9 +4,9 @@ XMuLgNZ0Kq0bvXEV4TlL63__6HcRVfyMDxoMr6qpqv5Y1nNxIXZPoh00hIGpiT4N82AYAm
 }
 
 AzureEntityColoring(APDevopsTraceability)
-!define APDevopsTraceability(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsTraceability_tbg.png, APDevopsTraceability)
-!define APDevopsTraceability(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsTraceability_tbg.png, APDevopsTraceability)
+!define APDevopsTraceability(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsTraceability_tbg.png, DevopsTraceability)
+!define APDevopsTraceability(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsTraceability_tbg.png, DevopsTraceability)
 AzureEntityColoring(APDevopsTraceability_m)
-!define APDevopsTraceability_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsTraceabilitySPRITE, APDevopsTraceability_m)
-!define APDevopsTraceability_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsTraceabilitySPRITE, APDevopsTraceability_m)
+!define APDevopsTraceability_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsTraceabilitySPRITE, DevopsTraceability)
+!define APDevopsTraceability_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsTraceabilitySPRITE, DevopsTraceability)
 

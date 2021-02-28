@@ -7,9 +7,9 @@ tNdT-W
 }
 
 AzureEntityColoring(CDSStatusSuccess)
-!define CDSStatusSuccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusSuccess_tbg.png, CDSStatusSuccess)
-!define CDSStatusSuccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusSuccess_tbg.png, CDSStatusSuccess)
+!define CDSStatusSuccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusSuccess_tbg.png, StatusSuccess)
+!define CDSStatusSuccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusSuccess_tbg.png, StatusSuccess)
 AzureEntityColoring(CDSStatusSuccess_m)
-!define CDSStatusSuccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusSuccessSPRITE, CDSStatusSuccess_m)
-!define CDSStatusSuccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusSuccessSPRITE, CDSStatusSuccess_m)
+!define CDSStatusSuccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusSuccessSPRITE, StatusSuccess)
+!define CDSStatusSuccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusSuccessSPRITE, StatusSuccess)
 

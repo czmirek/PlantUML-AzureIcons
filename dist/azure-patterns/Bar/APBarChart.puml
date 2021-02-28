@@ -4,9 +4,9 @@ IWN9rmwWM6aWcmA1V2JIWO1oZ94AkYIxV1ty6m
 }
 
 AzureEntityColoring(APBarChart)
-!define APBarChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, APBarChart)
-!define APBarChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, APBarChart)
+!define APBarChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, BarChart)
+!define APBarChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarChart_tbg.png, BarChart)
 AzureEntityColoring(APBarChart_m)
-!define APBarChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartSPRITE, APBarChart_m)
-!define APBarChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartSPRITE, APBarChart_m)
+!define APBarChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartSPRITE, BarChart)
+!define APBarChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartSPRITE, BarChart)
 

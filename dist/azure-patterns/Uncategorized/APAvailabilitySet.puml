@@ -6,9 +6,9 @@ b8n-Kq0jAXdSf9knh8YGA2qefR-lWDckad6grhU2e2WnZz1QoIFGnPVG5GKPz_MIjRNqZ5pQ9nHzHE4Y
 }
 
 AzureEntityColoring(APAvailabilitySet)
-!define APAvailabilitySet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvailabilitySet_tbg.png, APAvailabilitySet)
-!define APAvailabilitySet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvailabilitySet_tbg.png, APAvailabilitySet)
+!define APAvailabilitySet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAvailabilitySet_tbg.png, AvailabilitySet)
+!define APAvailabilitySet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAvailabilitySet_tbg.png, AvailabilitySet)
 AzureEntityColoring(APAvailabilitySet_m)
-!define APAvailabilitySet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvailabilitySetSPRITE, APAvailabilitySet_m)
-!define APAvailabilitySet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvailabilitySetSPRITE, APAvailabilitySet_m)
+!define APAvailabilitySet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAvailabilitySetSPRITE, AvailabilitySet)
+!define APAvailabilitySet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAvailabilitySetSPRITE, AvailabilitySet)
 

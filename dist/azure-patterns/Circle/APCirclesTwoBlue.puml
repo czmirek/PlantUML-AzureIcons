@@ -7,9 +7,9 @@ hJILJufRESP7H6KrSI9Z_8Y4Ic60ar9fuBYK4XILae4nv4AIezGQUvLQuDIKZIJtgUd44PCjOr-Vch6H
 }
 
 AzureEntityColoring(APCirclesTwoBlue)
-!define APCirclesTwoBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, APCirclesTwoBlue)
-!define APCirclesTwoBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, APCirclesTwoBlue)
+!define APCirclesTwoBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, CirclesTwoBlue)
+!define APCirclesTwoBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, CirclesTwoBlue)
 AzureEntityColoring(APCirclesTwoBlue_m)
-!define APCirclesTwoBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, APCirclesTwoBlue_m)
-!define APCirclesTwoBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, APCirclesTwoBlue_m)
+!define APCirclesTwoBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, CirclesTwoBlue)
+!define APCirclesTwoBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, CirclesTwoBlue)
 

@@ -8,9 +8,9 @@ XCM819OGkP-9KIooMqnXRgEmDvImKvYdMCGgx8UB2p6NdW571VjrBEp_oQ5zXWZ3aZnVF9kRlaNibcF1
 }
 
 AzureEntityColoring(CDSDatabasesElasticJobAgents)
-!define CDSDatabasesElasticJobAgents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesElasticJobAgents_tbg.png, CDSDatabasesElasticJobAgents)
-!define CDSDatabasesElasticJobAgents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesElasticJobAgents_tbg.png, CDSDatabasesElasticJobAgents)
+!define CDSDatabasesElasticJobAgents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesElasticJobAgents_tbg.png, DatabasesElasticJobAgents)
+!define CDSDatabasesElasticJobAgents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesElasticJobAgents_tbg.png, DatabasesElasticJobAgents)
 AzureEntityColoring(CDSDatabasesElasticJobAgents_m)
-!define CDSDatabasesElasticJobAgents_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesElasticJobAgentsSPRITE, CDSDatabasesElasticJobAgents_m)
-!define CDSDatabasesElasticJobAgents_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesElasticJobAgentsSPRITE, CDSDatabasesElasticJobAgents_m)
+!define CDSDatabasesElasticJobAgents_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesElasticJobAgentsSPRITE, DatabasesElasticJobAgents)
+!define CDSDatabasesElasticJobAgents_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesElasticJobAgentsSPRITE, DatabasesElasticJobAgents)
 

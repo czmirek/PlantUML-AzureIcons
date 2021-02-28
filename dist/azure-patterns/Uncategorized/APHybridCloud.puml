@@ -7,9 +7,9 @@ v41nQUTMNLSSfd8tv5W9PFMrojovgc8IT8EIgc8C0zE2415AOaIOeYS185wlLURrohnt
 }
 
 AzureEntityColoring(APHybridCloud)
-!define APHybridCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybridCloud_tbg.png, APHybridCloud)
-!define APHybridCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybridCloud_tbg.png, APHybridCloud)
+!define APHybridCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybridCloud_tbg.png, HybridCloud)
+!define APHybridCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybridCloud_tbg.png, HybridCloud)
 AzureEntityColoring(APHybridCloud_m)
-!define APHybridCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridCloudSPRITE, APHybridCloud_m)
-!define APHybridCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridCloudSPRITE, APHybridCloud_m)
+!define APHybridCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridCloudSPRITE, HybridCloud)
+!define APHybridCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridCloudSPRITE, HybridCloud)
 

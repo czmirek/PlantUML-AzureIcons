@@ -8,9 +8,9 @@ cCYhwGINSJqtt5DOJEygHEHW8kfm6nCfk4n--rLgTnPnIps0KFI1U5o5kdNcHPz8m6MQ6dSycNy0CswH
 }
 
 AzureEntityColoring(APApiManagementMono)
-!define APApiManagementMono(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APApiManagementMono_tbg.png, APApiManagementMono)
-!define APApiManagementMono(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APApiManagementMono_tbg.png, APApiManagementMono)
+!define APApiManagementMono(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APApiManagementMono_tbg.png, iManagementMono)
+!define APApiManagementMono(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APApiManagementMono_tbg.png, iManagementMono)
 AzureEntityColoring(APApiManagementMono_m)
-!define APApiManagementMono_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApiManagementMonoSPRITE, APApiManagementMono_m)
-!define APApiManagementMono_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApiManagementMonoSPRITE, APApiManagementMono_m)
+!define APApiManagementMono_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApiManagementMonoSPRITE, iManagementMono)
+!define APApiManagementMono_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApiManagementMonoSPRITE, iManagementMono)
 

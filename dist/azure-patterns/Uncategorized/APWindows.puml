@@ -4,9 +4,9 @@ db-pW-AymoncfjG7TMrlpP0kLkZEsSr5VRyY2ZKgeeWYYYZxIfkZ79Ukn5Dm6KqS1R6GYANic1xkOX5J
 }
 
 AzureEntityColoring(APWindows)
-!define APWindows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWindows_tbg.png, APWindows)
-!define APWindows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWindows_tbg.png, APWindows)
+!define APWindows(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWindows_tbg.png, Windows)
+!define APWindows(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWindows_tbg.png, Windows)
 AzureEntityColoring(APWindows_m)
-!define APWindows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWindowsSPRITE, APWindows_m)
-!define APWindows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWindowsSPRITE, APWindows_m)
+!define APWindows_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWindowsSPRITE, Windows)
+!define APWindows_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWindowsSPRITE, Windows)
 

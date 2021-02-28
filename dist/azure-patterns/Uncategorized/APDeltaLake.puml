@@ -7,9 +7,9 @@ UuJSNma1h6umzkZWlxgvLB5r80QCy0i-G6cTSXPQweJHEeRR32WWZG8dE01r5OeTSjbkrmWMyvyJx6P4
 }
 
 AzureEntityColoring(APDeltaLake)
-!define APDeltaLake(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeltaLake_tbg.png, APDeltaLake)
-!define APDeltaLake(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeltaLake_tbg.png, APDeltaLake)
+!define APDeltaLake(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeltaLake_tbg.png, DeltaLake)
+!define APDeltaLake(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeltaLake_tbg.png, DeltaLake)
 AzureEntityColoring(APDeltaLake_m)
-!define APDeltaLake_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeltaLakeSPRITE, APDeltaLake_m)
-!define APDeltaLake_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeltaLakeSPRITE, APDeltaLake_m)
+!define APDeltaLake_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeltaLakeSPRITE, DeltaLake)
+!define APDeltaLake_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeltaLakeSPRITE, DeltaLake)
 

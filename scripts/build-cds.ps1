@@ -28,10 +28,10 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
     $pngTbgPath = "$($outputFolder)/$($pngTbg)"
     $pumlOutput = "$($outputFolder)/$($serviceId).puml"
 
+    $targetHeight = $using:targetHeight
     Write-Host $serviceId
-    
+
     if(!(Test-Path $pngTbgPath)) {
-        $targetHeight = $using:targetHeight
         svgexport "$($fullPath)" "$($pngTbgPath)" "$($targetHeight):$($targetHeight)"
     }
 

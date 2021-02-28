@@ -7,9 +7,9 @@ GnARNf2cMfOiRLNAxZiaRJ6w8WDD8vkcMnG2qc4gql3dY_aR
 }
 
 AzureEntityColoring(APStudents)
-!define APStudents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStudents_tbg.png, APStudents)
-!define APStudents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStudents_tbg.png, APStudents)
+!define APStudents(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStudents_tbg.png, Students)
+!define APStudents(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStudents_tbg.png, Students)
 AzureEntityColoring(APStudents_m)
-!define APStudents_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStudentsSPRITE, APStudents_m)
-!define APStudents_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStudentsSPRITE, APStudents_m)
+!define APStudents_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStudentsSPRITE, Students)
+!define APStudents_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStudentsSPRITE, Students)
 

@@ -6,9 +6,9 @@ NuLfnGyUYCyILXnn1jOnhnJIcKSCAsmIT-ULbbaJYZFCAOGbMUKmPSagF0I52SNx3yfF-IctjEAM_W
 }
 
 AzureEntityColoring(APAreaGraph)
-!define APAreaGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAreaGraph_tbg.png, APAreaGraph)
-!define APAreaGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAreaGraph_tbg.png, APAreaGraph)
+!define APAreaGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAreaGraph_tbg.png, AreaGrh)
+!define APAreaGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAreaGraph_tbg.png, AreaGrh)
 AzureEntityColoring(APAreaGraph_m)
-!define APAreaGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAreaGraphSPRITE, APAreaGraph_m)
-!define APAreaGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAreaGraphSPRITE, APAreaGraph_m)
+!define APAreaGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAreaGraphSPRITE, AreaGrh)
+!define APAreaGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAreaGraphSPRITE, AreaGrh)
 

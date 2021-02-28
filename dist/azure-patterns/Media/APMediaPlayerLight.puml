@@ -5,9 +5,9 @@ cHMGMOsHdI6pIsLspCpk7Jb9CgTQveGDdVQ1P2fq2meaKx7RuTsQdBurpsjI-3KnrpZ_okAQ_CFHyPTm
 }
 
 AzureEntityColoring(APMediaPlayerLight)
-!define APMediaPlayerLight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaPlayerLight_tbg.png, APMediaPlayerLight)
-!define APMediaPlayerLight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaPlayerLight_tbg.png, APMediaPlayerLight)
+!define APMediaPlayerLight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaPlayerLight_tbg.png, MedilayerLight)
+!define APMediaPlayerLight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaPlayerLight_tbg.png, MedilayerLight)
 AzureEntityColoring(APMediaPlayerLight_m)
-!define APMediaPlayerLight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaPlayerLightSPRITE, APMediaPlayerLight_m)
-!define APMediaPlayerLight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaPlayerLightSPRITE, APMediaPlayerLight_m)
+!define APMediaPlayerLight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaPlayerLightSPRITE, MedilayerLight)
+!define APMediaPlayerLight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaPlayerLightSPRITE, MedilayerLight)
 

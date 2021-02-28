@@ -7,9 +7,9 @@ lKAiC3ZCe1GheYyoc2bICAgFW5kOhj4ThUTzycHSip3g7k7tG8bjs3Cyix2iduLNG1oM5TWa3vZWEbfr
 }
 
 AzureEntityColoring(CDSBlockchainAzureTokenService)
-!define CDSBlockchainAzureTokenService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainAzureTokenService_tbg.png, CDSBlockchainAzureTokenService)
-!define CDSBlockchainAzureTokenService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainAzureTokenService_tbg.png, CDSBlockchainAzureTokenService)
+!define CDSBlockchainAzureTokenService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainAzureTokenService_tbg.png, BlockchainAzureTokenService)
+!define CDSBlockchainAzureTokenService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainAzureTokenService_tbg.png, BlockchainAzureTokenService)
 AzureEntityColoring(CDSBlockchainAzureTokenService_m)
-!define CDSBlockchainAzureTokenService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainAzureTokenServiceSPRITE, CDSBlockchainAzureTokenService_m)
-!define CDSBlockchainAzureTokenService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainAzureTokenServiceSPRITE, CDSBlockchainAzureTokenService_m)
+!define CDSBlockchainAzureTokenService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainAzureTokenServiceSPRITE, BlockchainAzureTokenService)
+!define CDSBlockchainAzureTokenService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainAzureTokenServiceSPRITE, BlockchainAzureTokenService)
 

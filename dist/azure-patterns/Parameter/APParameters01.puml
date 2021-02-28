@@ -5,9 +5,9 @@ OGO
 }
 
 AzureEntityColoring(APParameters01)
-!define APParameters01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APParameters01_tbg.png, APParameters01)
-!define APParameters01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APParameters01_tbg.png, APParameters01)
+!define APParameters01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APParameters01_tbg.png, Parameters01)
+!define APParameters01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APParameters01_tbg.png, Parameters01)
 AzureEntityColoring(APParameters01_m)
-!define APParameters01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APParameters01SPRITE, APParameters01_m)
-!define APParameters01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APParameters01SPRITE, APParameters01_m)
+!define APParameters01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APParameters01SPRITE, Parameters01)
+!define APParameters01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APParameters01SPRITE, Parameters01)
 

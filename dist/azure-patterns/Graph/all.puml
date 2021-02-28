@@ -13,11 +13,11 @@ XynJoDgK3pevlzchRyZmOunW2NrH2GDmlPVLnCPVLAJQVY9wFMYwceAHwqYH-G34Jf7Jif2wdBXfgbv6
 }
 
 AzureEntityColoring(APGraph)
-!define APGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, APGraph)
-!define APGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, APGraph)
+!define APGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, Grh)
+!define APGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, Grh)
 AzureEntityColoring(APGraph_m)
-!define APGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphSPRITE, APGraph_m)
-!define APGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphSPRITE, APGraph_m)
+!define APGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphSPRITE, Grh)
+!define APGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphSPRITE, Grh)
 
 sprite $APGraphArrowSPRITE [70x70/16z] {
 xSvL4aCn58BXa2j9plxtMozrfLx-P-ORqYVdN5-Oe0p1h2ooWiewGGbsesB5IkxPVOgLZcL1wTaHnOeLZ0zHOeV93FCfGqh8R3uSs48X8uGW8oewWzXXnd9N
@@ -25,11 +25,11 @@ DNQO5b8Z5Qb2HQf__nSYL6GavVlgYIY1Y1A8A8684eWeOOquvwO
 }
 
 AzureEntityColoring(APGraphArrow)
-!define APGraphArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, APGraphArrow)
-!define APGraphArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, APGraphArrow)
+!define APGraphArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, GrhArrow)
+!define APGraphArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, GrhArrow)
 AzureEntityColoring(APGraphArrow_m)
-!define APGraphArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, APGraphArrow_m)
-!define APGraphArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, APGraphArrow_m)
+!define APGraphArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, GrhArrow)
+!define APGraphArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, GrhArrow)
 
 sprite $APGraphBlueSPRITE [70x70/16z] {
 nTK5akGm40NH0f5r__ikk0UKYnL_A8ECpspPV-fphTdjJUMrxwuqlRPVQZBY-yXLPPxAL9MDH2Ien5SgBYllVr-idyWmjUjGPCHFPUX8dmzYvRM7YgHPz1zM
@@ -40,11 +40,11 @@ HjX_-Wu
 }
 
 AzureEntityColoring(APGraphBlue)
-!define APGraphBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphBlue_tbg.png, APGraphBlue)
-!define APGraphBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphBlue_tbg.png, APGraphBlue)
+!define APGraphBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphBlue_tbg.png, GrhBlue)
+!define APGraphBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphBlue_tbg.png, GrhBlue)
 AzureEntityColoring(APGraphBlue_m)
-!define APGraphBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphBlueSPRITE, APGraphBlue_m)
-!define APGraphBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphBlueSPRITE, APGraphBlue_m)
+!define APGraphBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphBlueSPRITE, GrhBlue)
+!define APGraphBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphBlueSPRITE, GrhBlue)
 
 sprite $APGraphVisualizationSPRITE [70x70/16z] {
 xPRHqgiW38IJJG38-p_mEJYEQ-ceefT_lykMVcm8fWfvmuyVfdAAgbnJ8qwNmHroIKJuQTHRbXBrD8kQgVmvZji9gCnX_X_ziBQ8I383V66KH60ooX36Oo4z
@@ -56,11 +56,11 @@ OwPZYvAynyE5yErZkaN3L3MPfyGuLLMcmT8Yecag2YUnorEO_xq6V5LuRwdo2cMMDvGkQIelIQLakSS_
 }
 
 AzureEntityColoring(APGraphVisualization)
-!define APGraphVisualization(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, APGraphVisualization)
-!define APGraphVisualization(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, APGraphVisualization)
+!define APGraphVisualization(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, GrhVisualization)
+!define APGraphVisualization(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, GrhVisualization)
 AzureEntityColoring(APGraphVisualization_m)
-!define APGraphVisualization_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, APGraphVisualization_m)
-!define APGraphVisualization_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, APGraphVisualization_m)
+!define APGraphVisualization_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, GrhVisualization)
+!define APGraphVisualization_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, GrhVisualization)
 
 sprite $APGraphWithCircleSPRITE [70x70/16z] {
 xTE7Qi0m40FGEjPrwF__jql1SD0x0J6pLdPqF9RzyZGd9oVN5WHR46n1i0FnofZ070Qn2dvZ4AVSKrTTFrSkF5SMOfMXgT4XNj7eLIDUKSQe-QNuU0Gx4AzS
@@ -69,10 +69,10 @@ GoWah-X2gH5cP35PSGWpifYiE8GPMKnM7CA_-yYAGrZqaHI7iEeZAGPXsKTIUeHr7qbf4JPzBCKXxFfO
 }
 
 AzureEntityColoring(APGraphWithCircle)
-!define APGraphWithCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphWithCircle_tbg.png, APGraphWithCircle)
-!define APGraphWithCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphWithCircle_tbg.png, APGraphWithCircle)
+!define APGraphWithCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphWithCircle_tbg.png, GrhWithCircle)
+!define APGraphWithCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphWithCircle_tbg.png, GrhWithCircle)
 AzureEntityColoring(APGraphWithCircle_m)
-!define APGraphWithCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphWithCircleSPRITE, APGraphWithCircle_m)
-!define APGraphWithCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphWithCircleSPRITE, APGraphWithCircle_m)
+!define APGraphWithCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphWithCircleSPRITE, GrhWithCircle)
+!define APGraphWithCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphWithCircleSPRITE, GrhWithCircle)
 
 

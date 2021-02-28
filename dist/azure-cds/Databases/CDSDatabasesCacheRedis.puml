@@ -6,9 +6,9 @@ zFaKpPkqWvzFuRHhJLbJrXHwFeLIJ7asHLCKrqTJ2gTNG2drHX5ChmN8ecgrCrNX3Eb3BCiB
 }
 
 AzureEntityColoring(CDSDatabasesCacheRedis)
-!define CDSDatabasesCacheRedis(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesCacheRedis_tbg.png, CDSDatabasesCacheRedis)
-!define CDSDatabasesCacheRedis(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesCacheRedis_tbg.png, CDSDatabasesCacheRedis)
+!define CDSDatabasesCacheRedis(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesCacheRedis_tbg.png, DatabasesCacheRedis)
+!define CDSDatabasesCacheRedis(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesCacheRedis_tbg.png, DatabasesCacheRedis)
 AzureEntityColoring(CDSDatabasesCacheRedis_m)
-!define CDSDatabasesCacheRedis_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesCacheRedisSPRITE, CDSDatabasesCacheRedis_m)
-!define CDSDatabasesCacheRedis_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesCacheRedisSPRITE, CDSDatabasesCacheRedis_m)
+!define CDSDatabasesCacheRedis_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesCacheRedisSPRITE, DatabasesCacheRedis)
+!define CDSDatabasesCacheRedis_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesCacheRedisSPRITE, DatabasesCacheRedis)
 

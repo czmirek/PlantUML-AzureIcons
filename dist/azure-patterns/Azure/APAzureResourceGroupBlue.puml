@@ -7,9 +7,9 @@ z_UsieLsedGQB_LdpQLQJe7m8f2QkUYZlB7q3mFNYvRZmTVY8iC5gHvBMWowssYvQqBW_K9bXjGiPRGw
 }
 
 AzureEntityColoring(APAzureResourceGroupBlue)
-!define APAzureResourceGroupBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureResourceGroupBlue_tbg.png, APAzureResourceGroupBlue)
-!define APAzureResourceGroupBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureResourceGroupBlue_tbg.png, APAzureResourceGroupBlue)
+!define APAzureResourceGroupBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureResourceGroupBlue_tbg.png, AzureResourceGroupBlue)
+!define APAzureResourceGroupBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureResourceGroupBlue_tbg.png, AzureResourceGroupBlue)
 AzureEntityColoring(APAzureResourceGroupBlue_m)
-!define APAzureResourceGroupBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureResourceGroupBlueSPRITE, APAzureResourceGroupBlue_m)
-!define APAzureResourceGroupBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureResourceGroupBlueSPRITE, APAzureResourceGroupBlue_m)
+!define APAzureResourceGroupBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureResourceGroupBlueSPRITE, AzureResourceGroupBlue)
+!define APAzureResourceGroupBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureResourceGroupBlueSPRITE, AzureResourceGroupBlue)
 

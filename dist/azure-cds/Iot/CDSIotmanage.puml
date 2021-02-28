@@ -6,9 +6,9 @@ CjzHcnVWTwhzcgax7MRACq-nHze-3NkfyQX0vTjfQk_nYB1ohpc66V4efem7ciItCfaCb4XK_0zJDHhb
 }
 
 AzureEntityColoring(CDSIotmanage)
-!define CDSIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, CDSIotmanage)
-!define CDSIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, CDSIotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, Iotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, Iotmanage)
 AzureEntityColoring(CDSIotmanage_m)
-!define CDSIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, CDSIotmanage_m)
-!define CDSIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, CDSIotmanage_m)
+!define CDSIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, Iotmanage)
+!define CDSIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, Iotmanage)
 

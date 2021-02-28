@@ -9,9 +9,9 @@ BlHCGGE2j540jbD0unFyGADYOc1TmEOhbnST09X1zV9kbdPcdvT8KLKmitGo-vit5za2j0lWkWLyOhNd
 }
 
 AzureEntityColoring(APHexagons)
-!define APHexagons(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHexagons_tbg.png, APHexagons)
-!define APHexagons(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHexagons_tbg.png, APHexagons)
+!define APHexagons(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHexagons_tbg.png, Hexagons)
+!define APHexagons(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHexagons_tbg.png, Hexagons)
 AzureEntityColoring(APHexagons_m)
-!define APHexagons_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHexagonsSPRITE, APHexagons_m)
-!define APHexagons_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHexagonsSPRITE, APHexagons_m)
+!define APHexagons_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHexagonsSPRITE, Hexagons)
+!define APHexagons_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHexagonsSPRITE, Hexagons)
 

@@ -5,9 +5,9 @@ vQcdKPIx2a1MOafU4hzrIY5_uyHiPchSEhrZD8GF9EWaoflo02DXbj-GuXSpnXZp0G
 }
 
 AzureEntityColoring(APKinectDk)
-!define APKinectDk(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKinectDk_tbg.png, APKinectDk)
-!define APKinectDk(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKinectDk_tbg.png, APKinectDk)
+!define APKinectDk(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKinectDk_tbg.png, KinectDk)
+!define APKinectDk(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKinectDk_tbg.png, KinectDk)
 AzureEntityColoring(APKinectDk_m)
-!define APKinectDk_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKinectDkSPRITE, APKinectDk_m)
-!define APKinectDk_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKinectDkSPRITE, APKinectDk_m)
+!define APKinectDk_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKinectDkSPRITE, KinectDk)
+!define APKinectDk_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKinectDkSPRITE, KinectDk)
 

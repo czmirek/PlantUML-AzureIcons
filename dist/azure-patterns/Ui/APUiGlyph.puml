@@ -4,9 +4,9 @@ u4quLc34Orl95Kf-e-btbVrV156g0ZvQuTdQv1D5E1wnzJzNZUXDUFnif7NL28P0lXgPbrPZAQMKCbQa
 }
 
 AzureEntityColoring(APUiGlyph)
-!define APUiGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, APUiGlyph)
-!define APUiGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, APUiGlyph)
+!define APUiGlyph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, UiGlyph)
+!define APUiGlyph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiGlyph_tbg.png, UiGlyph)
 AzureEntityColoring(APUiGlyph_m)
-!define APUiGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, APUiGlyph_m)
-!define APUiGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, APUiGlyph_m)
+!define APUiGlyph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, UiGlyph)
+!define APUiGlyph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiGlyphSPRITE, UiGlyph)
 

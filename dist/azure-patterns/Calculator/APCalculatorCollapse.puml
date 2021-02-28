@@ -5,9 +5,9 @@ H2WAYVgiZ6Ta1ldlbiKXA20HIW5n2eXNxcl2ArcfvkTLSIgNovNzqphto6ZrIbRkcxK2Wg8Ghym0A0gf
 }
 
 AzureEntityColoring(APCalculatorCollapse)
-!define APCalculatorCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, APCalculatorCollapse)
-!define APCalculatorCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, APCalculatorCollapse)
+!define APCalculatorCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, CalculatorCollse)
+!define APCalculatorCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, CalculatorCollse)
 AzureEntityColoring(APCalculatorCollapse_m)
-!define APCalculatorCollapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, APCalculatorCollapse_m)
-!define APCalculatorCollapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, APCalculatorCollapse_m)
+!define APCalculatorCollapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, CalculatorCollse)
+!define APCalculatorCollapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, CalculatorCollse)
 

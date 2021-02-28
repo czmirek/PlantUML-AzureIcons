@@ -8,9 +8,9 @@ _F0B
 }
 
 AzureEntityColoring(APUiInterface07)
-!define APUiInterface07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, APUiInterface07)
-!define APUiInterface07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, APUiInterface07)
+!define APUiInterface07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, UiInterface07)
+!define APUiInterface07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUiInterface07_tbg.png, UiInterface07)
 AzureEntityColoring(APUiInterface07_m)
-!define APUiInterface07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, APUiInterface07_m)
-!define APUiInterface07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, APUiInterface07_m)
+!define APUiInterface07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, UiInterface07)
+!define APUiInterface07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface07SPRITE, UiInterface07)
 

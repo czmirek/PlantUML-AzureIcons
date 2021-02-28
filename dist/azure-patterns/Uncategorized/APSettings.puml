@@ -8,9 +8,9 @@ J3OJai4WZmo21SbaSbO-EKMQMTV80kcIKG__uGN3YOnmgcOqCgMLZ4PMIMHIDHBJ-4dc4ebRu-U9tVXf
 }
 
 AzureEntityColoring(APSettings)
-!define APSettings(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSettings_tbg.png, APSettings)
-!define APSettings(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSettings_tbg.png, APSettings)
+!define APSettings(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSettings_tbg.png, Settings)
+!define APSettings(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSettings_tbg.png, Settings)
 AzureEntityColoring(APSettings_m)
-!define APSettings_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSettingsSPRITE, APSettings_m)
-!define APSettings_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSettingsSPRITE, APSettings_m)
+!define APSettings_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSettingsSPRITE, Settings)
+!define APSettings_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSettingsSPRITE, Settings)
 

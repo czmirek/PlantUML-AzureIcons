@@ -10,9 +10,9 @@ vkyOXtzRWVoaiNK_w63rasqDyQ2hw1yiQXxG5lm2
 }
 
 AzureEntityColoring(APAppServiceWebSitecore)
-!define APAppServiceWebSitecore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceWebSitecore_tbg.png, APAppServiceWebSitecore)
-!define APAppServiceWebSitecore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceWebSitecore_tbg.png, APAppServiceWebSitecore)
+!define APAppServiceWebSitecore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceWebSitecore_tbg.png, pServiceWebSitecore)
+!define APAppServiceWebSitecore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceWebSitecore_tbg.png, pServiceWebSitecore)
 AzureEntityColoring(APAppServiceWebSitecore_m)
-!define APAppServiceWebSitecore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceWebSitecoreSPRITE, APAppServiceWebSitecore_m)
-!define APAppServiceWebSitecore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceWebSitecoreSPRITE, APAppServiceWebSitecore_m)
+!define APAppServiceWebSitecore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceWebSitecoreSPRITE, pServiceWebSitecore)
+!define APAppServiceWebSitecore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceWebSitecoreSPRITE, pServiceWebSitecore)
 

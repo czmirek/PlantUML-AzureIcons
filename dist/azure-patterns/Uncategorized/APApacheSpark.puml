@@ -8,9 +8,9 @@ BklB1ACzNGTVLZNgquC5Wskqc1mmz_3v7bPqIjNQHtFca2b5MCza8YVnCfGzV1ds9onGbVy8DsxSk77Z
 }
 
 AzureEntityColoring(APApacheSpark)
-!define APApacheSpark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APApacheSpark_tbg.png, APApacheSpark)
-!define APApacheSpark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APApacheSpark_tbg.png, APApacheSpark)
+!define APApacheSpark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APApacheSpark_tbg.png, acheSpark)
+!define APApacheSpark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APApacheSpark_tbg.png, acheSpark)
 AzureEntityColoring(APApacheSpark_m)
-!define APApacheSpark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApacheSparkSPRITE, APApacheSpark_m)
-!define APApacheSpark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApacheSparkSPRITE, APApacheSpark_m)
+!define APApacheSpark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApacheSparkSPRITE, acheSpark)
+!define APApacheSpark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApacheSparkSPRITE, acheSpark)
 

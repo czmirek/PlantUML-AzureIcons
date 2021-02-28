@@ -8,9 +8,9 @@ mEGLMf9PIV8ITUGeNRu1
 }
 
 AzureEntityColoring(APPrebuiltMachine)
-!define APPrebuiltMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPrebuiltMachine_tbg.png, APPrebuiltMachine)
-!define APPrebuiltMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPrebuiltMachine_tbg.png, APPrebuiltMachine)
+!define APPrebuiltMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPrebuiltMachine_tbg.png, PrebuiltMachine)
+!define APPrebuiltMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPrebuiltMachine_tbg.png, PrebuiltMachine)
 AzureEntityColoring(APPrebuiltMachine_m)
-!define APPrebuiltMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPrebuiltMachineSPRITE, APPrebuiltMachine_m)
-!define APPrebuiltMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPrebuiltMachineSPRITE, APPrebuiltMachine_m)
+!define APPrebuiltMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPrebuiltMachineSPRITE, PrebuiltMachine)
+!define APPrebuiltMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPrebuiltMachineSPRITE, PrebuiltMachine)
 

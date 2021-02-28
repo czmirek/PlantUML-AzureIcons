@@ -5,9 +5,9 @@ T2kuW4QbHq0rgTpGQagvaVV_6r6Jk5nu8QQTzPk3Z48APu2HD1Lvy9Mk5pb9yY8LNQGInqhMFB5cbgm_
 }
 
 AzureEntityColoring(APHealth05)
-!define APHealth05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealth05_tbg.png, APHealth05)
-!define APHealth05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealth05_tbg.png, APHealth05)
+!define APHealth05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealth05_tbg.png, Health05)
+!define APHealth05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealth05_tbg.png, Health05)
 AzureEntityColoring(APHealth05_m)
-!define APHealth05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealth05SPRITE, APHealth05_m)
-!define APHealth05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealth05SPRITE, APHealth05_m)
+!define APHealth05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealth05SPRITE, Health05)
+!define APHealth05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealth05SPRITE, Health05)
 

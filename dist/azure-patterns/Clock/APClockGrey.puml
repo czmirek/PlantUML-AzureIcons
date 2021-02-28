@@ -8,9 +8,9 @@ F_WUkyjN
 }
 
 AzureEntityColoring(APClockGrey)
-!define APClockGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, APClockGrey)
-!define APClockGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, APClockGrey)
+!define APClockGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, ClockGrey)
+!define APClockGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockGrey_tbg.png, ClockGrey)
 AzureEntityColoring(APClockGrey_m)
-!define APClockGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockGreySPRITE, APClockGrey_m)
-!define APClockGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockGreySPRITE, APClockGrey_m)
+!define APClockGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockGreySPRITE, ClockGrey)
+!define APClockGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockGreySPRITE, ClockGrey)
 

@@ -9,9 +9,9 @@ UZD0lTcPP3aZEb9o7DPI-421WDW-rIEOOPgvg67CjOC_
 }
 
 AzureEntityColoring(APCircleMoneyTwo)
-!define APCircleMoneyTwo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, APCircleMoneyTwo)
-!define APCircleMoneyTwo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, APCircleMoneyTwo)
+!define APCircleMoneyTwo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, CircleMoneyTwo)
+!define APCircleMoneyTwo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, CircleMoneyTwo)
 AzureEntityColoring(APCircleMoneyTwo_m)
-!define APCircleMoneyTwo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, APCircleMoneyTwo_m)
-!define APCircleMoneyTwo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, APCircleMoneyTwo_m)
+!define APCircleMoneyTwo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, CircleMoneyTwo)
+!define APCircleMoneyTwo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, CircleMoneyTwo)
 

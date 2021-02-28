@@ -9,9 +9,9 @@ P_W7
 }
 
 AzureEntityColoring(CDSGeneralBilling)
-!define CDSGeneralBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralBilling_tbg.png, CDSGeneralBilling)
-!define CDSGeneralBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralBilling_tbg.png, CDSGeneralBilling)
+!define CDSGeneralBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralBilling_tbg.png, GeneralBilling)
+!define CDSGeneralBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralBilling_tbg.png, GeneralBilling)
 AzureEntityColoring(CDSGeneralBilling_m)
-!define CDSGeneralBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralBillingSPRITE, CDSGeneralBilling_m)
-!define CDSGeneralBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralBillingSPRITE, CDSGeneralBilling_m)
+!define CDSGeneralBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralBillingSPRITE, GeneralBilling)
+!define CDSGeneralBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralBillingSPRITE, GeneralBilling)
 

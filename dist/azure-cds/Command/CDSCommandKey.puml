@@ -7,9 +7,9 @@ peMy8MKsxOVeiwNeX-ZN8NmX973fzYA8N3uFDyHASdq52CLpI020O3xmPOUJf3hBn89pY508qnsZ4wiu
 }
 
 AzureEntityColoring(CDSCommandKey)
-!define CDSCommandKey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandKey_tbg.png, CDSCommandKey)
-!define CDSCommandKey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandKey_tbg.png, CDSCommandKey)
+!define CDSCommandKey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandKey_tbg.png, CommandKey)
+!define CDSCommandKey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandKey_tbg.png, CommandKey)
 AzureEntityColoring(CDSCommandKey_m)
-!define CDSCommandKey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandKeySPRITE, CDSCommandKey_m)
-!define CDSCommandKey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandKeySPRITE, CDSCommandKey_m)
+!define CDSCommandKey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandKeySPRITE, CommandKey)
+!define CDSCommandKey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandKeySPRITE, CommandKey)
 

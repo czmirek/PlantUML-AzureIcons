@@ -4,9 +4,9 @@ Av4PNScChcH6LpAZAmT6LFfXq9IUqPI-6odSfHGhLgnOiMAbJrUiy5FSGR5YvGi
 }
 
 AzureEntityColoring(APCopyToClipboard)
-!define APCopyToClipboard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCopyToClipboard_tbg.png, APCopyToClipboard)
-!define APCopyToClipboard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCopyToClipboard_tbg.png, APCopyToClipboard)
+!define APCopyToClipboard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCopyToClipboard_tbg.png, CopyToClipboard)
+!define APCopyToClipboard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCopyToClipboard_tbg.png, CopyToClipboard)
 AzureEntityColoring(APCopyToClipboard_m)
-!define APCopyToClipboard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCopyToClipboardSPRITE, APCopyToClipboard_m)
-!define APCopyToClipboard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCopyToClipboardSPRITE, APCopyToClipboard_m)
+!define APCopyToClipboard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCopyToClipboardSPRITE, CopyToClipboard)
+!define APCopyToClipboard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCopyToClipboardSPRITE, CopyToClipboard)
 

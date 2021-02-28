@@ -4,9 +4,9 @@ KafnP0VNwMXSzO4bSicuckHS7_kx0vefN6SArzzJIYcbEQOqVwMC-ysK4SqKZ6ibXjkL8NIqQW8
 }
 
 AzureEntityColoring(CDSIntuneClientApps)
-!define CDSIntuneClientApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, CDSIntuneClientApps)
-!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, CDSIntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, IntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, IntuneClientApps)
 AzureEntityColoring(CDSIntuneClientApps_m)
-!define CDSIntuneClientApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, CDSIntuneClientApps_m)
-!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, CDSIntuneClientApps_m)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, IntuneClientApps)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, IntuneClientApps)
 

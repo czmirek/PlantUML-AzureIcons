@@ -11,9 +11,9 @@ A_qbSsZxHDU7UGwdzYdEpfylLop4Lah7-3AqF-Yi7iSfJAZz6_u3
 }
 
 AzureEntityColoring(CDSContainersAppServices)
-!define CDSContainersAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, CDSContainersAppServices)
-!define CDSContainersAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, CDSContainersAppServices)
+!define CDSContainersAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, ContainersAppServices)
+!define CDSContainersAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, ContainersAppServices)
 AzureEntityColoring(CDSContainersAppServices_m)
-!define CDSContainersAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, CDSContainersAppServices_m)
-!define CDSContainersAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, CDSContainersAppServices_m)
+!define CDSContainersAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, ContainersAppServices)
+!define CDSContainersAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, ContainersAppServices)
 

@@ -5,9 +5,9 @@ vK3Q9aN2ts59DhxFKJayN3lsG1v6yJqGH-m0ceLHH3AVWErmZYU3Fut-x4bNtmpV_Aep48rS1XzJnhzV
 }
 
 AzureEntityColoring(APHdinsight)
-!define APHdinsight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHdinsight_tbg.png, APHdinsight)
-!define APHdinsight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHdinsight_tbg.png, APHdinsight)
+!define APHdinsight(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHdinsight_tbg.png, Hdinsight)
+!define APHdinsight(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHdinsight_tbg.png, Hdinsight)
 AzureEntityColoring(APHdinsight_m)
-!define APHdinsight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHdinsightSPRITE, APHdinsight_m)
-!define APHdinsight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHdinsightSPRITE, APHdinsight_m)
+!define APHdinsight_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHdinsightSPRITE, Hdinsight)
+!define APHdinsight_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHdinsightSPRITE, Hdinsight)
 

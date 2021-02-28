@@ -7,9 +7,9 @@ xTO56gqu44JXIXhYTEz_j_DTLrBOF3yB-94eUacehPbPQobuRCfdjUTQS1iC-oojT99zRyJofDbSrQtu
 }
 
 AzureEntityColoring(APDataboxDataDark)
-!define APDataboxDataDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataboxDataDark_tbg.png, APDataboxDataDark)
-!define APDataboxDataDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataboxDataDark_tbg.png, APDataboxDataDark)
+!define APDataboxDataDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataboxDataDark_tbg.png, DataboxDataDark)
+!define APDataboxDataDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataboxDataDark_tbg.png, DataboxDataDark)
 AzureEntityColoring(APDataboxDataDark_m)
-!define APDataboxDataDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxDataDarkSPRITE, APDataboxDataDark_m)
-!define APDataboxDataDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxDataDarkSPRITE, APDataboxDataDark_m)
+!define APDataboxDataDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxDataDarkSPRITE, DataboxDataDark)
+!define APDataboxDataDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxDataDarkSPRITE, DataboxDataDark)
 

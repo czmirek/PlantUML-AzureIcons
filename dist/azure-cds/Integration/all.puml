@@ -7,11 +7,11 @@ N2Y7MVJ50yHSuc7JFvXf55ib5dCB2qtJlfuqMiVYD8-5n0XHb4e8FT4be3eu8ACo6FH7KQHXRKgmMYW2
 }
 
 AzureEntityColoring(CDSIntegrationAPIManagementServices)
-!define CDSIntegrationAPIManagementServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAPIManagementServices_tbg.png, CDSIntegrationAPIManagementServices)
-!define CDSIntegrationAPIManagementServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAPIManagementServices_tbg.png, CDSIntegrationAPIManagementServices)
+!define CDSIntegrationAPIManagementServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAPIManagementServices_tbg.png, IntegrationAPIManagementServices)
+!define CDSIntegrationAPIManagementServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAPIManagementServices_tbg.png, IntegrationAPIManagementServices)
 AzureEntityColoring(CDSIntegrationAPIManagementServices_m)
-!define CDSIntegrationAPIManagementServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAPIManagementServicesSPRITE, CDSIntegrationAPIManagementServices_m)
-!define CDSIntegrationAPIManagementServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAPIManagementServicesSPRITE, CDSIntegrationAPIManagementServices_m)
+!define CDSIntegrationAPIManagementServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAPIManagementServicesSPRITE, IntegrationAPIManagementServices)
+!define CDSIntegrationAPIManagementServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAPIManagementServicesSPRITE, IntegrationAPIManagementServices)
 
 sprite $CDSIntegrationAppConfigurationSPRITE [70x70/16z] {
 fTRjUeCm20LWlkdk_uRdaoeIsuXftjzwUc1iAvHm0oj8r7VAFqQ9UKS9ff7v1vtj8_uLmmpr0ONdp8TqAIJ8qZY1u0doUmPFU4MW9bx29rMMoo2RFm0tIFmX
@@ -23,11 +23,11 @@ NSQwgLF4EWmzr0r1HS_3rKYPf_9UiRPTmWgTRl4F
 }
 
 AzureEntityColoring(CDSIntegrationAppConfiguration)
-!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, CDSIntegrationAppConfiguration)
-!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, CDSIntegrationAppConfiguration)
+!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, IntegrationAppConfiguration)
+!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, IntegrationAppConfiguration)
 AzureEntityColoring(CDSIntegrationAppConfiguration_m)
-!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, CDSIntegrationAppConfiguration_m)
-!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, CDSIntegrationAppConfiguration_m)
+!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, IntegrationAppConfiguration)
+!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, IntegrationAppConfiguration)
 
 sprite $CDSIntegrationAzureAPIforFHIRSPRITE [70x70/16z] {
 xPEBigCm34CTIMR__uzte9uC6E99sdtlFVTzdPxA0kpNyKK3IQ8Dvmt7lDaGo3k2tQ5tn6SHw5UIf-MvdYIGPrhAKSr30WyUuyYVu4t2wbYNL5jpP74aIR4K
@@ -39,11 +39,11 @@ MK8hc2q7zYRwrgbxhU4M4hTFQ2yDxKCKstm8tFuglWC
 }
 
 AzureEntityColoring(CDSIntegrationAzureAPIforFHIR)
-!define CDSIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureAPIforFHIR_tbg.png, CDSIntegrationAzureAPIforFHIR)
-!define CDSIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureAPIforFHIR_tbg.png, CDSIntegrationAzureAPIforFHIR)
+!define CDSIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureAPIforFHIR_tbg.png, IntegrationAzureAPIforFHIR)
+!define CDSIntegrationAzureAPIforFHIR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureAPIforFHIR_tbg.png, IntegrationAzureAPIforFHIR)
 AzureEntityColoring(CDSIntegrationAzureAPIforFHIR_m)
-!define CDSIntegrationAzureAPIforFHIR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureAPIforFHIRSPRITE, CDSIntegrationAzureAPIforFHIR_m)
-!define CDSIntegrationAzureAPIforFHIR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureAPIforFHIRSPRITE, CDSIntegrationAzureAPIforFHIR_m)
+!define CDSIntegrationAzureAPIforFHIR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureAPIforFHIRSPRITE, IntegrationAzureAPIforFHIR)
+!define CDSIntegrationAzureAPIforFHIR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureAPIforFHIRSPRITE, IntegrationAzureAPIforFHIR)
 
 sprite $CDSIntegrationAzureDataCatalogSPRITE [70x70/16z] {
 xSvNaWCn28HXGPDcTF_pRi3bR6lO7Ap_cVhezXk3bP82KWW3XFFBPgIZCoeXELb7YBOFAv1I6mfBAPfADXKjzTZALAR2OmMwcGX0hH7mNaN0TDNR54c16P1z
@@ -52,11 +52,11 @@ tfBzZIrsfyAMWl8eM-QMfMSVL-fRIEuKnItZT8JKbGVPChVmvXPkXMHZYxHIv8CjpgqQITmqGgYzBHOD
 }
 
 AzureEntityColoring(CDSIntegrationAzureDataCatalog)
-!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, CDSIntegrationAzureDataCatalog)
-!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, CDSIntegrationAzureDataCatalog)
+!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, IntegrationAzureDataCatalog)
+!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, IntegrationAzureDataCatalog)
 AzureEntityColoring(CDSIntegrationAzureDataCatalog_m)
-!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, CDSIntegrationAzureDataCatalog_m)
-!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, CDSIntegrationAzureDataCatalog_m)
+!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, IntegrationAzureDataCatalog)
+!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, IntegrationAzureDataCatalog)
 
 sprite $CDSIntegrationAzureServiceBusSPRITE [70x70/16z] {
 xTX7OiCm34HH5e0zzxzkv0urMXYdXs_fyZKxIJIVQ_1yGbwD-CIRa_2oBwgC2WFM5MVKtB-kEFS15K_aZrVizW_fRFiILbGSdVYz8VJqQsUwB0dMgCaXOewU
@@ -65,11 +65,11 @@ bYg0bLJRJ0KgiRILegsajabLYRNjA7iLuXCIbTmwP8Nun6yzUSJwrbNl5Tjv2gAdlkcvRbGOyAlUiaO5
 }
 
 AzureEntityColoring(CDSIntegrationAzureServiceBus)
-!define CDSIntegrationAzureServiceBus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBus_tbg.png, CDSIntegrationAzureServiceBus)
-!define CDSIntegrationAzureServiceBus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBus_tbg.png, CDSIntegrationAzureServiceBus)
+!define CDSIntegrationAzureServiceBus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBus_tbg.png, IntegrationAzureServiceBus)
+!define CDSIntegrationAzureServiceBus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBus_tbg.png, IntegrationAzureServiceBus)
 AzureEntityColoring(CDSIntegrationAzureServiceBus_m)
-!define CDSIntegrationAzureServiceBus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusSPRITE, CDSIntegrationAzureServiceBus_m)
-!define CDSIntegrationAzureServiceBus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusSPRITE, CDSIntegrationAzureServiceBus_m)
+!define CDSIntegrationAzureServiceBus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusSPRITE, IntegrationAzureServiceBus)
+!define CDSIntegrationAzureServiceBus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusSPRITE, IntegrationAzureServiceBus)
 
 sprite $CDSIntegrationAzureServiceBusRelaysSPRITE [70x70/16z] {
 xTU7okmW40NWQMUIVVyNldZHVsHnKqm5_6WXwh5leKiDuWSXfS2FOYBomtIaD6diaT5-EKMUJHafeggodcBbiKKCYL6JnMrSmiYC3Z0KIjq4WRef0Z-NSdn6
@@ -79,11 +79,11 @@ EiHGNc_u1m
 }
 
 AzureEntityColoring(CDSIntegrationAzureServiceBusRelays)
-!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, CDSIntegrationAzureServiceBusRelays)
-!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, CDSIntegrationAzureServiceBusRelays)
+!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, IntegrationAzureServiceBusRelays)
+!define CDSIntegrationAzureServiceBusRelays(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBusRelays_tbg.png, IntegrationAzureServiceBusRelays)
 AzureEntityColoring(CDSIntegrationAzureServiceBusRelays_m)
-!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, CDSIntegrationAzureServiceBusRelays_m)
-!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, CDSIntegrationAzureServiceBusRelays_m)
+!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, IntegrationAzureServiceBusRelays)
+!define CDSIntegrationAzureServiceBusRelays_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusRelaysSPRITE, IntegrationAzureServiceBusRelays)
 
 sprite $CDSIntegrationAzureStorSimpleDeviceManagersSPRITE [70x70/16z] {
 xT95bW0n20JGmidS_xxZHjhfRVzrNY41JGzwXpjOpR-PCbhOlD96XgyGN4BcgxJRI6Mja7uCUUmmdEEnIt26nW72COeZrcsbOXoAejKCYyS9X6riSPBid5eK
@@ -93,11 +93,11 @@ miEy87IGLu8MhnWjLE7B8yP_IUZWKIbQHYLe8IvmrkCD
 }
 
 AzureEntityColoring(CDSIntegrationAzureStorSimpleDeviceManagers)
-!define CDSIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureStorSimpleDeviceManagers_tbg.png, CDSIntegrationAzureStorSimpleDeviceManagers)
-!define CDSIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureStorSimpleDeviceManagers_tbg.png, CDSIntegrationAzureStorSimpleDeviceManagers)
+!define CDSIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureStorSimpleDeviceManagers_tbg.png, IntegrationAzureStorSimpleDeviceManagers)
+!define CDSIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureStorSimpleDeviceManagers_tbg.png, IntegrationAzureStorSimpleDeviceManagers)
 AzureEntityColoring(CDSIntegrationAzureStorSimpleDeviceManagers_m)
-!define CDSIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureStorSimpleDeviceManagersSPRITE, CDSIntegrationAzureStorSimpleDeviceManagers_m)
-!define CDSIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureStorSimpleDeviceManagersSPRITE, CDSIntegrationAzureStorSimpleDeviceManagers_m)
+!define CDSIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureStorSimpleDeviceManagersSPRITE, IntegrationAzureStorSimpleDeviceManagers)
+!define CDSIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureStorSimpleDeviceManagersSPRITE, IntegrationAzureStorSimpleDeviceManagers)
 
 sprite $CDSIntegrationDataBoxEdgeSPRITE [70x70/16z] {
 xTH7OYCn34JHGY5fxd_W2GfKSwW0q2k7jt7-1j41NzIF7rJp-ClTADWY5XCd-YnMYXx6GuOEZITSKERn7AeiNt3KC5yob4I-9YZmVCDtphFYnYYhm6kYbWNo
@@ -107,11 +107,11 @@ og_tJdBu2-4b9MOKgrTIS4ORncZbYkD6btTTjPB4dTgYK3cv0YXab4y9LhI7Y1xHQgKV8hwu7p_-
 }
 
 AzureEntityColoring(CDSIntegrationDataBoxEdge)
-!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, CDSIntegrationDataBoxEdge)
-!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, CDSIntegrationDataBoxEdge)
+!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, IntegrationDataBoxEdge)
+!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, IntegrationDataBoxEdge)
 AzureEntityColoring(CDSIntegrationDataBoxEdge_m)
-!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, CDSIntegrationDataBoxEdge_m)
-!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, CDSIntegrationDataBoxEdge_m)
+!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, IntegrationDataBoxEdge)
+!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, IntegrationDataBoxEdge)
 
 sprite $CDSIntegrationDataFactoriesSPRITE [70x70/16z] {
 xTPLOiGm38JXDKYAFFS_Ry7kJg1abI7_K_0Bm-M7bZQzIyWZKb4Yvr8tbJAec56Vg4C1XRjnTCZCx4fzhZJB9EwBYAgQcQgAS5_c5EddfQWjlcqn7IVOfXH8
@@ -121,11 +121,11 @@ wbKrNpEjgIUOK-0bNSlblipnwfXKxbD2cue1Y2XepQNap5kugBVMmigJdSgf73iLa_ruRczG779045SS
 }
 
 AzureEntityColoring(CDSIntegrationDataFactories)
-!define CDSIntegrationDataFactories(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataFactories_tbg.png, CDSIntegrationDataFactories)
-!define CDSIntegrationDataFactories(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataFactories_tbg.png, CDSIntegrationDataFactories)
+!define CDSIntegrationDataFactories(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataFactories_tbg.png, IntegrationDataFactories)
+!define CDSIntegrationDataFactories(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataFactories_tbg.png, IntegrationDataFactories)
 AzureEntityColoring(CDSIntegrationDataFactories_m)
-!define CDSIntegrationDataFactories_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationDataFactoriesSPRITE, CDSIntegrationDataFactories_m)
-!define CDSIntegrationDataFactories_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationDataFactoriesSPRITE, CDSIntegrationDataFactories_m)
+!define CDSIntegrationDataFactories_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationDataFactoriesSPRITE, IntegrationDataFactories)
+!define CDSIntegrationDataFactories_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationDataFactoriesSPRITE, IntegrationDataFactories)
 
 sprite $CDSIntegrationEventGridDomainsSPRITE [70x70/16z] {
 xTX7OiGW44JHJZ3c_XUs23LHYSRPl9LMNra2w7DD6ZBJRXOofImE-wBAh0I7rufGD_cWogomgF1nXMcFMiPFvRkAMAQqHwnQRGiTm7Db3PC38juA8iA5jeep
@@ -134,11 +134,11 @@ GaCPndTkC2EgGk3DWE6v7SbeIfuCFy9dWReopvAZGh9NyRliLInaHglshww5JC-DF42NexaeNV5l797D
 }
 
 AzureEntityColoring(CDSIntegrationEventGridDomains)
-!define CDSIntegrationEventGridDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridDomains_tbg.png, CDSIntegrationEventGridDomains)
-!define CDSIntegrationEventGridDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridDomains_tbg.png, CDSIntegrationEventGridDomains)
+!define CDSIntegrationEventGridDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridDomains_tbg.png, IntegrationEventGridDomains)
+!define CDSIntegrationEventGridDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridDomains_tbg.png, IntegrationEventGridDomains)
 AzureEntityColoring(CDSIntegrationEventGridDomains_m)
-!define CDSIntegrationEventGridDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridDomainsSPRITE, CDSIntegrationEventGridDomains_m)
-!define CDSIntegrationEventGridDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridDomainsSPRITE, CDSIntegrationEventGridDomains_m)
+!define CDSIntegrationEventGridDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridDomainsSPRITE, IntegrationEventGridDomains)
+!define CDSIntegrationEventGridDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridDomainsSPRITE, IntegrationEventGridDomains)
 
 sprite $CDSIntegrationEventGridSubscriptionsSPRITE [70x70/16z] {
 xTX7OiGW44JHJZ3c_XUs23LHYSRPl9LMNra2w7DD6ZBJRXOofImE-wBAh0I7rufGD_cWogomgF1nXMcFMiPFvRkAMAQqHwnQRGiTm7Db3PC38juA8iA5jeep
@@ -147,11 +147,11 @@ GaCPndTkC2EgGk3DWE6v7SbeIfuCFy9dWReopvAZGh9NyRliLInaHglshww5JC-DF42NexaeNV5l797D
 }
 
 AzureEntityColoring(CDSIntegrationEventGridSubscriptions)
-!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, CDSIntegrationEventGridSubscriptions)
-!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, CDSIntegrationEventGridSubscriptions)
+!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, IntegrationEventGridSubscriptions)
+!define CDSIntegrationEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridSubscriptions_tbg.png, IntegrationEventGridSubscriptions)
 AzureEntityColoring(CDSIntegrationEventGridSubscriptions_m)
-!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, CDSIntegrationEventGridSubscriptions_m)
-!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, CDSIntegrationEventGridSubscriptions_m)
+!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, IntegrationEventGridSubscriptions)
+!define CDSIntegrationEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridSubscriptionsSPRITE, IntegrationEventGridSubscriptions)
 
 sprite $CDSIntegrationEventGridTopicsSPRITE [70x70/16z] {
 xTX7OiCm34JHGTVzJnohB10vb46QJlzxFFMAr_QVs9eCj0zYpPzkci9-rR-YqfqcnVOOVQNHea9J5DCfYkiKnRLN4TKJQH6XbmhP7c6FF6ufvIpkcJIwYRB6
@@ -161,11 +161,11 @@ A8u9Yc26WWVAbA-9f8pqUvNlyprjJ_uXq3N6Q_ll3G
 }
 
 AzureEntityColoring(CDSIntegrationEventGridTopics)
-!define CDSIntegrationEventGridTopics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridTopics_tbg.png, CDSIntegrationEventGridTopics)
-!define CDSIntegrationEventGridTopics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridTopics_tbg.png, CDSIntegrationEventGridTopics)
+!define CDSIntegrationEventGridTopics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridTopics_tbg.png, IntegrationEventGridTopics)
+!define CDSIntegrationEventGridTopics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridTopics_tbg.png, IntegrationEventGridTopics)
 AzureEntityColoring(CDSIntegrationEventGridTopics_m)
-!define CDSIntegrationEventGridTopics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridTopicsSPRITE, CDSIntegrationEventGridTopics_m)
-!define CDSIntegrationEventGridTopics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridTopicsSPRITE, CDSIntegrationEventGridTopics_m)
+!define CDSIntegrationEventGridTopics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridTopicsSPRITE, IntegrationEventGridTopics)
+!define CDSIntegrationEventGridTopics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridTopicsSPRITE, IntegrationEventGridTopics)
 
 sprite $CDSIntegrationIntegrationAccountsSPRITE [70x70/16z] {
 xTV5eOH044NHQYlBFzyl8uzHtE4kaODBqzVEedZlhD0jzY65cwA3bBHMnQHp-guKwbmyZ9Agnb72bfHJEHKAw7mpr9pTMDL1CKVnVp56PTNAgPoAABee1UN3
@@ -174,11 +174,11 @@ lHd6Lt91WOYI8dwP7MiKhheeZfJ-Aeng5K7nao9eWCA2KeqYuoYAFYgAfbUqNf6MYg6FYg7f5Hj5IHa5
 }
 
 AzureEntityColoring(CDSIntegrationIntegrationAccounts)
-!define CDSIntegrationIntegrationAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationAccounts_tbg.png, CDSIntegrationIntegrationAccounts)
-!define CDSIntegrationIntegrationAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationAccounts_tbg.png, CDSIntegrationIntegrationAccounts)
+!define CDSIntegrationIntegrationAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationAccounts_tbg.png, IntegrationIntegrationAccounts)
+!define CDSIntegrationIntegrationAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationAccounts_tbg.png, IntegrationIntegrationAccounts)
 AzureEntityColoring(CDSIntegrationIntegrationAccounts_m)
-!define CDSIntegrationIntegrationAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationAccountsSPRITE, CDSIntegrationIntegrationAccounts_m)
-!define CDSIntegrationIntegrationAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationAccountsSPRITE, CDSIntegrationIntegrationAccounts_m)
+!define CDSIntegrationIntegrationAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationAccountsSPRITE, IntegrationIntegrationAccounts)
+!define CDSIntegrationIntegrationAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationAccountsSPRITE, IntegrationIntegrationAccounts)
 
 sprite $CDSIntegrationIntegrationServiceEnvironmentsSPRITE [70x70/16z] {
 lPY7ckmW28K5H9Xv__Uz5KFCcHHksRDz_V9_D2FOhaKilGjJ-rDHDtzjSkjr56iIagHSOIG2GVIKSNpom7d2w9uFhDh-tUyOv7l4qDw5MNhNiGVPjLliEuIi
@@ -191,11 +191,11 @@ J3RKKBnDyPTUIOGaAWLbznpU67O_ZvzFdnC2VaFTv1YBY90y6gW3f9fJUQmygWVImns3kxzylMlGycq5
 }
 
 AzureEntityColoring(CDSIntegrationIntegrationServiceEnvironments)
-!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, CDSIntegrationIntegrationServiceEnvironments)
-!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, CDSIntegrationIntegrationServiceEnvironments)
+!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, IntegrationIntegrationServiceEnvironments)
+!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, IntegrationIntegrationServiceEnvironments)
 AzureEntityColoring(CDSIntegrationIntegrationServiceEnvironments_m)
-!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, CDSIntegrationIntegrationServiceEnvironments_m)
-!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, CDSIntegrationIntegrationServiceEnvironments_m)
+!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, IntegrationIntegrationServiceEnvironments)
+!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, IntegrationIntegrationServiceEnvironments)
 
 sprite $CDSIntegrationLogicAppsSPRITE [70x70/16z] {
 xTVdOkiW38PX3JxPnxx_wptTIC64Ld5tUVzaFw1iqvSrcx4gX189L5e3Tf-cbhNx2bF8x3R5Z3ornoIbe5tPZVnkcX6fazIOZXMxZrtfRuMtK8UHezAxLrHw
@@ -205,11 +205,11 @@ O-PeTYlM7as0yuOfUPRSZQzC8IwtAOMQHC7f8xwlQpQx0m
 }
 
 AzureEntityColoring(CDSIntegrationLogicApps)
-!define CDSIntegrationLogicApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicApps_tbg.png, CDSIntegrationLogicApps)
-!define CDSIntegrationLogicApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicApps_tbg.png, CDSIntegrationLogicApps)
+!define CDSIntegrationLogicApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicApps_tbg.png, IntegrationLogicApps)
+!define CDSIntegrationLogicApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicApps_tbg.png, IntegrationLogicApps)
 AzureEntityColoring(CDSIntegrationLogicApps_m)
-!define CDSIntegrationLogicApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsSPRITE, CDSIntegrationLogicApps_m)
-!define CDSIntegrationLogicApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsSPRITE, CDSIntegrationLogicApps_m)
+!define CDSIntegrationLogicApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsSPRITE, IntegrationLogicApps)
+!define CDSIntegrationLogicApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsSPRITE, IntegrationLogicApps)
 
 sprite $CDSIntegrationLogicAppsCustomConnectorSPRITE [70x70/16z] {
 xTO7OiOW28RX3oJoczx_lDt31YgXTjVt04-64-DMPQk7X96Dgsr3jbATw9iKTVgjobAMmaWc5wU_fn2IiOCeCBzDROptHj5-6xUKfIn5LUSLQQrLJ5RQNMKU
@@ -218,11 +218,11 @@ yH5mUFaJ1yahu3r00iKoFWBo589bUiGcUZHK0CjO91y_AeofE40I36Cw4W9MDm
 }
 
 AzureEntityColoring(CDSIntegrationLogicAppsCustomConnector)
-!define CDSIntegrationLogicAppsCustomConnector(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicAppsCustomConnector_tbg.png, CDSIntegrationLogicAppsCustomConnector)
-!define CDSIntegrationLogicAppsCustomConnector(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicAppsCustomConnector_tbg.png, CDSIntegrationLogicAppsCustomConnector)
+!define CDSIntegrationLogicAppsCustomConnector(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicAppsCustomConnector_tbg.png, IntegrationLogicAppsCustomConnector)
+!define CDSIntegrationLogicAppsCustomConnector(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationLogicAppsCustomConnector_tbg.png, IntegrationLogicAppsCustomConnector)
 AzureEntityColoring(CDSIntegrationLogicAppsCustomConnector_m)
-!define CDSIntegrationLogicAppsCustomConnector_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsCustomConnectorSPRITE, CDSIntegrationLogicAppsCustomConnector_m)
-!define CDSIntegrationLogicAppsCustomConnector_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsCustomConnectorSPRITE, CDSIntegrationLogicAppsCustomConnector_m)
+!define CDSIntegrationLogicAppsCustomConnector_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsCustomConnectorSPRITE, IntegrationLogicAppsCustomConnector)
+!define CDSIntegrationLogicAppsCustomConnector_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationLogicAppsCustomConnectorSPRITE, IntegrationLogicAppsCustomConnector)
 
 sprite $CDSIntegrationSendGridAccountsSPRITE [70x70/16z] {
 xSor0KCn5CNGPwRzvmsrbiFyhteT-u5SwNCrGS7MfOuAvTPA9QMWuczKwjyfPIkAb4pThaYHalkOmw5qAXuH1yRjIln-XVf3HKfzdL9lLgX_LAGqY1L_ez88
@@ -230,11 +230,11 @@ oNPIEjM8RaPjHf4YHOgKy1J5NQyKMvVQbKhrzWFj0G
 }
 
 AzureEntityColoring(CDSIntegrationSendGridAccounts)
-!define CDSIntegrationSendGridAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSendGridAccounts_tbg.png, CDSIntegrationSendGridAccounts)
-!define CDSIntegrationSendGridAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSendGridAccounts_tbg.png, CDSIntegrationSendGridAccounts)
+!define CDSIntegrationSendGridAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSendGridAccounts_tbg.png, IntegrationSendGridAccounts)
+!define CDSIntegrationSendGridAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSendGridAccounts_tbg.png, IntegrationSendGridAccounts)
 AzureEntityColoring(CDSIntegrationSendGridAccounts_m)
-!define CDSIntegrationSendGridAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationSendGridAccountsSPRITE, CDSIntegrationSendGridAccounts_m)
-!define CDSIntegrationSendGridAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationSendGridAccountsSPRITE, CDSIntegrationSendGridAccounts_m)
+!define CDSIntegrationSendGridAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationSendGridAccountsSPRITE, IntegrationSendGridAccounts)
+!define CDSIntegrationSendGridAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationSendGridAccountsSPRITE, IntegrationSendGridAccounts)
 
 sprite $CDSIntegrationSoftwareasaServiceSPRITE [70x70/16z] {
 xT89ZgGm38LXhy_fll-1nwgAciqKeJBxp2U9dL_8WRh__kD4CyGSdUkRASEM2zscIBCTHqdf1i4PlnMPpp3YXT4CuYMb4HONcAvnNF79J-c4BaLCVume8irC
@@ -245,11 +245,11 @@ iW0TtIGeEDt6H_Il--yR
 }
 
 AzureEntityColoring(CDSIntegrationSoftwareasaService)
-!define CDSIntegrationSoftwareasaService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSoftwareasaService_tbg.png, CDSIntegrationSoftwareasaService)
-!define CDSIntegrationSoftwareasaService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSoftwareasaService_tbg.png, CDSIntegrationSoftwareasaService)
+!define CDSIntegrationSoftwareasaService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSoftwareasaService_tbg.png, IntegrationSoftwareasaService)
+!define CDSIntegrationSoftwareasaService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSoftwareasaService_tbg.png, IntegrationSoftwareasaService)
 AzureEntityColoring(CDSIntegrationSoftwareasaService_m)
-!define CDSIntegrationSoftwareasaService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationSoftwareasaServiceSPRITE, CDSIntegrationSoftwareasaService_m)
-!define CDSIntegrationSoftwareasaService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationSoftwareasaServiceSPRITE, CDSIntegrationSoftwareasaService_m)
+!define CDSIntegrationSoftwareasaService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationSoftwareasaServiceSPRITE, IntegrationSoftwareasaService)
+!define CDSIntegrationSoftwareasaService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationSoftwareasaServiceSPRITE, IntegrationSoftwareasaService)
 
 sprite $CDSIntegrationSQLServerStretchDatabasesSPRITE [70x70/16z] {
 xTHLWeCm58LXZeGW-z_lP92wNEhsFLL_85Qz1vZNH-G2LpS6kg93h-dY0Td6Ynzc6wvvc3KjRrpPWKzXBA9qcX5vc7IMpZvCYZ03ZQiwIaiOmG5PFZn8o-cr
@@ -259,10 +259,10 @@ KBsYFm
 }
 
 AzureEntityColoring(CDSIntegrationSQLServerStretchDatabases)
-!define CDSIntegrationSQLServerStretchDatabases(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSQLServerStretchDatabases_tbg.png, CDSIntegrationSQLServerStretchDatabases)
-!define CDSIntegrationSQLServerStretchDatabases(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSQLServerStretchDatabases_tbg.png, CDSIntegrationSQLServerStretchDatabases)
+!define CDSIntegrationSQLServerStretchDatabases(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSQLServerStretchDatabases_tbg.png, IntegrationSQLServerStretchDatabases)
+!define CDSIntegrationSQLServerStretchDatabases(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationSQLServerStretchDatabases_tbg.png, IntegrationSQLServerStretchDatabases)
 AzureEntityColoring(CDSIntegrationSQLServerStretchDatabases_m)
-!define CDSIntegrationSQLServerStretchDatabases_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationSQLServerStretchDatabasesSPRITE, CDSIntegrationSQLServerStretchDatabases_m)
-!define CDSIntegrationSQLServerStretchDatabases_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationSQLServerStretchDatabasesSPRITE, CDSIntegrationSQLServerStretchDatabases_m)
+!define CDSIntegrationSQLServerStretchDatabases_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationSQLServerStretchDatabasesSPRITE, IntegrationSQLServerStretchDatabases)
+!define CDSIntegrationSQLServerStretchDatabases_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationSQLServerStretchDatabasesSPRITE, IntegrationSQLServerStretchDatabases)
 
 

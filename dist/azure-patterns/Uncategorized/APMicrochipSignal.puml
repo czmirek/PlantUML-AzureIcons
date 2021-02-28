@@ -7,9 +7,9 @@ c868E5wKdk6-eKkyu9Kji0kr5ZFpU76xG0jO7V7Abc8Dlc91d9mQucZqzongPcLeCJEiz4lVGi47MBuZ
 }
 
 AzureEntityColoring(APMicrochipSignal)
-!define APMicrochipSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicrochipSignal_tbg.png, APMicrochipSignal)
-!define APMicrochipSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicrochipSignal_tbg.png, APMicrochipSignal)
+!define APMicrochipSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicrochipSignal_tbg.png, MicrochipSignal)
+!define APMicrochipSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicrochipSignal_tbg.png, MicrochipSignal)
 AzureEntityColoring(APMicrochipSignal_m)
-!define APMicrochipSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicrochipSignalSPRITE, APMicrochipSignal_m)
-!define APMicrochipSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicrochipSignalSPRITE, APMicrochipSignal_m)
+!define APMicrochipSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicrochipSignalSPRITE, MicrochipSignal)
+!define APMicrochipSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicrochipSignalSPRITE, MicrochipSignal)
 

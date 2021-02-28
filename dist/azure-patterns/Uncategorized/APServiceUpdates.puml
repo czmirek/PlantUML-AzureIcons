@@ -8,9 +8,9 @@ _Z7o6m
 }
 
 AzureEntityColoring(APServiceUpdates)
-!define APServiceUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServiceUpdates_tbg.png, APServiceUpdates)
-!define APServiceUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServiceUpdates_tbg.png, APServiceUpdates)
+!define APServiceUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServiceUpdates_tbg.png, ServiceUpdates)
+!define APServiceUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServiceUpdates_tbg.png, ServiceUpdates)
 AzureEntityColoring(APServiceUpdates_m)
-!define APServiceUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServiceUpdatesSPRITE, APServiceUpdates_m)
-!define APServiceUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServiceUpdatesSPRITE, APServiceUpdates_m)
+!define APServiceUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServiceUpdatesSPRITE, ServiceUpdates)
+!define APServiceUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServiceUpdatesSPRITE, ServiceUpdates)
 

@@ -7,9 +7,9 @@ jQZSGKSUMZggt4Th7vu0Cjn6EylYEm
 }
 
 AzureEntityColoring(APCalculatorError)
-!define APCalculatorError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, APCalculatorError)
-!define APCalculatorError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, APCalculatorError)
+!define APCalculatorError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, CalculatorError)
+!define APCalculatorError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, CalculatorError)
 AzureEntityColoring(APCalculatorError_m)
-!define APCalculatorError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, APCalculatorError_m)
-!define APCalculatorError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, APCalculatorError_m)
+!define APCalculatorError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, CalculatorError)
+!define APCalculatorError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, CalculatorError)
 

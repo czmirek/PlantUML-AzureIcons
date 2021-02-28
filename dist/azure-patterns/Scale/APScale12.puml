@@ -5,9 +5,9 @@ ZGhOo6RSJfZ8QtGWINgFa8C13Cp2_MmwGhgsRBPm3t0M_TrY2AFNPI4EKnRF4sPEOKa2aE_Mae_OAiXl
 }
 
 AzureEntityColoring(APScale12)
-!define APScale12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScale12_tbg.png, APScale12)
-!define APScale12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScale12_tbg.png, APScale12)
+!define APScale12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScale12_tbg.png, Scale12)
+!define APScale12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScale12_tbg.png, Scale12)
 AzureEntityColoring(APScale12_m)
-!define APScale12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale12SPRITE, APScale12_m)
-!define APScale12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale12SPRITE, APScale12_m)
+!define APScale12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale12SPRITE, Scale12)
+!define APScale12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale12SPRITE, Scale12)
 

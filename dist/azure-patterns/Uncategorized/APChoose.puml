@@ -10,9 +10,9 @@ agUAX2OzrUGR12OzSCK1qmnIHFEI_8mZ8_IFCCj6kLMVfToLLlu3
 }
 
 AzureEntityColoring(APChoose)
-!define APChoose(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APChoose_tbg.png, APChoose)
-!define APChoose(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APChoose_tbg.png, APChoose)
+!define APChoose(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APChoose_tbg.png, Choose)
+!define APChoose(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APChoose_tbg.png, Choose)
 AzureEntityColoring(APChoose_m)
-!define APChoose_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APChooseSPRITE, APChoose_m)
-!define APChoose_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APChooseSPRITE, APChoose_m)
+!define APChoose_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APChooseSPRITE, Choose)
+!define APChoose_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APChooseSPRITE, Choose)
 

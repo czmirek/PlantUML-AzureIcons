@@ -1,9 +1,9 @@
 sprite $APAnomalyDetectorAltSPRITE [70x70/16z] xSp50GGn34DHIt7_DMyOJik3UfUWlns0Y8Y0f0sCraVO2-Zk64UFraVkLb75er51NC9PAggeeeeg8Fbz9SG5Pwk4A2w8Iprot78ymavFH4GU
 
 AzureEntityColoring(APAnomalyDetectorAlt)
-!define APAnomalyDetectorAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAnomalyDetectorAlt_tbg.png, APAnomalyDetectorAlt)
-!define APAnomalyDetectorAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAnomalyDetectorAlt_tbg.png, APAnomalyDetectorAlt)
+!define APAnomalyDetectorAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAnomalyDetectorAlt_tbg.png, AnomalyDetectorAlt)
+!define APAnomalyDetectorAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAnomalyDetectorAlt_tbg.png, AnomalyDetectorAlt)
 AzureEntityColoring(APAnomalyDetectorAlt_m)
-!define APAnomalyDetectorAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAnomalyDetectorAltSPRITE, APAnomalyDetectorAlt_m)
-!define APAnomalyDetectorAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAnomalyDetectorAltSPRITE, APAnomalyDetectorAlt_m)
+!define APAnomalyDetectorAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAnomalyDetectorAltSPRITE, AnomalyDetectorAlt)
+!define APAnomalyDetectorAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAnomalyDetectorAltSPRITE, AnomalyDetectorAlt)
 

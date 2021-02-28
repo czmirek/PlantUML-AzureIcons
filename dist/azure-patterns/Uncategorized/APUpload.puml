@@ -7,9 +7,9 @@ MZBJ7ZulfotpuEY0y88R2uSMUWFSe_zdwPQGSmxq4PrEftC1
 }
 
 AzureEntityColoring(APUpload)
-!define APUpload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpload_tbg.png, APUpload)
-!define APUpload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpload_tbg.png, APUpload)
+!define APUpload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUpload_tbg.png, Upload)
+!define APUpload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUpload_tbg.png, Upload)
 AzureEntityColoring(APUpload_m)
-!define APUpload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUploadSPRITE, APUpload_m)
-!define APUpload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUploadSPRITE, APUpload_m)
+!define APUpload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUploadSPRITE, Upload)
+!define APUpload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUploadSPRITE, Upload)
 

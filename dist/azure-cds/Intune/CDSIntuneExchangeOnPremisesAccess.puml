@@ -4,9 +4,9 @@ AUwlQ2N8G9XhX98L319eHwU2RxMY5I2vGzo0p8TQmBTCXKBUKYaKFro9RY0-Li7G-PyAThNNLRIY5LVd
 }
 
 AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess)
-!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, CDSIntuneExchangeOnPremisesAccess)
-!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, CDSIntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, IntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, IntuneExchangeOnPremisesAccess)
 AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess_m)
-!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, CDSIntuneExchangeOnPremisesAccess_m)
-!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, CDSIntuneExchangeOnPremisesAccess_m)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, IntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, IntuneExchangeOnPremisesAccess)
 

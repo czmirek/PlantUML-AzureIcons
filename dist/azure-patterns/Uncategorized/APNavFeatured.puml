@@ -5,9 +5,9 @@ IYF-fMaWb87yJOk4yX12AVUKP6G-KHhnsAL2A0DH8l7qjeHGijpURva9fI6A4Cf0b4YyZba2ABzcVW4
 }
 
 AzureEntityColoring(APNavFeatured)
-!define APNavFeatured(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNavFeatured_tbg.png, APNavFeatured)
-!define APNavFeatured(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNavFeatured_tbg.png, APNavFeatured)
+!define APNavFeatured(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNavFeatured_tbg.png, NavFeatured)
+!define APNavFeatured(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNavFeatured_tbg.png, NavFeatured)
 AzureEntityColoring(APNavFeatured_m)
-!define APNavFeatured_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNavFeaturedSPRITE, APNavFeatured_m)
-!define APNavFeatured_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNavFeaturedSPRITE, APNavFeatured_m)
+!define APNavFeatured_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNavFeaturedSPRITE, NavFeatured)
+!define APNavFeatured_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNavFeaturedSPRITE, NavFeatured)
 

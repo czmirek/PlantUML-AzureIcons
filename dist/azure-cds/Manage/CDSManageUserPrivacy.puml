@@ -7,9 +7,9 @@ Q5TSjohDUtiqZKAMoroDKcyLj8pnkDCmkk7sNcPqch4bCwj8A98nP-AilQEF5hftUfjvZqYZ0-fVnnbk
 }
 
 AzureEntityColoring(CDSManageUserPrivacy)
-!define CDSManageUserPrivacy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageUserPrivacy_tbg.png, CDSManageUserPrivacy)
-!define CDSManageUserPrivacy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageUserPrivacy_tbg.png, CDSManageUserPrivacy)
+!define CDSManageUserPrivacy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageUserPrivacy_tbg.png, ManageUserPrivacy)
+!define CDSManageUserPrivacy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageUserPrivacy_tbg.png, ManageUserPrivacy)
 AzureEntityColoring(CDSManageUserPrivacy_m)
-!define CDSManageUserPrivacy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageUserPrivacySPRITE, CDSManageUserPrivacy_m)
-!define CDSManageUserPrivacy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageUserPrivacySPRITE, CDSManageUserPrivacy_m)
+!define CDSManageUserPrivacy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageUserPrivacySPRITE, ManageUserPrivacy)
+!define CDSManageUserPrivacy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageUserPrivacySPRITE, ManageUserPrivacy)
 

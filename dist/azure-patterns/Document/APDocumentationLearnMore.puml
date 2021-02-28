@@ -4,9 +4,9 @@ ViNk5VKhk5TgoXRnAorZI-ttMH0v10yXslfuJUjGvjBJpRI53g-YOuh1cNspyWy
 }
 
 AzureEntityColoring(APDocumentationLearnMore)
-!define APDocumentationLearnMore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocumentationLearnMore_tbg.png, APDocumentationLearnMore)
-!define APDocumentationLearnMore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocumentationLearnMore_tbg.png, APDocumentationLearnMore)
+!define APDocumentationLearnMore(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocumentationLearnMore_tbg.png, DocumentationLearnMore)
+!define APDocumentationLearnMore(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocumentationLearnMore_tbg.png, DocumentationLearnMore)
 AzureEntityColoring(APDocumentationLearnMore_m)
-!define APDocumentationLearnMore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocumentationLearnMoreSPRITE, APDocumentationLearnMore_m)
-!define APDocumentationLearnMore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocumentationLearnMoreSPRITE, APDocumentationLearnMore_m)
+!define APDocumentationLearnMore_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocumentationLearnMoreSPRITE, DocumentationLearnMore)
+!define APDocumentationLearnMore_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocumentationLearnMoreSPRITE, DocumentationLearnMore)
 

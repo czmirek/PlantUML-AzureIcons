@@ -6,9 +6,9 @@ T-qzyzCNeVlNApsGPk8vRkHWj1gPef79NemVI3DzKUF4Y8MhhDHFVq9BE_n9HO3XGeHW28HW28HXU0GP
 }
 
 AzureEntityColoring(CDSNetworkingVirtualNetworks_Classic)
-!define CDSNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_Classic_tbg.png, CDSNetworkingVirtualNetworks_Classic)
-!define CDSNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_Classic_tbg.png, CDSNetworkingVirtualNetworks_Classic)
+!define CDSNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_Classic_tbg.png, NetworkingVirtualNetworks_Classic)
+!define CDSNetworkingVirtualNetworks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_Classic_tbg.png, NetworkingVirtualNetworks_Classic)
 AzureEntityColoring(CDSNetworkingVirtualNetworks_Classic_m)
-!define CDSNetworkingVirtualNetworks_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworks_ClassicSPRITE, CDSNetworkingVirtualNetworks_Classic_m)
-!define CDSNetworkingVirtualNetworks_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworks_ClassicSPRITE, CDSNetworkingVirtualNetworks_Classic_m)
+!define CDSNetworkingVirtualNetworks_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworks_ClassicSPRITE, NetworkingVirtualNetworks_Classic)
+!define CDSNetworkingVirtualNetworks_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworks_ClassicSPRITE, NetworkingVirtualNetworks_Classic)
 

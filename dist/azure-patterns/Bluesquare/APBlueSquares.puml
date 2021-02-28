@@ -1,9 +1,9 @@
 sprite $APBlueSquaresSPRITE [70x70/16z] xTN70O0W50JHPStsNx0KGFv7vnqDOmGqQtyBg52XCe4AbJa-2lGVBcZiAFDRuDblHAMC2XKgLEApDukN2_Q2f6mlK9RsCYf3g52XGkK3
 
 AzureEntityColoring(APBlueSquares)
-!define APBlueSquares(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueSquares_tbg.png, APBlueSquares)
-!define APBlueSquares(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueSquares_tbg.png, APBlueSquares)
+!define APBlueSquares(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueSquares_tbg.png, BlueSquares)
+!define APBlueSquares(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueSquares_tbg.png, BlueSquares)
 AzureEntityColoring(APBlueSquares_m)
-!define APBlueSquares_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueSquaresSPRITE, APBlueSquares_m)
-!define APBlueSquares_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueSquaresSPRITE, APBlueSquares_m)
+!define APBlueSquares_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueSquaresSPRITE, BlueSquares)
+!define APBlueSquares_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueSquaresSPRITE, BlueSquares)
 

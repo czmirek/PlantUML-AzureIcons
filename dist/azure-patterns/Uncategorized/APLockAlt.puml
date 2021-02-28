@@ -8,9 +8,9 @@ ImRzGo0B2ddDxbS
 }
 
 AzureEntityColoring(APLockAlt)
-!define APLockAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockAlt_tbg.png, APLockAlt)
-!define APLockAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockAlt_tbg.png, APLockAlt)
+!define APLockAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockAlt_tbg.png, LockAlt)
+!define APLockAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockAlt_tbg.png, LockAlt)
 AzureEntityColoring(APLockAlt_m)
-!define APLockAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockAltSPRITE, APLockAlt_m)
-!define APLockAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockAltSPRITE, APLockAlt_m)
+!define APLockAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockAltSPRITE, LockAlt)
+!define APLockAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockAltSPRITE, LockAlt)
 

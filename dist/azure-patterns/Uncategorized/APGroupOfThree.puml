@@ -7,9 +7,9 @@ eHB2IGgNGceHd6XCyIdl62mrFA0CjKGRqWZgQ4dXXZAKwB9KdIcKQ2owNvXO93hd_1cB6REnzAYbVf-b
 }
 
 AzureEntityColoring(APGroupOfThree)
-!define APGroupOfThree(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGroupOfThree_tbg.png, APGroupOfThree)
-!define APGroupOfThree(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGroupOfThree_tbg.png, APGroupOfThree)
+!define APGroupOfThree(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGroupOfThree_tbg.png, GroupOfThree)
+!define APGroupOfThree(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGroupOfThree_tbg.png, GroupOfThree)
 AzureEntityColoring(APGroupOfThree_m)
-!define APGroupOfThree_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGroupOfThreeSPRITE, APGroupOfThree_m)
-!define APGroupOfThree_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGroupOfThreeSPRITE, APGroupOfThree_m)
+!define APGroupOfThree_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGroupOfThreeSPRITE, GroupOfThree)
+!define APGroupOfThree_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGroupOfThreeSPRITE, GroupOfThree)
 

@@ -6,9 +6,9 @@ jLnk8JN0A6pvmHN8HV9-_GK
 }
 
 AzureEntityColoring(CDSOtherUniversalPrintService)
-!define CDSOtherUniversalPrintService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherUniversalPrintService_tbg.png, CDSOtherUniversalPrintService)
-!define CDSOtherUniversalPrintService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherUniversalPrintService_tbg.png, CDSOtherUniversalPrintService)
+!define CDSOtherUniversalPrintService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherUniversalPrintService_tbg.png, OtherUniversalPrintService)
+!define CDSOtherUniversalPrintService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherUniversalPrintService_tbg.png, OtherUniversalPrintService)
 AzureEntityColoring(CDSOtherUniversalPrintService_m)
-!define CDSOtherUniversalPrintService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherUniversalPrintServiceSPRITE, CDSOtherUniversalPrintService_m)
-!define CDSOtherUniversalPrintService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherUniversalPrintServiceSPRITE, CDSOtherUniversalPrintService_m)
+!define CDSOtherUniversalPrintService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherUniversalPrintServiceSPRITE, OtherUniversalPrintService)
+!define CDSOtherUniversalPrintService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherUniversalPrintServiceSPRITE, OtherUniversalPrintService)
 

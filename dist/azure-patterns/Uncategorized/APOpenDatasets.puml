@@ -8,9 +8,9 @@ FwVcgRWhmNv4XF1dzmK
 }
 
 AzureEntityColoring(APOpenDatasets)
-!define APOpenDatasets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOpenDatasets_tbg.png, APOpenDatasets)
-!define APOpenDatasets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOpenDatasets_tbg.png, APOpenDatasets)
+!define APOpenDatasets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOpenDatasets_tbg.png, OpenDatasets)
+!define APOpenDatasets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOpenDatasets_tbg.png, OpenDatasets)
 AzureEntityColoring(APOpenDatasets_m)
-!define APOpenDatasets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOpenDatasetsSPRITE, APOpenDatasets_m)
-!define APOpenDatasets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOpenDatasetsSPRITE, APOpenDatasets_m)
+!define APOpenDatasets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOpenDatasetsSPRITE, OpenDatasets)
+!define APOpenDatasets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOpenDatasetsSPRITE, OpenDatasets)
 

@@ -5,9 +5,9 @@ KeIfi9vCnSzI0J_BnAj8fc9dQNYsXAcmBKo5L67wR2Jtc5a2xmfFNz1e-eh9K_7VUK8H-VJr-O_wcv9b
 }
 
 AzureEntityColoring(APEnergy)
-!define APEnergy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEnergy_tbg.png, APEnergy)
-!define APEnergy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEnergy_tbg.png, APEnergy)
+!define APEnergy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEnergy_tbg.png, Energy)
+!define APEnergy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEnergy_tbg.png, Energy)
 AzureEntityColoring(APEnergy_m)
-!define APEnergy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEnergySPRITE, APEnergy_m)
-!define APEnergy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEnergySPRITE, APEnergy_m)
+!define APEnergy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEnergySPRITE, Energy)
+!define APEnergy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEnergySPRITE, Energy)
 

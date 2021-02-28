@@ -8,9 +8,9 @@ gzz0p-et1Q2TzBI7TeHZ5h57W3kk9mvtu5E88tGZ7FGGR9jqxMKj83hzEa8OuVdarsS7JNKBX2CSMnoX
 }
 
 AzureEntityColoring(APBuilding23)
-!define APBuilding23(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuilding23_tbg.png, APBuilding23)
-!define APBuilding23(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuilding23_tbg.png, APBuilding23)
+!define APBuilding23(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuilding23_tbg.png, Building23)
+!define APBuilding23(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuilding23_tbg.png, Building23)
 AzureEntityColoring(APBuilding23_m)
-!define APBuilding23_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuilding23SPRITE, APBuilding23_m)
-!define APBuilding23_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuilding23SPRITE, APBuilding23_m)
+!define APBuilding23_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuilding23SPRITE, Building23)
+!define APBuilding23_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuilding23SPRITE, Building23)
 

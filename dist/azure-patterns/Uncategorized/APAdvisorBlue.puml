@@ -8,9 +8,9 @@ ws1HBgBupKW7mjCbrt2xEJnYTb3JD4kziAGER6tXAmi6FpjOohx5pijADqT4usMWvtfndU-rc-Tl2Fip
 }
 
 AzureEntityColoring(APAdvisorBlue)
-!define APAdvisorBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAdvisorBlue_tbg.png, APAdvisorBlue)
-!define APAdvisorBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAdvisorBlue_tbg.png, APAdvisorBlue)
+!define APAdvisorBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAdvisorBlue_tbg.png, AdvisorBlue)
+!define APAdvisorBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAdvisorBlue_tbg.png, AdvisorBlue)
 AzureEntityColoring(APAdvisorBlue_m)
-!define APAdvisorBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAdvisorBlueSPRITE, APAdvisorBlue_m)
-!define APAdvisorBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAdvisorBlueSPRITE, APAdvisorBlue_m)
+!define APAdvisorBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAdvisorBlueSPRITE, AdvisorBlue)
+!define APAdvisorBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAdvisorBlueSPRITE, AdvisorBlue)
 

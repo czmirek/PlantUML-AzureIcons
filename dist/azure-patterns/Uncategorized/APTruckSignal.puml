@@ -6,9 +6,9 @@ D2eFdsVPnoi2205vKAaGSpT17QqSesu5SbSngEyKDbPHrFWElLGADzzjB6CLqWFbKX7re39MGV6WB3Tm
 }
 
 AzureEntityColoring(APTruckSignal)
-!define APTruckSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTruckSignal_tbg.png, APTruckSignal)
-!define APTruckSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTruckSignal_tbg.png, APTruckSignal)
+!define APTruckSignal(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTruckSignal_tbg.png, TruckSignal)
+!define APTruckSignal(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTruckSignal_tbg.png, TruckSignal)
 AzureEntityColoring(APTruckSignal_m)
-!define APTruckSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTruckSignalSPRITE, APTruckSignal_m)
-!define APTruckSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTruckSignalSPRITE, APTruckSignal_m)
+!define APTruckSignal_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTruckSignalSPRITE, TruckSignal)
+!define APTruckSignal_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTruckSignalSPRITE, TruckSignal)
 

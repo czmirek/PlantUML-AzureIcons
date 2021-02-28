@@ -5,9 +5,9 @@ I58_bEZ6WQqIMAdkuOFZ3IV7qNiIva_bvHk2PS9JDLCLojCB
 }
 
 AzureEntityColoring(CDSStatusNoneOutline)
-!define CDSStatusNoneOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusNoneOutline_tbg.png, CDSStatusNoneOutline)
-!define CDSStatusNoneOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusNoneOutline_tbg.png, CDSStatusNoneOutline)
+!define CDSStatusNoneOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusNoneOutline_tbg.png, StatusNoneOutline)
+!define CDSStatusNoneOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusNoneOutline_tbg.png, StatusNoneOutline)
 AzureEntityColoring(CDSStatusNoneOutline_m)
-!define CDSStatusNoneOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusNoneOutlineSPRITE, CDSStatusNoneOutline_m)
-!define CDSStatusNoneOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusNoneOutlineSPRITE, CDSStatusNoneOutline_m)
+!define CDSStatusNoneOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusNoneOutlineSPRITE, StatusNoneOutline)
+!define CDSStatusNoneOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusNoneOutlineSPRITE, StatusNoneOutline)
 

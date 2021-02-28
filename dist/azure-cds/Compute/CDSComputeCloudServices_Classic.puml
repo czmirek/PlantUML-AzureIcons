@@ -8,9 +8,9 @@ UJAOjQDjljwBrxr8xjF7jnkvYnX-6BJS5OZX25lKeOG2p5qslYCpRuDbRci0FqO4zEEK123pBztYN8hX
 }
 
 AzureEntityColoring(CDSComputeCloudServices_Classic)
-!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, CDSComputeCloudServices_Classic)
-!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, CDSComputeCloudServices_Classic)
+!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, ComputeCloudServices_Classic)
+!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, ComputeCloudServices_Classic)
 AzureEntityColoring(CDSComputeCloudServices_Classic_m)
-!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, CDSComputeCloudServices_Classic_m)
-!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, CDSComputeCloudServices_Classic_m)
+!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, ComputeCloudServices_Classic)
+!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, ComputeCloudServices_Classic)
 

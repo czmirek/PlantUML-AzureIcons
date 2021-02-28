@@ -7,9 +7,9 @@ mqSYUK0A9CraLq6aIhb1xYTv0W
 }
 
 AzureEntityColoring(CDSOtherprivatemarketplace)
-!define CDSOtherprivatemarketplace(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherprivatemarketplace_tbg.png, CDSOtherprivatemarketplace)
-!define CDSOtherprivatemarketplace(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherprivatemarketplace_tbg.png, CDSOtherprivatemarketplace)
+!define CDSOtherprivatemarketplace(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherprivatemarketplace_tbg.png, Otherprivatemarketplace)
+!define CDSOtherprivatemarketplace(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherprivatemarketplace_tbg.png, Otherprivatemarketplace)
 AzureEntityColoring(CDSOtherprivatemarketplace_m)
-!define CDSOtherprivatemarketplace_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherprivatemarketplaceSPRITE, CDSOtherprivatemarketplace_m)
-!define CDSOtherprivatemarketplace_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherprivatemarketplaceSPRITE, CDSOtherprivatemarketplace_m)
+!define CDSOtherprivatemarketplace_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherprivatemarketplaceSPRITE, Otherprivatemarketplace)
+!define CDSOtherprivatemarketplace_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherprivatemarketplaceSPRITE, Otherprivatemarketplace)
 

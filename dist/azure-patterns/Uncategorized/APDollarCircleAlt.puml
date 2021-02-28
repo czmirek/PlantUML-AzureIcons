@@ -8,9 +8,9 @@ AWiK7wXFKCAWoi52mDSAlvmyttf6_x4EN9JCkdK1
 }
 
 AzureEntityColoring(APDollarCircleAlt)
-!define APDollarCircleAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDollarCircleAlt_tbg.png, APDollarCircleAlt)
-!define APDollarCircleAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDollarCircleAlt_tbg.png, APDollarCircleAlt)
+!define APDollarCircleAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDollarCircleAlt_tbg.png, DollarCircleAlt)
+!define APDollarCircleAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDollarCircleAlt_tbg.png, DollarCircleAlt)
 AzureEntityColoring(APDollarCircleAlt_m)
-!define APDollarCircleAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDollarCircleAltSPRITE, APDollarCircleAlt_m)
-!define APDollarCircleAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDollarCircleAltSPRITE, APDollarCircleAlt_m)
+!define APDollarCircleAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDollarCircleAltSPRITE, DollarCircleAlt)
+!define APDollarCircleAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDollarCircleAltSPRITE, DollarCircleAlt)
 

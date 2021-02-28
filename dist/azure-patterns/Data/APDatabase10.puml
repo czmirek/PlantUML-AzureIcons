@@ -1,9 +1,9 @@
 sprite $APDatabase10SPRITE [70x70/16z] xT234GGm50JG6Dj_lsUEO-sBHldILPW2tbjJ3l2Cyi-56o3U7vFDuyjai_u62FUdoLmOnLfhddGLOZks2co5YCHsL1NO2X7PAiHsi1KYybLS0G
 
 AzureEntityColoring(APDatabase10)
-!define APDatabase10(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabase10_tbg.png, APDatabase10)
-!define APDatabase10(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabase10_tbg.png, APDatabase10)
+!define APDatabase10(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabase10_tbg.png, Database10)
+!define APDatabase10(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabase10_tbg.png, Database10)
 AzureEntityColoring(APDatabase10_m)
-!define APDatabase10_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase10SPRITE, APDatabase10_m)
-!define APDatabase10_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase10SPRITE, APDatabase10_m)
+!define APDatabase10_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase10SPRITE, Database10)
+!define APDatabase10_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase10SPRITE, Database10)
 

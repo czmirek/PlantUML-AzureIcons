@@ -6,9 +6,9 @@ ohABo6N5kUTBn85tAsYVFOW0PiUlFMQur2eY-FCY_oF_8wY8p0P47m
 }
 
 AzureEntityColoring(APCloudArrow)
-!define APCloudArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudArrow_tbg.png, APCloudArrow)
-!define APCloudArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudArrow_tbg.png, APCloudArrow)
+!define APCloudArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudArrow_tbg.png, CloudArrow)
+!define APCloudArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudArrow_tbg.png, CloudArrow)
 AzureEntityColoring(APCloudArrow_m)
-!define APCloudArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudArrowSPRITE, APCloudArrow_m)
-!define APCloudArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudArrowSPRITE, APCloudArrow_m)
+!define APCloudArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudArrowSPRITE, CloudArrow)
+!define APCloudArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudArrowSPRITE, CloudArrow)
 

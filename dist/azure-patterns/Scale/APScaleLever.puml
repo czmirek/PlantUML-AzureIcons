@@ -6,9 +6,9 @@ P1EWFXcve96Hs_jqVugSq5jOH19GPCBqYl_jvG4
 }
 
 AzureEntityColoring(APScaleLever)
-!define APScaleLever(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScaleLever_tbg.png, APScaleLever)
-!define APScaleLever(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScaleLever_tbg.png, APScaleLever)
+!define APScaleLever(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScaleLever_tbg.png, ScaleLever)
+!define APScaleLever(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScaleLever_tbg.png, ScaleLever)
 AzureEntityColoring(APScaleLever_m)
-!define APScaleLever_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScaleLeverSPRITE, APScaleLever_m)
-!define APScaleLever_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScaleLeverSPRITE, APScaleLever_m)
+!define APScaleLever_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScaleLeverSPRITE, ScaleLever)
+!define APScaleLever_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScaleLeverSPRITE, ScaleLever)
 

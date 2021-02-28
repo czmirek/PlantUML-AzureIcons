@@ -11,9 +11,9 @@ fT-d_57-A7-KVm4
 }
 
 AzureEntityColoring(APAi)
-!define APAi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAi_tbg.png, APAi)
-!define APAi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAi_tbg.png, APAi)
+!define APAi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAi_tbg.png, Ai)
+!define APAi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAi_tbg.png, Ai)
 AzureEntityColoring(APAi_m)
-!define APAi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAiSPRITE, APAi_m)
-!define APAi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAiSPRITE, APAi_m)
+!define APAi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAiSPRITE, Ai)
+!define APAi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAiSPRITE, Ai)
 

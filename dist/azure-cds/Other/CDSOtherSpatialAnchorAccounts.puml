@@ -8,9 +8,9 @@ vgdYZYFDPTW3U9Lc_NL87xN8yZDb_NNukxLmzGPS9tRWsuUXLjp6wt1gFf475sdOzhzu0G
 }
 
 AzureEntityColoring(CDSOtherSpatialAnchorAccounts)
-!define CDSOtherSpatialAnchorAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherSpatialAnchorAccounts_tbg.png, CDSOtherSpatialAnchorAccounts)
-!define CDSOtherSpatialAnchorAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherSpatialAnchorAccounts_tbg.png, CDSOtherSpatialAnchorAccounts)
+!define CDSOtherSpatialAnchorAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherSpatialAnchorAccounts_tbg.png, OtherSpatialAnchorAccounts)
+!define CDSOtherSpatialAnchorAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherSpatialAnchorAccounts_tbg.png, OtherSpatialAnchorAccounts)
 AzureEntityColoring(CDSOtherSpatialAnchorAccounts_m)
-!define CDSOtherSpatialAnchorAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherSpatialAnchorAccountsSPRITE, CDSOtherSpatialAnchorAccounts_m)
-!define CDSOtherSpatialAnchorAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherSpatialAnchorAccountsSPRITE, CDSOtherSpatialAnchorAccounts_m)
+!define CDSOtherSpatialAnchorAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherSpatialAnchorAccountsSPRITE, OtherSpatialAnchorAccounts)
+!define CDSOtherSpatialAnchorAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherSpatialAnchorAccountsSPRITE, OtherSpatialAnchorAccounts)
 

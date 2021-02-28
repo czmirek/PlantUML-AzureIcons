@@ -8,9 +8,9 @@ H4NHc8tGwBShk5ZHIvNqPkLwUf7S1eucR11et0ObTHNc8J9NMAnJE5U6Tgv3fJyHN2hqhiobmjgLAySA
 }
 
 AzureEntityColoring(APServerlessDatabase)
-!define APServerlessDatabase(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerlessDatabase_tbg.png, APServerlessDatabase)
-!define APServerlessDatabase(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerlessDatabase_tbg.png, APServerlessDatabase)
+!define APServerlessDatabase(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerlessDatabase_tbg.png, ServerlessDatabase)
+!define APServerlessDatabase(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerlessDatabase_tbg.png, ServerlessDatabase)
 AzureEntityColoring(APServerlessDatabase_m)
-!define APServerlessDatabase_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerlessDatabaseSPRITE, APServerlessDatabase_m)
-!define APServerlessDatabase_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerlessDatabaseSPRITE, APServerlessDatabase_m)
+!define APServerlessDatabase_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerlessDatabaseSPRITE, ServerlessDatabase)
+!define APServerlessDatabase_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerlessDatabaseSPRITE, ServerlessDatabase)
 

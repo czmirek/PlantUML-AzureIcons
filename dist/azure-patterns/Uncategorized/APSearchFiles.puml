@@ -6,9 +6,9 @@ CTMdkuC09fCBzS1GYF6aqZrPQM_4jP9pnSjyBD8hXo8LxiHq4l57PuwqYtZ4n5JKr1HeX-5s_8w8N17X
 }
 
 AzureEntityColoring(APSearchFiles)
-!define APSearchFiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchFiles_tbg.png, APSearchFiles)
-!define APSearchFiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchFiles_tbg.png, APSearchFiles)
+!define APSearchFiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchFiles_tbg.png, SearchFiles)
+!define APSearchFiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchFiles_tbg.png, SearchFiles)
 AzureEntityColoring(APSearchFiles_m)
-!define APSearchFiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchFilesSPRITE, APSearchFiles_m)
-!define APSearchFiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchFilesSPRITE, APSearchFiles_m)
+!define APSearchFiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchFilesSPRITE, SearchFiles)
+!define APSearchFiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchFilesSPRITE, SearchFiles)
 

@@ -6,9 +6,9 @@ kMKaLv7Rg2nLix4SrRezLEU9Um
 }
 
 AzureEntityColoring(APCurrencyGraph)
-!define APCurrencyGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, APCurrencyGraph)
-!define APCurrencyGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, APCurrencyGraph)
+!define APCurrencyGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, CurrencyGrh)
+!define APCurrencyGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, CurrencyGrh)
 AzureEntityColoring(APCurrencyGraph_m)
-!define APCurrencyGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, APCurrencyGraph_m)
-!define APCurrencyGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, APCurrencyGraph_m)
+!define APCurrencyGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, CurrencyGrh)
+!define APCurrencyGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, CurrencyGrh)
 

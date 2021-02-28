@@ -8,9 +8,9 @@ V0qXKIeVq7p4-a2Bxm4
 }
 
 AzureEntityColoring(APTruckBuildingCircles)
-!define APTruckBuildingCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTruckBuildingCircles_tbg.png, APTruckBuildingCircles)
-!define APTruckBuildingCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTruckBuildingCircles_tbg.png, APTruckBuildingCircles)
+!define APTruckBuildingCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTruckBuildingCircles_tbg.png, TruckBuildingCircles)
+!define APTruckBuildingCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTruckBuildingCircles_tbg.png, TruckBuildingCircles)
 AzureEntityColoring(APTruckBuildingCircles_m)
-!define APTruckBuildingCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTruckBuildingCirclesSPRITE, APTruckBuildingCircles_m)
-!define APTruckBuildingCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTruckBuildingCirclesSPRITE, APTruckBuildingCircles_m)
+!define APTruckBuildingCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTruckBuildingCirclesSPRITE, TruckBuildingCircles)
+!define APTruckBuildingCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTruckBuildingCirclesSPRITE, TruckBuildingCircles)
 

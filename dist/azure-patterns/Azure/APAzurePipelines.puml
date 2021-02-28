@@ -7,9 +7,9 @@ yCfLmB0AjAKChymOMrKa-h5AAyZCRb8RXCVBRbEvrnS
 }
 
 AzureEntityColoring(APAzurePipelines)
-!define APAzurePipelines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzurePipelines_tbg.png, APAzurePipelines)
-!define APAzurePipelines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzurePipelines_tbg.png, APAzurePipelines)
+!define APAzurePipelines(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzurePipelines_tbg.png, AzurePipelines)
+!define APAzurePipelines(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzurePipelines_tbg.png, AzurePipelines)
 AzureEntityColoring(APAzurePipelines_m)
-!define APAzurePipelines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzurePipelinesSPRITE, APAzurePipelines_m)
-!define APAzurePipelines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzurePipelinesSPRITE, APAzurePipelines_m)
+!define APAzurePipelines_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzurePipelinesSPRITE, AzurePipelines)
+!define APAzurePipelines_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzurePipelinesSPRITE, AzurePipelines)
 

@@ -4,9 +4,9 @@ TXlPNru0Eh0mBymByyAyq4ABKm1-nG9Il4LbCfpVn08mt6NZ5cS1qee5erZB4G
 }
 
 AzureEntityColoring(APFiles)
-!define APFiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFiles_tbg.png, APFiles)
-!define APFiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFiles_tbg.png, APFiles)
+!define APFiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFiles_tbg.png, Files)
+!define APFiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFiles_tbg.png, Files)
 AzureEntityColoring(APFiles_m)
-!define APFiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFilesSPRITE, APFiles_m)
-!define APFiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFilesSPRITE, APFiles_m)
+!define APFiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFilesSPRITE, Files)
+!define APFiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFilesSPRITE, Files)
 

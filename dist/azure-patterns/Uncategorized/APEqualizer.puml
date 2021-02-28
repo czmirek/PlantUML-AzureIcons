@@ -4,9 +4,9 @@ KqIUcM8fJlX_1SRNf6_BIrE_KMGQDsh9QTNDDPcBrEeUdM8fNa00dvbOUsH4bNTxUUWZOubSKDqYeyhh
 }
 
 AzureEntityColoring(APEqualizer)
-!define APEqualizer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEqualizer_tbg.png, APEqualizer)
-!define APEqualizer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEqualizer_tbg.png, APEqualizer)
+!define APEqualizer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEqualizer_tbg.png, Equalizer)
+!define APEqualizer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEqualizer_tbg.png, Equalizer)
 AzureEntityColoring(APEqualizer_m)
-!define APEqualizer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEqualizerSPRITE, APEqualizer_m)
-!define APEqualizer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEqualizerSPRITE, APEqualizer_m)
+!define APEqualizer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEqualizerSPRITE, Equalizer)
+!define APEqualizer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEqualizerSPRITE, Equalizer)
 

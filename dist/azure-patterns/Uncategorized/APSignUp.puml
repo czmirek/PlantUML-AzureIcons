@@ -6,9 +6,9 @@ ouD2eMpAYiHcfVoCmZGheyCKfTYiUCoP51kL4B5ck4tfn6wODWMzq8PfKp1icJQbPYuLFIDGCqNHCm8r
 }
 
 AzureEntityColoring(APSignUp)
-!define APSignUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSignUp_tbg.png, APSignUp)
-!define APSignUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSignUp_tbg.png, APSignUp)
+!define APSignUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSignUp_tbg.png, SignUp)
+!define APSignUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSignUp_tbg.png, SignUp)
 AzureEntityColoring(APSignUp_m)
-!define APSignUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSignUpSPRITE, APSignUp_m)
-!define APSignUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSignUpSPRITE, APSignUp_m)
+!define APSignUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSignUpSPRITE, SignUp)
+!define APSignUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSignUpSPRITE, SignUp)
 

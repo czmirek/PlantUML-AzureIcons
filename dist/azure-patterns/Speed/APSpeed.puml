@@ -11,9 +11,9 @@ KpyoRo5yru_OleCaSnbMdHgQZJjv7Wyi8DUExurEm9E5jBTdWXnjMdQAjyfBedj_9QSyftMEeJh1Z3tj
 }
 
 AzureEntityColoring(APSpeed)
-!define APSpeed(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeed_tbg.png, APSpeed)
-!define APSpeed(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeed_tbg.png, APSpeed)
+!define APSpeed(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeed_tbg.png, Speed)
+!define APSpeed(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeed_tbg.png, Speed)
 AzureEntityColoring(APSpeed_m)
-!define APSpeed_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeedSPRITE, APSpeed_m)
-!define APSpeed_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeedSPRITE, APSpeed_m)
+!define APSpeed_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeedSPRITE, Speed)
+!define APSpeed_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeedSPRITE, Speed)
 

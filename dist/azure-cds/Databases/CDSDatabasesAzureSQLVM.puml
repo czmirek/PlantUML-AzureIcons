@@ -7,9 +7,9 @@ rjiF
 }
 
 AzureEntityColoring(CDSDatabasesAzureSQLVM)
-!define CDSDatabasesAzureSQLVM(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLVM_tbg.png, CDSDatabasesAzureSQLVM)
-!define CDSDatabasesAzureSQLVM(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLVM_tbg.png, CDSDatabasesAzureSQLVM)
+!define CDSDatabasesAzureSQLVM(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLVM_tbg.png, DatabasesAzureSQLVM)
+!define CDSDatabasesAzureSQLVM(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLVM_tbg.png, DatabasesAzureSQLVM)
 AzureEntityColoring(CDSDatabasesAzureSQLVM_m)
-!define CDSDatabasesAzureSQLVM_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLVMSPRITE, CDSDatabasesAzureSQLVM_m)
-!define CDSDatabasesAzureSQLVM_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLVMSPRITE, CDSDatabasesAzureSQLVM_m)
+!define CDSDatabasesAzureSQLVM_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLVMSPRITE, DatabasesAzureSQLVM)
+!define CDSDatabasesAzureSQLVM_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLVMSPRITE, DatabasesAzureSQLVM)
 

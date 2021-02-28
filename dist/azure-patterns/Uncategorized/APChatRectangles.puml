@@ -4,9 +4,9 @@ dpJ8WWPPq20B6cH1OWX1EW4
 }
 
 AzureEntityColoring(APChatRectangles)
-!define APChatRectangles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APChatRectangles_tbg.png, APChatRectangles)
-!define APChatRectangles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APChatRectangles_tbg.png, APChatRectangles)
+!define APChatRectangles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APChatRectangles_tbg.png, ChatRectangles)
+!define APChatRectangles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APChatRectangles_tbg.png, ChatRectangles)
 AzureEntityColoring(APChatRectangles_m)
-!define APChatRectangles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APChatRectanglesSPRITE, APChatRectangles_m)
-!define APChatRectangles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APChatRectanglesSPRITE, APChatRectangles_m)
+!define APChatRectangles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APChatRectanglesSPRITE, ChatRectangles)
+!define APChatRectangles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APChatRectanglesSPRITE, ChatRectangles)
 

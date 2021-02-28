@@ -6,9 +6,9 @@ a__N_Iqu9i76qezfSg1EDdUPieOdFce1eX4FC3MOiKcuSy0zflBgRiGtJjFw3jiAkCFc1E-nnT5tsIZT
 }
 
 AzureEntityColoring(CDSNetworkingProximityPlacementGroups)
-!define CDSNetworkingProximityPlacementGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingProximityPlacementGroups_tbg.png, CDSNetworkingProximityPlacementGroups)
-!define CDSNetworkingProximityPlacementGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingProximityPlacementGroups_tbg.png, CDSNetworkingProximityPlacementGroups)
+!define CDSNetworkingProximityPlacementGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingProximityPlacementGroups_tbg.png, NetworkingProximityPlacementGroups)
+!define CDSNetworkingProximityPlacementGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingProximityPlacementGroups_tbg.png, NetworkingProximityPlacementGroups)
 AzureEntityColoring(CDSNetworkingProximityPlacementGroups_m)
-!define CDSNetworkingProximityPlacementGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingProximityPlacementGroupsSPRITE, CDSNetworkingProximityPlacementGroups_m)
-!define CDSNetworkingProximityPlacementGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingProximityPlacementGroupsSPRITE, CDSNetworkingProximityPlacementGroups_m)
+!define CDSNetworkingProximityPlacementGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingProximityPlacementGroupsSPRITE, NetworkingProximityPlacementGroups)
+!define CDSNetworkingProximityPlacementGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingProximityPlacementGroupsSPRITE, NetworkingProximityPlacementGroups)
 

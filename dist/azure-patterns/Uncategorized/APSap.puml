@@ -7,9 +7,9 @@ z0OB9SiSDRx1mdHKrlaD5aeGDCmBkkZJpAY4AFZU30Q3Vm
 }
 
 AzureEntityColoring(APSap)
-!define APSap(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSap_tbg.png, APSap)
-!define APSap(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSap_tbg.png, APSap)
+!define APSap(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSap_tbg.png, S)
+!define APSap(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSap_tbg.png, S)
 AzureEntityColoring(APSap_m)
-!define APSap_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSapSPRITE, APSap_m)
-!define APSap_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSapSPRITE, APSap_m)
+!define APSap_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSapSPRITE, S)
+!define APSap_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSapSPRITE, S)
 

@@ -6,9 +6,9 @@ RSKx24NrdBQ4ecjff7HyfgYSYbPyQyhSms1qpfMF5TkQJ4i724NCBiBoHX2tgtaUX574SXa2evJM-Zm2
 }
 
 AzureEntityColoring(APGrowthCurveCircles)
-!define APGrowthCurveCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrowthCurveCircles_tbg.png, APGrowthCurveCircles)
-!define APGrowthCurveCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrowthCurveCircles_tbg.png, APGrowthCurveCircles)
+!define APGrowthCurveCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrowthCurveCircles_tbg.png, GrowthCurveCircles)
+!define APGrowthCurveCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrowthCurveCircles_tbg.png, GrowthCurveCircles)
 AzureEntityColoring(APGrowthCurveCircles_m)
-!define APGrowthCurveCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrowthCurveCirclesSPRITE, APGrowthCurveCircles_m)
-!define APGrowthCurveCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrowthCurveCirclesSPRITE, APGrowthCurveCircles_m)
+!define APGrowthCurveCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrowthCurveCirclesSPRITE, GrowthCurveCircles)
+!define APGrowthCurveCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrowthCurveCirclesSPRITE, GrowthCurveCircles)
 

@@ -7,9 +7,9 @@ vJX_xT9YV7zhV0O
 }
 
 AzureEntityColoring(APFourPointsConnected)
-!define APFourPointsConnected(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFourPointsConnected_tbg.png, APFourPointsConnected)
-!define APFourPointsConnected(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFourPointsConnected_tbg.png, APFourPointsConnected)
+!define APFourPointsConnected(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFourPointsConnected_tbg.png, FourPointsConnected)
+!define APFourPointsConnected(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFourPointsConnected_tbg.png, FourPointsConnected)
 AzureEntityColoring(APFourPointsConnected_m)
-!define APFourPointsConnected_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFourPointsConnectedSPRITE, APFourPointsConnected_m)
-!define APFourPointsConnected_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFourPointsConnectedSPRITE, APFourPointsConnected_m)
+!define APFourPointsConnected_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFourPointsConnectedSPRITE, FourPointsConnected)
+!define APFourPointsConnected_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFourPointsConnectedSPRITE, FourPointsConnected)
 

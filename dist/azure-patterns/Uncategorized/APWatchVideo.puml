@@ -4,9 +4,9 @@ AM2yyU-2yRPP1yQxLYCORzobm7ZVxctv4qurLpGtilbtJ5UY8fkProIDYNbB
 }
 
 AzureEntityColoring(APWatchVideo)
-!define APWatchVideo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWatchVideo_tbg.png, APWatchVideo)
-!define APWatchVideo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWatchVideo_tbg.png, APWatchVideo)
+!define APWatchVideo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWatchVideo_tbg.png, WatchVideo)
+!define APWatchVideo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWatchVideo_tbg.png, WatchVideo)
 AzureEntityColoring(APWatchVideo_m)
-!define APWatchVideo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWatchVideoSPRITE, APWatchVideo_m)
-!define APWatchVideo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWatchVideoSPRITE, APWatchVideo_m)
+!define APWatchVideo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWatchVideoSPRITE, WatchVideo)
+!define APWatchVideo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWatchVideoSPRITE, WatchVideo)
 

@@ -5,9 +5,9 @@ YY6cj1qtHaAH0Jb5HZGroZHXrgwqxSgkx8eEiOX_r2q
 }
 
 AzureEntityColoring(APSquareCirclePlus)
-!define APSquareCirclePlus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquareCirclePlus_tbg.png, APSquareCirclePlus)
-!define APSquareCirclePlus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquareCirclePlus_tbg.png, APSquareCirclePlus)
+!define APSquareCirclePlus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquareCirclePlus_tbg.png, SquareCirclePlus)
+!define APSquareCirclePlus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquareCirclePlus_tbg.png, SquareCirclePlus)
 AzureEntityColoring(APSquareCirclePlus_m)
-!define APSquareCirclePlus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareCirclePlusSPRITE, APSquareCirclePlus_m)
-!define APSquareCirclePlus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareCirclePlusSPRITE, APSquareCirclePlus_m)
+!define APSquareCirclePlus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareCirclePlusSPRITE, SquareCirclePlus)
+!define APSquareCirclePlus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareCirclePlusSPRITE, SquareCirclePlus)
 

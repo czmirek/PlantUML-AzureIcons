@@ -10,9 +10,9 @@ N-zmmVDBMGz_4UwHXdsVf9iyntkfnT2iRuEJepkpALjUVnLwXQSv0CX7x2L13FxwFqgCFWQ6YYXz0RrM
 }
 
 AzureEntityColoring(APCloudServicesOutline)
-!define APCloudServicesOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudServicesOutline_tbg.png, APCloudServicesOutline)
-!define APCloudServicesOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudServicesOutline_tbg.png, APCloudServicesOutline)
+!define APCloudServicesOutline(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudServicesOutline_tbg.png, CloudServicesOutline)
+!define APCloudServicesOutline(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudServicesOutline_tbg.png, CloudServicesOutline)
 AzureEntityColoring(APCloudServicesOutline_m)
-!define APCloudServicesOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudServicesOutlineSPRITE, APCloudServicesOutline_m)
-!define APCloudServicesOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudServicesOutlineSPRITE, APCloudServicesOutline_m)
+!define APCloudServicesOutline_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudServicesOutlineSPRITE, CloudServicesOutline)
+!define APCloudServicesOutline_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudServicesOutlineSPRITE, CloudServicesOutline)
 

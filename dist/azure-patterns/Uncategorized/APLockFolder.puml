@@ -5,9 +5,9 @@ ZjVDpf9Jo7nWNF682TEA5rUQqfG_K-i2
 }
 
 AzureEntityColoring(APLockFolder)
-!define APLockFolder(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockFolder_tbg.png, APLockFolder)
-!define APLockFolder(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockFolder_tbg.png, APLockFolder)
+!define APLockFolder(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLockFolder_tbg.png, LockFolder)
+!define APLockFolder(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLockFolder_tbg.png, LockFolder)
 AzureEntityColoring(APLockFolder_m)
-!define APLockFolder_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockFolderSPRITE, APLockFolder_m)
-!define APLockFolder_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockFolderSPRITE, APLockFolder_m)
+!define APLockFolder_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockFolderSPRITE, LockFolder)
+!define APLockFolder_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockFolderSPRITE, LockFolder)
 

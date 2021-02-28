@@ -6,9 +6,9 @@ soyg6bB-d36__wDX2AimX5KMWdWL1V4g0q2qoWLo00HK0A9L6E9L6E9Lxf0cVA7I0qIe0CIh4CIh04Ih
 }
 
 AzureEntityColoring(CDSCommandAzureQuickstart)
-!define CDSCommandAzureQuickstart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAzureQuickstart_tbg.png, CDSCommandAzureQuickstart)
-!define CDSCommandAzureQuickstart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAzureQuickstart_tbg.png, CDSCommandAzureQuickstart)
+!define CDSCommandAzureQuickstart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAzureQuickstart_tbg.png, CommandAzureQuickstart)
+!define CDSCommandAzureQuickstart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAzureQuickstart_tbg.png, CommandAzureQuickstart)
 AzureEntityColoring(CDSCommandAzureQuickstart_m)
-!define CDSCommandAzureQuickstart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAzureQuickstartSPRITE, CDSCommandAzureQuickstart_m)
-!define CDSCommandAzureQuickstart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAzureQuickstartSPRITE, CDSCommandAzureQuickstart_m)
+!define CDSCommandAzureQuickstart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAzureQuickstartSPRITE, CommandAzureQuickstart)
+!define CDSCommandAzureQuickstart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAzureQuickstartSPRITE, CommandAzureQuickstart)
 

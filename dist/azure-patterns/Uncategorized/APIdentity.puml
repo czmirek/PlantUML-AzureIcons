@@ -8,9 +8,9 @@ FIyAW0LU6IhBMQalW1LIP5UC3PcKMbLQk18rb7vsAucxcy7HYaifHqcgNSQaT8PnVDUbeWpBlzoxwMPc
 }
 
 AzureEntityColoring(APIdentity)
-!define APIdentity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIdentity_tbg.png, APIdentity)
-!define APIdentity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIdentity_tbg.png, APIdentity)
+!define APIdentity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIdentity_tbg.png, Identity)
+!define APIdentity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIdentity_tbg.png, Identity)
 AzureEntityColoring(APIdentity_m)
-!define APIdentity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIdentitySPRITE, APIdentity_m)
-!define APIdentity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIdentitySPRITE, APIdentity_m)
+!define APIdentity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIdentitySPRITE, Identity)
+!define APIdentity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIdentitySPRITE, Identity)
 

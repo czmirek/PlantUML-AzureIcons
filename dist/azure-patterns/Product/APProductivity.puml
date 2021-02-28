@@ -7,9 +7,9 @@ SatRLg9wMTyNLlUoCNoVxZBB5Udb7g3xVkHbWf4BkYd90F9jdnvUCWa0hv0HwjjzhBzcxjCKGMpw6Mi8
 }
 
 AzureEntityColoring(APProductivity)
-!define APProductivity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APProductivity_tbg.png, APProductivity)
-!define APProductivity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APProductivity_tbg.png, APProductivity)
+!define APProductivity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APProductivity_tbg.png, Productivity)
+!define APProductivity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APProductivity_tbg.png, Productivity)
 AzureEntityColoring(APProductivity_m)
-!define APProductivity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProductivitySPRITE, APProductivity_m)
-!define APProductivity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProductivitySPRITE, APProductivity_m)
+!define APProductivity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProductivitySPRITE, Productivity)
+!define APProductivity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProductivitySPRITE, Productivity)
 

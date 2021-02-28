@@ -5,9 +5,9 @@ QKLYBLdHWhHQkbmtAwrLM-loYJRrp9OtiNgs-KsLMLdhMVhEql2Th6V32TpM89T6rc1xfp8hZm
 }
 
 AzureEntityColoring(APPeopleFrameIdentitySnapshotIdPhoto)
-!define APPeopleFrameIdentitySnapshotIdPhoto(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPeopleFrameIdentitySnapshotIdPhoto_tbg.png, APPeopleFrameIdentitySnapshotIdPhoto)
-!define APPeopleFrameIdentitySnapshotIdPhoto(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPeopleFrameIdentitySnapshotIdPhoto_tbg.png, APPeopleFrameIdentitySnapshotIdPhoto)
+!define APPeopleFrameIdentitySnapshotIdPhoto(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPeopleFrameIdentitySnapshotIdPhoto_tbg.png, PeopleFrameIdentitySnshotIdPhoto)
+!define APPeopleFrameIdentitySnapshotIdPhoto(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPeopleFrameIdentitySnapshotIdPhoto_tbg.png, PeopleFrameIdentitySnshotIdPhoto)
 AzureEntityColoring(APPeopleFrameIdentitySnapshotIdPhoto_m)
-!define APPeopleFrameIdentitySnapshotIdPhoto_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPeopleFrameIdentitySnapshotIdPhotoSPRITE, APPeopleFrameIdentitySnapshotIdPhoto_m)
-!define APPeopleFrameIdentitySnapshotIdPhoto_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPeopleFrameIdentitySnapshotIdPhotoSPRITE, APPeopleFrameIdentitySnapshotIdPhoto_m)
+!define APPeopleFrameIdentitySnapshotIdPhoto_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPeopleFrameIdentitySnapshotIdPhotoSPRITE, PeopleFrameIdentitySnshotIdPhoto)
+!define APPeopleFrameIdentitySnapshotIdPhoto_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPeopleFrameIdentitySnapshotIdPhotoSPRITE, PeopleFrameIdentitySnshotIdPhoto)
 

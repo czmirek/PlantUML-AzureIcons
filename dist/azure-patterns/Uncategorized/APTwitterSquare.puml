@@ -5,9 +5,9 @@ yFAlOnf3NjGCOnRP-kyqvoqtEvVhSM2f5ZjcqVALdSYgebIEcMWg7PYBNcQSM3u6LHWqpIEhYbKPuVX0
 }
 
 AzureEntityColoring(APTwitterSquare)
-!define APTwitterSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwitterSquare_tbg.png, APTwitterSquare)
-!define APTwitterSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwitterSquare_tbg.png, APTwitterSquare)
+!define APTwitterSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwitterSquare_tbg.png, TwitterSquare)
+!define APTwitterSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwitterSquare_tbg.png, TwitterSquare)
 AzureEntityColoring(APTwitterSquare_m)
-!define APTwitterSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwitterSquareSPRITE, APTwitterSquare_m)
-!define APTwitterSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwitterSquareSPRITE, APTwitterSquare_m)
+!define APTwitterSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwitterSquareSPRITE, TwitterSquare)
+!define APTwitterSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwitterSquareSPRITE, TwitterSquare)
 

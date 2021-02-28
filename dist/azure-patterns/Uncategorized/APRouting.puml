@@ -5,9 +5,9 @@ GSn40G8c2X0mKO20AGK8c2X0m4G10gOK862Y004J1GYOKe20YG84J1GWO4eHOgOK8MPA4MAc527kfXpB
 }
 
 AzureEntityColoring(APRouting)
-!define APRouting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRouting_tbg.png, APRouting)
-!define APRouting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRouting_tbg.png, APRouting)
+!define APRouting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRouting_tbg.png, Routing)
+!define APRouting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRouting_tbg.png, Routing)
 AzureEntityColoring(APRouting_m)
-!define APRouting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRoutingSPRITE, APRouting_m)
-!define APRouting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRoutingSPRITE, APRouting_m)
+!define APRouting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRoutingSPRITE, Routing)
+!define APRouting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRoutingSPRITE, Routing)
 

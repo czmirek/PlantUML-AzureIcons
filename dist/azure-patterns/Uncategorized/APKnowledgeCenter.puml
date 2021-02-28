@@ -8,9 +8,9 @@ lC4YofVEosNv0G
 }
 
 AzureEntityColoring(APKnowledgeCenter)
-!define APKnowledgeCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKnowledgeCenter_tbg.png, APKnowledgeCenter)
-!define APKnowledgeCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKnowledgeCenter_tbg.png, APKnowledgeCenter)
+!define APKnowledgeCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKnowledgeCenter_tbg.png, KnowledgeCenter)
+!define APKnowledgeCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKnowledgeCenter_tbg.png, KnowledgeCenter)
 AzureEntityColoring(APKnowledgeCenter_m)
-!define APKnowledgeCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKnowledgeCenterSPRITE, APKnowledgeCenter_m)
-!define APKnowledgeCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKnowledgeCenterSPRITE, APKnowledgeCenter_m)
+!define APKnowledgeCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKnowledgeCenterSPRITE, KnowledgeCenter)
+!define APKnowledgeCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKnowledgeCenterSPRITE, KnowledgeCenter)
 

@@ -9,9 +9,9 @@ cQ6vKJmfQX0oPwbYPobDj7wXBub6SwBUJisLfx7F_7JsvXI85-qIfaX-9La4YijA4CEI643rAI64iK08
 }
 
 AzureEntityColoring(APGear03)
-!define APGear03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGear03_tbg.png, APGear03)
-!define APGear03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGear03_tbg.png, APGear03)
+!define APGear03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGear03_tbg.png, Gear03)
+!define APGear03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGear03_tbg.png, Gear03)
 AzureEntityColoring(APGear03_m)
-!define APGear03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGear03SPRITE, APGear03_m)
-!define APGear03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGear03SPRITE, APGear03_m)
+!define APGear03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGear03SPRITE, Gear03)
+!define APGear03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGear03SPRITE, Gear03)
 

@@ -5,9 +5,9 @@ xPK5OiDG241nkF-5fzGjVERZrUsXJG1W68PX88G-78OV80dzCH8NuLv968aBBZio5xLN3wqvp73N5sHV
 }
 
 AzureEntityColoring(APDevopsScrum)
-!define APDevopsScrum(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsScrum_tbg.png, APDevopsScrum)
-!define APDevopsScrum(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsScrum_tbg.png, APDevopsScrum)
+!define APDevopsScrum(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsScrum_tbg.png, DevopsScrum)
+!define APDevopsScrum(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsScrum_tbg.png, DevopsScrum)
 AzureEntityColoring(APDevopsScrum_m)
-!define APDevopsScrum_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsScrumSPRITE, APDevopsScrum_m)
-!define APDevopsScrum_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsScrumSPRITE, APDevopsScrum_m)
+!define APDevopsScrum_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsScrumSPRITE, DevopsScrum)
+!define APDevopsScrum_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsScrumSPRITE, DevopsScrum)
 

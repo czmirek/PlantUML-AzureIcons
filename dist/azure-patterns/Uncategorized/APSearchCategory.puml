@@ -5,9 +5,9 @@ ui2sG0XtF94Q2I4gZ1jj50evQIoY8grGD6Js_I4PKcmAYQZ6z04AVOYKKde3
 }
 
 AzureEntityColoring(APSearchCategory)
-!define APSearchCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchCategory_tbg.png, APSearchCategory)
-!define APSearchCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchCategory_tbg.png, APSearchCategory)
+!define APSearchCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchCategory_tbg.png, SearchCategory)
+!define APSearchCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchCategory_tbg.png, SearchCategory)
 AzureEntityColoring(APSearchCategory_m)
-!define APSearchCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchCategorySPRITE, APSearchCategory_m)
-!define APSearchCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchCategorySPRITE, APSearchCategory_m)
+!define APSearchCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchCategorySPRITE, SearchCategory)
+!define APSearchCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchCategorySPRITE, SearchCategory)
 

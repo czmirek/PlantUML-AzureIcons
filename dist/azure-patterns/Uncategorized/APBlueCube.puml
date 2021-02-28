@@ -9,9 +9,9 @@ qPh7_IuOSVT-fCHTF1H8GA4JisD3HUCriHxHsDxOPz4uTh5Rea4UGmueSK36MHUD0nA7HpGEIEoMwATF
 }
 
 AzureEntityColoring(APBlueCube)
-!define APBlueCube(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueCube_tbg.png, APBlueCube)
-!define APBlueCube(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueCube_tbg.png, APBlueCube)
+!define APBlueCube(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueCube_tbg.png, BlueCube)
+!define APBlueCube(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueCube_tbg.png, BlueCube)
 AzureEntityColoring(APBlueCube_m)
-!define APBlueCube_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueCubeSPRITE, APBlueCube_m)
-!define APBlueCube_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueCubeSPRITE, APBlueCube_m)
+!define APBlueCube_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueCubeSPRITE, BlueCube)
+!define APBlueCube_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueCubeSPRITE, BlueCube)
 

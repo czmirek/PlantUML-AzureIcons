@@ -8,9 +8,9 @@ Ged2u2n5jTgzU5_ocFOM4lt2aavl8KdVM9BVGeBw5XAyYGHl8a5_2mdAMqZ0Ro2nC0yb_YUkG190fGLV
 }
 
 AzureEntityColoring(APMediaIndexer)
-!define APMediaIndexer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaIndexer_tbg.png, APMediaIndexer)
-!define APMediaIndexer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaIndexer_tbg.png, APMediaIndexer)
+!define APMediaIndexer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaIndexer_tbg.png, MediaIndexer)
+!define APMediaIndexer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaIndexer_tbg.png, MediaIndexer)
 AzureEntityColoring(APMediaIndexer_m)
-!define APMediaIndexer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaIndexerSPRITE, APMediaIndexer_m)
-!define APMediaIndexer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaIndexerSPRITE, APMediaIndexer_m)
+!define APMediaIndexer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaIndexerSPRITE, MediaIndexer)
+!define APMediaIndexer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaIndexerSPRITE, MediaIndexer)
 

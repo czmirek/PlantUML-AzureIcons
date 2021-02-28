@@ -5,9 +5,9 @@ j8j7eh1e_xO
 }
 
 AzureEntityColoring(APNetappColor)
-!define APNetappColor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetappColor_tbg.png, APNetappColor)
-!define APNetappColor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetappColor_tbg.png, APNetappColor)
+!define APNetappColor(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetappColor_tbg.png, NetpColor)
+!define APNetappColor(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetappColor_tbg.png, NetpColor)
 AzureEntityColoring(APNetappColor_m)
-!define APNetappColor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetappColorSPRITE, APNetappColor_m)
-!define APNetappColor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetappColorSPRITE, APNetappColor_m)
+!define APNetappColor_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetappColorSPRITE, NetpColor)
+!define APNetappColor_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetappColorSPRITE, NetpColor)
 

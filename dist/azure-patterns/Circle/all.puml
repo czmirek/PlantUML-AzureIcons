@@ -8,11 +8,11 @@ xdCiHj6dQ3nw81vVV4ENSZu6vT0JNCLDuEwYxgwY_Z-dKv2TBnPQZzpTmVKCdkRFTP2QGcIKiNXg9ZB8
 }
 
 AzureEntityColoring(APCircleBar)
-!define APCircleBar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleBar_tbg.png, APCircleBar)
-!define APCircleBar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleBar_tbg.png, APCircleBar)
+!define APCircleBar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleBar_tbg.png, CircleBar)
+!define APCircleBar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleBar_tbg.png, CircleBar)
 AzureEntityColoring(APCircleBar_m)
-!define APCircleBar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleBarSPRITE, APCircleBar_m)
-!define APCircleBar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleBarSPRITE, APCircleBar_m)
+!define APCircleBar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleBarSPRITE, CircleBar)
+!define APCircleBar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleBarSPRITE, CircleBar)
 
 sprite $APCircleCloudSPRITE [70x70/16z] {
 dPO9SkKm24IXMvjp__lEPlbJXK8myx8xvgd19FKbHXLaKn5f95IbZgBzuxRSGEiAPwcAbArvYq6jEinIz9ZZi1XCWhIMMEng2FoP1EvfqsT4qatqE1Jlka8s
@@ -24,11 +24,11 @@ S_I_gZxcvNxJaz4v82BkKleSTRwn3Cd0oYmByWAkdooJyXBEm78DI0NEorlMeDHHzZd_3M7DsQaIyni
 }
 
 AzureEntityColoring(APCircleCloud)
-!define APCircleCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, APCircleCloud)
-!define APCircleCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, APCircleCloud)
+!define APCircleCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, CircleCloud)
+!define APCircleCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloud_tbg.png, CircleCloud)
 AzureEntityColoring(APCircleCloud_m)
-!define APCircleCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, APCircleCloud_m)
-!define APCircleCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, APCircleCloud_m)
+!define APCircleCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, CircleCloud)
+!define APCircleCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudSPRITE, CircleCloud)
 
 sprite $APCircleCloudAltSPRITE [70x70/16z] {
 jPW7Tg0m34HHl_-9KzWuApnWoRoNsKstFneLsl7t8XRv-i92z98W7j-ohs_jttUy6uEUY4mvvRB16BioPKZx3AHiSSOEf6HLlYYYGGbVGWIMduKHyvX4NJSc
@@ -40,11 +40,11 @@ ebkFr58yJpV7dxoWD0T5AehHqP6iADwVUt6al7gJmmOKvPTlfTJqkzbCYZTJdm
 }
 
 AzureEntityColoring(APCircleCloudAlt)
-!define APCircleCloudAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloudAlt_tbg.png, APCircleCloudAlt)
-!define APCircleCloudAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloudAlt_tbg.png, APCircleCloudAlt)
+!define APCircleCloudAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCloudAlt_tbg.png, CircleCloudAlt)
+!define APCircleCloudAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCloudAlt_tbg.png, CircleCloudAlt)
 AzureEntityColoring(APCircleCloudAlt_m)
-!define APCircleCloudAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudAltSPRITE, APCircleCloudAlt_m)
-!define APCircleCloudAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudAltSPRITE, APCircleCloudAlt_m)
+!define APCircleCloudAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCloudAltSPRITE, CircleCloudAlt)
+!define APCircleCloudAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCloudAltSPRITE, CircleCloudAlt)
 
 sprite $APCircleCheckSPRITE [70x70/16z] {
 jTW9hkKW34HH0mRisl-2MtCfBqDJilvTm578Q69_NlUv8n8PU_befZTMuAVSBX5j9XxBrIi6srqmQWwDZrRxFf30KJa-a94uRRuY3g4j8093fCmCoAqRqXEt
@@ -55,11 +55,11 @@ JAkDkHCibfCGwsEu--Z_0Vu1
 }
 
 AzureEntityColoring(APCircleCheck)
-!define APCircleCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCheck_tbg.png, APCircleCheck)
-!define APCircleCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCheck_tbg.png, APCircleCheck)
+!define APCircleCheck(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleCheck_tbg.png, CircleCheck)
+!define APCircleCheck(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleCheck_tbg.png, CircleCheck)
 AzureEntityColoring(APCircleCheck_m)
-!define APCircleCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCheckSPRITE, APCircleCheck_m)
-!define APCircleCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCheckSPRITE, APCircleCheck_m)
+!define APCircleCheck_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleCheckSPRITE, CircleCheck)
+!define APCircleCheck_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleCheckSPRITE, CircleCheck)
 
 sprite $APCircleInsideCirclesSPRITE [70x70/16z] {
 tLZRTiGW25GHGV__WzkSjLd7IHgxnwVEMmXo1o_X6rAyUP7mHbIhrN8Oa8itquHCpSiFKsalbFUA-g9uEbTuPzAJIJl5u_5LsmyS_n-GBkJDP9t9taonMmAA
@@ -72,11 +72,11 @@ bnDynQ4QIqklEEEttJmMBRmetRzk-VIwPLUlMvtf2m
 }
 
 AzureEntityColoring(APCircleInsideCircles)
-!define APCircleInsideCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleInsideCircles_tbg.png, APCircleInsideCircles)
-!define APCircleInsideCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleInsideCircles_tbg.png, APCircleInsideCircles)
+!define APCircleInsideCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleInsideCircles_tbg.png, CircleInsideCircles)
+!define APCircleInsideCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleInsideCircles_tbg.png, CircleInsideCircles)
 AzureEntityColoring(APCircleInsideCircles_m)
-!define APCircleInsideCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleInsideCirclesSPRITE, APCircleInsideCircles_m)
-!define APCircleInsideCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleInsideCirclesSPRITE, APCircleInsideCircles_m)
+!define APCircleInsideCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleInsideCirclesSPRITE, CircleInsideCircles)
+!define APCircleInsideCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleInsideCirclesSPRITE, CircleInsideCircles)
 
 sprite $APCircleLightningSPRITE [70x70/16z] {
 xPPR5fqW34N9YK7C_EVR5rvgi1p4_jxzxrvvIj8hleZyv_URxSNTKagwRGh82qNnIhLKraHQ5S52HTmHBHLTSKHB05D9TgUM2azBYiyiyt3q28AocwBQWSwa
@@ -87,11 +87,11 @@ mLYGa1CFJeAneIHrp_rEWf77roRcvmj_x6Cm-uBbVZsBBrym6aAf67aW5sxmGYHCW-vg7aYu1dsU0mdL
 }
 
 AzureEntityColoring(APCircleLightning)
-!define APCircleLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, APCircleLightning)
-!define APCircleLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, APCircleLightning)
+!define APCircleLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, CircleLightning)
+!define APCircleLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, CircleLightning)
 AzureEntityColoring(APCircleLightning_m)
-!define APCircleLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, APCircleLightning_m)
-!define APCircleLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, APCircleLightning_m)
+!define APCircleLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, CircleLightning)
+!define APCircleLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, CircleLightning)
 
 sprite $APCircleLocationSPRITE [70x70/16z] {
 dPTPskCW30IriFh-zvt5iNvYfiAOzBE-IhT4P93FifHBFKH4avkfohRKot7gHNd9za2f7Q6WR8Ey1s5GXbmVCS87K9voD1XC2SvEc47PmfGPqMe-P-u-S_HX
@@ -104,11 +104,11 @@ aF4jQ9WvydStik_DE9pfjf_80pAaNzwQfx5wG5hUkS7BfFBDQq8N3wJksoyRVcNPnYiB8A6ALUgmGTTF
 }
 
 AzureEntityColoring(APCircleLocation)
-!define APCircleLocation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLocation_tbg.png, APCircleLocation)
-!define APCircleLocation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLocation_tbg.png, APCircleLocation)
+!define APCircleLocation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLocation_tbg.png, CircleLocation)
+!define APCircleLocation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLocation_tbg.png, CircleLocation)
 AzureEntityColoring(APCircleLocation_m)
-!define APCircleLocation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLocationSPRITE, APCircleLocation_m)
-!define APCircleLocation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLocationSPRITE, APCircleLocation_m)
+!define APCircleLocation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLocationSPRITE, CircleLocation)
+!define APCircleLocation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLocationSPRITE, CircleLocation)
 
 sprite $APCircleMeterSPRITE [70x70/16z] {
 xPTNbeH024KDX7hkVxyJf1muZaXr-EpxsU7A0qpJetnOIBHX-m5DXPR73JCfjXDGUiYnwfQWwwY3sdO3QAWER0KewvdFMVRsucJM-JuCOZE5YUXNoqGiYi5o
@@ -120,11 +120,11 @@ zcDE3bF6wd-tvYO_CC2LHUo8wHWDBThRTWkodQhBGR3e3vnboZIiFxWbBRi5pLrYt5eOhk74KjT2yf25
 }
 
 AzureEntityColoring(APCircleMeter)
-!define APCircleMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, APCircleMeter)
-!define APCircleMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, APCircleMeter)
+!define APCircleMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, CircleMeter)
+!define APCircleMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMeter_tbg.png, CircleMeter)
 AzureEntityColoring(APCircleMeter_m)
-!define APCircleMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, APCircleMeter_m)
-!define APCircleMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, APCircleMeter_m)
+!define APCircleMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, CircleMeter)
+!define APCircleMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMeterSPRITE, CircleMeter)
 
 sprite $APCircleMoneySPRITE [70x70/16z] {
 dPW7piKm28DZ8Altl-y_7xKgrUcmvXlz0fYi5YsOkqVCqLkubHU2Hshxrsp-0a4ArGDt6KP0KgXPNp188IUk8HwIGeu_3CJThBO-vf7JRmVYXiC0TMpKm0t8
@@ -137,11 +137,11 @@ _VpmpPmsVmGnySED4cFe8SVLPOvXfzIASnsEYLiM0nLNRtNZq_QbHeM-VMeRM6A278M4Q1o45YycEpLx
 }
 
 AzureEntityColoring(APCircleMoney)
-!define APCircleMoney(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoney_tbg.png, APCircleMoney)
-!define APCircleMoney(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoney_tbg.png, APCircleMoney)
+!define APCircleMoney(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoney_tbg.png, CircleMoney)
+!define APCircleMoney(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoney_tbg.png, CircleMoney)
 AzureEntityColoring(APCircleMoney_m)
-!define APCircleMoney_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneySPRITE, APCircleMoney_m)
-!define APCircleMoney_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneySPRITE, APCircleMoney_m)
+!define APCircleMoney_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneySPRITE, CircleMoney)
+!define APCircleMoney_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneySPRITE, CircleMoney)
 
 sprite $APCircleMoneyAltSPRITE [70x70/16z] {
 hPVNOkiW343H7l__ltUXNjms8edfUUmura2o6S-9S3TX74T45iQ7bY8K3os5qw6bS3oq57h38ch-nHGqxe5iUK76NK1YQMpSXvV7nm4IFw81EzGKSbYRWWux
@@ -154,11 +154,11 @@ zhFbhrvHQNT1WiXNmW7D9Tc_2OFxczfUKaaL8N3xzcbvmOJmUX5MRpPVryA5cyfSCf-8vTyLPu--STDj
 }
 
 AzureEntityColoring(APCircleMoneyAlt)
-!define APCircleMoneyAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyAlt_tbg.png, APCircleMoneyAlt)
-!define APCircleMoneyAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyAlt_tbg.png, APCircleMoneyAlt)
+!define APCircleMoneyAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyAlt_tbg.png, CircleMoneyAlt)
+!define APCircleMoneyAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyAlt_tbg.png, CircleMoneyAlt)
 AzureEntityColoring(APCircleMoneyAlt_m)
-!define APCircleMoneyAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyAltSPRITE, APCircleMoneyAlt_m)
-!define APCircleMoneyAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyAltSPRITE, APCircleMoneyAlt_m)
+!define APCircleMoneyAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyAltSPRITE, CircleMoneyAlt)
+!define APCircleMoneyAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyAltSPRITE, CircleMoneyAlt)
 
 sprite $APCircleMoneyBlueSPRITE [70x70/16z] {
 jPXPjZCX28GR417tlzz_I9kGH8iUxhdrxFbIJDfaEnOHRVT5BEM_hFVkLiiDrauOb24tkUJYWGXAo9MkCu8IgdoT4PHGFSv7AOWISiaXdqQ4cObOYbRp3uvc
@@ -171,11 +171,11 @@ syZ1Ze14llhTaYzGO0od75Y_u8OQQkW6LmtypMmmqkxboZQ1FtgCJcqs3X_T8RsmPM4ttPTJ9NPgSVGU
 }
 
 AzureEntityColoring(APCircleMoneyBlue)
-!define APCircleMoneyBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyBlue_tbg.png, APCircleMoneyBlue)
-!define APCircleMoneyBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyBlue_tbg.png, APCircleMoneyBlue)
+!define APCircleMoneyBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyBlue_tbg.png, CircleMoneyBlue)
+!define APCircleMoneyBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyBlue_tbg.png, CircleMoneyBlue)
 AzureEntityColoring(APCircleMoneyBlue_m)
-!define APCircleMoneyBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyBlueSPRITE, APCircleMoneyBlue_m)
-!define APCircleMoneyBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyBlueSPRITE, APCircleMoneyBlue_m)
+!define APCircleMoneyBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyBlueSPRITE, CircleMoneyBlue)
+!define APCircleMoneyBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyBlueSPRITE, CircleMoneyBlue)
 
 sprite $APCircleMoneyTwoSPRITE [70x70/16z] {
 dPZTbkGW28G324hU_u4tkraPCyU2JjVD_7c-59H1UuvAH4p7zo9YQNzrNXfTvGi4jz0vDVILgua8IgZBDuoWX8Pyo02Ku709aOOfeKvlZ0ZJfGkirXyOvmeI
@@ -188,11 +188,11 @@ UZD0lTcPP3aZEb9o7DPI-421WDW-rIEOOPgvg67CjOC_
 }
 
 AzureEntityColoring(APCircleMoneyTwo)
-!define APCircleMoneyTwo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, APCircleMoneyTwo)
-!define APCircleMoneyTwo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, APCircleMoneyTwo)
+!define APCircleMoneyTwo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, CircleMoneyTwo)
+!define APCircleMoneyTwo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwo_tbg.png, CircleMoneyTwo)
 AzureEntityColoring(APCircleMoneyTwo_m)
-!define APCircleMoneyTwo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, APCircleMoneyTwo_m)
-!define APCircleMoneyTwo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, APCircleMoneyTwo_m)
+!define APCircleMoneyTwo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, CircleMoneyTwo)
+!define APCircleMoneyTwo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyTwoSPRITE, CircleMoneyTwo)
 
 sprite $APCircleMoneyTwoAltSPRITE [70x70/16z] {
 fTW7hhGm30JWs4v2yFtl-vV7OxHPCKCGexRraqksbhkubpVnsaV-J_sN2BVdHFGzpzGppoG30GMGBHk9G7dgj4oYh3isaYhSqOLihRgxcRl7xBX0FYSocdsL
@@ -204,11 +204,11 @@ Gi5gZ2ksiqydhkWFxKuOfI21SdONYZ453kentX4qlWPyPBvKecDLMd6b-76E6pqlE7vQSQBWoSxVf0nA
 }
 
 AzureEntityColoring(APCircleMoneyTwoAlt)
-!define APCircleMoneyTwoAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwoAlt_tbg.png, APCircleMoneyTwoAlt)
-!define APCircleMoneyTwoAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwoAlt_tbg.png, APCircleMoneyTwoAlt)
+!define APCircleMoneyTwoAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwoAlt_tbg.png, CircleMoneyTwoAlt)
+!define APCircleMoneyTwoAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleMoneyTwoAlt_tbg.png, CircleMoneyTwoAlt)
 AzureEntityColoring(APCircleMoneyTwoAlt_m)
-!define APCircleMoneyTwoAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyTwoAltSPRITE, APCircleMoneyTwoAlt_m)
-!define APCircleMoneyTwoAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyTwoAltSPRITE, APCircleMoneyTwoAlt_m)
+!define APCircleMoneyTwoAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleMoneyTwoAltSPRITE, CircleMoneyTwoAlt)
+!define APCircleMoneyTwoAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleMoneyTwoAltSPRITE, CircleMoneyTwoAlt)
 
 sprite $APCircleSquareConvertSPRITE [70x70/16z] {
 xTQ5GGKn0C3GwbNstnUNu93YlndWdLJ3JvOU9fLSMFunPIjRsKhAB8KJAhSNgXzHwdoXzbkKhQIAXbNOCQbuX8f7g7Y4oXeoe6Zag50q4g1u18f7e7W4YaUe
@@ -217,11 +217,11 @@ OQbKMsirUk0S
 }
 
 AzureEntityColoring(APCircleSquareConvert)
-!define APCircleSquareConvert(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleSquareConvert_tbg.png, APCircleSquareConvert)
-!define APCircleSquareConvert(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleSquareConvert_tbg.png, APCircleSquareConvert)
+!define APCircleSquareConvert(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleSquareConvert_tbg.png, CircleSquareConvert)
+!define APCircleSquareConvert(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleSquareConvert_tbg.png, CircleSquareConvert)
 AzureEntityColoring(APCircleSquareConvert_m)
-!define APCircleSquareConvert_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleSquareConvertSPRITE, APCircleSquareConvert_m)
-!define APCircleSquareConvert_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleSquareConvertSPRITE, APCircleSquareConvert_m)
+!define APCircleSquareConvert_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleSquareConvertSPRITE, CircleSquareConvert)
+!define APCircleSquareConvert_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleSquareConvertSPRITE, CircleSquareConvert)
 
 sprite $APCirclesRampSPRITE [70x70/16z] {
 xTDLOWCn30HGaK4g-FwtRUoaIlTpfovtWalFAFhpOP7yMrRuj24sexmED5RqBA9sos8CKzGo32jizyn72wI8lGcev81oI7MBqhUCo265Zmh7ZfKMKA54P1wW
@@ -231,11 +231,11 @@ KFXrLbKcrYCGnSUesQ4MSLAnRlCdncYqeZtYhC9ZZ6lnEyz3ImDHLdGD1L2eHBaHrIC09SDILYyGXLND
 }
 
 AzureEntityColoring(APCirclesRamp)
-!define APCirclesRamp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesRamp_tbg.png, APCirclesRamp)
-!define APCirclesRamp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesRamp_tbg.png, APCirclesRamp)
+!define APCirclesRamp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesRamp_tbg.png, CirclesRamp)
+!define APCirclesRamp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesRamp_tbg.png, CirclesRamp)
 AzureEntityColoring(APCirclesRamp_m)
-!define APCirclesRamp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesRampSPRITE, APCirclesRamp_m)
-!define APCirclesRamp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesRampSPRITE, APCirclesRamp_m)
+!define APCirclesRamp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesRampSPRITE, CirclesRamp)
+!define APCirclesRamp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesRampSPRITE, CirclesRamp)
 
 sprite $APCirclesRampBlueSPRITE [70x70/16z] {
 xTG5ijqm50DGNp9e__ijf9ewwM0qBdyz31spss-9UMI6yoXmPRr4FBybx3fCAkyHncJ5SYVQbvIYv3r-GhagqmN5yf5ZofILUulMYTurA8h_q22Nb1RFWKvD
@@ -245,11 +245,11 @@ Yw3OdYLiZLINc-8Jgj81JFx3UoMCltLrRYu8IWVYHaxWbMBVnwRU6biPW74uV1jl5G1vgvCLZNVAP5qk
 }
 
 AzureEntityColoring(APCirclesRampBlue)
-!define APCirclesRampBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesRampBlue_tbg.png, APCirclesRampBlue)
-!define APCirclesRampBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesRampBlue_tbg.png, APCirclesRampBlue)
+!define APCirclesRampBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesRampBlue_tbg.png, CirclesRampBlue)
+!define APCirclesRampBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesRampBlue_tbg.png, CirclesRampBlue)
 AzureEntityColoring(APCirclesRampBlue_m)
-!define APCirclesRampBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesRampBlueSPRITE, APCirclesRampBlue_m)
-!define APCirclesRampBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesRampBlueSPRITE, APCirclesRampBlue_m)
+!define APCirclesRampBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesRampBlueSPRITE, CirclesRampBlue)
+!define APCirclesRampBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesRampBlueSPRITE, CirclesRampBlue)
 
 sprite $APCirclesTwoBlueSPRITE [70x70/16z] {
 fTS7akmm28HX44AWllzzNzWA4uHbjVSxm5_0HCiPRQsPMMig3scp_iQUbDJwmffGMh_0TAnVCcK7gJKsyZnZ_PQnaPhnw_1BQJ_Ks4XDoQFKZ1g5tyawWnsb
@@ -260,11 +260,11 @@ hJILJufRESP7H6KrSI9Z_8Y4Ic60ar9fuBYK4XILae4nv4AIezGQUvLQuDIKZIJtgUd44PCjOr-Vch6H
 }
 
 AzureEntityColoring(APCirclesTwoBlue)
-!define APCirclesTwoBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, APCirclesTwoBlue)
-!define APCirclesTwoBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, APCirclesTwoBlue)
+!define APCirclesTwoBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, CirclesTwoBlue)
+!define APCirclesTwoBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCirclesTwoBlue_tbg.png, CirclesTwoBlue)
 AzureEntityColoring(APCirclesTwoBlue_m)
-!define APCirclesTwoBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, APCirclesTwoBlue_m)
-!define APCirclesTwoBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, APCirclesTwoBlue_m)
+!define APCirclesTwoBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, CirclesTwoBlue)
+!define APCirclesTwoBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCirclesTwoBlueSPRITE, CirclesTwoBlue)
 
 sprite $APCircleUserSPRITE [70x70/16z] {
 lPS9SYmn24C1OsDy__l-pPF84qfTtNzxsTCk6Ob0PUG_q9g8vepHcyfpj6qL5z6roN1vo5o72XWcJ_3rgnXxgO3Pxdbn5H5TiLNqfGAotL9fi0ILao60OQwV
@@ -277,11 +277,11 @@ SJ1NmQL0ok4g0suu5aI5Q70TgX8g3_2vgafsbQUq7WcLET3uvzWlLFu7tm4
 }
 
 AzureEntityColoring(APCircleUser)
-!define APCircleUser(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleUser_tbg.png, APCircleUser)
-!define APCircleUser(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleUser_tbg.png, APCircleUser)
+!define APCircleUser(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleUser_tbg.png, CircleUser)
+!define APCircleUser(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleUser_tbg.png, CircleUser)
 AzureEntityColoring(APCircleUser_m)
-!define APCircleUser_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserSPRITE, APCircleUser_m)
-!define APCircleUser_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserSPRITE, APCircleUser_m)
+!define APCircleUser_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserSPRITE, CircleUser)
+!define APCircleUser_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserSPRITE, CircleUser)
 
 sprite $APCircleUserAltSPRITE [70x70/16z] {
 dPU7bgmm2403eV__1xzZd3UBOs3AtRw9Lo1DHmyYJgA9C7vaihgIHdWSc11yhx1rwTEoCFv21E96Sbhui2G4FdJmqPie3XwMZ7xYOLeM8KkMAppUW1wyhd-a
@@ -295,10 +295,10 @@ Vm
 }
 
 AzureEntityColoring(APCircleUserAlt)
-!define APCircleUserAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, APCircleUserAlt)
-!define APCircleUserAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, APCircleUserAlt)
+!define APCircleUserAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, CircleUserAlt)
+!define APCircleUserAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, CircleUserAlt)
 AzureEntityColoring(APCircleUserAlt_m)
-!define APCircleUserAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, APCircleUserAlt_m)
-!define APCircleUserAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, APCircleUserAlt_m)
+!define APCircleUserAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, CircleUserAlt)
+!define APCircleUserAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, CircleUserAlt)
 
 

@@ -4,9 +4,9 @@ a6-jYnQ0SfzvD01_Tu-yiLFsmKwFp4Abg_3iNiDMEX_xeHfJx5donuXe0G
 }
 
 AzureEntityColoring(APFaceApi)
-!define APFaceApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFaceApi_tbg.png, APFaceApi)
-!define APFaceApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFaceApi_tbg.png, APFaceApi)
+!define APFaceApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFaceApi_tbg.png, Facei)
+!define APFaceApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFaceApi_tbg.png, Facei)
 AzureEntityColoring(APFaceApi_m)
-!define APFaceApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFaceApiSPRITE, APFaceApi_m)
-!define APFaceApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFaceApiSPRITE, APFaceApi_m)
+!define APFaceApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFaceApiSPRITE, Facei)
+!define APFaceApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFaceApiSPRITE, Facei)
 

@@ -8,9 +8,9 @@ gFbrByXRqMNL7S3U05pVbzBrFm
 }
 
 AzureEntityColoring(APAlert01)
-!define APAlert01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAlert01_tbg.png, APAlert01)
-!define APAlert01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAlert01_tbg.png, APAlert01)
+!define APAlert01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAlert01_tbg.png, Alert01)
+!define APAlert01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAlert01_tbg.png, Alert01)
 AzureEntityColoring(APAlert01_m)
-!define APAlert01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAlert01SPRITE, APAlert01_m)
-!define APAlert01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAlert01SPRITE, APAlert01_m)
+!define APAlert01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAlert01SPRITE, Alert01)
+!define APAlert01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAlert01SPRITE, Alert01)
 

@@ -10,9 +10,9 @@ mh1mz9-IKrBomc9WCYZuN6m-MJWoe_cKL8iqGFjssBRvWuKzCxiZZGQrNqJwLa3A9ALwfcbaPrcSQL8J
 }
 
 AzureEntityColoring(CDSNetworkingNetworkWatcher)
-!define CDSNetworkingNetworkWatcher(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNetworkWatcher_tbg.png, CDSNetworkingNetworkWatcher)
-!define CDSNetworkingNetworkWatcher(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNetworkWatcher_tbg.png, CDSNetworkingNetworkWatcher)
+!define CDSNetworkingNetworkWatcher(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNetworkWatcher_tbg.png, NetworkingNetworkWatcher)
+!define CDSNetworkingNetworkWatcher(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNetworkWatcher_tbg.png, NetworkingNetworkWatcher)
 AzureEntityColoring(CDSNetworkingNetworkWatcher_m)
-!define CDSNetworkingNetworkWatcher_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingNetworkWatcherSPRITE, CDSNetworkingNetworkWatcher_m)
-!define CDSNetworkingNetworkWatcher_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingNetworkWatcherSPRITE, CDSNetworkingNetworkWatcher_m)
+!define CDSNetworkingNetworkWatcher_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingNetworkWatcherSPRITE, NetworkingNetworkWatcher)
+!define CDSNetworkingNetworkWatcher_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingNetworkWatcherSPRITE, NetworkingNetworkWatcher)
 

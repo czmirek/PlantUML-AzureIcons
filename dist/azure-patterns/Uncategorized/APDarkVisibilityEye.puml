@@ -6,9 +6,9 @@ dzukMmZ3Z0ang2OcQv0cJY9fvgGt3dhI99fdJsgbu7YTlpQqZolN1k-EUlOMv2etci8uRoSeOjwZKhRJ
 }
 
 AzureEntityColoring(APDarkVisibilityEye)
-!define APDarkVisibilityEye(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDarkVisibilityEye_tbg.png, APDarkVisibilityEye)
-!define APDarkVisibilityEye(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDarkVisibilityEye_tbg.png, APDarkVisibilityEye)
+!define APDarkVisibilityEye(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDarkVisibilityEye_tbg.png, DarkVisibilityEye)
+!define APDarkVisibilityEye(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDarkVisibilityEye_tbg.png, DarkVisibilityEye)
 AzureEntityColoring(APDarkVisibilityEye_m)
-!define APDarkVisibilityEye_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDarkVisibilityEyeSPRITE, APDarkVisibilityEye_m)
-!define APDarkVisibilityEye_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDarkVisibilityEyeSPRITE, APDarkVisibilityEye_m)
+!define APDarkVisibilityEye_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDarkVisibilityEyeSPRITE, DarkVisibilityEye)
+!define APDarkVisibilityEye_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDarkVisibilityEyeSPRITE, DarkVisibilityEye)
 

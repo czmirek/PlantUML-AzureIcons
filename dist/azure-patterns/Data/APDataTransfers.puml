@@ -8,9 +8,9 @@ RqV5SOZdbNQAL2K9XM9cfUrjIAzczkqxirz2rS-VF5p4_xHFGMYVg62WynN5o6OhXYlQfYgA6_wyOeHR
 }
 
 AzureEntityColoring(APDataTransfers)
-!define APDataTransfers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataTransfers_tbg.png, APDataTransfers)
-!define APDataTransfers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataTransfers_tbg.png, APDataTransfers)
+!define APDataTransfers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataTransfers_tbg.png, DataTransfers)
+!define APDataTransfers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataTransfers_tbg.png, DataTransfers)
 AzureEntityColoring(APDataTransfers_m)
-!define APDataTransfers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataTransfersSPRITE, APDataTransfers_m)
-!define APDataTransfers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataTransfersSPRITE, APDataTransfers_m)
+!define APDataTransfers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataTransfersSPRITE, DataTransfers)
+!define APDataTransfers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataTransfersSPRITE, DataTransfers)
 

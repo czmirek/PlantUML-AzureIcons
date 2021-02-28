@@ -5,9 +5,9 @@ sw6Ze7RZdi9gnIr5e-DBAiBeA9KAHyUwL5Y3b8fGew0dPTVOF3KNdnNMvgbvxnv0L84_VhCvbFbD-CJU
 }
 
 AzureEntityColoring(APThreeDimensional)
-!define APThreeDimensional(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeDimensional_tbg.png, APThreeDimensional)
-!define APThreeDimensional(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeDimensional_tbg.png, APThreeDimensional)
+!define APThreeDimensional(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeDimensional_tbg.png, ThreeDimensional)
+!define APThreeDimensional(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeDimensional_tbg.png, ThreeDimensional)
 AzureEntityColoring(APThreeDimensional_m)
-!define APThreeDimensional_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeDimensionalSPRITE, APThreeDimensional_m)
-!define APThreeDimensional_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeDimensionalSPRITE, APThreeDimensional_m)
+!define APThreeDimensional_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeDimensionalSPRITE, ThreeDimensional)
+!define APThreeDimensional_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeDimensionalSPRITE, ThreeDimensional)
 

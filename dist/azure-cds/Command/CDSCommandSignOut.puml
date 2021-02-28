@@ -8,9 +8,9 @@ _sNx61dyVY5_
 }
 
 AzureEntityColoring(CDSCommandSignOut)
-!define CDSCommandSignOut(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandSignOut_tbg.png, CDSCommandSignOut)
-!define CDSCommandSignOut(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandSignOut_tbg.png, CDSCommandSignOut)
+!define CDSCommandSignOut(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandSignOut_tbg.png, CommandSignOut)
+!define CDSCommandSignOut(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandSignOut_tbg.png, CommandSignOut)
 AzureEntityColoring(CDSCommandSignOut_m)
-!define CDSCommandSignOut_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandSignOutSPRITE, CDSCommandSignOut_m)
-!define CDSCommandSignOut_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandSignOutSPRITE, CDSCommandSignOut_m)
+!define CDSCommandSignOut_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandSignOutSPRITE, CommandSignOut)
+!define CDSCommandSignOut_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandSignOutSPRITE, CommandSignOut)
 

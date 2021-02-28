@@ -7,9 +7,9 @@ snkn3Y4w1Had85Ns8LrbHOE6iGK2nyo69G31z4fih600a39MCKAqZf4Z63c2aICOEOAHdz9l
 }
 
 AzureEntityColoring(APArrow15)
-!define APArrow15(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrow15_tbg.png, APArrow15)
-!define APArrow15(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrow15_tbg.png, APArrow15)
+!define APArrow15(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrow15_tbg.png, Arrow15)
+!define APArrow15(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrow15_tbg.png, Arrow15)
 AzureEntityColoring(APArrow15_m)
-!define APArrow15_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow15SPRITE, APArrow15_m)
-!define APArrow15_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow15SPRITE, APArrow15_m)
+!define APArrow15_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow15SPRITE, Arrow15)
+!define APArrow15_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow15SPRITE, Arrow15)
 

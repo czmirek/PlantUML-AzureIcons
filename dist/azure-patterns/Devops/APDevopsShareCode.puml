@@ -5,9 +5,9 @@ J2z6wH-ICqTKS575JvPbMPRb6G
 }
 
 AzureEntityColoring(APDevopsShareCode)
-!define APDevopsShareCode(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsShareCode_tbg.png, APDevopsShareCode)
-!define APDevopsShareCode(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsShareCode_tbg.png, APDevopsShareCode)
+!define APDevopsShareCode(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsShareCode_tbg.png, DevopsShareCode)
+!define APDevopsShareCode(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsShareCode_tbg.png, DevopsShareCode)
 AzureEntityColoring(APDevopsShareCode_m)
-!define APDevopsShareCode_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsShareCodeSPRITE, APDevopsShareCode_m)
-!define APDevopsShareCode_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsShareCodeSPRITE, APDevopsShareCode_m)
+!define APDevopsShareCode_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsShareCodeSPRITE, DevopsShareCode)
+!define APDevopsShareCode_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsShareCodeSPRITE, DevopsShareCode)
 

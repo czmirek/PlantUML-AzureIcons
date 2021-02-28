@@ -4,9 +4,9 @@ P7KXmaA4XGWB4HQC1T9V8CQI_W8nbWWBUoa9IiBRXEm3q4cUchU9i11X8SA2iK3w2yHOqbyWnX9X8Pr5
 }
 
 AzureEntityColoring(APPremiumStorageAlt)
-!define APPremiumStorageAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPremiumStorageAlt_tbg.png, APPremiumStorageAlt)
-!define APPremiumStorageAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPremiumStorageAlt_tbg.png, APPremiumStorageAlt)
+!define APPremiumStorageAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPremiumStorageAlt_tbg.png, PremiumStorageAlt)
+!define APPremiumStorageAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPremiumStorageAlt_tbg.png, PremiumStorageAlt)
 AzureEntityColoring(APPremiumStorageAlt_m)
-!define APPremiumStorageAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPremiumStorageAltSPRITE, APPremiumStorageAlt_m)
-!define APPremiumStorageAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPremiumStorageAltSPRITE, APPremiumStorageAlt_m)
+!define APPremiumStorageAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPremiumStorageAltSPRITE, PremiumStorageAlt)
+!define APPremiumStorageAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPremiumStorageAltSPRITE, PremiumStorageAlt)
 

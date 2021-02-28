@@ -4,9 +4,9 @@ jz-xdfiSGnPwiqfNG25gPNuwg6AvJSYdC_zBqAU-qcTMkiBVL0v-rnKylb3QEDqrArt9Ga-uNrPSwSe4
 }
 
 AzureEntityColoring(APSquaresConnected)
-!define APSquaresConnected(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresConnected_tbg.png, APSquaresConnected)
-!define APSquaresConnected(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresConnected_tbg.png, APSquaresConnected)
+!define APSquaresConnected(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSquaresConnected_tbg.png, SquaresConnected)
+!define APSquaresConnected(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSquaresConnected_tbg.png, SquaresConnected)
 AzureEntityColoring(APSquaresConnected_m)
-!define APSquaresConnected_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresConnectedSPRITE, APSquaresConnected_m)
-!define APSquaresConnected_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresConnectedSPRITE, APSquaresConnected_m)
+!define APSquaresConnected_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresConnectedSPRITE, SquaresConnected)
+!define APSquaresConnected_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresConnectedSPRITE, SquaresConnected)
 

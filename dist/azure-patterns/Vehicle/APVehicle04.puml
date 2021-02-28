@@ -6,9 +6,9 @@ uMRXvVtgQqabiVXY-lDeHsRCnydFleGoV0qGCJFkkCMGuHOCyArNa24-z0XUrt51plh7DC8GAhKAlWOf
 }
 
 AzureEntityColoring(APVehicle04)
-!define APVehicle04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVehicle04_tbg.png, APVehicle04)
-!define APVehicle04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVehicle04_tbg.png, APVehicle04)
+!define APVehicle04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVehicle04_tbg.png, Vehicle04)
+!define APVehicle04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVehicle04_tbg.png, Vehicle04)
 AzureEntityColoring(APVehicle04_m)
-!define APVehicle04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVehicle04SPRITE, APVehicle04_m)
-!define APVehicle04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVehicle04SPRITE, APVehicle04_m)
+!define APVehicle04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVehicle04SPRITE, Vehicle04)
+!define APVehicle04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVehicle04SPRITE, Vehicle04)
 

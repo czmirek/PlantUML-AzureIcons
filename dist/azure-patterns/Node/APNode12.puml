@@ -4,9 +4,9 @@ SiKLBXgtL2YmisYmpZh0bUCrIWX2p1frrlQkS268s-IfbzW2
 }
 
 AzureEntityColoring(APNode12)
-!define APNode12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNode12_tbg.png, APNode12)
-!define APNode12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNode12_tbg.png, APNode12)
+!define APNode12(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNode12_tbg.png, Node12)
+!define APNode12(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNode12_tbg.png, Node12)
 AzureEntityColoring(APNode12_m)
-!define APNode12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode12SPRITE, APNode12_m)
-!define APNode12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode12SPRITE, APNode12_m)
+!define APNode12_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode12SPRITE, Node12)
+!define APNode12_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode12SPRITE, Node12)
 

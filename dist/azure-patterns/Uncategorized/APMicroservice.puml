@@ -8,9 +8,9 @@ cHdv9LvismfNuQ0ORCh4J7P9Euuq2WKwrYQ59oG_ZotZu7m4
 }
 
 AzureEntityColoring(APMicroservice)
-!define APMicroservice(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicroservice_tbg.png, APMicroservice)
-!define APMicroservice(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicroservice_tbg.png, APMicroservice)
+!define APMicroservice(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMicroservice_tbg.png, Microservice)
+!define APMicroservice(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMicroservice_tbg.png, Microservice)
 AzureEntityColoring(APMicroservice_m)
-!define APMicroservice_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicroserviceSPRITE, APMicroservice_m)
-!define APMicroservice_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicroserviceSPRITE, APMicroservice_m)
+!define APMicroservice_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMicroserviceSPRITE, Microservice)
+!define APMicroservice_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMicroserviceSPRITE, Microservice)
 

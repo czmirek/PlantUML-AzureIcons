@@ -7,9 +7,9 @@ JfOaf4iC0LZDMGPGehPUnCLCOWT5b-MEAZfg77ZrHdAZFPnMEugZa-TOlQZ3m2AVJdUG7RVkAe2iIVGv
 }
 
 AzureEntityColoring(CDSCommandApplySplitting)
-!define CDSCommandApplySplitting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandApplySplitting_tbg.png, CDSCommandApplySplitting)
-!define CDSCommandApplySplitting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandApplySplitting_tbg.png, CDSCommandApplySplitting)
+!define CDSCommandApplySplitting(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandApplySplitting_tbg.png, CommandApplySplitting)
+!define CDSCommandApplySplitting(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandApplySplitting_tbg.png, CommandApplySplitting)
 AzureEntityColoring(CDSCommandApplySplitting_m)
-!define CDSCommandApplySplitting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandApplySplittingSPRITE, CDSCommandApplySplitting_m)
-!define CDSCommandApplySplitting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandApplySplittingSPRITE, CDSCommandApplySplitting_m)
+!define CDSCommandApplySplitting_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandApplySplittingSPRITE, CommandApplySplitting)
+!define CDSCommandApplySplitting_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandApplySplittingSPRITE, CommandApplySplitting)
 

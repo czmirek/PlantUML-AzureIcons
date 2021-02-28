@@ -7,9 +7,9 @@ VWnKVDEALJWu0uUbXfhnDi19BRvFg9rHg1hyRXN8hDgW0YIcE5Ajgn1Y4IgeNyi_
 }
 
 AzureEntityColoring(CDSComputeServiceFabricClusters)
-!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, CDSComputeServiceFabricClusters)
-!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, CDSComputeServiceFabricClusters)
+!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, ComputeServiceFabricClusters)
+!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, ComputeServiceFabricClusters)
 AzureEntityColoring(CDSComputeServiceFabricClusters_m)
-!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, CDSComputeServiceFabricClusters_m)
-!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, CDSComputeServiceFabricClusters_m)
+!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, ComputeServiceFabricClusters)
+!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, ComputeServiceFabricClusters)
 

@@ -5,9 +5,9 @@ Pi5D6nNjG-iqujoFcpzJHKSLe_asPzENeXUtJMYyXK-hXwLvZDY4phiZLDvZ2yR5sfb34FR62pbXWbzB
 }
 
 AzureEntityColoring(APRegionalAvailabilityIcon)
-!define APRegionalAvailabilityIcon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRegionalAvailabilityIcon_tbg.png, APRegionalAvailabilityIcon)
-!define APRegionalAvailabilityIcon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRegionalAvailabilityIcon_tbg.png, APRegionalAvailabilityIcon)
+!define APRegionalAvailabilityIcon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRegionalAvailabilityIcon_tbg.png, RegionalAvailabilityIcon)
+!define APRegionalAvailabilityIcon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRegionalAvailabilityIcon_tbg.png, RegionalAvailabilityIcon)
 AzureEntityColoring(APRegionalAvailabilityIcon_m)
-!define APRegionalAvailabilityIcon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRegionalAvailabilityIconSPRITE, APRegionalAvailabilityIcon_m)
-!define APRegionalAvailabilityIcon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRegionalAvailabilityIconSPRITE, APRegionalAvailabilityIcon_m)
+!define APRegionalAvailabilityIcon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRegionalAvailabilityIconSPRITE, RegionalAvailabilityIcon)
+!define APRegionalAvailabilityIcon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRegionalAvailabilityIconSPRITE, RegionalAvailabilityIcon)
 

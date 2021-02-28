@@ -4,9 +4,9 @@ ahTI9kgb4XN7tPN_IrY46LGEmyVkUYjreLugKMb21QNHy571XS8e3EACaEWGDd5VcWf4vKzKRW
 }
 
 AzureEntityColoring(APServerfault)
-!define APServerfault(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerfault_tbg.png, APServerfault)
-!define APServerfault(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerfault_tbg.png, APServerfault)
+!define APServerfault(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerfault_tbg.png, Serverfault)
+!define APServerfault(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerfault_tbg.png, Serverfault)
 AzureEntityColoring(APServerfault_m)
-!define APServerfault_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerfaultSPRITE, APServerfault_m)
-!define APServerfault_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerfaultSPRITE, APServerfault_m)
+!define APServerfault_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerfaultSPRITE, Serverfault)
+!define APServerfault_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerfaultSPRITE, Serverfault)
 

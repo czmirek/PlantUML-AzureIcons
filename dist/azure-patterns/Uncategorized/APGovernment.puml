@@ -5,9 +5,9 @@ IlxJ0EZ_fHvUjlzB_2X_L-NWSYqf8sMaZ9IHygXbfaXvWlmD
 }
 
 AzureEntityColoring(APGovernment)
-!define APGovernment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGovernment_tbg.png, APGovernment)
-!define APGovernment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGovernment_tbg.png, APGovernment)
+!define APGovernment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGovernment_tbg.png, Government)
+!define APGovernment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGovernment_tbg.png, Government)
 AzureEntityColoring(APGovernment_m)
-!define APGovernment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGovernmentSPRITE, APGovernment_m)
-!define APGovernment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGovernmentSPRITE, APGovernment_m)
+!define APGovernment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGovernmentSPRITE, Government)
+!define APGovernment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGovernmentSPRITE, Government)
 

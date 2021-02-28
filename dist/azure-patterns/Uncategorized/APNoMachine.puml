@@ -8,9 +8,9 @@ bej2WX1AkztKv0sN4Qu6YLOujSsNGC2iuuE5QkBs-U0cFESCVHD-_wtyYvyGlFrfXKuBKKVxrgSu-edI
 }
 
 AzureEntityColoring(APNoMachine)
-!define APNoMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNoMachine_tbg.png, APNoMachine)
-!define APNoMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNoMachine_tbg.png, APNoMachine)
+!define APNoMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNoMachine_tbg.png, NoMachine)
+!define APNoMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNoMachine_tbg.png, NoMachine)
 AzureEntityColoring(APNoMachine_m)
-!define APNoMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNoMachineSPRITE, APNoMachine_m)
-!define APNoMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNoMachineSPRITE, APNoMachine_m)
+!define APNoMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNoMachineSPRITE, NoMachine)
+!define APNoMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNoMachineSPRITE, NoMachine)
 

@@ -5,9 +5,9 @@ WY9U0QKglhq2T2LELWW1sP-xiIohAvWpiAoE55_jkgn-Id4CBgihP1oNgwoG-Ivw2XdFbiAxPFBq3iIe
 }
 
 AzureEntityColoring(APManage)
-!define APManage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APManage_tbg.png, APManage)
-!define APManage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APManage_tbg.png, APManage)
+!define APManage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APManage_tbg.png, Manage)
+!define APManage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APManage_tbg.png, Manage)
 AzureEntityColoring(APManage_m)
-!define APManage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManageSPRITE, APManage_m)
-!define APManage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManageSPRITE, APManage_m)
+!define APManage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManageSPRITE, Manage)
+!define APManage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManageSPRITE, Manage)
 

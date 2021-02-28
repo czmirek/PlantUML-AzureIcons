@@ -5,9 +5,9 @@ nP9vxc2IVhZ1QF8HYMMjztOKSjHK2uxtqxyGs-h1wf9hGIkIga6RajBWgQHcqEmkBQdaHf1S40zE4qGd
 }
 
 AzureEntityColoring(APTwoToneClouds)
-!define APTwoToneClouds(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoToneClouds_tbg.png, APTwoToneClouds)
-!define APTwoToneClouds(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoToneClouds_tbg.png, APTwoToneClouds)
+!define APTwoToneClouds(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoToneClouds_tbg.png, TwoToneClouds)
+!define APTwoToneClouds(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoToneClouds_tbg.png, TwoToneClouds)
 AzureEntityColoring(APTwoToneClouds_m)
-!define APTwoToneClouds_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoToneCloudsSPRITE, APTwoToneClouds_m)
-!define APTwoToneClouds_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoToneCloudsSPRITE, APTwoToneClouds_m)
+!define APTwoToneClouds_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoToneCloudsSPRITE, TwoToneClouds)
+!define APTwoToneClouds_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoToneCloudsSPRITE, TwoToneClouds)
 

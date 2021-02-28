@@ -7,9 +7,9 @@ pgpsyNhxheu
 }
 
 AzureEntityColoring(CDSNetworkingLocalNetworkGateways)
-!define CDSNetworkingLocalNetworkGateways(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingLocalNetworkGateways_tbg.png, CDSNetworkingLocalNetworkGateways)
-!define CDSNetworkingLocalNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingLocalNetworkGateways_tbg.png, CDSNetworkingLocalNetworkGateways)
+!define CDSNetworkingLocalNetworkGateways(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingLocalNetworkGateways_tbg.png, NetworkingLocalNetworkGateways)
+!define CDSNetworkingLocalNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingLocalNetworkGateways_tbg.png, NetworkingLocalNetworkGateways)
 AzureEntityColoring(CDSNetworkingLocalNetworkGateways_m)
-!define CDSNetworkingLocalNetworkGateways_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingLocalNetworkGatewaysSPRITE, CDSNetworkingLocalNetworkGateways_m)
-!define CDSNetworkingLocalNetworkGateways_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingLocalNetworkGatewaysSPRITE, CDSNetworkingLocalNetworkGateways_m)
+!define CDSNetworkingLocalNetworkGateways_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingLocalNetworkGatewaysSPRITE, NetworkingLocalNetworkGateways)
+!define CDSNetworkingLocalNetworkGateways_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingLocalNetworkGatewaysSPRITE, NetworkingLocalNetworkGateways)
 

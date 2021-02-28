@@ -8,9 +8,9 @@ NSQwgLF4EWmzr0r1HS_3rKYPf_9UiRPTmWgTRl4F
 }
 
 AzureEntityColoring(CDSIntegrationAppConfiguration)
-!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, CDSIntegrationAppConfiguration)
-!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, CDSIntegrationAppConfiguration)
+!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, IntegrationAppConfiguration)
+!define CDSIntegrationAppConfiguration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAppConfiguration_tbg.png, IntegrationAppConfiguration)
 AzureEntityColoring(CDSIntegrationAppConfiguration_m)
-!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, CDSIntegrationAppConfiguration_m)
-!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, CDSIntegrationAppConfiguration_m)
+!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, IntegrationAppConfiguration)
+!define CDSIntegrationAppConfiguration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAppConfigurationSPRITE, IntegrationAppConfiguration)
 

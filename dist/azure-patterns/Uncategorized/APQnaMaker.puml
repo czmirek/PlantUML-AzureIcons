@@ -6,9 +6,9 @@ fhAF4bLsArd-d6LPbay
 }
 
 AzureEntityColoring(APQnaMaker)
-!define APQnaMaker(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQnaMaker_tbg.png, APQnaMaker)
-!define APQnaMaker(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQnaMaker_tbg.png, APQnaMaker)
+!define APQnaMaker(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQnaMaker_tbg.png, QnaMaker)
+!define APQnaMaker(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQnaMaker_tbg.png, QnaMaker)
 AzureEntityColoring(APQnaMaker_m)
-!define APQnaMaker_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQnaMakerSPRITE, APQnaMaker_m)
-!define APQnaMaker_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQnaMakerSPRITE, APQnaMaker_m)
+!define APQnaMaker_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQnaMakerSPRITE, QnaMaker)
+!define APQnaMaker_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQnaMakerSPRITE, QnaMaker)
 

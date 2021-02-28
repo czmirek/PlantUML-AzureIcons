@@ -4,9 +4,9 @@ BD2Y9zP0I8bsemEnxcU95YqwEhGW78ybJ80EpnXZZ3766G
 }
 
 AzureEntityColoring(APCompute33)
-!define APCompute33(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCompute33_tbg.png, APCompute33)
-!define APCompute33(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCompute33_tbg.png, APCompute33)
+!define APCompute33(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCompute33_tbg.png, Compute33)
+!define APCompute33(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCompute33_tbg.png, Compute33)
 AzureEntityColoring(APCompute33_m)
-!define APCompute33_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCompute33SPRITE, APCompute33_m)
-!define APCompute33_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCompute33SPRITE, APCompute33_m)
+!define APCompute33_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCompute33SPRITE, Compute33)
+!define APCompute33_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCompute33SPRITE, Compute33)
 

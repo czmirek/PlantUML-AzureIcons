@@ -6,9 +6,9 @@ a0YLWNxQsUA-d7S8bnz2PH_-u8Tsg_U-qBJ4Oi0cWzJLxg0PIOiLRKBJOaE39Hu93aeaKWIpr4Yfa8HY
 }
 
 AzureEntityColoring(APCloudLink)
-!define APCloudLink(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudLink_tbg.png, APCloudLink)
-!define APCloudLink(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudLink_tbg.png, APCloudLink)
+!define APCloudLink(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudLink_tbg.png, CloudLink)
+!define APCloudLink(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudLink_tbg.png, CloudLink)
 AzureEntityColoring(APCloudLink_m)
-!define APCloudLink_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudLinkSPRITE, APCloudLink_m)
-!define APCloudLink_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudLinkSPRITE, APCloudLink_m)
+!define APCloudLink_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudLinkSPRITE, CloudLink)
+!define APCloudLink_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudLinkSPRITE, CloudLink)
 

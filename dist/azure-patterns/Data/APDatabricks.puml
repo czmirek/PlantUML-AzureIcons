@@ -7,9 +7,9 @@ NaYSORcoeqBoUkBBKvww8wKN9GrCcKMDrqCkJqAcA_wLwQdBbRpKlm
 }
 
 AzureEntityColoring(APDatabricks)
-!define APDatabricks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabricks_tbg.png, APDatabricks)
-!define APDatabricks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabricks_tbg.png, APDatabricks)
+!define APDatabricks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabricks_tbg.png, Databricks)
+!define APDatabricks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabricks_tbg.png, Databricks)
 AzureEntityColoring(APDatabricks_m)
-!define APDatabricks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabricksSPRITE, APDatabricks_m)
-!define APDatabricks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabricksSPRITE, APDatabricks_m)
+!define APDatabricks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabricksSPRITE, Databricks)
+!define APDatabricks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabricksSPRITE, Databricks)
 

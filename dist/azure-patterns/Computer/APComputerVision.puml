@@ -5,9 +5,9 @@ TPGJoULQeHb4XmyM66KFVwZcj3j_yRlhDpyFf2DiwH-W0Z2WgNZINut5XLL78jOl2cLQ1X1L1UZliTbi
 }
 
 AzureEntityColoring(APComputerVision)
-!define APComputerVision(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APComputerVision_tbg.png, APComputerVision)
-!define APComputerVision(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APComputerVision_tbg.png, APComputerVision)
+!define APComputerVision(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APComputerVision_tbg.png, ComputerVision)
+!define APComputerVision(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APComputerVision_tbg.png, ComputerVision)
 AzureEntityColoring(APComputerVision_m)
-!define APComputerVision_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputerVisionSPRITE, APComputerVision_m)
-!define APComputerVision_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputerVisionSPRITE, APComputerVision_m)
+!define APComputerVision_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputerVisionSPRITE, ComputerVision)
+!define APComputerVision_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputerVisionSPRITE, ComputerVision)
 

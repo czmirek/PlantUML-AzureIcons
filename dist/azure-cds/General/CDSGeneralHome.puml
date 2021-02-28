@@ -6,9 +6,9 @@ CKoAK9VyS7HN
 }
 
 AzureEntityColoring(CDSGeneralHome)
-!define CDSGeneralHome(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralHome_tbg.png, CDSGeneralHome)
-!define CDSGeneralHome(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralHome_tbg.png, CDSGeneralHome)
+!define CDSGeneralHome(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralHome_tbg.png, GeneralHome)
+!define CDSGeneralHome(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralHome_tbg.png, GeneralHome)
 AzureEntityColoring(CDSGeneralHome_m)
-!define CDSGeneralHome_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralHomeSPRITE, CDSGeneralHome_m)
-!define CDSGeneralHome_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralHomeSPRITE, CDSGeneralHome_m)
+!define CDSGeneralHome_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralHomeSPRITE, GeneralHome)
+!define CDSGeneralHome_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralHomeSPRITE, GeneralHome)
 

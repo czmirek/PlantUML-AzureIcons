@@ -10,9 +10,9 @@ kfHdIgtH1zpk1W7RxFbAa04VQ07axOgKocS7xHgloajATZrgRCl-ovgi4jQDXvfF8XS38On2JxaeMwCG
 }
 
 AzureEntityColoring(APKubernetes)
-!define APKubernetes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKubernetes_tbg.png, APKubernetes)
-!define APKubernetes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKubernetes_tbg.png, APKubernetes)
+!define APKubernetes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APKubernetes_tbg.png, Kubernetes)
+!define APKubernetes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APKubernetes_tbg.png, Kubernetes)
 AzureEntityColoring(APKubernetes_m)
-!define APKubernetes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKubernetesSPRITE, APKubernetes_m)
-!define APKubernetes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKubernetesSPRITE, APKubernetes_m)
+!define APKubernetes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKubernetesSPRITE, Kubernetes)
+!define APKubernetes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKubernetesSPRITE, Kubernetes)
 

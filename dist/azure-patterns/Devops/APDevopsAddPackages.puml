@@ -4,9 +4,9 @@ nl8bQvE8Y7m1
 }
 
 AzureEntityColoring(APDevopsAddPackages)
-!define APDevopsAddPackages(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsAddPackages_tbg.png, APDevopsAddPackages)
-!define APDevopsAddPackages(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsAddPackages_tbg.png, APDevopsAddPackages)
+!define APDevopsAddPackages(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsAddPackages_tbg.png, DevopsAddPackages)
+!define APDevopsAddPackages(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsAddPackages_tbg.png, DevopsAddPackages)
 AzureEntityColoring(APDevopsAddPackages_m)
-!define APDevopsAddPackages_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsAddPackagesSPRITE, APDevopsAddPackages_m)
-!define APDevopsAddPackages_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsAddPackagesSPRITE, APDevopsAddPackages_m)
+!define APDevopsAddPackages_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsAddPackagesSPRITE, DevopsAddPackages)
+!define APDevopsAddPackages_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsAddPackagesSPRITE, DevopsAddPackages)
 

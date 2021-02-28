@@ -6,9 +6,9 @@ ZqpzZCWVjNX8jpDilW
 }
 
 AzureEntityColoring(APSurveillance)
-!define APSurveillance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSurveillance_tbg.png, APSurveillance)
-!define APSurveillance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSurveillance_tbg.png, APSurveillance)
+!define APSurveillance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSurveillance_tbg.png, Surveillance)
+!define APSurveillance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSurveillance_tbg.png, Surveillance)
 AzureEntityColoring(APSurveillance_m)
-!define APSurveillance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSurveillanceSPRITE, APSurveillance_m)
-!define APSurveillance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSurveillanceSPRITE, APSurveillance_m)
+!define APSurveillance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSurveillanceSPRITE, Surveillance)
+!define APSurveillance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSurveillanceSPRITE, Surveillance)
 

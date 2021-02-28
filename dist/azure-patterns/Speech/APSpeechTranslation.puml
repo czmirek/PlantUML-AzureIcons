@@ -6,9 +6,9 @@ QY0opM4cj4oQeV2NPc9LVlqBO94SKcg8GtFKTlbDJyiwFM2TVhHERwGVnMGogSvnTryl1XPjn-GF
 }
 
 AzureEntityColoring(APSpeechTranslation)
-!define APSpeechTranslation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeechTranslation_tbg.png, APSpeechTranslation)
-!define APSpeechTranslation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeechTranslation_tbg.png, APSpeechTranslation)
+!define APSpeechTranslation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpeechTranslation_tbg.png, SpeechTranslation)
+!define APSpeechTranslation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpeechTranslation_tbg.png, SpeechTranslation)
 AzureEntityColoring(APSpeechTranslation_m)
-!define APSpeechTranslation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, APSpeechTranslation_m)
-!define APSpeechTranslation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, APSpeechTranslation_m)
+!define APSpeechTranslation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, SpeechTranslation)
+!define APSpeechTranslation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, SpeechTranslation)
 

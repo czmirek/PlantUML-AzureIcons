@@ -8,9 +8,9 @@ XA76leScfs_d_axodqy
 }
 
 AzureEntityColoring(APData08)
-!define APData08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APData08_tbg.png, APData08)
-!define APData08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APData08_tbg.png, APData08)
+!define APData08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APData08_tbg.png, Data08)
+!define APData08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APData08_tbg.png, Data08)
 AzureEntityColoring(APData08_m)
-!define APData08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APData08SPRITE, APData08_m)
-!define APData08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APData08SPRITE, APData08_m)
+!define APData08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APData08SPRITE, Data08)
+!define APData08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APData08SPRITE, Data08)
 

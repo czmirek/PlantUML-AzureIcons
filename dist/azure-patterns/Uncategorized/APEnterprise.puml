@@ -5,9 +5,9 @@ NRQh-Qx_KISf7X6tlsxiibqj8hpigElFHbf8_n5bJONwOxUkmicZm2eb_IuBTr_SABxhZVyHeL0HvGa
 }
 
 AzureEntityColoring(APEnterprise)
-!define APEnterprise(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEnterprise_tbg.png, APEnterprise)
-!define APEnterprise(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEnterprise_tbg.png, APEnterprise)
+!define APEnterprise(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEnterprise_tbg.png, Enterprise)
+!define APEnterprise(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEnterprise_tbg.png, Enterprise)
 AzureEntityColoring(APEnterprise_m)
-!define APEnterprise_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEnterpriseSPRITE, APEnterprise_m)
-!define APEnterprise_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEnterpriseSPRITE, APEnterprise_m)
+!define APEnterprise_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEnterpriseSPRITE, Enterprise)
+!define APEnterprise_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEnterpriseSPRITE, Enterprise)
 

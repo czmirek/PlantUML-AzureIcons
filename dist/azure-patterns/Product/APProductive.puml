@@ -8,9 +8,9 @@ lUSByO81oDPluV2B69eKCsLVIY8poOxm5W
 }
 
 AzureEntityColoring(APProductive)
-!define APProductive(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APProductive_tbg.png, APProductive)
-!define APProductive(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APProductive_tbg.png, APProductive)
+!define APProductive(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APProductive_tbg.png, Productive)
+!define APProductive(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APProductive_tbg.png, Productive)
 AzureEntityColoring(APProductive_m)
-!define APProductive_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProductiveSPRITE, APProductive_m)
-!define APProductive_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProductiveSPRITE, APProductive_m)
+!define APProductive_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProductiveSPRITE, Productive)
+!define APProductive_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProductiveSPRITE, Productive)
 

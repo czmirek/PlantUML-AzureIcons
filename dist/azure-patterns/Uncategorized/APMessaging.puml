@@ -5,9 +5,9 @@ lE8EI5PnLIU4bK220GGLrrCE22Y110C8AwR104BA8sE0eFB8CCBAD4100GOHLgO10WemW90I32Ei1CC8
 }
 
 AzureEntityColoring(APMessaging)
-!define APMessaging(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMessaging_tbg.png, APMessaging)
-!define APMessaging(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMessaging_tbg.png, APMessaging)
+!define APMessaging(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMessaging_tbg.png, Messaging)
+!define APMessaging(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMessaging_tbg.png, Messaging)
 AzureEntityColoring(APMessaging_m)
-!define APMessaging_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMessagingSPRITE, APMessaging_m)
-!define APMessaging_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMessagingSPRITE, APMessaging_m)
+!define APMessaging_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMessagingSPRITE, Messaging)
+!define APMessaging_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMessagingSPRITE, Messaging)
 

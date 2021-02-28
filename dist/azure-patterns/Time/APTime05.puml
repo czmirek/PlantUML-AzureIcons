@@ -8,9 +8,9 @@ EzDV_-zaTvNFucD5OdQJHp7llS_PUtTUn7S
 }
 
 AzureEntityColoring(APTime05)
-!define APTime05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTime05_tbg.png, APTime05)
-!define APTime05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTime05_tbg.png, APTime05)
+!define APTime05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTime05_tbg.png, Time05)
+!define APTime05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTime05_tbg.png, Time05)
 AzureEntityColoring(APTime05_m)
-!define APTime05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTime05SPRITE, APTime05_m)
-!define APTime05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTime05SPRITE, APTime05_m)
+!define APTime05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTime05SPRITE, Time05)
+!define APTime05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTime05SPRITE, Time05)
 

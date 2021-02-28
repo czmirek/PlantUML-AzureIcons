@@ -8,11 +8,11 @@ RNJp9WfoxdIjfuXPmpxA_rNCgnlY9WhKXs8NbPuhvr-cAvvJpH6Uqip9xr0HZtJW-M4wuLd4ZAzv1G
 }
 
 AzureEntityColoring(APIotBlue)
-!define APIotBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotBlue_tbg.png, APIotBlue)
-!define APIotBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotBlue_tbg.png, APIotBlue)
+!define APIotBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotBlue_tbg.png, IotBlue)
+!define APIotBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotBlue_tbg.png, IotBlue)
 AzureEntityColoring(APIotBlue_m)
-!define APIotBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueSPRITE, APIotBlue_m)
-!define APIotBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueSPRITE, APIotBlue_m)
+!define APIotBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueSPRITE, IotBlue)
+!define APIotBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueSPRITE, IotBlue)
 
 sprite $APIotBlueAltSPRITE [70x70/16z] {
 nTW7agmm38HXIpBn_lVTCAbVe9T_cTILAV6HiUMsavYMPSfsNs9PlxB4VKfVJ-dtAUDP6UzJ1g3G-x9cko_rnIoT7pKpsbRcXTTN_qfofM_LHpybg9BzbEsj
@@ -23,11 +23,11 @@ RIVSSBhlodboFINVkrh15RwAy_OL9RwwzGa
 }
 
 AzureEntityColoring(APIotBlueAlt)
-!define APIotBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, APIotBlueAlt)
-!define APIotBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, APIotBlueAlt)
+!define APIotBlueAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, IotBlueAlt)
+!define APIotBlueAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotBlueAlt_tbg.png, IotBlueAlt)
 AzureEntityColoring(APIotBlueAlt_m)
-!define APIotBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, APIotBlueAlt_m)
-!define APIotBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, APIotBlueAlt_m)
+!define APIotBlueAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, IotBlueAlt)
+!define APIotBlueAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, IotBlueAlt)
 
 sprite $APIotCentralSPRITE [70x70/16z] {
 xPW5Ti0m34CRXllVTpoNbDTQyNXwMFfDv82TvPFa_Jp3vTwpcuIa_g8qmmYjlwa5sf3QDwgUDMGhofua7qklrFR4zTEyB7ab1igGwkI6pXvNmAz3qzcJDZQC
@@ -37,11 +37,11 @@ _NpcOPC54HaPUDayE-GpLVkicS_WxQi9lhBXgoooudFO4Bxwf2lXbPYCgtB-XC3-j8Ao9ts3KnpcH8dN
 }
 
 AzureEntityColoring(APIotCentral)
-!define APIotCentral(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentral_tbg.png, APIotCentral)
-!define APIotCentral(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentral_tbg.png, APIotCentral)
+!define APIotCentral(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentral_tbg.png, IotCentral)
+!define APIotCentral(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentral_tbg.png, IotCentral)
 AzureEntityColoring(APIotCentral_m)
-!define APIotCentral_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralSPRITE, APIotCentral_m)
-!define APIotCentral_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralSPRITE, APIotCentral_m)
+!define APIotCentral_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralSPRITE, IotCentral)
+!define APIotCentral_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralSPRITE, IotCentral)
 
 sprite $APIotCentralAltSPRITE [70x70/16z] {
 xPZPTeCm30N5OdRR__-rNTvw3uW9edixpydbU4GanURGp7N7tDWrXb8FA8DTeC_L8VVs8Esgnz33hQqPi__EFlUQaDpB6KcFys6CPo6JcJAHdhsGfMNj96Jh
@@ -52,11 +52,11 @@ YnE_KRf_k_KC
 }
 
 AzureEntityColoring(APIotCentralAlt)
-!define APIotCentralAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, APIotCentralAlt)
-!define APIotCentralAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, APIotCentralAlt)
+!define APIotCentralAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, IotCentralAlt)
+!define APIotCentralAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt_tbg.png, IotCentralAlt)
 AzureEntityColoring(APIotCentralAlt_m)
-!define APIotCentralAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, APIotCentralAlt_m)
-!define APIotCentralAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, APIotCentralAlt_m)
+!define APIotCentralAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, IotCentralAlt)
+!define APIotCentralAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAltSPRITE, IotCentralAlt)
 
 sprite $APIotCentralAlt2SPRITE [70x70/16z] {
 fPK7hWCn20MNyhZ_ZN-rXFMy8EICwhO9JDh3C18XpwSWVi1d3e-5tpiqDlJE8K78NH06bq4OlmrYpsCtUGJ74liPcGVXeC9vva6qsjBdGRnzWN6G_heCWkXm
@@ -67,11 +67,11 @@ O7IbngfNxDVYPVhRXBRjR-6HcppZ86sUUP0-ppn8-s6O1-b7vo1ZzgVOEeGtQ8BCyzmimtaIV-uGfo2N
 }
 
 AzureEntityColoring(APIotCentralAlt2)
-!define APIotCentralAlt2(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt2_tbg.png, APIotCentralAlt2)
-!define APIotCentralAlt2(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt2_tbg.png, APIotCentralAlt2)
+!define APIotCentralAlt2(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotCentralAlt2_tbg.png, IotCentralAlt2)
+!define APIotCentralAlt2(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotCentralAlt2_tbg.png, IotCentralAlt2)
 AzureEntityColoring(APIotCentralAlt2_m)
-!define APIotCentralAlt2_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAlt2SPRITE, APIotCentralAlt2_m)
-!define APIotCentralAlt2_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAlt2SPRITE, APIotCentralAlt2_m)
+!define APIotCentralAlt2_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAlt2SPRITE, IotCentralAlt2)
+!define APIotCentralAlt2_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAlt2SPRITE, IotCentralAlt2)
 
 sprite $APIotEdgeAltSPRITE [70x70/16z] {
 fLRfceGW39F3IhNIzt_QFJjVbOsu8_cpfo4DQSRf5b6qGPsdTq4AmE4zacBFRKl-0d7L7qXyXuH_Ho0_Ezk0VPfKHAf8IQwaqPz_rLmF5Sh1msB__yVBiFzm
@@ -85,11 +85,11 @@ bzDZiBCCDyCd
 }
 
 AzureEntityColoring(APIotEdgeAlt)
-!define APIotEdgeAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotEdgeAlt_tbg.png, APIotEdgeAlt)
-!define APIotEdgeAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotEdgeAlt_tbg.png, APIotEdgeAlt)
+!define APIotEdgeAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotEdgeAlt_tbg.png, IotEdgeAlt)
+!define APIotEdgeAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotEdgeAlt_tbg.png, IotEdgeAlt)
 AzureEntityColoring(APIotEdgeAlt_m)
-!define APIotEdgeAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotEdgeAltSPRITE, APIotEdgeAlt_m)
-!define APIotEdgeAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotEdgeAltSPRITE, APIotEdgeAlt_m)
+!define APIotEdgeAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotEdgeAltSPRITE, IotEdgeAlt)
+!define APIotEdgeAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotEdgeAltSPRITE, IotEdgeAlt)
 
 sprite $APIotHubAltSPRITE [70x70/16z] {
 xPW5rXin30RDADltFsqfz2tOsgZS_lCuC564UL5lKyO1UjyoJlWxB8766DbzbyNGk96-mwBxynLPRi5oEgb53w2g3P6UC1P_hGAqVaNw8PRuGomM9KrgKHqi
@@ -100,11 +100,11 @@ dhSGxAxPlVMC1GAlyujHM8iAz-Vq_5GIRr4cKw_Xs06yXQU29Oaj0In6Qi7qvbscw4bYBRfXXUJ_6gIl
 }
 
 AzureEntityColoring(APIotHubAlt)
-!define APIotHubAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotHubAlt_tbg.png, APIotHubAlt)
-!define APIotHubAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotHubAlt_tbg.png, APIotHubAlt)
+!define APIotHubAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotHubAlt_tbg.png, IotHubAlt)
+!define APIotHubAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotHubAlt_tbg.png, IotHubAlt)
 AzureEntityColoring(APIotHubAlt_m)
-!define APIotHubAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotHubAltSPRITE, APIotHubAlt_m)
-!define APIotHubAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotHubAltSPRITE, APIotHubAlt_m)
+!define APIotHubAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotHubAltSPRITE, IotHubAlt)
+!define APIotHubAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotHubAltSPRITE, IotHubAlt)
 
 sprite $APIotOverviewSPRITE [70x70/16z] {
 xPTfclCe48EHL93u_XUUnYvRuoU4NfXzFlrh8AzLYwbs-HVhboY9gn0TmY8anVLmm2NC5GiMWhA5ZbcmKfQ5MpQ0dmQKoM14EnJ23oWxejqbV3ijgkr3LKIN
@@ -118,11 +118,11 @@ P44mP4a0of-ltm
 }
 
 AzureEntityColoring(APIotOverview)
-!define APIotOverview(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, APIotOverview)
-!define APIotOverview(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, APIotOverview)
+!define APIotOverview(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, IotOverview)
+!define APIotOverview(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotOverview_tbg.png, IotOverview)
 AzureEntityColoring(APIotOverview_m)
-!define APIotOverview_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, APIotOverview_m)
-!define APIotOverview_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, APIotOverview_m)
+!define APIotOverview_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, IotOverview)
+!define APIotOverview_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotOverviewSPRITE, IotOverview)
 
 sprite $APIotSolutionAcceleratorsSPRITE [70x70/16z] {
 hPY1ajmW28O54DptV-7MmVYx4rgp6MdlBadm4m4LK_uhdodblJ0eyfP1_bd4wHMaWX1IVsTeRzUaQBINrl_gZmw9HWEdmF9p1bblOLH0wM9mpzF1-DKhA8Nz
@@ -135,10 +135,10 @@ rYy51foffSxKTKzgJ6FQr9X7wjqpjVU9Sy21Cyd1yz7vizhpS-E1CwmUEK-VEDkV_ivm_fl7-Uylvxy5
 }
 
 AzureEntityColoring(APIotSolutionAccelerators)
-!define APIotSolutionAccelerators(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, APIotSolutionAccelerators)
-!define APIotSolutionAccelerators(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, APIotSolutionAccelerators)
+!define APIotSolutionAccelerators(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, IotSolutionAccelerators)
+!define APIotSolutionAccelerators(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, IotSolutionAccelerators)
 AzureEntityColoring(APIotSolutionAccelerators_m)
-!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, APIotSolutionAccelerators_m)
-!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, APIotSolutionAccelerators_m)
+!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, IotSolutionAccelerators)
+!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, IotSolutionAccelerators)
 
 

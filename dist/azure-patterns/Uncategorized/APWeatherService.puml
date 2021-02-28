@@ -6,9 +6,9 @@ ccMaPYdwbQLc6QaKXXOXt9xa4KlDCbAp34qXT2qc3wLc6PgQPRHK2iDI22CrIzOYpxNKB2ELGdbBYCe7
 }
 
 AzureEntityColoring(APWeatherService)
-!define APWeatherService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWeatherService_tbg.png, APWeatherService)
-!define APWeatherService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWeatherService_tbg.png, APWeatherService)
+!define APWeatherService(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWeatherService_tbg.png, WeatherService)
+!define APWeatherService(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWeatherService_tbg.png, WeatherService)
 AzureEntityColoring(APWeatherService_m)
-!define APWeatherService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWeatherServiceSPRITE, APWeatherService_m)
-!define APWeatherService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWeatherServiceSPRITE, APWeatherService_m)
+!define APWeatherService_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWeatherServiceSPRITE, WeatherService)
+!define APWeatherService_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWeatherServiceSPRITE, WeatherService)
 

@@ -9,11 +9,11 @@ OwMv98oT0cPpC7R4jDAsRKosqO9TMtY_nAAK6UtB8_RvavdfumV4XtdKyBJs09o43u7a2OQ9FE5f5AoZ
 }
 
 AzureEntityColoring(CDSIotAzureCosmosDB)
-!define CDSIotAzureCosmosDB(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureCosmosDB_tbg.png, CDSIotAzureCosmosDB)
-!define CDSIotAzureCosmosDB(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureCosmosDB_tbg.png, CDSIotAzureCosmosDB)
+!define CDSIotAzureCosmosDB(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureCosmosDB_tbg.png, IotAzureCosmosDB)
+!define CDSIotAzureCosmosDB(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureCosmosDB_tbg.png, IotAzureCosmosDB)
 AzureEntityColoring(CDSIotAzureCosmosDB_m)
-!define CDSIotAzureCosmosDB_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureCosmosDBSPRITE, CDSIotAzureCosmosDB_m)
-!define CDSIotAzureCosmosDB_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureCosmosDBSPRITE, CDSIotAzureCosmosDB_m)
+!define CDSIotAzureCosmosDB_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureCosmosDBSPRITE, IotAzureCosmosDB)
+!define CDSIotAzureCosmosDB_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureCosmosDBSPRITE, IotAzureCosmosDB)
 
 sprite $CDSIotAzureMapsAccountsSPRITE [70x70/16z] {
 rPH9jYCn20GXcQhlV-0_wrbb2OnwvrXv36KYNj6Rm828cga8mFG_GEm9mQb2ROlYm645E7BKddF7UI-r5jALrEYHv5p3bWDTD7oSH4cADDqwJEYLalfAk7LJ
@@ -25,11 +25,11 @@ WQ1Cxy4d
 }
 
 AzureEntityColoring(CDSIotAzureMapsAccounts)
-!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureMapsAccounts_tbg.png, CDSIotAzureMapsAccounts)
-!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureMapsAccounts_tbg.png, CDSIotAzureMapsAccounts)
+!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureMapsAccounts_tbg.png, IotAzureMapsAccounts)
+!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureMapsAccounts_tbg.png, IotAzureMapsAccounts)
 AzureEntityColoring(CDSIotAzureMapsAccounts_m)
-!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureMapsAccountsSPRITE, CDSIotAzureMapsAccounts_m)
-!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureMapsAccountsSPRITE, CDSIotAzureMapsAccounts_m)
+!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureMapsAccountsSPRITE, IotAzureMapsAccounts)
+!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureMapsAccountsSPRITE, IotAzureMapsAccounts)
 
 sprite $CDSIotAzureSphereSPRITE [70x70/16z] {
 tPXTqjiw34C94fHyzx_WsrPVC55CntBYFlKyUPJX6O3vjoq1x2u8aenxek23k2a9zxYXyKYIDY2PuL-i8rCIQJ8_MX2O0z9rvDGPhZjaCHEoNFH4Yc8HOGiy
@@ -42,11 +42,11 @@ xGF00r4Zx5CGhMyIRBs5tG3kwmI_
 }
 
 AzureEntityColoring(CDSIotAzureSphere)
-!define CDSIotAzureSphere(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureSphere_tbg.png, CDSIotAzureSphere)
-!define CDSIotAzureSphere(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureSphere_tbg.png, CDSIotAzureSphere)
+!define CDSIotAzureSphere(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureSphere_tbg.png, IotAzureSphere)
+!define CDSIotAzureSphere(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureSphere_tbg.png, IotAzureSphere)
 AzureEntityColoring(CDSIotAzureSphere_m)
-!define CDSIotAzureSphere_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureSphereSPRITE, CDSIotAzureSphere_m)
-!define CDSIotAzureSphere_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureSphereSPRITE, CDSIotAzureSphere_m)
+!define CDSIotAzureSphere_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureSphereSPRITE, IotAzureSphere)
+!define CDSIotAzureSphere_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureSphereSPRITE, IotAzureSphere)
 
 sprite $CDSIotDataBoxEdgeSPRITE [70x70/16z] {
 xTH7OYCn34JHGY5fxd_W2GfKSwW0q2k7jt7-1j41NzIF7rJp-ClTADWY5XCd-YnMYXx6GuOEZITSKERn7AeiNt3KC5yob4I-9YZmVCDtphFYnYYhm6kYbWNo
@@ -56,11 +56,11 @@ og_tJdBu2-4b9MOKgrTIS4ORncZbYkD6btTTjPB4dTgYK3cv0YXab4y9LhI7Y1xHQgKV8hwu7p_-
 }
 
 AzureEntityColoring(CDSIotDataBoxEdge)
-!define CDSIotDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDataBoxEdge_tbg.png, CDSIotDataBoxEdge)
-!define CDSIotDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDataBoxEdge_tbg.png, CDSIotDataBoxEdge)
+!define CDSIotDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDataBoxEdge_tbg.png, IotDataBoxEdge)
+!define CDSIotDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDataBoxEdge_tbg.png, IotDataBoxEdge)
 AzureEntityColoring(CDSIotDataBoxEdge_m)
-!define CDSIotDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDataBoxEdgeSPRITE, CDSIotDataBoxEdge_m)
-!define CDSIotDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDataBoxEdgeSPRITE, CDSIotDataBoxEdge_m)
+!define CDSIotDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDataBoxEdgeSPRITE, IotDataBoxEdge)
+!define CDSIotDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDataBoxEdgeSPRITE, IotDataBoxEdge)
 
 sprite $CDSIotDeviceProvisioningServicesSPRITE [70x70/16z] {
 lPRfOkqW28I16Rmvx__0tRACzIhf_lqwDMGOC5BjrmcGsLv84l4rXMm3-Labj0MmZ-9iugiwR3U4tHBj7dxAI2BStseCy3DsF2-9CT8ZfRyM0CDFD_IgxtYB
@@ -73,11 +73,11 @@ VZVj7jxjeN1TxDCiEy9gN0bf_hXmwn_S4xnSXrHWCRJiWpemIeKM2urAX-JeXIJSFeK7yBulGDZNwFVe
 }
 
 AzureEntityColoring(CDSIotDeviceProvisioningServices)
-!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, CDSIotDeviceProvisioningServices)
-!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, CDSIotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, IotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, IotDeviceProvisioningServices)
 AzureEntityColoring(CDSIotDeviceProvisioningServices_m)
-!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, CDSIotDeviceProvisioningServices_m)
-!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, CDSIotDeviceProvisioningServices_m)
+!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, IotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, IotDeviceProvisioningServices)
 
 sprite $CDSIotDigitalTwinsSPRITE [70x70/16z] {
 xSo55ODG40J0S-Y_uUYpFE3lnMsdW94pzKH21ObiW4jsw4CM-xY52nVz_8LBTN1P5tx9zAPbmHwon6CM_V5bMlYaPVh9XSkyyB25YynBDopra4MYe83BaiR2
@@ -85,11 +85,11 @@ snSkNBXmuI98D3XSp0CnbRCz
 }
 
 AzureEntityColoring(CDSIotDigitalTwins)
-!define CDSIotDigitalTwins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, CDSIotDigitalTwins)
-!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, CDSIotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, IotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, IotDigitalTwins)
 AzureEntityColoring(CDSIotDigitalTwins_m)
-!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, CDSIotDigitalTwins_m)
-!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, CDSIotDigitalTwins_m)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, IotDigitalTwins)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, IotDigitalTwins)
 
 sprite $CDSIotEventGridSubscriptionsSPRITE [70x70/16z] {
 xTXNOeGm38JXaKO3zxznLcHxjmMf_jxvwM0Rsnge56mMIaIQohweCYhgS5jnDFErAgF22DhBYk4Pry9npiug7ebuIdk6Supam6ksG-q5-kZomIv4gfMCa8nI
@@ -98,11 +98,11 @@ DiupclQ40flsY0hEYq2DQPv5F1PAWGwXn9kHHnFxZIEoKL67NpFB6fNQ2W4ZEROrV
 }
 
 AzureEntityColoring(CDSIotEventGridSubscriptions)
-!define CDSIotEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventGridSubscriptions_tbg.png, CDSIotEventGridSubscriptions)
-!define CDSIotEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventGridSubscriptions_tbg.png, CDSIotEventGridSubscriptions)
+!define CDSIotEventGridSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventGridSubscriptions_tbg.png, IotEventGridSubscriptions)
+!define CDSIotEventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventGridSubscriptions_tbg.png, IotEventGridSubscriptions)
 AzureEntityColoring(CDSIotEventGridSubscriptions_m)
-!define CDSIotEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotEventGridSubscriptionsSPRITE, CDSIotEventGridSubscriptions_m)
-!define CDSIotEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotEventGridSubscriptionsSPRITE, CDSIotEventGridSubscriptions_m)
+!define CDSIotEventGridSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotEventGridSubscriptionsSPRITE, IotEventGridSubscriptions)
+!define CDSIotEventGridSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotEventGridSubscriptionsSPRITE, IotEventGridSubscriptions)
 
 sprite $CDSIotEventHubsSPRITE [70x70/16z] {
 xTW53iDG281XzDt_o4k5agNAOpw-UEMlApnNOHq8XuaE60OjxKMLgcY7TOKWZ5vRgGhQAD7PQHUz0YG3XXcfOJZ3CY1muOhxnmhnZ3ALje0GD92ek5-f81k4
@@ -110,11 +110,11 @@ TOKk7Z5kHjOL7qcX2lACxaTogE9-feApL4MR2LLGpEfyMOty-UieVd-9NqVvYYmo5VSz5T61z5HazSJ1
 }
 
 AzureEntityColoring(CDSIotEventHubs)
-!define CDSIotEventHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventHubs_tbg.png, CDSIotEventHubs)
-!define CDSIotEventHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventHubs_tbg.png, CDSIotEventHubs)
+!define CDSIotEventHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventHubs_tbg.png, IotEventHubs)
+!define CDSIotEventHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotEventHubs_tbg.png, IotEventHubs)
 AzureEntityColoring(CDSIotEventHubs_m)
-!define CDSIotEventHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotEventHubsSPRITE, CDSIotEventHubs_m)
-!define CDSIotEventHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotEventHubsSPRITE, CDSIotEventHubs_m)
+!define CDSIotEventHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotEventHubsSPRITE, IotEventHubs)
+!define CDSIotEventHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotEventHubsSPRITE, IotEventHubs)
 
 sprite $CDSIotFunctionAppSPRITE [70x70/16z] {
 xTHPRWCn38DXIeeGt__2NOsw6c90n5Nty5dvy6SRxEw-ECut42V5VauAEbBGaM8TATwIWeuKTAHOHugtfDpoofh2Y4v2Z94bXJwK72CqifXBcRyXn32oZhmW
@@ -124,11 +124,11 @@ cYafXhA520OhXH1W8c8-jOhm0Q1dXEmiTX5E2NniqO5O1uBeGAm3GH2obt91Gqe3OXq8FD2p-nu1
 }
 
 AzureEntityColoring(CDSIotFunctionApp)
-!define CDSIotFunctionApp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotFunctionApp_tbg.png, CDSIotFunctionApp)
-!define CDSIotFunctionApp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotFunctionApp_tbg.png, CDSIotFunctionApp)
+!define CDSIotFunctionApp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotFunctionApp_tbg.png, IotFunctionApp)
+!define CDSIotFunctionApp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotFunctionApp_tbg.png, IotFunctionApp)
 AzureEntityColoring(CDSIotFunctionApp_m)
-!define CDSIotFunctionApp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotFunctionAppSPRITE, CDSIotFunctionApp_m)
-!define CDSIotFunctionApp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotFunctionAppSPRITE, CDSIotFunctionApp_m)
+!define CDSIotFunctionApp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotFunctionAppSPRITE, IotFunctionApp)
+!define CDSIotFunctionApp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotFunctionAppSPRITE, IotFunctionApp)
 
 sprite $CDSIotIoTCentralApplicationsSPRITE [70x70/16z] {
 fPK7hWCn20MNyhZ_ZN-rXFMy8EICwhO9JDh3C18XpwSWVi1d3e-5tpiqDlJE8K78NH06bq4OlmrYpsCtUGJ74liPcGVXeC9vva6qsjBdGRnzWN6G_heCWkXm
@@ -139,11 +139,11 @@ O7IbngfNxDVYPVhRXBRjR-6HcppZ86sUUP0-ppn8-s6O1-b7vo1ZzgVOEeGtQ8BCyzmimtaIV-uGfo2N
 }
 
 AzureEntityColoring(CDSIotIoTCentralApplications)
-!define CDSIotIoTCentralApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTCentralApplications_tbg.png, CDSIotIoTCentralApplications)
-!define CDSIotIoTCentralApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTCentralApplications_tbg.png, CDSIotIoTCentralApplications)
+!define CDSIotIoTCentralApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTCentralApplications_tbg.png, IotIoTCentralApplications)
+!define CDSIotIoTCentralApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTCentralApplications_tbg.png, IotIoTCentralApplications)
 AzureEntityColoring(CDSIotIoTCentralApplications_m)
-!define CDSIotIoTCentralApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTCentralApplicationsSPRITE, CDSIotIoTCentralApplications_m)
-!define CDSIotIoTCentralApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTCentralApplicationsSPRITE, CDSIotIoTCentralApplications_m)
+!define CDSIotIoTCentralApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTCentralApplicationsSPRITE, IotIoTCentralApplications)
+!define CDSIotIoTCentralApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTCentralApplicationsSPRITE, IotIoTCentralApplications)
 
 sprite $CDSIotIoTEdgeSPRITE [70x70/16z] {
 xTDPSi8m48JXdjtS_y3PLQ3OqWZ9sVEzClLNsm3wY4LKHOGnYzLkw5H8REVk3gaT8To3hLYOezOaQv52roFZQyGIZ1nPYf2od0uzp_eOi_Kn93Oa-VSDuko5
@@ -153,11 +153,11 @@ uAfnEHQCG-AnRIELBLm9uqIJy__A7BORiocoojgKWhwo8kTKlF8RAb7v1HNTAemfibK8Swg8OnAf5wRe
 }
 
 AzureEntityColoring(CDSIotIoTEdge)
-!define CDSIotIoTEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTEdge_tbg.png, CDSIotIoTEdge)
-!define CDSIotIoTEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTEdge_tbg.png, CDSIotIoTEdge)
+!define CDSIotIoTEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTEdge_tbg.png, IotIoTEdge)
+!define CDSIotIoTEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTEdge_tbg.png, IotIoTEdge)
 AzureEntityColoring(CDSIotIoTEdge_m)
-!define CDSIotIoTEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTEdgeSPRITE, CDSIotIoTEdge_m)
-!define CDSIotIoTEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTEdgeSPRITE, CDSIotIoTEdge_m)
+!define CDSIotIoTEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTEdgeSPRITE, IotIoTEdge)
+!define CDSIotIoTEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTEdgeSPRITE, IotIoTEdge)
 
 sprite $CDSIotIoTHubSPRITE [70x70/16z] {
 rPPfUiCm24GPOEZzJznTuNFmGgLqU_xJ9iep8oTZotz6umvYmi8e_8W5MBR0-OgjMOoVOC6YlB5WOR8DvNrBZbA7mK0lBLOi5NpDWbcBFcGMCB49Ius4UOju
@@ -168,11 +168,11 @@ d5dOQWo3B5YIFsgHnrZu40kAHkK_ym8
 }
 
 AzureEntityColoring(CDSIotIoTHub)
-!define CDSIotIoTHub(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, CDSIotIoTHub)
-!define CDSIotIoTHub(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, CDSIotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, IotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, IotIoTHub)
 AzureEntityColoring(CDSIotIoTHub_m)
-!define CDSIotIoTHub_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, CDSIotIoTHub_m)
-!define CDSIotIoTHub_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, CDSIotIoTHub_m)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, IotIoTHub)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, IotIoTHub)
 
 sprite $CDSIotLogicAppsSPRITE [70x70/16z] {
 xTS7TiCm281XXi3h_lTjDXAMrOVSNVrlPNw6xC2tDHeXin048c7oXkWbXa2ebn92bcgNSWairbjkGfQyX7vyV-IQ0RYMQNqQjoAuo2aJ-99UmaAXYZBHCwaf
@@ -182,11 +182,11 @@ lP8WclyUKqEZewZ_Do4ODvJ1qk0qTkJoEUnJqcv25Wp_u_k-HgCt
 }
 
 AzureEntityColoring(CDSIotLogicApps)
-!define CDSIotLogicApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotLogicApps_tbg.png, CDSIotLogicApps)
-!define CDSIotLogicApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotLogicApps_tbg.png, CDSIotLogicApps)
+!define CDSIotLogicApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotLogicApps_tbg.png, IotLogicApps)
+!define CDSIotLogicApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotLogicApps_tbg.png, IotLogicApps)
 AzureEntityColoring(CDSIotLogicApps_m)
-!define CDSIotLogicApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotLogicAppsSPRITE, CDSIotLogicApps_m)
-!define CDSIotLogicApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotLogicAppsSPRITE, CDSIotLogicApps_m)
+!define CDSIotLogicApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotLogicAppsSPRITE, IotLogicApps)
+!define CDSIotLogicApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotLogicAppsSPRITE, IotLogicApps)
 
 sprite $CDSIotMachineLearningStudioWebServicePlansSPRITE [70x70/16z] {
 rPQ7WkCW34GNL77-_t_FO8bOMKXihi_TTl7GZ73v-c-Ka5XKorPKc2cl8BXihnAunyYy3QLuWo6sg0WJGWOaxh-woc6hvsW0pADU2GZUr89kLVGHGWTZbYEs
@@ -199,11 +199,11 @@ nCEhMvM46jckA9rRqmNAu6q6a6uBmJe9oZNJN0Njo2sfKhn3_BSei4Y1VvQ2YnJY4uKfBK7Gtt7wqtX1
 }
 
 AzureEntityColoring(CDSIotMachineLearningStudioWebServicePlans)
-!define CDSIotMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServicePlans_tbg.png, CDSIotMachineLearningStudioWebServicePlans)
-!define CDSIotMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServicePlans_tbg.png, CDSIotMachineLearningStudioWebServicePlans)
+!define CDSIotMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServicePlans_tbg.png, IotMachineLearningStudioWebServicePlans)
+!define CDSIotMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServicePlans_tbg.png, IotMachineLearningStudioWebServicePlans)
 AzureEntityColoring(CDSIotMachineLearningStudioWebServicePlans_m)
-!define CDSIotMachineLearningStudioWebServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicePlansSPRITE, CDSIotMachineLearningStudioWebServicePlans_m)
-!define CDSIotMachineLearningStudioWebServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicePlansSPRITE, CDSIotMachineLearningStudioWebServicePlans_m)
+!define CDSIotMachineLearningStudioWebServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicePlansSPRITE, IotMachineLearningStudioWebServicePlans)
+!define CDSIotMachineLearningStudioWebServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicePlansSPRITE, IotMachineLearningStudioWebServicePlans)
 
 sprite $CDSIotMachineLearningStudioWebServicesSPRITE [70x70/16z] {
 rPQ7kfiX2415PTZtV-0Adw6aHcAwUphkF_J8qDoK_usAB5-KmLX_J06eXW2tZntD5G7vp0FiCpKd6O-xyO47HrXz2X785FeVtKfi2fDAe9YbbAvtPXUubem6
@@ -217,11 +217,11 @@ cmtrYlBR-Ge
 }
 
 AzureEntityColoring(CDSIotMachineLearningStudioWebServices)
-!define CDSIotMachineLearningStudioWebServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServices_tbg.png, CDSIotMachineLearningStudioWebServices)
-!define CDSIotMachineLearningStudioWebServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServices_tbg.png, CDSIotMachineLearningStudioWebServices)
+!define CDSIotMachineLearningStudioWebServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServices_tbg.png, IotMachineLearningStudioWebServices)
+!define CDSIotMachineLearningStudioWebServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWebServices_tbg.png, IotMachineLearningStudioWebServices)
 AzureEntityColoring(CDSIotMachineLearningStudioWebServices_m)
-!define CDSIotMachineLearningStudioWebServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicesSPRITE, CDSIotMachineLearningStudioWebServices_m)
-!define CDSIotMachineLearningStudioWebServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicesSPRITE, CDSIotMachineLearningStudioWebServices_m)
+!define CDSIotMachineLearningStudioWebServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicesSPRITE, IotMachineLearningStudioWebServices)
+!define CDSIotMachineLearningStudioWebServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWebServicesSPRITE, IotMachineLearningStudioWebServices)
 
 sprite $CDSIotMachineLearningStudioWorkspacesSPRITE [70x70/16z] {
 xPPNOiCm3CKiJiNtFt2pu-T9iRiLVh8X8fx3Bq2q0TwGa3NHPkaMHGpH6K7BYFmsIxTqIxSSd0fYvnS-M7n4Vh25xeW_gEsMeajgiuMIbkFByodpxp9ysq-v
@@ -230,11 +230,11 @@ Y9sHR0_QAMWnTvVrKdUtc4JWgyi5D28XFqDx7tB0uhlBgP-1pPrAnwRio1nfydh6P1kh5_QRjCQmNKkD
 }
 
 AzureEntityColoring(CDSIotMachineLearningStudioWorkspaces)
-!define CDSIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWorkspaces_tbg.png, CDSIotMachineLearningStudioWorkspaces)
-!define CDSIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWorkspaces_tbg.png, CDSIotMachineLearningStudioWorkspaces)
+!define CDSIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWorkspaces_tbg.png, IotMachineLearningStudioWorkspaces)
+!define CDSIotMachineLearningStudioWorkspaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotMachineLearningStudioWorkspaces_tbg.png, IotMachineLearningStudioWorkspaces)
 AzureEntityColoring(CDSIotMachineLearningStudioWorkspaces_m)
-!define CDSIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWorkspacesSPRITE, CDSIotMachineLearningStudioWorkspaces_m)
-!define CDSIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWorkspacesSPRITE, CDSIotMachineLearningStudioWorkspaces_m)
+!define CDSIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWorkspacesSPRITE, IotMachineLearningStudioWorkspaces)
+!define CDSIotMachineLearningStudioWorkspaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotMachineLearningStudioWorkspacesSPRITE, IotMachineLearningStudioWorkspaces)
 
 sprite $CDSIotmanageSPRITE [70x70/16z] {
 xTP7aiGW38LXG198zFtlEmMTWvv5sRlnltPzJgHqO6TdHIgNlKQTITbhx7IAr15mmWPsuWPsiE56-mtiO0CxsC3ERWCxsC0EDd3yOMHWG2V7ZAPcsf2pRUZb
@@ -244,11 +244,11 @@ CjzHcnVWTwhzcgax7MRACq-nHze-3NkfyQX0vTjfQk_nYB1ohpc66V4efem7ciItCfaCb4XK_0zJDHhb
 }
 
 AzureEntityColoring(CDSIotmanage)
-!define CDSIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, CDSIotmanage)
-!define CDSIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, CDSIotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, Iotmanage)
+!define CDSIotmanage(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotmanage_tbg.png, Iotmanage)
 AzureEntityColoring(CDSIotmanage_m)
-!define CDSIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, CDSIotmanage_m)
-!define CDSIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, CDSIotmanage_m)
+!define CDSIotmanage_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, Iotmanage)
+!define CDSIotmanage_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotmanageSPRITE, Iotmanage)
 
 sprite $CDSIotNotificationHubNamespacesSPRITE [70x70/16z] {
 xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
@@ -256,11 +256,11 @@ LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKh
 }
 
 AzureEntityColoring(CDSIotNotificationHubNamespaces)
-!define CDSIotNotificationHubNamespaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubNamespaces_tbg.png, CDSIotNotificationHubNamespaces)
-!define CDSIotNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubNamespaces_tbg.png, CDSIotNotificationHubNamespaces)
+!define CDSIotNotificationHubNamespaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubNamespaces_tbg.png, IotNotificationHubNamespaces)
+!define CDSIotNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubNamespaces_tbg.png, IotNotificationHubNamespaces)
 AzureEntityColoring(CDSIotNotificationHubNamespaces_m)
-!define CDSIotNotificationHubNamespaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotNotificationHubNamespacesSPRITE, CDSIotNotificationHubNamespaces_m)
-!define CDSIotNotificationHubNamespaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotNotificationHubNamespacesSPRITE, CDSIotNotificationHubNamespaces_m)
+!define CDSIotNotificationHubNamespaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotNotificationHubNamespacesSPRITE, IotNotificationHubNamespaces)
+!define CDSIotNotificationHubNamespaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotNotificationHubNamespacesSPRITE, IotNotificationHubNamespaces)
 
 sprite $CDSIotNotificationHubsSPRITE [70x70/16z] {
 xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
@@ -268,11 +268,11 @@ LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKh
 }
 
 AzureEntityColoring(CDSIotNotificationHubs)
-!define CDSIotNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubs_tbg.png, CDSIotNotificationHubs)
-!define CDSIotNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubs_tbg.png, CDSIotNotificationHubs)
+!define CDSIotNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubs_tbg.png, IotNotificationHubs)
+!define CDSIotNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotNotificationHubs_tbg.png, IotNotificationHubs)
 AzureEntityColoring(CDSIotNotificationHubs_m)
-!define CDSIotNotificationHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotNotificationHubsSPRITE, CDSIotNotificationHubs_m)
-!define CDSIotNotificationHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotNotificationHubsSPRITE, CDSIotNotificationHubs_m)
+!define CDSIotNotificationHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotNotificationHubsSPRITE, IotNotificationHubs)
+!define CDSIotNotificationHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotNotificationHubsSPRITE, IotNotificationHubs)
 
 sprite $CDSIotRTOSSPRITE [70x70/16z] {
 lTK7ibqf38HXXPOET_yBdd4wcAQ0mdBuAZd-htMZhAcf_2x7LoQ_1I__lIMTgzGeIB7Zc5bv2hFobE9XwZTCZloMofuvAMQS53FgrKozubgjCFkr2W1STtGR
@@ -284,11 +284,11 @@ Fm
 }
 
 AzureEntityColoring(CDSIotRTOS)
-!define CDSIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, CDSIotRTOS)
-!define CDSIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, CDSIotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, IotRTOS)
+!define CDSIotRTOS(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotRTOS_tbg.png, IotRTOS)
 AzureEntityColoring(CDSIotRTOS_m)
-!define CDSIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, CDSIotRTOS_m)
-!define CDSIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, CDSIotRTOS_m)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, IotRTOS)
+!define CDSIotRTOS_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotRTOSSPRITE, IotRTOS)
 
 sprite $CDSIotStreamAnalyticsJobsSPRITE [70x70/16z] {
 xTK7agWy30DWItAu_ut_GkPvR1mcmzjUlktPeCYmnJxOB_faB-8-uLLIzDA1NZwI1zeJw2cz3BGz78k1oZ9s4zOBu8akYtO7FYRdMMHKOjeo_3uak8yxcnYD
@@ -300,11 +300,11 @@ RUA-mrcFTfVaH-FM0PH4fD-N7TYEZZstfW-uHxi3HSJMiBNZ6Jwu6u_lp4Xrrv4Q9MGJmzLTzhJQGdgC
 }
 
 AzureEntityColoring(CDSIotStreamAnalyticsJobs)
-!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, CDSIotStreamAnalyticsJobs)
-!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, CDSIotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, IotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotStreamAnalyticsJobs_tbg.png, IotStreamAnalyticsJobs)
 AzureEntityColoring(CDSIotStreamAnalyticsJobs_m)
-!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, CDSIotStreamAnalyticsJobs_m)
-!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, CDSIotStreamAnalyticsJobs_m)
+!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, IotStreamAnalyticsJobs)
+!define CDSIotStreamAnalyticsJobs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotStreamAnalyticsJobsSPRITE, IotStreamAnalyticsJobs)
 
 sprite $CDSIotTimeSeriesDataSetsSPRITE [70x70/16z] {
 xTK7hYiX38LX7moupFxt-x3YcwOX0uhAQz_jXLyUfz6V0aze7wRs2oXFjahtyypr3VEzjT8eNASuGrSDhXSuEvyYTS6dp6EIjMasHjaOPhwLbfOtayilURoB
@@ -316,11 +316,11 @@ z0Vu1G
 }
 
 AzureEntityColoring(CDSIotTimeSeriesDataSets)
-!define CDSIotTimeSeriesDataSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesDataSets_tbg.png, CDSIotTimeSeriesDataSets)
-!define CDSIotTimeSeriesDataSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesDataSets_tbg.png, CDSIotTimeSeriesDataSets)
+!define CDSIotTimeSeriesDataSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesDataSets_tbg.png, IotTimeSeriesDataSets)
+!define CDSIotTimeSeriesDataSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesDataSets_tbg.png, IotTimeSeriesDataSets)
 AzureEntityColoring(CDSIotTimeSeriesDataSets_m)
-!define CDSIotTimeSeriesDataSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesDataSetsSPRITE, CDSIotTimeSeriesDataSets_m)
-!define CDSIotTimeSeriesDataSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesDataSetsSPRITE, CDSIotTimeSeriesDataSets_m)
+!define CDSIotTimeSeriesDataSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesDataSetsSPRITE, IotTimeSeriesDataSets)
+!define CDSIotTimeSeriesDataSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesDataSetsSPRITE, IotTimeSeriesDataSets)
 
 sprite $CDSIotTimeSeriesInsightsAccessPoliciesSPRITE [70x70/16z] {
 pTS5Zcin50HHszNU_v8_J4lXc7geXA6ZcySkanf0Ar5LSZL0q2LIn94YZWY1W45STayxPN3rRbznXd0psJxJSAqKL_7cQGS8zLOniu_Gxjuoiut0_NOoiutG
@@ -330,11 +330,11 @@ xjypiuMuwesonpJ6cPaZELDXZQaZ1HOPqb7Cr5JnbbdQjkglqeLXIUaZ1Qcj_IEzYarbt7XNJqOHbyge
 }
 
 AzureEntityColoring(CDSIotTimeSeriesInsightsAccessPolicies)
-!define CDSIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsAccessPolicies_tbg.png, CDSIotTimeSeriesInsightsAccessPolicies)
-!define CDSIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsAccessPolicies_tbg.png, CDSIotTimeSeriesInsightsAccessPolicies)
+!define CDSIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsAccessPolicies_tbg.png, IotTimeSeriesInsightsAccessPolicies)
+!define CDSIotTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsAccessPolicies_tbg.png, IotTimeSeriesInsightsAccessPolicies)
 AzureEntityColoring(CDSIotTimeSeriesInsightsAccessPolicies_m)
-!define CDSIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsAccessPoliciesSPRITE, CDSIotTimeSeriesInsightsAccessPolicies_m)
-!define CDSIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsAccessPoliciesSPRITE, CDSIotTimeSeriesInsightsAccessPolicies_m)
+!define CDSIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsAccessPoliciesSPRITE, IotTimeSeriesInsightsAccessPolicies)
+!define CDSIotTimeSeriesInsightsAccessPolicies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsAccessPoliciesSPRITE, IotTimeSeriesInsightsAccessPolicies)
 
 sprite $CDSIotTimeSeriesInsightsEnvironmentsSPRITE [70x70/16z] {
 lPNdmkim24D18hp_6z_HvPOQsSaTvyytIEGJqM4ATu0a0NUxX3CAE9k4QF2B6HNySSP-JcnmGOGKEciHmiV4mKqTZ-D5-CvSXz2RIxYAyNB1yYXN8G6J84PC
@@ -345,11 +345,11 @@ k5s7Mo5-Ooq3UM_U26lfcusyKNvLoxP24V2yGMlfIc7Uk8-E3HdqAiU8r38rP7fV3hCvqn3FEoNqi7r6
 }
 
 AzureEntityColoring(CDSIotTimeSeriesInsightsEnvironments)
-!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEnvironments_tbg.png, CDSIotTimeSeriesInsightsEnvironments)
-!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEnvironments_tbg.png, CDSIotTimeSeriesInsightsEnvironments)
+!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEnvironments_tbg.png, IotTimeSeriesInsightsEnvironments)
+!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEnvironments_tbg.png, IotTimeSeriesInsightsEnvironments)
 AzureEntityColoring(CDSIotTimeSeriesInsightsEnvironments_m)
-!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEnvironmentsSPRITE, CDSIotTimeSeriesInsightsEnvironments_m)
-!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEnvironmentsSPRITE, CDSIotTimeSeriesInsightsEnvironments_m)
+!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEnvironmentsSPRITE, IotTimeSeriesInsightsEnvironments)
+!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEnvironmentsSPRITE, IotTimeSeriesInsightsEnvironments)
 
 sprite $CDSIotTimeSeriesInsightsEventSourcesSPRITE [70x70/16z] {
 xTW7aaKX24HH6aLwzh_WoV555Mhgfxk0Owo4PAKbbBuZreBPczB2lIA8AxX8nQPg_jQF8bFnlSjG7if3KJkfz2XsscKgTKQfIqNWumfqeRncf6meRJy0TVKh
@@ -358,11 +358,11 @@ H1deKfI7yb1iAd_lGubsOOg44KkPufICYH8agnS
 }
 
 AzureEntityColoring(CDSIotTimeSeriesInsightsEventSources)
-!define CDSIotTimeSeriesInsightsEventSources(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEventSources_tbg.png, CDSIotTimeSeriesInsightsEventSources)
-!define CDSIotTimeSeriesInsightsEventSources(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEventSources_tbg.png, CDSIotTimeSeriesInsightsEventSources)
+!define CDSIotTimeSeriesInsightsEventSources(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEventSources_tbg.png, IotTimeSeriesInsightsEventSources)
+!define CDSIotTimeSeriesInsightsEventSources(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEventSources_tbg.png, IotTimeSeriesInsightsEventSources)
 AzureEntityColoring(CDSIotTimeSeriesInsightsEventSources_m)
-!define CDSIotTimeSeriesInsightsEventSources_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEventSourcesSPRITE, CDSIotTimeSeriesInsightsEventSources_m)
-!define CDSIotTimeSeriesInsightsEventSources_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEventSourcesSPRITE, CDSIotTimeSeriesInsightsEventSources_m)
+!define CDSIotTimeSeriesInsightsEventSources_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEventSourcesSPRITE, IotTimeSeriesInsightsEventSources)
+!define CDSIotTimeSeriesInsightsEventSources_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEventSourcesSPRITE, IotTimeSeriesInsightsEventSources)
 
 sprite $CDSIotWindows10CoreServicesSPRITE [70x70/16z] {
 lTM7jjiW48JXsJ8BUVyNJcH3G2nok-LBEStdzwoKWbyW3RuaxeZaZR95essOgfgPawJZLMnJIETAtpo8oLjJD4RcyoaUpLUc8BhtffZaW_QPnw-4cWxQPkpP
@@ -375,10 +375,10 @@ IChq1k2CadSKfaWMnqS309I7g2cH8jjC20xEBY9AYU3AS4rmOtn6yHoVSC5pzdp8bok6LwbppnNl46Dc
 }
 
 AzureEntityColoring(CDSIotWindows10CoreServices)
-!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, CDSIotWindows10CoreServices)
-!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, CDSIotWindows10CoreServices)
+!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, IotWindows10CoreServices)
+!define CDSIotWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotWindows10CoreServices_tbg.png, IotWindows10CoreServices)
 AzureEntityColoring(CDSIotWindows10CoreServices_m)
-!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, CDSIotWindows10CoreServices_m)
-!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, CDSIotWindows10CoreServices_m)
+!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, IotWindows10CoreServices)
+!define CDSIotWindows10CoreServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotWindows10CoreServicesSPRITE, IotWindows10CoreServices)
 
 

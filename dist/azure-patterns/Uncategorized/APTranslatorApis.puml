@@ -7,9 +7,9 @@ DVqwHTH7VfKYKxo-OAKhunZ7zqlzbQB5jZljWsI5cpxFYnIRxTwOPUzcLtAlbZnl4dlnvpoMKYGsuteA
 }
 
 AzureEntityColoring(APTranslatorApis)
-!define APTranslatorApis(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTranslatorApis_tbg.png, APTranslatorApis)
-!define APTranslatorApis(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTranslatorApis_tbg.png, APTranslatorApis)
+!define APTranslatorApis(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTranslatorApis_tbg.png, Translatoris)
+!define APTranslatorApis(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTranslatorApis_tbg.png, Translatoris)
 AzureEntityColoring(APTranslatorApis_m)
-!define APTranslatorApis_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTranslatorApisSPRITE, APTranslatorApis_m)
-!define APTranslatorApis_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTranslatorApisSPRITE, APTranslatorApis_m)
+!define APTranslatorApis_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTranslatorApisSPRITE, Translatoris)
+!define APTranslatorApis_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTranslatorApisSPRITE, Translatoris)
 

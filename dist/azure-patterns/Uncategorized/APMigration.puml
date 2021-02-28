@@ -8,9 +8,9 @@ gnZ1h6AEbxcA4SmgvWZcLTm_b61MCSVBNCK8PXLplCnLZ61MCSVBNCM8FeefnKSnlm8
 }
 
 AzureEntityColoring(APMigration)
-!define APMigration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMigration_tbg.png, APMigration)
-!define APMigration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMigration_tbg.png, APMigration)
+!define APMigration(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMigration_tbg.png, Migration)
+!define APMigration(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMigration_tbg.png, Migration)
 AzureEntityColoring(APMigration_m)
-!define APMigration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMigrationSPRITE, APMigration_m)
-!define APMigration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMigrationSPRITE, APMigration_m)
+!define APMigration_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMigrationSPRITE, Migration)
+!define APMigration_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMigrationSPRITE, Migration)
 

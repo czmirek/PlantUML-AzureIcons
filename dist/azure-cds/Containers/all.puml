@@ -11,11 +11,11 @@ A_qbSsZxHDU7UGwdzYdEpfylLop4Lah7-3AqF-Yi7iSfJAZz6_u3
 }
 
 AzureEntityColoring(CDSContainersAppServices)
-!define CDSContainersAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, CDSContainersAppServices)
-!define CDSContainersAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, CDSContainersAppServices)
+!define CDSContainersAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, ContainersAppServices)
+!define CDSContainersAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersAppServices_tbg.png, ContainersAppServices)
 AzureEntityColoring(CDSContainersAppServices_m)
-!define CDSContainersAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, CDSContainersAppServices_m)
-!define CDSContainersAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, CDSContainersAppServices_m)
+!define CDSContainersAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, ContainersAppServices)
+!define CDSContainersAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersAppServicesSPRITE, ContainersAppServices)
 
 sprite $CDSContainersBatchAccountsSPRITE [70x70/16z] {
 xT875iGW24NHBmgIPF_xdVJgCJAztGKy2-0haGNI0jiWYOteBXN_hoI5krH4WiD1j9AsSuzAYv8LuLEohWYbAeHpCbPI6UqLLRGZavigth7q-AOA4AJd3fL0
@@ -25,11 +25,11 @@ KOXoy8qk
 }
 
 AzureEntityColoring(CDSContainersBatchAccounts)
-!define CDSContainersBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersBatchAccounts_tbg.png, CDSContainersBatchAccounts)
-!define CDSContainersBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersBatchAccounts_tbg.png, CDSContainersBatchAccounts)
+!define CDSContainersBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersBatchAccounts_tbg.png, ContainersBatchAccounts)
+!define CDSContainersBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersBatchAccounts_tbg.png, ContainersBatchAccounts)
 AzureEntityColoring(CDSContainersBatchAccounts_m)
-!define CDSContainersBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersBatchAccountsSPRITE, CDSContainersBatchAccounts_m)
-!define CDSContainersBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersBatchAccountsSPRITE, CDSContainersBatchAccounts_m)
+!define CDSContainersBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersBatchAccountsSPRITE, ContainersBatchAccounts)
+!define CDSContainersBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersBatchAccountsSPRITE, ContainersBatchAccounts)
 
 sprite $CDSContainersContainerInstancesSPRITE [70x70/16z] {
 xT9R4k8W48NXRg1lPF_x7JDYpNHXJh3mqVyPlpfW2CQbDZsJnWH2LKtLNMFKTetHP_SIdVhyMZhQOaH1XTPg1bjZYk6KLbAxgMtUPyHBKxR7y9YoyJ9LR2t-
@@ -40,11 +40,11 @@ fJ4KC6DvLDpF-0C
 }
 
 AzureEntityColoring(CDSContainersContainerInstances)
-!define CDSContainersContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerInstances_tbg.png, CDSContainersContainerInstances)
-!define CDSContainersContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerInstances_tbg.png, CDSContainersContainerInstances)
+!define CDSContainersContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerInstances_tbg.png, ContainersContainerInstances)
+!define CDSContainersContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerInstances_tbg.png, ContainersContainerInstances)
 AzureEntityColoring(CDSContainersContainerInstances_m)
-!define CDSContainersContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerInstancesSPRITE, CDSContainersContainerInstances_m)
-!define CDSContainersContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerInstancesSPRITE, CDSContainersContainerInstances_m)
+!define CDSContainersContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerInstancesSPRITE, ContainersContainerInstances)
+!define CDSContainersContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerInstancesSPRITE, ContainersContainerInstances)
 
 sprite $CDSContainersContainerRegistriesSPRITE [70x70/16z] {
 xTS7agGm38NXTj1xClJzpxl5g8EA1WJsvjr_Sle83ZNS_kp-btAfLQJMahgD2hv3xO8grqc-QXHm8xbsFiBja4SHgvn6m8Fo1MIO4GQTGGgZwkZrM6dmL2mP
@@ -55,11 +55,11 @@ uO52K_PBVvH2K0SKDuyx5Jf0YPh39pyuPVNtIYa6HAKAc4Ag2nUVZZC0E85Iim7Ngay5TWMT9Q5TmQ_e
 }
 
 AzureEntityColoring(CDSContainersContainerRegistries)
-!define CDSContainersContainerRegistries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerRegistries_tbg.png, CDSContainersContainerRegistries)
-!define CDSContainersContainerRegistries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerRegistries_tbg.png, CDSContainersContainerRegistries)
+!define CDSContainersContainerRegistries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerRegistries_tbg.png, ContainersContainerRegistries)
+!define CDSContainersContainerRegistries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerRegistries_tbg.png, ContainersContainerRegistries)
 AzureEntityColoring(CDSContainersContainerRegistries_m)
-!define CDSContainersContainerRegistries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerRegistriesSPRITE, CDSContainersContainerRegistries_m)
-!define CDSContainersContainerRegistries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerRegistriesSPRITE, CDSContainersContainerRegistries_m)
+!define CDSContainersContainerRegistries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerRegistriesSPRITE, ContainersContainerRegistries)
+!define CDSContainersContainerRegistries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerRegistriesSPRITE, ContainersContainerRegistries)
 
 sprite $CDSContainersContainerServices_DeprecatedSPRITE [70x70/16z] {
 xPPNceCm38JZgdx_wovhK00JnrlUyZ6FVoP3rQ37BtGh_ZUW08agb4jG1XAfQNe25KMjIH4HIjX-I0LPdtmIXAkHcPeRYR249pTXTluk28qHX070tOimVtCc
@@ -71,11 +71,11 @@ _V7w0W
 }
 
 AzureEntityColoring(CDSContainersContainerServices_Deprecated)
-!define CDSContainersContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerServices_Deprecated_tbg.png, CDSContainersContainerServices_Deprecated)
-!define CDSContainersContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerServices_Deprecated_tbg.png, CDSContainersContainerServices_Deprecated)
+!define CDSContainersContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerServices_Deprecated_tbg.png, ContainersContainerServices_Deprecated)
+!define CDSContainersContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerServices_Deprecated_tbg.png, ContainersContainerServices_Deprecated)
 AzureEntityColoring(CDSContainersContainerServices_Deprecated_m)
-!define CDSContainersContainerServices_Deprecated_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerServices_DeprecatedSPRITE, CDSContainersContainerServices_Deprecated_m)
-!define CDSContainersContainerServices_Deprecated_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerServices_DeprecatedSPRITE, CDSContainersContainerServices_Deprecated_m)
+!define CDSContainersContainerServices_Deprecated_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerServices_DeprecatedSPRITE, ContainersContainerServices_Deprecated)
+!define CDSContainersContainerServices_Deprecated_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerServices_DeprecatedSPRITE, ContainersContainerServices_Deprecated)
 
 sprite $CDSContainersKubernetesServicesSPRITE [70x70/16z] {
 xPPNceCm38JZgdx_wovhK00JnrlUyZ6FVoP3rQ37BtGh_ZUW08agb4jG1XAfQNe25KMjIH4HIjX-I0LPdtmIXAkHcPeRYR249pTXTluk28qHX070tOimVtCc
@@ -87,11 +87,11 @@ _V7w0W
 }
 
 AzureEntityColoring(CDSContainersKubernetesServices)
-!define CDSContainersKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, CDSContainersKubernetesServices)
-!define CDSContainersKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, CDSContainersKubernetesServices)
+!define CDSContainersKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, ContainersKubernetesServices)
+!define CDSContainersKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersKubernetesServices_tbg.png, ContainersKubernetesServices)
 AzureEntityColoring(CDSContainersKubernetesServices_m)
-!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, CDSContainersKubernetesServices_m)
-!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, CDSContainersKubernetesServices_m)
+!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, ContainersKubernetesServices)
+!define CDSContainersKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersKubernetesServicesSPRITE, ContainersKubernetesServices)
 
 sprite $CDSContainersServiceFabricClustersSPRITE [70x70/16z] {
 rPU9hgiX28JBwlk_yOqtV-WlsZdOlL-MiumWQ3hOooz1pFHe2hN_w2E9n0AvEuaDF5B9ezMG9UY1VXxioIVkQSWdxcX9V48-bOLzWZzrkkeJkdz3hNcYjSrR
@@ -102,10 +102,10 @@ VWnKVDEALJWu0uUbXfhnDi19BRvFg9rHg1hyRXN8hDgW0YIcE5Ajgn1Y4IgeNyi_
 }
 
 AzureEntityColoring(CDSContainersServiceFabricClusters)
-!define CDSContainersServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersServiceFabricClusters_tbg.png, CDSContainersServiceFabricClusters)
-!define CDSContainersServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersServiceFabricClusters_tbg.png, CDSContainersServiceFabricClusters)
+!define CDSContainersServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersServiceFabricClusters_tbg.png, ContainersServiceFabricClusters)
+!define CDSContainersServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersServiceFabricClusters_tbg.png, ContainersServiceFabricClusters)
 AzureEntityColoring(CDSContainersServiceFabricClusters_m)
-!define CDSContainersServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersServiceFabricClustersSPRITE, CDSContainersServiceFabricClusters_m)
-!define CDSContainersServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersServiceFabricClustersSPRITE, CDSContainersServiceFabricClusters_m)
+!define CDSContainersServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersServiceFabricClustersSPRITE, ContainersServiceFabricClusters)
+!define CDSContainersServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersServiceFabricClustersSPRITE, ContainersServiceFabricClusters)
 
 

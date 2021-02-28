@@ -6,9 +6,9 @@ LunQNYauFpcEyaPfndqeWsnl5E4bgsLPKTcD-HsvBvV5qrrIokzNQeihOVy
 }
 
 AzureEntityColoring(APFileSync)
-!define APFileSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFileSync_tbg.png, APFileSync)
-!define APFileSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFileSync_tbg.png, APFileSync)
+!define APFileSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFileSync_tbg.png, FileSync)
+!define APFileSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFileSync_tbg.png, FileSync)
 AzureEntityColoring(APFileSync_m)
-!define APFileSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFileSyncSPRITE, APFileSync_m)
-!define APFileSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFileSyncSPRITE, APFileSync_m)
+!define APFileSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFileSyncSPRITE, FileSync)
+!define APFileSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFileSyncSPRITE, FileSync)
 

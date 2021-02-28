@@ -1,11 +1,11 @@
 sprite $APCalculatorSPRITE [70x70/16z] xTG35e1G503HhFtlDzlwdZbCDx-YBV2QWk9kwqCqLuABxYdUHLyKbFWYqxwwTIZFGzc6WX8qJUBrgklfFLyLN4nlCGeAVm3ATIXCJ1HnR_fnA2We5i-N2W
 
 AzureEntityColoring(APCalculator)
-!define APCalculator(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator_tbg.png, APCalculator)
-!define APCalculator(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator_tbg.png, APCalculator)
+!define APCalculator(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator_tbg.png, Calculator)
+!define APCalculator(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator_tbg.png, Calculator)
 AzureEntityColoring(APCalculator_m)
-!define APCalculator_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSPRITE, APCalculator_m)
-!define APCalculator_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSPRITE, APCalculator_m)
+!define APCalculator_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSPRITE, Calculator)
+!define APCalculator_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSPRITE, Calculator)
 
 sprite $APCalculator01SPRITE [70x70/16z] {
 xPOr0e0m34NhaliVc4ne3RV_DcZxbgWOyEkG8Wcju_KMM68e4HijtfJm3HPOO84b-181lMwD1POLkMkJ7vO__6yjCJ39Zy14P1qiH-SBgX5P1qkPDRjKyiCp
@@ -13,11 +13,11 @@ uR_LQArroG_77qTM8oomg7M8m-a
 }
 
 AzureEntityColoring(APCalculator01)
-!define APCalculator01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator01_tbg.png, APCalculator01)
-!define APCalculator01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator01_tbg.png, APCalculator01)
+!define APCalculator01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator01_tbg.png, Calculator01)
+!define APCalculator01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator01_tbg.png, Calculator01)
 AzureEntityColoring(APCalculator01_m)
-!define APCalculator01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator01SPRITE, APCalculator01_m)
-!define APCalculator01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator01SPRITE, APCalculator01_m)
+!define APCalculator01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator01SPRITE, Calculator01)
+!define APCalculator01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator01SPRITE, Calculator01)
 
 sprite $APCalculator02SPRITE [70x70/16z] {
 xTN50G0X34HH79B--rrtTvrt1F8lAuY2ibjeqMPv2tTz1HKAoz1a9PXbmiCggA12VXbwwvy15UEtCEAVeFtM-T4rtrgphwkW8bMJNBpsDg1ianvTC-srZMzT
@@ -25,11 +25,11 @@ QAsv2okeQDzaHzSSRdluoNU4odun
 }
 
 AzureEntityColoring(APCalculator02)
-!define APCalculator02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator02_tbg.png, APCalculator02)
-!define APCalculator02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator02_tbg.png, APCalculator02)
+!define APCalculator02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator02_tbg.png, Calculator02)
+!define APCalculator02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator02_tbg.png, Calculator02)
 AzureEntityColoring(APCalculator02_m)
-!define APCalculator02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator02SPRITE, APCalculator02_m)
-!define APCalculator02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator02SPRITE, APCalculator02_m)
+!define APCalculator02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator02SPRITE, Calculator02)
+!define APCalculator02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator02SPRITE, Calculator02)
 
 sprite $APCalculator03SPRITE [70x70/16z] {
 xTS5aWGn28LX88sz-zztTToRh2zVMIhoZqlJnj0AeMEEYkNhArt9U4pUhDZoc9zMwKfNmX-Jl_MReIlg5OF-f-Ouf5VdS4H_NQKhB8VuwfoSp7sQniBJ2Ki0
@@ -38,20 +38,20 @@ BPkbUAbWkeBmdAniF53fogHd
 }
 
 AzureEntityColoring(APCalculator03)
-!define APCalculator03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator03_tbg.png, APCalculator03)
-!define APCalculator03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator03_tbg.png, APCalculator03)
+!define APCalculator03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator03_tbg.png, Calculator03)
+!define APCalculator03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator03_tbg.png, Calculator03)
 AzureEntityColoring(APCalculator03_m)
-!define APCalculator03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator03SPRITE, APCalculator03_m)
-!define APCalculator03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator03SPRITE, APCalculator03_m)
+!define APCalculator03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator03SPRITE, Calculator03)
+!define APCalculator03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator03SPRITE, Calculator03)
 
 sprite $APCalculator04SPRITE [70x70/16z] xTMr0O0m00LHtFRV5qWJjovshqAl_9bgDI-vvaZbV7BjL3oeKA7I8s3P1UtCzTydx8-WLHFt1YgT0kP5c9J4FSl0lW3i2_jIaGy
 
 AzureEntityColoring(APCalculator04)
-!define APCalculator04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator04_tbg.png, APCalculator04)
-!define APCalculator04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator04_tbg.png, APCalculator04)
+!define APCalculator04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator04_tbg.png, Calculator04)
+!define APCalculator04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculator04_tbg.png, Calculator04)
 AzureEntityColoring(APCalculator04_m)
-!define APCalculator04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator04SPRITE, APCalculator04_m)
-!define APCalculator04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator04SPRITE, APCalculator04_m)
+!define APCalculator04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculator04SPRITE, Calculator04)
+!define APCalculator04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculator04SPRITE, Calculator04)
 
 sprite $APCalculatorCollapseSPRITE [70x70/16z] {
 xTN54SH030LHcTcJVxIBNLx6lau7y4ed_R3L4RucJHvfKqfpeP5Z2un2qbh6bnNriS8XqQHZxND4A1r84KAv84Av84BfDqGe84iHGhaWGXasH2WNH2WNH2WN
@@ -60,11 +60,11 @@ H2WAYVgiZ6Ta1ldlbiKXA20HIW5n2eXNxcl2ArcfvkTLSIgNovNzqphto6ZrIbRkcxK2Wg8Ghym0A0gf
 }
 
 AzureEntityColoring(APCalculatorCollapse)
-!define APCalculatorCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, APCalculatorCollapse)
-!define APCalculatorCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, APCalculatorCollapse)
+!define APCalculatorCollapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, CalculatorCollse)
+!define APCalculatorCollapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCollapse_tbg.png, CalculatorCollse)
 AzureEntityColoring(APCalculatorCollapse_m)
-!define APCalculatorCollapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, APCalculatorCollapse_m)
-!define APCalculatorCollapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, APCalculatorCollapse_m)
+!define APCalculatorCollapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, CalculatorCollse)
+!define APCalculatorCollapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCollapseSPRITE, CalculatorCollse)
 
 sprite $APCalculatorCopySPRITE [70x70/16z] {
 xTE54SD044FHDH_iMFrN6sRZGLYlW3yaoIygJA1AHZW4KXcXkIeIG5cvOANL9G3qXYc65OjWVbW1UWtI0sCL8q7CPrTOOSK0-BCAAwmOJFdMIcqk582vubxI
@@ -72,29 +72,29 @@ AwpeMLBb8hxIhAZipp1P6TXN0dnGXHLMR1N4ZbLwX9E15i4w6Iex4wIhv2Tj0G
 }
 
 AzureEntityColoring(APCalculatorCopy)
-!define APCalculatorCopy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCopy_tbg.png, APCalculatorCopy)
-!define APCalculatorCopy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCopy_tbg.png, APCalculatorCopy)
+!define APCalculatorCopy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorCopy_tbg.png, CalculatorCopy)
+!define APCalculatorCopy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorCopy_tbg.png, CalculatorCopy)
 AzureEntityColoring(APCalculatorCopy_m)
-!define APCalculatorCopy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, APCalculatorCopy_m)
-!define APCalculatorCopy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, APCalculatorCopy_m)
+!define APCalculatorCopy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, CalculatorCopy)
+!define APCalculatorCopy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, CalculatorCopy)
 
 sprite $APCalculatorDeleteSPRITE [70x70/16z] xTS35e10003HRDp_jDasTcSUqyzIfdBYlE7OOgIZp7LUqQTouxpXs6AagqyLtnYrPpPGTXQqPruK1GLb-AmBsad5IETJ2WeA2WeA2WeA2WhAVFmVeQG
 
 AzureEntityColoring(APCalculatorDelete)
-!define APCalculatorDelete(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDelete_tbg.png, APCalculatorDelete)
-!define APCalculatorDelete(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorDelete_tbg.png, APCalculatorDelete)
+!define APCalculatorDelete(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDelete_tbg.png, CalculatorDelete)
+!define APCalculatorDelete(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorDelete_tbg.png, CalculatorDelete)
 AzureEntityColoring(APCalculatorDelete_m)
-!define APCalculatorDelete_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, APCalculatorDelete_m)
-!define APCalculatorDelete_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, APCalculatorDelete_m)
+!define APCalculatorDelete_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, CalculatorDelete)
+!define APCalculatorDelete_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, CalculatorDelete)
 
 sprite $APCalculatorDocumentSPRITE [70x70/16z] xTEr0S0m4CNG7uRz1quNDZOcQO1dFDrRziZoLWO5LOI24j_Ygw0egA5E1GMbt-sX_9VLIwCmHymH2dE4yf_yGt7_tQi259IewbSE
 
 AzureEntityColoring(APCalculatorDocument)
-!define APCalculatorDocument(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, APCalculatorDocument)
-!define APCalculatorDocument(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, APCalculatorDocument)
+!define APCalculatorDocument(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, CalculatorDocument)
+!define APCalculatorDocument(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, CalculatorDocument)
 AzureEntityColoring(APCalculatorDocument_m)
-!define APCalculatorDocument_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, APCalculatorDocument_m)
-!define APCalculatorDocument_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, APCalculatorDocument_m)
+!define APCalculatorDocument_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, CalculatorDocument)
+!define APCalculatorDocument_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, CalculatorDocument)
 
 sprite $APCalculatorErrorSPRITE [70x70/16z] {
 hPU5OUWm34Gba-3sd_Spj8sT2_WDy4H6MLE7UIH-a6wz5hbFCnpm9dVGWGLMvIB5SCQG2rG78Na-ZWkudXUJOF2o6YuJii9mWrXK5RX5AkdhSuq1xpK35DxY
@@ -105,11 +105,11 @@ jQZSGKSUMZggt4Th7vu0Cjn6EylYEm
 }
 
 AzureEntityColoring(APCalculatorError)
-!define APCalculatorError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, APCalculatorError)
-!define APCalculatorError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, APCalculatorError)
+!define APCalculatorError(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, CalculatorError)
+!define APCalculatorError(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorError_tbg.png, CalculatorError)
 AzureEntityColoring(APCalculatorError_m)
-!define APCalculatorError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, APCalculatorError_m)
-!define APCalculatorError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, APCalculatorError_m)
+!define APCalculatorError_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, CalculatorError)
+!define APCalculatorError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, CalculatorError)
 
 sprite $APCalculatorExcelSPRITE [70x70/16z] {
 xPY7ZkGW38PDy12AWz__RI-OqVWAoZ5c--udHPrF_aC7_eFVI-KxEnXmjqWiM2rRo0SBDek4u3-fEP1OB244IZS704KifX1bHn3KCjCJof731efQvaD42G7p
@@ -120,11 +120,11 @@ RwnynSGTTi9oTP-Ujj3mRg_nSCP2tlBEuDnRl7cCuxtLMv3zNSeIxzho2m
 }
 
 AzureEntityColoring(APCalculatorExcel)
-!define APCalculatorExcel(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorExcel_tbg.png, APCalculatorExcel)
-!define APCalculatorExcel(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorExcel_tbg.png, APCalculatorExcel)
+!define APCalculatorExcel(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorExcel_tbg.png, CalculatorExcel)
+!define APCalculatorExcel(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorExcel_tbg.png, CalculatorExcel)
 AzureEntityColoring(APCalculatorExcel_m)
-!define APCalculatorExcel_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorExcelSPRITE, APCalculatorExcel_m)
-!define APCalculatorExcel_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorExcelSPRITE, APCalculatorExcel_m)
+!define APCalculatorExcel_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorExcelSPRITE, CalculatorExcel)
+!define APCalculatorExcel_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorExcelSPRITE, CalculatorExcel)
 
 sprite $APCalculatorExpandSPRITE [70x70/16z] {
 xSoreK9H042nhxZiFotIfNq7Xvi1yZN9QW_KHMEPRyJI_RlqXAKdk3JPiUJaRysIao-Mdh3qXAKdB3rXwGbBJrnwuj8JbvwuzCIb9ouvqKib8nd9I7wlcena
@@ -132,11 +132,11 @@ xSoreK9H042nhxZiFotIfNq7Xvi1yZN9QW_KHMEPRyJI_RlqXAKdk3JPiUJaRysIao-Mdh3qXAKdB3rX
 }
 
 AzureEntityColoring(APCalculatorExpand)
-!define APCalculatorExpand(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorExpand_tbg.png, APCalculatorExpand)
-!define APCalculatorExpand(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorExpand_tbg.png, APCalculatorExpand)
+!define APCalculatorExpand(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorExpand_tbg.png, CalculatorExpand)
+!define APCalculatorExpand(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorExpand_tbg.png, CalculatorExpand)
 AzureEntityColoring(APCalculatorExpand_m)
-!define APCalculatorExpand_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorExpandSPRITE, APCalculatorExpand_m)
-!define APCalculatorExpand_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorExpandSPRITE, APCalculatorExpand_m)
+!define APCalculatorExpand_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorExpandSPRITE, CalculatorExpand)
+!define APCalculatorExpand_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorExpandSPRITE, CalculatorExpand)
 
 sprite $APCalculatorInformationSPRITE [70x70/16z] {
 pPY7ZiGm24JZ2lR__--rQ7HYD-pO4LTGItqUm9N3jrnR4z4vLQIrcezzAttC1nkzx25aEYPbcJ7c2njBd6nqY4Xh8lOPZL2I2TEQRQprcvEuCxx_HLRSgc0a
@@ -147,29 +147,29 @@ KrPMG09EV36dJtuIPenPRv_Aq_Efd5S8MZOg6gaG15Gh0Yed0LMSm8fIJ7Nh7G
 }
 
 AzureEntityColoring(APCalculatorInformation)
-!define APCalculatorInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, APCalculatorInformation)
-!define APCalculatorInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, APCalculatorInformation)
+!define APCalculatorInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, CalculatorInformation)
+!define APCalculatorInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, CalculatorInformation)
 AzureEntityColoring(APCalculatorInformation_m)
-!define APCalculatorInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, APCalculatorInformation_m)
-!define APCalculatorInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, APCalculatorInformation_m)
+!define APCalculatorInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, CalculatorInformation)
+!define APCalculatorInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, CalculatorInformation)
 
 sprite $APCalculatorInviteSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
 
 AzureEntityColoring(APCalculatorInvite)
-!define APCalculatorInvite(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorInvite_tbg.png, APCalculatorInvite)
-!define APCalculatorInvite(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorInvite_tbg.png, APCalculatorInvite)
+!define APCalculatorInvite(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorInvite_tbg.png, CalculatorInvite)
+!define APCalculatorInvite(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorInvite_tbg.png, CalculatorInvite)
 AzureEntityColoring(APCalculatorInvite_m)
-!define APCalculatorInvite_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInviteSPRITE, APCalculatorInvite_m)
-!define APCalculatorInvite_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInviteSPRITE, APCalculatorInvite_m)
+!define APCalculatorInvite_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInviteSPRITE, CalculatorInvite)
+!define APCalculatorInvite_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInviteSPRITE, CalculatorInvite)
 
 sprite $APCalculatorNoteInformationSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
 
 AzureEntityColoring(APCalculatorNoteInformation)
-!define APCalculatorNoteInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorNoteInformation_tbg.png, APCalculatorNoteInformation)
-!define APCalculatorNoteInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorNoteInformation_tbg.png, APCalculatorNoteInformation)
+!define APCalculatorNoteInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorNoteInformation_tbg.png, CalculatorNoteInformation)
+!define APCalculatorNoteInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorNoteInformation_tbg.png, CalculatorNoteInformation)
 AzureEntityColoring(APCalculatorNoteInformation_m)
-!define APCalculatorNoteInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorNoteInformationSPRITE, APCalculatorNoteInformation_m)
-!define APCalculatorNoteInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorNoteInformationSPRITE, APCalculatorNoteInformation_m)
+!define APCalculatorNoteInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorNoteInformationSPRITE, CalculatorNoteInformation)
+!define APCalculatorNoteInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorNoteInformationSPRITE, CalculatorNoteInformation)
 
 sprite $APCalculatorPricingDetailsSPRITE [70x70/16z] {
 hPW7SYiX343f4jp_lhzenqEGzn7iMQN7-A6og11OKgbLHCTGaLfB2fzBRdquwIr_Xf018lcOqST6-X4dBNg8IAqYw_z-zL2SwxMarTSwEV706BG_oubPnU_5
@@ -182,11 +182,11 @@ Uelp_8tICxTRVm4
 }
 
 AzureEntityColoring(APCalculatorPricingDetails)
-!define APCalculatorPricingDetails(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorPricingDetails_tbg.png, APCalculatorPricingDetails)
-!define APCalculatorPricingDetails(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorPricingDetails_tbg.png, APCalculatorPricingDetails)
+!define APCalculatorPricingDetails(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorPricingDetails_tbg.png, CalculatorPricingDetails)
+!define APCalculatorPricingDetails(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorPricingDetails_tbg.png, CalculatorPricingDetails)
 AzureEntityColoring(APCalculatorPricingDetails_m)
-!define APCalculatorPricingDetails_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorPricingDetailsSPRITE, APCalculatorPricingDetails_m)
-!define APCalculatorPricingDetails_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorPricingDetailsSPRITE, APCalculatorPricingDetails_m)
+!define APCalculatorPricingDetails_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorPricingDetailsSPRITE, CalculatorPricingDetails)
+!define APCalculatorPricingDetails_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorPricingDetailsSPRITE, CalculatorPricingDetails)
 
 sprite $APCalculatorSaveSPRITE [70x70/16z] {
 xT053iCm38LXfoItylBkVzhnziPpwweY_-B05v2lPHsMP-Mc8D9qHLh0z1nGrPC1avwhC3v8RvSoyQH09-SibLIUIoMLL59fFOs_5MyRA9s_yaLPq3fAAgcK
@@ -194,11 +194,11 @@ zbUDK-dmAzrQCVsIGt7yzMfAAatRbhYYGBUv8W3Qk3AI2IWoaGaeP08AcO129gAG6SAA36Sce90nCw3Q
 }
 
 AzureEntityColoring(APCalculatorSave)
-!define APCalculatorSave(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorSave_tbg.png, APCalculatorSave)
-!define APCalculatorSave(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorSave_tbg.png, APCalculatorSave)
+!define APCalculatorSave(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorSave_tbg.png, CalculatorSave)
+!define APCalculatorSave(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorSave_tbg.png, CalculatorSave)
 AzureEntityColoring(APCalculatorSave_m)
-!define APCalculatorSave_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSaveSPRITE, APCalculatorSave_m)
-!define APCalculatorSave_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSaveSPRITE, APCalculatorSave_m)
+!define APCalculatorSave_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSaveSPRITE, CalculatorSave)
+!define APCalculatorSave_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSaveSPRITE, CalculatorSave)
 
 sprite $APCalculatorSaveAsSPRITE [70x70/16z] {
 xTPLTiD038LXcMbW_wiDtPAIERVgo6N_uLZdUp2Bp2b_i3JAVLkkQ1FTdAkQj9BgbA0L_7S9NqXwya4171wNaSbVh1pAeHpAeGIIcen4eRsTZ8rV0U9LW3YL
@@ -208,11 +208,11 @@ LiicqeqE1AibR1aHnB2tE159Uo3j6oEjbOYCByBOIdMhKq31B9m1
 }
 
 AzureEntityColoring(APCalculatorSaveAs)
-!define APCalculatorSaveAs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorSaveAs_tbg.png, APCalculatorSaveAs)
-!define APCalculatorSaveAs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorSaveAs_tbg.png, APCalculatorSaveAs)
+!define APCalculatorSaveAs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorSaveAs_tbg.png, CalculatorSaveAs)
+!define APCalculatorSaveAs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorSaveAs_tbg.png, CalculatorSaveAs)
 AzureEntityColoring(APCalculatorSaveAs_m)
-!define APCalculatorSaveAs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSaveAsSPRITE, APCalculatorSaveAs_m)
-!define APCalculatorSaveAs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSaveAsSPRITE, APCalculatorSaveAs_m)
+!define APCalculatorSaveAs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSaveAsSPRITE, CalculatorSaveAs)
+!define APCalculatorSaveAs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSaveAsSPRITE, CalculatorSaveAs)
 
 sprite $APCalculatorShareSPRITE [70x70/16z] {
 xTK5rkfW38JXV58FpVvNYmGhSmPDh_po7aCVj5DvlL9aXQgLLHHdueepSINEL0Cce5Y9At6c6Z0nnKfKsKGPLrAKSKK-PtBj1rLrvJCcjPCjaa-OEjXjyZvJ
@@ -223,10 +223,10 @@ o0gAsXgAVGbbAAztH_cWdw3K3yeIwRVVTW
 }
 
 AzureEntityColoring(APCalculatorShare)
-!define APCalculatorShare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorShare_tbg.png, APCalculatorShare)
-!define APCalculatorShare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorShare_tbg.png, APCalculatorShare)
+!define APCalculatorShare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorShare_tbg.png, CalculatorShare)
+!define APCalculatorShare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorShare_tbg.png, CalculatorShare)
 AzureEntityColoring(APCalculatorShare_m)
-!define APCalculatorShare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorShareSPRITE, APCalculatorShare_m)
-!define APCalculatorShare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorShareSPRITE, APCalculatorShare_m)
+!define APCalculatorShare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorShareSPRITE, CalculatorShare)
+!define APCalculatorShare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorShareSPRITE, CalculatorShare)
 
 

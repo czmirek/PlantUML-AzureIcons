@@ -9,9 +9,9 @@ rYy51foffSxKTKzgJ6FQr9X7wjqpjVU9Sy21Cyd1yz7vizhpS-E1CwmUEK-VEDkV_ivm_fl7-Uylvxy5
 }
 
 AzureEntityColoring(APIotSolutionAccelerators)
-!define APIotSolutionAccelerators(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, APIotSolutionAccelerators)
-!define APIotSolutionAccelerators(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, APIotSolutionAccelerators)
+!define APIotSolutionAccelerators(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, IotSolutionAccelerators)
+!define APIotSolutionAccelerators(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIotSolutionAccelerators_tbg.png, IotSolutionAccelerators)
 AzureEntityColoring(APIotSolutionAccelerators_m)
-!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, APIotSolutionAccelerators_m)
-!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, APIotSolutionAccelerators_m)
+!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, IotSolutionAccelerators)
+!define APIotSolutionAccelerators_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotSolutionAcceleratorsSPRITE, IotSolutionAccelerators)
 

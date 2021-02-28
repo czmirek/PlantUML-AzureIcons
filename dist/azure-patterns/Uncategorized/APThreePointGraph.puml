@@ -7,9 +7,9 @@ Q-6jBDvKM-wF9n5ukxIaXDIhY5rRm3jnNjrWDTFJwvP8vGv4kaXItAueid6dYDe5MZeUlgEl2mwHH1Vw
 }
 
 AzureEntityColoring(APThreePointGraph)
-!define APThreePointGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreePointGraph_tbg.png, APThreePointGraph)
-!define APThreePointGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreePointGraph_tbg.png, APThreePointGraph)
+!define APThreePointGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreePointGraph_tbg.png, ThreePointGrh)
+!define APThreePointGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreePointGraph_tbg.png, ThreePointGrh)
 AzureEntityColoring(APThreePointGraph_m)
-!define APThreePointGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreePointGraphSPRITE, APThreePointGraph_m)
-!define APThreePointGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreePointGraphSPRITE, APThreePointGraph_m)
+!define APThreePointGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreePointGraphSPRITE, ThreePointGrh)
+!define APThreePointGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreePointGraphSPRITE, ThreePointGrh)
 

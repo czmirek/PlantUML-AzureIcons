@@ -7,9 +7,9 @@ cAx5RWdR5lcOvTgqhCFIuh_5KqMVXIgWxBxHlsBvR_aA
 }
 
 AzureEntityColoring(CDSCommandAddTeamMember)
-!define CDSCommandAddTeamMember(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTeamMember_tbg.png, CDSCommandAddTeamMember)
-!define CDSCommandAddTeamMember(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTeamMember_tbg.png, CDSCommandAddTeamMember)
+!define CDSCommandAddTeamMember(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTeamMember_tbg.png, CommandAddTeamMember)
+!define CDSCommandAddTeamMember(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTeamMember_tbg.png, CommandAddTeamMember)
 AzureEntityColoring(CDSCommandAddTeamMember_m)
-!define CDSCommandAddTeamMember_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAddTeamMemberSPRITE, CDSCommandAddTeamMember_m)
-!define CDSCommandAddTeamMember_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAddTeamMemberSPRITE, CDSCommandAddTeamMember_m)
+!define CDSCommandAddTeamMember_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAddTeamMemberSPRITE, CommandAddTeamMember)
+!define CDSCommandAddTeamMember_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAddTeamMemberSPRITE, CommandAddTeamMember)
 

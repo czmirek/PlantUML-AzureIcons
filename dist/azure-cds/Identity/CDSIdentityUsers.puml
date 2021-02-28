@@ -7,9 +7,9 @@ pl3OE7qyiyy
 }
 
 AzureEntityColoring(CDSIdentityUsers)
-!define CDSIdentityUsers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityUsers_tbg.png, CDSIdentityUsers)
-!define CDSIdentityUsers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityUsers_tbg.png, CDSIdentityUsers)
+!define CDSIdentityUsers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityUsers_tbg.png, IdentityUsers)
+!define CDSIdentityUsers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityUsers_tbg.png, IdentityUsers)
 AzureEntityColoring(CDSIdentityUsers_m)
-!define CDSIdentityUsers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityUsersSPRITE, CDSIdentityUsers_m)
-!define CDSIdentityUsers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityUsersSPRITE, CDSIdentityUsers_m)
+!define CDSIdentityUsers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityUsersSPRITE, IdentityUsers)
+!define CDSIdentityUsers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityUsersSPRITE, IdentityUsers)
 

@@ -7,9 +7,9 @@ n28KWcCyv9WbLp6qzO4F69JuwjmbQoOV9S8U4eiMn3TOsBBW40AScd7zK-2RJQmN
 }
 
 AzureEntityColoring(APTwoGears)
-!define APTwoGears(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoGears_tbg.png, APTwoGears)
-!define APTwoGears(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoGears_tbg.png, APTwoGears)
+!define APTwoGears(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwoGears_tbg.png, TwoGears)
+!define APTwoGears(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwoGears_tbg.png, TwoGears)
 AzureEntityColoring(APTwoGears_m)
-!define APTwoGears_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoGearsSPRITE, APTwoGears_m)
-!define APTwoGears_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoGearsSPRITE, APTwoGears_m)
+!define APTwoGears_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoGearsSPRITE, TwoGears)
+!define APTwoGears_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoGearsSPRITE, TwoGears)
 

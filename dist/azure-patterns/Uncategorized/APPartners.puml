@@ -7,9 +7,9 @@ FZ-94LvAr7_GWUjEFQfeGSLzYlOBEfsK8clCUsPI6jgXxgN8cce-XIO5dVwWJWgZASbB2R8c-LyEiD7X
 }
 
 AzureEntityColoring(APPartners)
-!define APPartners(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPartners_tbg.png, APPartners)
-!define APPartners(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPartners_tbg.png, APPartners)
+!define APPartners(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPartners_tbg.png, Partners)
+!define APPartners(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPartners_tbg.png, Partners)
 AzureEntityColoring(APPartners_m)
-!define APPartners_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPartnersSPRITE, APPartners_m)
-!define APPartners_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPartnersSPRITE, APPartners_m)
+!define APPartners_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPartnersSPRITE, Partners)
+!define APPartners_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPartnersSPRITE, Partners)
 

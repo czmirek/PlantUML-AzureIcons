@@ -8,9 +8,9 @@ Pcfs_xIzJ9jfHS3vDfRtvKOGjh54yaHb6yjW5HR9MD26Xom0LsF9eNkMiMTf-nefp7tY1hXJ2cVts4RR
 }
 
 AzureEntityColoring(APAutomate)
-!define APAutomate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutomate_tbg.png, APAutomate)
-!define APAutomate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutomate_tbg.png, APAutomate)
+!define APAutomate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutomate_tbg.png, Automate)
+!define APAutomate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutomate_tbg.png, Automate)
 AzureEntityColoring(APAutomate_m)
-!define APAutomate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutomateSPRITE, APAutomate_m)
-!define APAutomate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutomateSPRITE, APAutomate_m)
+!define APAutomate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutomateSPRITE, Automate)
+!define APAutomate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutomateSPRITE, Automate)
 

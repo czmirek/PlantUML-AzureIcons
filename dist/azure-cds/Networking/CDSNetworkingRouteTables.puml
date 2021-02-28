@@ -7,9 +7,9 @@ Koh-Qofos44fYyCSACCy8_MhneY2_ajd
 }
 
 AzureEntityColoring(CDSNetworkingRouteTables)
-!define CDSNetworkingRouteTables(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingRouteTables_tbg.png, CDSNetworkingRouteTables)
-!define CDSNetworkingRouteTables(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingRouteTables_tbg.png, CDSNetworkingRouteTables)
+!define CDSNetworkingRouteTables(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingRouteTables_tbg.png, NetworkingRouteTables)
+!define CDSNetworkingRouteTables(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingRouteTables_tbg.png, NetworkingRouteTables)
 AzureEntityColoring(CDSNetworkingRouteTables_m)
-!define CDSNetworkingRouteTables_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingRouteTablesSPRITE, CDSNetworkingRouteTables_m)
-!define CDSNetworkingRouteTables_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingRouteTablesSPRITE, CDSNetworkingRouteTables_m)
+!define CDSNetworkingRouteTables_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingRouteTablesSPRITE, NetworkingRouteTables)
+!define CDSNetworkingRouteTables_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingRouteTablesSPRITE, NetworkingRouteTables)
 

@@ -4,9 +4,9 @@ bTmtz0efL2G_M07YbvYPsGO
 }
 
 AzureEntityColoring(APDevopsWebHooks)
-!define APDevopsWebHooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsWebHooks_tbg.png, APDevopsWebHooks)
-!define APDevopsWebHooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsWebHooks_tbg.png, APDevopsWebHooks)
+!define APDevopsWebHooks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsWebHooks_tbg.png, DevopsWebHooks)
+!define APDevopsWebHooks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsWebHooks_tbg.png, DevopsWebHooks)
 AzureEntityColoring(APDevopsWebHooks_m)
-!define APDevopsWebHooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsWebHooksSPRITE, APDevopsWebHooks_m)
-!define APDevopsWebHooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsWebHooksSPRITE, APDevopsWebHooks_m)
+!define APDevopsWebHooks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsWebHooksSPRITE, DevopsWebHooks)
+!define APDevopsWebHooks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsWebHooksSPRITE, DevopsWebHooks)
 

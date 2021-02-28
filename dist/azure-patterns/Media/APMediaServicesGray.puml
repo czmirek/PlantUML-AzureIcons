@@ -6,9 +6,9 @@ NzWUVktjICBdEm-r7bZeWbZU67Ta7NHa2ztXIgUwqpLlTF3cU2g6AvFDnfIrDl7jJv_pINXZAb_-Gx3_
 }
 
 AzureEntityColoring(APMediaServicesGray)
-!define APMediaServicesGray(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaServicesGray_tbg.png, APMediaServicesGray)
-!define APMediaServicesGray(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaServicesGray_tbg.png, APMediaServicesGray)
+!define APMediaServicesGray(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaServicesGray_tbg.png, MediaServicesGray)
+!define APMediaServicesGray(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaServicesGray_tbg.png, MediaServicesGray)
 AzureEntityColoring(APMediaServicesGray_m)
-!define APMediaServicesGray_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaServicesGraySPRITE, APMediaServicesGray_m)
-!define APMediaServicesGray_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaServicesGraySPRITE, APMediaServicesGray_m)
+!define APMediaServicesGray_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaServicesGraySPRITE, MediaServicesGray)
+!define APMediaServicesGray_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaServicesGraySPRITE, MediaServicesGray)
 

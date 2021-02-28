@@ -9,9 +9,9 @@ QL8TJdAOEs1fb0ovQJY0fIdcQVYcKHA-jKKzyaDP-I4zBS-p5mwIjyStfYVX_O0YiqkEEJzzzCjKjBkx
 }
 
 AzureEntityColoring(APResearch)
-!define APResearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResearch_tbg.png, APResearch)
-!define APResearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResearch_tbg.png, APResearch)
+!define APResearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResearch_tbg.png, Research)
+!define APResearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResearch_tbg.png, Research)
 AzureEntityColoring(APResearch_m)
-!define APResearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResearchSPRITE, APResearch_m)
-!define APResearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResearchSPRITE, APResearch_m)
+!define APResearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResearchSPRITE, Research)
+!define APResearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResearchSPRITE, Research)
 

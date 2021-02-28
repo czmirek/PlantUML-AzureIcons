@@ -6,9 +6,9 @@ mysgggfs
 }
 
 AzureEntityColoring(APSolutionArchitectures)
-!define APSolutionArchitectures(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSolutionArchitectures_tbg.png, APSolutionArchitectures)
-!define APSolutionArchitectures(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSolutionArchitectures_tbg.png, APSolutionArchitectures)
+!define APSolutionArchitectures(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSolutionArchitectures_tbg.png, SolutionArchitectures)
+!define APSolutionArchitectures(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSolutionArchitectures_tbg.png, SolutionArchitectures)
 AzureEntityColoring(APSolutionArchitectures_m)
-!define APSolutionArchitectures_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSolutionArchitecturesSPRITE, APSolutionArchitectures_m)
-!define APSolutionArchitectures_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSolutionArchitecturesSPRITE, APSolutionArchitectures_m)
+!define APSolutionArchitectures_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSolutionArchitecturesSPRITE, SolutionArchitectures)
+!define APSolutionArchitectures_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSolutionArchitecturesSPRITE, SolutionArchitectures)
 

@@ -4,9 +4,9 @@ snSkNBXmuI98D3XSp0CnbRCz
 }
 
 AzureEntityColoring(CDSIotDigitalTwins)
-!define CDSIotDigitalTwins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, CDSIotDigitalTwins)
-!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, CDSIotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, IotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, IotDigitalTwins)
 AzureEntityColoring(CDSIotDigitalTwins_m)
-!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, CDSIotDigitalTwins_m)
-!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, CDSIotDigitalTwins_m)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, IotDigitalTwins)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, IotDigitalTwins)
 

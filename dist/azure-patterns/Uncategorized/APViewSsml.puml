@@ -6,9 +6,9 @@ jdja7j_WtmIKAS0p
 }
 
 AzureEntityColoring(APViewSsml)
-!define APViewSsml(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APViewSsml_tbg.png, APViewSsml)
-!define APViewSsml(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APViewSsml_tbg.png, APViewSsml)
+!define APViewSsml(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APViewSsml_tbg.png, ViewSsml)
+!define APViewSsml(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APViewSsml_tbg.png, ViewSsml)
 AzureEntityColoring(APViewSsml_m)
-!define APViewSsml_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APViewSsmlSPRITE, APViewSsml_m)
-!define APViewSsml_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APViewSsmlSPRITE, APViewSsml_m)
+!define APViewSsml_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APViewSsmlSPRITE, ViewSsml)
+!define APViewSsml_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APViewSsmlSPRITE, ViewSsml)
 

@@ -5,9 +5,9 @@ GYWJdnZAB2QECe_PTrSq9uwwc2gCEivtXWxALu8cKXNy9ay
 }
 
 AzureEntityColoring(CDSOtherHosts)
-!define CDSOtherHosts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherHosts_tbg.png, CDSOtherHosts)
-!define CDSOtherHosts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherHosts_tbg.png, CDSOtherHosts)
+!define CDSOtherHosts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherHosts_tbg.png, OtherHosts)
+!define CDSOtherHosts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherHosts_tbg.png, OtherHosts)
 AzureEntityColoring(CDSOtherHosts_m)
-!define CDSOtherHosts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherHostsSPRITE, CDSOtherHosts_m)
-!define CDSOtherHosts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherHostsSPRITE, CDSOtherHosts_m)
+!define CDSOtherHosts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherHostsSPRITE, OtherHosts)
+!define CDSOtherHosts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherHostsSPRITE, OtherHosts)
 

@@ -8,9 +8,9 @@ ZHg69tV2rTpqePqmUQNRn-k4VmC
 }
 
 AzureEntityColoring(APNosqlColumnar)
-!define APNosqlColumnar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNosqlColumnar_tbg.png, APNosqlColumnar)
-!define APNosqlColumnar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNosqlColumnar_tbg.png, APNosqlColumnar)
+!define APNosqlColumnar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNosqlColumnar_tbg.png, NosqlColumnar)
+!define APNosqlColumnar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNosqlColumnar_tbg.png, NosqlColumnar)
 AzureEntityColoring(APNosqlColumnar_m)
-!define APNosqlColumnar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNosqlColumnarSPRITE, APNosqlColumnar_m)
-!define APNosqlColumnar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNosqlColumnarSPRITE, APNosqlColumnar_m)
+!define APNosqlColumnar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNosqlColumnarSPRITE, NosqlColumnar)
+!define APNosqlColumnar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNosqlColumnarSPRITE, NosqlColumnar)
 

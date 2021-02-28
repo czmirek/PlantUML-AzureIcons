@@ -5,9 +5,9 @@ mi32mCB0mk34gqPE-oPtASfLkGK
 }
 
 AzureEntityColoring(CDSCommandTrendDown)
-!define CDSCommandTrendDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandTrendDown_tbg.png, CDSCommandTrendDown)
-!define CDSCommandTrendDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandTrendDown_tbg.png, CDSCommandTrendDown)
+!define CDSCommandTrendDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandTrendDown_tbg.png, CommandTrendDown)
+!define CDSCommandTrendDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandTrendDown_tbg.png, CommandTrendDown)
 AzureEntityColoring(CDSCommandTrendDown_m)
-!define CDSCommandTrendDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandTrendDownSPRITE, CDSCommandTrendDown_m)
-!define CDSCommandTrendDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandTrendDownSPRITE, CDSCommandTrendDown_m)
+!define CDSCommandTrendDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandTrendDownSPRITE, CommandTrendDown)
+!define CDSCommandTrendDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandTrendDownSPRITE, CommandTrendDown)
 

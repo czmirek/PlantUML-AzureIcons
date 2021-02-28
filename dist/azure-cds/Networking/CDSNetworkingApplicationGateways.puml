@@ -8,9 +8,9 @@ BTC48Xcc4SreH3D4Vfmnu8SOZMX68pedyeECHdH6v4Sg-5tz1m
 }
 
 AzureEntityColoring(CDSNetworkingApplicationGateways)
-!define CDSNetworkingApplicationGateways(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationGateways_tbg.png, CDSNetworkingApplicationGateways)
-!define CDSNetworkingApplicationGateways(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationGateways_tbg.png, CDSNetworkingApplicationGateways)
+!define CDSNetworkingApplicationGateways(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationGateways_tbg.png, NetworkingApplicationGateways)
+!define CDSNetworkingApplicationGateways(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingApplicationGateways_tbg.png, NetworkingApplicationGateways)
 AzureEntityColoring(CDSNetworkingApplicationGateways_m)
-!define CDSNetworkingApplicationGateways_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationGatewaysSPRITE, CDSNetworkingApplicationGateways_m)
-!define CDSNetworkingApplicationGateways_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationGatewaysSPRITE, CDSNetworkingApplicationGateways_m)
+!define CDSNetworkingApplicationGateways_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationGatewaysSPRITE, NetworkingApplicationGateways)
+!define CDSNetworkingApplicationGateways_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingApplicationGatewaysSPRITE, NetworkingApplicationGateways)
 

@@ -8,9 +8,9 @@ id6F3BcBQh3tgBQGz3LQhPGTf8sxkGzqD62MGKrfYeReVXv9dgA9c0RdSGIMYqGt9AyZP8gV_yL9n2mL
 }
 
 AzureEntityColoring(CDSDatabasesSQLManagedInstance)
-!define CDSDatabasesSQLManagedInstance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesSQLManagedInstance_tbg.png, CDSDatabasesSQLManagedInstance)
-!define CDSDatabasesSQLManagedInstance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesSQLManagedInstance_tbg.png, CDSDatabasesSQLManagedInstance)
+!define CDSDatabasesSQLManagedInstance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesSQLManagedInstance_tbg.png, DatabasesSQLManagedInstance)
+!define CDSDatabasesSQLManagedInstance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesSQLManagedInstance_tbg.png, DatabasesSQLManagedInstance)
 AzureEntityColoring(CDSDatabasesSQLManagedInstance_m)
-!define CDSDatabasesSQLManagedInstance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesSQLManagedInstanceSPRITE, CDSDatabasesSQLManagedInstance_m)
-!define CDSDatabasesSQLManagedInstance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesSQLManagedInstanceSPRITE, CDSDatabasesSQLManagedInstance_m)
+!define CDSDatabasesSQLManagedInstance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesSQLManagedInstanceSPRITE, DatabasesSQLManagedInstance)
+!define CDSDatabasesSQLManagedInstance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesSQLManagedInstanceSPRITE, DatabasesSQLManagedInstance)
 

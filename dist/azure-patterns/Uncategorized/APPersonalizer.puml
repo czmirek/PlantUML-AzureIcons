@@ -7,9 +7,9 @@ PCR_xboW-g1H-prc4ktRFjcc9YfJJboyunphhwAPXbzLN6GZPOM2NLOAc2mni8kA9fiiCjXEAmsgB3Cu
 }
 
 AzureEntityColoring(APPersonalizer)
-!define APPersonalizer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPersonalizer_tbg.png, APPersonalizer)
-!define APPersonalizer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPersonalizer_tbg.png, APPersonalizer)
+!define APPersonalizer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPersonalizer_tbg.png, Personalizer)
+!define APPersonalizer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPersonalizer_tbg.png, Personalizer)
 AzureEntityColoring(APPersonalizer_m)
-!define APPersonalizer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizerSPRITE, APPersonalizer_m)
-!define APPersonalizer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizerSPRITE, APPersonalizer_m)
+!define APPersonalizer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizerSPRITE, Personalizer)
+!define APPersonalizer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizerSPRITE, Personalizer)
 

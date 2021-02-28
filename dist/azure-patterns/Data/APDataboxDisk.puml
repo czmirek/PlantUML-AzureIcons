@@ -5,9 +5,9 @@ j_r4VnwVDVy
 }
 
 AzureEntityColoring(APDataboxDisk)
-!define APDataboxDisk(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataboxDisk_tbg.png, APDataboxDisk)
-!define APDataboxDisk(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataboxDisk_tbg.png, APDataboxDisk)
+!define APDataboxDisk(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDataboxDisk_tbg.png, DataboxDisk)
+!define APDataboxDisk(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDataboxDisk_tbg.png, DataboxDisk)
 AzureEntityColoring(APDataboxDisk_m)
-!define APDataboxDisk_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxDiskSPRITE, APDataboxDisk_m)
-!define APDataboxDisk_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxDiskSPRITE, APDataboxDisk_m)
+!define APDataboxDisk_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxDiskSPRITE, DataboxDisk)
+!define APDataboxDisk_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxDiskSPRITE, DataboxDisk)
 

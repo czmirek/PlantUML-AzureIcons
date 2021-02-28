@@ -8,9 +8,9 @@ or39Gpher4U5RtDYIBngKEZOVJj7YQpzFyr36eOEFQGvpct8VDxyGN6bF0VL6yklsWa4htSnfzPurNhd
 }
 
 AzureEntityColoring(CDSIdentityAzureADPrivilegeIdentityMapping)
-!define CDSIdentityAzureADPrivilegeIdentityMapping(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADPrivilegeIdentityMapping_tbg.png, CDSIdentityAzureADPrivilegeIdentityMapping)
-!define CDSIdentityAzureADPrivilegeIdentityMapping(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADPrivilegeIdentityMapping_tbg.png, CDSIdentityAzureADPrivilegeIdentityMapping)
+!define CDSIdentityAzureADPrivilegeIdentityMapping(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADPrivilegeIdentityMapping_tbg.png, IdentityAzureADPrivilegeIdentityMapping)
+!define CDSIdentityAzureADPrivilegeIdentityMapping(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADPrivilegeIdentityMapping_tbg.png, IdentityAzureADPrivilegeIdentityMapping)
 AzureEntityColoring(CDSIdentityAzureADPrivilegeIdentityMapping_m)
-!define CDSIdentityAzureADPrivilegeIdentityMapping_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureADPrivilegeIdentityMappingSPRITE, CDSIdentityAzureADPrivilegeIdentityMapping_m)
-!define CDSIdentityAzureADPrivilegeIdentityMapping_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureADPrivilegeIdentityMappingSPRITE, CDSIdentityAzureADPrivilegeIdentityMapping_m)
+!define CDSIdentityAzureADPrivilegeIdentityMapping_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureADPrivilegeIdentityMappingSPRITE, IdentityAzureADPrivilegeIdentityMapping)
+!define CDSIdentityAzureADPrivilegeIdentityMapping_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureADPrivilegeIdentityMappingSPRITE, IdentityAzureADPrivilegeIdentityMapping)
 

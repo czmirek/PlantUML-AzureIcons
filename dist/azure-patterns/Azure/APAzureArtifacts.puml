@@ -5,9 +5,9 @@ xTE50SCW443HItg6xBzklOsx0s-0ZnwKPIpzw0jlq2atG-oVGXUTKB487SoK2bsjOlyML6n961MpTcMT
 }
 
 AzureEntityColoring(APAzureArtifacts)
-!define APAzureArtifacts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureArtifacts_tbg.png, APAzureArtifacts)
-!define APAzureArtifacts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureArtifacts_tbg.png, APAzureArtifacts)
+!define APAzureArtifacts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureArtifacts_tbg.png, AzureArtifacts)
+!define APAzureArtifacts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureArtifacts_tbg.png, AzureArtifacts)
 AzureEntityColoring(APAzureArtifacts_m)
-!define APAzureArtifacts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureArtifactsSPRITE, APAzureArtifacts_m)
-!define APAzureArtifacts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureArtifactsSPRITE, APAzureArtifacts_m)
+!define APAzureArtifacts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureArtifactsSPRITE, AzureArtifacts)
+!define APAzureArtifacts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureArtifactsSPRITE, AzureArtifacts)
 

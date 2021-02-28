@@ -10,9 +10,9 @@ Vm
 }
 
 AzureEntityColoring(APCircleUserAlt)
-!define APCircleUserAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, APCircleUserAlt)
-!define APCircleUserAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, APCircleUserAlt)
+!define APCircleUserAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, CircleUserAlt)
+!define APCircleUserAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleUserAlt_tbg.png, CircleUserAlt)
 AzureEntityColoring(APCircleUserAlt_m)
-!define APCircleUserAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, APCircleUserAlt_m)
-!define APCircleUserAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, APCircleUserAlt_m)
+!define APCircleUserAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, CircleUserAlt)
+!define APCircleUserAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserAltSPRITE, CircleUserAlt)
 

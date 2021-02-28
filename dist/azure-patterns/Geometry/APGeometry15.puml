@@ -10,9 +10,9 @@ ZsM8CA1S1P73Bh_xtSnBuf0KRNWXIyVUkpGipoEewOIJBT4vGFMTKIWnaXMTIRXDV92BAISZE805bEXZ
 }
 
 AzureEntityColoring(APGeometry15)
-!define APGeometry15(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGeometry15_tbg.png, APGeometry15)
-!define APGeometry15(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGeometry15_tbg.png, APGeometry15)
+!define APGeometry15(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGeometry15_tbg.png, Geometry15)
+!define APGeometry15(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGeometry15_tbg.png, Geometry15)
 AzureEntityColoring(APGeometry15_m)
-!define APGeometry15_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeometry15SPRITE, APGeometry15_m)
-!define APGeometry15_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeometry15SPRITE, APGeometry15_m)
+!define APGeometry15_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeometry15SPRITE, Geometry15)
+!define APGeometry15_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeometry15SPRITE, Geometry15)
 

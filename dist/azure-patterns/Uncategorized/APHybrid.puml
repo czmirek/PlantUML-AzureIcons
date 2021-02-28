@@ -7,9 +7,9 @@ DkQ_qTngVW4
 }
 
 AzureEntityColoring(APHybrid)
-!define APHybrid(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybrid_tbg.png, APHybrid)
-!define APHybrid(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybrid_tbg.png, APHybrid)
+!define APHybrid(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybrid_tbg.png, Hybrid)
+!define APHybrid(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybrid_tbg.png, Hybrid)
 AzureEntityColoring(APHybrid_m)
-!define APHybrid_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridSPRITE, APHybrid_m)
-!define APHybrid_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridSPRITE, APHybrid_m)
+!define APHybrid_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridSPRITE, Hybrid)
+!define APHybrid_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridSPRITE, Hybrid)
 

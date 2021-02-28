@@ -5,9 +5,9 @@ g_l4afMiTF_JOWWeDlQNbYSmYny
 }
 
 AzureEntityColoring(APGridMasonry)
-!define APGridMasonry(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGridMasonry_tbg.png, APGridMasonry)
-!define APGridMasonry(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGridMasonry_tbg.png, APGridMasonry)
+!define APGridMasonry(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGridMasonry_tbg.png, GridMasonry)
+!define APGridMasonry(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGridMasonry_tbg.png, GridMasonry)
 AzureEntityColoring(APGridMasonry_m)
-!define APGridMasonry_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGridMasonrySPRITE, APGridMasonry_m)
-!define APGridMasonry_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGridMasonrySPRITE, APGridMasonry_m)
+!define APGridMasonry_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGridMasonrySPRITE, GridMasonry)
+!define APGridMasonry_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGridMasonrySPRITE, GridMasonry)
 

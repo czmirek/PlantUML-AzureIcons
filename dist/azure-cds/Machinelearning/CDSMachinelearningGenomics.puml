@@ -7,9 +7,9 @@ DwLz94PywUNrzD66lgPQJPvrMi6XZFvC5w1AndHYPCco-rGJu5DYVF9RJVRFT3vVKryfd81JSdqx6Foh
 }
 
 AzureEntityColoring(CDSMachinelearningGenomics)
-!define CDSMachinelearningGenomics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningGenomics_tbg.png, CDSMachinelearningGenomics)
-!define CDSMachinelearningGenomics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningGenomics_tbg.png, CDSMachinelearningGenomics)
+!define CDSMachinelearningGenomics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningGenomics_tbg.png, MachinelearningGenomics)
+!define CDSMachinelearningGenomics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningGenomics_tbg.png, MachinelearningGenomics)
 AzureEntityColoring(CDSMachinelearningGenomics_m)
-!define CDSMachinelearningGenomics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMachinelearningGenomicsSPRITE, CDSMachinelearningGenomics_m)
-!define CDSMachinelearningGenomics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMachinelearningGenomicsSPRITE, CDSMachinelearningGenomics_m)
+!define CDSMachinelearningGenomics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMachinelearningGenomicsSPRITE, MachinelearningGenomics)
+!define CDSMachinelearningGenomics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMachinelearningGenomicsSPRITE, MachinelearningGenomics)
 

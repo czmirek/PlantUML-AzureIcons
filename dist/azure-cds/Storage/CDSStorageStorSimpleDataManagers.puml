@@ -7,9 +7,9 @@ dW7sPSka1kFXyyY_nxCHdp-dtSp_wVSNwreS3k2kPS0HrhCu7ECTYyEAaLSjEM0DIbwnfC89R7c22rnX
 }
 
 AzureEntityColoring(CDSStorageStorSimpleDataManagers)
-!define CDSStorageStorSimpleDataManagers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorSimpleDataManagers_tbg.png, CDSStorageStorSimpleDataManagers)
-!define CDSStorageStorSimpleDataManagers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorSimpleDataManagers_tbg.png, CDSStorageStorSimpleDataManagers)
+!define CDSStorageStorSimpleDataManagers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorSimpleDataManagers_tbg.png, StorageStorSimpleDataManagers)
+!define CDSStorageStorSimpleDataManagers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorSimpleDataManagers_tbg.png, StorageStorSimpleDataManagers)
 AzureEntityColoring(CDSStorageStorSimpleDataManagers_m)
-!define CDSStorageStorSimpleDataManagers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageStorSimpleDataManagersSPRITE, CDSStorageStorSimpleDataManagers_m)
-!define CDSStorageStorSimpleDataManagers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageStorSimpleDataManagersSPRITE, CDSStorageStorSimpleDataManagers_m)
+!define CDSStorageStorSimpleDataManagers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageStorSimpleDataManagersSPRITE, StorageStorSimpleDataManagers)
+!define CDSStorageStorSimpleDataManagers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageStorSimpleDataManagersSPRITE, StorageStorSimpleDataManagers)
 

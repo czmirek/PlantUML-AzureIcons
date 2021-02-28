@@ -6,9 +6,9 @@ UzQzkSSIATdbt09qCIXoy633S3WS3dS
 }
 
 AzureEntityColoring(APPersonalizerAlt)
-!define APPersonalizerAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPersonalizerAlt_tbg.png, APPersonalizerAlt)
-!define APPersonalizerAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPersonalizerAlt_tbg.png, APPersonalizerAlt)
+!define APPersonalizerAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPersonalizerAlt_tbg.png, PersonalizerAlt)
+!define APPersonalizerAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPersonalizerAlt_tbg.png, PersonalizerAlt)
 AzureEntityColoring(APPersonalizerAlt_m)
-!define APPersonalizerAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizerAltSPRITE, APPersonalizerAlt_m)
-!define APPersonalizerAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizerAltSPRITE, APPersonalizerAlt_m)
+!define APPersonalizerAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizerAltSPRITE, PersonalizerAlt)
+!define APPersonalizerAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizerAltSPRITE, PersonalizerAlt)
 

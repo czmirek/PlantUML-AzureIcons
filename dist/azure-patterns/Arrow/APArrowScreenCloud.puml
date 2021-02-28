@@ -6,9 +6,9 @@ rwruFCCDzkm5
 }
 
 AzureEntityColoring(APArrowScreenCloud)
-!define APArrowScreenCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowScreenCloud_tbg.png, APArrowScreenCloud)
-!define APArrowScreenCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowScreenCloud_tbg.png, APArrowScreenCloud)
+!define APArrowScreenCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowScreenCloud_tbg.png, ArrowScreenCloud)
+!define APArrowScreenCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowScreenCloud_tbg.png, ArrowScreenCloud)
 AzureEntityColoring(APArrowScreenCloud_m)
-!define APArrowScreenCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowScreenCloudSPRITE, APArrowScreenCloud_m)
-!define APArrowScreenCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowScreenCloudSPRITE, APArrowScreenCloud_m)
+!define APArrowScreenCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowScreenCloudSPRITE, ArrowScreenCloud)
+!define APArrowScreenCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowScreenCloudSPRITE, ArrowScreenCloud)
 

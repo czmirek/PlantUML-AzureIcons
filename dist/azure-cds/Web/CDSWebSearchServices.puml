@@ -7,9 +7,9 @@ HGnz91PfQXVXWg_lrwyJ
 }
 
 AzureEntityColoring(CDSWebSearchServices)
-!define CDSWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, CDSWebSearchServices)
-!define CDSWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, CDSWebSearchServices)
+!define CDSWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, WebSearchServices)
+!define CDSWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, WebSearchServices)
 AzureEntityColoring(CDSWebSearchServices_m)
-!define CDSWebSearchServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, CDSWebSearchServices_m)
-!define CDSWebSearchServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, CDSWebSearchServices_m)
+!define CDSWebSearchServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, WebSearchServices)
+!define CDSWebSearchServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, WebSearchServices)
 

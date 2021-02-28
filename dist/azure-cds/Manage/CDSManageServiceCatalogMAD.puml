@@ -8,9 +8,9 @@ IbN8wvH289V5gv6AVQs3oHVj7m
 }
 
 AzureEntityColoring(CDSManageServiceCatalogMAD)
-!define CDSManageServiceCatalogMAD(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageServiceCatalogMAD_tbg.png, CDSManageServiceCatalogMAD)
-!define CDSManageServiceCatalogMAD(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageServiceCatalogMAD_tbg.png, CDSManageServiceCatalogMAD)
+!define CDSManageServiceCatalogMAD(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageServiceCatalogMAD_tbg.png, ManageServiceCatalogMAD)
+!define CDSManageServiceCatalogMAD(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageServiceCatalogMAD_tbg.png, ManageServiceCatalogMAD)
 AzureEntityColoring(CDSManageServiceCatalogMAD_m)
-!define CDSManageServiceCatalogMAD_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageServiceCatalogMADSPRITE, CDSManageServiceCatalogMAD_m)
-!define CDSManageServiceCatalogMAD_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageServiceCatalogMADSPRITE, CDSManageServiceCatalogMAD_m)
+!define CDSManageServiceCatalogMAD_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageServiceCatalogMADSPRITE, ManageServiceCatalogMAD)
+!define CDSManageServiceCatalogMAD_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageServiceCatalogMADSPRITE, ManageServiceCatalogMAD)
 

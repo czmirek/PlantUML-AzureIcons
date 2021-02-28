@@ -9,9 +9,9 @@ rANWlPcA7Fw_KvZeCqlN4b3VevPUKb9MeZlgNm
 }
 
 AzureEntityColoring(APBusinessHealth)
-!define APBusinessHealth(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBusinessHealth_tbg.png, APBusinessHealth)
-!define APBusinessHealth(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBusinessHealth_tbg.png, APBusinessHealth)
+!define APBusinessHealth(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBusinessHealth_tbg.png, BusinessHealth)
+!define APBusinessHealth(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBusinessHealth_tbg.png, BusinessHealth)
 AzureEntityColoring(APBusinessHealth_m)
-!define APBusinessHealth_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBusinessHealthSPRITE, APBusinessHealth_m)
-!define APBusinessHealth_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBusinessHealthSPRITE, APBusinessHealth_m)
+!define APBusinessHealth_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBusinessHealthSPRITE, BusinessHealth)
+!define APBusinessHealth_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBusinessHealthSPRITE, BusinessHealth)
 

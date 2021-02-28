@@ -6,9 +6,9 @@ p2aAIKLPKb6WFOo1qjYFLGPtxxFAvFk6f3BulZwfZ6SbFT6OK2fJt8TVio-hiYfMdjJzdjQs
 }
 
 AzureEntityColoring(APCloudUnlocked)
-!define APCloudUnlocked(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudUnlocked_tbg.png, APCloudUnlocked)
-!define APCloudUnlocked(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudUnlocked_tbg.png, APCloudUnlocked)
+!define APCloudUnlocked(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudUnlocked_tbg.png, CloudUnlocked)
+!define APCloudUnlocked(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudUnlocked_tbg.png, CloudUnlocked)
 AzureEntityColoring(APCloudUnlocked_m)
-!define APCloudUnlocked_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudUnlockedSPRITE, APCloudUnlocked_m)
-!define APCloudUnlocked_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudUnlockedSPRITE, APCloudUnlocked_m)
+!define APCloudUnlocked_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudUnlockedSPRITE, CloudUnlocked)
+!define APCloudUnlocked_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudUnlockedSPRITE, CloudUnlocked)
 

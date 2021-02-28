@@ -7,9 +7,9 @@ KrVXZKeXX72CkSeeWM1I2ePyIcHp2m
 }
 
 AzureEntityColoring(APDevelop)
-!define APDevelop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevelop_tbg.png, APDevelop)
-!define APDevelop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevelop_tbg.png, APDevelop)
+!define APDevelop(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevelop_tbg.png, Develop)
+!define APDevelop(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevelop_tbg.png, Develop)
 AzureEntityColoring(APDevelop_m)
-!define APDevelop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevelopSPRITE, APDevelop_m)
-!define APDevelop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevelopSPRITE, APDevelop_m)
+!define APDevelop_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevelopSPRITE, Develop)
+!define APDevelop_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevelopSPRITE, Develop)
 

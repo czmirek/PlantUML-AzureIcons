@@ -6,9 +6,9 @@ wRBIBX-ESveC-fH6gNRq3SfVuOwQoW0TZRExjG
 }
 
 AzureEntityColoring(CDSOtherWAC)
-!define CDSOtherWAC(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherWAC_tbg.png, CDSOtherWAC)
-!define CDSOtherWAC(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherWAC_tbg.png, CDSOtherWAC)
+!define CDSOtherWAC(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherWAC_tbg.png, OtherWAC)
+!define CDSOtherWAC(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherWAC_tbg.png, OtherWAC)
 AzureEntityColoring(CDSOtherWAC_m)
-!define CDSOtherWAC_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherWACSPRITE, CDSOtherWAC_m)
-!define CDSOtherWAC_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherWACSPRITE, CDSOtherWAC_m)
+!define CDSOtherWAC_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherWACSPRITE, OtherWAC)
+!define CDSOtherWAC_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherWACSPRITE, OtherWAC)
 

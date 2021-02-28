@@ -5,9 +5,9 @@ d2kdZViAwOSe5LMY-QpIvRr99x5uErHEwuUA27rIMPPbRm
 }
 
 AzureEntityColoring(APDotNet)
-!define APDotNet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDotNet_tbg.png, APDotNet)
-!define APDotNet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDotNet_tbg.png, APDotNet)
+!define APDotNet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDotNet_tbg.png, DotNet)
+!define APDotNet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDotNet_tbg.png, DotNet)
 AzureEntityColoring(APDotNet_m)
-!define APDotNet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDotNetSPRITE, APDotNet_m)
-!define APDotNet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDotNetSPRITE, APDotNet_m)
+!define APDotNet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDotNetSPRITE, DotNet)
+!define APDotNet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDotNetSPRITE, DotNet)
 

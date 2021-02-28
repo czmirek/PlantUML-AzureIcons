@@ -8,9 +8,9 @@ eiOLJbIOs-4mGtfx1JmqQh5vU5VKwfeaJzgIvkHbj6LA7bLFDWfyhH-NfIuP-r5MnqfnnQkF05bCpz1E
 }
 
 AzureEntityColoring(CDSDatabasesInstancePools)
-!define CDSDatabasesInstancePools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesInstancePools_tbg.png, CDSDatabasesInstancePools)
-!define CDSDatabasesInstancePools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesInstancePools_tbg.png, CDSDatabasesInstancePools)
+!define CDSDatabasesInstancePools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesInstancePools_tbg.png, DatabasesInstancePools)
+!define CDSDatabasesInstancePools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesInstancePools_tbg.png, DatabasesInstancePools)
 AzureEntityColoring(CDSDatabasesInstancePools_m)
-!define CDSDatabasesInstancePools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesInstancePoolsSPRITE, CDSDatabasesInstancePools_m)
-!define CDSDatabasesInstancePools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesInstancePoolsSPRITE, CDSDatabasesInstancePools_m)
+!define CDSDatabasesInstancePools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesInstancePoolsSPRITE, DatabasesInstancePools)
+!define CDSDatabasesInstancePools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesInstancePoolsSPRITE, DatabasesInstancePools)
 

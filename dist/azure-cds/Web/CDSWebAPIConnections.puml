@@ -7,9 +7,9 @@ AQs9mjX0NbSKcqXBdNF1JtY2qBrUhxy
 }
 
 AzureEntityColoring(CDSWebAPIConnections)
-!define CDSWebAPIConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, CDSWebAPIConnections)
-!define CDSWebAPIConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, CDSWebAPIConnections)
+!define CDSWebAPIConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, WebAPIConnections)
+!define CDSWebAPIConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, WebAPIConnections)
 AzureEntityColoring(CDSWebAPIConnections_m)
-!define CDSWebAPIConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, CDSWebAPIConnections_m)
-!define CDSWebAPIConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, CDSWebAPIConnections_m)
+!define CDSWebAPIConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, WebAPIConnections)
+!define CDSWebAPIConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, WebAPIConnections)
 

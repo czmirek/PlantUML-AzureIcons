@@ -7,11 +7,11 @@ ZyngNyloi3oRR54y5w7WyXnveVs-ETDheStq-raUbl_U6vT2kpT-tjxzbsT_FiiiC3xTyqpt8tmAl8_b
 }
 
 AzureEntityColoring(APWebappFirewall)
-!define APWebappFirewall(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, APWebappFirewall)
-!define APWebappFirewall(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, APWebappFirewall)
+!define APWebappFirewall(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, WebpFirewall)
+!define APWebappFirewall(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, WebpFirewall)
 AzureEntityColoring(APWebappFirewall_m)
-!define APWebappFirewall_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, APWebappFirewall_m)
-!define APWebappFirewall_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, APWebappFirewall_m)
+!define APWebappFirewall_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, WebpFirewall)
+!define APWebappFirewall_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, WebpFirewall)
 
 sprite $APWebAppUmbracoSPRITE [70x70/16z] {
 jPRfUYCx24IBrU__nFVE-5E6fYahokBp9_jfA4HQOAXxH6Q4cmg-XNWsmXNV8V966Bw2-xEQoC6vHpDJdvgSXEA8PnuXopTnV4Qr4UYQovpaK589s8fLSKnF
@@ -24,11 +24,11 @@ CZNVbnJndKmcHif9HV5DJng-XNfUJY2-ZsZjuXlu7m
 }
 
 AzureEntityColoring(APWebAppUmbraco)
-!define APWebAppUmbraco(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, APWebAppUmbraco)
-!define APWebAppUmbraco(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, APWebAppUmbraco)
+!define APWebAppUmbraco(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, WebpUmbraco)
+!define APWebAppUmbraco(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, WebpUmbraco)
 AzureEntityColoring(APWebAppUmbraco_m)
-!define APWebAppUmbraco_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, APWebAppUmbraco_m)
-!define APWebAppUmbraco_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, APWebAppUmbraco_m)
+!define APWebAppUmbraco_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, WebpUmbraco)
+!define APWebAppUmbraco_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, WebpUmbraco)
 
 sprite $APWebAppWordpressSPRITE [70x70/16z] {
 jPPjqhCg44IRQHeGzh_VUqLA2PaOyrIzvr--sZcDKmOU5gEKaXHf0NyYnFI2ek4lA2s8-8KO-pHARppFiPIIzPZqZXvwzJuKZZo7Y7jc3U4rPZgdy33aQe2Z
@@ -44,10 +44,10 @@ Dc67VQgDU48HRDcVYfsoX-I4PnohMwvT7f5xY3Oyn8x7z2aqMeffX3oE4H3PXGRev0s_K4eOGfCIjuJV
 }
 
 AzureEntityColoring(APWebAppWordpress)
-!define APWebAppWordpress(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppWordpress_tbg.png, APWebAppWordpress)
-!define APWebAppWordpress(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppWordpress_tbg.png, APWebAppWordpress)
+!define APWebAppWordpress(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppWordpress_tbg.png, WebpWordpress)
+!define APWebAppWordpress(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppWordpress_tbg.png, WebpWordpress)
 AzureEntityColoring(APWebAppWordpress_m)
-!define APWebAppWordpress_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppWordpressSPRITE, APWebAppWordpress_m)
-!define APWebAppWordpress_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppWordpressSPRITE, APWebAppWordpress_m)
+!define APWebAppWordpress_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppWordpressSPRITE, WebpWordpress)
+!define APWebAppWordpress_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppWordpressSPRITE, WebpWordpress)
 
 

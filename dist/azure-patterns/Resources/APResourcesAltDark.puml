@@ -8,9 +8,9 @@ juXcNgGaUkb9nWWnG34QcGsIqSYik6U21va5zym83iG0oRWHpMX4CnhHRuA1TrqWWca2SJ9X8HpWPyeL
 }
 
 AzureEntityColoring(APResourcesAltDark)
-!define APResourcesAltDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResourcesAltDark_tbg.png, APResourcesAltDark)
-!define APResourcesAltDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResourcesAltDark_tbg.png, APResourcesAltDark)
+!define APResourcesAltDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResourcesAltDark_tbg.png, ResourcesAltDark)
+!define APResourcesAltDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResourcesAltDark_tbg.png, ResourcesAltDark)
 AzureEntityColoring(APResourcesAltDark_m)
-!define APResourcesAltDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResourcesAltDarkSPRITE, APResourcesAltDark_m)
-!define APResourcesAltDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResourcesAltDarkSPRITE, APResourcesAltDark_m)
+!define APResourcesAltDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResourcesAltDarkSPRITE, ResourcesAltDark)
+!define APResourcesAltDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResourcesAltDarkSPRITE, ResourcesAltDark)
 

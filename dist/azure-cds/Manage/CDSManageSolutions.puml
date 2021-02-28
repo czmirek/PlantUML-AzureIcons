@@ -7,9 +7,9 @@ fMnRFYo6Esp18hZ5IWJWJv62luWl
 }
 
 AzureEntityColoring(CDSManageSolutions)
-!define CDSManageSolutions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageSolutions_tbg.png, CDSManageSolutions)
-!define CDSManageSolutions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageSolutions_tbg.png, CDSManageSolutions)
+!define CDSManageSolutions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageSolutions_tbg.png, ManageSolutions)
+!define CDSManageSolutions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageSolutions_tbg.png, ManageSolutions)
 AzureEntityColoring(CDSManageSolutions_m)
-!define CDSManageSolutions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageSolutionsSPRITE, CDSManageSolutions_m)
-!define CDSManageSolutions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageSolutionsSPRITE, CDSManageSolutions_m)
+!define CDSManageSolutions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageSolutionsSPRITE, ManageSolutions)
+!define CDSManageSolutions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageSolutionsSPRITE, ManageSolutions)
 

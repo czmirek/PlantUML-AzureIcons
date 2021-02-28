@@ -5,9 +5,9 @@ ExBrUCSmpQqpow2f5IQ3vbQOrqaPMs7yndGdVN1qwv-TXewCybRmTQvkQOLbdQiRMc4m73DtbJmEkG4
 }
 
 AzureEntityColoring(APLightbulbBlue)
-!define APLightbulbBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightbulbBlue_tbg.png, APLightbulbBlue)
-!define APLightbulbBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightbulbBlue_tbg.png, APLightbulbBlue)
+!define APLightbulbBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightbulbBlue_tbg.png, LightbulbBlue)
+!define APLightbulbBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightbulbBlue_tbg.png, LightbulbBlue)
 AzureEntityColoring(APLightbulbBlue_m)
-!define APLightbulbBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightbulbBlueSPRITE, APLightbulbBlue_m)
-!define APLightbulbBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightbulbBlueSPRITE, APLightbulbBlue_m)
+!define APLightbulbBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightbulbBlueSPRITE, LightbulbBlue)
+!define APLightbulbBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightbulbBlueSPRITE, LightbulbBlue)
 

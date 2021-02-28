@@ -7,9 +7,9 @@ qM3u6j8h24qVlm
 }
 
 AzureEntityColoring(CDSStorageRecoveryServicesVaults)
-!define CDSStorageRecoveryServicesVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageRecoveryServicesVaults_tbg.png, CDSStorageRecoveryServicesVaults)
-!define CDSStorageRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageRecoveryServicesVaults_tbg.png, CDSStorageRecoveryServicesVaults)
+!define CDSStorageRecoveryServicesVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageRecoveryServicesVaults_tbg.png, StorageRecoveryServicesVaults)
+!define CDSStorageRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageRecoveryServicesVaults_tbg.png, StorageRecoveryServicesVaults)
 AzureEntityColoring(CDSStorageRecoveryServicesVaults_m)
-!define CDSStorageRecoveryServicesVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageRecoveryServicesVaultsSPRITE, CDSStorageRecoveryServicesVaults_m)
-!define CDSStorageRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageRecoveryServicesVaultsSPRITE, CDSStorageRecoveryServicesVaults_m)
+!define CDSStorageRecoveryServicesVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageRecoveryServicesVaultsSPRITE, StorageRecoveryServicesVaults)
+!define CDSStorageRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageRecoveryServicesVaultsSPRITE, StorageRecoveryServicesVaults)
 

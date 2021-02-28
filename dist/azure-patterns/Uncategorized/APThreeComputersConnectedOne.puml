@@ -5,9 +5,9 @@ HKdBb61WLenaO5BqvV6RbNXPFYhgpd0V5RW7tNLKpEDb-VouqDF7nPa-Bg29NBW2f0gGAW8S_5L7Slxz
 }
 
 AzureEntityColoring(APThreeComputersConnectedOne)
-!define APThreeComputersConnectedOne(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeComputersConnectedOne_tbg.png, APThreeComputersConnectedOne)
-!define APThreeComputersConnectedOne(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeComputersConnectedOne_tbg.png, APThreeComputersConnectedOne)
+!define APThreeComputersConnectedOne(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeComputersConnectedOne_tbg.png, ThreeComputersConnectedOne)
+!define APThreeComputersConnectedOne(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeComputersConnectedOne_tbg.png, ThreeComputersConnectedOne)
 AzureEntityColoring(APThreeComputersConnectedOne_m)
-!define APThreeComputersConnectedOne_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeComputersConnectedOneSPRITE, APThreeComputersConnectedOne_m)
-!define APThreeComputersConnectedOne_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeComputersConnectedOneSPRITE, APThreeComputersConnectedOne_m)
+!define APThreeComputersConnectedOne_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeComputersConnectedOneSPRITE, ThreeComputersConnectedOne)
+!define APThreeComputersConnectedOne_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeComputersConnectedOneSPRITE, ThreeComputersConnectedOne)
 

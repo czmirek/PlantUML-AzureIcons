@@ -7,9 +7,9 @@ Es6FyknzntBpAIlFtba2eUHPlispz_DFmbc-yfw1ffDKbgzOYf8TiUH8lo5B7BCeJWvPz7Qh6rb-1m
 }
 
 AzureEntityColoring(APLightDiamond)
-!define APLightDiamond(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightDiamond_tbg.png, APLightDiamond)
-!define APLightDiamond(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightDiamond_tbg.png, APLightDiamond)
+!define APLightDiamond(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightDiamond_tbg.png, LightDiamond)
+!define APLightDiamond(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightDiamond_tbg.png, LightDiamond)
 AzureEntityColoring(APLightDiamond_m)
-!define APLightDiamond_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightDiamondSPRITE, APLightDiamond_m)
-!define APLightDiamond_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightDiamondSPRITE, APLightDiamond_m)
+!define APLightDiamond_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightDiamondSPRITE, LightDiamond)
+!define APLightDiamond_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightDiamondSPRITE, LightDiamond)
 

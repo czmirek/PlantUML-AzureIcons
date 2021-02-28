@@ -5,9 +5,9 @@ kAAWT4RE2i0L1QKpSbQ0_aS62g0L1IqxOmNWYeBoXW9mHK5fGm7Q6mgW5GNj3GNWDKhvajjjN_BhUCiq
 }
 
 AzureEntityColoring(APMediaOndemand)
-!define APMediaOndemand(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaOndemand_tbg.png, APMediaOndemand)
-!define APMediaOndemand(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaOndemand_tbg.png, APMediaOndemand)
+!define APMediaOndemand(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMediaOndemand_tbg.png, MediaOndemand)
+!define APMediaOndemand(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMediaOndemand_tbg.png, MediaOndemand)
 AzureEntityColoring(APMediaOndemand_m)
-!define APMediaOndemand_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaOndemandSPRITE, APMediaOndemand_m)
-!define APMediaOndemand_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaOndemandSPRITE, APMediaOndemand_m)
+!define APMediaOndemand_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaOndemandSPRITE, MediaOndemand)
+!define APMediaOndemand_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaOndemandSPRITE, MediaOndemand)
 

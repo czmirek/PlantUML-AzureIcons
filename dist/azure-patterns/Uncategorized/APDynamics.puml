@@ -7,9 +7,9 @@ g3zn49uWMNsSDlCDDu45ELKY76DU44aXD87yzYaf3I3SPR8InJ7cBaCAeGbCra2bWWaiPAHy0W
 }
 
 AzureEntityColoring(APDynamics)
-!define APDynamics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDynamics_tbg.png, APDynamics)
-!define APDynamics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDynamics_tbg.png, APDynamics)
+!define APDynamics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDynamics_tbg.png, Dynamics)
+!define APDynamics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDynamics_tbg.png, Dynamics)
 AzureEntityColoring(APDynamics_m)
-!define APDynamics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDynamicsSPRITE, APDynamics_m)
-!define APDynamics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDynamicsSPRITE, APDynamics_m)
+!define APDynamics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDynamicsSPRITE, Dynamics)
+!define APDynamics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDynamicsSPRITE, Dynamics)
 

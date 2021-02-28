@@ -4,9 +4,9 @@ M65rM7i5S14bvLABqFFb38eLAmXQwCwGwnKghbw1ml8I_mMUTJtA0m
 }
 
 AzureEntityColoring(APWhitepaper)
-!define APWhitepaper(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWhitepaper_tbg.png, APWhitepaper)
-!define APWhitepaper(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWhitepaper_tbg.png, APWhitepaper)
+!define APWhitepaper(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWhitepaper_tbg.png, Whiteper)
+!define APWhitepaper(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWhitepaper_tbg.png, Whiteper)
 AzureEntityColoring(APWhitepaper_m)
-!define APWhitepaper_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWhitepaperSPRITE, APWhitepaper_m)
-!define APWhitepaper_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWhitepaperSPRITE, APWhitepaper_m)
+!define APWhitepaper_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWhitepaperSPRITE, Whiteper)
+!define APWhitepaper_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWhitepaperSPRITE, Whiteper)
 

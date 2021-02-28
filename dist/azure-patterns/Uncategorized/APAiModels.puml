@@ -11,9 +11,9 @@ LnD_5-Ov8yRU4srdc8jOQtgohp2N9VLn1f3NVm
 }
 
 AzureEntityColoring(APAiModels)
-!define APAiModels(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAiModels_tbg.png, APAiModels)
-!define APAiModels(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAiModels_tbg.png, APAiModels)
+!define APAiModels(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAiModels_tbg.png, AiModels)
+!define APAiModels(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAiModels_tbg.png, AiModels)
 AzureEntityColoring(APAiModels_m)
-!define APAiModels_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAiModelsSPRITE, APAiModels_m)
-!define APAiModels_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAiModelsSPRITE, APAiModels_m)
+!define APAiModels_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAiModelsSPRITE, AiModels)
+!define APAiModels_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAiModelsSPRITE, AiModels)
 

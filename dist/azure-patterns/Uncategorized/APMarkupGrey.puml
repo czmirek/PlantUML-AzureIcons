@@ -5,9 +5,9 @@ WI10B60mgEZ1ue8WH5B0A0YHW54G8W6Z84H29Yi8aPzCEpaeEAwT6sJuxSxy3Xd_ql17pWRNvdE_GoNX
 }
 
 AzureEntityColoring(APMarkupGrey)
-!define APMarkupGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMarkupGrey_tbg.png, APMarkupGrey)
-!define APMarkupGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMarkupGrey_tbg.png, APMarkupGrey)
+!define APMarkupGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMarkupGrey_tbg.png, MarkupGrey)
+!define APMarkupGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMarkupGrey_tbg.png, MarkupGrey)
 AzureEntityColoring(APMarkupGrey_m)
-!define APMarkupGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMarkupGreySPRITE, APMarkupGrey_m)
-!define APMarkupGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMarkupGreySPRITE, APMarkupGrey_m)
+!define APMarkupGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMarkupGreySPRITE, MarkupGrey)
+!define APMarkupGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMarkupGreySPRITE, MarkupGrey)
 

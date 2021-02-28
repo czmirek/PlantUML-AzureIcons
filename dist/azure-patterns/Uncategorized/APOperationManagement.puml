@@ -6,9 +6,9 @@ W4wByQ0Hhtm9ySlG8dgasmEO4FCIKt4va2Ci2aTO2AR4Vn9n4CWZNmuOVXKnBusObpLG1nQ6PRXdKO84
 }
 
 AzureEntityColoring(APOperationManagement)
-!define APOperationManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOperationManagement_tbg.png, APOperationManagement)
-!define APOperationManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOperationManagement_tbg.png, APOperationManagement)
+!define APOperationManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APOperationManagement_tbg.png, OperationManagement)
+!define APOperationManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APOperationManagement_tbg.png, OperationManagement)
 AzureEntityColoring(APOperationManagement_m)
-!define APOperationManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOperationManagementSPRITE, APOperationManagement_m)
-!define APOperationManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOperationManagementSPRITE, APOperationManagement_m)
+!define APOperationManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOperationManagementSPRITE, OperationManagement)
+!define APOperationManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOperationManagementSPRITE, OperationManagement)
 

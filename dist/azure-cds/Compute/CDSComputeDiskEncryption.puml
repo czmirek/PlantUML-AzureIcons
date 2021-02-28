@@ -9,9 +9,9 @@ lgUW9-HD1J2GfBpnF8m9YIl96zM4V3UYp_3nDD7AoRk8wMBO5wUh_UBDoMHntHTBBFsIyb_r2m
 }
 
 AzureEntityColoring(CDSComputeDiskEncryption)
-!define CDSComputeDiskEncryption(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, CDSComputeDiskEncryption)
-!define CDSComputeDiskEncryption(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, CDSComputeDiskEncryption)
+!define CDSComputeDiskEncryption(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, ComputeDiskEncryption)
+!define CDSComputeDiskEncryption(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, ComputeDiskEncryption)
 AzureEntityColoring(CDSComputeDiskEncryption_m)
-!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, CDSComputeDiskEncryption_m)
-!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, CDSComputeDiskEncryption_m)
+!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, ComputeDiskEncryption)
+!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, ComputeDiskEncryption)
 

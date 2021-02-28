@@ -5,9 +5,9 @@ b_ROdxW_HEOCJDLhg35wD88qmshaBKmqmXcES8OZZ56wmFuwsKxK0Yiq-SBlRhLQ-Rkq_P5M_m4
 }
 
 AzureEntityColoring(APCodeWindow)
-!define APCodeWindow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCodeWindow_tbg.png, APCodeWindow)
-!define APCodeWindow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCodeWindow_tbg.png, APCodeWindow)
+!define APCodeWindow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCodeWindow_tbg.png, CodeWindow)
+!define APCodeWindow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCodeWindow_tbg.png, CodeWindow)
 AzureEntityColoring(APCodeWindow_m)
-!define APCodeWindow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCodeWindowSPRITE, APCodeWindow_m)
-!define APCodeWindow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCodeWindowSPRITE, APCodeWindow_m)
+!define APCodeWindow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCodeWindowSPRITE, CodeWindow)
+!define APCodeWindow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCodeWindowSPRITE, CodeWindow)
 

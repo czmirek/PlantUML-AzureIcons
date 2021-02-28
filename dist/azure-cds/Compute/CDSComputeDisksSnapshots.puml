@@ -7,9 +7,9 @@ EUMcGk_TsI2TuLVlZtwLNoM13hA4l_KiY3z_BWNm5m
 }
 
 AzureEntityColoring(CDSComputeDisksSnapshots)
-!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, CDSComputeDisksSnapshots)
-!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, CDSComputeDisksSnapshots)
+!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, ComputeDisksSnapshots)
+!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, ComputeDisksSnapshots)
 AzureEntityColoring(CDSComputeDisksSnapshots_m)
-!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, CDSComputeDisksSnapshots_m)
-!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, CDSComputeDisksSnapshots_m)
+!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, ComputeDisksSnapshots)
+!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, ComputeDisksSnapshots)
 

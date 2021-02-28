@@ -7,9 +7,9 @@ _o0Hv36Pn0c4_SZM2Ww1jM8pPQmAqg3NaWpIdfuzU-p3OUqsErl6s3C4buoIpmcLJu8fdS9F9CzjwKKI
 }
 
 AzureEntityColoring(APMixedGroup)
-!define APMixedGroup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMixedGroup_tbg.png, APMixedGroup)
-!define APMixedGroup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMixedGroup_tbg.png, APMixedGroup)
+!define APMixedGroup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMixedGroup_tbg.png, MixedGroup)
+!define APMixedGroup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMixedGroup_tbg.png, MixedGroup)
 AzureEntityColoring(APMixedGroup_m)
-!define APMixedGroup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMixedGroupSPRITE, APMixedGroup_m)
-!define APMixedGroup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMixedGroupSPRITE, APMixedGroup_m)
+!define APMixedGroup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMixedGroupSPRITE, MixedGroup)
+!define APMixedGroup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMixedGroupSPRITE, MixedGroup)
 

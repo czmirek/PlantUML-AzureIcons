@@ -1,9 +1,9 @@
 sprite $APLineSPRITE [70x70/16z] xS6100000CCWWVlp7cJLuW00003W
 
 AzureEntityColoring(APLine)
-!define APLine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLine_tbg.png, APLine)
-!define APLine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLine_tbg.png, APLine)
+!define APLine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLine_tbg.png, Line)
+!define APLine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLine_tbg.png, Line)
 AzureEntityColoring(APLine_m)
-!define APLine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLineSPRITE, APLine_m)
-!define APLine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLineSPRITE, APLine_m)
+!define APLine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLineSPRITE, Line)
+!define APLine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLineSPRITE, Line)
 

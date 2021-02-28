@@ -4,9 +4,9 @@ XQfB5VEFeA5jcEdFiWq4pUuArbEn2eGgMR7NYt9A_3kWdtBjW7X5szFAgN7VXwqNj2keLgI2ZgGXgFZW
 }
 
 AzureEntityColoring(CDSStorageAzureNetAppFiles)
-!define CDSStorageAzureNetAppFiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureNetAppFiles_tbg.png, CDSStorageAzureNetAppFiles)
-!define CDSStorageAzureNetAppFiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureNetAppFiles_tbg.png, CDSStorageAzureNetAppFiles)
+!define CDSStorageAzureNetAppFiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureNetAppFiles_tbg.png, StorageAzureNetAppFiles)
+!define CDSStorageAzureNetAppFiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureNetAppFiles_tbg.png, StorageAzureNetAppFiles)
 AzureEntityColoring(CDSStorageAzureNetAppFiles_m)
-!define CDSStorageAzureNetAppFiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureNetAppFilesSPRITE, CDSStorageAzureNetAppFiles_m)
-!define CDSStorageAzureNetAppFiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureNetAppFilesSPRITE, CDSStorageAzureNetAppFiles_m)
+!define CDSStorageAzureNetAppFiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureNetAppFilesSPRITE, StorageAzureNetAppFiles)
+!define CDSStorageAzureNetAppFiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureNetAppFilesSPRITE, StorageAzureNetAppFiles)
 

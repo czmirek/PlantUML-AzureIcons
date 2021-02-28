@@ -5,9 +5,9 @@ dpoYwqfTA7K4OfeE2IbNjRLQYO7gwjbkwicMedQW_XUK9WUgONZt
 }
 
 AzureEntityColoring(APComputer05)
-!define APComputer05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APComputer05_tbg.png, APComputer05)
-!define APComputer05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APComputer05_tbg.png, APComputer05)
+!define APComputer05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APComputer05_tbg.png, Computer05)
+!define APComputer05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APComputer05_tbg.png, Computer05)
 AzureEntityColoring(APComputer05_m)
-!define APComputer05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputer05SPRITE, APComputer05_m)
-!define APComputer05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputer05SPRITE, APComputer05_m)
+!define APComputer05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputer05SPRITE, Computer05)
+!define APComputer05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputer05SPRITE, Computer05)
 

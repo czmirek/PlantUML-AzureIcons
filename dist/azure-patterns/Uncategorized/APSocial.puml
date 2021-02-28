@@ -6,9 +6,9 @@ Lv5Ol09MuXMeud6CBnHwRNsJ1mtUo8i5JI-oIFQO40urte8qte8K1mjFChJmTBISJoLd90VBwLHoJ0NB
 }
 
 AzureEntityColoring(APSocial)
-!define APSocial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSocial_tbg.png, APSocial)
-!define APSocial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSocial_tbg.png, APSocial)
+!define APSocial(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSocial_tbg.png, Social)
+!define APSocial(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSocial_tbg.png, Social)
 AzureEntityColoring(APSocial_m)
-!define APSocial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSocialSPRITE, APSocial_m)
-!define APSocial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSocialSPRITE, APSocial_m)
+!define APSocial_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSocialSPRITE, Social)
+!define APSocial_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSocialSPRITE, Social)
 

@@ -4,9 +4,9 @@ xT3LeSD030LHcTdglzg7sj246UvyBHv3xtyDncR_gxLKxUlLs2c0SCTg8b4iZTa6aiV6J9c8TRxrcx8n
 }
 
 AzureEntityColoring(APTools)
-!define APTools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTools_tbg.png, APTools)
-!define APTools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTools_tbg.png, APTools)
+!define APTools(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTools_tbg.png, Tools)
+!define APTools(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTools_tbg.png, Tools)
 AzureEntityColoring(APTools_m)
-!define APTools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APToolsSPRITE, APTools_m)
-!define APTools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APToolsSPRITE, APTools_m)
+!define APTools_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APToolsSPRITE, Tools)
+!define APTools_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APToolsSPRITE, Tools)
 

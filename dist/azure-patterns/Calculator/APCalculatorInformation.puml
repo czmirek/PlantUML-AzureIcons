@@ -7,9 +7,9 @@ KrPMG09EV36dJtuIPenPRv_Aq_Efd5S8MZOg6gaG15Gh0Yed0LMSm8fIJ7Nh7G
 }
 
 AzureEntityColoring(APCalculatorInformation)
-!define APCalculatorInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, APCalculatorInformation)
-!define APCalculatorInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, APCalculatorInformation)
+!define APCalculatorInformation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, CalculatorInformation)
+!define APCalculatorInformation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorInformation_tbg.png, CalculatorInformation)
 AzureEntityColoring(APCalculatorInformation_m)
-!define APCalculatorInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, APCalculatorInformation_m)
-!define APCalculatorInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, APCalculatorInformation_m)
+!define APCalculatorInformation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, CalculatorInformation)
+!define APCalculatorInformation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, CalculatorInformation)
 

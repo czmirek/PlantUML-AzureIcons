@@ -4,9 +4,9 @@ K5n25PxH59XJyV-op4-jS6KP3xmCU-7LECqJSudUteBYcuedI3SWFn045Jym19aVL0HnlNtHMqWffTG3
 }
 
 AzureEntityColoring(APDevopsTest)
-!define APDevopsTest(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsTest_tbg.png, APDevopsTest)
-!define APDevopsTest(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsTest_tbg.png, APDevopsTest)
+!define APDevopsTest(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsTest_tbg.png, DevopsTest)
+!define APDevopsTest(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsTest_tbg.png, DevopsTest)
 AzureEntityColoring(APDevopsTest_m)
-!define APDevopsTest_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsTestSPRITE, APDevopsTest_m)
-!define APDevopsTest_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsTestSPRITE, APDevopsTest_m)
+!define APDevopsTest_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsTestSPRITE, DevopsTest)
+!define APDevopsTest_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsTestSPRITE, DevopsTest)
 

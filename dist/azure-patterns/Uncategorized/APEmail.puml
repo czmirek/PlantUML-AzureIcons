@@ -5,9 +5,9 @@ KaefV13g6G
 }
 
 AzureEntityColoring(APEmail)
-!define APEmail(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEmail_tbg.png, APEmail)
-!define APEmail(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEmail_tbg.png, APEmail)
+!define APEmail(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEmail_tbg.png, Email)
+!define APEmail(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEmail_tbg.png, Email)
 AzureEntityColoring(APEmail_m)
-!define APEmail_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEmailSPRITE, APEmail_m)
-!define APEmail_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEmailSPRITE, APEmail_m)
+!define APEmail_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEmailSPRITE, Email)
+!define APEmail_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEmailSPRITE, Email)
 

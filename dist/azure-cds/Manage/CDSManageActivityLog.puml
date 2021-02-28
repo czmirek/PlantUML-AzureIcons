@@ -4,9 +4,9 @@ xS-5aKHH449H-hdad-_MTnVMnle6S2ZmfFbIgPBPGogTO9rjT6jkvtEj7gjCWu2ecGrO9gNM32hPAhdM
 }
 
 AzureEntityColoring(CDSManageActivityLog)
-!define CDSManageActivityLog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageActivityLog_tbg.png, CDSManageActivityLog)
-!define CDSManageActivityLog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageActivityLog_tbg.png, CDSManageActivityLog)
+!define CDSManageActivityLog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageActivityLog_tbg.png, ManageActivityLog)
+!define CDSManageActivityLog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageActivityLog_tbg.png, ManageActivityLog)
 AzureEntityColoring(CDSManageActivityLog_m)
-!define CDSManageActivityLog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageActivityLogSPRITE, CDSManageActivityLog_m)
-!define CDSManageActivityLog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageActivityLogSPRITE, CDSManageActivityLog_m)
+!define CDSManageActivityLog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageActivityLogSPRITE, ManageActivityLog)
+!define CDSManageActivityLog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageActivityLogSPRITE, ManageActivityLog)
 

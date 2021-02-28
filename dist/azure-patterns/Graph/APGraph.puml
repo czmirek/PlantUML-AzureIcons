@@ -13,9 +13,9 @@ XynJoDgK3pevlzchRyZmOunW2NrH2GDmlPVLnCPVLAJQVY9wFMYwceAHwqYH-G34Jf7Jif2wdBXfgbv6
 }
 
 AzureEntityColoring(APGraph)
-!define APGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, APGraph)
-!define APGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, APGraph)
+!define APGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, Grh)
+!define APGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraph_tbg.png, Grh)
 AzureEntityColoring(APGraph_m)
-!define APGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphSPRITE, APGraph_m)
-!define APGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphSPRITE, APGraph_m)
+!define APGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphSPRITE, Grh)
+!define APGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphSPRITE, Grh)
 

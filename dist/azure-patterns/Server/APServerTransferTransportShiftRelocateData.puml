@@ -4,9 +4,9 @@ e4GHb23zc9-l22LyNDal502lrWAMjGI0MkjLb5566SNyC0KWtW80QIq0wzF_kkrK2u2UIB9Ej5FiHFeg
 }
 
 AzureEntityColoring(APServerTransferTransportShiftRelocateData)
-!define APServerTransferTransportShiftRelocateData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerTransferTransportShiftRelocateData_tbg.png, APServerTransferTransportShiftRelocateData)
-!define APServerTransferTransportShiftRelocateData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerTransferTransportShiftRelocateData_tbg.png, APServerTransferTransportShiftRelocateData)
+!define APServerTransferTransportShiftRelocateData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServerTransferTransportShiftRelocateData_tbg.png, ServerTransferTransportShiftRelocateData)
+!define APServerTransferTransportShiftRelocateData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServerTransferTransportShiftRelocateData_tbg.png, ServerTransferTransportShiftRelocateData)
 AzureEntityColoring(APServerTransferTransportShiftRelocateData_m)
-!define APServerTransferTransportShiftRelocateData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerTransferTransportShiftRelocateDataSPRITE, APServerTransferTransportShiftRelocateData_m)
-!define APServerTransferTransportShiftRelocateData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerTransferTransportShiftRelocateDataSPRITE, APServerTransferTransportShiftRelocateData_m)
+!define APServerTransferTransportShiftRelocateData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerTransferTransportShiftRelocateDataSPRITE, ServerTransferTransportShiftRelocateData)
+!define APServerTransferTransportShiftRelocateData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerTransferTransportShiftRelocateDataSPRITE, ServerTransferTransportShiftRelocateData)
 

@@ -9,9 +9,9 @@ PJbDhSA4ZuivU4Xp08spW70F440tYz8uPnLKkE3W1ndS_uuGvTYkIvu8jn_wPv2f7B-d_WC
 }
 
 AzureEntityColoring(CDSGeneralReservations)
-!define CDSGeneralReservations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralReservations_tbg.png, CDSGeneralReservations)
-!define CDSGeneralReservations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralReservations_tbg.png, CDSGeneralReservations)
+!define CDSGeneralReservations(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralReservations_tbg.png, GeneralReservations)
+!define CDSGeneralReservations(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralReservations_tbg.png, GeneralReservations)
 AzureEntityColoring(CDSGeneralReservations_m)
-!define CDSGeneralReservations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralReservationsSPRITE, CDSGeneralReservations_m)
-!define CDSGeneralReservations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralReservationsSPRITE, CDSGeneralReservations_m)
+!define CDSGeneralReservations_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralReservationsSPRITE, GeneralReservations)
+!define CDSGeneralReservations_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralReservationsSPRITE, GeneralReservations)
 

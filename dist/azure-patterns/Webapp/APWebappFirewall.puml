@@ -7,9 +7,9 @@ ZyngNyloi3oRR54y5w7WyXnveVs-ETDheStq-raUbl_U6vT2kpT-tjxzbsT_FiiiC3xTyqpt8tmAl8_b
 }
 
 AzureEntityColoring(APWebappFirewall)
-!define APWebappFirewall(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, APWebappFirewall)
-!define APWebappFirewall(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, APWebappFirewall)
+!define APWebappFirewall(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, WebpFirewall)
+!define APWebappFirewall(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebappFirewall_tbg.png, WebpFirewall)
 AzureEntityColoring(APWebappFirewall_m)
-!define APWebappFirewall_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, APWebappFirewall_m)
-!define APWebappFirewall_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, APWebappFirewall_m)
+!define APWebappFirewall_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, WebpFirewall)
+!define APWebappFirewall_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, WebpFirewall)
 

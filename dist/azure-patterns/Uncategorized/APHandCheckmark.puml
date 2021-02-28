@@ -6,9 +6,9 @@ e2nuTak8AFhaV6j8MG0qTYpyduS2qkypXBDxHH0ltI8DyUvFk61JxVvmv_UasD3TFM5ZzScRUmC
 }
 
 AzureEntityColoring(APHandCheckmark)
-!define APHandCheckmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHandCheckmark_tbg.png, APHandCheckmark)
-!define APHandCheckmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHandCheckmark_tbg.png, APHandCheckmark)
+!define APHandCheckmark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHandCheckmark_tbg.png, HandCheckmark)
+!define APHandCheckmark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHandCheckmark_tbg.png, HandCheckmark)
 AzureEntityColoring(APHandCheckmark_m)
-!define APHandCheckmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHandCheckmarkSPRITE, APHandCheckmark_m)
-!define APHandCheckmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHandCheckmarkSPRITE, APHandCheckmark_m)
+!define APHandCheckmark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHandCheckmarkSPRITE, HandCheckmark)
+!define APHandCheckmark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHandCheckmarkSPRITE, HandCheckmark)
 

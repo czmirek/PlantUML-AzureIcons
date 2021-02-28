@@ -7,9 +7,9 @@ ZYy9uLI5w3qHFcKIQUfGtgOEvUrj-FA5-mK
 }
 
 AzureEntityColoring(CDSIdentityAzureADIdentityProtection)
-!define CDSIdentityAzureADIdentityProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADIdentityProtection_tbg.png, CDSIdentityAzureADIdentityProtection)
-!define CDSIdentityAzureADIdentityProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADIdentityProtection_tbg.png, CDSIdentityAzureADIdentityProtection)
+!define CDSIdentityAzureADIdentityProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADIdentityProtection_tbg.png, IdentityAzureADIdentityProtection)
+!define CDSIdentityAzureADIdentityProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAzureADIdentityProtection_tbg.png, IdentityAzureADIdentityProtection)
 AzureEntityColoring(CDSIdentityAzureADIdentityProtection_m)
-!define CDSIdentityAzureADIdentityProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureADIdentityProtectionSPRITE, CDSIdentityAzureADIdentityProtection_m)
-!define CDSIdentityAzureADIdentityProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureADIdentityProtectionSPRITE, CDSIdentityAzureADIdentityProtection_m)
+!define CDSIdentityAzureADIdentityProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAzureADIdentityProtectionSPRITE, IdentityAzureADIdentityProtection)
+!define CDSIdentityAzureADIdentityProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAzureADIdentityProtectionSPRITE, IdentityAzureADIdentityProtection)
 

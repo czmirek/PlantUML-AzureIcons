@@ -5,9 +5,9 @@ i-zaRu__EvH5APesgo3DU4Llea1lea1vHMqGWc4Lmvcqfs5IyRGvHOLKnW4cDr1CRg3OcNyZeH2jKj6l
 }
 
 AzureEntityColoring(APThreeModules)
-!define APThreeModules(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeModules_tbg.png, APThreeModules)
-!define APThreeModules(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeModules_tbg.png, APThreeModules)
+!define APThreeModules(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeModules_tbg.png, ThreeModules)
+!define APThreeModules(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeModules_tbg.png, ThreeModules)
 AzureEntityColoring(APThreeModules_m)
-!define APThreeModules_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeModulesSPRITE, APThreeModules_m)
-!define APThreeModules_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeModulesSPRITE, APThreeModules_m)
+!define APThreeModules_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeModulesSPRITE, ThreeModules)
+!define APThreeModules_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeModulesSPRITE, ThreeModules)
 

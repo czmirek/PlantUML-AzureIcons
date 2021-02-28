@@ -7,9 +7,9 @@ yuKKdoybnI5VbXIqKos9HlIszNPgsJz-ztpnoP1uaYjqwDp8VBaav0ieVsk-v7V9b_yKznm0nPGEd-QK
 }
 
 AzureEntityColoring(APNetworking)
-!define APNetworking(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetworking_tbg.png, APNetworking)
-!define APNetworking(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetworking_tbg.png, APNetworking)
+!define APNetworking(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APNetworking_tbg.png, Networking)
+!define APNetworking(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APNetworking_tbg.png, Networking)
 AzureEntityColoring(APNetworking_m)
-!define APNetworking_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, APNetworking_m)
-!define APNetworking_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, APNetworking_m)
+!define APNetworking_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, Networking)
+!define APNetworking_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, Networking)
 

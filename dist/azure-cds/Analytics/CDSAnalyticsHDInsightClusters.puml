@@ -8,9 +8,9 @@ a-xfrrDAwIxDFRpf5jm-uVHck4dER3fUZGi7HPcq8vSq03swJ1HSkjgQFowlsV39dOOsvMZLOOdfBkb2
 }
 
 AzureEntityColoring(CDSAnalyticsHDInsightClusters)
-!define CDSAnalyticsHDInsightClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsHDInsightClusters_tbg.png, CDSAnalyticsHDInsightClusters)
-!define CDSAnalyticsHDInsightClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsHDInsightClusters_tbg.png, CDSAnalyticsHDInsightClusters)
+!define CDSAnalyticsHDInsightClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsHDInsightClusters_tbg.png, AnalyticsHDInsightClusters)
+!define CDSAnalyticsHDInsightClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsHDInsightClusters_tbg.png, AnalyticsHDInsightClusters)
 AzureEntityColoring(CDSAnalyticsHDInsightClusters_m)
-!define CDSAnalyticsHDInsightClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsHDInsightClustersSPRITE, CDSAnalyticsHDInsightClusters_m)
-!define CDSAnalyticsHDInsightClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsHDInsightClustersSPRITE, CDSAnalyticsHDInsightClusters_m)
+!define CDSAnalyticsHDInsightClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsHDInsightClustersSPRITE, AnalyticsHDInsightClusters)
+!define CDSAnalyticsHDInsightClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsHDInsightClustersSPRITE, AnalyticsHDInsightClusters)
 

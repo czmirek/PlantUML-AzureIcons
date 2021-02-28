@@ -7,9 +7,9 @@ Khos5CyI5ye2U9Q03v71kumJVKWYEPEtXEaHz4qB6uBnaRdeT5zhSRNXQrcIY2C-u0Y-6d7ajMtY_cQp
 }
 
 AzureEntityColoring(CDSStatusUnknown)
-!define CDSStatusUnknown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusUnknown_tbg.png, CDSStatusUnknown)
-!define CDSStatusUnknown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusUnknown_tbg.png, CDSStatusUnknown)
+!define CDSStatusUnknown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusUnknown_tbg.png, StatusUnknown)
+!define CDSStatusUnknown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusUnknown_tbg.png, StatusUnknown)
 AzureEntityColoring(CDSStatusUnknown_m)
-!define CDSStatusUnknown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusUnknownSPRITE, CDSStatusUnknown_m)
-!define CDSStatusUnknown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusUnknownSPRITE, CDSStatusUnknown_m)
+!define CDSStatusUnknown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusUnknownSPRITE, StatusUnknown)
+!define CDSStatusUnknown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusUnknownSPRITE, StatusUnknown)
 

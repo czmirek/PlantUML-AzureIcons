@@ -6,9 +6,9 @@ zgf0Xu3NLA5W8C_f9LVCZe54Q1cZAaGKoD-io6gmBrcl_2ubeXtAPRLh2qzHQ9UoCBpd589Xbl_BlE8s
 }
 
 AzureEntityColoring(CDSComputeBatchAccounts)
-!define CDSComputeBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, CDSComputeBatchAccounts)
-!define CDSComputeBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, CDSComputeBatchAccounts)
+!define CDSComputeBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, ComputeBatchAccounts)
+!define CDSComputeBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, ComputeBatchAccounts)
 AzureEntityColoring(CDSComputeBatchAccounts_m)
-!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, CDSComputeBatchAccounts_m)
-!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, CDSComputeBatchAccounts_m)
+!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, ComputeBatchAccounts)
+!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, ComputeBatchAccounts)
 

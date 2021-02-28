@@ -6,9 +6,9 @@ AjHI0MsfWBHK04Uv4b79BG
 }
 
 AzureEntityColoring(APFreeAccount)
-!define APFreeAccount(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFreeAccount_tbg.png, APFreeAccount)
-!define APFreeAccount(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFreeAccount_tbg.png, APFreeAccount)
+!define APFreeAccount(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFreeAccount_tbg.png, FreeAccount)
+!define APFreeAccount(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFreeAccount_tbg.png, FreeAccount)
 AzureEntityColoring(APFreeAccount_m)
-!define APFreeAccount_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFreeAccountSPRITE, APFreeAccount_m)
-!define APFreeAccount_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFreeAccountSPRITE, APFreeAccount_m)
+!define APFreeAccount_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFreeAccountSPRITE, FreeAccount)
+!define APFreeAccount_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFreeAccountSPRITE, FreeAccount)
 

@@ -1,9 +1,9 @@
 sprite $APCalculatorDocumentSPRITE [70x70/16z] xTEr0S0m4CNG7uRz1quNDZOcQO1dFDrRziZoLWO5LOI24j_Ygw0egA5E1GMbt-sX_9VLIwCmHymH2dE4yf_yGt7_tQi259IewbSE
 
 AzureEntityColoring(APCalculatorDocument)
-!define APCalculatorDocument(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, APCalculatorDocument)
-!define APCalculatorDocument(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, APCalculatorDocument)
+!define APCalculatorDocument(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, CalculatorDocument)
+!define APCalculatorDocument(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, CalculatorDocument)
 AzureEntityColoring(APCalculatorDocument_m)
-!define APCalculatorDocument_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, APCalculatorDocument_m)
-!define APCalculatorDocument_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, APCalculatorDocument_m)
+!define APCalculatorDocument_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, CalculatorDocument)
+!define APCalculatorDocument_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDocumentSPRITE, CalculatorDocument)
 

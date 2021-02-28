@@ -9,9 +9,9 @@ xmd1srXdU1ys-02ey0a8_cA-0G
 }
 
 AzureEntityColoring(APPlanet)
-!define APPlanet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPlanet_tbg.png, APPlanet)
-!define APPlanet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPlanet_tbg.png, APPlanet)
+!define APPlanet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPlanet_tbg.png, Planet)
+!define APPlanet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPlanet_tbg.png, Planet)
 AzureEntityColoring(APPlanet_m)
-!define APPlanet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPlanetSPRITE, APPlanet_m)
-!define APPlanet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPlanetSPRITE, APPlanet_m)
+!define APPlanet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPlanetSPRITE, Planet)
+!define APPlanet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPlanetSPRITE, Planet)
 

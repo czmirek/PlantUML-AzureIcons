@@ -6,9 +6,9 @@ gMQN
 }
 
 AzureEntityColoring(APLightning)
-!define APLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightning_tbg.png, APLightning)
-!define APLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightning_tbg.png, APLightning)
+!define APLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLightning_tbg.png, Lightning)
+!define APLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLightning_tbg.png, Lightning)
 AzureEntityColoring(APLightning_m)
-!define APLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightningSPRITE, APLightning_m)
-!define APLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightningSPRITE, APLightning_m)
+!define APLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightningSPRITE, Lightning)
+!define APLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightningSPRITE, Lightning)
 

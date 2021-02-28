@@ -8,9 +8,9 @@ noHBpK05A0EMjnvZB5_AuucA85L1gm22ZV86tz2V6fW12a5kLT4exoGbfvG8h4tcxRn2wkNjfiIof_vK
 }
 
 AzureEntityColoring(CDSIntuneTenantStatus)
-!define CDSIntuneTenantStatus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, CDSIntuneTenantStatus)
-!define CDSIntuneTenantStatus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, CDSIntuneTenantStatus)
+!define CDSIntuneTenantStatus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, IntuneTenantStatus)
+!define CDSIntuneTenantStatus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneTenantStatus_tbg.png, IntuneTenantStatus)
 AzureEntityColoring(CDSIntuneTenantStatus_m)
-!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, CDSIntuneTenantStatus_m)
-!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, CDSIntuneTenantStatus_m)
+!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, IntuneTenantStatus)
+!define CDSIntuneTenantStatus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneTenantStatusSPRITE, IntuneTenantStatus)
 

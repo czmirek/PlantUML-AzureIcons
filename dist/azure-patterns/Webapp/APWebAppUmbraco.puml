@@ -9,9 +9,9 @@ CZNVbnJndKmcHif9HV5DJng-XNfUJY2-ZsZjuXlu7m
 }
 
 AzureEntityColoring(APWebAppUmbraco)
-!define APWebAppUmbraco(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, APWebAppUmbraco)
-!define APWebAppUmbraco(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, APWebAppUmbraco)
+!define APWebAppUmbraco(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, WebpUmbraco)
+!define APWebAppUmbraco(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWebAppUmbraco_tbg.png, WebpUmbraco)
 AzureEntityColoring(APWebAppUmbraco_m)
-!define APWebAppUmbraco_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, APWebAppUmbraco_m)
-!define APWebAppUmbraco_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, APWebAppUmbraco_m)
+!define APWebAppUmbraco_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, WebpUmbraco)
+!define APWebAppUmbraco_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebAppUmbracoSPRITE, WebpUmbraco)
 

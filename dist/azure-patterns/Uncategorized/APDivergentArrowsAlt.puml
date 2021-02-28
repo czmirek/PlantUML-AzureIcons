@@ -7,9 +7,9 @@ i13c0GkHMi12MF60XT3iP0aWbajjxW3U0G
 }
 
 AzureEntityColoring(APDivergentArrowsAlt)
-!define APDivergentArrowsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDivergentArrowsAlt_tbg.png, APDivergentArrowsAlt)
-!define APDivergentArrowsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDivergentArrowsAlt_tbg.png, APDivergentArrowsAlt)
+!define APDivergentArrowsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDivergentArrowsAlt_tbg.png, DivergentArrowsAlt)
+!define APDivergentArrowsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDivergentArrowsAlt_tbg.png, DivergentArrowsAlt)
 AzureEntityColoring(APDivergentArrowsAlt_m)
-!define APDivergentArrowsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDivergentArrowsAltSPRITE, APDivergentArrowsAlt_m)
-!define APDivergentArrowsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDivergentArrowsAltSPRITE, APDivergentArrowsAlt_m)
+!define APDivergentArrowsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDivergentArrowsAltSPRITE, DivergentArrowsAlt)
+!define APDivergentArrowsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDivergentArrowsAltSPRITE, DivergentArrowsAlt)
 

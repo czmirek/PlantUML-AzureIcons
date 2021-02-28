@@ -9,9 +9,9 @@ QdqfoNlsZpynMwqUt-OMJVnKYYhq-lRPgQ3ELD-4QIdymgryEjZLyeLWq3tQyCQeNojEcUEGSQWrIFdb
 }
 
 AzureEntityColoring(APArrowInBullseye)
-!define APArrowInBullseye(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowInBullseye_tbg.png, APArrowInBullseye)
-!define APArrowInBullseye(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowInBullseye_tbg.png, APArrowInBullseye)
+!define APArrowInBullseye(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APArrowInBullseye_tbg.png, ArrowInBullseye)
+!define APArrowInBullseye(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APArrowInBullseye_tbg.png, ArrowInBullseye)
 AzureEntityColoring(APArrowInBullseye_m)
-!define APArrowInBullseye_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowInBullseyeSPRITE, APArrowInBullseye_m)
-!define APArrowInBullseye_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowInBullseyeSPRITE, APArrowInBullseye_m)
+!define APArrowInBullseye_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowInBullseyeSPRITE, ArrowInBullseye)
+!define APArrowInBullseye_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowInBullseyeSPRITE, ArrowInBullseye)
 

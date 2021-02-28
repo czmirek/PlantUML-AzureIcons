@@ -8,9 +8,9 @@ YfdADwG6ICJKMXaZQyR7290rKtiX4ZFt4MVk8yvqv3uZk56vZJZZo7r6S3lDWZ_OFm
 }
 
 AzureEntityColoring(CDSAzurestackOffers)
-!define CDSAzurestackOffers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, CDSAzurestackOffers)
-!define CDSAzurestackOffers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, CDSAzurestackOffers)
+!define CDSAzurestackOffers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, AzurestackOffers)
+!define CDSAzurestackOffers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, AzurestackOffers)
 AzureEntityColoring(CDSAzurestackOffers_m)
-!define CDSAzurestackOffers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, CDSAzurestackOffers_m)
-!define CDSAzurestackOffers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, CDSAzurestackOffers_m)
+!define CDSAzurestackOffers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, AzurestackOffers)
+!define CDSAzurestackOffers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, AzurestackOffers)
 

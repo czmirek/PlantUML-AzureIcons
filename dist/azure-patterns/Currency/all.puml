@@ -6,11 +6,11 @@ kMKaLv7Rg2nLix4SrRezLEU9Um
 }
 
 AzureEntityColoring(APCurrencyGraph)
-!define APCurrencyGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, APCurrencyGraph)
-!define APCurrencyGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, APCurrencyGraph)
+!define APCurrencyGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, CurrencyGrh)
+!define APCurrencyGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyGraph_tbg.png, CurrencyGrh)
 AzureEntityColoring(APCurrencyGraph_m)
-!define APCurrencyGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, APCurrencyGraph_m)
-!define APCurrencyGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, APCurrencyGraph_m)
+!define APCurrencyGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, CurrencyGrh)
+!define APCurrencyGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyGraphSPRITE, CurrencyGrh)
 
 sprite $APCurrencyGraphAltSPRITE [70x70/16z] {
 xTTNOiGW34LHsMf8-z_lb2zucIQSdd0NS2nte8IK3lKhbQMmGWSLIsZx46KfIrcAw1WVL5gE-QIobAKiPIdDLQwfjPUAvrXNNAMd7aUKfeAfpoicjrdCAQ5o
@@ -20,11 +20,11 @@ wyvn0w6TMPZdYJC
 }
 
 AzureEntityColoring(APCurrencyGraphAlt)
-!define APCurrencyGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyGraphAlt_tbg.png, APCurrencyGraphAlt)
-!define APCurrencyGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyGraphAlt_tbg.png, APCurrencyGraphAlt)
+!define APCurrencyGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyGraphAlt_tbg.png, CurrencyGrhAlt)
+!define APCurrencyGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyGraphAlt_tbg.png, CurrencyGrhAlt)
 AzureEntityColoring(APCurrencyGraphAlt_m)
-!define APCurrencyGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyGraphAltSPRITE, APCurrencyGraphAlt_m)
-!define APCurrencyGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyGraphAltSPRITE, APCurrencyGraphAlt_m)
+!define APCurrencyGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyGraphAltSPRITE, CurrencyGrhAlt)
+!define APCurrencyGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyGraphAltSPRITE, CurrencyGrhAlt)
 
 sprite $APCurrencyVariationGraphSPRITE [70x70/16z] {
 xTH5Wkmm34LHWtZ_-_tG5Br2nPCctr7XIM9gXNf0t0fzVMKhWw55XGFgNrFPobOOcejAGFhJbQriPIjRSMMcVx7OKqKZvyTjCANKLnHZkaZFAqhNYPzJNEXM
@@ -34,11 +34,11 @@ XCQS_uG5uYy
 }
 
 AzureEntityColoring(APCurrencyVariationGraph)
-!define APCurrencyVariationGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraph_tbg.png, APCurrencyVariationGraph)
-!define APCurrencyVariationGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraph_tbg.png, APCurrencyVariationGraph)
+!define APCurrencyVariationGraph(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraph_tbg.png, CurrencyVariationGrh)
+!define APCurrencyVariationGraph(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraph_tbg.png, CurrencyVariationGrh)
 AzureEntityColoring(APCurrencyVariationGraph_m)
-!define APCurrencyVariationGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphSPRITE, APCurrencyVariationGraph_m)
-!define APCurrencyVariationGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphSPRITE, APCurrencyVariationGraph_m)
+!define APCurrencyVariationGraph_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphSPRITE, CurrencyVariationGrh)
+!define APCurrencyVariationGraph_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphSPRITE, CurrencyVariationGrh)
 
 sprite $APCurrencyVariationGraphAltSPRITE [70x70/16z] {
 xTQ5ZYiW48NXGKRV_ttlNLyEjO786d-i-eK2avGIbGvLIlJzbQEK2cqgjKFbUof7EKg5ogRIeVRRbQCSvIX7OJ6B23FbXqhhrnEFprot5FR0NDOLZSiiho22
@@ -48,10 +48,10 @@ sWijzXy
 }
 
 AzureEntityColoring(APCurrencyVariationGraphAlt)
-!define APCurrencyVariationGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraphAlt_tbg.png, APCurrencyVariationGraphAlt)
-!define APCurrencyVariationGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraphAlt_tbg.png, APCurrencyVariationGraphAlt)
+!define APCurrencyVariationGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraphAlt_tbg.png, CurrencyVariationGrhAlt)
+!define APCurrencyVariationGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCurrencyVariationGraphAlt_tbg.png, CurrencyVariationGrhAlt)
 AzureEntityColoring(APCurrencyVariationGraphAlt_m)
-!define APCurrencyVariationGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphAltSPRITE, APCurrencyVariationGraphAlt_m)
-!define APCurrencyVariationGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphAltSPRITE, APCurrencyVariationGraphAlt_m)
+!define APCurrencyVariationGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphAltSPRITE, CurrencyVariationGrhAlt)
+!define APCurrencyVariationGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCurrencyVariationGraphAltSPRITE, CurrencyVariationGrhAlt)
 
 

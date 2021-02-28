@@ -1,9 +1,0 @@
-sprite $APDocuments24SPRITE [70x70/16z] xTKr0S105C3GO_Z-1NSgCrEUWAnHBmN48uGi1yXdLgYu8zZhArJyg3ML92FIMHKgL69gsLBf-q0bIyNVNQ52vLk7fK957q7j1w
-
-AzureEntityColoring(APDocuments24)
-!define APDocuments24(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments24_tbg.png, APDocuments24)
-!define APDocuments24(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments24_tbg.png, APDocuments24)
-AzureEntityColoring(APDocuments24_m)
-!define APDocuments24_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments24SPRITE, APDocuments24_m)
-!define APDocuments24_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments24SPRITE, APDocuments24_m)
-

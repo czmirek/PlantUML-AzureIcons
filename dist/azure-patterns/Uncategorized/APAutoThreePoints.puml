@@ -7,9 +7,9 @@ HR6n_goFAcNTEDItStjKqRKeBGDObpwOsMqd6wfgS_kRhmxWUdKsvkfRIes3_DJQuAXns-ooZWEZfrKs
 }
 
 AzureEntityColoring(APAutoThreePoints)
-!define APAutoThreePoints(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoThreePoints_tbg.png, APAutoThreePoints)
-!define APAutoThreePoints(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoThreePoints_tbg.png, APAutoThreePoints)
+!define APAutoThreePoints(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutoThreePoints_tbg.png, AutoThreePoints)
+!define APAutoThreePoints(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutoThreePoints_tbg.png, AutoThreePoints)
 AzureEntityColoring(APAutoThreePoints_m)
-!define APAutoThreePoints_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoThreePointsSPRITE, APAutoThreePoints_m)
-!define APAutoThreePoints_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoThreePointsSPRITE, APAutoThreePoints_m)
+!define APAutoThreePoints_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoThreePointsSPRITE, AutoThreePoints)
+!define APAutoThreePoints_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoThreePointsSPRITE, AutoThreePoints)
 

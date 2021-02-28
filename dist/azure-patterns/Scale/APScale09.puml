@@ -7,9 +7,9 @@ Wj4M4OaCaRuHwOSchLyyNGPsGtfcTc5UHFAWzNoX01XB5yaC4Mv4U1YYl4H64y5NwnBj6th49Z_gzXi
 }
 
 AzureEntityColoring(APScale09)
-!define APScale09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScale09_tbg.png, APScale09)
-!define APScale09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScale09_tbg.png, APScale09)
+!define APScale09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APScale09_tbg.png, Scale09)
+!define APScale09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APScale09_tbg.png, Scale09)
 AzureEntityColoring(APScale09_m)
-!define APScale09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale09SPRITE, APScale09_m)
-!define APScale09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale09SPRITE, APScale09_m)
+!define APScale09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale09SPRITE, Scale09)
+!define APScale09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale09SPRITE, Scale09)
 

@@ -7,9 +7,9 @@ myncGx6Xo8GShpGndXMsCUtApkv8a5JH5gaFCv2g8YsAjp0PrIqYelRAxHi54k5qC-kzE-kAgRowhz6T
 }
 
 AzureEntityColoring(CDSSecurityAzureInformationProtection)
-!define CDSSecurityAzureInformationProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureInformationProtection_tbg.png, CDSSecurityAzureInformationProtection)
-!define CDSSecurityAzureInformationProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureInformationProtection_tbg.png, CDSSecurityAzureInformationProtection)
+!define CDSSecurityAzureInformationProtection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureInformationProtection_tbg.png, SecurityAzureInformationProtection)
+!define CDSSecurityAzureInformationProtection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureInformationProtection_tbg.png, SecurityAzureInformationProtection)
 AzureEntityColoring(CDSSecurityAzureInformationProtection_m)
-!define CDSSecurityAzureInformationProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityAzureInformationProtectionSPRITE, CDSSecurityAzureInformationProtection_m)
-!define CDSSecurityAzureInformationProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityAzureInformationProtectionSPRITE, CDSSecurityAzureInformationProtection_m)
+!define CDSSecurityAzureInformationProtection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityAzureInformationProtectionSPRITE, SecurityAzureInformationProtection)
+!define CDSSecurityAzureInformationProtection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityAzureInformationProtectionSPRITE, SecurityAzureInformationProtection)
 

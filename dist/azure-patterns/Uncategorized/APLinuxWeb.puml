@@ -12,9 +12,9 @@ DZ15ILkqgUZxaIgg70V_0G
 }
 
 AzureEntityColoring(APLinuxWeb)
-!define APLinuxWeb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLinuxWeb_tbg.png, APLinuxWeb)
-!define APLinuxWeb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLinuxWeb_tbg.png, APLinuxWeb)
+!define APLinuxWeb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLinuxWeb_tbg.png, LinuxWeb)
+!define APLinuxWeb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLinuxWeb_tbg.png, LinuxWeb)
 AzureEntityColoring(APLinuxWeb_m)
-!define APLinuxWeb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinuxWebSPRITE, APLinuxWeb_m)
-!define APLinuxWeb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinuxWebSPRITE, APLinuxWeb_m)
+!define APLinuxWeb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinuxWebSPRITE, LinuxWeb)
+!define APLinuxWeb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinuxWebSPRITE, LinuxWeb)
 

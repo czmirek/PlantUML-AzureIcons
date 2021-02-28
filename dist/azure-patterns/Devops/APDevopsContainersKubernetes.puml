@@ -5,9 +5,9 @@ ZL3u0zDyH-4Z6FSMJjpPYS9DhA972Y3-4E1KWHksb5xUYbfEuMaHodWUIfEfg55PTioVNlDmtCPhtVut
 }
 
 AzureEntityColoring(APDevopsContainersKubernetes)
-!define APDevopsContainersKubernetes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsContainersKubernetes_tbg.png, APDevopsContainersKubernetes)
-!define APDevopsContainersKubernetes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsContainersKubernetes_tbg.png, APDevopsContainersKubernetes)
+!define APDevopsContainersKubernetes(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsContainersKubernetes_tbg.png, DevopsContainersKubernetes)
+!define APDevopsContainersKubernetes(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsContainersKubernetes_tbg.png, DevopsContainersKubernetes)
 AzureEntityColoring(APDevopsContainersKubernetes_m)
-!define APDevopsContainersKubernetes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsContainersKubernetesSPRITE, APDevopsContainersKubernetes_m)
-!define APDevopsContainersKubernetes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsContainersKubernetesSPRITE, APDevopsContainersKubernetes_m)
+!define APDevopsContainersKubernetes_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsContainersKubernetesSPRITE, DevopsContainersKubernetes)
+!define APDevopsContainersKubernetes_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsContainersKubernetesSPRITE, DevopsContainersKubernetes)
 

@@ -9,9 +9,9 @@ elJUZP74eemaZL7DeengdH4swWZxRqRxElEmvio3MH16SnR4Z0oZCIC38TcYCpkiy-R6JBKW5grPSty6
 }
 
 AzureEntityColoring(APBlueLinesAndDots)
-!define APBlueLinesAndDots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueLinesAndDots_tbg.png, APBlueLinesAndDots)
-!define APBlueLinesAndDots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueLinesAndDots_tbg.png, APBlueLinesAndDots)
+!define APBlueLinesAndDots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueLinesAndDots_tbg.png, BlueLinesAndDots)
+!define APBlueLinesAndDots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueLinesAndDots_tbg.png, BlueLinesAndDots)
 AzureEntityColoring(APBlueLinesAndDots_m)
-!define APBlueLinesAndDots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueLinesAndDotsSPRITE, APBlueLinesAndDots_m)
-!define APBlueLinesAndDots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueLinesAndDotsSPRITE, APBlueLinesAndDots_m)
+!define APBlueLinesAndDots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueLinesAndDotsSPRITE, BlueLinesAndDots)
+!define APBlueLinesAndDots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueLinesAndDotsSPRITE, BlueLinesAndDots)
 

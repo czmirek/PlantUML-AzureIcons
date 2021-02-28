@@ -7,9 +7,9 @@ V_MfX8ppFjV2VUzvrCiKZLEjYoUfbKlJpAdk2W
 }
 
 AzureEntityColoring(APEightPointConnection)
-!define APEightPointConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEightPointConnection_tbg.png, APEightPointConnection)
-!define APEightPointConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEightPointConnection_tbg.png, APEightPointConnection)
+!define APEightPointConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APEightPointConnection_tbg.png, EightPointConnection)
+!define APEightPointConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APEightPointConnection_tbg.png, EightPointConnection)
 AzureEntityColoring(APEightPointConnection_m)
-!define APEightPointConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEightPointConnectionSPRITE, APEightPointConnection_m)
-!define APEightPointConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEightPointConnectionSPRITE, APEightPointConnection_m)
+!define APEightPointConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEightPointConnectionSPRITE, EightPointConnection)
+!define APEightPointConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEightPointConnectionSPRITE, EightPointConnection)
 

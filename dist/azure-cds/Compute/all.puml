@@ -11,11 +11,11 @@ A_qbSsZxHDU7UGwdzYdEpfylLop4Lah7-3AqF-Yi7iSfJAZz6_u3
 }
 
 AzureEntityColoring(CDSComputeAppServices)
-!define CDSComputeAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAppServices_tbg.png, CDSComputeAppServices)
-!define CDSComputeAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAppServices_tbg.png, CDSComputeAppServices)
+!define CDSComputeAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAppServices_tbg.png, ComputeAppServices)
+!define CDSComputeAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAppServices_tbg.png, ComputeAppServices)
 AzureEntityColoring(CDSComputeAppServices_m)
-!define CDSComputeAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAppServicesSPRITE, CDSComputeAppServices_m)
-!define CDSComputeAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAppServicesSPRITE, CDSComputeAppServices_m)
+!define CDSComputeAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAppServicesSPRITE, ComputeAppServices)
+!define CDSComputeAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAppServicesSPRITE, ComputeAppServices)
 
 sprite $CDSComputeAvailabilitySetsSPRITE [70x70/16z] {
 xTZNkkmW28PX-069tFy5xopD5ARfCyxkwprB-qxILFgZH8GHUNH4XEYCphkTY2mwj6iQxoT_ibAOYD7H3XtJUJVJqpFGAm3J2e3-C16W1OYOgtnNC31LsMA4
@@ -26,11 +26,11 @@ Krx4mEpAITwDjA22-5ZbZ_83
 }
 
 AzureEntityColoring(CDSComputeAvailabilitySets)
-!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, CDSComputeAvailabilitySets)
-!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, CDSComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, ComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, ComputeAvailabilitySets)
 AzureEntityColoring(CDSComputeAvailabilitySets_m)
-!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, CDSComputeAvailabilitySets_m)
-!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, CDSComputeAvailabilitySets_m)
+!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, ComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, ComputeAvailabilitySets)
 
 sprite $CDSComputeBatchAccountsSPRITE [70x70/16z] {
 xT47OWGX241HG9gxzxzlOfOqrocCavv_WAS0d1MoP68OnfAhm2X9nXdbNyb6CCXhBbTbX3xBAwhbJl5SfYtflgFUKjxEGhc50uLXEmubcbA4G-4f1IWOcb80
@@ -40,11 +40,11 @@ zgf0Xu3NLA5W8C_f9LVCZe54Q1cZAaGKoD-io6gmBrcl_2ubeXtAPRLh2qzHQ9UoCBpd589Xbl_BlE8s
 }
 
 AzureEntityColoring(CDSComputeBatchAccounts)
-!define CDSComputeBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, CDSComputeBatchAccounts)
-!define CDSComputeBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, CDSComputeBatchAccounts)
+!define CDSComputeBatchAccounts(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, ComputeBatchAccounts)
+!define CDSComputeBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeBatchAccounts_tbg.png, ComputeBatchAccounts)
 AzureEntityColoring(CDSComputeBatchAccounts_m)
-!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, CDSComputeBatchAccounts_m)
-!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, CDSComputeBatchAccounts_m)
+!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, ComputeBatchAccounts)
+!define CDSComputeBatchAccounts_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeBatchAccountsSPRITE, ComputeBatchAccounts)
 
 sprite $CDSComputeCloudServices_ClassicSPRITE [70x70/16z] {
 xTI5cY9130JWIaSg-_ulVDo4Zsr1UZYN_vDLYjY0Fzn_ekv1HhYrToCisFCtWiHPlYL7UPVX3ES3ZcqIV2XaDuJF1FO49-4UPsESipPEszxR3YxOsHWDUsgr
@@ -56,11 +56,11 @@ UJAOjQDjljwBrxr8xjF7jnkvYnX-6BJS5OZX25lKeOG2p5qslYCpRuDbRci0FqO4zEEK123pBztYN8hX
 }
 
 AzureEntityColoring(CDSComputeCloudServices_Classic)
-!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, CDSComputeCloudServices_Classic)
-!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, CDSComputeCloudServices_Classic)
+!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, ComputeCloudServices_Classic)
+!define CDSComputeCloudServices_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeCloudServices_Classic_tbg.png, ComputeCloudServices_Classic)
 AzureEntityColoring(CDSComputeCloudServices_Classic_m)
-!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, CDSComputeCloudServices_Classic_m)
-!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, CDSComputeCloudServices_Classic_m)
+!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, ComputeCloudServices_Classic)
+!define CDSComputeCloudServices_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeCloudServices_ClassicSPRITE, ComputeCloudServices_Classic)
 
 sprite $CDSComputeContainerInstancesSPRITE [70x70/16z] {
 xTM7SiCW381XBIGLl__pDZlu6C8XkUslk-N-I7J1118p4o4i8z52raAibKJmATGUN1kanl21f2Eo55dFY4KO3c6B8HoX5jE5VHPtihcrKMeq-yMn8rBGA8dr
@@ -71,11 +71,11 @@ dBnKvcFCX_Bv61S
 }
 
 AzureEntityColoring(CDSComputeContainerInstances)
-!define CDSComputeContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, CDSComputeContainerInstances)
-!define CDSComputeContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, CDSComputeContainerInstances)
+!define CDSComputeContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, ComputeContainerInstances)
+!define CDSComputeContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, ComputeContainerInstances)
 AzureEntityColoring(CDSComputeContainerInstances_m)
-!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, CDSComputeContainerInstances_m)
-!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, CDSComputeContainerInstances_m)
+!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, ComputeContainerInstances)
+!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, ComputeContainerInstances)
 
 sprite $CDSComputeContainerServices_DeprecatedSPRITE [70x70/16z] {
 xPPNceCm38JZgdx_wovhK00JnrlUyZ6FVoP3rQ37BtGh_ZUW08agb4jG1XAfQNe25KMjIH4HIjX-I0LPdtmIXAkHcPeRYR249pTXTluk28qHX070tOimVtCc
@@ -87,11 +87,11 @@ _V7w0W
 }
 
 AzureEntityColoring(CDSComputeContainerServices_Deprecated)
-!define CDSComputeContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerServices_Deprecated_tbg.png, CDSComputeContainerServices_Deprecated)
-!define CDSComputeContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerServices_Deprecated_tbg.png, CDSComputeContainerServices_Deprecated)
+!define CDSComputeContainerServices_Deprecated(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerServices_Deprecated_tbg.png, ComputeContainerServices_Deprecated)
+!define CDSComputeContainerServices_Deprecated(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerServices_Deprecated_tbg.png, ComputeContainerServices_Deprecated)
 AzureEntityColoring(CDSComputeContainerServices_Deprecated_m)
-!define CDSComputeContainerServices_Deprecated_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeContainerServices_DeprecatedSPRITE, CDSComputeContainerServices_Deprecated_m)
-!define CDSComputeContainerServices_Deprecated_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeContainerServices_DeprecatedSPRITE, CDSComputeContainerServices_Deprecated_m)
+!define CDSComputeContainerServices_Deprecated_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeContainerServices_DeprecatedSPRITE, ComputeContainerServices_Deprecated)
+!define CDSComputeContainerServices_Deprecated_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeContainerServices_DeprecatedSPRITE, ComputeContainerServices_Deprecated)
 
 sprite $CDSComputeDiskEncryptionSPRITE [70x70/16z] {
 pTY7kjiW341XWT2yx_--3L6mAmUJsN6wFF-RqCyJ_glSdG348m2e7b5V6Ga0a4SrBUuRVq-9pKkDe3DHIPEdMuGIC-yNxlzKZDVRLVU_evJUsqh1HYnxJ0tB
@@ -104,11 +104,11 @@ lgUW9-HD1J2GfBpnF8m9YIl96zM4V3UYp_3nDD7AoRk8wMBO5wUh_UBDoMHntHTBBFsIyb_r2m
 }
 
 AzureEntityColoring(CDSComputeDiskEncryption)
-!define CDSComputeDiskEncryption(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, CDSComputeDiskEncryption)
-!define CDSComputeDiskEncryption(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, CDSComputeDiskEncryption)
+!define CDSComputeDiskEncryption(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, ComputeDiskEncryption)
+!define CDSComputeDiskEncryption(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDiskEncryption_tbg.png, ComputeDiskEncryption)
 AzureEntityColoring(CDSComputeDiskEncryption_m)
-!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, CDSComputeDiskEncryption_m)
-!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, CDSComputeDiskEncryption_m)
+!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, ComputeDiskEncryption)
+!define CDSComputeDiskEncryption_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDiskEncryptionSPRITE, ComputeDiskEncryption)
 
 sprite $CDSComputeDisks_ClassicSPRITE [70x70/16z] {
 xTS5mlGW38HXBCmaU__pVhO6IrfAVvVt04yL2-5__uinfPHpJX_565PBMQGwISc7i9YAL01r8m1rIiLIyTKsyfcaFKE0EN8jRngS8Lt5GpB95OH4792wYdoM
@@ -119,11 +119,11 @@ tseU-5LeghnMiMPGMYLrl_aqFeh3XlUO13Qb44R6fO3k5WQaAu6BrHYS2fVA0x3ix2-EkV90aiAiBE1E
 }
 
 AzureEntityColoring(CDSComputeDisks_Classic)
-!define CDSComputeDisks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_Classic_tbg.png, CDSComputeDisks_Classic)
-!define CDSComputeDisks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_Classic_tbg.png, CDSComputeDisks_Classic)
+!define CDSComputeDisks_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_Classic_tbg.png, ComputeDisks_Classic)
+!define CDSComputeDisks_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_Classic_tbg.png, ComputeDisks_Classic)
 AzureEntityColoring(CDSComputeDisks_Classic_m)
-!define CDSComputeDisks_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisks_ClassicSPRITE, CDSComputeDisks_Classic_m)
-!define CDSComputeDisks_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisks_ClassicSPRITE, CDSComputeDisks_Classic_m)
+!define CDSComputeDisks_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisks_ClassicSPRITE, ComputeDisks_Classic)
+!define CDSComputeDisks_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisks_ClassicSPRITE, ComputeDisks_Classic)
 
 sprite $CDSComputeDisksSPRITE [70x70/16z] {
 xTS5mlGW38HXBCmaU__pVhO6IrfAVvVt04yL2-5__uinfPHpJX_565PBMQGwISc7i9YAL01r8m1rIiLIyTKsyfcaFKE0EN8jRngS8Lt5GpB95OH4792wYdoM
@@ -134,11 +134,11 @@ tseU-5LeghnMiMPGMYLrl_aqFeh3XlUO13Qb44R6fO3k5WQaAu6BrHYS2fVA0x3ix2-EkV90aiAiBE1E
 }
 
 AzureEntityColoring(CDSComputeDisks)
-!define CDSComputeDisks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_tbg.png, CDSComputeDisks)
-!define CDSComputeDisks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_tbg.png, CDSComputeDisks)
+!define CDSComputeDisks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_tbg.png, ComputeDisks)
+!define CDSComputeDisks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisks_tbg.png, ComputeDisks)
 AzureEntityColoring(CDSComputeDisks_m)
-!define CDSComputeDisks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisksSPRITE, CDSComputeDisks_m)
-!define CDSComputeDisks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisksSPRITE, CDSComputeDisks_m)
+!define CDSComputeDisks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisksSPRITE, ComputeDisks)
+!define CDSComputeDisks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisksSPRITE, ComputeDisks)
 
 sprite $CDSComputeDisksSnapshotsSPRITE [70x70/16z] {
 xTXLeYen383XUDAo__LUmKCdGv17lkFIdt438Bv3qCBtu1-o1A51bZ7wScKPGu-_KUYWF8YF5OKF_2f7lmenYwgPkvcgC1E-M24nts12TKKWOVKTobiLP4Qu
@@ -149,11 +149,11 @@ EUMcGk_TsI2TuLVlZtwLNoM13hA4l_KiY3z_BWNm5m
 }
 
 AzureEntityColoring(CDSComputeDisksSnapshots)
-!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, CDSComputeDisksSnapshots)
-!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, CDSComputeDisksSnapshots)
+!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, ComputeDisksSnapshots)
+!define CDSComputeDisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeDisksSnapshots_tbg.png, ComputeDisksSnapshots)
 AzureEntityColoring(CDSComputeDisksSnapshots_m)
-!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, CDSComputeDisksSnapshots_m)
-!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, CDSComputeDisksSnapshots_m)
+!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, ComputeDisksSnapshots)
+!define CDSComputeDisksSnapshots_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeDisksSnapshotsSPRITE, ComputeDisksSnapshots)
 
 sprite $CDSComputeFunctionAppsSPRITE [70x70/16z] {
 xTHPRWCn38DXIeeGt__2NOsw6c90n5Nty5dvy6SRxEw-ECut42V5VauAEbBGaM8TATwIWeuKTAHOHugtfDpoofh2Y4v2Z94bXJwK72CqifXBcRyXn32oZhmW
@@ -163,11 +163,11 @@ cYafXhA520OhXH1W8c8-jOhm0Q1dXEmiTX5E2NniqO5O1uBeGAm3GH2obt91Gqe3OXq8FD2p-nu1
 }
 
 AzureEntityColoring(CDSComputeFunctionApps)
-!define CDSComputeFunctionApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeFunctionApps_tbg.png, CDSComputeFunctionApps)
-!define CDSComputeFunctionApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeFunctionApps_tbg.png, CDSComputeFunctionApps)
+!define CDSComputeFunctionApps(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeFunctionApps_tbg.png, ComputeFunctionApps)
+!define CDSComputeFunctionApps(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeFunctionApps_tbg.png, ComputeFunctionApps)
 AzureEntityColoring(CDSComputeFunctionApps_m)
-!define CDSComputeFunctionApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeFunctionAppsSPRITE, CDSComputeFunctionApps_m)
-!define CDSComputeFunctionApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeFunctionAppsSPRITE, CDSComputeFunctionApps_m)
+!define CDSComputeFunctionApps_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeFunctionAppsSPRITE, ComputeFunctionApps)
+!define CDSComputeFunctionApps_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeFunctionAppsSPRITE, ComputeFunctionApps)
 
 sprite $CDSComputeImageDefinitionsSPRITE [70x70/16z] {
 xTDNUeDG34HXL6vZ__jDJoP34OZqSfxj_nlPC7shnBBf1kBvrepwXNwYyg-KV1d5tq5n4_MtAguY0YUdm7ZAhYicI3sjm8YTKC4nd6KL63mde_0nxCHAV0oo
@@ -178,11 +178,11 @@ P4LgFfzMcQUJwHjt2m
 }
 
 AzureEntityColoring(CDSComputeImageDefinitions)
-!define CDSComputeImageDefinitions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageDefinitions_tbg.png, CDSComputeImageDefinitions)
-!define CDSComputeImageDefinitions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageDefinitions_tbg.png, CDSComputeImageDefinitions)
+!define CDSComputeImageDefinitions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageDefinitions_tbg.png, ComputeImageDefinitions)
+!define CDSComputeImageDefinitions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageDefinitions_tbg.png, ComputeImageDefinitions)
 AzureEntityColoring(CDSComputeImageDefinitions_m)
-!define CDSComputeImageDefinitions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeImageDefinitionsSPRITE, CDSComputeImageDefinitions_m)
-!define CDSComputeImageDefinitions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeImageDefinitionsSPRITE, CDSComputeImageDefinitions_m)
+!define CDSComputeImageDefinitions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeImageDefinitionsSPRITE, ComputeImageDefinitions)
+!define CDSComputeImageDefinitions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeImageDefinitionsSPRITE, ComputeImageDefinitions)
 
 sprite $CDSComputeImagesSPRITE [70x70/16z] {
 tSy9RjWm34HHSIVR-z-ta067Kgn8thhb7-1Xfdoxa1w7fUWBoIkAmZ-d29GcqLa2JTWgfOjq5fOs_5BX2mhq2j8UwpH1s3igejUZymgJF55oFoyLgrN51Yd1
@@ -193,11 +193,11 @@ zXYbT9f0IUAOyIc4Ov6TKJnMyHe1NwRbd-uN
 }
 
 AzureEntityColoring(CDSComputeImages)
-!define CDSComputeImages(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImages_tbg.png, CDSComputeImages)
-!define CDSComputeImages(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImages_tbg.png, CDSComputeImages)
+!define CDSComputeImages(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImages_tbg.png, ComputeImages)
+!define CDSComputeImages(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImages_tbg.png, ComputeImages)
 AzureEntityColoring(CDSComputeImages_m)
-!define CDSComputeImages_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeImagesSPRITE, CDSComputeImages_m)
-!define CDSComputeImages_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeImagesSPRITE, CDSComputeImages_m)
+!define CDSComputeImages_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeImagesSPRITE, ComputeImages)
+!define CDSComputeImages_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeImagesSPRITE, ComputeImages)
 
 sprite $CDSComputeImageVersionsSPRITE [70x70/16z] {
 xTDNifj044PXTHWQsF-2xHiFwc9WWhFlULPzzRU0nn-LblQiXlZUqr9HealPHfGlPItUdjKKa9QqedXNzXkKBwNyJCLyNZ4LdLPKNj8U9VTYl6SbrwgO2AcF
@@ -208,11 +208,11 @@ eezAQkt9um_k6m
 }
 
 AzureEntityColoring(CDSComputeImageVersions)
-!define CDSComputeImageVersions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageVersions_tbg.png, CDSComputeImageVersions)
-!define CDSComputeImageVersions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageVersions_tbg.png, CDSComputeImageVersions)
+!define CDSComputeImageVersions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageVersions_tbg.png, ComputeImageVersions)
+!define CDSComputeImageVersions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeImageVersions_tbg.png, ComputeImageVersions)
 AzureEntityColoring(CDSComputeImageVersions_m)
-!define CDSComputeImageVersions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeImageVersionsSPRITE, CDSComputeImageVersions_m)
-!define CDSComputeImageVersions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeImageVersionsSPRITE, CDSComputeImageVersions_m)
+!define CDSComputeImageVersions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeImageVersionsSPRITE, ComputeImageVersions)
+!define CDSComputeImageVersions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeImageVersionsSPRITE, ComputeImageVersions)
 
 sprite $CDSComputeKubernetesServicesSPRITE [70x70/16z] {
 xPPNceCm38JZgdx_wovhK00JnrlUyZ6FVoP3rQ37BtGh_ZUW08agb4jG1XAfQNe25KMjIH4HIjX-I0LPdtmIXAkHcPeRYR249pTXTluk28qHX070tOimVtCc
@@ -224,11 +224,11 @@ _V7w0W
 }
 
 AzureEntityColoring(CDSComputeKubernetesServices)
-!define CDSComputeKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeKubernetesServices_tbg.png, CDSComputeKubernetesServices)
-!define CDSComputeKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeKubernetesServices_tbg.png, CDSComputeKubernetesServices)
+!define CDSComputeKubernetesServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeKubernetesServices_tbg.png, ComputeKubernetesServices)
+!define CDSComputeKubernetesServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeKubernetesServices_tbg.png, ComputeKubernetesServices)
 AzureEntityColoring(CDSComputeKubernetesServices_m)
-!define CDSComputeKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeKubernetesServicesSPRITE, CDSComputeKubernetesServices_m)
-!define CDSComputeKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeKubernetesServicesSPRITE, CDSComputeKubernetesServices_m)
+!define CDSComputeKubernetesServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeKubernetesServicesSPRITE, ComputeKubernetesServices)
+!define CDSComputeKubernetesServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeKubernetesServicesSPRITE, ComputeKubernetesServices)
 
 sprite $CDSComputeMeshApplicationsSPRITE [70x70/16z] {
 tPS7SkCm34M9VlyJxoOqH_I7N12avqsrC7nMWpuulWGILQ5tEimdzXuF-m7tBROjrfQeNw5D2JdmCHRgtbk0F_nS-XPkIf3WbYG2917SacHBS4SIpaSVMO2c
@@ -239,11 +239,11 @@ LAy85iaOZ0SgTnV-UlM2nyQBJ_gyY69ZvRSkDdGwmjKEm2NvPd6r6nVOCyAhnEKlWp66BHIb-9MoSGUh
 }
 
 AzureEntityColoring(CDSComputeMeshApplications)
-!define CDSComputeMeshApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeMeshApplications_tbg.png, CDSComputeMeshApplications)
-!define CDSComputeMeshApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeMeshApplications_tbg.png, CDSComputeMeshApplications)
+!define CDSComputeMeshApplications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeMeshApplications_tbg.png, ComputeMeshApplications)
+!define CDSComputeMeshApplications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeMeshApplications_tbg.png, ComputeMeshApplications)
 AzureEntityColoring(CDSComputeMeshApplications_m)
-!define CDSComputeMeshApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeMeshApplicationsSPRITE, CDSComputeMeshApplications_m)
-!define CDSComputeMeshApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeMeshApplicationsSPRITE, CDSComputeMeshApplications_m)
+!define CDSComputeMeshApplications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeMeshApplicationsSPRITE, ComputeMeshApplications)
+!define CDSComputeMeshApplications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeMeshApplicationsSPRITE, ComputeMeshApplications)
 
 sprite $CDSComputeOSImages_ClassicSPRITE [70x70/16z] {
 tTPLbkKm34NHAxILdlzu2nvQON1JdM-j7OwD7nV9vHZm7lLHo7l4xgvq8RQ7GhYIz5VO_9LYkJmsLioRi1XvaumLyYR5SjvaSmfcOo7CHGSKKZEJJQMKigA8
@@ -254,11 +254,11 @@ zBD7cppJ6GL-Si-G5VLtjbEXf8mtleJbkDtcPkLSMH5SgJoKA1UgyL2k9qEFg5utgc4b-zN6E51_PMZx
 }
 
 AzureEntityColoring(CDSComputeOSImages_Classic)
-!define CDSComputeOSImages_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeOSImages_Classic_tbg.png, CDSComputeOSImages_Classic)
-!define CDSComputeOSImages_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeOSImages_Classic_tbg.png, CDSComputeOSImages_Classic)
+!define CDSComputeOSImages_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeOSImages_Classic_tbg.png, ComputeOSImages_Classic)
+!define CDSComputeOSImages_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeOSImages_Classic_tbg.png, ComputeOSImages_Classic)
 AzureEntityColoring(CDSComputeOSImages_Classic_m)
-!define CDSComputeOSImages_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeOSImages_ClassicSPRITE, CDSComputeOSImages_Classic_m)
-!define CDSComputeOSImages_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeOSImages_ClassicSPRITE, CDSComputeOSImages_Classic_m)
+!define CDSComputeOSImages_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeOSImages_ClassicSPRITE, ComputeOSImages_Classic)
+!define CDSComputeOSImages_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeOSImages_ClassicSPRITE, ComputeOSImages_Classic)
 
 sprite $CDSComputeServiceFabricClustersSPRITE [70x70/16z] {
 rPU9hgiX28JBwlk_yOqtV-WlsZdOlL-MiumWQ3hOooz1pFHe2hN_w2E9n0AvEuaDF5B9ezMG9UY1VXxioIVkQSWdxcX9V48-bOLzWZzrkkeJkdz3hNcYjSrR
@@ -269,11 +269,11 @@ VWnKVDEALJWu0uUbXfhnDi19BRvFg9rHg1hyRXN8hDgW0YIcE5Ajgn1Y4IgeNyi_
 }
 
 AzureEntityColoring(CDSComputeServiceFabricClusters)
-!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, CDSComputeServiceFabricClusters)
-!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, CDSComputeServiceFabricClusters)
+!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, ComputeServiceFabricClusters)
+!define CDSComputeServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeServiceFabricClusters_tbg.png, ComputeServiceFabricClusters)
 AzureEntityColoring(CDSComputeServiceFabricClusters_m)
-!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, CDSComputeServiceFabricClusters_m)
-!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, CDSComputeServiceFabricClusters_m)
+!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, ComputeServiceFabricClusters)
+!define CDSComputeServiceFabricClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeServiceFabricClustersSPRITE, ComputeServiceFabricClusters)
 
 sprite $CDSComputeSharedImageGalleriesSPRITE [70x70/16z] {
 xTH7SWGX38NXKMRQzx-lXtPGPq3Wx7-j-aghT_lsKQf8IyfJLGK6wXJx6GhBe-cwefAcgWhAz9iKoDqBbHJIcb91qRg6A3PA-LTaW288A575ZHn9ZyBm6d9O
@@ -282,11 +282,11 @@ t5ro1RbgTu7cT1s_9hhAqjmzfvI36K7j3BF2lGfdHNeL-NQA7SUuYUsuAqLkgqgNQeVfNj5snGGtYPML
 }
 
 AzureEntityColoring(CDSComputeSharedImageGalleries)
-!define CDSComputeSharedImageGalleries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSharedImageGalleries_tbg.png, CDSComputeSharedImageGalleries)
-!define CDSComputeSharedImageGalleries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSharedImageGalleries_tbg.png, CDSComputeSharedImageGalleries)
+!define CDSComputeSharedImageGalleries(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSharedImageGalleries_tbg.png, ComputeSharedImageGalleries)
+!define CDSComputeSharedImageGalleries(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSharedImageGalleries_tbg.png, ComputeSharedImageGalleries)
 AzureEntityColoring(CDSComputeSharedImageGalleries_m)
-!define CDSComputeSharedImageGalleries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeSharedImageGalleriesSPRITE, CDSComputeSharedImageGalleries_m)
-!define CDSComputeSharedImageGalleries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeSharedImageGalleriesSPRITE, CDSComputeSharedImageGalleries_m)
+!define CDSComputeSharedImageGalleries_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeSharedImageGalleriesSPRITE, ComputeSharedImageGalleries)
+!define CDSComputeSharedImageGalleries_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeSharedImageGalleriesSPRITE, ComputeSharedImageGalleries)
 
 sprite $CDSComputeSSHKeysSPRITE [70x70/16z] {
 xTU7aXGX58LXmatj-p-mlJXLPrauI8jP_ugJle7BnFIh-bykLTJkL2L_go7M9GV6aLDjMdc4g95qtyXgl7oo4dI283r1KDr0YhKEzsHVJnulHU-UBqRzVIej
@@ -297,11 +297,11 @@ aaYR2f1ZHVEf0kPSgKUAVu_fcfqY-EkdEPqnG4uO_E4yOd38lwR_VGO
 }
 
 AzureEntityColoring(CDSComputeSSHKeys)
-!define CDSComputeSSHKeys(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSSHKeys_tbg.png, CDSComputeSSHKeys)
-!define CDSComputeSSHKeys(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSSHKeys_tbg.png, CDSComputeSSHKeys)
+!define CDSComputeSSHKeys(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSSHKeys_tbg.png, ComputeSSHKeys)
+!define CDSComputeSSHKeys(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeSSHKeys_tbg.png, ComputeSSHKeys)
 AzureEntityColoring(CDSComputeSSHKeys_m)
-!define CDSComputeSSHKeys_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeSSHKeysSPRITE, CDSComputeSSHKeys_m)
-!define CDSComputeSSHKeys_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeSSHKeysSPRITE, CDSComputeSSHKeys_m)
+!define CDSComputeSSHKeys_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeSSHKeysSPRITE, ComputeSSHKeys)
+!define CDSComputeSSHKeys_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeSSHKeysSPRITE, ComputeSSHKeys)
 
 sprite $CDSComputeVirtualMachineSPRITE [70x70/16z] {
 xSzLiXr138FXjkI6oVxtc-IY1njy6FvdrLUb8ASNGaod5qCwHpYBecTHU5lbhSGpA162fiDSBL4-OihLM3LKVjBaLIB4GdGfYMAPCwQOOJ6DAScG7aOF510R
@@ -311,11 +311,11 @@ z7sn_0pOBBIJTg6pT_y
 }
 
 AzureEntityColoring(CDSComputeVirtualMachine)
-!define CDSComputeVirtualMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, CDSComputeVirtualMachine)
-!define CDSComputeVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, CDSComputeVirtualMachine)
+!define CDSComputeVirtualMachine(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, ComputeVirtualMachine)
+!define CDSComputeVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, ComputeVirtualMachine)
 AzureEntityColoring(CDSComputeVirtualMachine_m)
-!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, CDSComputeVirtualMachine_m)
-!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, CDSComputeVirtualMachine_m)
+!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, ComputeVirtualMachine)
+!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, ComputeVirtualMachine)
 
 sprite $CDSComputeVirtualMachines_ClassicSPRITE [70x70/16z] {
 xTG5SWKX383X4264tl--dJnVHUlzLyQ_5GHs-u_ZU0nnHc6AGdwJaUuAmKXyKmACX3S5_vL5LAMGK5bHrJC5nKCupeLp1LckSUXM0iip2dqAoJBgK91b7MEh
@@ -325,11 +325,11 @@ nQCNXG5E53DpvSHnHU0m5mgAVvQO1XXHF1G465QyVkLVKHo8qaqPR9wI9sH0KOzAY_Im6E0aUNiDeI_9
 }
 
 AzureEntityColoring(CDSComputeVirtualMachines_Classic)
-!define CDSComputeVirtualMachines_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachines_Classic_tbg.png, CDSComputeVirtualMachines_Classic)
-!define CDSComputeVirtualMachines_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachines_Classic_tbg.png, CDSComputeVirtualMachines_Classic)
+!define CDSComputeVirtualMachines_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachines_Classic_tbg.png, ComputeVirtualMachines_Classic)
+!define CDSComputeVirtualMachines_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachines_Classic_tbg.png, ComputeVirtualMachines_Classic)
 AzureEntityColoring(CDSComputeVirtualMachines_Classic_m)
-!define CDSComputeVirtualMachines_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachines_ClassicSPRITE, CDSComputeVirtualMachines_Classic_m)
-!define CDSComputeVirtualMachines_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachines_ClassicSPRITE, CDSComputeVirtualMachines_Classic_m)
+!define CDSComputeVirtualMachines_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachines_ClassicSPRITE, ComputeVirtualMachines_Classic)
+!define CDSComputeVirtualMachines_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachines_ClassicSPRITE, ComputeVirtualMachines_Classic)
 
 sprite $CDSComputeVMImages_ClassicSPRITE [70x70/16z] {
 tTPLbkKm34NHAxILdlzu2nvQON1JdM-j7OwD7nV9vHZm7lLHo7l4xgvq8RQ7GhYIz5VO_9LYkJmsLioRi1XvaumLyYR5SjvaSmfcOo7CHGSKKZEJJQMKigA8
@@ -340,11 +340,11 @@ zBD7cppJ6GL-Si-G5VLtjbEXf8mtleJbkDtcPkLSMH5SgJoKA1UgyL2k9qEFg5utgc4b-zN6E51_PMZx
 }
 
 AzureEntityColoring(CDSComputeVMImages_Classic)
-!define CDSComputeVMImages_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMImages_Classic_tbg.png, CDSComputeVMImages_Classic)
-!define CDSComputeVMImages_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMImages_Classic_tbg.png, CDSComputeVMImages_Classic)
+!define CDSComputeVMImages_Classic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMImages_Classic_tbg.png, ComputeVMImages_Classic)
+!define CDSComputeVMImages_Classic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMImages_Classic_tbg.png, ComputeVMImages_Classic)
 AzureEntityColoring(CDSComputeVMImages_Classic_m)
-!define CDSComputeVMImages_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVMImages_ClassicSPRITE, CDSComputeVMImages_Classic_m)
-!define CDSComputeVMImages_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVMImages_ClassicSPRITE, CDSComputeVMImages_Classic_m)
+!define CDSComputeVMImages_Classic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVMImages_ClassicSPRITE, ComputeVMImages_Classic)
+!define CDSComputeVMImages_Classic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVMImages_ClassicSPRITE, ComputeVMImages_Classic)
 
 sprite $CDSComputeVMScaleSetsSPRITE [70x70/16z] {
 xSu7cjr020HXqJIWqTx_l9juGS4U1PozTO3_g-5V37Oa3lscbqDfNtavbdqf0PkgIgE8m4lAP9AXNLT6o2DULemFHDckAeIgV0HZHG484P951I3_34NDFR8s
@@ -354,10 +354,10 @@ jTPgIlQb30ULeP_G5aNcjWZ3gJ1c72f9P5fJFAifwXbhYcKrXVUaii8o8z15k890DrrPsJOyUmC
 }
 
 AzureEntityColoring(CDSComputeVMScaleSets)
-!define CDSComputeVMScaleSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMScaleSets_tbg.png, CDSComputeVMScaleSets)
-!define CDSComputeVMScaleSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMScaleSets_tbg.png, CDSComputeVMScaleSets)
+!define CDSComputeVMScaleSets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMScaleSets_tbg.png, ComputeVMScaleSets)
+!define CDSComputeVMScaleSets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVMScaleSets_tbg.png, ComputeVMScaleSets)
 AzureEntityColoring(CDSComputeVMScaleSets_m)
-!define CDSComputeVMScaleSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVMScaleSetsSPRITE, CDSComputeVMScaleSets_m)
-!define CDSComputeVMScaleSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVMScaleSetsSPRITE, CDSComputeVMScaleSets_m)
+!define CDSComputeVMScaleSets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVMScaleSetsSPRITE, ComputeVMScaleSets)
+!define CDSComputeVMScaleSets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVMScaleSetsSPRITE, ComputeVMScaleSets)
 
 

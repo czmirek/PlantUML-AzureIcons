@@ -6,9 +6,9 @@ HF6863RHfEuoRSfTrTVDDqgsvkJwmT1Nf3OKzajJq2cRNS6H6y_FHJ1REBwcdnkhDYm78RN7jXmINknK
 }
 
 AzureEntityColoring(APGoLogo)
-!define APGoLogo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGoLogo_tbg.png, APGoLogo)
-!define APGoLogo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGoLogo_tbg.png, APGoLogo)
+!define APGoLogo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGoLogo_tbg.png, GoLogo)
+!define APGoLogo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGoLogo_tbg.png, GoLogo)
 AzureEntityColoring(APGoLogo_m)
-!define APGoLogo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGoLogoSPRITE, APGoLogo_m)
-!define APGoLogo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGoLogoSPRITE, APGoLogo_m)
+!define APGoLogo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGoLogoSPRITE, GoLogo)
+!define APGoLogo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGoLogoSPRITE, GoLogo)
 

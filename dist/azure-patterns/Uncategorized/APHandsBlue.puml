@@ -7,9 +7,9 @@ GYuxCqeoZH1qEgAKmWW6NPrTDK8m1Zs0kqB4wyq5ik1RtTsErkM4U2y72I5k9qebnEk98eHOEUfpbjE6
 }
 
 AzureEntityColoring(APHandsBlue)
-!define APHandsBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHandsBlue_tbg.png, APHandsBlue)
-!define APHandsBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHandsBlue_tbg.png, APHandsBlue)
+!define APHandsBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHandsBlue_tbg.png, HandsBlue)
+!define APHandsBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHandsBlue_tbg.png, HandsBlue)
 AzureEntityColoring(APHandsBlue_m)
-!define APHandsBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHandsBlueSPRITE, APHandsBlue_m)
-!define APHandsBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHandsBlueSPRITE, APHandsBlue_m)
+!define APHandsBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHandsBlueSPRITE, HandsBlue)
+!define APHandsBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHandsBlueSPRITE, HandsBlue)
 

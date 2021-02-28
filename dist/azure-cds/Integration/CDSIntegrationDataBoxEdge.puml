@@ -6,9 +6,9 @@ og_tJdBu2-4b9MOKgrTIS4ORncZbYkD6btTTjPB4dTgYK3cv0YXab4y9LhI7Y1xHQgKV8hwu7p_-
 }
 
 AzureEntityColoring(CDSIntegrationDataBoxEdge)
-!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, CDSIntegrationDataBoxEdge)
-!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, CDSIntegrationDataBoxEdge)
+!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, IntegrationDataBoxEdge)
+!define CDSIntegrationDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationDataBoxEdge_tbg.png, IntegrationDataBoxEdge)
 AzureEntityColoring(CDSIntegrationDataBoxEdge_m)
-!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, CDSIntegrationDataBoxEdge_m)
-!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, CDSIntegrationDataBoxEdge_m)
+!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, IntegrationDataBoxEdge)
+!define CDSIntegrationDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationDataBoxEdgeSPRITE, IntegrationDataBoxEdge)
 

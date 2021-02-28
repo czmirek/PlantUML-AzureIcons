@@ -5,9 +5,9 @@ gGTA0L3l48xbOPaAYEvi1PK3IqR-Znb9gSlmJRPjsxOd
 }
 
 AzureEntityColoring(APDevopsCaptureData)
-!define APDevopsCaptureData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsCaptureData_tbg.png, APDevopsCaptureData)
-!define APDevopsCaptureData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsCaptureData_tbg.png, APDevopsCaptureData)
+!define APDevopsCaptureData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsCaptureData_tbg.png, DevopsCtureData)
+!define APDevopsCaptureData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsCaptureData_tbg.png, DevopsCtureData)
 AzureEntityColoring(APDevopsCaptureData_m)
-!define APDevopsCaptureData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsCaptureDataSPRITE, APDevopsCaptureData_m)
-!define APDevopsCaptureData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsCaptureDataSPRITE, APDevopsCaptureData_m)
+!define APDevopsCaptureData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsCaptureDataSPRITE, DevopsCtureData)
+!define APDevopsCaptureData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsCaptureDataSPRITE, DevopsCtureData)
 

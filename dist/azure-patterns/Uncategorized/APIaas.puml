@@ -7,9 +7,9 @@ IZb4KPVYFo_mAJnKoY5AnNu5-bIKknbsAqk_6dOeq8wHMOKfdlABqVpxNa9Cp83mEQBBlvfxCRtrUZFy
 }
 
 AzureEntityColoring(APIaas)
-!define APIaas(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIaas_tbg.png, APIaas)
-!define APIaas(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIaas_tbg.png, APIaas)
+!define APIaas(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIaas_tbg.png, Iaas)
+!define APIaas(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIaas_tbg.png, Iaas)
 AzureEntityColoring(APIaas_m)
-!define APIaas_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIaasSPRITE, APIaas_m)
-!define APIaas_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIaasSPRITE, APIaas_m)
+!define APIaas_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIaasSPRITE, Iaas)
+!define APIaas_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIaasSPRITE, Iaas)
 

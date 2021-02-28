@@ -4,9 +4,9 @@ Hro0f9Hs7t49uXB49OXlhchZK6D8V4jnX2iSuGf3uWf7kC8HhX0ag10ag10afWpxq--mb59AAGKZtmu
 }
 
 AzureEntityColoring(APRestoredData)
-!define APRestoredData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRestoredData_tbg.png, APRestoredData)
-!define APRestoredData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRestoredData_tbg.png, APRestoredData)
+!define APRestoredData(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRestoredData_tbg.png, RestoredData)
+!define APRestoredData(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRestoredData_tbg.png, RestoredData)
 AzureEntityColoring(APRestoredData_m)
-!define APRestoredData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRestoredDataSPRITE, APRestoredData_m)
-!define APRestoredData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRestoredDataSPRITE, APRestoredData_m)
+!define APRestoredData_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRestoredDataSPRITE, RestoredData)
+!define APRestoredData_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRestoredDataSPRITE, RestoredData)
 

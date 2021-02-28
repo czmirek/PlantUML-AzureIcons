@@ -5,9 +5,9 @@ LgxKtmknz5DRLrZ6QQlekqYRDGfr5PctDW4ey-wb0v7CyybMqefMA0O5YaE1ubYW6C2suWpRYYl0XdAP
 }
 
 AzureEntityColoring(APDeploy09)
-!define APDeploy09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeploy09_tbg.png, APDeploy09)
-!define APDeploy09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeploy09_tbg.png, APDeploy09)
+!define APDeploy09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDeploy09_tbg.png, Deploy09)
+!define APDeploy09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDeploy09_tbg.png, Deploy09)
 AzureEntityColoring(APDeploy09_m)
-!define APDeploy09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeploy09SPRITE, APDeploy09_m)
-!define APDeploy09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeploy09SPRITE, APDeploy09_m)
+!define APDeploy09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeploy09SPRITE, Deploy09)
+!define APDeploy09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeploy09SPRITE, Deploy09)
 

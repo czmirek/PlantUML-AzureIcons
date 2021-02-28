@@ -7,9 +7,9 @@ d5dOQWo3B5YIFsgHnrZu40kAHkK_ym8
 }
 
 AzureEntityColoring(CDSIotIoTHub)
-!define CDSIotIoTHub(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, CDSIotIoTHub)
-!define CDSIotIoTHub(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, CDSIotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, IotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, IotIoTHub)
 AzureEntityColoring(CDSIotIoTHub_m)
-!define CDSIotIoTHub_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, CDSIotIoTHub_m)
-!define CDSIotIoTHub_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, CDSIotIoTHub_m)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, IotIoTHub)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, IotIoTHub)
 

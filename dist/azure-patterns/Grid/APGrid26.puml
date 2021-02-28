@@ -4,9 +4,9 @@ QnTUTyef1IppqKeg42ZGLobgIYlTGiugqQM40azYKd5E4M9Ru1jG3YXgHofHwMQMGqhL7WiKw9EKLA1B
 }
 
 AzureEntityColoring(APGrid26)
-!define APGrid26(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid26_tbg.png, APGrid26)
-!define APGrid26(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid26_tbg.png, APGrid26)
+!define APGrid26(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid26_tbg.png, Grid26)
+!define APGrid26(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid26_tbg.png, Grid26)
 AzureEntityColoring(APGrid26_m)
-!define APGrid26_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid26SPRITE, APGrid26_m)
-!define APGrid26_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid26SPRITE, APGrid26_m)
+!define APGrid26_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid26SPRITE, Grid26)
+!define APGrid26_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid26SPRITE, Grid26)
 

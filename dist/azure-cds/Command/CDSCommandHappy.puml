@@ -9,9 +9,9 @@ xFLXsV-wYOynspiRSi1x8spcP90Z7T8u7mrT8HtMuAbyFfY_TIp5j6bG9gzzhK0EtuZONRI_yyi9urAT
 }
 
 AzureEntityColoring(CDSCommandHappy)
-!define CDSCommandHappy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandHappy_tbg.png, CDSCommandHappy)
-!define CDSCommandHappy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandHappy_tbg.png, CDSCommandHappy)
+!define CDSCommandHappy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandHappy_tbg.png, CommandHappy)
+!define CDSCommandHappy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandHappy_tbg.png, CommandHappy)
 AzureEntityColoring(CDSCommandHappy_m)
-!define CDSCommandHappy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandHappySPRITE, CDSCommandHappy_m)
-!define CDSCommandHappy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandHappySPRITE, CDSCommandHappy_m)
+!define CDSCommandHappy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandHappySPRITE, CommandHappy)
+!define CDSCommandHappy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandHappySPRITE, CommandHappy)
 

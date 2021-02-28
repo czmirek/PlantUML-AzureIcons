@@ -5,9 +5,9 @@ RUiYvAZ1LHNp45-Pj2kwK5TqxvwpHf0LV-jAQ-lY7mJuggwmTqo0aZCLOeW0hA3yoe2ecGhLeF8hltYj
 }
 
 AzureEntityColoring(APFlowChart)
-!define APFlowChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFlowChart_tbg.png, APFlowChart)
-!define APFlowChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFlowChart_tbg.png, APFlowChart)
+!define APFlowChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFlowChart_tbg.png, FlowChart)
+!define APFlowChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFlowChart_tbg.png, FlowChart)
 AzureEntityColoring(APFlowChart_m)
-!define APFlowChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFlowChartSPRITE, APFlowChart_m)
-!define APFlowChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFlowChartSPRITE, APFlowChart_m)
+!define APFlowChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFlowChartSPRITE, FlowChart)
+!define APFlowChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFlowChartSPRITE, FlowChart)
 

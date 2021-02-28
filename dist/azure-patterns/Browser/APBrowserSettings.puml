@@ -5,9 +5,9 @@ jPJiJzv4iPtLcLEMD7DPa-9gIOpC8zmmodliBuwz_08XKtPl2s8DmzgLiUe39qRq-j7Luohf012f4lET
 }
 
 AzureEntityColoring(APBrowserSettings)
-!define APBrowserSettings(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrowserSettings_tbg.png, APBrowserSettings)
-!define APBrowserSettings(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrowserSettings_tbg.png, APBrowserSettings)
+!define APBrowserSettings(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBrowserSettings_tbg.png, BrowserSettings)
+!define APBrowserSettings(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBrowserSettings_tbg.png, BrowserSettings)
 AzureEntityColoring(APBrowserSettings_m)
-!define APBrowserSettings_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrowserSettingsSPRITE, APBrowserSettings_m)
-!define APBrowserSettings_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrowserSettingsSPRITE, APBrowserSettings_m)
+!define APBrowserSettings_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrowserSettingsSPRITE, BrowserSettings)
+!define APBrowserSettings_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrowserSettingsSPRITE, BrowserSettings)
 

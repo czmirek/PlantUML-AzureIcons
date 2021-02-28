@@ -5,9 +5,9 @@ pWI544rXH5TkT3-g2emGLO4H8YZK7rKgzLUKeHHAL5AbFaiPob26CfIX36KeXNgLGidT0G
 }
 
 AzureEntityColoring(APBarWithSearch)
-!define APBarWithSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, APBarWithSearch)
-!define APBarWithSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, APBarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, BarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBarWithSearch_tbg.png, BarWithSearch)
 AzureEntityColoring(APBarWithSearch_m)
-!define APBarWithSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, APBarWithSearch_m)
-!define APBarWithSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, APBarWithSearch_m)
+!define APBarWithSearch_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, BarWithSearch)
+!define APBarWithSearch_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, BarWithSearch)
 

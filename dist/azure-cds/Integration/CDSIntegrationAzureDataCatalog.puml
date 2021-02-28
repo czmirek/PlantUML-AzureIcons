@@ -5,9 +5,9 @@ tfBzZIrsfyAMWl8eM-QMfMSVL-fRIEuKnItZT8JKbGVPChVmvXPkXMHZYxHIv8CjpgqQITmqGgYzBHOD
 }
 
 AzureEntityColoring(CDSIntegrationAzureDataCatalog)
-!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, CDSIntegrationAzureDataCatalog)
-!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, CDSIntegrationAzureDataCatalog)
+!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, IntegrationAzureDataCatalog)
+!define CDSIntegrationAzureDataCatalog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureDataCatalog_tbg.png, IntegrationAzureDataCatalog)
 AzureEntityColoring(CDSIntegrationAzureDataCatalog_m)
-!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, CDSIntegrationAzureDataCatalog_m)
-!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, CDSIntegrationAzureDataCatalog_m)
+!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, IntegrationAzureDataCatalog)
+!define CDSIntegrationAzureDataCatalog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureDataCatalogSPRITE, IntegrationAzureDataCatalog)
 

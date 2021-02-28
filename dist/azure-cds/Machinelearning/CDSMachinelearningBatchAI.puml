@@ -9,9 +9,9 @@ a0RYLKp4B5fJlLvB1uJfoxveJVL-NyPjCRng0LIjKhmVwJDIJ27V6SMNj92_qpy
 }
 
 AzureEntityColoring(CDSMachinelearningBatchAI)
-!define CDSMachinelearningBatchAI(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningBatchAI_tbg.png, CDSMachinelearningBatchAI)
-!define CDSMachinelearningBatchAI(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningBatchAI_tbg.png, CDSMachinelearningBatchAI)
+!define CDSMachinelearningBatchAI(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningBatchAI_tbg.png, MachinelearningBatchAI)
+!define CDSMachinelearningBatchAI(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Machinelearning/CDSMachinelearningBatchAI_tbg.png, MachinelearningBatchAI)
 AzureEntityColoring(CDSMachinelearningBatchAI_m)
-!define CDSMachinelearningBatchAI_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMachinelearningBatchAISPRITE, CDSMachinelearningBatchAI_m)
-!define CDSMachinelearningBatchAI_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMachinelearningBatchAISPRITE, CDSMachinelearningBatchAI_m)
+!define CDSMachinelearningBatchAI_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMachinelearningBatchAISPRITE, MachinelearningBatchAI)
+!define CDSMachinelearningBatchAI_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMachinelearningBatchAISPRITE, MachinelearningBatchAI)
 

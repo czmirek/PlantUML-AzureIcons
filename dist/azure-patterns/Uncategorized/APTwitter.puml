@@ -7,9 +7,9 @@ DJVoqbTvtsEl_RVYZ3fLwAYYpXLr055L5M1yW2y
 }
 
 AzureEntityColoring(APTwitter)
-!define APTwitter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwitter_tbg.png, APTwitter)
-!define APTwitter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwitter_tbg.png, APTwitter)
+!define APTwitter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTwitter_tbg.png, Twitter)
+!define APTwitter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTwitter_tbg.png, Twitter)
 AzureEntityColoring(APTwitter_m)
-!define APTwitter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwitterSPRITE, APTwitter_m)
-!define APTwitter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwitterSPRITE, APTwitter_m)
+!define APTwitter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwitterSPRITE, Twitter)
+!define APTwitter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwitterSPRITE, Twitter)
 

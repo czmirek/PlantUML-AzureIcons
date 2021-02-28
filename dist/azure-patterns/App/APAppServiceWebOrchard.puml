@@ -11,9 +11,9 @@ Jdh7AdgU0GZrQQCFZ7vdt2rb7_HEBPpzObwCTUuRqfCh7SzqRaa8VSIgimMBYi3nhoX-z1JUj-XNPDuz
 }
 
 AzureEntityColoring(APAppServiceWebOrchard)
-!define APAppServiceWebOrchard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceWebOrchard_tbg.png, APAppServiceWebOrchard)
-!define APAppServiceWebOrchard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceWebOrchard_tbg.png, APAppServiceWebOrchard)
+!define APAppServiceWebOrchard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAppServiceWebOrchard_tbg.png, pServiceWebOrchard)
+!define APAppServiceWebOrchard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAppServiceWebOrchard_tbg.png, pServiceWebOrchard)
 AzureEntityColoring(APAppServiceWebOrchard_m)
-!define APAppServiceWebOrchard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceWebOrchardSPRITE, APAppServiceWebOrchard_m)
-!define APAppServiceWebOrchard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceWebOrchardSPRITE, APAppServiceWebOrchard_m)
+!define APAppServiceWebOrchard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceWebOrchardSPRITE, pServiceWebOrchard)
+!define APAppServiceWebOrchard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceWebOrchardSPRITE, pServiceWebOrchard)
 

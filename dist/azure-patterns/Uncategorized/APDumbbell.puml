@@ -4,9 +4,9 @@ iFX_sV9tI9mZzoG0014
 }
 
 AzureEntityColoring(APDumbbell)
-!define APDumbbell(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDumbbell_tbg.png, APDumbbell)
-!define APDumbbell(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDumbbell_tbg.png, APDumbbell)
+!define APDumbbell(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDumbbell_tbg.png, Dumbbell)
+!define APDumbbell(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDumbbell_tbg.png, Dumbbell)
 AzureEntityColoring(APDumbbell_m)
-!define APDumbbell_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDumbbellSPRITE, APDumbbell_m)
-!define APDumbbell_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDumbbellSPRITE, APDumbbell_m)
+!define APDumbbell_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDumbbellSPRITE, Dumbbell)
+!define APDumbbell_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDumbbellSPRITE, Dumbbell)
 

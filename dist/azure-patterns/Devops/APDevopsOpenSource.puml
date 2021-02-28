@@ -5,9 +5,9 @@ sIOA0KDgnHv-J5q5CSeabLBT3HUwCXna-aIMybeKF5iPmyfRYayLsFQSuiYgyPWIag8YZoxrXnGdfj0C
 }
 
 AzureEntityColoring(APDevopsOpenSource)
-!define APDevopsOpenSource(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsOpenSource_tbg.png, APDevopsOpenSource)
-!define APDevopsOpenSource(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsOpenSource_tbg.png, APDevopsOpenSource)
+!define APDevopsOpenSource(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDevopsOpenSource_tbg.png, DevopsOpenSource)
+!define APDevopsOpenSource(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDevopsOpenSource_tbg.png, DevopsOpenSource)
 AzureEntityColoring(APDevopsOpenSource_m)
-!define APDevopsOpenSource_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsOpenSourceSPRITE, APDevopsOpenSource_m)
-!define APDevopsOpenSource_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsOpenSourceSPRITE, APDevopsOpenSource_m)
+!define APDevopsOpenSource_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsOpenSourceSPRITE, DevopsOpenSource)
+!define APDevopsOpenSource_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsOpenSourceSPRITE, DevopsOpenSource)
 

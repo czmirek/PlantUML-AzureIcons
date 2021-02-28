@@ -4,9 +4,9 @@ DMf_JrF1rA0XIbpv2XKg_pmrgq5FuvMyJL0P_YRSsNS6AWS
 }
 
 AzureEntityColoring(APFramePanels)
-!define APFramePanels(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFramePanels_tbg.png, APFramePanels)
-!define APFramePanels(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFramePanels_tbg.png, APFramePanels)
+!define APFramePanels(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFramePanels_tbg.png, FramePanels)
+!define APFramePanels(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFramePanels_tbg.png, FramePanels)
 AzureEntityColoring(APFramePanels_m)
-!define APFramePanels_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFramePanelsSPRITE, APFramePanels_m)
-!define APFramePanels_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFramePanelsSPRITE, APFramePanels_m)
+!define APFramePanels_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFramePanelsSPRITE, FramePanels)
+!define APFramePanels_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFramePanelsSPRITE, FramePanels)
 

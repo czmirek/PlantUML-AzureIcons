@@ -5,9 +5,9 @@ xTQtcKCn4CHWslF7xRzRXNmZWs_aiaK1Vun2jTZL0hrTIIMLL599fPLRVJTRcJytbT_LJ6K6A26CAegW
 }
 
 AzureEntityColoring(APDownloadIcon)
-!define APDownloadIcon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDownloadIcon_tbg.png, APDownloadIcon)
-!define APDownloadIcon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDownloadIcon_tbg.png, APDownloadIcon)
+!define APDownloadIcon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDownloadIcon_tbg.png, DownloadIcon)
+!define APDownloadIcon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDownloadIcon_tbg.png, DownloadIcon)
 AzureEntityColoring(APDownloadIcon_m)
-!define APDownloadIcon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDownloadIconSPRITE, APDownloadIcon_m)
-!define APDownloadIcon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDownloadIconSPRITE, APDownloadIcon_m)
+!define APDownloadIcon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDownloadIconSPRITE, DownloadIcon)
+!define APDownloadIcon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDownloadIconSPRITE, DownloadIcon)
 

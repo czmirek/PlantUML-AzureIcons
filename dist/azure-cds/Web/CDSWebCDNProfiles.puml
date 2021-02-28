@@ -5,9 +5,9 @@ EkgPnrPkL1GJ4dtmIcIDedidWWFIzPyGd67HGyBufuPX-
 }
 
 AzureEntityColoring(CDSWebCDNProfiles)
-!define CDSWebCDNProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, CDSWebCDNProfiles)
-!define CDSWebCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, CDSWebCDNProfiles)
+!define CDSWebCDNProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, WebCDNProfiles)
+!define CDSWebCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, WebCDNProfiles)
 AzureEntityColoring(CDSWebCDNProfiles_m)
-!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, CDSWebCDNProfiles_m)
-!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, CDSWebCDNProfiles_m)
+!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, WebCDNProfiles)
+!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, WebCDNProfiles)
 

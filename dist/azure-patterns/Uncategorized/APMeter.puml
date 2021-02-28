@@ -6,9 +6,9 @@ JgbnP7rEiMFe7Xc_H6nc7LDrIXpHZ8uXN7Gx9OuKUdzWreEET4J7w46IZkZBa1wKZzYJzA1aH4-IvxCK
 }
 
 AzureEntityColoring(APMeter)
-!define APMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMeter_tbg.png, APMeter)
-!define APMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMeter_tbg.png, APMeter)
+!define APMeter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMeter_tbg.png, Meter)
+!define APMeter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMeter_tbg.png, Meter)
 AzureEntityColoring(APMeter_m)
-!define APMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMeterSPRITE, APMeter_m)
-!define APMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMeterSPRITE, APMeter_m)
+!define APMeter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMeterSPRITE, Meter)
+!define APMeter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMeterSPRITE, Meter)
 

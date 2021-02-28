@@ -7,9 +7,9 @@ z9VhqmrLfqQ3K5ZRY9j8VM6246eKdbfm8e-iHijYdRPxOQYq_kQHhbSUiRlrOgg9JTS-na7A3nBrC8vY
 }
 
 AzureEntityColoring(APSearchBarGraphAlt)
-!define APSearchBarGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchBarGraphAlt_tbg.png, APSearchBarGraphAlt)
-!define APSearchBarGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchBarGraphAlt_tbg.png, APSearchBarGraphAlt)
+!define APSearchBarGraphAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchBarGraphAlt_tbg.png, SearchBarGrhAlt)
+!define APSearchBarGraphAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchBarGraphAlt_tbg.png, SearchBarGrhAlt)
 AzureEntityColoring(APSearchBarGraphAlt_m)
-!define APSearchBarGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchBarGraphAltSPRITE, APSearchBarGraphAlt_m)
-!define APSearchBarGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchBarGraphAltSPRITE, APSearchBarGraphAlt_m)
+!define APSearchBarGraphAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchBarGraphAltSPRITE, SearchBarGrhAlt)
+!define APSearchBarGraphAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchBarGraphAltSPRITE, SearchBarGrhAlt)
 

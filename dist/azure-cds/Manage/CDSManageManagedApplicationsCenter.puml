@@ -9,9 +9,9 @@ QcWwHPsXLq5o45cgFsJ7qBoMYL8YaYd43i381mOpQB_zQ9mP9_ug-Y4HMnY0deKpH4nNqY7VVFCB
 }
 
 AzureEntityColoring(CDSManageManagedApplicationsCenter)
-!define CDSManageManagedApplicationsCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageManagedApplicationsCenter_tbg.png, CDSManageManagedApplicationsCenter)
-!define CDSManageManagedApplicationsCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageManagedApplicationsCenter_tbg.png, CDSManageManagedApplicationsCenter)
+!define CDSManageManagedApplicationsCenter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageManagedApplicationsCenter_tbg.png, ManageManagedApplicationsCenter)
+!define CDSManageManagedApplicationsCenter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageManagedApplicationsCenter_tbg.png, ManageManagedApplicationsCenter)
 AzureEntityColoring(CDSManageManagedApplicationsCenter_m)
-!define CDSManageManagedApplicationsCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageManagedApplicationsCenterSPRITE, CDSManageManagedApplicationsCenter_m)
-!define CDSManageManagedApplicationsCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageManagedApplicationsCenterSPRITE, CDSManageManagedApplicationsCenter_m)
+!define CDSManageManagedApplicationsCenter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageManagedApplicationsCenterSPRITE, ManageManagedApplicationsCenter)
+!define CDSManageManagedApplicationsCenter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageManagedApplicationsCenterSPRITE, ManageManagedApplicationsCenter)
 

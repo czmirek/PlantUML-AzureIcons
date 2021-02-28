@@ -8,9 +8,9 @@ OwPZYvAynyE5yErZkaN3L3MPfyGuLLMcmT8Yecag2YUnorEO_xq6V5LuRwdo2cMMDvGkQIelIQLakSS_
 }
 
 AzureEntityColoring(APGraphVisualization)
-!define APGraphVisualization(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, APGraphVisualization)
-!define APGraphVisualization(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, APGraphVisualization)
+!define APGraphVisualization(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, GrhVisualization)
+!define APGraphVisualization(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphVisualization_tbg.png, GrhVisualization)
 AzureEntityColoring(APGraphVisualization_m)
-!define APGraphVisualization_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, APGraphVisualization_m)
-!define APGraphVisualization_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, APGraphVisualization_m)
+!define APGraphVisualization_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, GrhVisualization)
+!define APGraphVisualization_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphVisualizationSPRITE, GrhVisualization)
 

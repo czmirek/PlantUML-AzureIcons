@@ -4,9 +4,9 @@ bQjqOcE3dQiCY4y3V4h5qazaCSu-aHXC7sxGP4M16Tyy_x-0gQu3z6Hb4SuGrp-qgv6blB4c6HuHaQ4w
 }
 
 AzureEntityColoring(APBingImageSearchApi)
-!define APBingImageSearchApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBingImageSearchApi_tbg.png, APBingImageSearchApi)
-!define APBingImageSearchApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBingImageSearchApi_tbg.png, APBingImageSearchApi)
+!define APBingImageSearchApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBingImageSearchApi_tbg.png, BingImageSearchi)
+!define APBingImageSearchApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBingImageSearchApi_tbg.png, BingImageSearchi)
 AzureEntityColoring(APBingImageSearchApi_m)
-!define APBingImageSearchApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBingImageSearchApiSPRITE, APBingImageSearchApi_m)
-!define APBingImageSearchApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBingImageSearchApiSPRITE, APBingImageSearchApi_m)
+!define APBingImageSearchApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBingImageSearchApiSPRITE, BingImageSearchi)
+!define APBingImageSearchApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBingImageSearchApiSPRITE, BingImageSearchi)
 

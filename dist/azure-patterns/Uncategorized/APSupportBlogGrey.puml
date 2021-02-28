@@ -1,9 +1,9 @@
 sprite $APSupportBlogGreySPRITE [70x70/16z] xTM30S1044JHYT5_lx5j_bV0OHa-7hG2u1n1uH4CJXbaE4VGhu6H9cUMgPAnewUTPQTmYjDGdB8XHseeJj4AZpc5KpXbVmTSqDESSimcqGf0-7Y80G
 
 AzureEntityColoring(APSupportBlogGrey)
-!define APSupportBlogGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSupportBlogGrey_tbg.png, APSupportBlogGrey)
-!define APSupportBlogGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSupportBlogGrey_tbg.png, APSupportBlogGrey)
+!define APSupportBlogGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSupportBlogGrey_tbg.png, SupportBlogGrey)
+!define APSupportBlogGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSupportBlogGrey_tbg.png, SupportBlogGrey)
 AzureEntityColoring(APSupportBlogGrey_m)
-!define APSupportBlogGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSupportBlogGreySPRITE, APSupportBlogGrey_m)
-!define APSupportBlogGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSupportBlogGreySPRITE, APSupportBlogGrey_m)
+!define APSupportBlogGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSupportBlogGreySPRITE, SupportBlogGrey)
+!define APSupportBlogGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSupportBlogGreySPRITE, SupportBlogGrey)
 

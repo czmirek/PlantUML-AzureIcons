@@ -9,9 +9,9 @@ J3RKKBnDyPTUIOGaAWLbznpU67O_ZvzFdnC2VaFTv1YBY90y6gW3f9fJUQmygWVImns3kxzylMlGycq5
 }
 
 AzureEntityColoring(CDSIntegrationIntegrationServiceEnvironments)
-!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, CDSIntegrationIntegrationServiceEnvironments)
-!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, CDSIntegrationIntegrationServiceEnvironments)
+!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, IntegrationIntegrationServiceEnvironments)
+!define CDSIntegrationIntegrationServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationIntegrationServiceEnvironments_tbg.png, IntegrationIntegrationServiceEnvironments)
 AzureEntityColoring(CDSIntegrationIntegrationServiceEnvironments_m)
-!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, CDSIntegrationIntegrationServiceEnvironments_m)
-!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, CDSIntegrationIntegrationServiceEnvironments_m)
+!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, IntegrationIntegrationServiceEnvironments)
+!define CDSIntegrationIntegrationServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationIntegrationServiceEnvironmentsSPRITE, IntegrationIntegrationServiceEnvironments)
 

@@ -9,9 +9,9 @@ qoRoSI_q5_m
 }
 
 AzureEntityColoring(APSecurity06)
-!define APSecurity06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecurity06_tbg.png, APSecurity06)
-!define APSecurity06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecurity06_tbg.png, APSecurity06)
+!define APSecurity06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecurity06_tbg.png, Security06)
+!define APSecurity06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecurity06_tbg.png, Security06)
 AzureEntityColoring(APSecurity06_m)
-!define APSecurity06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecurity06SPRITE, APSecurity06_m)
-!define APSecurity06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecurity06SPRITE, APSecurity06_m)
+!define APSecurity06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecurity06SPRITE, Security06)
+!define APSecurity06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecurity06SPRITE, Security06)
 

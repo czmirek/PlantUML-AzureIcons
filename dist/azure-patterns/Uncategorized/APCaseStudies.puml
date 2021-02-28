@@ -9,9 +9,9 @@ Zc5SxZnoPpQweBm3fV4DNkl8iXKZtXqUEhj37x5A4LNOxrJpvH9Ti-ntpIshyWR5JVbM2hWfkvJSb7rA
 }
 
 AzureEntityColoring(APCaseStudies)
-!define APCaseStudies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCaseStudies_tbg.png, APCaseStudies)
-!define APCaseStudies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCaseStudies_tbg.png, APCaseStudies)
+!define APCaseStudies(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCaseStudies_tbg.png, CaseStudies)
+!define APCaseStudies(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCaseStudies_tbg.png, CaseStudies)
 AzureEntityColoring(APCaseStudies_m)
-!define APCaseStudies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCaseStudiesSPRITE, APCaseStudies_m)
-!define APCaseStudies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCaseStudiesSPRITE, APCaseStudies_m)
+!define APCaseStudies_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCaseStudiesSPRITE, CaseStudies)
+!define APCaseStudies_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCaseStudiesSPRITE, CaseStudies)
 

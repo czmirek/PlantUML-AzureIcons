@@ -1,9 +1,9 @@
 sprite $APAzureStackHciSPRITE [70x70/16z] xTAr0K0X54FHV6N_ZQbfSEUU0Pv63W00y4LHm1lZtxKALQXYOZoQMFsDo0jLgF95qN7U2AIEAbJfmG8
 
 AzureEntityColoring(APAzureStackHci)
-!define APAzureStackHci(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureStackHci_tbg.png, APAzureStackHci)
-!define APAzureStackHci(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureStackHci_tbg.png, APAzureStackHci)
+!define APAzureStackHci(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureStackHci_tbg.png, AzureStackHci)
+!define APAzureStackHci(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureStackHci_tbg.png, AzureStackHci)
 AzureEntityColoring(APAzureStackHci_m)
-!define APAzureStackHci_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureStackHciSPRITE, APAzureStackHci_m)
-!define APAzureStackHci_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureStackHciSPRITE, APAzureStackHci_m)
+!define APAzureStackHci_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureStackHciSPRITE, AzureStackHci)
+!define APAzureStackHci_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureStackHciSPRITE, AzureStackHci)
 

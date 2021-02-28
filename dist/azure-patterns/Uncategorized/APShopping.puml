@@ -5,9 +5,9 @@ AQqbM6nZubLPsj8rLhBhg9X5iKixDRjWioq4b6cUUbd8iEx2XVfcS0xUh-7euit-SavXZIlaS3IF
 }
 
 AzureEntityColoring(APShopping)
-!define APShopping(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShopping_tbg.png, APShopping)
-!define APShopping(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShopping_tbg.png, APShopping)
+!define APShopping(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APShopping_tbg.png, Shopping)
+!define APShopping(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APShopping_tbg.png, Shopping)
 AzureEntityColoring(APShopping_m)
-!define APShopping_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShoppingSPRITE, APShopping_m)
-!define APShopping_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShoppingSPRITE, APShopping_m)
+!define APShopping_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShoppingSPRITE, Shopping)
+!define APShopping_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShoppingSPRITE, Shopping)
 

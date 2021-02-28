@@ -8,9 +8,9 @@ dczSqZnUbiS52P_lyBn5OT7li-ICVbjrSwT_uwqBAB7y6Zu3
 }
 
 AzureEntityColoring(APBiztalkServices)
-!define APBiztalkServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBiztalkServices_tbg.png, APBiztalkServices)
-!define APBiztalkServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBiztalkServices_tbg.png, APBiztalkServices)
+!define APBiztalkServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBiztalkServices_tbg.png, BiztalkServices)
+!define APBiztalkServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBiztalkServices_tbg.png, BiztalkServices)
 AzureEntityColoring(APBiztalkServices_m)
-!define APBiztalkServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBiztalkServicesSPRITE, APBiztalkServices_m)
-!define APBiztalkServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBiztalkServicesSPRITE, APBiztalkServices_m)
+!define APBiztalkServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBiztalkServicesSPRITE, BiztalkServices)
+!define APBiztalkServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBiztalkServicesSPRITE, BiztalkServices)
 

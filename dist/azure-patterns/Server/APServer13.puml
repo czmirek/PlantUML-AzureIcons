@@ -7,9 +7,9 @@ VOz9N58aXeXBG1WZSpNE2uW8x-GUaxcjY31eFDbLi4AogcB1s5N5vuzZRVxg0_UqJ6vrHhZwaSnEbW4Y
 }
 
 AzureEntityColoring(APServer13)
-!define APServer13(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer13_tbg.png, APServer13)
-!define APServer13(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer13_tbg.png, APServer13)
+!define APServer13(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer13_tbg.png, Server13)
+!define APServer13(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer13_tbg.png, Server13)
 AzureEntityColoring(APServer13_m)
-!define APServer13_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer13SPRITE, APServer13_m)
-!define APServer13_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer13SPRITE, APServer13_m)
+!define APServer13_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer13SPRITE, Server13)
+!define APServer13_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer13SPRITE, Server13)
 

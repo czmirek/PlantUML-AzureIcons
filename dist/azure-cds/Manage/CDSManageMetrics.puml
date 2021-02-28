@@ -7,9 +7,9 @@ iOFAjVaPbN-LVvL_bNyLcYDUoiLLlDIhcyBVlvmx
 }
 
 AzureEntityColoring(CDSManageMetrics)
-!define CDSManageMetrics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageMetrics_tbg.png, CDSManageMetrics)
-!define CDSManageMetrics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageMetrics_tbg.png, CDSManageMetrics)
+!define CDSManageMetrics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageMetrics_tbg.png, ManageMetrics)
+!define CDSManageMetrics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageMetrics_tbg.png, ManageMetrics)
 AzureEntityColoring(CDSManageMetrics_m)
-!define CDSManageMetrics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageMetricsSPRITE, CDSManageMetrics_m)
-!define CDSManageMetrics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageMetricsSPRITE, CDSManageMetrics_m)
+!define CDSManageMetrics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageMetricsSPRITE, ManageMetrics)
+!define CDSManageMetrics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageMetricsSPRITE, ManageMetrics)
 

@@ -7,9 +7,9 @@ MJCmUcXaxj2OYKwcOu_fmyjhXfEThgPPsgbtrWoyvmWpRtiOZOnH5smopGuNPub5JRlxhMJWyaHHdJ0b
 }
 
 AzureEntityColoring(APHybridInfrastructures)
-!define APHybridInfrastructures(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybridInfrastructures_tbg.png, APHybridInfrastructures)
-!define APHybridInfrastructures(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybridInfrastructures_tbg.png, APHybridInfrastructures)
+!define APHybridInfrastructures(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHybridInfrastructures_tbg.png, HybridInfrastructures)
+!define APHybridInfrastructures(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHybridInfrastructures_tbg.png, HybridInfrastructures)
 AzureEntityColoring(APHybridInfrastructures_m)
-!define APHybridInfrastructures_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridInfrastructuresSPRITE, APHybridInfrastructures_m)
-!define APHybridInfrastructures_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridInfrastructuresSPRITE, APHybridInfrastructures_m)
+!define APHybridInfrastructures_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridInfrastructuresSPRITE, HybridInfrastructures)
+!define APHybridInfrastructures_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridInfrastructuresSPRITE, HybridInfrastructures)
 

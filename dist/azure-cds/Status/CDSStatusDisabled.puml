@@ -6,9 +6,9 @@ m4my7hGedfpmKnpzH4aptVe6
 }
 
 AzureEntityColoring(CDSStatusDisabled)
-!define CDSStatusDisabled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusDisabled_tbg.png, CDSStatusDisabled)
-!define CDSStatusDisabled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusDisabled_tbg.png, CDSStatusDisabled)
+!define CDSStatusDisabled(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusDisabled_tbg.png, StatusDisabled)
+!define CDSStatusDisabled(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusDisabled_tbg.png, StatusDisabled)
 AzureEntityColoring(CDSStatusDisabled_m)
-!define CDSStatusDisabled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusDisabledSPRITE, CDSStatusDisabled_m)
-!define CDSStatusDisabled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusDisabledSPRITE, CDSStatusDisabled_m)
+!define CDSStatusDisabled_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusDisabledSPRITE, StatusDisabled)
+!define CDSStatusDisabled_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusDisabledSPRITE, StatusDisabled)
 

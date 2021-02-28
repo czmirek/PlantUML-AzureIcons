@@ -8,9 +8,9 @@ drXRx9ubI2ni494QksSNP8-EkoSHP9Sn4MJtIHD1Djih6-J-x4UY8wWkGOxWTXXa_UeHv1miBmHv1m
 }
 
 AzureEntityColoring(CDSDatabasesAzureSynapse)
-!define CDSDatabasesAzureSynapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSynapse_tbg.png, CDSDatabasesAzureSynapse)
-!define CDSDatabasesAzureSynapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSynapse_tbg.png, CDSDatabasesAzureSynapse)
+!define CDSDatabasesAzureSynapse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSynapse_tbg.png, DatabasesAzureSynapse)
+!define CDSDatabasesAzureSynapse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSynapse_tbg.png, DatabasesAzureSynapse)
 AzureEntityColoring(CDSDatabasesAzureSynapse_m)
-!define CDSDatabasesAzureSynapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSynapseSPRITE, CDSDatabasesAzureSynapse_m)
-!define CDSDatabasesAzureSynapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSynapseSPRITE, CDSDatabasesAzureSynapse_m)
+!define CDSDatabasesAzureSynapse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSynapseSPRITE, DatabasesAzureSynapse)
+!define CDSDatabasesAzureSynapse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSynapseSPRITE, DatabasesAzureSynapse)
 

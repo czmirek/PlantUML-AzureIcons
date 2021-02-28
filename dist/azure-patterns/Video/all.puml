@@ -4,11 +4,11 @@ OR-odB5ptChATWv6OSGNuVykVgJZPztE-8pLsEGpTgckdx5xctx0gPOAzaO6w8AIYXWWeS2o0Ma6bcq
 }
 
 AzureEntityColoring(APVideo)
-!define APVideo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo_tbg.png, APVideo)
-!define APVideo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo_tbg.png, APVideo)
+!define APVideo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo_tbg.png, Video)
+!define APVideo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo_tbg.png, Video)
 AzureEntityColoring(APVideo_m)
-!define APVideo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoSPRITE, APVideo_m)
-!define APVideo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoSPRITE, APVideo_m)
+!define APVideo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoSPRITE, Video)
+!define APVideo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoSPRITE, Video)
 
 sprite $APVideo01SPRITE [70x70/16z] {
 xPD74iD020GtWDB__-k4BqvJxPpeArDGqoijNq6I9FFo27nun1ut6n-onNnwn1QpUskv1UCZjkXQV8kknRUOp_TikL-DYpuS5suvBifmN9JXk7WPpZ0kVqYI
@@ -17,11 +17,11 @@ VqnI8HRF_NAt-YPtg-DjHosG6lcoPmq
 }
 
 AzureEntityColoring(APVideo01)
-!define APVideo01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo01_tbg.png, APVideo01)
-!define APVideo01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo01_tbg.png, APVideo01)
+!define APVideo01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo01_tbg.png, Video01)
+!define APVideo01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo01_tbg.png, Video01)
 AzureEntityColoring(APVideo01_m)
-!define APVideo01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo01SPRITE, APVideo01_m)
-!define APVideo01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo01SPRITE, APVideo01_m)
+!define APVideo01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo01SPRITE, Video01)
+!define APVideo01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo01SPRITE, Video01)
 
 sprite $APVideo02SPRITE [70x70/16z] {
 xTK5biCm30HG9qzy_mDlkLEkP2_xFoneF0ws9wQrh1snHGVZPPEnM7JoJOn5DsiS0v3703eanUC7cYQpwEFAjCFgvGmX8BKSsxSGLTatqiZJtQ0VjrQBqQjD
@@ -30,11 +30,11 @@ kVtI8aDkOvpX-g_6E2VsWqCaVl70P8ZDj25Hsr2flqkKBcZdgn7UAJLkkc4UVzCqMGpW4WF8uj5lRHpT
 }
 
 AzureEntityColoring(APVideo02)
-!define APVideo02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo02_tbg.png, APVideo02)
-!define APVideo02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo02_tbg.png, APVideo02)
+!define APVideo02(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo02_tbg.png, Video02)
+!define APVideo02(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo02_tbg.png, Video02)
 AzureEntityColoring(APVideo02_m)
-!define APVideo02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo02SPRITE, APVideo02_m)
-!define APVideo02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo02SPRITE, APVideo02_m)
+!define APVideo02_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo02SPRITE, Video02)
+!define APVideo02_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo02SPRITE, Video02)
 
 sprite $APVideo03SPRITE [70x70/16z] {
 hPY7iUKm30D5YMBgl-3x4r-68VEsW1qQT80yVYDBpIEhCjnqoJX7FUkDT3rIBClwIjga7L60MBoZvn4h0XCyI1P5ed5sqUoV4gy3_4SaKKU4V9DaLLyJTKo0
@@ -45,11 +45,11 @@ l9ZX7m
 }
 
 AzureEntityColoring(APVideo03)
-!define APVideo03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo03_tbg.png, APVideo03)
-!define APVideo03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo03_tbg.png, APVideo03)
+!define APVideo03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo03_tbg.png, Video03)
+!define APVideo03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo03_tbg.png, Video03)
 AzureEntityColoring(APVideo03_m)
-!define APVideo03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo03SPRITE, APVideo03_m)
-!define APVideo03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo03SPRITE, APVideo03_m)
+!define APVideo03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo03SPRITE, Video03)
+!define APVideo03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo03SPRITE, Video03)
 
 sprite $APVideo04SPRITE [70x70/16z] {
 xTI5SSKm44LHmtB__OQp5ixy5mRT0evOsx_eOAnZg71WyNSgIrdAVcIajsMzSX8SVwUobANiWIT_I5cAcvc_Jr6XvqJVh1ZJ5TlR5AKwVOiYr2QuejIdg68q
@@ -58,11 +58,11 @@ oa25wJbdAc9CoQb4QEaOfCYbX2jb0YbKA16UA2EAfz9UG4InLDgJju5oRjbCoPnHnLibr-I04gsI-nk8
 }
 
 AzureEntityColoring(APVideo04)
-!define APVideo04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo04_tbg.png, APVideo04)
-!define APVideo04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo04_tbg.png, APVideo04)
+!define APVideo04(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo04_tbg.png, Video04)
+!define APVideo04(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo04_tbg.png, Video04)
 AzureEntityColoring(APVideo04_m)
-!define APVideo04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo04SPRITE, APVideo04_m)
-!define APVideo04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo04SPRITE, APVideo04_m)
+!define APVideo04_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo04SPRITE, Video04)
+!define APVideo04_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo04SPRITE, Video04)
 
 sprite $APVideo05SPRITE [70x70/16z] {
 xT0reWC020FGBy5o__j-gNUfXJflOi7oyIR6TmkqyNJ08cnLNiJ80f8CWAJrJ14_MfLt4otu7iOObUo0O0E35MKE8AaA_77rdCGV_IiiXHel6ivnhAKOxugB
@@ -70,11 +70,11 @@ ySfV5LQqaB77IuftnKAFDqgDrvE2ma9HqpA41Y2eYeuXJ3XrvJnkZF7LukDDZ5y
 }
 
 AzureEntityColoring(APVideo05)
-!define APVideo05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo05_tbg.png, APVideo05)
-!define APVideo05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo05_tbg.png, APVideo05)
+!define APVideo05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo05_tbg.png, Video05)
+!define APVideo05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo05_tbg.png, Video05)
 AzureEntityColoring(APVideo05_m)
-!define APVideo05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo05SPRITE, APVideo05_m)
-!define APVideo05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo05SPRITE, APVideo05_m)
+!define APVideo05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo05SPRITE, Video05)
+!define APVideo05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo05SPRITE, Video05)
 
 sprite $APVideo06SPRITE [70x70/16z] {
 xTA72GHH30DHmW-o--_tmgg4CMdHAq0msFqc4H5HFK5RpMcjKnChQzsHbKMpjEmKNR5RUCLPTCLsyHLduHLdyHLdyHLdqHNJnCfjldAgmGeuac2C2SQOuAUO
@@ -82,11 +82,11 @@ O8m9nfXWZ0d6c1m3oJ5GtNwtY8ZO8xu
 }
 
 AzureEntityColoring(APVideo06)
-!define APVideo06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo06_tbg.png, APVideo06)
-!define APVideo06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo06_tbg.png, APVideo06)
+!define APVideo06(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo06_tbg.png, Video06)
+!define APVideo06(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo06_tbg.png, Video06)
 AzureEntityColoring(APVideo06_m)
-!define APVideo06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo06SPRITE, APVideo06_m)
-!define APVideo06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo06SPRITE, APVideo06_m)
+!define APVideo06_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo06SPRITE, Video06)
+!define APVideo06_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo06SPRITE, Video06)
 
 sprite $APVideo07SPRITE [70x70/16z] {
 xTG5LW0n38JXf9wv_trno6FJmLQmVi-HV-joZIKbOJIfV41kXdkjn48Tk3TgUcSK0oziqwbmNOKhUAM9q_k-ionCmyRmY663PJBSTZG3WSgCOgBuACb0Dpec
@@ -96,11 +96,11 @@ dNqLx-ohU4V-YUKM
 }
 
 AzureEntityColoring(APVideo07)
-!define APVideo07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo07_tbg.png, APVideo07)
-!define APVideo07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo07_tbg.png, APVideo07)
+!define APVideo07(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo07_tbg.png, Video07)
+!define APVideo07(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo07_tbg.png, Video07)
 AzureEntityColoring(APVideo07_m)
-!define APVideo07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo07SPRITE, APVideo07_m)
-!define APVideo07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo07SPRITE, APVideo07_m)
+!define APVideo07_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo07SPRITE, Video07)
+!define APVideo07_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo07SPRITE, Video07)
 
 sprite $APVideo08SPRITE [70x70/16z] {
 lTS7ilGW201WgYZtl-_VIuWOPIVplcclx3A8sE09gvd_CAmfmITGkaUDop6Q9uP2HVE58N1AXb_q7d_5Jn9H4R6G3iE1MDGkFtdGO0U71vP4yLR89EHI2jFz
@@ -111,11 +111,11 @@ k-RIdWGPwVi6fZYh79CciQFdX6ON-Dzi-1qkor8XXRsblBB9ImQan6kmM9OS5yfIB0nvKI-KfLWOyoek
 }
 
 AzureEntityColoring(APVideo08)
-!define APVideo08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo08_tbg.png, APVideo08)
-!define APVideo08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo08_tbg.png, APVideo08)
+!define APVideo08(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo08_tbg.png, Video08)
+!define APVideo08(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo08_tbg.png, Video08)
 AzureEntityColoring(APVideo08_m)
-!define APVideo08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo08SPRITE, APVideo08_m)
-!define APVideo08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo08SPRITE, APVideo08_m)
+!define APVideo08_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo08SPRITE, Video08)
+!define APVideo08_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo08SPRITE, Video08)
 
 sprite $APVideo09SPRITE [70x70/16z] {
 xTO54iCW48LXvArn__jMjmupB1cf_IDLldX2ckzVLMkJcPG1WXQgTf7SObbWLQ8hmr65lbx9vH39H6eZfI2IzfM2MDPL44nwIaOmcb7-2iandKb6IjOMoAYl
@@ -125,11 +125,11 @@ D8PewfObXEGqg80cGqqVshyz
 }
 
 AzureEntityColoring(APVideo09)
-!define APVideo09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo09_tbg.png, APVideo09)
-!define APVideo09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo09_tbg.png, APVideo09)
+!define APVideo09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideo09_tbg.png, Video09)
+!define APVideo09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideo09_tbg.png, Video09)
 AzureEntityColoring(APVideo09_m)
-!define APVideo09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo09SPRITE, APVideo09_m)
-!define APVideo09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo09SPRITE, APVideo09_m)
+!define APVideo09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo09SPRITE, Video09)
+!define APVideo09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo09SPRITE, Video09)
 
 sprite $APVideoAltDarkSPRITE [70x70/16z] {
 xTI73GCn3CNGz491klstpGPfHpJZlm7exijodi-hK86RKBa_hfUrt1IR828YXbOgC4g5KYhGIWL6gL1A1Lgfm2WLIgb0AvKHAYsig8mp6k6aMxXrPRoZ4LvZ
@@ -137,11 +137,11 @@ xTI73GCn3CNGz491klstpGPfHpJZlm7exijodi-hK86RKBa_hfUrt1IR828YXbOgC4g5KYhGIWL6gL1A
 }
 
 AzureEntityColoring(APVideoAltDark)
-!define APVideoAltDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoAltDark_tbg.png, APVideoAltDark)
-!define APVideoAltDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoAltDark_tbg.png, APVideoAltDark)
+!define APVideoAltDark(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoAltDark_tbg.png, VideoAltDark)
+!define APVideoAltDark(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoAltDark_tbg.png, VideoAltDark)
 AzureEntityColoring(APVideoAltDark_m)
-!define APVideoAltDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoAltDarkSPRITE, APVideoAltDark_m)
-!define APVideoAltDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoAltDarkSPRITE, APVideoAltDark_m)
+!define APVideoAltDark_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoAltDarkSPRITE, VideoAltDark)
+!define APVideoAltDark_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoAltDarkSPRITE, VideoAltDark)
 
 sprite $APVideoBlueSPRITE [70x70/16z] {
 xTQ53S0m34JHWh7xxrlm2lcYwZp0Ky2qCU50xFi5nBckI94YHOgKHXGhH35lGZ7B9XJp8fIv5g3CjG35l01bhWKeSor2CIz0cMi1oboBKCoRK0euImBl4Wty
@@ -149,11 +149,11 @@ KG7vaa3kHWDrL41D9z1Vee5ULq3VJM06p6LMbVhvpY15YXGfKXu
 }
 
 AzureEntityColoring(APVideoBlue)
-!define APVideoBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoBlue_tbg.png, APVideoBlue)
-!define APVideoBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoBlue_tbg.png, APVideoBlue)
+!define APVideoBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoBlue_tbg.png, VideoBlue)
+!define APVideoBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoBlue_tbg.png, VideoBlue)
 AzureEntityColoring(APVideoBlue_m)
-!define APVideoBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoBlueSPRITE, APVideoBlue_m)
-!define APVideoBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoBlueSPRITE, APVideoBlue_m)
+!define APVideoBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoBlueSPRITE, VideoBlue)
+!define APVideoBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoBlueSPRITE, VideoBlue)
 
 sprite $APVideoCameraSPRITE [70x70/16z] {
 xTYr0S0m40H1C_PVhpbr8dpOAs34s0ZA7fyaoYP0aTgYCIBBrwAuZ5zT8XLfTVbNKBe48zqjUvpo9QU2iYPH6eKA2WeA2agRHDa4deqewMzaiRT3xjxoNra9
@@ -161,11 +161,11 @@ Nv_y4CXlqTR8oWa
 }
 
 AzureEntityColoring(APVideoCamera)
-!define APVideoCamera(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoCamera_tbg.png, APVideoCamera)
-!define APVideoCamera(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoCamera_tbg.png, APVideoCamera)
+!define APVideoCamera(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoCamera_tbg.png, VideoCamera)
+!define APVideoCamera(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoCamera_tbg.png, VideoCamera)
 AzureEntityColoring(APVideoCamera_m)
-!define APVideoCamera_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraSPRITE, APVideoCamera_m)
-!define APVideoCamera_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraSPRITE, APVideoCamera_m)
+!define APVideoCamera_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraSPRITE, VideoCamera)
+!define APVideoCamera_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraSPRITE, VideoCamera)
 
 sprite $APVideoCameraBlueSPRITE [70x70/16z] {
 xTLLSWD138HXZJJOzxzlE5dGj4aEx_VQLR-zBB_7mKfjjTWLavCgtjN49pd9i6Qoah4oJBYAhSgd8ap1Nc4H8DF3yOnFAbCTNfSNWqnUnanU3dNFs5_nsid9
@@ -174,11 +174,11 @@ biJ3rLHsBCKhrg71IYe325Qq0WXMh0FHIXb0j581X2kAlrGvAaVbg4YzIqLIZLUMJhGYabgmyaPRhB9q
 }
 
 AzureEntityColoring(APVideoCameraBlue)
-!define APVideoCameraBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, APVideoCameraBlue)
-!define APVideoCameraBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, APVideoCameraBlue)
+!define APVideoCameraBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, VideoCameraBlue)
+!define APVideoCameraBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoCameraBlue_tbg.png, VideoCameraBlue)
 AzureEntityColoring(APVideoCameraBlue_m)
-!define APVideoCameraBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, APVideoCameraBlue_m)
-!define APVideoCameraBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, APVideoCameraBlue_m)
+!define APVideoCameraBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, VideoCameraBlue)
+!define APVideoCameraBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, VideoCameraBlue)
 
 sprite $APVideoIndexerSPRITE [70x70/16z] {
 xPI5aG0W30GJdFHVyC_nxhAyimKiajpPd-TmE7It3KJKBPQOcLl4IDmYcbDB7dfMXHQpkfwLeSMyozETM4GQyZHa4ML6H64MKMFGkmXt4uuiL-Ie6on3eS2M
@@ -187,11 +187,11 @@ EosszEjLrsDBCqvFXZaS3eSB
 }
 
 AzureEntityColoring(APVideoIndexer)
-!define APVideoIndexer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoIndexer_tbg.png, APVideoIndexer)
-!define APVideoIndexer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoIndexer_tbg.png, APVideoIndexer)
+!define APVideoIndexer(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoIndexer_tbg.png, VideoIndexer)
+!define APVideoIndexer(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoIndexer_tbg.png, VideoIndexer)
 AzureEntityColoring(APVideoIndexer_m)
-!define APVideoIndexer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoIndexerSPRITE, APVideoIndexer_m)
-!define APVideoIndexer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoIndexerSPRITE, APVideoIndexer_m)
+!define APVideoIndexer_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoIndexerSPRITE, VideoIndexer)
+!define APVideoIndexer_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoIndexerSPRITE, VideoIndexer)
 
 sprite $APVideoIndexerGraySPRITE [70x70/16z] {
 xTW5ZiH044FHjll-Prwsl3pmfGcMS21FAJSfqNml3rAQAK55VcCif8pSaPaoXjCMKaRR8ahROahROaeS2objYobrcD9ua99HDrBojO2IibakgSSffp8DbSnd
@@ -200,11 +200,11 @@ HrxYMOtjxb7OxXu5DLC5D5C5DLEbXfT-_z90bdqlzGm
 }
 
 AzureEntityColoring(APVideoIndexerGray)
-!define APVideoIndexerGray(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoIndexerGray_tbg.png, APVideoIndexerGray)
-!define APVideoIndexerGray(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoIndexerGray_tbg.png, APVideoIndexerGray)
+!define APVideoIndexerGray(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideoIndexerGray_tbg.png, VideoIndexerGray)
+!define APVideoIndexerGray(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideoIndexerGray_tbg.png, VideoIndexerGray)
 AzureEntityColoring(APVideoIndexerGray_m)
-!define APVideoIndexerGray_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoIndexerGraySPRITE, APVideoIndexerGray_m)
-!define APVideoIndexerGray_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoIndexerGraySPRITE, APVideoIndexerGray_m)
+!define APVideoIndexerGray_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoIndexerGraySPRITE, VideoIndexerGray)
+!define APVideoIndexerGray_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoIndexerGraySPRITE, VideoIndexerGray)
 
 sprite $APVideosSPRITE [70x70/16z] {
 xTR50SCm50HHCqF_rORfb56S_Jhj5F0CmZqmjqWg0dEDed9Nr5dveip3qUOFfI-Erl-kM2axXLBjMwTGzeiZKC19LjXXvT7QAPIBq_wbBF0-g9JxfReQyNtu
@@ -212,11 +212,11 @@ NUgB1awQ0awY0av61OnSVrStqWiOwXMWNutwdG6Ch3ic6BbE4euLAveRMVmTqqgZg2m2SukaFJ1t1W
 }
 
 AzureEntityColoring(APVideos)
-!define APVideos(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideos_tbg.png, APVideos)
-!define APVideos(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideos_tbg.png, APVideos)
+!define APVideos(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideos_tbg.png, Videos)
+!define APVideos(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideos_tbg.png, Videos)
 AzureEntityColoring(APVideos_m)
-!define APVideos_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideosSPRITE, APVideos_m)
-!define APVideos_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideosSPRITE, APVideos_m)
+!define APVideos_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideosSPRITE, Videos)
+!define APVideos_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideosSPRITE, Videos)
 
 sprite $APVideosAltSPRITE [70x70/16z] {
 vPU5WIKW30MH5-s_txjrtmJuMPy21esrFyK0YTeLAeHnOkWa_WAXlgU0-fie-hA3pT_5UCq3yn33maRKKoJRpZHVm6Oe4Lz40WdxCbmW2JJiMz2R4dA_N3Dz
@@ -226,10 +226,10 @@ PkABwN8sVTPFmlbKxjpRAlIEnwXjCUMD-vXjdm5Mkzk3CaRxI_m7
 }
 
 AzureEntityColoring(APVideosAlt)
-!define APVideosAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideosAlt_tbg.png, APVideosAlt)
-!define APVideosAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideosAlt_tbg.png, APVideosAlt)
+!define APVideosAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APVideosAlt_tbg.png, VideosAlt)
+!define APVideosAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APVideosAlt_tbg.png, VideosAlt)
 AzureEntityColoring(APVideosAlt_m)
-!define APVideosAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideosAltSPRITE, APVideosAlt_m)
-!define APVideosAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideosAltSPRITE, APVideosAlt_m)
+!define APVideosAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideosAltSPRITE, VideosAlt)
+!define APVideosAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideosAltSPRITE, VideosAlt)
 
 

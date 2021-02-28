@@ -8,9 +8,9 @@ DWio3AWtibg1d-sjlAZWvjon0UwuGMRMhzQ63Tl1Hkln_ap-ymC
 }
 
 AzureEntityColoring(APCheckmark09)
-!define APCheckmark09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckmark09_tbg.png, APCheckmark09)
-!define APCheckmark09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckmark09_tbg.png, APCheckmark09)
+!define APCheckmark09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckmark09_tbg.png, Checkmark09)
+!define APCheckmark09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckmark09_tbg.png, Checkmark09)
 AzureEntityColoring(APCheckmark09_m)
-!define APCheckmark09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckmark09SPRITE, APCheckmark09_m)
-!define APCheckmark09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckmark09SPRITE, APCheckmark09_m)
+!define APCheckmark09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckmark09SPRITE, Checkmark09)
+!define APCheckmark09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckmark09SPRITE, Checkmark09)
 

@@ -9,9 +9,9 @@ VZVj7jxjeN1TxDCiEy9gN0bf_hXmwn_S4xnSXrHWCRJiWpemIeKM2urAX-JeXIJSFeK7yBulGDZNwFVe
 }
 
 AzureEntityColoring(CDSIotDeviceProvisioningServices)
-!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, CDSIotDeviceProvisioningServices)
-!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, CDSIotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, IotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDeviceProvisioningServices_tbg.png, IotDeviceProvisioningServices)
 AzureEntityColoring(CDSIotDeviceProvisioningServices_m)
-!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, CDSIotDeviceProvisioningServices_m)
-!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, CDSIotDeviceProvisioningServices_m)
+!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, IotDeviceProvisioningServices)
+!define CDSIotDeviceProvisioningServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDeviceProvisioningServicesSPRITE, IotDeviceProvisioningServices)
 

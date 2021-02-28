@@ -7,9 +7,9 @@ mmd9Uf8G2iEAa4y
 }
 
 AzureEntityColoring(APGovernance)
-!define APGovernance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGovernance_tbg.png, APGovernance)
-!define APGovernance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGovernance_tbg.png, APGovernance)
+!define APGovernance(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGovernance_tbg.png, Governance)
+!define APGovernance(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGovernance_tbg.png, Governance)
 AzureEntityColoring(APGovernance_m)
-!define APGovernance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGovernanceSPRITE, APGovernance_m)
-!define APGovernance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGovernanceSPRITE, APGovernance_m)
+!define APGovernance_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGovernanceSPRITE, Governance)
+!define APGovernance_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGovernanceSPRITE, Governance)
 

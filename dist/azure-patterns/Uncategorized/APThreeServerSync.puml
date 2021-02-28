@@ -7,9 +7,9 @@ L8kgFN6WpAT8xudHbG8WJQUazfEW6mpeR8htyZDT6s_ERYW1IdTAUnTDwDCPK5fN2jsBMkdX36XjCO3k
 }
 
 AzureEntityColoring(APThreeServerSync)
-!define APThreeServerSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeServerSync_tbg.png, APThreeServerSync)
-!define APThreeServerSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeServerSync_tbg.png, APThreeServerSync)
+!define APThreeServerSync(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APThreeServerSync_tbg.png, ThreeServerSync)
+!define APThreeServerSync(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APThreeServerSync_tbg.png, ThreeServerSync)
 AzureEntityColoring(APThreeServerSync_m)
-!define APThreeServerSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeServerSyncSPRITE, APThreeServerSync_m)
-!define APThreeServerSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeServerSyncSPRITE, APThreeServerSync_m)
+!define APThreeServerSync_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeServerSyncSPRITE, ThreeServerSync)
+!define APThreeServerSync_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeServerSyncSPRITE, ThreeServerSync)
 

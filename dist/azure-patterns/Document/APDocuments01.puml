@@ -5,9 +5,9 @@ FogNaUR-8-DjLbulAkeVl7QdWebML9ntHLfnQgVeOWql_DvKuttfVTJRgULjHUzy5igS32Zib41HG-_-
 }
 
 AzureEntityColoring(APDocuments01)
-!define APDocuments01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments01_tbg.png, APDocuments01)
-!define APDocuments01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments01_tbg.png, APDocuments01)
+!define APDocuments01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments01_tbg.png, Documents01)
+!define APDocuments01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments01_tbg.png, Documents01)
 AzureEntityColoring(APDocuments01_m)
-!define APDocuments01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments01SPRITE, APDocuments01_m)
-!define APDocuments01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments01SPRITE, APDocuments01_m)
+!define APDocuments01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments01SPRITE, Documents01)
+!define APDocuments01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments01SPRITE, Documents01)
 

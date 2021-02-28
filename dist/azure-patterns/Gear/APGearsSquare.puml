@@ -8,9 +8,9 @@ islt5OTqVo3_cEKJ
 }
 
 AzureEntityColoring(APGearsSquare)
-!define APGearsSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGearsSquare_tbg.png, APGearsSquare)
-!define APGearsSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGearsSquare_tbg.png, APGearsSquare)
+!define APGearsSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGearsSquare_tbg.png, GearsSquare)
+!define APGearsSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGearsSquare_tbg.png, GearsSquare)
 AzureEntityColoring(APGearsSquare_m)
-!define APGearsSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGearsSquareSPRITE, APGearsSquare_m)
-!define APGearsSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGearsSquareSPRITE, APGearsSquare_m)
+!define APGearsSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGearsSquareSPRITE, GearsSquare)
+!define APGearsSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGearsSquareSPRITE, GearsSquare)
 

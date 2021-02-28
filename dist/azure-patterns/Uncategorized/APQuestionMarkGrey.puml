@@ -8,9 +8,9 @@ X5DeGhxWkVoGq8Iqc-Ex6lygn3HNwZUa_wuPwqigf39C4dkfDoEhFS9_2sZRfPIhAiCNnYbuOjpD6QDW
 }
 
 AzureEntityColoring(APQuestionMarkGrey)
-!define APQuestionMarkGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQuestionMarkGrey_tbg.png, APQuestionMarkGrey)
-!define APQuestionMarkGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQuestionMarkGrey_tbg.png, APQuestionMarkGrey)
+!define APQuestionMarkGrey(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APQuestionMarkGrey_tbg.png, QuestionMarkGrey)
+!define APQuestionMarkGrey(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APQuestionMarkGrey_tbg.png, QuestionMarkGrey)
 AzureEntityColoring(APQuestionMarkGrey_m)
-!define APQuestionMarkGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQuestionMarkGreySPRITE, APQuestionMarkGrey_m)
-!define APQuestionMarkGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQuestionMarkGreySPRITE, APQuestionMarkGrey_m)
+!define APQuestionMarkGrey_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APQuestionMarkGreySPRITE, QuestionMarkGrey)
+!define APQuestionMarkGrey_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APQuestionMarkGreySPRITE, QuestionMarkGrey)
 

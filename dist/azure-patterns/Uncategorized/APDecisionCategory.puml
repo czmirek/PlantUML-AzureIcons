@@ -10,9 +10,9 @@ JIop7_be9WC_oeyjN3ET-f56HCnd08n4HNH-DYMK0lSZ1GZuqRTlvi5r3Bt5bGQIyg6aUYbCnpB-nNy
 }
 
 AzureEntityColoring(APDecisionCategory)
-!define APDecisionCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDecisionCategory_tbg.png, APDecisionCategory)
-!define APDecisionCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDecisionCategory_tbg.png, APDecisionCategory)
+!define APDecisionCategory(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDecisionCategory_tbg.png, DecisionCategory)
+!define APDecisionCategory(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDecisionCategory_tbg.png, DecisionCategory)
 AzureEntityColoring(APDecisionCategory_m)
-!define APDecisionCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDecisionCategorySPRITE, APDecisionCategory_m)
-!define APDecisionCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDecisionCategorySPRITE, APDecisionCategory_m)
+!define APDecisionCategory_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDecisionCategorySPRITE, DecisionCategory)
+!define APDecisionCategory_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDecisionCategorySPRITE, DecisionCategory)
 

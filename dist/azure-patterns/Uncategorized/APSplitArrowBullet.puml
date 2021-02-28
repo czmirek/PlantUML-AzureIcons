@@ -4,9 +4,9 @@ xTJ7cGGm24DXm17rN_1-N7Pob2Vp5w33Sv2ZqgmgF0237qAWXn3e8KUWXwpDPmtbaERGHLe_SIY7neyC
 }
 
 AzureEntityColoring(APSplitArrowBullet)
-!define APSplitArrowBullet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSplitArrowBullet_tbg.png, APSplitArrowBullet)
-!define APSplitArrowBullet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSplitArrowBullet_tbg.png, APSplitArrowBullet)
+!define APSplitArrowBullet(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSplitArrowBullet_tbg.png, SplitArrowBullet)
+!define APSplitArrowBullet(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSplitArrowBullet_tbg.png, SplitArrowBullet)
 AzureEntityColoring(APSplitArrowBullet_m)
-!define APSplitArrowBullet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSplitArrowBulletSPRITE, APSplitArrowBullet_m)
-!define APSplitArrowBullet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSplitArrowBulletSPRITE, APSplitArrowBullet_m)
+!define APSplitArrowBullet_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSplitArrowBulletSPRITE, SplitArrowBullet)
+!define APSplitArrowBullet_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSplitArrowBulletSPRITE, SplitArrowBullet)
 

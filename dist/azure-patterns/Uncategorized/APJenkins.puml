@@ -16,9 +16,9 @@ buMyMUAlHQzp7Ru5sjfcqCe3WPidURLaWYtxaxDZQ_cY-jtpPc4WvTyioXHH_rWwjf7b3_y3
 }
 
 AzureEntityColoring(APJenkins)
-!define APJenkins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APJenkins_tbg.png, APJenkins)
-!define APJenkins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APJenkins_tbg.png, APJenkins)
+!define APJenkins(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APJenkins_tbg.png, Jenkins)
+!define APJenkins(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APJenkins_tbg.png, Jenkins)
 AzureEntityColoring(APJenkins_m)
-!define APJenkins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APJenkinsSPRITE, APJenkins_m)
-!define APJenkins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APJenkinsSPRITE, APJenkins_m)
+!define APJenkins_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APJenkinsSPRITE, Jenkins)
+!define APJenkins_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APJenkinsSPRITE, Jenkins)
 

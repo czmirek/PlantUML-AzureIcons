@@ -6,9 +6,9 @@ etX9NBAYroMVQd4Qgma4EjZ0oVnMUvHX7kLH_1yKBzbULdIf3FDAM-hKjE8r_QJuj69vzQjDAZrjqgSK
 }
 
 AzureEntityColoring(APCheckRibbon)
-!define APCheckRibbon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckRibbon_tbg.png, APCheckRibbon)
-!define APCheckRibbon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckRibbon_tbg.png, APCheckRibbon)
+!define APCheckRibbon(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCheckRibbon_tbg.png, CheckRibbon)
+!define APCheckRibbon(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCheckRibbon_tbg.png, CheckRibbon)
 AzureEntityColoring(APCheckRibbon_m)
-!define APCheckRibbon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckRibbonSPRITE, APCheckRibbon_m)
-!define APCheckRibbon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckRibbonSPRITE, APCheckRibbon_m)
+!define APCheckRibbon_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckRibbonSPRITE, CheckRibbon)
+!define APCheckRibbon_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckRibbonSPRITE, CheckRibbon)
 

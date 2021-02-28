@@ -6,9 +6,9 @@ MfPUwwkhH5n5pvuzUmK
 }
 
 AzureEntityColoring(APCloudLightningBlue)
-!define APCloudLightningBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudLightningBlue_tbg.png, APCloudLightningBlue)
-!define APCloudLightningBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudLightningBlue_tbg.png, APCloudLightningBlue)
+!define APCloudLightningBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudLightningBlue_tbg.png, CloudLightningBlue)
+!define APCloudLightningBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudLightningBlue_tbg.png, CloudLightningBlue)
 AzureEntityColoring(APCloudLightningBlue_m)
-!define APCloudLightningBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudLightningBlueSPRITE, APCloudLightningBlue_m)
-!define APCloudLightningBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudLightningBlueSPRITE, APCloudLightningBlue_m)
+!define APCloudLightningBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudLightningBlueSPRITE, CloudLightningBlue)
+!define APCloudLightningBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudLightningBlueSPRITE, CloudLightningBlue)
 

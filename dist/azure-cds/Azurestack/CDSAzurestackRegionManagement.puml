@@ -9,9 +9,9 @@ UlCBwr6V6_9dd8XetviZ_254Mf7yGShqM4AR_fBU0G
 }
 
 AzureEntityColoring(CDSAzurestackRegionManagement)
-!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, CDSAzurestackRegionManagement)
-!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, CDSAzurestackRegionManagement)
+!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, AzurestackRegionManagement)
+!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, AzurestackRegionManagement)
 AzureEntityColoring(CDSAzurestackRegionManagement_m)
-!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, CDSAzurestackRegionManagement_m)
-!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, CDSAzurestackRegionManagement_m)
+!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, AzurestackRegionManagement)
+!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, AzurestackRegionManagement)
 

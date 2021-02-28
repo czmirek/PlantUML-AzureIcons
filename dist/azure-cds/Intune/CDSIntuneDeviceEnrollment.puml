@@ -6,9 +6,9 @@ cHmferSKbos_IQHCrGy4hhDOUMlilnRFd9yByPfO_5nez4eyHjpSaW6Yz7nfAowA5MqfjS8NAv9K95Ge
 }
 
 AzureEntityColoring(CDSIntuneDeviceEnrollment)
-!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, CDSIntuneDeviceEnrollment)
-!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, CDSIntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, IntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceEnrollment_tbg.png, IntuneDeviceEnrollment)
 AzureEntityColoring(CDSIntuneDeviceEnrollment_m)
-!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, CDSIntuneDeviceEnrollment_m)
-!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, CDSIntuneDeviceEnrollment_m)
+!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, IntuneDeviceEnrollment)
+!define CDSIntuneDeviceEnrollment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceEnrollmentSPRITE, IntuneDeviceEnrollment)
 

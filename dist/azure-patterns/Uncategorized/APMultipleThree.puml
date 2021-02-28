@@ -5,9 +5,9 @@ l9jfSFKKHiUGZzT0ekEb0T15NRWLMcvqJRF0Cm_mppnXQjneMg9WIl_M2mzc1jRpRe5bIB3XIDnI855B
 }
 
 AzureEntityColoring(APMultipleThree)
-!define APMultipleThree(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMultipleThree_tbg.png, APMultipleThree)
-!define APMultipleThree(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMultipleThree_tbg.png, APMultipleThree)
+!define APMultipleThree(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMultipleThree_tbg.png, MultipleThree)
+!define APMultipleThree(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMultipleThree_tbg.png, MultipleThree)
 AzureEntityColoring(APMultipleThree_m)
-!define APMultipleThree_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMultipleThreeSPRITE, APMultipleThree_m)
-!define APMultipleThree_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMultipleThreeSPRITE, APMultipleThree_m)
+!define APMultipleThree_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMultipleThreeSPRITE, MultipleThree)
+!define APMultipleThree_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMultipleThreeSPRITE, MultipleThree)
 

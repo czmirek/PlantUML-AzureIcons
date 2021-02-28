@@ -5,9 +5,9 @@ Y1mAZafnAFaOFdqk_dtndv7_llZlRg7VyOwsifMjR2N4mIwHPm
 }
 
 AzureEntityColoring(APUnlockCircle)
-!define APUnlockCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUnlockCircle_tbg.png, APUnlockCircle)
-!define APUnlockCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUnlockCircle_tbg.png, APUnlockCircle)
+!define APUnlockCircle(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUnlockCircle_tbg.png, UnlockCircle)
+!define APUnlockCircle(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUnlockCircle_tbg.png, UnlockCircle)
 AzureEntityColoring(APUnlockCircle_m)
-!define APUnlockCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUnlockCircleSPRITE, APUnlockCircle_m)
-!define APUnlockCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUnlockCircleSPRITE, APUnlockCircle_m)
+!define APUnlockCircle_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUnlockCircleSPRITE, UnlockCircle)
+!define APUnlockCircle_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUnlockCircleSPRITE, UnlockCircle)
 

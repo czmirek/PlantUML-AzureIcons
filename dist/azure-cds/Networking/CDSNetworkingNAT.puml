@@ -7,9 +7,9 @@ MqBIDEAah1HEZV8acGdlFZjXadALtBj7HgusafYWd0e4v8v1MIDC0XCh1cMDY93bD2WPuQBkCPUoHdQP
 }
 
 AzureEntityColoring(CDSNetworkingNAT)
-!define CDSNetworkingNAT(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNAT_tbg.png, CDSNetworkingNAT)
-!define CDSNetworkingNAT(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNAT_tbg.png, CDSNetworkingNAT)
+!define CDSNetworkingNAT(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNAT_tbg.png, NetworkingNAT)
+!define CDSNetworkingNAT(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingNAT_tbg.png, NetworkingNAT)
 AzureEntityColoring(CDSNetworkingNAT_m)
-!define CDSNetworkingNAT_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingNATSPRITE, CDSNetworkingNAT_m)
-!define CDSNetworkingNAT_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingNATSPRITE, CDSNetworkingNAT_m)
+!define CDSNetworkingNAT_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingNATSPRITE, NetworkingNAT)
+!define CDSNetworkingNAT_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingNATSPRITE, NetworkingNAT)
 

@@ -1,9 +1,9 @@
 sprite $APDocuments05SPRITE [70x70/16z] xSn50S0m002nClaNl7x6p7GH4346qlJeGnQZ3rcCFcGnMYvKBRl8LomiFWlxv24z3W0000107K9yJW4
 
 AzureEntityColoring(APDocuments05)
-!define APDocuments05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments05_tbg.png, APDocuments05)
-!define APDocuments05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments05_tbg.png, APDocuments05)
+!define APDocuments05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDocuments05_tbg.png, Documents05)
+!define APDocuments05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDocuments05_tbg.png, Documents05)
 AzureEntityColoring(APDocuments05_m)
-!define APDocuments05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments05SPRITE, APDocuments05_m)
-!define APDocuments05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments05SPRITE, APDocuments05_m)
+!define APDocuments05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments05SPRITE, Documents05)
+!define APDocuments05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments05SPRITE, Documents05)
 

@@ -7,9 +7,9 @@ ET9Og_R2qSLw2TcJMLR2L3weHH_hv-AmPddslOxVBzp2YLSiy5KBPztoFZz-_D1N-0C
 }
 
 AzureEntityColoring(APCloudTwoGears)
-!define APCloudTwoGears(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudTwoGears_tbg.png, APCloudTwoGears)
-!define APCloudTwoGears(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudTwoGears_tbg.png, APCloudTwoGears)
+!define APCloudTwoGears(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudTwoGears_tbg.png, CloudTwoGears)
+!define APCloudTwoGears(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudTwoGears_tbg.png, CloudTwoGears)
 AzureEntityColoring(APCloudTwoGears_m)
-!define APCloudTwoGears_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudTwoGearsSPRITE, APCloudTwoGears_m)
-!define APCloudTwoGears_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudTwoGearsSPRITE, APCloudTwoGears_m)
+!define APCloudTwoGears_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudTwoGearsSPRITE, CloudTwoGears)
+!define APCloudTwoGears_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudTwoGearsSPRITE, CloudTwoGears)
 

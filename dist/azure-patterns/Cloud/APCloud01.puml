@@ -4,9 +4,9 @@ vo4KJ6NVrxwHMAbGkmr7aIlNP2WpvOgZmN8fq1AvGBJmlrU45kKIcrkvo3HdARpOYDodk4tvTumnXZv3
 }
 
 AzureEntityColoring(APCloud01)
-!define APCloud01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloud01_tbg.png, APCloud01)
-!define APCloud01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloud01_tbg.png, APCloud01)
+!define APCloud01(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloud01_tbg.png, Cloud01)
+!define APCloud01(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloud01_tbg.png, Cloud01)
 AzureEntityColoring(APCloud01_m)
-!define APCloud01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloud01SPRITE, APCloud01_m)
-!define APCloud01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloud01SPRITE, APCloud01_m)
+!define APCloud01_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloud01SPRITE, Cloud01)
+!define APCloud01_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloud01SPRITE, Cloud01)
 

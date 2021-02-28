@@ -8,9 +8,9 @@ qiWT5PGGnpX7CGH4O18nl7moV9qc3RlCAExbBwxsuJaYmB1mfxI8AIHxpz3pS55bqQ1cBC951BKB3uHl
 }
 
 AzureEntityColoring(APDollarRepeat)
-!define APDollarRepeat(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDollarRepeat_tbg.png, APDollarRepeat)
-!define APDollarRepeat(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDollarRepeat_tbg.png, APDollarRepeat)
+!define APDollarRepeat(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDollarRepeat_tbg.png, DollarRepeat)
+!define APDollarRepeat(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDollarRepeat_tbg.png, DollarRepeat)
 AzureEntityColoring(APDollarRepeat_m)
-!define APDollarRepeat_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDollarRepeatSPRITE, APDollarRepeat_m)
-!define APDollarRepeat_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDollarRepeatSPRITE, APDollarRepeat_m)
+!define APDollarRepeat_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDollarRepeatSPRITE, DollarRepeat)
+!define APDollarRepeat_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDollarRepeatSPRITE, DollarRepeat)
 

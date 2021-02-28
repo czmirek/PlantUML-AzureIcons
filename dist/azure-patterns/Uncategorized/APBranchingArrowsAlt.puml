@@ -5,9 +5,9 @@ bVL9jWCPxjtJCOUP2b84Ku6AOE8hbGwZUCIFjBzvv0w8K00H2Y1EyGZlBmhX_KKXlByeXFSNG9mIMyTR
 }
 
 AzureEntityColoring(APBranchingArrowsAlt)
-!define APBranchingArrowsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBranchingArrowsAlt_tbg.png, APBranchingArrowsAlt)
-!define APBranchingArrowsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBranchingArrowsAlt_tbg.png, APBranchingArrowsAlt)
+!define APBranchingArrowsAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBranchingArrowsAlt_tbg.png, BranchingArrowsAlt)
+!define APBranchingArrowsAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBranchingArrowsAlt_tbg.png, BranchingArrowsAlt)
 AzureEntityColoring(APBranchingArrowsAlt_m)
-!define APBranchingArrowsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBranchingArrowsAltSPRITE, APBranchingArrowsAlt_m)
-!define APBranchingArrowsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBranchingArrowsAltSPRITE, APBranchingArrowsAlt_m)
+!define APBranchingArrowsAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBranchingArrowsAltSPRITE, BranchingArrowsAlt)
+!define APBranchingArrowsAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBranchingArrowsAltSPRITE, BranchingArrowsAlt)
 

@@ -5,9 +5,9 @@ _VX12Z-zyafrNTVzNAL_
 }
 
 AzureEntityColoring(APCalender03)
-!define APCalender03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalender03_tbg.png, APCalender03)
-!define APCalender03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalender03_tbg.png, APCalender03)
+!define APCalender03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalender03_tbg.png, Calender03)
+!define APCalender03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCalender03_tbg.png, Calender03)
 AzureEntityColoring(APCalender03_m)
-!define APCalender03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalender03SPRITE, APCalender03_m)
-!define APCalender03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalender03SPRITE, APCalender03_m)
+!define APCalender03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalender03SPRITE, Calender03)
+!define APCalender03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalender03SPRITE, Calender03)
 

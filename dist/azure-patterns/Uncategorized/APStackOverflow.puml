@@ -6,9 +6,9 @@ UmOEIYnsF0tygpvpk5nnljXp_2k3fJQV52tvV5IqvFEjfWKXKHjOWCH25Twoa1VGts-vMURNIvrliTmi
 }
 
 AzureEntityColoring(APStackOverflow)
-!define APStackOverflow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStackOverflow_tbg.png, APStackOverflow)
-!define APStackOverflow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStackOverflow_tbg.png, APStackOverflow)
+!define APStackOverflow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APStackOverflow_tbg.png, StackOverflow)
+!define APStackOverflow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APStackOverflow_tbg.png, StackOverflow)
 AzureEntityColoring(APStackOverflow_m)
-!define APStackOverflow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, APStackOverflow_m)
-!define APStackOverflow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, APStackOverflow_m)
+!define APStackOverflow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, StackOverflow)
+!define APStackOverflow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, StackOverflow)
 

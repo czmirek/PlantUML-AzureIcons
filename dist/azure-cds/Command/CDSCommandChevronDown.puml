@@ -4,9 +4,9 @@ H18Z4fWBmdB0D4HcZuXCH6GY8XCHcOZ8D4Jc-1mP83zc7jXHYH59Z4XW0YBJ49ap8Z8NPAzl3KXYH18Z
 }
 
 AzureEntityColoring(CDSCommandChevronDown)
-!define CDSCommandChevronDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandChevronDown_tbg.png, CDSCommandChevronDown)
-!define CDSCommandChevronDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandChevronDown_tbg.png, CDSCommandChevronDown)
+!define CDSCommandChevronDown(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandChevronDown_tbg.png, CommandChevronDown)
+!define CDSCommandChevronDown(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandChevronDown_tbg.png, CommandChevronDown)
 AzureEntityColoring(CDSCommandChevronDown_m)
-!define CDSCommandChevronDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandChevronDownSPRITE, CDSCommandChevronDown_m)
-!define CDSCommandChevronDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandChevronDownSPRITE, CDSCommandChevronDown_m)
+!define CDSCommandChevronDown_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandChevronDownSPRITE, CommandChevronDown)
+!define CDSCommandChevronDown_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandChevronDownSPRITE, CommandChevronDown)
 

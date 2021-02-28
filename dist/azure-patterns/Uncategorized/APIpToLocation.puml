@@ -8,9 +8,9 @@ Zj8pZsz-0W
 }
 
 AzureEntityColoring(APIpToLocation)
-!define APIpToLocation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIpToLocation_tbg.png, APIpToLocation)
-!define APIpToLocation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIpToLocation_tbg.png, APIpToLocation)
+!define APIpToLocation(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APIpToLocation_tbg.png, IpToLocation)
+!define APIpToLocation(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APIpToLocation_tbg.png, IpToLocation)
 AzureEntityColoring(APIpToLocation_m)
-!define APIpToLocation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIpToLocationSPRITE, APIpToLocation_m)
-!define APIpToLocation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIpToLocationSPRITE, APIpToLocation_m)
+!define APIpToLocation_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIpToLocationSPRITE, IpToLocation)
+!define APIpToLocation_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIpToLocationSPRITE, IpToLocation)
 

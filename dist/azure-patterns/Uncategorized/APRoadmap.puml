@@ -9,9 +9,9 @@ LbLTPKEDGrKDrTRxp6v4yr2tn39F-jB2HXdWSzwIx0RsLRrcjzIjGhV4fhEqw6RqRInIfX1LR-59leT5
 }
 
 AzureEntityColoring(APRoadmap)
-!define APRoadmap(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRoadmap_tbg.png, APRoadmap)
-!define APRoadmap(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRoadmap_tbg.png, APRoadmap)
+!define APRoadmap(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APRoadmap_tbg.png, Roadm)
+!define APRoadmap(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APRoadmap_tbg.png, Roadm)
 AzureEntityColoring(APRoadmap_m)
-!define APRoadmap_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRoadmapSPRITE, APRoadmap_m)
-!define APRoadmap_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRoadmapSPRITE, APRoadmap_m)
+!define APRoadmap_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRoadmapSPRITE, Roadm)
+!define APRoadmap_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRoadmapSPRITE, Roadm)
 

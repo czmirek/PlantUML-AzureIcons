@@ -7,9 +7,9 @@ mLYGa1CFJeAneIHrp_rEWf77roRcvmj_x6Cm-uBbVZsBBrym6aAf67aW5sxmGYHCW-vg7aYu1dsU0mdL
 }
 
 AzureEntityColoring(APCircleLightning)
-!define APCircleLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, APCircleLightning)
-!define APCircleLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, APCircleLightning)
+!define APCircleLightning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, CircleLightning)
+!define APCircleLightning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCircleLightning_tbg.png, CircleLightning)
 AzureEntityColoring(APCircleLightning_m)
-!define APCircleLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, APCircleLightning_m)
-!define APCircleLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, APCircleLightning_m)
+!define APCircleLightning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, CircleLightning)
+!define APCircleLightning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleLightningSPRITE, CircleLightning)
 

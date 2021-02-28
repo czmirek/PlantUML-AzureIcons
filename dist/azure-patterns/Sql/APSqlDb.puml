@@ -7,9 +7,9 @@ Nb-hrBrZyVI-2-QXaaq_sSyyZrxbLLx5_aIHXmhruf6YK59ve3ZH9UO2yWy
 }
 
 AzureEntityColoring(APSqlDb)
-!define APSqlDb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSqlDb_tbg.png, APSqlDb)
-!define APSqlDb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSqlDb_tbg.png, APSqlDb)
+!define APSqlDb(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSqlDb_tbg.png, SqlDb)
+!define APSqlDb(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSqlDb_tbg.png, SqlDb)
 AzureEntityColoring(APSqlDb_m)
-!define APSqlDb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSqlDbSPRITE, APSqlDb_m)
-!define APSqlDb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSqlDbSPRITE, APSqlDb_m)
+!define APSqlDb_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSqlDbSPRITE, SqlDb)
+!define APSqlDb_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSqlDbSPRITE, SqlDb)
 

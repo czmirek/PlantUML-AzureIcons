@@ -7,9 +7,9 @@ l4C2so41xP00ja4IVShC8-Mlm_1X25-N7tu3
 }
 
 AzureEntityColoring(APSearchAlt)
-!define APSearchAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchAlt_tbg.png, APSearchAlt)
-!define APSearchAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchAlt_tbg.png, APSearchAlt)
+!define APSearchAlt(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSearchAlt_tbg.png, SearchAlt)
+!define APSearchAlt(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSearchAlt_tbg.png, SearchAlt)
 AzureEntityColoring(APSearchAlt_m)
-!define APSearchAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchAltSPRITE, APSearchAlt_m)
-!define APSearchAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchAltSPRITE, APSearchAlt_m)
+!define APSearchAlt_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchAltSPRITE, SearchAlt)
+!define APSearchAlt_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchAltSPRITE, SearchAlt)
 

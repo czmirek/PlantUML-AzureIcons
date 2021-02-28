@@ -9,9 +9,9 @@ cVIMzZAgJqaxbPhyx3bT5TJ4tog8xAs26gczLY2zLT2lASGtsdwb_m
 }
 
 AzureEntityColoring(APFunction05)
-!define APFunction05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFunction05_tbg.png, APFunction05)
-!define APFunction05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFunction05_tbg.png, APFunction05)
+!define APFunction05(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APFunction05_tbg.png, Function05)
+!define APFunction05(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APFunction05_tbg.png, Function05)
 AzureEntityColoring(APFunction05_m)
-!define APFunction05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFunction05SPRITE, APFunction05_m)
-!define APFunction05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFunction05SPRITE, APFunction05_m)
+!define APFunction05_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFunction05SPRITE, Function05)
+!define APFunction05_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFunction05SPRITE, Function05)
 

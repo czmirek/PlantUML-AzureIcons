@@ -8,9 +8,9 @@ VOILMFRXGqMrcDcoqe5MAOgbv0Lyi543L3yz5vbIBUldiZkPLIK0rUMDz0Mq26ir86AiHZEo7a_8_z8t
 }
 
 AzureEntityColoring(CDSDevopsApplicationInsights)
-!define CDSDevopsApplicationInsights(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Devops/CDSDevopsApplicationInsights_tbg.png, CDSDevopsApplicationInsights)
-!define CDSDevopsApplicationInsights(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Devops/CDSDevopsApplicationInsights_tbg.png, CDSDevopsApplicationInsights)
+!define CDSDevopsApplicationInsights(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Devops/CDSDevopsApplicationInsights_tbg.png, DevopsApplicationInsights)
+!define CDSDevopsApplicationInsights(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Devops/CDSDevopsApplicationInsights_tbg.png, DevopsApplicationInsights)
 AzureEntityColoring(CDSDevopsApplicationInsights_m)
-!define CDSDevopsApplicationInsights_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDevopsApplicationInsightsSPRITE, CDSDevopsApplicationInsights_m)
-!define CDSDevopsApplicationInsights_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDevopsApplicationInsightsSPRITE, CDSDevopsApplicationInsights_m)
+!define CDSDevopsApplicationInsights_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDevopsApplicationInsightsSPRITE, DevopsApplicationInsights)
+!define CDSDevopsApplicationInsights_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDevopsApplicationInsightsSPRITE, DevopsApplicationInsights)
 

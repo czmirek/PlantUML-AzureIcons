@@ -8,9 +8,9 @@ GomDCJ1rO8-tMvPk-0G
 }
 
 AzureEntityColoring(CDSCommandAddTile)
-!define CDSCommandAddTile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTile_tbg.png, CDSCommandAddTile)
-!define CDSCommandAddTile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTile_tbg.png, CDSCommandAddTile)
+!define CDSCommandAddTile(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTile_tbg.png, CommandAddTile)
+!define CDSCommandAddTile(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAddTile_tbg.png, CommandAddTile)
 AzureEntityColoring(CDSCommandAddTile_m)
-!define CDSCommandAddTile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAddTileSPRITE, CDSCommandAddTile_m)
-!define CDSCommandAddTile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAddTileSPRITE, CDSCommandAddTile_m)
+!define CDSCommandAddTile_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAddTileSPRITE, CommandAddTile)
+!define CDSCommandAddTile_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAddTileSPRITE, CommandAddTile)
 

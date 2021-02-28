@@ -4,9 +4,9 @@ DNQO5b8Z5Qb2HQf__nSYL6GavVlgYIY1Y1A8A8684eWeOOquvwO
 }
 
 AzureEntityColoring(APGraphArrow)
-!define APGraphArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, APGraphArrow)
-!define APGraphArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, APGraphArrow)
+!define APGraphArrow(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, GrhArrow)
+!define APGraphArrow(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGraphArrow_tbg.png, GrhArrow)
 AzureEntityColoring(APGraphArrow_m)
-!define APGraphArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, APGraphArrow_m)
-!define APGraphArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, APGraphArrow_m)
+!define APGraphArrow_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, GrhArrow)
+!define APGraphArrow_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, GrhArrow)
 

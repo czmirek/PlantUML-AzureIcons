@@ -6,9 +6,9 @@ Ubdq7nH_qUYXN6JeAs8cac4n4ycmc8baE8oG38j1Ih4S6OyCv0i
 }
 
 AzureEntityColoring(APPrivateCloud)
-!define APPrivateCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPrivateCloud_tbg.png, APPrivateCloud)
-!define APPrivateCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPrivateCloud_tbg.png, APPrivateCloud)
+!define APPrivateCloud(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPrivateCloud_tbg.png, PrivateCloud)
+!define APPrivateCloud(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPrivateCloud_tbg.png, PrivateCloud)
 AzureEntityColoring(APPrivateCloud_m)
-!define APPrivateCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPrivateCloudSPRITE, APPrivateCloud_m)
-!define APPrivateCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPrivateCloudSPRITE, APPrivateCloud_m)
+!define APPrivateCloud_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPrivateCloudSPRITE, PrivateCloud)
+!define APPrivateCloud_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPrivateCloudSPRITE, PrivateCloud)
 

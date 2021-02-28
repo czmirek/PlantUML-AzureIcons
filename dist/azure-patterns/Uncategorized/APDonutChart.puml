@@ -7,9 +7,9 @@ FDhotXpnmA3T-4G8yNWqi--s6Jca7pEeOftLgScChFDLNjyXzTrJan65vhyUevDH4u-22pMm-5K4KniB
 }
 
 AzureEntityColoring(APDonutChart)
-!define APDonutChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDonutChart_tbg.png, APDonutChart)
-!define APDonutChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDonutChart_tbg.png, APDonutChart)
+!define APDonutChart(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDonutChart_tbg.png, DonutChart)
+!define APDonutChart(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDonutChart_tbg.png, DonutChart)
 AzureEntityColoring(APDonutChart_m)
-!define APDonutChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDonutChartSPRITE, APDonutChart_m)
-!define APDonutChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDonutChartSPRITE, APDonutChart_m)
+!define APDonutChart_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDonutChartSPRITE, DonutChart)
+!define APDonutChart_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDonutChartSPRITE, DonutChart)
 

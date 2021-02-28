@@ -6,9 +6,9 @@ CgU4LyYS4fGEGlpjiG8aKuAXAWIslmXCAsGkP4RXA9XNUAOb24iGV0KIvd-Bvx9NzjDl
 }
 
 AzureEntityColoring(APImportExport)
-!define APImportExport(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APImportExport_tbg.png, APImportExport)
-!define APImportExport(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APImportExport_tbg.png, APImportExport)
+!define APImportExport(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APImportExport_tbg.png, ImportExport)
+!define APImportExport(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APImportExport_tbg.png, ImportExport)
 AzureEntityColoring(APImportExport_m)
-!define APImportExport_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APImportExportSPRITE, APImportExport_m)
-!define APImportExport_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APImportExportSPRITE, APImportExport_m)
+!define APImportExport_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APImportExportSPRITE, ImportExport)
+!define APImportExport_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APImportExportSPRITE, ImportExport)
 

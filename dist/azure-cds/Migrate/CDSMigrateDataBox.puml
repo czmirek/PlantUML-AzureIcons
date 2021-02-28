@@ -6,9 +6,9 @@ OqUVC1pqE9SAuKig_nLhtJ1sjzOPJk0uHGWweoCweoCweoCweoCQLMH_XhYC8h9JmTzp1m
 }
 
 AzureEntityColoring(CDSMigrateDataBox)
-!define CDSMigrateDataBox(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBox_tbg.png, CDSMigrateDataBox)
-!define CDSMigrateDataBox(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBox_tbg.png, CDSMigrateDataBox)
+!define CDSMigrateDataBox(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBox_tbg.png, MigrateDataBox)
+!define CDSMigrateDataBox(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBox_tbg.png, MigrateDataBox)
 AzureEntityColoring(CDSMigrateDataBox_m)
-!define CDSMigrateDataBox_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxSPRITE, CDSMigrateDataBox_m)
-!define CDSMigrateDataBox_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxSPRITE, CDSMigrateDataBox_m)
+!define CDSMigrateDataBox_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxSPRITE, MigrateDataBox)
+!define CDSMigrateDataBox_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxSPRITE, MigrateDataBox)
 

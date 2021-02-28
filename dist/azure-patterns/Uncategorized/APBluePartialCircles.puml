@@ -8,9 +8,9 @@ zRwv6UiRFykPZahyjQ7Dw9nqn3SnJQWZLXi-f_imOVg-VWC
 }
 
 AzureEntityColoring(APBluePartialCircles)
-!define APBluePartialCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBluePartialCircles_tbg.png, APBluePartialCircles)
-!define APBluePartialCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBluePartialCircles_tbg.png, APBluePartialCircles)
+!define APBluePartialCircles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBluePartialCircles_tbg.png, BluePartialCircles)
+!define APBluePartialCircles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBluePartialCircles_tbg.png, BluePartialCircles)
 AzureEntityColoring(APBluePartialCircles_m)
-!define APBluePartialCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBluePartialCirclesSPRITE, APBluePartialCircles_m)
-!define APBluePartialCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBluePartialCirclesSPRITE, APBluePartialCircles_m)
+!define APBluePartialCircles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBluePartialCirclesSPRITE, BluePartialCircles)
+!define APBluePartialCircles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBluePartialCirclesSPRITE, BluePartialCircles)
 

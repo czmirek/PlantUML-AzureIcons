@@ -6,9 +6,9 @@ fNi
 }
 
 AzureEntityColoring(APExpand)
-!define APExpand(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APExpand_tbg.png, APExpand)
-!define APExpand(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APExpand_tbg.png, APExpand)
+!define APExpand(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APExpand_tbg.png, Expand)
+!define APExpand(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APExpand_tbg.png, Expand)
 AzureEntityColoring(APExpand_m)
-!define APExpand_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APExpandSPRITE, APExpand_m)
-!define APExpand_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APExpandSPRITE, APExpand_m)
+!define APExpand_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APExpandSPRITE, Expand)
+!define APExpand_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APExpandSPRITE, Expand)
 

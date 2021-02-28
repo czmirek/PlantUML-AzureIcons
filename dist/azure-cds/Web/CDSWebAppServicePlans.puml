@@ -6,9 +6,9 @@ qa4KcG-YI3g88YcYO2a9A5Wk7qGHjuArial1HknGiDsc0Xn0WQkqhi0NvpK5_cHUKX2A3gA0JGNHn5Gq
 }
 
 AzureEntityColoring(CDSWebAppServicePlans)
-!define CDSWebAppServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, CDSWebAppServicePlans)
-!define CDSWebAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, CDSWebAppServicePlans)
+!define CDSWebAppServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, WebAppServicePlans)
+!define CDSWebAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, WebAppServicePlans)
 AzureEntityColoring(CDSWebAppServicePlans_m)
-!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, CDSWebAppServicePlans_m)
-!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, CDSWebAppServicePlans_m)
+!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, WebAppServicePlans)
+!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, WebAppServicePlans)
 

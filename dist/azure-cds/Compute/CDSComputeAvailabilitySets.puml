@@ -7,9 +7,9 @@ Krx4mEpAITwDjA22-5ZbZ_83
 }
 
 AzureEntityColoring(CDSComputeAvailabilitySets)
-!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, CDSComputeAvailabilitySets)
-!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, CDSComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, ComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, ComputeAvailabilitySets)
 AzureEntityColoring(CDSComputeAvailabilitySets_m)
-!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, CDSComputeAvailabilitySets_m)
-!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, CDSComputeAvailabilitySets_m)
+!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, ComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, ComputeAvailabilitySets)
 

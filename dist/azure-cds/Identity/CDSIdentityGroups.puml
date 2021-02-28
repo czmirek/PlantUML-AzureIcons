@@ -8,9 +8,9 @@ r-8DWPhWezjOC3U_mZvAqBlDXqcU0asLtcrGFL8WJKdlDZ2F35XpX4LJpIDGop6gfQf7Q0DADk21aOte
 }
 
 AzureEntityColoring(CDSIdentityGroups)
-!define CDSIdentityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityGroups_tbg.png, CDSIdentityGroups)
-!define CDSIdentityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityGroups_tbg.png, CDSIdentityGroups)
+!define CDSIdentityGroups(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityGroups_tbg.png, IdentityGroups)
+!define CDSIdentityGroups(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityGroups_tbg.png, IdentityGroups)
 AzureEntityColoring(CDSIdentityGroups_m)
-!define CDSIdentityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityGroupsSPRITE, CDSIdentityGroups_m)
-!define CDSIdentityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityGroupsSPRITE, CDSIdentityGroups_m)
+!define CDSIdentityGroups_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityGroupsSPRITE, IdentityGroups)
+!define CDSIdentityGroups_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityGroupsSPRITE, IdentityGroups)
 

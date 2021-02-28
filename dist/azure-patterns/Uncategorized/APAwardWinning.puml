@@ -6,9 +6,9 @@ xPQ7SlCm38C5alBG-x_lFx8JN70ktDr-dGbEF1i1QRPt0cYlG6JR2u0gxBsSg0EnqmZKFt0hXsD4LjM3
 }
 
 AzureEntityColoring(APAwardWinning)
-!define APAwardWinning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAwardWinning_tbg.png, APAwardWinning)
-!define APAwardWinning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAwardWinning_tbg.png, APAwardWinning)
+!define APAwardWinning(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAwardWinning_tbg.png, AwardWinning)
+!define APAwardWinning(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAwardWinning_tbg.png, AwardWinning)
 AzureEntityColoring(APAwardWinning_m)
-!define APAwardWinning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAwardWinningSPRITE, APAwardWinning_m)
-!define APAwardWinning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAwardWinningSPRITE, APAwardWinning_m)
+!define APAwardWinning_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAwardWinningSPRITE, AwardWinning)
+!define APAwardWinning_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAwardWinningSPRITE, AwardWinning)
 

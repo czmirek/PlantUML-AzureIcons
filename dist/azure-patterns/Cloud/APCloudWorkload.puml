@@ -4,9 +4,9 @@ xTO54iCm44DH6MJe_UzRvbOpMQVS_SE15uwDY-9YOX6YLock58gAHScoJr5SgJB_ZcIkz4hMcKfFsCOv
 }
 
 AzureEntityColoring(APCloudWorkload)
-!define APCloudWorkload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudWorkload_tbg.png, APCloudWorkload)
-!define APCloudWorkload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudWorkload_tbg.png, APCloudWorkload)
+!define APCloudWorkload(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCloudWorkload_tbg.png, CloudWorkload)
+!define APCloudWorkload(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCloudWorkload_tbg.png, CloudWorkload)
 AzureEntityColoring(APCloudWorkload_m)
-!define APCloudWorkload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, APCloudWorkload_m)
-!define APCloudWorkload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, APCloudWorkload_m)
+!define APCloudWorkload_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, CloudWorkload)
+!define APCloudWorkload_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, CloudWorkload)
 

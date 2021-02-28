@@ -5,9 +5,9 @@ A3ig_dKLu_liBhobWcofQ7PKeC53OmhAp7T3uVe7
 }
 
 AzureEntityColoring(APPillarBuild)
-!define APPillarBuild(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPillarBuild_tbg.png, APPillarBuild)
-!define APPillarBuild(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPillarBuild_tbg.png, APPillarBuild)
+!define APPillarBuild(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APPillarBuild_tbg.png, PillarBuild)
+!define APPillarBuild(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APPillarBuild_tbg.png, PillarBuild)
 AzureEntityColoring(APPillarBuild_m)
-!define APPillarBuild_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPillarBuildSPRITE, APPillarBuild_m)
-!define APPillarBuild_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPillarBuildSPRITE, APPillarBuild_m)
+!define APPillarBuild_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPillarBuildSPRITE, PillarBuild)
+!define APPillarBuild_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPillarBuildSPRITE, PillarBuild)
 

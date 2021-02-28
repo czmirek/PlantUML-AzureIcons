@@ -6,9 +6,9 @@ J3IZoI_a7W
 }
 
 AzureEntityColoring(APAzureDedicatedHsm)
-!define APAzureDedicatedHsm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureDedicatedHsm_tbg.png, APAzureDedicatedHsm)
-!define APAzureDedicatedHsm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureDedicatedHsm_tbg.png, APAzureDedicatedHsm)
+!define APAzureDedicatedHsm(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAzureDedicatedHsm_tbg.png, AzureDedicatedHsm)
+!define APAzureDedicatedHsm(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAzureDedicatedHsm_tbg.png, AzureDedicatedHsm)
 AzureEntityColoring(APAzureDedicatedHsm_m)
-!define APAzureDedicatedHsm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureDedicatedHsmSPRITE, APAzureDedicatedHsm_m)
-!define APAzureDedicatedHsm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureDedicatedHsmSPRITE, APAzureDedicatedHsm_m)
+!define APAzureDedicatedHsm_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureDedicatedHsmSPRITE, AzureDedicatedHsm)
+!define APAzureDedicatedHsm_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureDedicatedHsmSPRITE, AzureDedicatedHsm)
 

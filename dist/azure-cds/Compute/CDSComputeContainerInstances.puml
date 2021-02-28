@@ -7,9 +7,9 @@ dBnKvcFCX_Bv61S
 }
 
 AzureEntityColoring(CDSComputeContainerInstances)
-!define CDSComputeContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, CDSComputeContainerInstances)
-!define CDSComputeContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, CDSComputeContainerInstances)
+!define CDSComputeContainerInstances(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, ComputeContainerInstances)
+!define CDSComputeContainerInstances(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeContainerInstances_tbg.png, ComputeContainerInstances)
 AzureEntityColoring(CDSComputeContainerInstances_m)
-!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, CDSComputeContainerInstances_m)
-!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, CDSComputeContainerInstances_m)
+!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, ComputeContainerInstances)
+!define CDSComputeContainerInstances_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeContainerInstancesSPRITE, ComputeContainerInstances)
 

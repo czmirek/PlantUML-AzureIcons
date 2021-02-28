@@ -6,9 +6,9 @@ LgnDKXWX-K2B2AtFdv6fK4QPWTzbk76eytHUnutgC8nG8KzGGAyA5SVo-dmlg--_B_NpKhz6zVkbXkH-
 }
 
 AzureEntityColoring(CDSStorageAzureFileshare)
-!define CDSStorageAzureFileshare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureFileshare_tbg.png, CDSStorageAzureFileshare)
-!define CDSStorageAzureFileshare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureFileshare_tbg.png, CDSStorageAzureFileshare)
+!define CDSStorageAzureFileshare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureFileshare_tbg.png, StorageAzureFileshare)
+!define CDSStorageAzureFileshare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureFileshare_tbg.png, StorageAzureFileshare)
 AzureEntityColoring(CDSStorageAzureFileshare_m)
-!define CDSStorageAzureFileshare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureFileshareSPRITE, CDSStorageAzureFileshare_m)
-!define CDSStorageAzureFileshare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureFileshareSPRITE, CDSStorageAzureFileshare_m)
+!define CDSStorageAzureFileshare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureFileshareSPRITE, StorageAzureFileshare)
+!define CDSStorageAzureFileshare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureFileshareSPRITE, StorageAzureFileshare)
 

@@ -6,9 +6,9 @@ tNmif3bJroVdPjMIdebrHvgOcfgG5pFZMchh7wYUYML7nDnNcn1dyl1Ny6P6JZwy8RCu8gPfr9nHfSNl
 }
 
 AzureEntityColoring(CDSNetworkingVirtualNetworks)
-!define CDSNetworkingVirtualNetworks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_tbg.png, CDSNetworkingVirtualNetworks)
-!define CDSNetworkingVirtualNetworks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_tbg.png, CDSNetworkingVirtualNetworks)
+!define CDSNetworkingVirtualNetworks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_tbg.png, NetworkingVirtualNetworks)
+!define CDSNetworkingVirtualNetworks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_tbg.png, NetworkingVirtualNetworks)
 AzureEntityColoring(CDSNetworkingVirtualNetworks_m)
-!define CDSNetworkingVirtualNetworks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworksSPRITE, CDSNetworkingVirtualNetworks_m)
-!define CDSNetworkingVirtualNetworks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworksSPRITE, CDSNetworkingVirtualNetworks_m)
+!define CDSNetworkingVirtualNetworks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworksSPRITE, NetworkingVirtualNetworks)
+!define CDSNetworkingVirtualNetworks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworksSPRITE, NetworkingVirtualNetworks)
 

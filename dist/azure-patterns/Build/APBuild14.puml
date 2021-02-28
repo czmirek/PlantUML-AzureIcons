@@ -9,9 +9,9 @@ v9t5kal9rIJlBLPLB-4M3lfqDDcUM3Z8DMCptbk-0m
 }
 
 AzureEntityColoring(APBuild14)
-!define APBuild14(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuild14_tbg.png, APBuild14)
-!define APBuild14(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuild14_tbg.png, APBuild14)
+!define APBuild14(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBuild14_tbg.png, Build14)
+!define APBuild14(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBuild14_tbg.png, Build14)
 AzureEntityColoring(APBuild14_m)
-!define APBuild14_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuild14SPRITE, APBuild14_m)
-!define APBuild14_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuild14SPRITE, APBuild14_m)
+!define APBuild14_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuild14SPRITE, Build14)
+!define APBuild14_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuild14SPRITE, Build14)
 

@@ -7,9 +7,9 @@ WYDOYtdUy8RfcyA2nXCYnSW8zuXyb9H4SnCP3Er94Eb9aDrxHo0h2kYzpQqkOAsdFN_SzptSmTd-qB77
 }
 
 AzureEntityColoring(APUsers24)
-!define APUsers24(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUsers24_tbg.png, APUsers24)
-!define APUsers24(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUsers24_tbg.png, APUsers24)
+!define APUsers24(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APUsers24_tbg.png, Users24)
+!define APUsers24(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APUsers24_tbg.png, Users24)
 AzureEntityColoring(APUsers24_m)
-!define APUsers24_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsers24SPRITE, APUsers24_m)
-!define APUsers24_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsers24SPRITE, APUsers24_m)
+!define APUsers24_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsers24SPRITE, Users24)
+!define APUsers24_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsers24SPRITE, Users24)
 

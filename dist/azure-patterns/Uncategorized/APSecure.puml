@@ -4,9 +4,9 @@ P0iHqGWBjvG_Mj8A5bbaaKMMUELuMIEb7iF5AtDfn2XVCwwMRb_JVxJ88eiiiiWYYooooB85
 }
 
 AzureEntityColoring(APSecure)
-!define APSecure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecure_tbg.png, APSecure)
-!define APSecure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecure_tbg.png, APSecure)
+!define APSecure(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSecure_tbg.png, Secure)
+!define APSecure(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSecure_tbg.png, Secure)
 AzureEntityColoring(APSecure_m)
-!define APSecure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecureSPRITE, APSecure_m)
-!define APSecure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecureSPRITE, APSecure_m)
+!define APSecure_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecureSPRITE, Secure)
+!define APSecure_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecureSPRITE, Secure)
 

@@ -6,9 +6,9 @@ To05904590459045904590459BKKJRA68achdVsYIWgxCV0DmJH91XLDQYkQLCkkCXvDtvUcKab5_2t6
 }
 
 AzureEntityColoring(APWiki)
-!define APWiki(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWiki_tbg.png, APWiki)
-!define APWiki(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWiki_tbg.png, APWiki)
+!define APWiki(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APWiki_tbg.png, Wiki)
+!define APWiki(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APWiki_tbg.png, Wiki)
 AzureEntityColoring(APWiki_m)
-!define APWiki_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWikiSPRITE, APWiki_m)
-!define APWiki_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWikiSPRITE, APWiki_m)
+!define APWiki_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWikiSPRITE, Wiki)
+!define APWiki_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWikiSPRITE, Wiki)
 

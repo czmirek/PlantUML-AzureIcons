@@ -4,9 +4,9 @@ Y8W6
 }
 
 AzureEntityColoring(APSpellcheckApi)
-!define APSpellcheckApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpellcheckApi_tbg.png, APSpellcheckApi)
-!define APSpellcheckApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpellcheckApi_tbg.png, APSpellcheckApi)
+!define APSpellcheckApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APSpellcheckApi_tbg.png, Spellchecki)
+!define APSpellcheckApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APSpellcheckApi_tbg.png, Spellchecki)
 AzureEntityColoring(APSpellcheckApi_m)
-!define APSpellcheckApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpellcheckApiSPRITE, APSpellcheckApi_m)
-!define APSpellcheckApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpellcheckApiSPRITE, APSpellcheckApi_m)
+!define APSpellcheckApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpellcheckApiSPRITE, Spellchecki)
+!define APSpellcheckApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpellcheckApiSPRITE, Spellchecki)
 

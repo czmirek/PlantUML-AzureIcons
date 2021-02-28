@@ -8,9 +8,9 @@ xQk5BcX_a5u1
 }
 
 AzureEntityColoring(APClockBlue)
-!define APClockBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, APClockBlue)
-!define APClockBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, APClockBlue)
+!define APClockBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, ClockBlue)
+!define APClockBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APClockBlue_tbg.png, ClockBlue)
 AzureEntityColoring(APClockBlue_m)
-!define APClockBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, APClockBlue_m)
-!define APClockBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, APClockBlue_m)
+!define APClockBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, ClockBlue)
+!define APClockBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueSPRITE, ClockBlue)
 

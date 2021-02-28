@@ -7,11 +7,11 @@ WFA0O6ihOFvEWPuHyMHUOKy4a9cfU2Vc5V1CyRvKhwTILyX7PZwALYc8L-h8l08QQtmrKE8raMylhPB8
 }
 
 AzureEntityColoring(CDSAzurestackAzureStack)
-!define CDSAzurestackAzureStack(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackAzureStack_tbg.png, CDSAzurestackAzureStack)
-!define CDSAzurestackAzureStack(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackAzureStack_tbg.png, CDSAzurestackAzureStack)
+!define CDSAzurestackAzureStack(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackAzureStack_tbg.png, AzurestackAzureStack)
+!define CDSAzurestackAzureStack(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackAzureStack_tbg.png, AzurestackAzureStack)
 AzureEntityColoring(CDSAzurestackAzureStack_m)
-!define CDSAzurestackAzureStack_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackAzureStackSPRITE, CDSAzurestackAzureStack_m)
-!define CDSAzurestackAzureStack_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackAzureStackSPRITE, CDSAzurestackAzureStack_m)
+!define CDSAzurestackAzureStack_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackAzureStackSPRITE, AzurestackAzureStack)
+!define CDSAzurestackAzureStack_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackAzureStackSPRITE, AzurestackAzureStack)
 
 sprite $CDSAzurestackCapacitySPRITE [70x70/16z] {
 xTNR5fmW38NXKKbs4kJzNxUZugfT1hjxFlvNS_MfG9ZNTsifJFCpCXMkPsKcbUbVK-GCMN96ALfRteelKDQA8fOoIYlUfBoBZ75QYLQsa2b1A_vT56iw_2AZ
@@ -22,11 +22,11 @@ mEATKpljiUTkm9d1pEDeuIR0uo5Y0deOEYvVSZF0F25qeM-6g-GUbqMICXCAqq8eJCJgKioNAm0CW5xx
 }
 
 AzureEntityColoring(CDSAzurestackCapacity)
-!define CDSAzurestackCapacity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackCapacity_tbg.png, CDSAzurestackCapacity)
-!define CDSAzurestackCapacity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackCapacity_tbg.png, CDSAzurestackCapacity)
+!define CDSAzurestackCapacity(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackCapacity_tbg.png, AzurestackCapacity)
+!define CDSAzurestackCapacity(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackCapacity_tbg.png, AzurestackCapacity)
 AzureEntityColoring(CDSAzurestackCapacity_m)
-!define CDSAzurestackCapacity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackCapacitySPRITE, CDSAzurestackCapacity_m)
-!define CDSAzurestackCapacity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackCapacitySPRITE, CDSAzurestackCapacity_m)
+!define CDSAzurestackCapacity_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackCapacitySPRITE, AzurestackCapacity)
+!define CDSAzurestackCapacity_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackCapacitySPRITE, AzurestackCapacity)
 
 sprite $CDSAzurestackEdgeManagementSPRITE [70x70/16z] {
 xTRLWfum48RXRtpO-x_Vwaz91gP8NPwZbV16LW9-cVzOrDpTJ0bFYO_aOQDItEO73FUG7wE7aUSPykWuBXiZPXOZmqKI0rgZAtwm5A_Ly5jBCRQ8K02825Uz
@@ -37,11 +37,11 @@ v5pij48axaGqV47Tfi_9N8dGO_y2dwYlT5t7Yj6n-luIc_hYONzQXGyhVANYzVxDJRr3_S-erF-6owPU
 }
 
 AzureEntityColoring(CDSAzurestackEdgeManagement)
-!define CDSAzurestackEdgeManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackEdgeManagement_tbg.png, CDSAzurestackEdgeManagement)
-!define CDSAzurestackEdgeManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackEdgeManagement_tbg.png, CDSAzurestackEdgeManagement)
+!define CDSAzurestackEdgeManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackEdgeManagement_tbg.png, AzurestackEdgeManagement)
+!define CDSAzurestackEdgeManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackEdgeManagement_tbg.png, AzurestackEdgeManagement)
 AzureEntityColoring(CDSAzurestackEdgeManagement_m)
-!define CDSAzurestackEdgeManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackEdgeManagementSPRITE, CDSAzurestackEdgeManagement_m)
-!define CDSAzurestackEdgeManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackEdgeManagementSPRITE, CDSAzurestackEdgeManagement_m)
+!define CDSAzurestackEdgeManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackEdgeManagementSPRITE, AzurestackEdgeManagement)
+!define CDSAzurestackEdgeManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackEdgeManagementSPRITE, AzurestackEdgeManagement)
 
 sprite $CDSAzurestackInfrastructureBackupSPRITE [70x70/16z] {
 xTDPegGW38LXJWY4SV_RRMsiEO9OTT_y5_0nnlmqZ1iQn4SQANme-ebYVw8mpIlpZZjISp1K96Mjw5gsCGCbrX92gPyLtvG1qvIIU2ahJ6xATdzTHQhd9L-L
@@ -52,11 +52,11 @@ P2q1ame3nEzPO4uXW3y3CBqN-uuGG5DAibWT-tejG9XISlQ4_z4QMfppdB8K7U4HMKdvX9BJKlHh8QsT
 }
 
 AzureEntityColoring(CDSAzurestackInfrastructureBackup)
-!define CDSAzurestackInfrastructureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackInfrastructureBackup_tbg.png, CDSAzurestackInfrastructureBackup)
-!define CDSAzurestackInfrastructureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackInfrastructureBackup_tbg.png, CDSAzurestackInfrastructureBackup)
+!define CDSAzurestackInfrastructureBackup(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackInfrastructureBackup_tbg.png, AzurestackInfrastructureBackup)
+!define CDSAzurestackInfrastructureBackup(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackInfrastructureBackup_tbg.png, AzurestackInfrastructureBackup)
 AzureEntityColoring(CDSAzurestackInfrastructureBackup_m)
-!define CDSAzurestackInfrastructureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackInfrastructureBackupSPRITE, CDSAzurestackInfrastructureBackup_m)
-!define CDSAzurestackInfrastructureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackInfrastructureBackupSPRITE, CDSAzurestackInfrastructureBackup_m)
+!define CDSAzurestackInfrastructureBackup_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackInfrastructureBackupSPRITE, AzurestackInfrastructureBackup)
+!define CDSAzurestackInfrastructureBackup_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackInfrastructureBackupSPRITE, AzurestackInfrastructureBackup)
 
 sprite $CDSAzurestackMarketplaceManagementSPRITE [70x70/16z] {
 xT5NOeGm38JXqKZZzVrF79bD0QNQf2V_Ws2BFuhnYHbfM8fglVSMHbrppAT-rqLt6UQolg_TCSHKbrmhfjOsPRW-VJTZBP5HkjoTcwIOV1vY9Cd76yB8vfuf
@@ -66,11 +66,11 @@ Boh4BluC9Tv5yHSLFtylLV5db8ZWkYAER9_FAZMDsffIguf7od5MuSYmA-OLPmQSLEgDP4QwHqXlLhmW
 }
 
 AzureEntityColoring(CDSAzurestackMarketplaceManagement)
-!define CDSAzurestackMarketplaceManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackMarketplaceManagement_tbg.png, CDSAzurestackMarketplaceManagement)
-!define CDSAzurestackMarketplaceManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackMarketplaceManagement_tbg.png, CDSAzurestackMarketplaceManagement)
+!define CDSAzurestackMarketplaceManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackMarketplaceManagement_tbg.png, AzurestackMarketplaceManagement)
+!define CDSAzurestackMarketplaceManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackMarketplaceManagement_tbg.png, AzurestackMarketplaceManagement)
 AzureEntityColoring(CDSAzurestackMarketplaceManagement_m)
-!define CDSAzurestackMarketplaceManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackMarketplaceManagementSPRITE, CDSAzurestackMarketplaceManagement_m)
-!define CDSAzurestackMarketplaceManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackMarketplaceManagementSPRITE, CDSAzurestackMarketplaceManagement_m)
+!define CDSAzurestackMarketplaceManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackMarketplaceManagementSPRITE, AzurestackMarketplaceManagement)
+!define CDSAzurestackMarketplaceManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackMarketplaceManagementSPRITE, AzurestackMarketplaceManagement)
 
 sprite $CDSAzurestackOffersSPRITE [70x70/16z] {
 rT49hkiW38NXOnmu9jt_Vbz8hTBGXsaLJVVlFEGJbl5tapCzIlWzBHzjFoDR-OpEt4D-PV8dGUDHleNK_N6q1ymQuVxmZEKUiWVC6Y5hkrf5ScCOC05IsAv5
@@ -82,11 +82,11 @@ YfdADwG6ICJKMXaZQyR7290rKtiX4ZFt4MVk8yvqv3uZk56vZJZZo7r6S3lDWZ_OFm
 }
 
 AzureEntityColoring(CDSAzurestackOffers)
-!define CDSAzurestackOffers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, CDSAzurestackOffers)
-!define CDSAzurestackOffers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, CDSAzurestackOffers)
+!define CDSAzurestackOffers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, AzurestackOffers)
+!define CDSAzurestackOffers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackOffers_tbg.png, AzurestackOffers)
 AzureEntityColoring(CDSAzurestackOffers_m)
-!define CDSAzurestackOffers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, CDSAzurestackOffers_m)
-!define CDSAzurestackOffers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, CDSAzurestackOffers_m)
+!define CDSAzurestackOffers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, AzurestackOffers)
+!define CDSAzurestackOffers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackOffersSPRITE, AzurestackOffers)
 
 sprite $CDSAzurestackPlansSPRITE [70x70/16z] {
 xTPLOiD034LH3OZU_lTRPcTasIgtzoSn7JFGTwnF3kf9HE8qfKo9SyieB2AyJCHXEOLfLRjL8YQln4nUWTML19DKO5LbmnGKM4tPC2K5Lb4sJ561LPMOOTL0
@@ -96,11 +96,11 @@ T8OddfYnCbbW59PG5B1ULgWtef8IL5J-5TT3-GL5S29vgmoSQ0GVrzbaq7Vi6W
 }
 
 AzureEntityColoring(CDSAzurestackPlans)
-!define CDSAzurestackPlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackPlans_tbg.png, CDSAzurestackPlans)
-!define CDSAzurestackPlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackPlans_tbg.png, CDSAzurestackPlans)
+!define CDSAzurestackPlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackPlans_tbg.png, AzurestackPlans)
+!define CDSAzurestackPlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackPlans_tbg.png, AzurestackPlans)
 AzureEntityColoring(CDSAzurestackPlans_m)
-!define CDSAzurestackPlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackPlansSPRITE, CDSAzurestackPlans_m)
-!define CDSAzurestackPlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackPlansSPRITE, CDSAzurestackPlans_m)
+!define CDSAzurestackPlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackPlansSPRITE, AzurestackPlans)
+!define CDSAzurestackPlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackPlansSPRITE, AzurestackPlans)
 
 sprite $CDSAzurestackRegionManagementSPRITE [70x70/16z] {
 vTPNOgim48LXfY4Ozh_U5Da7H-6Cw-ttVqd_68cMwVz9H4-r5lhj9_SI-gNSjWoPa4NuOmQOZngS-CWUDi1aN1IiiKn9jlLMxR_G6RaJCRsqdShEM7paSizg
@@ -113,11 +113,11 @@ UlCBwr6V6_9dd8XetviZ_254Mf7yGShqM4AR_fBU0G
 }
 
 AzureEntityColoring(CDSAzurestackRegionManagement)
-!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, CDSAzurestackRegionManagement)
-!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, CDSAzurestackRegionManagement)
+!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, AzurestackRegionManagement)
+!define CDSAzurestackRegionManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackRegionManagement_tbg.png, AzurestackRegionManagement)
 AzureEntityColoring(CDSAzurestackRegionManagement_m)
-!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, CDSAzurestackRegionManagement_m)
-!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, CDSAzurestackRegionManagement_m)
+!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, AzurestackRegionManagement)
+!define CDSAzurestackRegionManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackRegionManagementSPRITE, AzurestackRegionManagement)
 
 sprite $CDSAzurestackUpdatesSPRITE [70x70/16z] {
 xTE7bkCm28LXBg3w_W-ybbUP5S7ASTlkVoO9ftskq4yib3elW_Pb45UWVTMFfQlAeoHgXLeZjMAjGgryJWbzw4hwOvH7oQ6LNaEkDVRXsQExzYZM6lxgFG9u
@@ -128,11 +128,11 @@ R1iAsg-quAEMKuvseu9VfJoAFCfNEiHqVzy
 }
 
 AzureEntityColoring(CDSAzurestackUpdates)
-!define CDSAzurestackUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUpdates_tbg.png, CDSAzurestackUpdates)
-!define CDSAzurestackUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUpdates_tbg.png, CDSAzurestackUpdates)
+!define CDSAzurestackUpdates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUpdates_tbg.png, AzurestackUpdates)
+!define CDSAzurestackUpdates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUpdates_tbg.png, AzurestackUpdates)
 AzureEntityColoring(CDSAzurestackUpdates_m)
-!define CDSAzurestackUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackUpdatesSPRITE, CDSAzurestackUpdates_m)
-!define CDSAzurestackUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackUpdatesSPRITE, CDSAzurestackUpdates_m)
+!define CDSAzurestackUpdates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackUpdatesSPRITE, AzurestackUpdates)
+!define CDSAzurestackUpdates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackUpdatesSPRITE, AzurestackUpdates)
 
 sprite $CDSAzurestackUserSubscriptionsSPRITE [70x70/16z] {
 rTK75gGg48NX2lSMxd_3xysOgaNmAFQaxuJEFr2TvDzWvd0pVPC0TpuOCXv11e0d9WyfMtmyCfvXZxsPILAvotZXpNcIlTbAUZyL1aC73XICYjyzK33w87Tu
@@ -143,10 +143,10 @@ wGfbku9J1gKFfLDPCfeLbhwuh9Yayb1M9EbWvPYn5nNzHiLavoCLmXsGLnM2-CcpOjDZMmMQcJ9GMPYy
 }
 
 AzureEntityColoring(CDSAzurestackUserSubscriptions)
-!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, CDSAzurestackUserSubscriptions)
-!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, CDSAzurestackUserSubscriptions)
+!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, AzurestackUserSubscriptions)
+!define CDSAzurestackUserSubscriptions(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackUserSubscriptions_tbg.png, AzurestackUserSubscriptions)
 AzureEntityColoring(CDSAzurestackUserSubscriptions_m)
-!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, CDSAzurestackUserSubscriptions_m)
-!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, CDSAzurestackUserSubscriptions_m)
+!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, AzurestackUserSubscriptions)
+!define CDSAzurestackUserSubscriptions_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackUserSubscriptionsSPRITE, AzurestackUserSubscriptions)
 
 

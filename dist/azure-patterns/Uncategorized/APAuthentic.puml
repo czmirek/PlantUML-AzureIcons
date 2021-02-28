@@ -7,9 +7,9 @@ EwtdUjnkC4_D8WuUPvowWF7l3XpEOaTY44alHcePQTlCjWhH-gHLRV9MEJ026mYCpEm08qDf02CpaUcP
 }
 
 AzureEntityColoring(APAuthentic)
-!define APAuthentic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAuthentic_tbg.png, APAuthentic)
-!define APAuthentic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAuthentic_tbg.png, APAuthentic)
+!define APAuthentic(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAuthentic_tbg.png, Authentic)
+!define APAuthentic(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAuthentic_tbg.png, Authentic)
 AzureEntityColoring(APAuthentic_m)
-!define APAuthentic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAuthenticSPRITE, APAuthentic_m)
-!define APAuthentic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAuthenticSPRITE, APAuthentic_m)
+!define APAuthentic_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAuthenticSPRITE, Authentic)
+!define APAuthentic_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAuthenticSPRITE, Authentic)
 

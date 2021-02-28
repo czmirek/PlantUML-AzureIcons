@@ -7,11 +7,11 @@ AQs9mjX0NbSKcqXBdNF1JtY2qBrUhxy
 }
 
 AzureEntityColoring(CDSWebAPIConnections)
-!define CDSWebAPIConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, CDSWebAPIConnections)
-!define CDSWebAPIConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, CDSWebAPIConnections)
+!define CDSWebAPIConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, WebAPIConnections)
+!define CDSWebAPIConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, WebAPIConnections)
 AzureEntityColoring(CDSWebAPIConnections_m)
-!define CDSWebAPIConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, CDSWebAPIConnections_m)
-!define CDSWebAPIConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, CDSWebAPIConnections_m)
+!define CDSWebAPIConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, WebAPIConnections)
+!define CDSWebAPIConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, WebAPIConnections)
 
 sprite $CDSWebAPIManagementServicesSPRITE [70x70/16z] {
 xPH9Oi8m34KrElJ-1-uW83-3bTXYsxTgGNdvacMenZ_C8ipq0QB-nhHeKZyWXHn-ncRpc7THce1znKn4uRI212DbdTLmFxxEQVm99tQTE67BG_9mFpRnNNx6
@@ -22,11 +22,11 @@ N2Y7MVJ50yHSuc7JFvXf55ib5dCB2qtJlfuqMiVYD8-5n0XHb4e8FT4be3eu8ACo6FH7KQHXRKgmMYW2
 }
 
 AzureEntityColoring(CDSWebAPIManagementServices)
-!define CDSWebAPIManagementServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIManagementServices_tbg.png, CDSWebAPIManagementServices)
-!define CDSWebAPIManagementServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIManagementServices_tbg.png, CDSWebAPIManagementServices)
+!define CDSWebAPIManagementServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIManagementServices_tbg.png, WebAPIManagementServices)
+!define CDSWebAPIManagementServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIManagementServices_tbg.png, WebAPIManagementServices)
 AzureEntityColoring(CDSWebAPIManagementServices_m)
-!define CDSWebAPIManagementServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIManagementServicesSPRITE, CDSWebAPIManagementServices_m)
-!define CDSWebAPIManagementServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIManagementServicesSPRITE, CDSWebAPIManagementServices_m)
+!define CDSWebAPIManagementServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIManagementServicesSPRITE, WebAPIManagementServices)
+!define CDSWebAPIManagementServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIManagementServicesSPRITE, WebAPIManagementServices)
 
 sprite $CDSWebAppServiceCertificatesSPRITE [70x70/16z] {
 xTTfUW8n281X210ovlxtBLEiPToPT6_UFrtKxn7Y2dyEiWnZ9Fa093yCuO3JD33a1rHcPLPGszFgpGgrXDiJONaQpfC-DojORvBh5H9L5OAev1wxM0zlAeOC
@@ -36,11 +36,11 @@ qh4AWzFz5UqSTaGmlG
 }
 
 AzureEntityColoring(CDSWebAppServiceCertificates)
-!define CDSWebAppServiceCertificates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceCertificates_tbg.png, CDSWebAppServiceCertificates)
-!define CDSWebAppServiceCertificates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceCertificates_tbg.png, CDSWebAppServiceCertificates)
+!define CDSWebAppServiceCertificates(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceCertificates_tbg.png, WebAppServiceCertificates)
+!define CDSWebAppServiceCertificates(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceCertificates_tbg.png, WebAppServiceCertificates)
 AzureEntityColoring(CDSWebAppServiceCertificates_m)
-!define CDSWebAppServiceCertificates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServiceCertificatesSPRITE, CDSWebAppServiceCertificates_m)
-!define CDSWebAppServiceCertificates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServiceCertificatesSPRITE, CDSWebAppServiceCertificates_m)
+!define CDSWebAppServiceCertificates_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServiceCertificatesSPRITE, WebAppServiceCertificates)
+!define CDSWebAppServiceCertificates_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServiceCertificatesSPRITE, WebAppServiceCertificates)
 
 sprite $CDSWebAppServiceDomainsSPRITE [70x70/16z] {
 xPK7ZiGm30D9oTky___ldIm2ATjxCz62CJCMKd5PUdfySLCSaTNsngp2ihqrLPORCx7KzKMfUosLk2nrdsM32xDvTql5pTVbzdjqGzxJihevOLdSd6x9T4kt
@@ -50,11 +50,11 @@ GxSiRyvdMBgbt2efOQ7vJJ7YelJq_04
 }
 
 AzureEntityColoring(CDSWebAppServiceDomains)
-!define CDSWebAppServiceDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceDomains_tbg.png, CDSWebAppServiceDomains)
-!define CDSWebAppServiceDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceDomains_tbg.png, CDSWebAppServiceDomains)
+!define CDSWebAppServiceDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceDomains_tbg.png, WebAppServiceDomains)
+!define CDSWebAppServiceDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceDomains_tbg.png, WebAppServiceDomains)
 AzureEntityColoring(CDSWebAppServiceDomains_m)
-!define CDSWebAppServiceDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServiceDomainsSPRITE, CDSWebAppServiceDomains_m)
-!define CDSWebAppServiceDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServiceDomainsSPRITE, CDSWebAppServiceDomains_m)
+!define CDSWebAppServiceDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServiceDomainsSPRITE, WebAppServiceDomains)
+!define CDSWebAppServiceDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServiceDomainsSPRITE, WebAppServiceDomains)
 
 sprite $CDSWebAppServiceEnvironmentsSPRITE [70x70/16z] {
 xTS56i8m343XUChz3ump-TPqAMu_Re-vGCCVYKOG03KYD8cenGuLY-aGORk-Odof79jLGoN-t2OLXXeSAmWr_EsLV-LVOMAvhK8sKBosmZObrrN4vXIlgAWj
@@ -64,11 +64,11 @@ O7T5RKbxA-GrqbanhyAk2dkTv2ievW7BLj2y0LiL7PWtwToqCk5hRAPUyOnwHKUUebEmaAmOGWDw5YpX
 }
 
 AzureEntityColoring(CDSWebAppServiceEnvironments)
-!define CDSWebAppServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceEnvironments_tbg.png, CDSWebAppServiceEnvironments)
-!define CDSWebAppServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceEnvironments_tbg.png, CDSWebAppServiceEnvironments)
+!define CDSWebAppServiceEnvironments(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceEnvironments_tbg.png, WebAppServiceEnvironments)
+!define CDSWebAppServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServiceEnvironments_tbg.png, WebAppServiceEnvironments)
 AzureEntityColoring(CDSWebAppServiceEnvironments_m)
-!define CDSWebAppServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServiceEnvironmentsSPRITE, CDSWebAppServiceEnvironments_m)
-!define CDSWebAppServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServiceEnvironmentsSPRITE, CDSWebAppServiceEnvironments_m)
+!define CDSWebAppServiceEnvironments_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServiceEnvironmentsSPRITE, WebAppServiceEnvironments)
+!define CDSWebAppServiceEnvironments_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServiceEnvironmentsSPRITE, WebAppServiceEnvironments)
 
 sprite $CDSWebAppServicePlansSPRITE [70x70/16z] {
 xTG7ceGm28PXOu2VjFiVTtjVL7YSFlCTu3KDfyigawEqWSpaQjTI7egMzhzQ456uZTxwCAe1fGmXeceny2iVdxIKubOmb5xhXj9El1PgdOb8BKNy2lVUIhCG
@@ -78,11 +78,11 @@ qa4KcG-YI3g88YcYO2a9A5Wk7qGHjuArial1HknGiDsc0Xn0WQkqhi0NvpK5_cHUKX2A3gA0JGNHn5Gq
 }
 
 AzureEntityColoring(CDSWebAppServicePlans)
-!define CDSWebAppServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, CDSWebAppServicePlans)
-!define CDSWebAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, CDSWebAppServicePlans)
+!define CDSWebAppServicePlans(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, WebAppServicePlans)
+!define CDSWebAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServicePlans_tbg.png, WebAppServicePlans)
 AzureEntityColoring(CDSWebAppServicePlans_m)
-!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, CDSWebAppServicePlans_m)
-!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, CDSWebAppServicePlans_m)
+!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, WebAppServicePlans)
+!define CDSWebAppServicePlans_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServicePlansSPRITE, WebAppServicePlans)
 
 sprite $CDSWebAppServicesSPRITE [70x70/16z] {
 rTO7igqu34LHMJfAp7_0ZMdZ9y0tLVvh0Bia4-aVmL3poCnmKs7wdMXiMMrRQFkn8OASIWXVXvggx3np5VBlEiWC6SCiANqaaJkLdUNQbapl-PO7wIBN8l0-
@@ -97,11 +97,11 @@ tiFsHKVeasRv0UWRpTxDe_IjfhdiR07wYLXU9jhsX3BzZaND8xSCDmNJF-8_
 }
 
 AzureEntityColoring(CDSWebAppServices)
-!define CDSWebAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServices_tbg.png, CDSWebAppServices)
-!define CDSWebAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServices_tbg.png, CDSWebAppServices)
+!define CDSWebAppServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServices_tbg.png, WebAppServices)
+!define CDSWebAppServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAppServices_tbg.png, WebAppServices)
 AzureEntityColoring(CDSWebAppServices_m)
-!define CDSWebAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServicesSPRITE, CDSWebAppServices_m)
-!define CDSWebAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServicesSPRITE, CDSWebAppServices_m)
+!define CDSWebAppServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAppServicesSPRITE, WebAppServices)
+!define CDSWebAppServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAppServicesSPRITE, WebAppServices)
 
 sprite $CDSWebazuremediaserviceSPRITE [70x70/16z] {
 dT89TeKW38NXJ0GItFzsspwVvM04fsy1_xb1uGeI4S9hcBBvyizpeXS9Mmwg2Jp0PHcgxWNX7l5bnlyOlch4Z2jSG5jELVymEXzIbml-bM0kBvUgVnMOAUxc
@@ -114,11 +114,11 @@ qiqnDS4PkZN642waoqmLk267cyR7NDFf64_m01SV93B2KvIwKhMI4Dv2OcQ2Axy
 }
 
 AzureEntityColoring(CDSWebazuremediaservice)
-!define CDSWebazuremediaservice(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, CDSWebazuremediaservice)
-!define CDSWebazuremediaservice(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, CDSWebazuremediaservice)
+!define CDSWebazuremediaservice(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, Webazuremediaservice)
+!define CDSWebazuremediaservice(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebazuremediaservice_tbg.png, Webazuremediaservice)
 AzureEntityColoring(CDSWebazuremediaservice_m)
-!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, CDSWebazuremediaservice_m)
-!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, CDSWebazuremediaservice_m)
+!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, Webazuremediaservice)
+!define CDSWebazuremediaservice_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebazuremediaserviceSPRITE, Webazuremediaservice)
 
 sprite $CDSWebCDNProfilesSPRITE [70x70/16z] {
 xT7POSGm24NHnwxqNt3sUF0ku_dAw1Hm9G0lQXW68i8jhEO_b574vXdN6vdXClKDL8zaN8tKVoE-2_qyTXbwQHnWzA58gfyXYqCunnPdvFmsSKvnpAA7OOLa
@@ -127,11 +127,11 @@ EkgPnrPkL1GJ4dtmIcIDedidWWFIzPyGd67HGyBufuPX-
 }
 
 AzureEntityColoring(CDSWebCDNProfiles)
-!define CDSWebCDNProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, CDSWebCDNProfiles)
-!define CDSWebCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, CDSWebCDNProfiles)
+!define CDSWebCDNProfiles(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, WebCDNProfiles)
+!define CDSWebCDNProfiles(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, WebCDNProfiles)
 AzureEntityColoring(CDSWebCDNProfiles_m)
-!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, CDSWebCDNProfiles_m)
-!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, CDSWebCDNProfiles_m)
+!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, WebCDNProfiles)
+!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, WebCDNProfiles)
 
 sprite $CDSWebMediaServicesSPRITE [70x70/16z] {
 rPT7kkGm20P55FBz3po3EXadwFRgrLBmbSNltFuGm28CDoKa4xhZG7c3DuPPmN33SSz3SW3z74W4xmoJZvKx8bmB98NoGBJ0TJmWMaJEus7zWfDuIB-4Ye48
@@ -143,11 +143,11 @@ h2U1bEAHzZMS1584DBdSYw0bWHIXCT5s4vcFhDj0qN6VVm
 }
 
 AzureEntityColoring(CDSWebMediaServices)
-!define CDSWebMediaServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebMediaServices_tbg.png, CDSWebMediaServices)
-!define CDSWebMediaServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebMediaServices_tbg.png, CDSWebMediaServices)
+!define CDSWebMediaServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebMediaServices_tbg.png, WebMediaServices)
+!define CDSWebMediaServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebMediaServices_tbg.png, WebMediaServices)
 AzureEntityColoring(CDSWebMediaServices_m)
-!define CDSWebMediaServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebMediaServicesSPRITE, CDSWebMediaServices_m)
-!define CDSWebMediaServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebMediaServicesSPRITE, CDSWebMediaServices_m)
+!define CDSWebMediaServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebMediaServicesSPRITE, WebMediaServices)
+!define CDSWebMediaServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebMediaServicesSPRITE, WebMediaServices)
 
 sprite $CDSWebNotificationHubNamespacesSPRITE [70x70/16z] {
 xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
@@ -155,11 +155,11 @@ LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKh
 }
 
 AzureEntityColoring(CDSWebNotificationHubNamespaces)
-!define CDSWebNotificationHubNamespaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubNamespaces_tbg.png, CDSWebNotificationHubNamespaces)
-!define CDSWebNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubNamespaces_tbg.png, CDSWebNotificationHubNamespaces)
+!define CDSWebNotificationHubNamespaces(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubNamespaces_tbg.png, WebNotificationHubNamespaces)
+!define CDSWebNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubNamespaces_tbg.png, WebNotificationHubNamespaces)
 AzureEntityColoring(CDSWebNotificationHubNamespaces_m)
-!define CDSWebNotificationHubNamespaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebNotificationHubNamespacesSPRITE, CDSWebNotificationHubNamespaces_m)
-!define CDSWebNotificationHubNamespaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebNotificationHubNamespacesSPRITE, CDSWebNotificationHubNamespaces_m)
+!define CDSWebNotificationHubNamespaces_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebNotificationHubNamespacesSPRITE, WebNotificationHubNamespaces)
+!define CDSWebNotificationHubNamespaces_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebNotificationHubNamespacesSPRITE, WebNotificationHubNamespaces)
 
 sprite $CDSWebNotificationHubsSPRITE [70x70/16z] {
 xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
@@ -167,11 +167,11 @@ LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKh
 }
 
 AzureEntityColoring(CDSWebNotificationHubs)
-!define CDSWebNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubs_tbg.png, CDSWebNotificationHubs)
-!define CDSWebNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubs_tbg.png, CDSWebNotificationHubs)
+!define CDSWebNotificationHubs(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubs_tbg.png, WebNotificationHubs)
+!define CDSWebNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubs_tbg.png, WebNotificationHubs)
 AzureEntityColoring(CDSWebNotificationHubs_m)
-!define CDSWebNotificationHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebNotificationHubsSPRITE, CDSWebNotificationHubs_m)
-!define CDSWebNotificationHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebNotificationHubsSPRITE, CDSWebNotificationHubs_m)
+!define CDSWebNotificationHubs_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebNotificationHubsSPRITE, WebNotificationHubs)
+!define CDSWebNotificationHubs_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebNotificationHubsSPRITE, WebNotificationHubs)
 
 sprite $CDSWebSearchServicesSPRITE [70x70/16z] {
 xTC7iYeX48NXqndtls2p208pu0itVfKC-0zD8JwPNxz8rFpCJEZTX7h91El8lB7S4UzYh30VK4mZtq1_5CamnxVPsfdyoTb8x2BiycYOHSMmHwFYzxjFN9OO
@@ -182,11 +182,11 @@ HGnz91PfQXVXWg_lrwyJ
 }
 
 AzureEntityColoring(CDSWebSearchServices)
-!define CDSWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, CDSWebSearchServices)
-!define CDSWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, CDSWebSearchServices)
+!define CDSWebSearchServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, WebSearchServices)
+!define CDSWebSearchServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, WebSearchServices)
 AzureEntityColoring(CDSWebSearchServices_m)
-!define CDSWebSearchServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, CDSWebSearchServices_m)
-!define CDSWebSearchServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, CDSWebSearchServices_m)
+!define CDSWebSearchServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, WebSearchServices)
+!define CDSWebSearchServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, WebSearchServices)
 
 sprite $CDSWebSignalRSPRITE [70x70/16z] {
 rTXNigCv28PXWGA2_Uztfjlnaq47sPtVQzTJIlvJ-JUYscLEDPqo6dz4y50pnQI_AL6VfZxJyGOqJ7UPr3EZAY1HBJT8DCk44gERdbI_HDJqh94WXyqTmlwd
@@ -198,10 +198,10 @@ ZW062Xb0SWQB62gxQ1uoXeYlsmcJliMoMifG_VpD_i5mEOc6sfvXG9AQMiWG62TnaqMoDxzuh1ScjKig
 }
 
 AzureEntityColoring(CDSWebSignalR)
-!define CDSWebSignalR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSignalR_tbg.png, CDSWebSignalR)
-!define CDSWebSignalR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSignalR_tbg.png, CDSWebSignalR)
+!define CDSWebSignalR(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSignalR_tbg.png, WebSignalR)
+!define CDSWebSignalR(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSignalR_tbg.png, WebSignalR)
 AzureEntityColoring(CDSWebSignalR_m)
-!define CDSWebSignalR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSignalRSPRITE, CDSWebSignalR_m)
-!define CDSWebSignalR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSignalRSPRITE, CDSWebSignalR_m)
+!define CDSWebSignalR_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSignalRSPRITE, WebSignalR)
+!define CDSWebSignalR_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSignalRSPRITE, WebSignalR)
 
 

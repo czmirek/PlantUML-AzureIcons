@@ -1,9 +1,9 @@
 sprite $CDSCommandAddSPRITE [70x70/16z] xTYb0S0m503HiYdjFstOXatWRe0NL7_fgErHRRNA_glsdXKK51GK51IK_GXr_Qhh26NMUF_AtZ6L-jlbxwAWeA2WeA2uAKv7IG
 
 AzureEntityColoring(CDSCommandAdd)
-!define CDSCommandAdd(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAdd_tbg.png, CDSCommandAdd)
-!define CDSCommandAdd(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAdd_tbg.png, CDSCommandAdd)
+!define CDSCommandAdd(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAdd_tbg.png, CommandAdd)
+!define CDSCommandAdd(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAdd_tbg.png, CommandAdd)
 AzureEntityColoring(CDSCommandAdd_m)
-!define CDSCommandAdd_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAddSPRITE, CDSCommandAdd_m)
-!define CDSCommandAdd_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAddSPRITE, CDSCommandAdd_m)
+!define CDSCommandAdd_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAddSPRITE, CommandAdd)
+!define CDSCommandAdd_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAddSPRITE, CommandAdd)
 

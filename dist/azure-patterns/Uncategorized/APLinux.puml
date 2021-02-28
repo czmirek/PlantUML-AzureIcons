@@ -11,9 +11,9 @@ N5Wdmo47AN1-sxLDIyR2F0oxj1FnBfIwzVa7
 }
 
 AzureEntityColoring(APLinux)
-!define APLinux(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLinux_tbg.png, APLinux)
-!define APLinux(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLinux_tbg.png, APLinux)
+!define APLinux(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APLinux_tbg.png, Linux)
+!define APLinux(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APLinux_tbg.png, Linux)
 AzureEntityColoring(APLinux_m)
-!define APLinux_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinuxSPRITE, APLinux_m)
-!define APLinux_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinuxSPRITE, APLinux_m)
+!define APLinux_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinuxSPRITE, Linux)
+!define APLinux_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinuxSPRITE, Linux)
 
