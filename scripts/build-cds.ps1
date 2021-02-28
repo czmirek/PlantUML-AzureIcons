@@ -45,15 +45,16 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
         $sprite = ((java -jar "lib/plantuml.jar" -encodesprite 16z "$($pngWbgPath)") | Out-String) -replace "`r", ""
         $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
         
+        $stereo = $serviceId -replace "CDS", ""
         $sourcePath = "IMAGE_SOURCE/azure-cds/$($category)/$($pngTbg)"
         $puml = $sprite
         $puml += "AzureEntityColoring($($coloredMacro))`n"
-        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, $($sourcePath), $($coloredMacro))`n"
-        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), $($coloredMacro))`n"
+        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, $($sourcePath), $($stereo))`n"
+        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), $($stereo))`n"
         
         $puml += "AzureEntityColoring($($monochromaticMacro))`n"
-        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n"
-        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n`n"
+        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($stereo))`n"
+        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($stereo))`n`n"
 
         $puml | Out-File $pumlOutput -NoNewLine   
     }
