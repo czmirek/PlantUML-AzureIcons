@@ -1,4 +1,7 @@
-sprite $APCalculatorSPRITE [70x70/16z] xTG35e1G503HhFtlDzlwdZbCDx-YBV2QWk9kwqCqLuABxYdUHLyKbFWYqxwwTIZFGzc6WX8qJUBrgklfFLyLN4nlCGeAVm3ATIXCJ1HnR_fnA2We5i-N2W
+sprite $APCalculatorSPRITE [70x70/16z] {
+xTG53iCm44HHQyfy_zjM53Opp1SLaXTS_vQUZlsMkbUk5wkkUWN2AZIcG9kbWgSs3Ar0cgiYfBMiNAJnVGbKhAAoH0N0eac-kAyCc6tPoj2-mccamcbiG4bn
+TssYGeNJo6bqLywmwgnJxEjU-GC
+}
 
 AzureEntityColoring(APCalculator)
 !define APCalculator(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculator_tbg.png, Calculator)
@@ -8,8 +11,8 @@ AzureEntityColoring(APCalculator_m)
 !define APCalculator_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSPRITE, Calculator)
 
 sprite $APCalculator01SPRITE [70x70/16z] {
-xPOr0e0m34NhaliVc4ne3RV_DcZxbgWOyEkG8Wcju_KMM68e4HijtfJm3HPOO84b-181lMwD1POLkMkJ7vO__6yjCJ39Zy14P1qiH-SBgX5P1qkPDRjKyiCp
-uR_LQArroG_77qTM8oomg7M8m-a
+xTM34GH150JGiP5_j6UkpUx2Sbxf8vC9adyKflk4roZSzOdOlm95DyLsLKHJJ1S52XGefYaMi-u_K7w7jBa_b3vqKNvBLD_kPUd3tXHvoqUvtQkg3wWwA9qo
+JUsUL_bTNlR-KFg0geCoGRsW6r5rqoXG2EiJMbB69by1
 }
 
 AzureEntityColoring(APCalculator01)
@@ -78,7 +81,10 @@ AzureEntityColoring(APCalculatorCopy_m)
 !define APCalculatorCopy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, CalculatorCopy)
 !define APCalculatorCopy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorCopySPRITE, CalculatorCopy)
 
-sprite $APCalculatorDeleteSPRITE [70x70/16z] xTS35e10003HRDp_jDasTcSUqyzIfdBYlE7OOgIZp7LUqQTouxpXs6AagqyLtnYrPpPGTXQqPruK1GLb-AmBsad5IETJ2WeA2WeA2WeA2WhAVFmVeQG
+sprite $APCalculatorDeleteSPRITE [70x70/16z] {
+xTO5SWCn38LXnJIM8_lT_xPLc1Ra3XNqXM7_PS05VQe3BqQbJtX17nWVUBfIiA3CLevOS9oj202fJmI0VATIwKdzPPNuxbJX-8HFbVWE1YwfhgyjcJG0FIcy
+UAnSYyTgXrUyylmXGQNRW9QALxpY5QzunIjUyOfNM4IAlaPHaOYAllAVkSRqIYEJjbwfK6G2nSkL32NLGA3oSeKw9dHQgKHCY6iLoZ3Bj5gX0myO33xGI-KB
+}
 
 AzureEntityColoring(APCalculatorDelete)
 !define APCalculatorDelete(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDelete_tbg.png, CalculatorDelete)
@@ -87,7 +93,10 @@ AzureEntityColoring(APCalculatorDelete_m)
 !define APCalculatorDelete_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, CalculatorDelete)
 !define APCalculatorDelete_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, CalculatorDelete)
 
-sprite $APCalculatorDocumentSPRITE [70x70/16z] xTEr0S0m4CNG7uRz1quNDZOcQO1dFDrRziZoLWO5LOI24j_Ygw0egA5E1GMbt-sX_9VLIwCmHymH2dE4yf_yGt7_tQi259IewbSE
+sprite $APCalculatorDocumentSPRITE [70x70/16z] {
+xTI35GKn54NHiT5_jTyOnKxkAM0lFApPja6kDGMbRqKYALqcKcTUWL9lUqswvkcW378beVI5I1r1aHYk9WKAbBoWngdK0wqsMQMeQPKnR1qK-KdZZlHygHYs
+3Weke2pUzMUbR6dL6sMJn8mYLkfjyhkxpRm2PMX5wWcAO2aeTm
+}
 
 AzureEntityColoring(APCalculatorDocument)
 !define APCalculatorDocument(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCalculatorDocument_tbg.png, CalculatorDocument)
@@ -112,11 +121,11 @@ AzureEntityColoring(APCalculatorError_m)
 !define APCalculatorError_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorErrorSPRITE, CalculatorError)
 
 sprite $APCalculatorExcelSPRITE [70x70/16z] {
-xPY7ZkGW38PDy12AWz__RI-OqVWAoZ5c--udHPrF_aC7_eFVI-KxEnXmjqWiM2rRo0SBDek4u3-fEP1OB244IZS704KifX1bHn3KCjCJof731efQvaD42G7p
-5WcXrB9x647Cd7281s3bI19YJEKBa3ib8WWcYmIA4i9cKJpCMIgDUDPIeCCCYdyPou_bUFJAIXyTBp9U23lCg8GF_NSpdsJeE6wuvoqRDpOG8fy4Io9f6RLT
-DIJw8uNyU_opZxo0pEWVZFf8YjaVpKpZHNFqKZQhHLg7tYhRUbgJeFQooIBjaQIlx1PeWlPLjs91xeIrUKJSE63DahX1WvraUfLIULZQrUJFjkyVon4xp559
-GqkVFxpMqwuFshmswcAVFnilp01jBSLueuLwANSTsIoeGOfzbQfIYWghPNs9zr8qtFwynHKwsQ23T58-rydZnq9JAuFzBBLUoqVykz6lMmIAk6pHkvhnf3fx
-RwnynSGTTi9oTP-Ujj3mRg_nSCP2tlBEuDnRl7cCuxtLMv3zNSeIxzho2m
+xPW5biCm34JN68DgtV-sMokjKdAVCyim2msu_uqWO3E_JCd5SXYTOvwX-5Jxm0PJJCZ48fHYOsaiGYbkgIn2AIOauYiTSh1xA3RcmpM1abz7Jb4aY7OTGLsS
+ZfoX-DiWMebMHinImbqGEHWTCKcvIyDu93rIJUOk3ICP7YlVfG6XQ4ra94hXVHI_YiXlsa_HH5zb_P-ILlKDrKxAX70ltpsxiU-KquwujOWNkTMOYrH04Vdj
+gqc0M5v8Rsh20siaPk8fHGtj5p53nyycDBHVRD_tOeNUq2-5cQiKouCKDQDMG8gO4LcOecQaXN6Ach5t5BUgRwY65ADUtd9_oQEyqAg-eHfHn6HvQuqwFbb-
+Mx-4zL8kR-lTrgsSUm-aw5r5p3I3KSH2tkvN6ALi9IPnXVIB62XNsm0bqL7sxAllc6_zpl1F0UuCd_s-o_pzttTbDW5JHXCydAApBA3IendVtagFPv-p59gS
+2J-dn3spScssbFo5t4Uj4AWyl5g1hvpWgpYVlwAaSikprQrN
 }
 
 AzureEntityColoring(APCalculatorExcel)

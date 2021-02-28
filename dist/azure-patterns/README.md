@@ -804,18 +804,6 @@ Image | Macro
 ![APDocumentUser](Document/APDocumentUser_tbg.png) | `APDocumentUser`<br>`APDocumentUser_m` |
 
 
-## Documents
-
-Macro for including this category
-```
-!define AzurePuml https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist
-!include AzurePuml/AzureCommon.puml
-!include AzurePuml/azure-patterns/all.puml
-```
-Image | Macro
-| --- | ---
-
-
 ## Function
 
 Macro for including this category
