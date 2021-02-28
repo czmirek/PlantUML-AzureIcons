@@ -76,7 +76,7 @@ Get-ChildItem ("dist/azure-cds") -directory | ForEach-Object {
             return
         }
         $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-        $markdownList += "$($category) | ``$($serviceId)``<br>``$($serviceId)_m`` | ![$($serviceId)](dist/azure-cds/$($category)/$($serviceId)_tbg.png) |`n"
+        $markdownList += "$($category) | ``$($serviceId)``<br>``$($serviceId)_m`` | ![$($serviceId)]($($category)/$($serviceId)_tbg.png) |`n"
         
         $content = Get-Content $_.FullName -Raw
 
