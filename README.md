@@ -64,6 +64,7 @@ If you want to rebuild the image collection yourself, you need:
 - Java
 
 Then:
+- Delete contents of dist/azure-cds and dist/azure-patterns
 - Run `./scripts/build-all.ps1`
 
 
