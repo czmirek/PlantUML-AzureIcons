@@ -30,13 +30,15 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
 
     Write-Host $serviceId
     
-    if(!((Test-Path $pngWbgPath) -and (Test-Path $pngTbgPath))) {
+    if(!(Test-Path $pngTbgPath)) {
         $targetHeight = $using:targetHeight
-        svgexport "$($fullPath)" "$($pngWbgPath)" "$($targetHeight):$($targetHeight)" "svg{background:white;}"
         svgexport "$($fullPath)" "$($pngTbgPath)" "$($targetHeight):$($targetHeight)"
     }
 
     if(!(Test-Path $pumlOutput)) {
+        if(!(Test-Path $pngWbgPath)) {
+            svgexport "$($fullPath)" "$($pngWbgPath)" "$($targetHeight):$($targetHeight)" "svg{background:white;}"
+        }
         $coloredMacro = $serviceId
         $monochromaticMacro = $serviceId + "_m"
         $spriteId = "$($serviceId)SPRITE"
