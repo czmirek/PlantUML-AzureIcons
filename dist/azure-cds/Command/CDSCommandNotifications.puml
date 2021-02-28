@@ -1,0 +1,13 @@
+sprite $CDSCommandNotificationsSPRITE [70x70/16z] {
+xTQ5hYiX58NXXTkUMU__jhT6bS2KUs8DNxpo1zaLp5YKyJ5wep1DUU6T-AcIJdoJDBvaX0rYy8t8kqraurt4OQek93k52-LoNOxwBh9xlF1xCzEF17m8ZKm_
+Oj1W3cTIZRHudYMCs5wahiPYOA-HNcP7rLcoGuVZYHylHT0bmyMu0xksm-LcaXi6Df8P7QrnQmyV1XTWK4s-AenliLv1wC-jO4Zwyol7Az9_Ec8e_bc5FrvP
+bLLPbLLPbLNHyMGdAN58U19FDDvOJh2_MUah9ENvzWecH9wefxzo4HCCJyhJlsc36Tibe-kX2QOONkmYFDEO4_aaO5PuZipJXQodyrziZ1Ppbdy
+}
+
+AzureEntityColoring(CDSCommandNotifications)
+!define CDSCommandNotifications(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandNotifications_tbg.png, CDSCommandNotifications)
+!define CDSCommandNotifications(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandNotifications_tbg.png, CDSCommandNotifications)
+AzureEntityColoring(CDSCommandNotifications_m)
+!define CDSCommandNotifications_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandNotificationsSPRITE, CDSCommandNotifications_m)
+!define CDSCommandNotifications_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandNotificationsSPRITE, CDSCommandNotifications_m)
+

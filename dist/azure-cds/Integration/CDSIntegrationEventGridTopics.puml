@@ -1,0 +1,14 @@
+sprite $CDSIntegrationEventGridTopicsSPRITE [70x70/16z] {
+xTX7OiCm34JHGTVzJnohB10vb46QJlzxFFMAr_QVs9eCj0zYpPzkci9-rR-YqfqcnVOOVQNHea9J5DCfYkiKnRLN4TKJQH6XbmhP7c6FF6ufvIpkcJIwYRB6
+EF9eT6Row3cETefg4XUX6aSxGhaf22ZM33bFI34IDy6xV5aICffdH4SzJmZC1naZPAM38MgHNcR4RsbJSIeYQ_PHxbN6hweox8NmA2eWXeTDGS0NJpfBI8NX
+vf4s52CqieHqfPcq8UHy0PfXL4aCenRpMOb8J2cDMtnIUXcDBSj5z3BHp6dEKwtCKBHpj1DTay8MjKVpcqVU9Cara3HwznR4lYn6vwVQSe_aqQoqyXMPe3Wc
+A8u9Yc26WWVAbA-9f8pqUvNlyprjJ_uXq3N6Q_ll3G
+}
+
+AzureEntityColoring(CDSIntegrationEventGridTopics)
+!define CDSIntegrationEventGridTopics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridTopics_tbg.png, CDSIntegrationEventGridTopics)
+!define CDSIntegrationEventGridTopics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridTopics_tbg.png, CDSIntegrationEventGridTopics)
+AzureEntityColoring(CDSIntegrationEventGridTopics_m)
+!define CDSIntegrationEventGridTopics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridTopicsSPRITE, CDSIntegrationEventGridTopics_m)
+!define CDSIntegrationEventGridTopics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridTopicsSPRITE, CDSIntegrationEventGridTopics_m)
+

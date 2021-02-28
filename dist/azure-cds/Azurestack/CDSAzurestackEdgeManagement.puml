@@ -1,0 +1,15 @@
+sprite $CDSAzurestackEdgeManagementSPRITE [70x70/16z] {
+xTRLWfum48RXRtpO-x_Vwaz91gP8NPwZbV16LW9-cVzOrDpTJ0bFYO_aOQDItEO73FUG7wE7aUSPykWuBXiZPXOZmqKI0rgZAtwm5A_Ly5jBCRQ8K02825Uz
+iHWIzMrAeLUO0QmPnGcsY7xijIsHnO3QGwVpywYdA6QoBUMqeb4006y7IbT-rXQ5Za_Iz0jWIfUs4yOO7xHozc4uG36ZSXIn7oRjhsl_qC5aYeApm6UvUbKa
+HpLZMQpdaYy6W3HoHfX4xYa0Ycqfb3k14MKsG-ZJQfm0QEu91f8739-mAhU30WFD0mISR_kiugWuz_XiHmIGlaQ90B3SqtQM5TjwVfaPQdcoOifMrANs5MIF
+0C-MOc1BoyroQGa6lBJ2O-bXqe_ChrKS4tfMOSpqISLGsVrAOYzkLmW7_6Q5SKZlL9BG8BjQ2JcxxtDv6wJ7soJT17U96ne_lC8oCpSfS8hyd5ofsAn-uMBb
+v5pij48axaGqV47Tfi_9N8dGO_y2dwYlT5t7Yj6n-luIc_hYONzQXGyhVANYzVxDJRr3_S-erF-6owPUVdqbpYgqVHxeIBqZhDuyMIxed-6_zm
+}
+
+AzureEntityColoring(CDSAzurestackEdgeManagement)
+!define CDSAzurestackEdgeManagement(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackEdgeManagement_tbg.png, CDSAzurestackEdgeManagement)
+!define CDSAzurestackEdgeManagement(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Azurestack/CDSAzurestackEdgeManagement_tbg.png, CDSAzurestackEdgeManagement)
+AzureEntityColoring(CDSAzurestackEdgeManagement_m)
+!define CDSAzurestackEdgeManagement_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAzurestackEdgeManagementSPRITE, CDSAzurestackEdgeManagement_m)
+!define CDSAzurestackEdgeManagement_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAzurestackEdgeManagementSPRITE, CDSAzurestackEdgeManagement_m)
+

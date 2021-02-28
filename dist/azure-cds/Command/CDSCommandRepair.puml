@@ -1,0 +1,15 @@
+sprite $CDSCommandRepairSPRITE [70x70/16z] {
+xTU7ZWCX30HGsZhUXJ3__xLNVCtRmPnwHYNz2OOYnNKa49SAe1PEpXZAqE5WCAQARUPUnsSSXNqF4l6Tclap1T-97GZzJE7tHwaBqJzPl1fRBxBzoVQTsDQD
+bF0CPmYu1M5frPyYGBX7mlLqfB1xPG60nmNICXWlyxb6m4rRXIuGoPqYE_yEmNIZL6dl0aaofOPQw0A9ifrAm-PFQbnYhaHkLC9sBFgfABXNzkKgf5FH32ca
+MGbRHYEYr8PR8UatjaZB6isxtH0tY9DBy1u1kJsplZkf0r5CN7ydT2B2rBY-Vee1sLy_D8X8INKG2UfBPiGNQMLmEbNTkbP4dIOpGXKIwaU8Kt0kH9e1yqW8
+cpp_0s4tZh0VHMgUd3CZIqoVaL7O4NUK5_92NaWQG_IVXSSW4W4Wcn7TIXX4P49v575oWzeHhTWHhTWHtOiTqMlapOZUB_C88Ydh0y2zY3v7ESYBa6s8D2CE
+CsUO44c6YY2cBD2PdJ6fuYSbENkckNmIiz5u1m
+}
+
+AzureEntityColoring(CDSCommandRepair)
+!define CDSCommandRepair(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandRepair_tbg.png, CDSCommandRepair)
+!define CDSCommandRepair(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandRepair_tbg.png, CDSCommandRepair)
+AzureEntityColoring(CDSCommandRepair_m)
+!define CDSCommandRepair_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandRepairSPRITE, CDSCommandRepair_m)
+!define CDSCommandRepair_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandRepairSPRITE, CDSCommandRepair_m)
+

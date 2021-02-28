@@ -1,0 +1,13 @@
+sprite $CDSCommandTrendUpSPRITE [70x70/16z] {
+xSm52iH054J1cOrht_-sYnCUqUOZaJf09KCX-fPlsPPRIazJX2GAIHIIA2HHIAAGH269GXA590f9598e99dJcj-OBoM_rMJMb0CIeV4IDDUJF4jel0IDbw0n
+aabBKqGYZMR2vZYXKO36ID0uIOl6IefKeR6IXCPBs9nB1YPip8IDbR0n4pPCg4UoLDi96pzXmuIGR3HC2Cb6muIGR3HC2Cb6WsHhAHEWGK98jXeaX6IpGG98
+J4XCI4n8J4WCdy_d3m
+}
+
+AzureEntityColoring(CDSCommandTrendUp)
+!define CDSCommandTrendUp(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandTrendUp_tbg.png, CDSCommandTrendUp)
+!define CDSCommandTrendUp(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandTrendUp_tbg.png, CDSCommandTrendUp)
+AzureEntityColoring(CDSCommandTrendUp_m)
+!define CDSCommandTrendUp_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandTrendUpSPRITE, CDSCommandTrendUp_m)
+!define CDSCommandTrendUp_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandTrendUpSPRITE, CDSCommandTrendUp_m)
+

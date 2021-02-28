@@ -1,0 +1,15 @@
+sprite $CDSDatabasesAzureSQLVMSPRITE [70x70/16z] {
+xT1NWjim38JX6H0jkV-1iuHSA5UkcRx-NbmW_Iouvurj2T4rNzHwnNoHzOg_A-_AfAh4ediLNwzOOzUYk18WrQE8I9kfD1v4fmG14BJeICf4nJXM56VwYOgG
+jQn9dnE0cfi0e4zNze_9QTnpxNDxyM7SeXW0FghSk5oBeiCQjTvqnLcgquQfR1NCLS9OMhqvL9xj9VUYiPDC0P07LSb43VQ6oYYaPonRlRdXzYHlL6AiZ8I4
+fW5esTLNPYRcAfwTajGC0h3wL-hRz5wedkaauTiEeExQSnA7lNWNZokRmv8D9upTk4rL9B9J71n-OwwYKWtBWr311ysDbDQQNbJoadlkIMNkELIUganxKlds
+L1A4tflEL4hmWovM3dvf9V-Dohkos3XKxFiYHITsXyV0xGx1Ove3nOHVLsanQ7-uueENA-O3-yEL7Rn6R4Vm4hs0LuXUa8N8GeRIRX9YMdjeEL9akL8mXKzW
+rjiF
+}
+
+AzureEntityColoring(CDSDatabasesAzureSQLVM)
+!define CDSDatabasesAzureSQLVM(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLVM_tbg.png, CDSDatabasesAzureSQLVM)
+!define CDSDatabasesAzureSQLVM(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLVM_tbg.png, CDSDatabasesAzureSQLVM)
+AzureEntityColoring(CDSDatabasesAzureSQLVM_m)
+!define CDSDatabasesAzureSQLVM_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLVMSPRITE, CDSDatabasesAzureSQLVM_m)
+!define CDSDatabasesAzureSQLVM_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLVMSPRITE, CDSDatabasesAzureSQLVM_m)
+

@@ -1,0 +1,13 @@
+sprite $CDSIntegrationEventGridDomainsSPRITE [70x70/16z] {
+xTX7OiGW44JHJZ3c_XUs23LHYSRPl9LMNra2w7DD6ZBJRXOofImE-wBAh0I7rufGD_cWogomgF1nXMcFMiPFvRkAMAQqHwnQRGiTm7Db3PC38juA8iA5jeep
+WkjeXJeZ88CHO6OS5NiZ45AcOn595VT5n1vSMaNx8l7HMwjOPoGuZWKHkqQSrsKz0l7a2TbQXFd-yMDNH5VUVrUauubLNI9H2smihEjLvBWgZ5MWhmAu9D0g
+GaCPndTkC2EgGk3DWE6v7SbeIfuCFy9dWReopvAZGh9NyRliLInaHglshww5JC-DF42NexaeNV5l797DId3uLREiMV6l460QyBccTm
+}
+
+AzureEntityColoring(CDSIntegrationEventGridDomains)
+!define CDSIntegrationEventGridDomains(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridDomains_tbg.png, CDSIntegrationEventGridDomains)
+!define CDSIntegrationEventGridDomains(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationEventGridDomains_tbg.png, CDSIntegrationEventGridDomains)
+AzureEntityColoring(CDSIntegrationEventGridDomains_m)
+!define CDSIntegrationEventGridDomains_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridDomainsSPRITE, CDSIntegrationEventGridDomains_m)
+!define CDSIntegrationEventGridDomains_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationEventGridDomainsSPRITE, CDSIntegrationEventGridDomains_m)
+

@@ -1,0 +1,14 @@
+sprite $CDSStorageAzureHCPCacheSPRITE [70x70/16z] {
+xT7N5MCX34NHAnJTVy7E-HcBD7dsD-i04luSn2AgAb8mggW_KSO0yGsURDmKz32l43GZhzE1I9998lCPymGZ9vuYPCXpXenwWv8_PS5Zn9kWheXv8qO5MxIp
+oZiyUZW-qUYq91Aq8XAwoKYCyDSGnoWZt51C45nPpB3yAUqPZKc2ewXobPn55A14bJI9S41dAnx1i0KLXo-e14LMeRfogqXMONnngvYlgBYjg8JkgXehnvF1
+AogEg5Ro7Tqg1gjNKhUAe4nMJdyXmASh0O2I2bVTAe8Z7TqHNIg1Cv_PTEmABcAcehYY6Aye7couGdWY0nNQL43siI9SgdXR0KXZKyaHDaZKpAz6AbihA_n5
+SuMfhYofqF_An7HJVsS5YI8D62bAuMzr
+}
+
+AzureEntityColoring(CDSStorageAzureHCPCache)
+!define CDSStorageAzureHCPCache(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureHCPCache_tbg.png, CDSStorageAzureHCPCache)
+!define CDSStorageAzureHCPCache(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureHCPCache_tbg.png, CDSStorageAzureHCPCache)
+AzureEntityColoring(CDSStorageAzureHCPCache_m)
+!define CDSStorageAzureHCPCache_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureHCPCacheSPRITE, CDSStorageAzureHCPCache_m)
+!define CDSStorageAzureHCPCache_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureHCPCacheSPRITE, CDSStorageAzureHCPCache_m)
+

@@ -1,0 +1,14 @@
+sprite $CDSAnalyticsEventHubClustersSPRITE [70x70/16z] {
+xTG7WW8n28LXu96izp_n4Xjc2i5UFtlxrKcXi_pyeCOAKq8TmKChPLss4hwFtx4Y0Ezk83G3W2bFgw70srNyk3oVm5230SuS5wq39LCfpwzmSwZGAgy4hgr0
+pTKL7wDHHOSL9ydDqkkoKC7P5VWONLMP4pMolnFpoZfaAyNnfPKETsCa-mfa3U8AJYjCQmuLb5DzXNELTN9jfSUglWVAmeG01TXqZui1vVdHlLj5pJWcWFWO
+dH0sHDLeTgyJDJHpPcLEcsEb1B6eKflZs6rCZIiuahvIQ2zJSMLsG6fpOSLj6Xh1bPMOR8n5_-pcxxfA9VU42WCWm_j_r1C05CZjGshUiIAhyfN8OojyTQNt
+y_CF
+}
+
+AzureEntityColoring(CDSAnalyticsEventHubClusters)
+!define CDSAnalyticsEventHubClusters(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsEventHubClusters_tbg.png, CDSAnalyticsEventHubClusters)
+!define CDSAnalyticsEventHubClusters(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsEventHubClusters_tbg.png, CDSAnalyticsEventHubClusters)
+AzureEntityColoring(CDSAnalyticsEventHubClusters_m)
+!define CDSAnalyticsEventHubClusters_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsEventHubClustersSPRITE, CDSAnalyticsEventHubClusters_m)
+!define CDSAnalyticsEventHubClusters_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsEventHubClustersSPRITE, CDSAnalyticsEventHubClusters_m)
+

@@ -1,0 +1,13 @@
+sprite $CDSCommandUndoSPRITE [70x70/16z] {
+xTM5cGGn241XsBZIVxLdPDOj7vpd5V3FnEcz2boYKKIuLwQH0-v8mK8Z3znZPdUkOAMH0NYMgSVAB79WxB5oG1e2J33rH4bpo87n1sKQEJ0TzqgOGpYaZ-Ac
+q2p2HVe80GJ8qSy8aErdEe04sNx67IdnijrpovI1xcKVAPO-4YhG-KmAbSGJ8rGiJwcAKksz41x62WZIK-e7ypCKFZm_ObvufPEA4eLAu1EWiaHMXXZIM6W-
+qaLZdId84C-AaIcT5PLVoIg_WWexZgB6NkaY18cpqhqltt7fyBYB4J8QYDL0l0QIVnwo42mQIBs9BAJXRqKMif25o1zZqoUGLm
+}
+
+AzureEntityColoring(CDSCommandUndo)
+!define CDSCommandUndo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandUndo_tbg.png, CDSCommandUndo)
+!define CDSCommandUndo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandUndo_tbg.png, CDSCommandUndo)
+AzureEntityColoring(CDSCommandUndo_m)
+!define CDSCommandUndo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandUndoSPRITE, CDSCommandUndo_m)
+!define CDSCommandUndo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandUndoSPRITE, CDSCommandUndo_m)
+

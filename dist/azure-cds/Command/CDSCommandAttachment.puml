@@ -1,0 +1,9 @@
+sprite $CDSCommandAttachmentSPRITE [70x70/16z] xSoX0G0m20EmVR3_lvshdmD87K1pavFyx_eg50g5Gg5GA1GAXKAXK2WKoWC
+
+AzureEntityColoring(CDSCommandAttachment)
+!define CDSCommandAttachment(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAttachment_tbg.png, CDSCommandAttachment)
+!define CDSCommandAttachment(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAttachment_tbg.png, CDSCommandAttachment)
+AzureEntityColoring(CDSCommandAttachment_m)
+!define CDSCommandAttachment_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAttachmentSPRITE, CDSCommandAttachment_m)
+!define CDSCommandAttachment_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAttachmentSPRITE, CDSCommandAttachment_m)
+

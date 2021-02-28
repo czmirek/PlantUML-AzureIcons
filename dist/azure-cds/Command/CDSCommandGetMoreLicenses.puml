@@ -1,0 +1,12 @@
+sprite $CDSCommandGetMoreLicensesSPRITE [70x70/16z] {
+xTY50SCm34HHsM6mjV-qvIlpgHZz0Luu1ZbNfmys9MMyktn5YN9lmoyghhZYIcWDb92qfvMOLRKZbR14mDodn7BHYGpcd79tBHXA0TDoYZHWA4LgC9G2fk4K
+gS0moexX533rWL8-N7V23FfyjOcYbObIMrzH-N0j48id_Vct3iZ7lqOWxUV_KYqGqxytFvBmene_mdvyj0VJJdv6veehhl2x5RuND0S
+}
+
+AzureEntityColoring(CDSCommandGetMoreLicenses)
+!define CDSCommandGetMoreLicenses(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandGetMoreLicenses_tbg.png, CDSCommandGetMoreLicenses)
+!define CDSCommandGetMoreLicenses(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandGetMoreLicenses_tbg.png, CDSCommandGetMoreLicenses)
+AzureEntityColoring(CDSCommandGetMoreLicenses_m)
+!define CDSCommandGetMoreLicenses_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandGetMoreLicensesSPRITE, CDSCommandGetMoreLicenses_m)
+!define CDSCommandGetMoreLicenses_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandGetMoreLicensesSPRITE, CDSCommandGetMoreLicenses_m)
+

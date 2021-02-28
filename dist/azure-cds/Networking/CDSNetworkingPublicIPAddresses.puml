@@ -1,0 +1,13 @@
+sprite $CDSNetworkingPublicIPAddressesSPRITE [70x70/16z] {
+xTHL0eGm34NH6BB_3UEMeYqEkNzlv8mWu9TbaUoAAYHATnQLIhgx4vGazYgPLX3yIgQK1BwcfFkL_STeHyzKejsPucQAAKp4pXGzrnL1AEFfoTL2MLCGwdXg
+ShDmHI5eGZr1cK3B2dI9UblrPGIw5XK1zRP8J-wd-7mNyFyk-YSu_uie1HUKuGl9cHgLPQNzxJGvMuPNprqXHEAvoUKKkpFiL4o9T_SEnHJPYqYf8F6k2C4h
+oye1
+}
+
+AzureEntityColoring(CDSNetworkingPublicIPAddresses)
+!define CDSNetworkingPublicIPAddresses(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingPublicIPAddresses_tbg.png, CDSNetworkingPublicIPAddresses)
+!define CDSNetworkingPublicIPAddresses(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingPublicIPAddresses_tbg.png, CDSNetworkingPublicIPAddresses)
+AzureEntityColoring(CDSNetworkingPublicIPAddresses_m)
+!define CDSNetworkingPublicIPAddresses_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingPublicIPAddressesSPRITE, CDSNetworkingPublicIPAddresses_m)
+!define CDSNetworkingPublicIPAddresses_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingPublicIPAddressesSPRITE, CDSNetworkingPublicIPAddresses_m)
+

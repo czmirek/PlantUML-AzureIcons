@@ -1,0 +1,15 @@
+sprite $CDSComputeAvailabilitySetsSPRITE [70x70/16z] {
+xTZNkkmW28PX-069tFy5xopD5ARfCyxkwprB-qxILFgZH8GHUNH4XEYCphkTY2mwj6iQxoT_ibAOYD7H3XtJUJVJqpFGAm3J2e3-C16W1OYOgtnNC31LsMA4
+drNCc0un1Bh5xjIjLBgVNwdRTCMTdrGAMEkemcRv7kMA2-zWWmeYdbUgyW7-VgMSAw8B5OZm3gfB5K30giiLGDSgjUWNQxOBbGDI9OcpCaGN2nN-6HNW4vK8
+Z2kg3oh3U-H94MQO9rELt6YaB5GCV69JbUrXHOuCTAuY_e01hIEQAdXOoN858dlZSIN_IRBjml2bLxOBf2zcDwWmjqwk9ECAxx2JXKhXKmKlAkxyjD99hyZM
+vGgxFxr7DN4mfDHavaxN6yLgNQjq_tw59ogmQzuKkoAKAsFO6gKbx8tG4fH6rkOtOes-kZvYb57hbaRmq8EyNM785V1x5Rd1_yty2A0LR4P_63CiNZ-tMf5t
+Krx4mEpAITwDjA22-5ZbZ_83
+}
+
+AzureEntityColoring(CDSComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, CDSComputeAvailabilitySets)
+!define CDSComputeAvailabilitySets(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeAvailabilitySets_tbg.png, CDSComputeAvailabilitySets)
+AzureEntityColoring(CDSComputeAvailabilitySets_m)
+!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, CDSComputeAvailabilitySets_m)
+!define CDSComputeAvailabilitySets_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeAvailabilitySetsSPRITE, CDSComputeAvailabilitySets_m)
+

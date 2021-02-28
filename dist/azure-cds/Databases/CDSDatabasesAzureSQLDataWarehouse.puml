@@ -1,0 +1,14 @@
+sprite $CDSDatabasesAzureSQLDataWarehouseSPRITE [70x70/16z] {
+xTHLWeCm58LXZeGW-z_lP92wNEhsFLL_85Qz1vZNH-G2LpS6kg93h-dY0Td6Ynzc6wvvc3KjRrpPWKzXBA9qcX5vc7IMpZvCYZ03ZQiwIaiOmG5PFZn8o-cr
+AogS2kiC3uM29sQfEkU_uchmTHNEjjzXKGNRfwHdF5xvLIYI65nK4KQSO1Ijh1kKx3LfJ8Kh120VC8HYbI7Y8zQPTUKmtAGY5CFPKczAoIAA5AhqmjJPYapp
+nYvOwHjXGgeWCM7k-qCLp5Rl-d_Pn2xLNL-aq1prWwx8ETigKfsxmKwbBivKjdrZvLU9-ApAh_Ah_2hjcOf25NOdAxaAoiShhQeuDuSQRSrg8RfkSjkDcfoJ
+KBsYFm
+}
+
+AzureEntityColoring(CDSDatabasesAzureSQLDataWarehouse)
+!define CDSDatabasesAzureSQLDataWarehouse(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLDataWarehouse_tbg.png, CDSDatabasesAzureSQLDataWarehouse)
+!define CDSDatabasesAzureSQLDataWarehouse(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesAzureSQLDataWarehouse_tbg.png, CDSDatabasesAzureSQLDataWarehouse)
+AzureEntityColoring(CDSDatabasesAzureSQLDataWarehouse_m)
+!define CDSDatabasesAzureSQLDataWarehouse_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLDataWarehouseSPRITE, CDSDatabasesAzureSQLDataWarehouse_m)
+!define CDSDatabasesAzureSQLDataWarehouse_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesAzureSQLDataWarehouseSPRITE, CDSDatabasesAzureSQLDataWarehouse_m)
+

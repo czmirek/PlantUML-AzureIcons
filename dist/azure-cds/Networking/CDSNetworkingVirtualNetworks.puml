@@ -1,0 +1,14 @@
+sprite $CDSNetworkingVirtualNetworksSPRITE [70x70/16z] {
+xTH74W8n30LHP-l-5oPz1F8KCBsct3kNh4Sc_NkxtQvR_ZxCrY5YOZuZ9WOWOZuZYEccFazDTOYCp-Ff349cIe012600WXcES2OYdE48PoB26O0G1Y240GXX
+2CAP8v9hoUbLBbKdLKhvo8mLoNtUQhvLvwsHdUozZr5MPgo8q3dluneGin6HCVEHwG7njN0MucXz86FsT60EIEhQUlxRvITYUeLw9hVIoZZItegjYaLbI36_
+tNmif3bJroVdPjMIdebrHvgOcfgG5pFZMchh7wYUYML7nDnNcn1dyl1Ny6P6JZwy8RCu8gPfr9nHfSNlMQwrf71inVrdkXiPNaG00n3000Gm004CG1Z3aSXm
+130GuGn78eCGpd24Cn51J3uP8gPy7XQ4Y17ocH62626V6I5_tMwtkm8
+}
+
+AzureEntityColoring(CDSNetworkingVirtualNetworks)
+!define CDSNetworkingVirtualNetworks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_tbg.png, CDSNetworkingVirtualNetworks)
+!define CDSNetworkingVirtualNetworks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingVirtualNetworks_tbg.png, CDSNetworkingVirtualNetworks)
+AzureEntityColoring(CDSNetworkingVirtualNetworks_m)
+!define CDSNetworkingVirtualNetworks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworksSPRITE, CDSNetworkingVirtualNetworks_m)
+!define CDSNetworkingVirtualNetworks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingVirtualNetworksSPRITE, CDSNetworkingVirtualNetworks_m)
+

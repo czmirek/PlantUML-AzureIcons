@@ -1,0 +1,14 @@
+sprite $CDSStatusInfoSPRITE [70x70/16z] {
+hPXNTi0m20HHGvJxdpUzHs5np7ppndXnaKG1OouMDLFXDGVzWpR5_1iciz4L-b8_egkdszWUi5lAmUOXnjZ3vX1R813p51R5CyoJsFZxRlm2J6V4Bo77IDGl
+elr29oBvRZYwNjTSDXEKiH-PcH4hVQ3ukMdcHxxKT3zY3IPhz0MOSC_CG1pqAzY2YuPxxexEZ21-dEux-gKLFEcucGrUNFYwRth2_1tm1aJnTOyn4VEOJhJy
+DYk8BOzIymBQz0BcyW8MUmIlLr3P1ZDyetl4bWgBQ8L5hS9YDPQQEwf9jsRIN67XLM5Piy8oMuMbaTwtA17VjooYaREWAhjhiVU_6hQWlzf8Mi3lNkzPX5uO
+6GkkaJiMmINzGWbjR0a616kmfU6bDxPCl0t05gRlR601eRoZm9BRPpMzQb6yuyCMIUy-vGCKx67W69i56shh1IS4J8YseQDLd9oKdkBKdoZLd6uz0W
+}
+
+AzureEntityColoring(CDSStatusInfo)
+!define CDSStatusInfo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusInfo_tbg.png, CDSStatusInfo)
+!define CDSStatusInfo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusInfo_tbg.png, CDSStatusInfo)
+AzureEntityColoring(CDSStatusInfo_m)
+!define CDSStatusInfo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusInfoSPRITE, CDSStatusInfo_m)
+!define CDSStatusInfo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusInfoSPRITE, CDSStatusInfo_m)
+

@@ -1,0 +1,12 @@
+sprite $CDSCommandMailSPRITE [70x70/16z] {
+xSo54SCm44L1cTdglzemVyrDNXXk2zZu9rpuUAvuI187UV0nn1Lz-B4sbhSUvHZNvE67_V23FzNkK5DrzJ558GyzibOUVBHP2FhKrb4dZhNKGu_qCzV9OquU
+veEFzDE44urvs0yupCSuq4EFz0CEUS117ptuemT_zE2F7lpHWpzwS1ayEEUSSox-2RS4
+}
+
+AzureEntityColoring(CDSCommandMail)
+!define CDSCommandMail(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandMail_tbg.png, CDSCommandMail)
+!define CDSCommandMail(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandMail_tbg.png, CDSCommandMail)
+AzureEntityColoring(CDSCommandMail_m)
+!define CDSCommandMail_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandMailSPRITE, CDSCommandMail_m)
+!define CDSCommandMail_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandMailSPRITE, CDSCommandMail_m)
+

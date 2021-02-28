@@ -1,0 +1,12 @@
+sprite $CDSCommandTasksSPRITE [70x70/16z] {
+xTQ53GCn44HHaqw6qMx_tKPXpYXCymhu1qQ_f8IDuZTInUfSzpdKhRIjfBe5d-jrphOLx3ok1ghkl2YkgQXYe8nKhd1DHPNh_LP55LLYdajXBdEHxvXmgbnJ
+KINLkHBcfaebhO1ZggYICJU5kGOglt9dK4LpLnLLhZ_jlsfdq8ri1W
+}
+
+AzureEntityColoring(CDSCommandTasks)
+!define CDSCommandTasks(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandTasks_tbg.png, CDSCommandTasks)
+!define CDSCommandTasks(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandTasks_tbg.png, CDSCommandTasks)
+AzureEntityColoring(CDSCommandTasks_m)
+!define CDSCommandTasks_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandTasksSPRITE, CDSCommandTasks_m)
+!define CDSCommandTasks_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandTasksSPRITE, CDSCommandTasks_m)
+

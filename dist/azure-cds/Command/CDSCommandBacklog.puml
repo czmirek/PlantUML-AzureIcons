@@ -1,0 +1,13 @@
+sprite $CDSCommandBacklogSPRITE [70x70/16z] {
+xTS5KWOn44JX3hEi3jNtFotkJkO1lxtIbNobCTqKsLGkx6m0SiC0o0q38Bve0EApXnSzFI3nmARx2m5A2512W182b7CzRvmxiaVLGn2DEiZQJ23fXK3i1K1k
+60An1m8PLUWDicH73mYnIeq2b5M0iWfGLW7Agde88WHHqwxL13Gw2CGE0AapuyCnY41M0jbAk_sRis6wkoT4II1A0b4IY99054D7TgWUWYXqY9tkZHyZTc08
+VsyytHj70Se3KZZlxlwzyTGL
+}
+
+AzureEntityColoring(CDSCommandBacklog)
+!define CDSCommandBacklog(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandBacklog_tbg.png, CDSCommandBacklog)
+!define CDSCommandBacklog(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandBacklog_tbg.png, CDSCommandBacklog)
+AzureEntityColoring(CDSCommandBacklog_m)
+!define CDSCommandBacklog_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandBacklogSPRITE, CDSCommandBacklog_m)
+!define CDSCommandBacklog_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandBacklogSPRITE, CDSCommandBacklog_m)
+

@@ -1,4 +1,4 @@
-sprite $MigrateAzureDatabaseMigrationServicesSPRITE [70x70/16z] {
+sprite $CDSMigrateAzureDatabaseMigrationServicesSPRITE [70x70/16z] {
 xTH9jkem38HXILMIVTd_WXy-1mSBOXoIoUl-4Ur7cKx-c1IWHuGJAYT3f73QkEXexEMdX-HKZcSHrnahy-BuUrA684mCvLYU4NbXzFlpG5hy_aoUaNV6P9aX
 8piCLqIKNaOoip9Ic1rK5-_76ARtGsPfB921uHGf2sHambHsMoEjvzwmrNlIUlb7ORGwCd5G9Z6Fo55ofKxQbCczOwXhPSsKiqgrGQcdbI9RTbwfa1ukA24z
 Nb2gTiMlA5Xi2NTQFxJxwiF6Za3JUzRtQiku8_dqC_966C3d5X9cgkPJHMggD0Da2zhgLz6SCZcHnCzOGpYfCJyfanxIxVfPqVoQygmEDrSs1dIFb3lH4AiZ
@@ -7,13 +7,13 @@ SS9abQwsgAGMYbzM_c_vl-N_blzRSgijSYZxlCNaMChv5geS3zpRGiYtgG7e0W1J-IFw1G
 }
 
 AzureEntityColoring(CDSMigrateAzureDatabaseMigrationServices)
-!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/MigrateAzureDatabaseMigrationServices_tbg.png, CDSMigrateAzureDatabaseMigrationServices)
-!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/MigrateAzureDatabaseMigrationServices_tbg.png, CDSMigrateAzureDatabaseMigrationServices)
+!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureDatabaseMigrationServices_tbg.png, CDSMigrateAzureDatabaseMigrationServices)
+!define CDSMigrateAzureDatabaseMigrationServices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureDatabaseMigrationServices_tbg.png, CDSMigrateAzureDatabaseMigrationServices)
 AzureEntityColoring(CDSMigrateAzureDatabaseMigrationServices_m)
-!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MigrateAzureDatabaseMigrationServicesSPRITE, CDSMigrateAzureDatabaseMigrationServices_m)
-!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MigrateAzureDatabaseMigrationServicesSPRITE, CDSMigrateAzureDatabaseMigrationServices_m)
+!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateAzureDatabaseMigrationServicesSPRITE, CDSMigrateAzureDatabaseMigrationServices_m)
+!define CDSMigrateAzureDatabaseMigrationServices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateAzureDatabaseMigrationServicesSPRITE, CDSMigrateAzureDatabaseMigrationServices_m)
 
-sprite $MigrateAzureMigrateSPRITE [70x70/16z] {
+sprite $CDSMigrateAzureMigrateSPRITE [70x70/16z] {
 xTO7RiCm38NXS3qblVzzEubQX9GNkNlunypwGCe5rDClw-ZeIDHCLTuZE5xplP3eOo8IAFaEmMCBgCcoKKChsGgI1c5kRoMHCSTM4Sx8Eb8h2gWIO_jtigZ9
 KrC6w_juVNVnP3meWvMdBHR1cAh4ZD2SWp8t3aOZuqph8-V16HG6BkN9y5w-QwcKi8nOjpFGpgKcupeSoLfrB2UbJRw4oZnFinCP6PHzAC8OdunYgceC6Sz6
 TFxNaMyNX0nZz9ceYEJAZ0aFocGwpjGh28mbCzn0XgwoKc25YP5fH5bdscMhETxAT0eCZB6EoJjYfhXWdW_3b3VgHf9uL_SRYG6PAIWV30Yk8pXte-IcQqZP
@@ -21,13 +21,13 @@ VaEiVBQCr57oNh8feXHftIIPSmGZWilTI_qzwnI1YOZEa6RrKXiGLjwmTXho_lBLnWgX_ngtrfGYUH_o
 }
 
 AzureEntityColoring(CDSMigrateAzureMigrate)
-!define CDSMigrateAzureMigrate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/MigrateAzureMigrate_tbg.png, CDSMigrateAzureMigrate)
-!define CDSMigrateAzureMigrate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/MigrateAzureMigrate_tbg.png, CDSMigrateAzureMigrate)
+!define CDSMigrateAzureMigrate(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureMigrate_tbg.png, CDSMigrateAzureMigrate)
+!define CDSMigrateAzureMigrate(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateAzureMigrate_tbg.png, CDSMigrateAzureMigrate)
 AzureEntityColoring(CDSMigrateAzureMigrate_m)
-!define CDSMigrateAzureMigrate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MigrateAzureMigrateSPRITE, CDSMigrateAzureMigrate_m)
-!define CDSMigrateAzureMigrate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MigrateAzureMigrateSPRITE, CDSMigrateAzureMigrate_m)
+!define CDSMigrateAzureMigrate_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateAzureMigrateSPRITE, CDSMigrateAzureMigrate_m)
+!define CDSMigrateAzureMigrate_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateAzureMigrateSPRITE, CDSMigrateAzureMigrate_m)
 
-sprite $MigrateCostManagementandBillingSPRITE [70x70/16z] {
+sprite $CDSMigrateCostManagementandBillingSPRITE [70x70/16z] {
 rPVHRcmX24K1S8F__yDtJchYC2grjqzTpytAPfEn7FexiAgA2F_QCX3-jQKMtLi6F_MmmIEWWo9FeV1uM2tt7XsAQSd8XKE6OxNSQnWHXULEO_653w07AWcc
 eR3KEsTFZjgYHQtkXUL68wkZjiXsd4bbgJKUXUMsOVWUDBklncBl69nCKfS21qpeXPhXuI8CrWnA4tb4xRimaXN3aR1374vHiaHeWG5O5KO-9Kmx6c1561H9
 MD9KHPYg4-kIqXpNf5dIw6WXe9qiBKbIAURzXIiD13WLawCOJRn_uLEBjYz6ieKcU0cYUxnP6DYFfCTMNX9zUc5xBzYs8zcKv0N9ooAptMCpl9OhEGk6PNAm
@@ -38,13 +38,13 @@ P_W7
 }
 
 AzureEntityColoring(CDSMigrateCostManagementandBilling)
-!define CDSMigrateCostManagementandBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/MigrateCostManagementandBilling_tbg.png, CDSMigrateCostManagementandBilling)
-!define CDSMigrateCostManagementandBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/MigrateCostManagementandBilling_tbg.png, CDSMigrateCostManagementandBilling)
+!define CDSMigrateCostManagementandBilling(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateCostManagementandBilling_tbg.png, CDSMigrateCostManagementandBilling)
+!define CDSMigrateCostManagementandBilling(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateCostManagementandBilling_tbg.png, CDSMigrateCostManagementandBilling)
 AzureEntityColoring(CDSMigrateCostManagementandBilling_m)
-!define CDSMigrateCostManagementandBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MigrateCostManagementandBillingSPRITE, CDSMigrateCostManagementandBilling_m)
-!define CDSMigrateCostManagementandBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MigrateCostManagementandBillingSPRITE, CDSMigrateCostManagementandBilling_m)
+!define CDSMigrateCostManagementandBilling_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateCostManagementandBillingSPRITE, CDSMigrateCostManagementandBilling_m)
+!define CDSMigrateCostManagementandBilling_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateCostManagementandBillingSPRITE, CDSMigrateCostManagementandBilling_m)
 
-sprite $MigrateDataBoxSPRITE [70x70/16z] {
+sprite $CDSMigrateDataBoxSPRITE [70x70/16z] {
 xTK7LiKm34JHaIoFyxF_1OFfQPeKEjm5lEDk_2Xs3rTuL3u9npc5Ks4upBbKZtOgLnKSODmIroDTFHIvF1hc77i41K1pAW6Dca7nfWLILaeyg6m9febuA-ku
 Q8YEc9B7YjesLAmgCQ4ob96fjix4T7PFgc3A8i6sQTg9LDj6a_EPpackJmXjJyP3u91eU1HA7JBKbKSjpHG0i91Cpyb30P1c743H4P49w0gWCjGLF6lfmfYA
 w8oge9CP010HaT4LpBNRclp05EyCdRCRLYj45ob75xTj1PrVhE3HjGhno2vLJ7yakXA0okWA0PNHbM7dnrRGrVL8mzo92h5aMMLSec5TYLfZnZlE4qCrf7o2
@@ -52,13 +52,13 @@ OqUVC1pqE9SAuKig_nLhtJ1sjzOPJk0uHGWweoCweoCweoCweoCQLMH_XhYC8h9JmTzp1m
 }
 
 AzureEntityColoring(CDSMigrateDataBox)
-!define CDSMigrateDataBox(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/MigrateDataBox_tbg.png, CDSMigrateDataBox)
-!define CDSMigrateDataBox(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/MigrateDataBox_tbg.png, CDSMigrateDataBox)
+!define CDSMigrateDataBox(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBox_tbg.png, CDSMigrateDataBox)
+!define CDSMigrateDataBox(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBox_tbg.png, CDSMigrateDataBox)
 AzureEntityColoring(CDSMigrateDataBox_m)
-!define CDSMigrateDataBox_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MigrateDataBoxSPRITE, CDSMigrateDataBox_m)
-!define CDSMigrateDataBox_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MigrateDataBoxSPRITE, CDSMigrateDataBox_m)
+!define CDSMigrateDataBox_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxSPRITE, CDSMigrateDataBox_m)
+!define CDSMigrateDataBox_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxSPRITE, CDSMigrateDataBox_m)
 
-sprite $MigrateDataBoxEdgeSPRITE [70x70/16z] {
+sprite $CDSMigrateDataBoxEdgeSPRITE [70x70/16z] {
 xTD74gKm303HLZHp_mDFfiHFHcOrWRTNboD_aTlj9ceUxgPS9fubheKqyb48opnV6OiYtudBaUiP7vyuRJ8-CxfoKacQRCmuFMEES-enJYWdBCSvPqfoT0Gp
 EdgoSJCDsbX9HnZlY4PavkZJbuJvBaQRlJPAZgwWY9V5vTYxI6Msdl4QaTfPR4t1BxvJKDzbDmEm3u8gWAfW_aEtehKKXI9BY_4QSIYwT39P8oxy8CU36irC
 ZHY0_LwJNQjORKJhAUV2YwcprGgkL6AlcDHQbYksLmxdiUVw5NwmkYEaxgXT2IRlfLs1wTlr_79kKzx-8nEiNp5uywV5I_PNmd4IRAKI7AcNTcLBXKR6T8PN
@@ -66,13 +66,13 @@ ucyeoxHHwH2rHyBVvdQxVGC
 }
 
 AzureEntityColoring(CDSMigrateDataBoxEdge)
-!define CDSMigrateDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/MigrateDataBoxEdge_tbg.png, CDSMigrateDataBoxEdge)
-!define CDSMigrateDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/MigrateDataBoxEdge_tbg.png, CDSMigrateDataBoxEdge)
+!define CDSMigrateDataBoxEdge(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBoxEdge_tbg.png, CDSMigrateDataBoxEdge)
+!define CDSMigrateDataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateDataBoxEdge_tbg.png, CDSMigrateDataBoxEdge)
 AzureEntityColoring(CDSMigrateDataBoxEdge_m)
-!define CDSMigrateDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MigrateDataBoxEdgeSPRITE, CDSMigrateDataBoxEdge_m)
-!define CDSMigrateDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MigrateDataBoxEdgeSPRITE, CDSMigrateDataBoxEdge_m)
+!define CDSMigrateDataBoxEdge_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxEdgeSPRITE, CDSMigrateDataBoxEdge_m)
+!define CDSMigrateDataBoxEdge_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateDataBoxEdgeSPRITE, CDSMigrateDataBoxEdge_m)
 
-sprite $MigrateRecoveryServicesVaultsSPRITE [70x70/16z] {
+sprite $CDSMigrateRecoveryServicesVaultsSPRITE [70x70/16z] {
 xTNNUYiX30JWaL3pUV_tFPtDwWEyeEGo_utxC98RFkSRSMlC1DGrjKwecc69LdBO1bmDoLfzcdfCymN6FlOLmpxr9S4k6bzBrgzIlKe3wNLr0wjvrbzgsvjX
 yr4lO9iZYIyGFcBu_AqnOI9qrdiTXKWFI37QJZwlWa7VZUv-NeqnyVInsVgesyCtYYDnN8YPUqZSC4OQoLLOF7uJ_4OsEIZpk9DRHhzD7jcuVUe7kFtHA1UK
 7fBGV2sc7nf1evEqjsMPrZFkuk8j9dJiuZgAXTL-oNN6uwrX8fqxIccw4gyrHyAwPAyrHQBTMPasL2cK2ToHQgcCuCAY3_nnjwpTyKX1QPHY2c-6TDDnjfjq
@@ -81,10 +81,10 @@ TrZzzIIiuHdnEuH3ttu1
 }
 
 AzureEntityColoring(CDSMigrateRecoveryServicesVaults)
-!define CDSMigrateRecoveryServicesVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/MigrateRecoveryServicesVaults_tbg.png, CDSMigrateRecoveryServicesVaults)
-!define CDSMigrateRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/MigrateRecoveryServicesVaults_tbg.png, CDSMigrateRecoveryServicesVaults)
+!define CDSMigrateRecoveryServicesVaults(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateRecoveryServicesVaults_tbg.png, CDSMigrateRecoveryServicesVaults)
+!define CDSMigrateRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Migrate/CDSMigrateRecoveryServicesVaults_tbg.png, CDSMigrateRecoveryServicesVaults)
 AzureEntityColoring(CDSMigrateRecoveryServicesVaults_m)
-!define CDSMigrateRecoveryServicesVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MigrateRecoveryServicesVaultsSPRITE, CDSMigrateRecoveryServicesVaults_m)
-!define CDSMigrateRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MigrateRecoveryServicesVaultsSPRITE, CDSMigrateRecoveryServicesVaults_m)
+!define CDSMigrateRecoveryServicesVaults_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSMigrateRecoveryServicesVaultsSPRITE, CDSMigrateRecoveryServicesVaults_m)
+!define CDSMigrateRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSMigrateRecoveryServicesVaultsSPRITE, CDSMigrateRecoveryServicesVaults_m)
 
 

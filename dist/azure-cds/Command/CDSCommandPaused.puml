@@ -1,0 +1,9 @@
+sprite $CDSCommandPausedSPRITE [70x70/16z] xSoX0G0G40105R3_jk9d3Uu6k1bAsb9ck7UnM2mMYyLYiLWi5el5Oh5O5W
+
+AzureEntityColoring(CDSCommandPaused)
+!define CDSCommandPaused(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandPaused_tbg.png, CDSCommandPaused)
+!define CDSCommandPaused(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandPaused_tbg.png, CDSCommandPaused)
+AzureEntityColoring(CDSCommandPaused_m)
+!define CDSCommandPaused_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandPausedSPRITE, CDSCommandPaused_m)
+!define CDSCommandPaused_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandPausedSPRITE, CDSCommandPaused_m)
+

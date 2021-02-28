@@ -1,0 +1,12 @@
+sprite $CDSIntuneDevicesSPRITE [70x70/16z] {
+xTI5SS1034HHMR7Whlz-0sQKZyBw1RpPeONBF9HOatI3OY9CGz681oL48naGZaPXKE9x_KjP7oDrLhGhBRZYodKz6_M92l8c6k9DgLks20vHYMAKfU1DUKft
+4_qGnHMHMqNaGy64_elYYdoFuWeRYYkXYHALdtjG4ZELP4PD1KEoOfm602ObjfAOgDuggdz7SKL_bi9qdMOeHeKA0L2zWW3uZLj8ZHWkyzu
+}
+
+AzureEntityColoring(CDSIntuneDevices)
+!define CDSIntuneDevices(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDevices_tbg.png, CDSIntuneDevices)
+!define CDSIntuneDevices(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDevices_tbg.png, CDSIntuneDevices)
+AzureEntityColoring(CDSIntuneDevices_m)
+!define CDSIntuneDevices_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDevicesSPRITE, CDSIntuneDevices_m)
+!define CDSIntuneDevices_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDevicesSPRITE, CDSIntuneDevices_m)
+

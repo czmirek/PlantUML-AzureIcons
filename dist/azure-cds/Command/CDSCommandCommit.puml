@@ -1,0 +1,13 @@
+sprite $CDSCommandCommitSPRITE [70x70/16z] {
+xSw7TSD030JHlSXCz5-jCnHN8d7EDgQ0_mOt6-IY0OO8qipqyjAwo5FpAY_rRIThdEIfAQvwquJWLG5X38WgYAAC4P68euAaZ159E2g4CI2g4CQ0g69andD4
+5HjpH9Y2hCmk98CgHsOq8QeGne2eGXW3eWfZTY9SGJbZE5B0b9rCM1MX2cNMSCqi3E4AgZor191caOfjHPa9lB5Yhu8wmf0gf3-ZkEAAAwwK_gc2fhoKFw0a
+dvtNv-RwerBHNFq5YYkkkEBA8m
+}
+
+AzureEntityColoring(CDSCommandCommit)
+!define CDSCommandCommit(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandCommit_tbg.png, CDSCommandCommit)
+!define CDSCommandCommit(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandCommit_tbg.png, CDSCommandCommit)
+AzureEntityColoring(CDSCommandCommit_m)
+!define CDSCommandCommit_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandCommitSPRITE, CDSCommandCommit_m)
+!define CDSCommandCommit_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandCommitSPRITE, CDSCommandCommit_m)
+

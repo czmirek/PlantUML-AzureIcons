@@ -1,0 +1,15 @@
+sprite $CDSIdentityUsersSPRITE [70x70/16z] {
+rTP7bWGn20DGWWHz_mjFTEUoIzEJ_zvwc0sofKY013BiKPwy0BS7E3Xy8YUu8UrZalny33Y11oRvr3J1XJ0Hb-J_BC4atE7YA6lvcL6AzOwspxUVNdBRbSNQ
+aKhABjWk_AyKsgxygPIqNQ6chDMEBXDm-sbN3pH1dXzkIrDKBvL9efVIDDKh9l9LZ9igUYfC5y9I12642A8MEn45cEWR0EB3hSCTrOUX6-vyaNB6k_0N2RA8
+z1Uf7se71_WDlLC5p_nQoDSnUI7zIl8CGiZsCBm4lOV5reS6o6K1cwCCa1k7Nz0AYDUzz9FKgWFh7ls4qd6BsX8-X7QNM5lW0sgBYtVL1wqyr4HETZkuTfnv
+tAqo36icncw5ORocC7Ox0R4_-OkQ4yj6kcVDXHrvBz2TFGVnl4Te3GAz0lIAQnsXIYiY_HaKrYAmTzcVuelbwiBUi3y5NvB2dqhHVnI7Jt5xLuTFW0tUXuVH
+pl3OE7qyiyy
+}
+
+AzureEntityColoring(CDSIdentityUsers)
+!define CDSIdentityUsers(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityUsers_tbg.png, CDSIdentityUsers)
+!define CDSIdentityUsers(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityUsers_tbg.png, CDSIdentityUsers)
+AzureEntityColoring(CDSIdentityUsers_m)
+!define CDSIdentityUsers_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityUsersSPRITE, CDSIdentityUsers_m)
+!define CDSIdentityUsers_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityUsersSPRITE, CDSIdentityUsers_m)
+

@@ -1,0 +1,12 @@
+sprite $CDSGeneralDashboardSPRITE [70x70/16z] {
+xSpL0KD124JHGTD_nN5_xZRtRnSuc3t6P72u5iEpKPGOHv4rAlgL5VxAAoYExvu86l8b5IfKg52nKPJc1YXKv2ilVacJKlpJaZNlhDXsbBptCoxxiv8rpsVR
+KQZ4-4hPdvUinRSoFC5fXFQdO0mb01sSOBinTW4
+}
+
+AzureEntityColoring(CDSGeneralDashboard)
+!define CDSGeneralDashboard(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralDashboard_tbg.png, CDSGeneralDashboard)
+!define CDSGeneralDashboard(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralDashboard_tbg.png, CDSGeneralDashboard)
+AzureEntityColoring(CDSGeneralDashboard_m)
+!define CDSGeneralDashboard_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralDashboardSPRITE, CDSGeneralDashboard_m)
+!define CDSGeneralDashboard_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralDashboardSPRITE, CDSGeneralDashboard_m)
+

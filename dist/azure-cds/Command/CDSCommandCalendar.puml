@@ -1,0 +1,12 @@
+sprite $CDSCommandCalendarSPRITE [70x70/16z] {
+xTK53WCn40F0CZho_t_ROmQhAxnuX67EdWPOm4a15WRfu_Lo7M01LmLO6BPSOUdMgbEAnC8eXV19uw2z11ovbsiKkCRIBIhvxagzpClM_m9csiiRm7kKmYpb
+7rFl1OLtU7TPW7xIMVIophVkMleZvLkdz78h37PmbhhDKxwxSu4pogyNFPBeP-HRHqHnXVq
+}
+
+AzureEntityColoring(CDSCommandCalendar)
+!define CDSCommandCalendar(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandCalendar_tbg.png, CDSCommandCalendar)
+!define CDSCommandCalendar(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandCalendar_tbg.png, CDSCommandCalendar)
+AzureEntityColoring(CDSCommandCalendar_m)
+!define CDSCommandCalendar_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandCalendarSPRITE, CDSCommandCalendar_m)
+!define CDSCommandCalendar_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandCalendarSPRITE, CDSCommandCalendar_m)
+

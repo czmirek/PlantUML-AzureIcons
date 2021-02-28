@@ -1,9 +1,0 @@
-sprite $CommandHamburgerSPRITE [70x70/16z] xTQr0S0W443HkCl-qqQ0aWgN_tgSaqOB0ER3mjmessrXIsuM-tjn1a0tMEZAp5BsipYwtGm1T6HqP03m0W
-
-AzureEntityColoring(CDSCommandHamburger)
-!define CDSCommandHamburger(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CommandHamburger_tbg.png, CDSCommandHamburger)
-!define CDSCommandHamburger(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CommandHamburger_tbg.png, CDSCommandHamburger)
-AzureEntityColoring(CDSCommandHamburger_m)
-!define CDSCommandHamburger_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CommandHamburgerSPRITE, CDSCommandHamburger_m)
-!define CDSCommandHamburger_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CommandHamburgerSPRITE, CDSCommandHamburger_m)
-

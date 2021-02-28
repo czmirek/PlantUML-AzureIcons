@@ -1,0 +1,12 @@
+sprite $CDSCommandFilterSPRITE [70x70/16z] {
+xSot3GD140J1mmVmbt-sz2ZRAGgBE-QWKVk7cwslxFWASWRZo0x6aHsC8y4u4emZpJXo1kF84OmZAnX7LZ2E5ED8Cuuq0mWnZVJB238TAzEfCnqwqvap7NK1
+23I0HAL8T8faoKYtZ7JDIFUCDAD8CxVdXZXpEsu8CQKSIrVA-cTbb5566MMKKM98Z781
+}
+
+AzureEntityColoring(CDSCommandFilter)
+!define CDSCommandFilter(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandFilter_tbg.png, CDSCommandFilter)
+!define CDSCommandFilter(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandFilter_tbg.png, CDSCommandFilter)
+AzureEntityColoring(CDSCommandFilter_m)
+!define CDSCommandFilter_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandFilterSPRITE, CDSCommandFilter_m)
+!define CDSCommandFilter_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandFilterSPRITE, CDSCommandFilter_m)
+

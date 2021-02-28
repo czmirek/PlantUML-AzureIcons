@@ -1,0 +1,13 @@
+sprite $CDSIntegrationAzureServiceBusSPRITE [70x70/16z] {
+xTX7OiCm34HH5e0zzxzkv0urMXYdXs_fyZKxIJIVQ_1yGbwD-CIRa_2oBwgC2WFM5MVKtB-kEFS15K_aZrVizW_fRFiILbGSdVYz8VJqQsUwB0dMgCaXOewU
+fHMB3v4SF0IVusYNWuQiMVKGV4wWFaw7Ae6f8-Pyg3Bf3Cd7Au5tXoWga-qXsahWZI7Qoibg25G9l1gYg0Xo25u9B8PeAv8SWbUoW5PIdRnQoVKCgiWXLt0b
+bYg0bLJRJ0KgiRILegsajabLYRNjA7iLuXCIbTmwP8Nun6yzUSJwrbNl5Tjv2gAdlkcvRbGOyAlUiaO5Fo7mYgTEtF0E
+}
+
+AzureEntityColoring(CDSIntegrationAzureServiceBus)
+!define CDSIntegrationAzureServiceBus(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBus_tbg.png, CDSIntegrationAzureServiceBus)
+!define CDSIntegrationAzureServiceBus(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureServiceBus_tbg.png, CDSIntegrationAzureServiceBus)
+AzureEntityColoring(CDSIntegrationAzureServiceBus_m)
+!define CDSIntegrationAzureServiceBus_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusSPRITE, CDSIntegrationAzureServiceBus_m)
+!define CDSIntegrationAzureServiceBus_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureServiceBusSPRITE, CDSIntegrationAzureServiceBus_m)
+

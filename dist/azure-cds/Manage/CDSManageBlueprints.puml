@@ -1,0 +1,14 @@
+sprite $CDSManageBlueprintsSPRITE [70x70/16z] {
+pTS7Zjmm343Hpshv_WTE8JRJDSLKalrJt1z0ePhlbwWApMpilnf6fzo_IeuN-wdWQBfVPArvsZFjLya7pPNu9DUsKhcqbKhVLDnKpMEMlAKurPJnTnG3L0Ki
+9kaRYY258J79NYl-PvRvJFwM4fLCbNXByRuIe5zQD1G3TJUmZX929T5ImWN4ewc4WaPNSO2seW3MLQYQYb5vJn4gRIaEg00jHO6YhAC0KlySLBXFbYWScCZT
+0FLVAM3knzP5WQW0ExgwW9qyEQZunQF02sNBYDp6dIBW5yFPCsL4L3bk5P2RWwconQbjn6K67gSKvih8QOBakG3BHm5iEIiWyY93fafECtIgtYenLswlsLpn
+x0PWInJMABf48POe-185pQqHfqJja_9t4NbIMgyWaLsbsgAhL2ExIXMZgrJR4YM_aR9z8yMNAB922GuNxLMfV9Gnd5uUcIvyktu2
+}
+
+AzureEntityColoring(CDSManageBlueprints)
+!define CDSManageBlueprints(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageBlueprints_tbg.png, CDSManageBlueprints)
+!define CDSManageBlueprints(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageBlueprints_tbg.png, CDSManageBlueprints)
+AzureEntityColoring(CDSManageBlueprints_m)
+!define CDSManageBlueprints_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageBlueprintsSPRITE, CDSManageBlueprints_m)
+!define CDSManageBlueprints_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageBlueprintsSPRITE, CDSManageBlueprints_m)
+

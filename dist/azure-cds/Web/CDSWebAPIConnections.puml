@@ -1,0 +1,15 @@
+sprite $CDSWebAPIConnectionsSPRITE [70x70/16z] {
+xTNTijiW30JWrI_OVV_tRKK6t8mn8lV-Risi5Z971yFhzQ89_8JDvqosayHNR2k7FICxHNA6XFeEssvY4zuf5cXSdP974pmRXVEsUCIbKQnGTiZpa6lMUeeZ
+eoN8yYiZGoKOvgm4v7pLsLSZ6XODva4xOS8bUrlrHyRVAP9dpFMS6XXJv2d3bQB9kaXZQh2aIHhZaUAO6CU4sxW_OOmG_J_6Qi2TVVyGT9x_GixPtwW0yd0b
+zaP7w1anTNhdQDhmlCf8f-CCEZsb_Kfb-hI6hfxDmoyGKvhAaxt4_N0vMfVxnRMVi-D3xrNxqNg4yy3TUBroV5HNkdqaiVZUCEvitBmUM-HnFpamsYGKCr82
+DcCghtPWBtQiEG5Pbw1rbP5iTLnOhNIrQIzdWWLBrx4Zj_6lWP2HvTxcCME9odfQQGJ3eh8dRryu2mcSTIsAH-HbL5cM2KBJ21a7AA_R-4sv29QyxZ0ahEO4
+AQs9mjX0NbSKcqXBdNF1JtY2qBrUhxy
+}
+
+AzureEntityColoring(CDSWebAPIConnections)
+!define CDSWebAPIConnections(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, CDSWebAPIConnections)
+!define CDSWebAPIConnections(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebAPIConnections_tbg.png, CDSWebAPIConnections)
+AzureEntityColoring(CDSWebAPIConnections_m)
+!define CDSWebAPIConnections_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, CDSWebAPIConnections_m)
+!define CDSWebAPIConnections_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebAPIConnectionsSPRITE, CDSWebAPIConnections_m)
+

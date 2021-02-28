@@ -20,7 +20,8 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
     $category = $ti.ToTitleCase($split[0])
     $serviceId = @($category, ($split[2..$split.length] -join "")) -join ""
     $serviceId = ($serviceId -replace "\(", "_") -replace "\)", ""    
-    
+    $serviceId = "CDS" + $serviceId
+
     $outputFolder = "$($dist)/azure-cds/$($category)"
     
     if(!(Test-Path $outputFolder)) {
@@ -41,8 +42,8 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
         svgexport "$($fullPath)" "$($pngTbgPath)" "$($targetHeight):$($targetHeight)"
     }
 
-    $coloredMacro = "CDS" + $serviceId
-    $monochromaticMacro = "CDS" + $serviceId + "_m"
+    $coloredMacro = $serviceId
+    $monochromaticMacro = $serviceId + "_m"
     $spriteId = "$($serviceId)SPRITE"
     $sprite = ((java -jar "lib/plantuml.jar" -encodesprite 16z "$($pngWbgPath)") | Out-String) -replace "`r", ""
     $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
@@ -74,9 +75,8 @@ Get-ChildItem ("dist/azure-cds") -directory | ForEach-Object {
         if($fileName -eq "all.puml" -or $fileName -eq "AzureCommon.puml") {
             return
         }
-        $imageId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-        $serviceId = "CDS" + $imageId
-        $markdownList += "$($category) | ``$($serviceId)``<br>``$($serviceId)_m`` | ![$($serviceId)](dist/azure-cds/$($category)/$($imageId)_tbg.png) |`n"
+        $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
+        $markdownList += "$($category) | ``$($serviceId)``<br>``$($serviceId)_m`` | ![$($serviceId)](dist/azure-cds/$($category)/$($serviceId)_tbg.png) |`n"
         
         $content = Get-Content $_.FullName -Raw
 

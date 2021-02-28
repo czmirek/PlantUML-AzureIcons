@@ -1,0 +1,15 @@
+sprite $CDSIotIoTHubSPRITE [70x70/16z] {
+rPPfUiCm24GPOEZzJznTuNFmGgLqU_xJ9iep8oTZotz6umvYmi8e_8W5MBR0-OgjMOoVOC6YlB5WOR8DvNrBZbA7mK0lBLOi5NpDWbcBFcGMCB49Ius4UOju
+1fgsv3GHEcD9e0hcgYbBBkMvXNADHOJ9Bchle5jBa4KoqtfVkooGcLIMYLUWvehLJFnWPIRd3Lkqh4vZl2gj18gJAkzbqgFp0CeDVZsqZa-QESbuXrjQ3Hc5
+hiNIiKCtaLSBwMOAeB-xEOkR0fYxqdg-fdkXdV5--D4FYUEG4-0Hnpt2zlENkhiUTw-gkTbAOMLd-am9PvuYdEaesuIR78Nbloxbx6MoDcgUEr5sgOd7E-Kk
+vpFF_5RKEBXdgnGi1lNhWxlrkRBc6UYUdTXvbi51e1e9-NArj6T9EneMZS71TWMhfN-Daev5-FI6rnS7w5X4ZOQYJgHQcbXAOjuYQR5YKGpa0XqIIbeAtjIu
+d5dOQWo3B5YIFsgHnrZu40kAHkK_ym8
+}
+
+AzureEntityColoring(CDSIotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, CDSIotIoTHub)
+!define CDSIotIoTHub(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTHub_tbg.png, CDSIotIoTHub)
+AzureEntityColoring(CDSIotIoTHub_m)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, CDSIotIoTHub_m)
+!define CDSIotIoTHub_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTHubSPRITE, CDSIotIoTHub_m)
+

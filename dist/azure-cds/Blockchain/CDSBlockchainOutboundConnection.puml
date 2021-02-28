@@ -1,0 +1,15 @@
+sprite $CDSBlockchainOutboundConnectionSPRITE [70x70/16z] {
+vTFPSiCW38LXeGtG-xzlLqr7JbGJ3Lor_tNuukC5_c68i5rZ4TvrIBxYjZD6VgADCJ7S61FYjcbu3AMG9O-gDoIFSMDCzVQWBAEDCJ6i6lLP_BgYy6kYycBJ
+xXHLbcKyp1QA2Y-CRhPIriwqbvIxMUp6IWcNauufABcZPXKbdpMjekJEC2ihSPQFgIenzZ5rfOyU7HzJLAQPpS0Cgoj-QFPT9J1rfRLlPNxceueA-PqDHqTL
+8NsicysQqaIVCxDUKPecTJCR5IKp-jTBKr1yZc032STg2kfNv60uLrZa9n6YecDQvUxwfV3Z0-zZpjltPIHloiqpJvN9S8dzKeAwLZHzp7HnLyf0I1LCNkMe
+v6CmKMBuf6HZbBFx4kDSwUqoWoy_5_2IMK6P1B7mznWdvRDScGBNuWhz2h8eA75CFCdn3aW3I6UvCWYUqiXe-1pJMSF7v8hoTRym9ObsfJIzCAnxEKDd6DIz
+93pKBSH3uc81sUW80aSGE8B04GIE8704WIC8CFpXtW4
+}
+
+AzureEntityColoring(CDSBlockchainOutboundConnection)
+!define CDSBlockchainOutboundConnection(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainOutboundConnection_tbg.png, CDSBlockchainOutboundConnection)
+!define CDSBlockchainOutboundConnection(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainOutboundConnection_tbg.png, CDSBlockchainOutboundConnection)
+AzureEntityColoring(CDSBlockchainOutboundConnection_m)
+!define CDSBlockchainOutboundConnection_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainOutboundConnectionSPRITE, CDSBlockchainOutboundConnection_m)
+!define CDSBlockchainOutboundConnection_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainOutboundConnectionSPRITE, CDSBlockchainOutboundConnection_m)
+

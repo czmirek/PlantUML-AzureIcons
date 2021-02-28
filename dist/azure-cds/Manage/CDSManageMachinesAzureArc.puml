@@ -1,0 +1,13 @@
+sprite $CDSManageMachinesAzureArcSPRITE [70x70/16z] {
+xTJ7OGKX38JX5nPffEc_NYTT791tk3Zo5_2HkRpfCBdxfUjk2zqwPTX2nwzGVA5VfY1oNfmhvXN8FgWAfwMDOKb2KvBJZfT8QWgdUIbEueyeA2NKVGdsat4o
+5QK_f8p8GYJ5WstXabAXoLrN-lwvWcY2hY25_sMq2YhEWnb8eZfJajF6yTGWKrC-VOqWLvJ-PuXlK_GLwRjhvxlh9oTTNmP41Sa-I4eLEIq0NUdxcSfMjX8B
+RMNQLhQ2_wtOjoXRoOLQPUH2zqwvUggzNT0Z
+}
+
+AzureEntityColoring(CDSManageMachinesAzureArc)
+!define CDSManageMachinesAzureArc(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageMachinesAzureArc_tbg.png, CDSManageMachinesAzureArc)
+!define CDSManageMachinesAzureArc(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageMachinesAzureArc_tbg.png, CDSManageMachinesAzureArc)
+AzureEntityColoring(CDSManageMachinesAzureArc_m)
+!define CDSManageMachinesAzureArc_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageMachinesAzureArcSPRITE, CDSManageMachinesAzureArc_m)
+!define CDSManageMachinesAzureArc_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageMachinesAzureArcSPRITE, CDSManageMachinesAzureArc_m)
+

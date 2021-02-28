@@ -1,0 +1,15 @@
+sprite $CDSManageUserPrivacySPRITE [70x70/16z] {
+tTLPbgCX28PXKFXGsVzwU-HKJEStmTZpSr_l0Ii9z4_W8gAg8fNVRuXE2hr5z9umRMCD9-CKlLBs9pdFw0fJNjKLETmdbCDHmlchG05-Ro7Sg-c5y8HGZk0P
+FQo4_wwYb5D_IeNnX5LAmZs3JIXBua-lAAN1bfZIggqeRL1Re2qusoVmPQRGBfnD4ehQFMnFmbLLOgjcxGkKgbfv_ympSzMl9QWmSnphtHDGULQsJWdh1vw9
+1jayyuKd-W7exjx0gOWAtrGDw3vwQwqFrzmfkXZ5XZTyrxoNH4JB_BOmipvy612iUqSjFwOKzsx32E3kOpJ3p5eVm_kBd-t20O0RhfdJfE21HAG2SAGgYaTH
+qLmbHbciL92kAB1QIPvMcgz7cLT2kYAuLEDj0RU5kO9hoioQhbGi52v8LzGMXCM-oLHi1OnqfTYIMbJQoqgrbyQgqZi5JLJwCay1zbBtrK92mH8M3zC7xLJw
+Q5TSjohDUtiqZKAMoroDKcyLj8pnkDCmkk7sNcPqch4bCwj8A98nP-AilQEF5hftUfjvZqYZ0-fVnnbkTAICqNrKEcNUcCun_HgV0G
+}
+
+AzureEntityColoring(CDSManageUserPrivacy)
+!define CDSManageUserPrivacy(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageUserPrivacy_tbg.png, CDSManageUserPrivacy)
+!define CDSManageUserPrivacy(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageUserPrivacy_tbg.png, CDSManageUserPrivacy)
+AzureEntityColoring(CDSManageUserPrivacy_m)
+!define CDSManageUserPrivacy_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageUserPrivacySPRITE, CDSManageUserPrivacy_m)
+!define CDSManageUserPrivacy_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageUserPrivacySPRITE, CDSManageUserPrivacy_m)
+
