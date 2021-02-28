@@ -42,33 +42,55 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
         svgexport "$($fullPath)" "$($pngTbgPath)" "$($targetHeight):$($targetHeight)"
     }
 
-    $coloredMacro = $serviceId
-    $monochromaticMacro = $serviceId + "_m"
-    $spriteId = "$($serviceId)SPRITE"
-    $sprite = ((java -jar "lib/plantuml.jar" -encodesprite 16z "$($pngWbgPath)") | Out-String) -replace "`r", ""
-    $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
-    
-    $sourcePath = "IMAGE_SOURCE/azure-cds/$($category)/$($pngTbg)"
-    $puml = $sprite
-    $puml += "AzureEntityColoring($($coloredMacro))`n"
-    $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, $($sourcePath), $($coloredMacro))`n"
-    $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), $($coloredMacro))`n"
-    
-    $puml += "AzureEntityColoring($($monochromaticMacro))`n"
-    $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n"
-    $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n`n"
+    if(!(Test-Path $pumlOutput)) {
+        $coloredMacro = $serviceId
+        $monochromaticMacro = $serviceId + "_m"
+        $spriteId = "$($serviceId)SPRITE"
+        $sprite = ((java -jar "lib/plantuml.jar" -encodesprite 16z "$($pngWbgPath)") | Out-String) -replace "`r", ""
+        $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
+        
+        $sourcePath = "IMAGE_SOURCE/azure-cds/$($category)/$($pngTbg)"
+        $puml = $sprite
+        $puml += "AzureEntityColoring($($coloredMacro))`n"
+        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, $($sourcePath), $($coloredMacro))`n"
+        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), $($coloredMacro))`n"
+        
+        $puml += "AzureEntityColoring($($monochromaticMacro))`n"
+        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n"
+        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($monochromaticMacro))`n`n"
 
-    $puml | Out-File $pumlOutput -NoNewLine   
+        $puml | Out-File $pumlOutput -NoNewLine   
+    }
 } -ThrottleLimit 8
 
 
 $allPuml = ""
-$markdownList = "Category | Macro | Image`n"
-$markdownList += "| --- | --- | ---`n"
+$list = ""
+$list += "## Include all sprites`n`n"
+$list += "Your PUML might take long to render`n"
+$list += '```' + "`n"
+$list += "!define AzurePuml https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist`n"
+$list += "!include AzurePuml/AzureCommon.puml`n"
+$list += "!include AzurePuml/azure-cds/$($category)/all.puml`n"
+$list += '```' + "`n"
+$list += "# Categories`n`n"
+
+$listTblHeader = "Image | Macro`n"
+$listTblHeader += "| --- | ---`n"
 
 Get-ChildItem ("dist/azure-cds") -directory | ForEach-Object { 
     $category = $_.Name
     $categoryPuml = ""
+
+
+    $list += "## $($category)`n`n"
+    $list += "Macro for including this category`n"
+    $list += '```' + "`n"
+    $list += "!define AzurePuml https://raw.githubusercontent.com/czmirek/PlantUML-AzureIcons/main/dist`n"
+    $list += "!include AzurePuml/AzureCommon.puml`n"
+    $list += "!include AzurePuml/azure-cds/$($category)/all.puml`n"
+    $list += '```' + "`n"
+    $list += $listTblHeader
 
     Get-ChildItem ("dist/azure-cds/$($category)/*.puml") | ForEach-Object { 
         $fileName = $_.Name
@@ -76,7 +98,7 @@ Get-ChildItem ("dist/azure-cds") -directory | ForEach-Object {
             return
         }
         $serviceId = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-        $markdownList += "$($category) | ``$($serviceId)``<br>``$($serviceId)_m`` | ![$($serviceId)]($($category)/$($serviceId)_tbg.png) |`n"
+        $list += "![$($serviceId)]($($category)/$($serviceId)_tbg.png) | ``$($serviceId)``<br>``$($serviceId)_m`` |`n"
         
         $content = Get-Content $_.FullName -Raw
 
@@ -85,6 +107,8 @@ Get-ChildItem ("dist/azure-cds") -directory | ForEach-Object {
     }
 
     $categoryPuml | Out-File "dist/azure-cds/$($category)/all.puml"
+
+    $list += "`n`n"
 }
 
 $allPuml | Out-File "dist/azure-cds/all.puml" -NoNewLine
@@ -101,13 +125,6 @@ CDSAzureComputeFunctionApps(functionAlias, "Label", "Technology", "Optional desc
 ```
 CDSAzureComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional description")
 ```
-
-You may need to CTRL+F here, the list is not sorted.
-
-## List of macros
-' + $markdownList | Out-File "dist/azure-cds/table.md" -NoNewLine
-
-
-
+' + $list | Out-File "dist/azure-cds/README.md" -NoNewLine
 
 Copy-Item "AzureCommon.puml" "dist/AzureCommon.puml"
