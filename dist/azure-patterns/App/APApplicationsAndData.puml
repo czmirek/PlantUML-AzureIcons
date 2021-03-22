@@ -1,0 +1,13 @@
+sprite $APApplicationsAndDataSPRITE [70x70/16z] {
+xTL9jiGW28NXz78HOV-xVL9zJrvvQkQNMHB_mmXjfwxhkcxurkY6DkDPO-Jisq1xPNpM7d4DaVqX-o38_A0YhvN_LiPPdh3yPfOXg93Z8u2PPLsMpUnJOwQZ
+DQmC7v2P5JMJIuKPH3YtSiv2AI6gEBsf03JFs-30JW3EGKNBGME5awFR2kCaRPj_yj9_Aoc1ERDRXchEH8XcoJXuMG5Ls5DPfuJwN2htyedevmeeCJ6VA-ME
+NAX-MXw4bB0mdIltzCQRmhKoPpnKr9b6bV646E0riyGRxdt4Pwb4IX1nRn8LCGCGqR3Ytlr3KXKjqbOfDM6cRPLfEPhsLjx_zDqj54IgE68xTLtNTNy
+}
+
+AzureEntityColoring(APApplicationsAndData)
+!define APApplicationsAndData(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/App/APApplicationsAndData_tbg.png, e_stereo)
+!define APApplicationsAndData(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/App/APApplicationsAndData_tbg.png, e_stereo)
+AzureEntityColoring(APApplicationsAndData_m)
+!define APApplicationsAndData_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApplicationsAndDataSPRITE, e_stereo)
+!define APApplicationsAndData_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApplicationsAndDataSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APEducatorsSPRITE [70x70/16z] {
+xT97UiCm44FXY3NA_UyRbrcv_kwLRmjy60BItrim60pccwIqRe-ffVxU8gMKEjyYfPG-toA5jPmIk9PJNCifVixfAUq6RwdUrocTJgUuZ5DSnYakOohAd0Oo
+FfJ1O92soJL8UwX1tX5-jabbJGY7D582Y60ANzwlvb2dNSK-t_2RBNi_wxvbWtjxDtiktnSM7l9szdYwqqqJpWG9bL0P-qBcCJ_LnJqRZ3nnwSVEU8f_Jc_h
+VRsjBteocxrOOBUtzRxUrlik
+}
+
+AzureEntityColoring(APEducators)
+!define APEducators(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APEducators_tbg.png, e_stereo)
+!define APEducators(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APEducators_tbg.png, e_stereo)
+AzureEntityColoring(APEducators_m)
+!define APEducators_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEducatorsSPRITE, e_stereo)
+!define APEducators_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEducatorsSPRITE, e_stereo)
+

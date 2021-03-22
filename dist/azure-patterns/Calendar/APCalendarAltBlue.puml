@@ -1,0 +1,12 @@
+sprite $APCalendarAltBlueSPRITE [70x70/16z] {
+xTQ5hiH020LGoWjbKlt_ltrtVJTswyQSQ6LSe3yG-LQ12gCLo8_hrUBVAaZEf0hyYqcr03zSBQKzFH-8iW9xydSjEcEDxDArJ12WbkJJfLijbpsDqtcuNQT0
+7dWjMW5v25SBdzrGTvr18G-5WP074ade6fsa5eVtl3W8VSYnyTSoQnIg5eLyIqsPb_cxBcWjNCxWSmPl2_YJPVG7yWy
+}
+
+AzureEntityColoring(APCalendarAltBlue)
+!define APCalendarAltBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calendar/APCalendarAltBlue_tbg.png, e_stereo)
+!define APCalendarAltBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calendar/APCalendarAltBlue_tbg.png, e_stereo)
+AzureEntityColoring(APCalendarAltBlue_m)
+!define APCalendarAltBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarAltBlueSPRITE, e_stereo)
+!define APCalendarAltBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarAltBlueSPRITE, e_stereo)
+

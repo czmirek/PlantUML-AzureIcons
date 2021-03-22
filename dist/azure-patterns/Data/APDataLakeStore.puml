@@ -1,0 +1,13 @@
+sprite $APDataLakeStoreSPRITE [70x70/16z] {
+xTI5WUGm40NH4emCwbFd7-qjmw3XUzaLm1EBHUtj7Ugr-i3iweqEcoXr28kKKifb-g0eqzEPLkBYtQctCvzgd5RCfmEG4G_01A8hvlCLkzO_dwyqLmiG_DCK
+wxTGGjr0oRYkLD86Ig3NbGHDLde8hYejG96L19Ygz00kAWQGLIK-AlrJmqgbvtrvdM8SrTOfyGWPV9LIfjSphLIEydLAE49iMfa-d-8hvs9FHO2elca0J5Gg
+eFzI1KYkAW1DLGmON5KAP9UL22uh3KnN1ehhIew-XMA2Cj5FL7O5bmCOczZ8elRsxW
+}
+
+AzureEntityColoring(APDataLakeStore)
+!define APDataLakeStore(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataLakeStore_tbg.png, e_stereo)
+!define APDataLakeStore(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataLakeStore_tbg.png, e_stereo)
+AzureEntityColoring(APDataLakeStore_m)
+!define APDataLakeStore_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataLakeStoreSPRITE, e_stereo)
+!define APDataLakeStore_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataLakeStoreSPRITE, e_stereo)
+

@@ -1,0 +1,9 @@
+sprite $APTranslatorApisAltSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APTranslatorApisAlt)
+!define APTranslatorApisAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTranslatorApisAlt_tbg.png, e_stereo)
+!define APTranslatorApisAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTranslatorApisAlt_tbg.png, e_stereo)
+AzureEntityColoring(APTranslatorApisAlt_m)
+!define APTranslatorApisAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTranslatorApisAltSPRITE, e_stereo)
+!define APTranslatorApisAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTranslatorApisAltSPRITE, e_stereo)
+

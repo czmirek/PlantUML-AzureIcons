@@ -1,0 +1,14 @@
+sprite $APPersonalizerAltSPRITE [70x70/16z] {
+xPPNLWGn40DHkF-LDpN13TDlXRzTiDclR6dYnpyv70u7K7uYObiXb-BJj2UYJIoBslJWpzAqtKttX37qWcF8ADLNetDNwSgRPLT3onfBPbOnRFoCf6oRM3CZ
+QWPbAQCbjOX8CZqDNnRQh2_NZ3AJfJoU-9NjgewWcJOfcZrl1kQIRVZXRIIk8T2ZXf7wMCqMlx5uilHYydBdH39Y2yp-ovQbnwUvPw7PbRd5hOhIjDqusKPo
+_sJYWKeIMsZqZswNaN3VnRgHG9Q63z1cIYF1ls4Ig6yOsEp8R2EIhIHZMAQTdRo7iJIIfHGo9mlhj1jXOxJ0HcQ1ZSbIabXpQL5jxbnpQIb9piMiT1odJun-
+UzQzkSSIATdbt09qCIXoy633S3WS3dS
+}
+
+AzureEntityColoring(APPersonalizerAlt)
+!define APPersonalizerAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPersonalizerAlt_tbg.png, e_stereo)
+!define APPersonalizerAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPersonalizerAlt_tbg.png, e_stereo)
+AzureEntityColoring(APPersonalizerAlt_m)
+!define APPersonalizerAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizerAltSPRITE, e_stereo)
+!define APPersonalizerAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizerAltSPRITE, e_stereo)
+

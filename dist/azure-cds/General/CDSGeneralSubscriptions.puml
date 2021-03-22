@@ -1,0 +1,14 @@
+sprite $CDSGeneralSubscriptionsSPRITE [70x70/16z] {
+xTP5OiHG38DXszBS_yW55Rm9-4NbpfzLw0j379TLbU45AZXEyhro49SHuZ92V2Rxl6OrSmq9TP59GaFs5HUpYa3rX7KcyLhr53IpWgYUrCmgqaf1YLb5-f3G
+YfWvqanFWvXLH12w8OE3nWnc2lC8AM3cmDiLTNnCEKH0OgHmEoYEbTjcU6SCXNrG_ja5MJE5M_NSF51oUaI8etAa237lNY4k8yHbXBYC49iHuZCPFYDaplY8
+61yHuoDYV4ICZQWDn5KgN4KPYir8uSrcMcd6LyfMXFYA45y9vIhfAs8SnM3kzyjNN6dzoH44YQiAdnI2wZ93yadfyDsAYmIeF2JIHyJuY1WV4UCZOdn4p0nv
+1
+}
+
+AzureEntityColoring(CDSGeneralSubscriptions)
+!define CDSGeneralSubscriptions(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/General/CDSGeneralSubscriptions_tbg.png, e_stereo)
+!define CDSGeneralSubscriptions(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/General/CDSGeneralSubscriptions_tbg.png, e_stereo)
+AzureEntityColoring(CDSGeneralSubscriptions_m)
+!define CDSGeneralSubscriptions_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSGeneralSubscriptionsSPRITE, e_stereo)
+!define CDSGeneralSubscriptions_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSGeneralSubscriptionsSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $CDSCommandCopySPRITE [70x70/16z] {
+xT454eKm34NHuDxiVxLVSNkPuf0xWXyg3FDeFWY865w5OJ4ZLR9ul3Q3bP36SmrWW08Og606AvZ12cQmWXciO6QPGiw0mOgN3ohur_Sq4Ie-pvPA5SmiLpWJ
+AqayLj5XiEBIM5dvVhvKAPcbYYcPPKhcbymoXKh6MQQKJE4iKXfcaT8mreh9lvcIiLIw5QieV9mIvwqAYG8BZrLKKKKLLLJ9ubQfM86fGcNsUwIAAe4FIu0Y
+xBxA6m
+}
+
+AzureEntityColoring(CDSCommandCopy)
+!define CDSCommandCopy(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandCopy_tbg.png, e_stereo)
+!define CDSCommandCopy(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandCopy_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandCopy_m)
+!define CDSCommandCopy_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandCopySPRITE, e_stereo)
+!define CDSCommandCopy_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandCopySPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APStackOverflowSPRITE [70x70/16z] {
+xTF7RiCm48JXxTUy_zEcI0Ae2Ud5k9uqASSFYz_qrz-4d9jCsu0x5CqgVLQn-bq-gKHjY-SKhttMAFmnfS_LpODvJj53YQSKiODnHk7Jy8g6DcbO1Huifk6L
+n3U2QL0XNoocuHMhOxbEmzzoJASqd8BNb4rf20K-5YWQm18AbAYOqf0AnaayB-zInA4nfA4LR8nfU0KR1wRf5Krh6eyqlHBmPS76UaxJAYFVeh4Dr3ebuFvb
+uzpFwfGQ2pt5Ek6w_UyKg_F2viOfOYQep0jmqfPVSkBjEZh-_qnhbJ5BW0v70G65Ss8q3kaLd0OwkiS9QHJMSU6L_WFh5U83SqAnCEr3DxVW_GaKEi4eEKgw
+wIAqCahXmWsT448nC6Ogb56yO401q2hgKRUNOPs2ajsc_9OIstIY8XUAxfMtTKfF2Q_Wr0UL3ofOFIYbdxcnIZzAiUYdd5BzE4KlPQc8zvEFlPTvbsBAprRA
+_VkSSYa_
+}
+
+AzureEntityColoring(APStackOverflow)
+!define APStackOverflow(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APStackOverflow_tbg.png, e_stereo)
+!define APStackOverflow(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APStackOverflow_tbg.png, e_stereo)
+AzureEntityColoring(APStackOverflow_m)
+!define APStackOverflow_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, e_stereo)
+!define APStackOverflow_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackOverflowSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APDevopsConnectedSPRITE [70x70/16z] {
+xPO5SiHG34DZrlrFtFbJbuVMsh9VcFJHSYwQPLcMHID3MP708OGISPIf5O8H4K3EeS1KHX7TBhk3YiEf5fMSOw67oN8oOdc6HmBrA9eunCsLAHnAMZDLh6vl
+daGzJnT5TJCdKyRVdINqsrKCsLEHQP4KGYvD1A7oF68fX4gFM9vBHgN3arNHiKSu8WfeKgOgBwJDxQuhm9hc1n4c6f_XdA4PkrHUztDCths_EPFmMQs9GOOT
+P7lYpuDbMPPbUG
+}
+
+AzureEntityColoring(APDevopsConnected)
+!define APDevopsConnected(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsConnected_tbg.png, e_stereo)
+!define APDevopsConnected(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsConnected_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsConnected_m)
+!define APDevopsConnected_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsConnectedSPRITE, e_stereo)
+!define APDevopsConnected_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsConnectedSPRITE, e_stereo)
+

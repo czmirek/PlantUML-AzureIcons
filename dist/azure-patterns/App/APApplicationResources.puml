@@ -1,0 +1,13 @@
+sprite $APApplicationResourcesSPRITE [70x70/16z] {
+xT8rWWD134JHAi6GwVwtNSdUORDJlKZHRxoib59AAGL9hEsEVMFuXVVX67hYJTQ75WjTduvNXlSqnz1ZGSTA4ho3ysG9afcvCc17t1z7Q8bk0XqhmR7bm_0e
+0h99wkv6dIlzaye-0ZacywJQ7qTFAfO4GImenwBVcEqhyCRM5RKW36A9n8tlO38SEuXmhZHjK7BS2qRsekA-g0o7e21fRN2Cr3SCLsAshuW68G1AmeY-mIUL
+jWi2aje48m59qFrMdk_bjXLDENHfUpDyLZaSWp4qnz2Ju1L0sqKULNJwBzGWqzzTtR0H8wgY6rgOKTiM3r7J_sYHKE9RbvLIIYcb_04
+}
+
+AzureEntityColoring(APApplicationResources)
+!define APApplicationResources(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/App/APApplicationResources_tbg.png, e_stereo)
+!define APApplicationResources(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/App/APApplicationResources_tbg.png, e_stereo)
+AzureEntityColoring(APApplicationResources_m)
+!define APApplicationResources_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APApplicationResourcesSPRITE, e_stereo)
+!define APApplicationResources_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APApplicationResourcesSPRITE, e_stereo)
+

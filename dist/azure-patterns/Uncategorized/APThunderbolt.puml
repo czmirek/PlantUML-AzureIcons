@@ -1,0 +1,13 @@
+sprite $APThunderboltSPRITE [70x70/16z] {
+dTIrOGC10C30PmhjFst8bHh3QO0hzNLhUDWot6fVwI5ohAOKkL0fWaeHL8gWKeIKjb-e546b22f5K2c2IX5KYg1I19KYg1HnfOWhHLmfuifseL84bIAg164b
+22j1M0d2IX1MWh0In9KYhgnN4YK8Aq5OUOJulQU7yg5A4LIAe584bIAe546bY2b5HbUAk5B4bIAkd3S4b2Ae546b22f5K2c2IX5KYg1IX9KYhXHnfOWhvpIm
+4eIL8Am4OIK8Aq5O2S9A45Q2i1A4bI2ipCEpoWy
+}
+
+AzureEntityColoring(APThunderbolt)
+!define APThunderbolt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APThunderbolt_tbg.png, e_stereo)
+!define APThunderbolt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APThunderbolt_tbg.png, e_stereo)
+AzureEntityColoring(APThunderbolt_m)
+!define APThunderbolt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThunderboltSPRITE, e_stereo)
+!define APThunderbolt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThunderboltSPRITE, e_stereo)
+

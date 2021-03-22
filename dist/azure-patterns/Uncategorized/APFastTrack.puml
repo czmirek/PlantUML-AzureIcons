@@ -1,0 +1,14 @@
+sprite $APFastTrackSPRITE [70x70/16z] {
+xTTLSYOn40JX6Qa4tKltF-tQ_jcax1Wmvm6-gDVwzz3qKhD6fUdK0VZWIZerL78wzghI_50VAiqFsMTIh8yoLYBjg_meFuhrrbhljaAnLdIgD5kczAARgYzI
+cWP8KB42I4Jf0WGKN19NAYEiD4POCK9OuIaMKuf6JAiXfKi3fgc4bAe1qoJrY5BqAdD0r2AAz2hJj5ovCEsMNAAeNX2LvOhg0ObleLf4APieZHIBA1sGwbie
+dHL6vAmmqbXXf3WhYCW22YBTMH4Zf31IkfF2I3LdXOpk3ihBIE-jt12el8puRQmmmWeZh3322Y5nXH5M6645aAYI9IbdG42P7up3dHyWgAG3Sc0622bPcgT3
+UO2Gegi226n9HsM0e9BEOv8aBNvPafHIof8qBLPcNPgMAnSch_oDAIkdULgct04
+}
+
+AzureEntityColoring(APFastTrack)
+!define APFastTrack(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFastTrack_tbg.png, e_stereo)
+!define APFastTrack(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFastTrack_tbg.png, e_stereo)
+AzureEntityColoring(APFastTrack_m)
+!define APFastTrack_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFastTrackSPRITE, e_stereo)
+!define APFastTrack_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFastTrackSPRITE, e_stereo)
+

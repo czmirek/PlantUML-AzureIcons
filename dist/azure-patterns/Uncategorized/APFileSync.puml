@@ -1,0 +1,14 @@
+sprite $APFileSyncSPRITE [70x70/16z] {
+rTWtckWW34LXmfKbxluN_5xb8FiR3KQJJaNr4olANEsfEec8yI6TH92W2AQLskx8vvJQZa2v8x427RmskaD2fHfl3JWaKlhWa7Pv6TJga50PDFTsgjzEh2Wj
+k6B4IYLRXCHAfuP8h0Yt48aLfGJ8ejBe-lDArV_Pch9Rbg6KnbZPs0EbnifHbwTgf7Y4JxKffID10H8KP2Z8K92X84D1Xe8C1HaACXHaACXG8EUsbueowkSL
+ax6k621ZLJ40i0LbHvGBYaDc5OyiA1wPLuP3NYaRx42yKkI3-g5i06o_OgT4xOe2W3faIjaPZymhL8V4IjL-KwWE2HMXtXNgZgme7CnG-1FAHabGZ7rTQMHT
+LunQNYauFpcEyaPfndqeWsnl5E4bgsLPKTcD-HsvBvV5qrrIokzNQeihOVy
+}
+
+AzureEntityColoring(APFileSync)
+!define APFileSync(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFileSync_tbg.png, e_stereo)
+!define APFileSync(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFileSync_tbg.png, e_stereo)
+AzureEntityColoring(APFileSync_m)
+!define APFileSync_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFileSyncSPRITE, e_stereo)
+!define APFileSync_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFileSyncSPRITE, e_stereo)
+

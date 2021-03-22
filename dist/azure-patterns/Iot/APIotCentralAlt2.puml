@@ -1,0 +1,15 @@
+sprite $APIotCentralAlt2SPRITE [70x70/16z] {
+fPK7hWCn20MNyhZ_ZN-rXFMy8EICwhO9JDh3C18XpwSWVi1d3e-5tpiqDlJE8K78NH06bq4OlmrYpsCtUGJ74liPcGVXeC9vva6qsjBdGRnzWN6G_heCWkXm
+LiOYiOSOtgRDUp0TMUZTtH5LFXElURG9edyqQocVF8k9BlWTyJEE0HI47EdXFC1k0QfbalCD0TXI3DAEqrZOmPwvHKlc5j46wItag97EWZMjkhR0MWiW_nOt
+BV68sh9m-REK7eieBU90ZgF-Xxw0g2n_A5bo779KbeMnXJqUqLboBRQuxq5QIw9fOG-YiJ1sMjnocSP2QnqMDu-1XT5Z5CUr9Tyb_m7t5ZDTblICBVnnST9C
+BUb8Ithc5jF44ymj957VcLjs1riSCuieuOIIPQHXYrI_tjPwU93A0YXv2elr_sgTXvPfBU1xX2rAr_smx2Tu75g67Y9BiTQoy0M0BUBeF6SGHI9ykiXJ17cB
+O7IbngfNxDVYPVhRXBRjR-6HcppZ86sUUP0-ppn8-s6O1-b7vo1ZzgVOEeGtQ8BCyzmimtaIV-uGfo2NA0MvnIZ8BJu8yWq
+}
+
+AzureEntityColoring(APIotCentralAlt2)
+!define APIotCentralAlt2(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Iot/APIotCentralAlt2_tbg.png, e_stereo)
+!define APIotCentralAlt2(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Iot/APIotCentralAlt2_tbg.png, e_stereo)
+AzureEntityColoring(APIotCentralAlt2_m)
+!define APIotCentralAlt2_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotCentralAlt2SPRITE, e_stereo)
+!define APIotCentralAlt2_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotCentralAlt2SPRITE, e_stereo)
+

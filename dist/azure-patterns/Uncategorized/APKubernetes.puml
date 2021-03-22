@@ -1,0 +1,18 @@
+sprite $APKubernetesSPRITE [70x70/16z] {
+rPRTbkGW28JbJ-YhUV-ttPDDwCPOhdlE_7CrO-XFB8h4jm-9zek2pTtudGn__0tdzpBUnv5u317oNaPotib8Zlu_GvC1EUzb98Ts2BA9OJQ1ZFxDcBVsri2g
+qOOnKnIjTsmWNyZGMiTFdEP2bfek-O-OCFsneQ3mUoaegQgBurQCB6esfKFsLJMZ1V5sNSes5YW3DoXOebWTxwJyJ1yp2foYj16zRwGuQCZYsZoAPwbapgrn
+pz7H0rAz9PMYnTl7ltgk7ic7HLy7bCFw73KR-pRugkDOJ4ezOryvvkxvzjhmzJWO-1DuhaecC-KKOUmu8rdgMVr96RgcAzzrR6kDY-93UYn6AUwbY5y2draz
+2p6TV0vaoPDwxY5qLfLdZ2cTy2XUUK7mFIRtqXMEekV27KEHysTm8Fs-whMBpCFByDwbW9xJrqA_2hNQu8EBX65CYKxvKCgNYiiFwa0geBXnwL_-hGueLcMf
+52d2ngYpKA5Ktsrk5wARhyxDSsvQgsXS_Y6k63NtOjCgYzJVQFVpAELWRbfODFYk5oRfAMlSx3skc1iNFNqGDxIdZRGOXgZustDWedoZvXODey9duVIgdy0F
+8dMPLkNvs6l9ahpPC86AqKispfeayq4feFrNQoHBIVsYp1DwmSW3OknwbDK9oAt-qEN594hL46B37GXZsCUv49YtljH5kfIPURbPRAzrRGhRtQMQ84gT6ahv
+aB9BXUqqdAgmgFdX7befkrGuAXUl-FxQBBEdPKo91eDYI25m5UJ1cJXuSs-dfb3PjS8HwFeBbTqxOdTtn-7lXbI5SM1biSBxaBOBsKDqWu0A0z-y3uCXECHy
+6LtR3u-t3ua_
+}
+
+AzureEntityColoring(APKubernetes)
+!define APKubernetes(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APKubernetes_tbg.png, e_stereo)
+!define APKubernetes(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APKubernetes_tbg.png, e_stereo)
+AzureEntityColoring(APKubernetes_m)
+!define APKubernetes_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKubernetesSPRITE, e_stereo)
+!define APKubernetes_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKubernetesSPRITE, e_stereo)
+

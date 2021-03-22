@@ -1,0 +1,13 @@
+sprite $APShieldCheckSPRITE [70x70/16z] {
+xT85WYKn20RX26dwv_xttHttIT7pNEe0NmJAaUfzTwDvXBVTZEhnbDUTxl7It-zZQtngjSr47OflQTGjX7dyablTXSX3jGzN99AF_YiLcxeavQxS5OaLHeQ9
+5KRCn0eZPcA54NDKyWWhZB3222kCiC88Aupa5KPOOIIlI8Ym8Xi2X1MPsH0WfCZiXPaWgBYzC1C4bNTcXh3oojWCOIKSa9mI3aXE2GSafuG3abF2vmWhhup7
+xaeeTbTUkojDUKEj_9fd4I-pHWuPPLvNwZLKNGbPAoByEGi2_3dg9LlJ3g_Xp_6ohUKdnChMJ33WzEVmbt3LOLsJ3HXmiYvyJNxaIzar3rdPFMlbIFq7
+}
+
+AzureEntityColoring(APShieldCheck)
+!define APShieldCheck(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Shield/APShieldCheck_tbg.png, e_stereo)
+!define APShieldCheck(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Shield/APShieldCheck_tbg.png, e_stereo)
+AzureEntityColoring(APShieldCheck_m)
+!define APShieldCheck_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldCheckSPRITE, e_stereo)
+!define APShieldCheck_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldCheckSPRITE, e_stereo)
+

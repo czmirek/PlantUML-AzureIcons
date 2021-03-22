@@ -1,0 +1,12 @@
+sprite $APEventHubsSPRITE [70x70/16z] {
+xTS54iCm34HHhsJh_aVk1BPCEofNRw2Gv8UfFLdnYK5cFbaQ8vBwL8cq5rMgOarcxwbK1KPGAeDV5pR8sos3v_GHgK9_MS4gLOcjfe0HZYe9lr01PIeUr4yh
+5cHInJiT3dIXScbWLVhkbrAn84liwIDrDbxUklcpSUGh4wnQeYB9Lz0d42l7ayO2UWKNdb-EAebdAL3-YOoguf3vLxqVLSL6J8PkdH3jgSe6
+}
+
+AzureEntityColoring(APEventHubs)
+!define APEventHubs(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APEventHubs_tbg.png, e_stereo)
+!define APEventHubs(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APEventHubs_tbg.png, e_stereo)
+AzureEntityColoring(APEventHubs_m)
+!define APEventHubs_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEventHubsSPRITE, e_stereo)
+!define APEventHubs_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEventHubsSPRITE, e_stereo)
+

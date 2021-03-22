@@ -1,0 +1,12 @@
+sprite $CDSIotDigitalTwinsSPRITE [70x70/16z] {
+xSo55ODG40J0S-Y_uUYpFE3lnMsdW94pzKH21ObiW4jsw4CM-xY52nVz_8LBTN1P5tx9zAPbmHwon6CM_V5bMlYaPVh9XSkyyB25YynBDopra4MYe83BaiR2
+snSkNBXmuI98D3XSp0CnbRCz
+}
+
+AzureEntityColoring(CDSIotDigitalTwins)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, e_stereo)
+!define CDSIotDigitalTwins(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotDigitalTwins_tbg.png, e_stereo)
+AzureEntityColoring(CDSIotDigitalTwins_m)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, e_stereo)
+!define CDSIotDigitalTwins_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotDigitalTwinsSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APNetappColorSPRITE [70x70/16z] {
+xTS54i8m48NXP8LkkFzzyGnRBFQA_wErhsvXoVv5xayESGoqwizoh034fW74rOrCve8W1a4CWXW4CGXYqf5UrMC054Ke-ZwAFb0eTCTDobyHBIGrYgqBsGSe
+75rb9ReaA_Eeg2HMrzSgov_ffAVIY69-vEShVyNVqpLAupsT-5JgkOy-N-5pCyN8qtvaxbSK8V5bHNn5nOF-HsfUGP7wxYk2K0IXo8YIqu4WY48GXI0Q8KW8
+j8j7eh1e_xO
+}
+
+AzureEntityColoring(APNetappColor)
+!define APNetappColor(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APNetappColor_tbg.png, e_stereo)
+!define APNetappColor(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APNetappColor_tbg.png, e_stereo)
+AzureEntityColoring(APNetappColor_m)
+!define APNetappColor_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetappColorSPRITE, e_stereo)
+!define APNetappColor_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetappColorSPRITE, e_stereo)
+

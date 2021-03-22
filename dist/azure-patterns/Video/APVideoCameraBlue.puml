@@ -1,0 +1,13 @@
+sprite $APVideoCameraBlueSPRITE [70x70/16z] {
+xTLLSWD138HXZJJOzxzlE5dGj4aEx_VQLR-zBB_7mKfjjTWLavCgtjN49pd9i6Qoah4oJBYAhSgd8ap1Nc4H8DF3yOnFAbCTNfSNWqnUnanU3dNFs5_nsid9
+mvo893PvYZdbKxggOcpwp4hyY1Bc4fyklzBzoYjTC5FcJn5_aWQymOzsi4VQAtmocMl-qFbKXUdyiUskprN-SyrDd2w_sLKsR9dQCX5QMaTlHSMnjod9VrAk
+biJ3rLHsBCKhrg71IYe325Qq0WXMh0FHIXb0j581X2kAlrGvAaVbg4YzIqLIZLUMJhGYabgmyaPRhB9qWfMbe_VusckIV-Bm2
+}
+
+AzureEntityColoring(APVideoCameraBlue)
+!define APVideoCameraBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Video/APVideoCameraBlue_tbg.png, e_stereo)
+!define APVideoCameraBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Video/APVideoCameraBlue_tbg.png, e_stereo)
+AzureEntityColoring(APVideoCameraBlue_m)
+!define APVideoCameraBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, e_stereo)
+!define APVideoCameraBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideoCameraBlueSPRITE, e_stereo)
+

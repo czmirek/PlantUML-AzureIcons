@@ -1,0 +1,15 @@
+sprite $CDSContainersContainerInstancesSPRITE [70x70/16z] {
+xT9R4k8W48NXRg1lPF_x7JDYpNHXJh3mqVyPlpfW2CQbDZsJnWH2LKtLNMFKTetHP_SIdVhyMZhQOaH1XTPg1bjZYk6KLbAxgMtUPyHBKxR7y9YoyJ9LR2t-
+_45qlcEbYufU84Ai-67ma85GOj33YENozfdXpv71vAHC_mr04fFBJW48P2HzhG01J7xbukyxaSpur3z60BBE8EIUQUX2GYbmUQQpvg0n61mQOsHJSJhJNQNG
+8zjLwbUso5VUHTE1BQNit-ZCupfxAN7T-62mSdkcq1dlAGwF38LhA_28qXbucVxeE4Ab2RhGgBpx_V4gz94Pc3Ag2JXoeS_CBrzb-YSJq7iCvG9ofl-hin9k
+Zv8oGKmvzfVI8zpyECoIag2q95NzgPmJiZBrP8JULZNwcjAx2zDblAH89ToICY4_vQVyb9yYvLxfZfN6TDlnjzwJ0cO0PKWHdfGq0yRDuaW5c06huZqfS0OU
+fJ4KC6DvLDpF-0C
+}
+
+AzureEntityColoring(CDSContainersContainerInstances)
+!define CDSContainersContainerInstances(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerInstances_tbg.png, e_stereo)
+!define CDSContainersContainerInstances(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Containers/CDSContainersContainerInstances_tbg.png, e_stereo)
+AzureEntityColoring(CDSContainersContainerInstances_m)
+!define CDSContainersContainerInstances_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSContainersContainerInstancesSPRITE, e_stereo)
+!define CDSContainersContainerInstances_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSContainersContainerInstancesSPRITE, e_stereo)
+

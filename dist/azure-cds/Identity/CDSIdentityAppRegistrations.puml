@@ -1,0 +1,14 @@
+sprite $CDSIdentityAppRegistrationsSPRITE [70x70/16z] {
+xTPLekCm44JHwchG9FjVyCXXTKWmyEYOwHg-Z8z5FHeAH0Q8dyI14mr6T5KYGKCdA_AFAlwiybFvgPHagvIaLahorIlqX8yhdWW-AhdpOD-3y_3swvQUh_iD
+A_wtAYm9Fsp5Ic9_gXB_g_8hsIfv7y3pQZ5QgSkLId5klAnKGdcaCLqfogl9IZ6s15UqX81Q0eWoIPqkV0mZXCz8zt-TynLvzdNJdfSPqzwA6P_GYFvAvNmW
+ubpP9RMIzeHjt9Xu35Sgr_GoCvNAqtFCLIfkB6AjuahrMArK4SiLfPalLfIaLRvIKLPsq5OyLnovKcuRvuhvL4LvOcT-hMXVHPMvKlcvWjZj6mxiMxMYlB8s
+e-X3vIsrMzvR4QPAGz3hUOKOyRYY6FMW8XWdgKBCkQqevbqgM2A7Yc0LLV61_GO
+}
+
+AzureEntityColoring(CDSIdentityAppRegistrations)
+!define CDSIdentityAppRegistrations(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAppRegistrations_tbg.png, e_stereo)
+!define CDSIdentityAppRegistrations(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityAppRegistrations_tbg.png, e_stereo)
+AzureEntityColoring(CDSIdentityAppRegistrations_m)
+!define CDSIdentityAppRegistrations_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityAppRegistrationsSPRITE, e_stereo)
+!define CDSIdentityAppRegistrations_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityAppRegistrationsSPRITE, e_stereo)
+

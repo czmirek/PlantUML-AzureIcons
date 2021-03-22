@@ -1,0 +1,14 @@
+sprite $APPencilSPRITE [70x70/16z] {
+xTS7ZeKm30JGO4BwnlS_xHQZ4T-ePhJgcTyBJs7euKwiGrL7YO5FcefCsgdwcS8XGtqgFnBjfPHAC-asn3uSdMIisFoCZ68k84XYcAQgqtsJ2MQyfpW6KJ7M
+48U0eHGWO4W5o8cALthfRsHjIM7za3Uon61zwIzadPdMZ4C89kfVaaC8fjwCGmYcAGA4PZp2CnxXcHHuPZERsSncDhEPpUH_OAIgPGQUEOeYGZFdW87l2IRg
+HrhWc5CjxSIbo3g3Sz4XMDf2CVMP3tdiHSQc_0ftfe44Ow_HNQCHZ9NYDWDPP90BNw4OYWa8Yg6OceGk1enbceHYI0PIH35hgLDzKCnY93Kl-M9u2SNmaY-6
+btmnl3H-
+}
+
+AzureEntityColoring(APPencil)
+!define APPencil(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPencil_tbg.png, e_stereo)
+!define APPencil(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPencil_tbg.png, e_stereo)
+AzureEntityColoring(APPencil_m)
+!define APPencil_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPencilSPRITE, e_stereo)
+!define APPencil_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPencilSPRITE, e_stereo)
+

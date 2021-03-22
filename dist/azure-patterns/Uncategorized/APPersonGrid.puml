@@ -1,0 +1,14 @@
+sprite $APPersonGridSPRITE [70x70/16z] {
+xTXbWeGm38RXq4Q_-zzttRhJGCEwFFzcW1TN7dGYQZpOYEXofCw3dr_vhqXdwVAcYbZWdklPYXXU23rLqS38JbGK5xnSKKnOiIA16KqgVT28QEit35FnE5Bh
+0vfgI0WLA1911OvCevdfTc6aTBfTflj8aFBrFQtlKh5tgSX7LsozmaXfeUB8SA6YI7Ybme4vALKasxQb2XicWWkLB1DIhh0baLg5DIwsILQXFVBSiOtEsqJD
+J3fzXcqm-Mjff4zvyX3fdPl8-OgeuucRdAbeu9MmIcLiZ9rAHGA9qEMAOeSjLWoxOgdYEE0B5SKXFwm85lX1fME9x5S2QtYFOP7peBt4M2Rj9Nh9iCmfiw6W
+Kq9GODdJOQ0YUJeKb2XFAKgCfmmbpbEEce-iu5qgViFCV6JJl_o6_Bql1F-LQm
+}
+
+AzureEntityColoring(APPersonGrid)
+!define APPersonGrid(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPersonGrid_tbg.png, e_stereo)
+!define APPersonGrid(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPersonGrid_tbg.png, e_stereo)
+AzureEntityColoring(APPersonGrid_m)
+!define APPersonGrid_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonGridSPRITE, e_stereo)
+!define APPersonGrid_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonGridSPRITE, e_stereo)
+

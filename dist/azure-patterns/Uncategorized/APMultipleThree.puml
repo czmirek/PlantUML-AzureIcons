@@ -1,0 +1,13 @@
+sprite $APMultipleThreeSPRITE [70x70/16z] {
+xTD7OeKX20HW456P-zytdLS6iqkFt-uluc2HJtGSnt4SXpQLlTOa4HvY0I1CgW40GofT0ABBbUEL2mky2666LqEI8d7u2VgPomFzcZfDIWqabJkEjFBLGbeb
+Th8ICjKga3iTuE2rYl8hxgW1gN57AJXutQJ5hTRwNl8j8OsYr32hj3cbi42UnssPgN93VRZAZhcRx6ZFBt-OcdkJdTQzwtj3RBDjuPlh_sAP40-y69gpBQHe
+l9jfSFKKHiUGZzT0ekEb0T15NRWLMcvqJRF0Cm_mppnXQjneMg9WIl_M2mzc1jRpRe5bIB3XIDnI855B1ZPzCiyiBE-lpKB-WUCuZaS
+}
+
+AzureEntityColoring(APMultipleThree)
+!define APMultipleThree(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMultipleThree_tbg.png, e_stereo)
+!define APMultipleThree(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMultipleThree_tbg.png, e_stereo)
+AzureEntityColoring(APMultipleThree_m)
+!define APMultipleThree_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMultipleThreeSPRITE, e_stereo)
+!define APMultipleThree_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMultipleThreeSPRITE, e_stereo)
+

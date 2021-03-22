@@ -1,0 +1,9 @@
+sprite $APLiveSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APLive)
+!define APLive(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLive_tbg.png, e_stereo)
+!define APLive(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLive_tbg.png, e_stereo)
+AzureEntityColoring(APLive_m)
+!define APLive_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLiveSPRITE, e_stereo)
+!define APLive_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLiveSPRITE, e_stereo)
+

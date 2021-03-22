@@ -1,0 +1,14 @@
+sprite $APBlueDialPartialSPRITE [70x70/16z] {
+xPLNhXmn30IReYBlVr-d0UHU40iDntH-zQzYQa08yu5eQtq0exUcyiZGXbq0TZ6gn1HrsWQmpRmlacuCO4o_vo47MTY38xhiPB6bWKRO4cb7fjsps1IyGyrE
+blDKQaSByqRJp3D70zgOvgc0HtYrFc9Ifrkmm8-Zh645YrYYLl2AB6FDQc-6NYon9G0ppKX33kSXYTbqORlK_HHDNTTEbgkdPjyrBb0kcfV4tNiQQSwGn2RF
+Ifg0X6UI5RN0lq1piJvIp3NZspl3Iy1NAWKMjncsgTU1DWMtAQ-rnJO3UDIC0Csr4cwcidCYnE0PM1c1hyAD2K88hQ8-7OYFMnibBWWz7V6r-3zZ37_d-At7
+yikDhvVYZp1qf0t2nDxcazzBtQHO5C-HP4l1SqgAHRT5VlU9Ief5CzOYDMCjcZ6Gr8o1QiP0MXFYNp9Q4P9eoe442He54ZH0WaQGe2d0ZsiK2IX-1Hzy1W
+}
+
+AzureEntityColoring(APBlueDialPartial)
+!define APBlueDialPartial(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APBlueDialPartial_tbg.png, e_stereo)
+!define APBlueDialPartial(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APBlueDialPartial_tbg.png, e_stereo)
+AzureEntityColoring(APBlueDialPartial_m)
+!define APBlueDialPartial_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueDialPartialSPRITE, e_stereo)
+!define APBlueDialPartial_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueDialPartialSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APGridMasonrySPRITE [70x70/16z] {
+xTS5qeCm48RXBx9JdFkVzfSYoso2E-GTQv47jpAfqi17_k88eEhN1z29h7oa4XHesHB5xJn5VRvH--kpOk_ohsHV9IXKfRgA8P46TFNB-1KqiJBIVWfLOTqM
+9LLgmTuzKGaAVKHcYU9sdgBqDyM_LknTtgTqVoKeS1fJtAwbM9aQKqmYkxqI5EunYk7dqVEET53SfpDrXq7Bl0h7oc1xAiHdh3YB_GtkNTjLRDBVlafGj0o0
+uQyYySjVMMA3oby
+}
+
+AzureEntityColoring(APGridMasonry)
+!define APGridMasonry(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Grid/APGridMasonry_tbg.png, e_stereo)
+!define APGridMasonry(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Grid/APGridMasonry_tbg.png, e_stereo)
+AzureEntityColoring(APGridMasonry_m)
+!define APGridMasonry_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGridMasonrySPRITE, e_stereo)
+!define APGridMasonry_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGridMasonrySPRITE, e_stereo)
+

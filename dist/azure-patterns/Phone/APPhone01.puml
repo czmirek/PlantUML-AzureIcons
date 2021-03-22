@@ -1,0 +1,13 @@
+sprite $APPhone01SPRITE [70x70/16z] {
+xTLLWiCm34LHnn4z3Ur_jSDEkMgi3jRthv0JCZoLWohnwMWkXpqTAkpditg1GXw52nHu68NAv74IAjNZz4SKRbzRHj7wqPnGVjLp6SfGXWArlA9CnCWfO7fF
+qAz0Q4bx5QNjs7eKCEqbw51qNr5VhOYrnz8CkEfQXKdWjdqtnjIXV9o-FLa8KP_IZjRsaFeK8eO3hamfXKZQEqyfv4PNLePYHnH6_snS5ErQNo3RYg9tnRH5
+4MHMRtrNs99x0CIX_sXl7CfGXW9SGP5I9A_KzbrAeL8ehxY8hrQct3jgUHp7YiNA72iJ8aHAh9H9pngW4YYjUgPofASN
+}
+
+AzureEntityColoring(APPhone01)
+!define APPhone01(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Phone/APPhone01_tbg.png, e_stereo)
+!define APPhone01(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Phone/APPhone01_tbg.png, e_stereo)
+AzureEntityColoring(APPhone01_m)
+!define APPhone01_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPhone01SPRITE, e_stereo)
+!define APPhone01_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPhone01SPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APThreeDimensionalSPRITE [70x70/16z] {
+xTX7RiKm38HXJacz_ttJsm22pJ0zp_zU7sHkBEawkgXc5xdkpoY7OZw4QWO-v5HOe_Wt5OoKZ3OdIXeFSKUvU0or2l9JGgt2q_BQI7wJQXJjZFNku6ZaG5uc
+J3ycqzZ8E1v8Xi5EPjE1sbkPE-m0CPpnQ9dZMG-4nhRYS9O6v7t5vd8yRuoMOY6Tt65BIMTXj9LSA8JHLTA9p-ihwOGnKIpaGFfAfZ2cYb45_tRbK0wbr5DK
+sw6Ze7RZdi9gnIr5e-DBAiBeA9KAHyUwL5Y3b8fGew0dPTVOF3KNdnNMvgbvxnv0L84_VhCvbFbD-CJU6Gxb5W
+}
+
+AzureEntityColoring(APThreeDimensional)
+!define APThreeDimensional(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APThreeDimensional_tbg.png, e_stereo)
+!define APThreeDimensional(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APThreeDimensional_tbg.png, e_stereo)
+AzureEntityColoring(APThreeDimensional_m)
+!define APThreeDimensional_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeDimensionalSPRITE, e_stereo)
+!define APThreeDimensional_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeDimensionalSPRITE, e_stereo)
+

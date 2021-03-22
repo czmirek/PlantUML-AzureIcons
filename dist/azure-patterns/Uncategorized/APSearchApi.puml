@@ -1,0 +1,14 @@
+sprite $APSearchApiSPRITE [70x70/16z] {
+xPK7biCW34J1HQR8vlwdJSzi8tu3R0__rSJsg4lcpz3fT0PnJjKx6KmjLZI1pLK9MPVUuQmfPTmI06BAa9J5cH9yUe2lyoGw9yvl5J8Z2ZFZBotDZRrRNimh
+fdI3hBXBLyPtuckw43XN899vG3kp89ptZ0NENFEucWpXcdC-eDba610hsIjxVZgsGc4lPu5JoPj3qoYRNFbX5JwYnkmAcrtPwwm8Hxckc-XdULR4_cZQsMdC
+6xGxqyWl0CKOyLjARNwb1tfZPemE2Xyvi6BzyF5IIiKbKJUUa9Xki5jNBPPQXiYUvuXoWq9FHfo_EMKGLWGoo2S80obo8zfBRVsMm8PwiI8lyO-BqnFEZGRG
+8girbTWM4H1QH82sY01j4G4BH9fO8TB4eYhcxzBfT8u
+}
+
+AzureEntityColoring(APSearchApi)
+!define APSearchApi(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSearchApi_tbg.png, e_stereo)
+!define APSearchApi(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSearchApi_tbg.png, e_stereo)
+AzureEntityColoring(APSearchApi_m)
+!define APSearchApi_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchApiSPRITE, e_stereo)
+!define APSearchApi_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchApiSPRITE, e_stereo)
+

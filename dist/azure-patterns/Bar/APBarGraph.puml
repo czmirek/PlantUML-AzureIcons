@@ -1,0 +1,12 @@
+sprite $APBarGraphSPRITE [70x70/16z] {
+xTQr0SD040NHOuR-gpNlHcQnzAU05qyV9J5z24dD3L2KuVQYG8421Ogsb1cWk4I58GeKA52WA4sf0KfgL5g70aLpSe3IEFzHWGB5SrhSifwoBov8AauSADH7
+wGm
+}
+
+AzureEntityColoring(APBarGraph)
+!define APBarGraph(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarGraph_tbg.png, e_stereo)
+!define APBarGraph(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarGraph_tbg.png, e_stereo)
+AzureEntityColoring(APBarGraph_m)
+!define APBarGraph_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, e_stereo)
+!define APBarGraph_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, e_stereo)
+

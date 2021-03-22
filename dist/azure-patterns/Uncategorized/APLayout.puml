@@ -1,0 +1,9 @@
+sprite $APLayoutSPRITE [70x70/16z] xTIr0GC15CDGVGhjFt1gDs4uy1j0fNedxFWHbyqmCpFBZs11KWGGAG12013Y8ex0N4H0j4YWMYobueehheme84Syje_DETuJGDrpkIU0lcSf5LTSSUKA
+
+AzureEntityColoring(APLayout)
+!define APLayout(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLayout_tbg.png, e_stereo)
+!define APLayout(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLayout_tbg.png, e_stereo)
+AzureEntityColoring(APLayout_m)
+!define APLayout_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLayoutSPRITE, e_stereo)
+!define APLayout_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLayoutSPRITE, e_stereo)
+

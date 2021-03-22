@@ -1,0 +1,15 @@
+sprite $APStudentsSPRITE [70x70/16z] {
+xPP7bkD034F1KF7-zvt03cKhi5dYBEVl_Hy0KNx2DlzX4VsBC3rNw2kFHAmd19kGw1MS2RAGjCIGjCIG3KbUemxXYKL_ukiI0tr2KA1F0Bdsa6v2qLNsnzPz
+s2cKASNw04dFOd3QOeGiyMM8_q3w30wi6gsaMU97KblnB1gWj37dxFLsNWd4wFEJqMui-XCMOz4lYe7LfVHvOfoA-ONgc9UCzwKP_g87ReeHebMyOe24ghZ5
+662dIe1Ur-MUZoFEAFY3Snn1HcNmFx50Seswmf34kasSl_uQz1JdWp9uTMgMT-W8ku4Q0ylYeltkHWY8MIe3M86EJuKfP9cp2m0gutGSbf93bXLTsdiLie1H
+Yr7vytTVno4srfPbxQ1rnTYmz9Snp63L5WXPok7K3pEtc0LZEWmAMcYuag05rEODBNoxwwaUwOA_r3a78yBv5UY5OAWrGnIIqbhhhRLQXF15DIaXHp4BaeZr
+GnARNf2cMfOiRLNAxZiaRJ6w8WDD8vkcMnG2qc4gql3dY_aR
+}
+
+AzureEntityColoring(APStudents)
+!define APStudents(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APStudents_tbg.png, e_stereo)
+!define APStudents(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APStudents_tbg.png, e_stereo)
+AzureEntityColoring(APStudents_m)
+!define APStudents_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStudentsSPRITE, e_stereo)
+!define APStudents_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStudentsSPRITE, e_stereo)
+

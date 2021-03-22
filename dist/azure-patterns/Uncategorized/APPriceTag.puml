@@ -1,0 +1,15 @@
+sprite $APPriceTagSPRITE [70x70/16z] {
+xTPPRgWm34PXXp1ZalslzWxqgEEFP1crJptFv9EPqx-nt-m7MlskpS9j_JP_Xf0daBG2SlhN6aeOsKsqeZn1K1uYA0aafSmQcVngTPGKKjITZYCq0i2CASJi
+1A2jP10ho_elRw_E64RqFQ8vYw3GcaHGV6AQ989YvULYLusS5bEiUFzVaKY9AaopQoIiy3HNYSGLkownQoIksC73fv2uCbolWaBY2iEq358xoklIcaHGk4rh
+4k7syhauyWZjrs3F42xrCmIbxvqxdaDG32Q7e3IJJ1pXwaecZfYZmAmfn5Zwoin6gk8AuTimcM3Y22lD11D6U8qE4qmSOTbiYeaZG-Vp8fWmOiuImSIHZI-D
+OiB8eZSE3XETH5y2Vhtp5sIvlLgxqHt3eLThiG-LjOkVkcH0S0PxRPXR5vD81kIrjgsrrd5T8SI92WPa7hpBscH4YYaWPhOqWOX11DD0hkRp8t6knIp4W51T
+3YPgld2b8mm8OLKJ1UvKBXYGfmp8GsQodwv_Ox_z1G
+}
+
+AzureEntityColoring(APPriceTag)
+!define APPriceTag(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPriceTag_tbg.png, e_stereo)
+!define APPriceTag(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPriceTag_tbg.png, e_stereo)
+AzureEntityColoring(APPriceTag_m)
+!define APPriceTag_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPriceTagSPRITE, e_stereo)
+!define APPriceTag_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPriceTagSPRITE, e_stereo)
+

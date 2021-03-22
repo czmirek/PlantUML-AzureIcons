@@ -1,0 +1,12 @@
+sprite $APTransferRightArrowSPRITE [70x70/16z] {
+xTH50iCm34HHiyQz_u6xB8oBcXJrTuMy9AOaAHT_EPNchswgXDA6lvxwpX--N9cGA0qIfK6YD4YK1edIi5PwUon8b0Q9ql0v2hORNToR7I6YLVV-7J0Lkt4g
+JeRvM-VkMcdcRwJVgz4RyZUv7bSMt_IpqKwBRqexhl8tVYMKK4BHxEaVF-iu7XUEppgEvuYhVYMKK48HxUaz
+}
+
+AzureEntityColoring(APTransferRightArrow)
+!define APTransferRightArrow(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTransferRightArrow_tbg.png, e_stereo)
+!define APTransferRightArrow(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTransferRightArrow_tbg.png, e_stereo)
+AzureEntityColoring(APTransferRightArrow_m)
+!define APTransferRightArrow_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTransferRightArrowSPRITE, e_stereo)
+!define APTransferRightArrow_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTransferRightArrowSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APBuildingsCloudAltSPRITE [70x70/16z] {
+xTK54eC034HH8jNxtxTkIuOkhlaZ5U2X6PnNy9Qkf9AA5OyClaP5pTsqjOB_ILi5Jr_DjAMYZaahnSkrKIGe6XHzPF0L5ILAHVnOcYkYKP762bd6mlF1XD-Z
+viV25VMODbCUIRcsCutDJ-4JaEy0UmHV5tgdkNBchKyX4z108IrKYHCGbDFnqGc-Dhv7HtzqXA-ZAQbqlzFBdu1KKf5trOhfC_kZ5A-gbVSgiaabbIi
+}
+
+AzureEntityColoring(APBuildingsCloudAlt)
+!define APBuildingsCloudAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Build/APBuildingsCloudAlt_tbg.png, e_stereo)
+!define APBuildingsCloudAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Build/APBuildingsCloudAlt_tbg.png, e_stereo)
+AzureEntityColoring(APBuildingsCloudAlt_m)
+!define APBuildingsCloudAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuildingsCloudAltSPRITE, e_stereo)
+!define APBuildingsCloudAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuildingsCloudAltSPRITE, e_stereo)
+

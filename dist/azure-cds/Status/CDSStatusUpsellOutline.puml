@@ -1,0 +1,15 @@
+sprite $CDSStatusUpsellOutlineSPRITE [70x70/16z] {
+xPT7WYmn24E_WGB3_U_xqmGwoLRLR5kRYVqS2CA_BkcjCKJ6-050eweLUWMHzQIqSmmle1Zd6933COxQw21YahLLxeubHKcM42jIna6kOxHEI8ax8GIkk4xg
+9MGMe-c7sEUtLBB1Gb9ymmH37nS4jKCLK5Fy0J8AwlaJ4yKf28YOF1u-oAqq9Bx2OYXfZDZ9TnacAeJSGZufzb0doOIv8RsNH0ciJ7JyupO35cLG8HQH3nPe
+mmG49YUW412IaYuVXz0Tf2c3z0fVDYlXUgglxK19244X8PWY56H76GI4i88dYBgpJjN_T0SHYoT35uRI4FLywNmC9JuDPdRQiPJ0nvwypoZyfnIU0ZecuNce
+OngQ_s8J8uDEqgcYwHiJ7zZLl9rKrnuHm64R8xEggAsquX5Z-HrovIVekiT4Pn-453a5IKDs0S8kcql89AT3Pth2TXBI5MIm0-yAekpmFPMVuF5k9eO8ypmw
+_q22IKo464k9HmqZ9-OPGYE8bp33iLS5SJI3blhTBXGW60qHaOkVV-iF
+}
+
+AzureEntityColoring(CDSStatusUpsellOutline)
+!define CDSStatusUpsellOutline(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusUpsellOutline_tbg.png, e_stereo)
+!define CDSStatusUpsellOutline(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusUpsellOutline_tbg.png, e_stereo)
+AzureEntityColoring(CDSStatusUpsellOutline_m)
+!define CDSStatusUpsellOutline_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusUpsellOutlineSPRITE, e_stereo)
+!define CDSStatusUpsellOutline_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusUpsellOutlineSPRITE, e_stereo)
+

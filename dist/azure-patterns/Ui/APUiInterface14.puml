@@ -1,0 +1,14 @@
+sprite $APUiInterface14SPRITE [70x70/16z] {
+xTU7TeOW50DWBYJaQjVxlstbzrIEs-v5tEjpApo53yZJ3rMQqfJq4KhKvofDIH-W8FKVe90dIkftmf-dH7sVuhvKXAA0rnN749yKIqLXKJWgTaKH9UH9YRIg
+342AlA9uxmvKXQgAGj0rHGHE5JjGEkQ-0-JSKmn5CIhkAmBSKQH9iRaIRosaydhYXR2PGY0F0Z4ffYs5HM5f6OqMH5Pb083EYPmvpeWyKNGRdoaPEKDzJRPu
+fgIX3JC5S0VdRq3QlIuMQ65CCfiK1oJ0PqhOKCm6nNRkKSOjkIhxpqlQUruwG586hYXXJz5uIG0jb5ILTFeU4PgmcR9ufoqUAUvT6NJkCsL8LTxthRCVyzqD
+ze5_ai_xDpR5p5kvRftqksiJJMbAKvho3
+}
+
+AzureEntityColoring(APUiInterface14)
+!define APUiInterface14(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Ui/APUiInterface14_tbg.png, e_stereo)
+!define APUiInterface14(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Ui/APUiInterface14_tbg.png, e_stereo)
+AzureEntityColoring(APUiInterface14_m)
+!define APUiInterface14_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, e_stereo)
+!define APUiInterface14_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface14SPRITE, e_stereo)
+

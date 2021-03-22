@@ -1,0 +1,14 @@
+sprite $APNodesBlueAltSPRITE [70x70/16z] {
+xPW5TiCm38Q51jt_laK_pNlE5ZSgjryPyfj5i0BdMZD3Z6Gd4aHGQsX01Cr1s0oRmv41ENhTliJd9Rv64RATo113YbaHYC8Y3A-eWdIn2XB1BxIQMSPBL32R
+MTLnFIlDgs1jUs3SMsLUfGpxqHoPLM5pnjEIPbMoEMqQo9oyNGKw5PnJmJoUzkBVg32kgo2BZjr7_qOEq9eAoO7S3QZ1vyLFB3BeS4eyQ8XmMjXYchFogQy7
+-c5HCIl-r_uFc79MX4MmDRNirRopgz3FFxLQesh_onGiPyvhLzgBU2ydGNQDgjwbeZvZav1eFo6fxIQ22n7h5mVBS5Qd83_rRZteULI-AkDAaw_qfbs7S027
+NNVL4t3zqtXzoq3_MIbilKHOHjCV5XDdBQPRRzrWlHckuaaOhk7L2bpDmyQzlLmjyeX7GTUAoEBHORbIf1gFcjyzcxX-bdNzZEzR8HZvLWZYrQqz
+}
+
+AzureEntityColoring(APNodesBlueAlt)
+!define APNodesBlueAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Node/APNodesBlueAlt_tbg.png, e_stereo)
+!define APNodesBlueAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Node/APNodesBlueAlt_tbg.png, e_stereo)
+AzureEntityColoring(APNodesBlueAlt_m)
+!define APNodesBlueAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNodesBlueAltSPRITE, e_stereo)
+!define APNodesBlueAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNodesBlueAltSPRITE, e_stereo)
+

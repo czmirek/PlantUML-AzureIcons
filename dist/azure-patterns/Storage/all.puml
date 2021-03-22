@@ -1,0 +1,53 @@
+sprite $APStorageBlobsSPRITE [70x70/16z] {
+xT25OGGn30LHaspfzzzlc9Fb2Ttj5F04wJixotL_xQ6QK-dxy-SgWVZOZmn_3K4SGHn1744SGHn1746yRgyHsHSXY2688SYZqiTqlRMSfYklol3fnhoIBrqv
+bLCnGZ52SKA909GGe8GsA3PH7sDqirQdQw_AHBQcLsLoayTT-bnBVz53OHQQBXOK4Oe8HOGYGWb22G5A2512W182b12WX0X5X2924Q68K4GeEgOyPfFrkTuh
+TYG4CGR9068vvN9NFL994vtT0W
+}
+
+AzureEntityColoring(APStorageBlobs)
+!define APStorageBlobs(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Storage/APStorageBlobs_tbg.png, e_stereo)
+!define APStorageBlobs(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Storage/APStorageBlobs_tbg.png, e_stereo)
+AzureEntityColoring(APStorageBlobs_m)
+!define APStorageBlobs_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStorageBlobsSPRITE, e_stereo)
+!define APStorageBlobs_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStorageBlobsSPRITE, e_stereo)
+
+sprite $APStorageFilesSPRITE [70x70/16z] {
+xSpL0KCX54H1PFVbzjzmt1quoHTJmAIVcdA_ihSxbdvniDJamUJmz5l51P84aWII1984aWII19A4sps9rSnF88cHn4XoM4hgLlkMkSobvcwwB9_u4oGnaXX9
+Z2J7fRwa3_wuY5X4B28M4Ok8HSIYjkKvDq4I8ucHn402B_MQMhnQH2mY5X6BY4N48c8HiMXiEV00936Is4XIaIHL3QlfkMa3
+}
+
+AzureEntityColoring(APStorageFiles)
+!define APStorageFiles(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Storage/APStorageFiles_tbg.png, e_stereo)
+!define APStorageFiles(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Storage/APStorageFiles_tbg.png, e_stereo)
+AzureEntityColoring(APStorageFiles_m)
+!define APStorageFiles_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStorageFilesSPRITE, e_stereo)
+!define APStorageFiles_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStorageFilesSPRITE, e_stereo)
+
+sprite $APStorageQueuesSPRITE [70x70/16z] {
+xT95OiLG5CFGqCsJzx_WCduCg5pDVKRkFhB_-d5xqqDZtmtpzdXkD13QTgJnceAW82W82eA2e20e25j-RrGdKf1Ia5AGHsLk1pqCsa5rZt3Ogz8EEqdFTqZb
+iDLAVHk59YX4K8YW444XWa84XGWACPGOIWmbXX93mL28e1118O9232M6qWob3AKCfGob32M64aF1K8YW444XWa84XGWA4HGYA4HGo4xbeTgHWfI2b8Fq0b9z
+rmztZNiQkZFzTmi
+}
+
+AzureEntityColoring(APStorageQueues)
+!define APStorageQueues(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Storage/APStorageQueues_tbg.png, e_stereo)
+!define APStorageQueues(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Storage/APStorageQueues_tbg.png, e_stereo)
+AzureEntityColoring(APStorageQueues_m)
+!define APStorageQueues_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStorageQueuesSPRITE, e_stereo)
+!define APStorageQueues_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStorageQueuesSPRITE, e_stereo)
+
+sprite $APStorageTablesSPRITE [70x70/16z] {
+xPX7WeDG34CDjZJb_lUTcXvJnDSoRvEACDBliOyNSsuonoRW9eWjaZl8M6VYBgPOfRYBMhUMEvb5QtM3axj9gHIzcAH02YdhQHSbIaXPJHiKWM2jPZ0eWvLI
+Sagfc3xbZ2G_Jv3lbtSylLjE6yTKgabPK6dJnb4LDDOAAet1FAx2hWFfAjNrvPFA-mdoxVAEftTztqQZ8e1JocCgd4-bQBvqnII7L4vfSro5KGwLygXOdiZb
+Re1ZRPVmj3fV3uXfp9V9CZ9OHYdFY6aPlVqpIPHXLdFDi96tAiUN7j1LqAs2-Xk8_uIgWhNL8Me3D2bxLwhwgjcoWZVk9lmx6xqOE7Ty_jsddhPrL-u_8V2V
+LfnuyGq
+}
+
+AzureEntityColoring(APStorageTables)
+!define APStorageTables(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Storage/APStorageTables_tbg.png, e_stereo)
+!define APStorageTables(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Storage/APStorageTables_tbg.png, e_stereo)
+AzureEntityColoring(APStorageTables_m)
+!define APStorageTables_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStorageTablesSPRITE, e_stereo)
+!define APStorageTables_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStorageTablesSPRITE, e_stereo)
+
+

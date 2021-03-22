@@ -1,0 +1,15 @@
+sprite $APFourPointsConnectedSPRITE [70x70/16z] {
+rTQ7iI8n60HX_KOs_tpFGYsDpam9phmEu6FzKFvENblr5usOwsipNa7QkjVEaLXNSQpCTJNVSIZd1rEXr4EbG-d_z5WIIlxBUyI3gMzvwiOvCkljFQfjOtJ4
+YcLV8wsKdT6HB_djacoCZ5pAnkW8538w0eMCZb0XeoDKoEW85J8wGeMCZb0XeoDKoEW85J8YGaLZpDmCoAxiZDTQ_JBoMs50gEnC38olvxqE1ChES7mjhxne
+oZw--L38ok27tV8n4vLy6b-7ugBIeTGIHyg0qjzoBEtmkjJdyOLIHCNces85fsIgiezlvBtMPCMsxVKRucCr_OpQVFuRu1vktsxWK9IlI9IIlVVz8f2XiYDN
+0WD5HFWTeq94PgWGqHagH7I62X6TeK94PwWGqHagH7I62X6TCIX4T6RQJG5on5Zqj1tHopKzRkEx8NhHyruxHRXunqY9rnLXVAKSYdzyvVowC2ZbD8xlSO77
+vJX_xT9YV7zhV0O
+}
+
+AzureEntityColoring(APFourPointsConnected)
+!define APFourPointsConnected(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFourPointsConnected_tbg.png, e_stereo)
+!define APFourPointsConnected(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFourPointsConnected_tbg.png, e_stereo)
+AzureEntityColoring(APFourPointsConnected_m)
+!define APFourPointsConnected_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFourPointsConnectedSPRITE, e_stereo)
+!define APFourPointsConnected_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFourPointsConnectedSPRITE, e_stereo)
+

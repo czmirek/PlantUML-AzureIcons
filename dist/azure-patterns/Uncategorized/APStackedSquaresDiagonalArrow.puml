@@ -1,0 +1,12 @@
+sprite $APStackedSquaresDiagonalArrowSPRITE [70x70/16z] {
+xSo5OG81402mTxdzzsrnX-1w6I35EL9PNMDtgPjhb5mibrnoQRTq_NbsbZAkykPBBhdqxT9umn9Tip1WONFxChRdBqwyEF6YvFp5YHSdO-V5IKJdnKd4wCN9
+BYzEl3ZnuiIB4ozEl3ZnuiIB4ozEl5oLHBrbUucEoKAnhOoTnecNw91uMJHEl4I7n8lTlkIIIr5TfJX7-WS
+}
+
+AzureEntityColoring(APStackedSquaresDiagonalArrow)
+!define APStackedSquaresDiagonalArrow(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APStackedSquaresDiagonalArrow_tbg.png, e_stereo)
+!define APStackedSquaresDiagonalArrow(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APStackedSquaresDiagonalArrow_tbg.png, e_stereo)
+AzureEntityColoring(APStackedSquaresDiagonalArrow_m)
+!define APStackedSquaresDiagonalArrow_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStackedSquaresDiagonalArrowSPRITE, e_stereo)
+!define APStackedSquaresDiagonalArrow_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStackedSquaresDiagonalArrowSPRITE, e_stereo)
+

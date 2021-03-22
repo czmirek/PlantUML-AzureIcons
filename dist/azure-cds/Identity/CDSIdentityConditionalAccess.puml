@@ -1,0 +1,15 @@
+sprite $CDSIdentityConditionalAccessSPRITE [70x70/16z] {
+xTS73gCm48LXc-bp_mElMLc9uK70R2-_Mfe_JJngb3ybKeziXUloaAWIEHHIotpQ3wzrJgO7yLLmqvxvAldSEBmQffiiCeCdZ7KGrttccMbqYrWaXa5md0ok
+7quJYvfdt-nnhysR2XDilqRs-fsUPZ7yT3ULV3tkReO4GkQj5UEz4gQJMQQ0ejF5VKLQtwW8zsHEGQJtME5DznJR9xn9RDyTHVlPbwTF5Ed8MtoYR0u-LPHR
+2k-UAFRgeIAeoFTH_YigJ2rvHIqMdL9aEOxqsnMYxw3GfSAee84AJofqHw4BXOuLsYerqqS53LGyivPj0GeWg4JPPHd-JaQ3HyNVHTfUaJE5cFbCuRrICq7f
+Hkj8mMjf-JYClf4UAf5M84Q5U0YKJ2fO38m2qjegaLuEuft2qAZWA3YCza70qTqe60rhakCkHe4r7OSBmcfct4MYbhFu9XFZ_y4i8suXKZvK8-Cwk9H7J4Qv
+Y3AlaQLCCDC8ClC8ClC8Cf5d1YBdBP5vWjHolth8P7gTVX96nCfidbidEpAPZ4p2i_J47RUw0LSoSpclj3nFkX5SlgN5iwMrV6CKiPG_gIy
+}
+
+AzureEntityColoring(CDSIdentityConditionalAccess)
+!define CDSIdentityConditionalAccess(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityConditionalAccess_tbg.png, e_stereo)
+!define CDSIdentityConditionalAccess(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Identity/CDSIdentityConditionalAccess_tbg.png, e_stereo)
+AzureEntityColoring(CDSIdentityConditionalAccess_m)
+!define CDSIdentityConditionalAccess_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIdentityConditionalAccessSPRITE, e_stereo)
+!define CDSIdentityConditionalAccess_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIdentityConditionalAccessSPRITE, e_stereo)
+

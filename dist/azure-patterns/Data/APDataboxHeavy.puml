@@ -1,0 +1,12 @@
+sprite $APDataboxHeavySPRITE [70x70/16z] {
+xTQ53aCn20NGMo_y_mUlH1iRI--RSvx4I5q0BuIGf84tLJjOLPS9Lj554aXPh9W2KfgwDB26BXsileqnFLK9f7Bb6Czn0XlHKzYqlobb6B7V94gfIvls7r7A
+PYuYzXUYbBPqiN-CBbEAwxYKA2MtKzYaUgXWKyQX_Zrp5ALShuXAOQEockmLuaGDDSDDA4sdIl6ZkfhsK2drVe8tu4ZYfSYbPVXAI_Xs8Tm
+}
+
+AzureEntityColoring(APDataboxHeavy)
+!define APDataboxHeavy(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataboxHeavy_tbg.png, e_stereo)
+!define APDataboxHeavy(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataboxHeavy_tbg.png, e_stereo)
+AzureEntityColoring(APDataboxHeavy_m)
+!define APDataboxHeavy_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxHeavySPRITE, e_stereo)
+!define APDataboxHeavy_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxHeavySPRITE, e_stereo)
+

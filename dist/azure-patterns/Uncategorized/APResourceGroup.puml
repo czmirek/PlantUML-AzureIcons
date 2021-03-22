@@ -1,0 +1,9 @@
+sprite $APResourceGroupSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APResourceGroup)
+!define APResourceGroup(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APResourceGroup_tbg.png, e_stereo)
+!define APResourceGroup(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APResourceGroup_tbg.png, e_stereo)
+AzureEntityColoring(APResourceGroup_m)
+!define APResourceGroup_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResourceGroupSPRITE, e_stereo)
+!define APResourceGroup_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResourceGroupSPRITE, e_stereo)
+

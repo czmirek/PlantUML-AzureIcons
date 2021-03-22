@@ -1,0 +1,14 @@
+sprite $APMediaProtectionSPRITE [70x70/16z] {
+pT9diiKW28PX4FboBFlVxgtC64-99dZB-plp14Re88v8gNwK4YBJbG9oxSe8Pmrjn1wAfunINrHqUfTK3qfpUyKwAFeHOyQ8dmcbpXIEbLIdoeS8Qb_PeZ2B
+8DS-723SxtEJtQfRp_1hPUiFu-YCjjTAsGz23zscXj7QAlIaN5iwyq3oz0xs2xzInjziuvLaV9tSJJiybecbCVmYJPnbcldFSEiql1QPKFBWYKmPlVLrXSue
+z9TAaAXJeQKgt256J2DDOYTYJ3i2lQv0o78WRHZs800lKOAziWFv8mMN5HaWSmg5k41f9mcVyZqEl0gHB54eU1Kh-XKRnwTOqQ_OE3x5qWKAhvX50BV22hyY
+W5jXXLyHmAsmmgy8u5HWWxWKG8052lmALYZuFmh-H64N0gRlF4XJeaTHie83WH1PSXrHQebp7uibdaSq1lhk7G
+}
+
+AzureEntityColoring(APMediaProtection)
+!define APMediaProtection(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Media/APMediaProtection_tbg.png, e_stereo)
+!define APMediaProtection(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Media/APMediaProtection_tbg.png, e_stereo)
+AzureEntityColoring(APMediaProtection_m)
+!define APMediaProtection_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMediaProtectionSPRITE, e_stereo)
+!define APMediaProtection_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMediaProtectionSPRITE, e_stereo)
+

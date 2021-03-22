@@ -1,0 +1,9 @@
+sprite $APMsoftSPRITE [70x70/16z] xT050O1G3431_Q7z4qC2tBaNu2RzN1cHxLnlKoWK2eL2eL1ohXWhSyM3EkQY9TyjzLnlKoWK2eL2eL06
+
+AzureEntityColoring(APMsoft)
+!define APMsoft(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMsoft_tbg.png, e_stereo)
+!define APMsoft(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMsoft_tbg.png, e_stereo)
+AzureEntityColoring(APMsoft_m)
+!define APMsoft_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMsoftSPRITE, e_stereo)
+!define APMsoft_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMsoftSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APDataboxEdgeSPRITE [70x70/16z] {
+xPK7akKm24GR4DYgDFS_xMPgw98yPdFo-pduYQ3myeVmyF20du-O7vyOzisASSx2yIqYYRamy9MCkUDKV0sMoNnlE1PRJU0h4VzcZOYPINuuvehZ1lD8Xk8Z
+DbSKRp62KG2GNQUkFHOBBgGXamisUEnGrh3804QAHALyCguDSmY8cWO03TB4lCAkqZ6mLG3CZiQ-rFBJA_8R5uqlNtX7ava0bZqKayni03YlDKBpnB2X4Sp9
+fKKYu5G7Ttk_pBMM5UgP1Vdd6_34fmzI_4BDNg2k3bu6vIUZmYpKltg-BrBDjx2RbAGKnQBmMc07j6Enx7b1y8c6HTZYtsPH05c4VKRIj-GEAMH9xQsbfg6S
+KWxGj5WTtAdHFKk09anfamBjMAns9XTXEOz6ov9jo50MEXQlGmuGqhOWoNfQoiG_bSORbW60SigwKiTlB85NbDSoecLX2Mi0MDSIrwUZUpGjTdFSTomXs67U
+jB1ZHSrzPv6Z4Yxu2Rpy8JmyFBm7
+}
+
+AzureEntityColoring(APDataboxEdge)
+!define APDataboxEdge(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataboxEdge_tbg.png, e_stereo)
+!define APDataboxEdge(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataboxEdge_tbg.png, e_stereo)
+AzureEntityColoring(APDataboxEdge_m)
+!define APDataboxEdge_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxEdgeSPRITE, e_stereo)
+!define APDataboxEdge_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxEdgeSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APMessagingSPRITE [70x70/16z] {
+xTRBhaCX241HZk89-F__Us_VzBb3GZjpZyrI6T57FPLzrlFVAajPYkrULqnrb1NJGpieIIGOL1W91fGSeevA7c4bZx2IHrXXn2OeUGIK0W8A8A0K45OOOOMH
+lE8EI5PnLIU4bK220GGLrrCE22Y110C8AwR104BA8sE0eFB8CCBAD4100GOHLgO10WemW90I32Ei1CC8Ay4mmaemZB0IJ19PUzrIbh8roE9WRv1Wcr-LBeNw
+1HbIQfmGas9sG7oJQZvdatADXfAlotTRhVu1
+}
+
+AzureEntityColoring(APMessaging)
+!define APMessaging(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMessaging_tbg.png, e_stereo)
+!define APMessaging(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMessaging_tbg.png, e_stereo)
+AzureEntityColoring(APMessaging_m)
+!define APMessaging_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMessagingSPRITE, e_stereo)
+!define APMessaging_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMessagingSPRITE, e_stereo)
+

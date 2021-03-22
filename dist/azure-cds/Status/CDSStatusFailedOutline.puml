@@ -1,0 +1,14 @@
+sprite $CDSStatusFailedOutlineSPRITE [70x70/16z] {
+xPX94W8n30FjU7Rz_xzSHooQ9AKZVIIgBiXg4rFyoMmjC-Qf0pVs6ZVaSkA3SyaXnuuVxFsU3OAjpx7YWVNPaUWWGzFGHPEI1PqiVLCoFpc50QfZOkUd-C8G
+rrV9UGiidyRFWLFFxDMYaOO6v0nJDcvfCV0XsIbxJuk1BPYaBANLGBBbe5r9QPRm3Zz8afGcZVuu-Vo8l91WuRqYD4B2UmOG6Y6XnIu8ZPIWQ8M4HaXebG2b
+KHA0B48Z9C926fOeIq9eX8JtNOFIQ0aQBRJGA0dAO_7y8i_i6bRQjUiy9y1p6ZqtW-MMyjoOdjlRyv9ONZNF2-juxNTRvS5iXYh8K94PgaD3fMgecbqL_Fot
+gL3aXGwkZ0TEF7B4C-i5oRKOkqz_9-plolK_14V5FDcgMiOKVru
+}
+
+AzureEntityColoring(CDSStatusFailedOutline)
+!define CDSStatusFailedOutline(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusFailedOutline_tbg.png, e_stereo)
+!define CDSStatusFailedOutline(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusFailedOutline_tbg.png, e_stereo)
+AzureEntityColoring(CDSStatusFailedOutline_m)
+!define CDSStatusFailedOutline_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusFailedOutlineSPRITE, e_stereo)
+!define CDSStatusFailedOutline_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusFailedOutlineSPRITE, e_stereo)
+

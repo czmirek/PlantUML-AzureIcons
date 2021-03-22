@@ -1,0 +1,13 @@
+sprite $APDevopsScrumSPRITE [70x70/16z] {
+xPK5OiDG241nkF-5fzGjVERZrUsXJG1W68PX88G-78OV80dzCH8NuLv968aBBZio5xLN3wqvp73N5sHVwmzQE1tQYxgaiN3C1ci-XjI7an80EimBY_Luy9Nq
+34f8-1LrDPbCvGmhDFXsLAwLH67NtuvQMwoGOj424LImy8VaGk7jllHdb5ZmrItIwkxYjOAm-Z-IpkecV3bKVSjFe8A6qrcHhxtIMZv8TB3aiQvvPa7njqmg
+6hOpV7SEaDSN6pKI5nY_LvKGF8Ra52Oyl9-rDT4V8m5DIHE2NyWm3CCp
+}
+
+AzureEntityColoring(APDevopsScrum)
+!define APDevopsScrum(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsScrum_tbg.png, e_stereo)
+!define APDevopsScrum(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsScrum_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsScrum_m)
+!define APDevopsScrum_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsScrumSPRITE, e_stereo)
+!define APDevopsScrum_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsScrumSPRITE, e_stereo)
+

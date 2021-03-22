@@ -1,0 +1,15 @@
+sprite $APTwentyFiveSPRITE [70x70/16z] {
+xTO5UXmn341XWMLGwVwdBNT09Wsr3Rmm_PzniryUx3tOHX9JAlgzb8JXH2XPJP5-_uY6hKR8sYh_7125OVZRaAAz4ZeLpZgea4iX7LUGRr2qtAAe_4-A759o
+4WaYgPnN4YFyYNUEB0otWbM92BloPeIhWj2BVfzGqpgQv5G2rCb19JT_XYq5klNyHOaU1Lwcmk3FhgvSKEGMfJGKEZyKUur-lYTqhefLR4mmAxiU6CY9MCM6
+NYGPn3aSpDfJ_0mLtIjX7FQtUArGECuaY-1KuTbij31GE3WOKOiW018YmX8IZmUJB98HMg5rzXjiYj2BUbFYnfA0aw45cSp6jfiKzn21SLGfDL889c6zl6YG
+1FDgfTZPEAfc5FjxurU2FQwUq2hb109apelq4F_YeXaAWoyoMoIJBIP6nmN8aw5G28opouYwBQSg-HdZ8Y7L3oz19yMVokOVR1K09AVIZ-vGs5mXls8Hq6iA
+mmqAmGqAWbT97MLt5dLUZWs543Qfgy94lqzSyqdTbmTxxni
+}
+
+AzureEntityColoring(APTwentyFive)
+!define APTwentyFive(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTwentyFive_tbg.png, e_stereo)
+!define APTwentyFive(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTwentyFive_tbg.png, e_stereo)
+AzureEntityColoring(APTwentyFive_m)
+!define APTwentyFive_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwentyFiveSPRITE, e_stereo)
+!define APTwentyFive_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwentyFiveSPRITE, e_stereo)
+

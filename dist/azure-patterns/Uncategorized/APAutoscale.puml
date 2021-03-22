@@ -1,0 +1,14 @@
+sprite $APAutoscaleSPRITE [70x70/16z] {
+xTS5SaGn40DHJSO_3FS_RSWAgvmEOnSjlaMJL3rcBKc-4gwvlREG7yWLxGQb1bIMJ5DboGogh1Yk1EODYfcewANjlOTInrJXI5OuudecLqyYo9dkLzkJ1a7E
+0fAKZ9pi1sLBoWefxJzHAYfBH6Pw1fI8c1ape0J4J5J6_Ng5c4dAK2eZPhB24JDHuOWB2aUuaX6kS4Gz2mf0Ga59o8wOGX2kP0Gh7E7VxXBfMVgbEQBXWW8H
+hcI4AndX2a6uaX6kh17_hiMKBICQyt7tbPubnOoHhFHiEG8s8rd1usWpyZP5kqRUfgW4532c5meOqqWPxhEKVyNCCsr00O4n3I9ZcYkvbocB9PPNWWn7mic6
+fBnElxBXVfqIJ-NysZTK-ZsKhlTGIlr6nLUhtwPqIHS
+}
+
+AzureEntityColoring(APAutoscale)
+!define APAutoscale(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APAutoscale_tbg.png, e_stereo)
+!define APAutoscale(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APAutoscale_tbg.png, e_stereo)
+AzureEntityColoring(APAutoscale_m)
+!define APAutoscale_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoscaleSPRITE, e_stereo)
+!define APAutoscale_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoscaleSPRITE, e_stereo)
+

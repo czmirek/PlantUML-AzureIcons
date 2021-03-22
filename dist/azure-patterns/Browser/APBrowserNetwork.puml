@@ -1,0 +1,13 @@
+sprite $APBrowserNetworkSPRITE [70x70/16z] {
+xTW5SaCn30HGcM50zxzjzL4pLMOBTZ7Uq8PUyXcO9eJ_WB8KFo7CSK8EnNkv2puSzPEA9t8n4j5HFw_GheGH9JZoc-Ma4ldFAUDXJXF2t2VaLoXBMKfh7KJV
+XqgB2J3wFbHQZ83Hzw7IuXQiM8OP88W1YY8WrJBC0C6CLInIzUMkrJ2gMAGw8afzIvBcwbrzDSoXMAG98ibIC-rf1xA9_G73R95UQ8-N6evQfFgZLikeagAa
+zDUAFsgIwXIKPFtypFzY6HqlvV5uAOg0QUJ1D584pYyuYWpCkueCB4UA32pJYWoiNmo2rdMvZwthZlLg7rtlIkh0Dc0WSvIbB6KfPKBM6O8FAKjv0G
+}
+
+AzureEntityColoring(APBrowserNetwork)
+!define APBrowserNetwork(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Browser/APBrowserNetwork_tbg.png, e_stereo)
+!define APBrowserNetwork(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Browser/APBrowserNetwork_tbg.png, e_stereo)
+AzureEntityColoring(APBrowserNetwork_m)
+!define APBrowserNetwork_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBrowserNetworkSPRITE, e_stereo)
+!define APBrowserNetwork_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBrowserNetworkSPRITE, e_stereo)
+

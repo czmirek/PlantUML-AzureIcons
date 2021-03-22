@@ -1,0 +1,12 @@
+sprite $APBarChartLastFilledSPRITE [70x70/16z] {
+xTO33i0m043HMlU_x-mjcFN_ZBwaOSMDIJrggs96dQwWeA2WeA2WeA1etoMtApPrgQiL51GKLRTFKSseRoee_QzlLwIrLkrKwZ7s6uhstilTYgq_tA_qCvB5
+HHUVVLdpfcvv_Q97YHm
+}
+
+AzureEntityColoring(APBarChartLastFilled)
+!define APBarChartLastFilled(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarChartLastFilled_tbg.png, e_stereo)
+!define APBarChartLastFilled(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarChartLastFilled_tbg.png, e_stereo)
+AzureEntityColoring(APBarChartLastFilled_m)
+!define APBarChartLastFilled_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, e_stereo)
+!define APBarChartLastFilled_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, e_stereo)
+

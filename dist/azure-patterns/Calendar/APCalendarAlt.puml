@@ -1,0 +1,9 @@
+sprite $APCalendarAltSPRITE [70x70/16z] xS410G0G40Gm3Qv_Mo40VbkcQ0S00000GARe
+
+AzureEntityColoring(APCalendarAlt)
+!define APCalendarAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calendar/APCalendarAlt_tbg.png, e_stereo)
+!define APCalendarAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calendar/APCalendarAlt_tbg.png, e_stereo)
+AzureEntityColoring(APCalendarAlt_m)
+!define APCalendarAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalendarAltSPRITE, e_stereo)
+!define APCalendarAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalendarAltSPRITE, e_stereo)
+

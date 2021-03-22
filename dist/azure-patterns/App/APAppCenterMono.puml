@@ -1,0 +1,15 @@
+sprite $APAppCenterMonoSPRITE [70x70/16z] {
+rTY7hkGW38LXK-8uYS7l_xOhLaTNU2iUPilzLQRcKtg1NeWbqNvYTjLtA6RAQLyPITvKaFAcWhhaJGLTTLD1VLD1_xMItw4KCnNEUmeRAb758wY-hboshwJ7
+a5DOEAqhIMtKl9BLrEpXjAQKRgEpEkKmiw43-frIRTGBpKfw3Cf8VwkmZPv47mhaW8BlJw99IM911KipAwNR2qfBD2kFePXYMg6uOWgSxnKjoyfZ1cTM02yh
+T7HyLdU2Fp2ZYmgboxwjCz6wWcetbn1oIkoOlXEzf2J_uvN32XR89ocY-1bHvwmgVaRkN6sE8yg7GUGLwnnHO42PquZIXW755r5Cd79SSQMDjvhTkQxsg8Ah
+o34hb9vr1TqsabaXEg8AVj8yAPX7r7X18RQlYRysdY3El7YTnbnuXN83iQXGwLv185OLIctppWFCiwUuBQvIqvP2pELptpNdKjuoByVTLAJaFOK6DDwg2Zii
+fW12-WYN55OyvB6u0iYdbzGIKZpqFHPGFEJhAbBAcW8e49G05580xIk0-k-8nhHGkJpakmlvub0_4_dYq5q91Q7TmGuFAPCl3hKha-yB
+}
+
+AzureEntityColoring(APAppCenterMono)
+!define APAppCenterMono(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/App/APAppCenterMono_tbg.png, e_stereo)
+!define APAppCenterMono(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/App/APAppCenterMono_tbg.png, e_stereo)
+AzureEntityColoring(APAppCenterMono_m)
+!define APAppCenterMono_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppCenterMonoSPRITE, e_stereo)
+!define APAppCenterMono_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppCenterMonoSPRITE, e_stereo)
+

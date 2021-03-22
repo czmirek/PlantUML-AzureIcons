@@ -1,0 +1,12 @@
+sprite $APWhitepaperBlackWhiteSPRITE [70x70/16z] {
+xSo53K9X48J12y-z_sfnBlPX-qUGdG9ckvaUQGDj2HPiz8KRVU66bwuXrwPvTQc2JD082pJQCa3p_b9rvwOkN08QOO56MA2HbkYpaHTef2MRgcJ9Pgpa1HfX
+WKPOe56MD6GZBD082pJlBMoiX0Lywx8ZpPiBgxnuyUB5ookyUF7YnKlNlAoRU17yy78
+}
+
+AzureEntityColoring(APWhitepaperBlackWhite)
+!define APWhitepaperBlackWhite(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APWhitepaperBlackWhite_tbg.png, e_stereo)
+!define APWhitepaperBlackWhite(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APWhitepaperBlackWhite_tbg.png, e_stereo)
+AzureEntityColoring(APWhitepaperBlackWhite_m)
+!define APWhitepaperBlackWhite_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWhitepaperBlackWhiteSPRITE, e_stereo)
+!define APWhitepaperBlackWhite_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWhitepaperBlackWhiteSPRITE, e_stereo)
+

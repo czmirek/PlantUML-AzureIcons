@@ -1,0 +1,13 @@
+sprite $APOffice13SPRITE [70x70/16z] {
+xTP7aiKW34LH4uMr__rs1BafSkWVTKVKA_cCVKp7SUetIOCeBgAiQ1yDqW-A5kKN-HIAI9LaqJTIDFnahQ353vPkmeakAWPzAYmG5dB306t598hqWzYYoBqA
+5XL85Dohc0a5YehUeXXQPBSYPvHpYu8XboWmeM1H0LfCjsBkfeWjYgmec2ZGLgJ_9b7El2BrL0x_vDvDOSK0W8aUsW9OUj1HNK544nuG3bty04Hy1cKgLgvO
+KLSBIlmBJB72ocGYwXY8upu1
+}
+
+AzureEntityColoring(APOffice13)
+!define APOffice13(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Office/APOffice13_tbg.png, e_stereo)
+!define APOffice13(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Office/APOffice13_tbg.png, e_stereo)
+AzureEntityColoring(APOffice13_m)
+!define APOffice13_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOffice13SPRITE, e_stereo)
+!define APOffice13_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOffice13SPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APCertificateSPRITE [70x70/16z] {
+xTNLeiCW383Xu86cvFsVTfRQcHOuFlwhwLT3-64zj0tXh7XeoFzMHTcARXJB5PatKHJiJh-1qfMkTAKhu08ctQf8lqo1eL9HDX9dGYDlKvKIU8wid4sveeWt
+HJYNInMz2YjZFoZqDBCvauGuR9Y2VHfE8PyBSbhYs29bE9_AiiclJuUAb30_7WTBnAVqgXXwbPx-HTVtEgpAlkHFcqQvr7B5NWz_-Zd5NrsHA7kpZ-ukbYWu
+FsbxjIgO4eMkHjsyGerGeCXSZRoEEuNBbUB-z78oJEXHG1wX8hwE_eCINQAHA5fgKH2c_fMYFaD1pgvHYIZFsDB_67LI_WI5B2XiKSGufp3NAs98FjSfOgpv
+1AUE
+}
+
+AzureEntityColoring(APCertificate)
+!define APCertificate(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APCertificate_tbg.png, e_stereo)
+!define APCertificate(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APCertificate_tbg.png, e_stereo)
+AzureEntityColoring(APCertificate_m)
+!define APCertificate_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCertificateSPRITE, e_stereo)
+!define APCertificate_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCertificateSPRITE, e_stereo)
+

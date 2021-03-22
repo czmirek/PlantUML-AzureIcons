@@ -1,0 +1,9 @@
+sprite $APLineSPRITE [70x70/16z] xS450G0m302W0BV-RHzZ1hnY001sUhnY000-
+
+AzureEntityColoring(APLine)
+!define APLine(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLine_tbg.png, e_stereo)
+!define APLine(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLine_tbg.png, e_stereo)
+AzureEntityColoring(APLine_m)
+!define APLine_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLineSPRITE, e_stereo)
+!define APLine_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLineSPRITE, e_stereo)
+

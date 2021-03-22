@@ -1,0 +1,14 @@
+sprite $APMapsDataServiceSPRITE [70x70/16z] {
+xPO7RYin34HdIAtR_U_xVwB1ciXIbX18JdzfL7k8Hox4AioCzQzN2FZv28H8gmwMLmZ0IyM0xNO4GgJLRJyxQIbVo68hB8lI1QYB1gt2k-MotO4GCNq9IsAt
+d37YlDPY8Z-YRA7naQK8fdIJfQxEMhJiavOYVf25sjUsk6YzIst7Y_RZLM_QwFXAKFHsT2iHwTQt6Z-kkmA7AYLWgfeMgieIQQAoMddROdiLoAmJwQsLJOlF
+M_B_8ZgMNYwUSudibGjxkO2kNMymrxsfqZ9L_JRoEqFaClL94dSqQIdY1rbyHIxIE6OiWcjwXYTRNBGirs7NVCsVZJiJdUfJB7yM4n32Dj7lcWF3roIwPWGc
+HdD1z7K1YsYs6Hzk-RD4rup0HNFkwyFANZTNMzCFqwMAuISiB6BE5bKSMXXpsMBXwrhonlKMljF2NYxZT3NfQ5jWxeQH9JR-1m
+}
+
+AzureEntityColoring(APMapsDataService)
+!define APMapsDataService(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMapsDataService_tbg.png, e_stereo)
+!define APMapsDataService(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMapsDataService_tbg.png, e_stereo)
+AzureEntityColoring(APMapsDataService_m)
+!define APMapsDataService_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMapsDataServiceSPRITE, e_stereo)
+!define APMapsDataService_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMapsDataServiceSPRITE, e_stereo)
+

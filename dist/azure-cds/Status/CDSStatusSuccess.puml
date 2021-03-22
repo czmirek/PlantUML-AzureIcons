@@ -1,0 +1,15 @@
+sprite $CDSStatusSuccessSPRITE [70x70/16z] {
+hPX9ki0W28FB4BZ_ZT_cpTWewh_k5sc8uqDGCqTa1jnCdnqC-GzOJq4ySaYuB6iW2LZJyPpW3Oq37ObS8eIrDfVHpj_q_mhP0YUMS7EGRK0yEV36SWiZBMuW
+lvtDRRYpVOSb3v2TKjnUYj5URoM6CoewBjHiHRUK65Qln1Ngf9O2jzQK_vcHdLdZ_qlqXYbVQ96F_fIHeYzzK-h0elqr07K4oqfa0NGfCXyP8CHPoOfZwAA-
+BqOv01Wlx4gShI1UIbSIjqAybguaRetLs5dSU36eMvGKKme1ib4vZrljqLW69MvZuCba8fOsBJU-RPQu3J5TFIS5KL79DHdd-OWb6PsiWaxIjxW7UnbbB1FJ
+mETS1abXdomVjC2C2-PiRKLCP9A3oLXH1c46WksfdXpCqn26d22NJeUqcFw1rt8J8rEsUwGvimQTLOZawLmcxjtuxjy--mst6nTgkVL2SAZZjrzEpbznxhye
+tNdT-W
+}
+
+AzureEntityColoring(CDSStatusSuccess)
+!define CDSStatusSuccess(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Status/CDSStatusSuccess_tbg.png, e_stereo)
+!define CDSStatusSuccess(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Status/CDSStatusSuccess_tbg.png, e_stereo)
+AzureEntityColoring(CDSStatusSuccess_m)
+!define CDSStatusSuccess_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStatusSuccessSPRITE, e_stereo)
+!define CDSStatusSuccess_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStatusSuccessSPRITE, e_stereo)
+

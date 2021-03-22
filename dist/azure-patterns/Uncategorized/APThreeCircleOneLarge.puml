@@ -1,0 +1,14 @@
+sprite $APThreeCircleOneLargeSPRITE [70x70/16z] {
+rTQ5WIWX48FXJJ9hFBd-gprt6OAS_GLygy1SB2q1MDxfmbP0nLqYEXN6ouXsHV4sDIgCzsEBelWe-OhYu-GgYZHFKUJ9KHYrL5SGzL1Lmgccq59OKS8hLs0g
+J1MPYb8bt385je94eQqmKMGhcgB4folXzqkUY3QYAGgd_hlZwsZuaJHbVq6Y-DzwoHMCxhl-pMZcUPH5utaInMKqOsRGzFcbzw7OCjT1xoDed36Pt4YgvFSZ
+9bEpDNoBo2Pulr-aW1XMjhDSjmqfFCjT1_eLdEMXir_PorDxhyBoF7GgyK9HfxA-KDPlLJJbYJ3ZxRvyfBN_tpqUaMDa7Ut9F-ShY_Qp7BkM7aNxiQ-Z-ulA
+JTkWSlzI1vLo5wVS2yQKBVb5V0L7jadw_ml8qPFa2W
+}
+
+AzureEntityColoring(APThreeCircleOneLarge)
+!define APThreeCircleOneLarge(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APThreeCircleOneLarge_tbg.png, e_stereo)
+!define APThreeCircleOneLarge(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APThreeCircleOneLarge_tbg.png, e_stereo)
+AzureEntityColoring(APThreeCircleOneLarge_m)
+!define APThreeCircleOneLarge_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeCircleOneLargeSPRITE, e_stereo)
+!define APThreeCircleOneLarge_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeCircleOneLargeSPRITE, e_stereo)
+

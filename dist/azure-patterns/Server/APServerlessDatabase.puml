@@ -1,0 +1,16 @@
+sprite $APServerlessDatabaseSPRITE [70x70/16z] {
+xTS74YCX34JH5X98jEz_tnqy2PpZvbUvNNpdX5_cFx7iasA2b-NWfcPvhL4vodYQ1C-4u3cfyXB5CwJoCdq_qWWUvhmgy2ZZ3HaFghn5y10bFt1Zd3TLdvIi
+k8qFAWdN9JxCvN910ECJ32F9mQO6dr7GISupJsUShyjddm8lINEayYs19lWc1L3uhW0ItoTmli-47-3saOhp0whpjn7y18_Vvz7Lp4NHX4dAmLtOFDemvYG0
+H9qBQFS9cYO0j78MQH_JsgdM2lCeXOq3TVd0olLmv0QPCm7OChQZCKS4oPUn28wP16HE01usPTweY7siI6moyZvIK9VFp4e6zB3ZSW0uT1BO9DHkD3YhO99Q
+1TvTj5Ialrg7i54aTZSGGS5HPYYGlDr-XabR6WEaH3iJ9G7A9WjWKLl2swbGBBAR2ZPYDbUi7tKT4tPgYerDD8a08ibigVIZTgCTHypZUEqZDW-Dtw_avkBu
+H4NHc8tGwBShk5ZHIvNqPkLwUf7S1eucR11et0ObTHNc8J9NMAnJE5U6Tgv3fJyHN2hqhiobmjgLAySAQyd7kbTk5LRVnxL2UbaRx2l2aP__aDyhWxroVY1l
+1yxIna6z_eV8COjBV_VA4D5h_pL3iRBOneoL-jOeWbEYUQ9oVqHgeoMyvB__VW
+}
+
+AzureEntityColoring(APServerlessDatabase)
+!define APServerlessDatabase(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Server/APServerlessDatabase_tbg.png, e_stereo)
+!define APServerlessDatabase(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Server/APServerlessDatabase_tbg.png, e_stereo)
+AzureEntityColoring(APServerlessDatabase_m)
+!define APServerlessDatabase_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerlessDatabaseSPRITE, e_stereo)
+!define APServerlessDatabase_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerlessDatabaseSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APUnlockSPRITE [70x70/16z] {
+xPFLWGKn200ZIA3_Vf_hIeppOpvN1W-VJmJaCuHfMa55Nw0yuKYaIygm1tKBZaF55Dr61jB9kWyQ9JV8BkdFHlG5OKBaeg_qz8PViu_tTgEycDiIs9bhv97M
+F9Ed_NwbxjPYvHtrfiBLQcDzQVL6gNSU-iu7wa6uQypIMeEwvGQscf-2WVYolmPUzi20V8Y5forkITh6BMvnYrk40834PX6umXQB8DmGWuNX3XaizB2WmOBm
+uDjpAGyB6ooFPD2sBtILYF42X8dBpxWZjxZ5BMu9gPSOtZW2
+}
+
+AzureEntityColoring(APUnlock)
+!define APUnlock(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APUnlock_tbg.png, e_stereo)
+!define APUnlock(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APUnlock_tbg.png, e_stereo)
+AzureEntityColoring(APUnlock_m)
+!define APUnlock_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUnlockSPRITE, e_stereo)
+!define APUnlock_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUnlockSPRITE, e_stereo)
+

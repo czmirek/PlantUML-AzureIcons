@@ -1,0 +1,12 @@
+sprite $APConfigurationBlueSPRITE [70x70/16z] {
+xPO53W915CKwXjt_laYyE1C1Tb_ZpKz7OlyWji2mAb1i1h2r-fLAAgcaiXMNWMvrgTXqO5YnEAeeGB5wQwYB1bZr0iNc4cvMlr999PLKYk32hNezz4DClgYO
+oT_T7iIlL5999PN9BQWFmU9eeavkpLsqoGt-Logff9BA2G
+}
+
+AzureEntityColoring(APConfigurationBlue)
+!define APConfigurationBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APConfigurationBlue_tbg.png, e_stereo)
+!define APConfigurationBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APConfigurationBlue_tbg.png, e_stereo)
+AzureEntityColoring(APConfigurationBlue_m)
+!define APConfigurationBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APConfigurationBlueSPRITE, e_stereo)
+!define APConfigurationBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APConfigurationBlueSPRITE, e_stereo)
+

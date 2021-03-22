@@ -1,0 +1,14 @@
+sprite $APSearchFilesSPRITE [70x70/16z] {
+xTJNqjmW38PXWRGOZ9Rl_kyssgAPnHuIj_J_EVQyfkE0J4l_PaNpTcrOoRIT_ZMLmDjO1ONVmh8YE43-ayeasuqhGjlz0PMlIb7LShgY0FJVhAX9foim-ITL
+v9QLXnN9Pbpf3IiPvc-gy4CyLP7IyAGv7gt4YWyv7Ae8UXeFL19Mc8ZWjbHy99eY4KyDJs5d9UBfHc_vrTnPcM7kWSXnWqaxAZwKICwds2Y_pLw9OiYmY30P
+CP5CWPceKs2aYmeD-UZkr0imPK_5XzAf07H7XLUV-3wrhf9u9FedaHPkC5rbB0_7Cksia9-urIRTDrOgcJk0cHOQ0DrOQRuTYDIvTHiNvFlyJz3rSR7o7hew
+CTMdkuC09fCBzS1GYF6aqZrPQM_4jP9pnSjyBD8hXo8LxiHq4l57PuwqYtZ4n5JKr1HeX-5s_8w8N17XhyXAl28Iz888rIiYx97p5QQp9cYa7_i6
+}
+
+AzureEntityColoring(APSearchFiles)
+!define APSearchFiles(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSearchFiles_tbg.png, e_stereo)
+!define APSearchFiles(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSearchFiles_tbg.png, e_stereo)
+AzureEntityColoring(APSearchFiles_m)
+!define APSearchFiles_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchFilesSPRITE, e_stereo)
+!define APSearchFiles_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchFilesSPRITE, e_stereo)
+

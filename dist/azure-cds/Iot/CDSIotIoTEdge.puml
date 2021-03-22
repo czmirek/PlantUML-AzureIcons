@@ -1,0 +1,14 @@
+sprite $CDSIotIoTEdgeSPRITE [70x70/16z] {
+xTDPSi8m48JXdjtS_y3PLQ3OqWZ9sVEzClLNsm3wY4LKHOGnYzLkw5H8REVk3gaT8To3hLYOezOaQv52roFZQyGIZ1nPYf2od0uzp_eOi_Kn93Oa-VSDuko5
+h3mIczy5HzHRLDK6AwqXvVd5twDTWreHfUQ9qEWInHNvZb7sJlQhsRiTzWP1HRjpBPbIY1-nP8gZw1vQVugXHhtlmAUt5BB_B7ylUu164wFIlXHODDLZk7C8
+ZpR5LVUGeqTGa4Q7UlIKdpWdPnPz9ioQ7Rb6mbGzCd96nN5EnK-e66JhSrNV4WB4UWM0B5SCJsArGdX2MIK6fW2yL0cyaPKAeU3v2kEAOguIX8h4HCMn8t4v
+uAfnEHQCG-AnRIELBLm9uqIJy__A7BORiocoojgKWhwo8kTKlF8RAb7v1HNTAemfibK8Swg8OnAf5wReUGG
+}
+
+AzureEntityColoring(CDSIotIoTEdge)
+!define CDSIotIoTEdge(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTEdge_tbg.png, e_stereo)
+!define CDSIotIoTEdge(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotIoTEdge_tbg.png, e_stereo)
+AzureEntityColoring(CDSIotIoTEdge_m)
+!define CDSIotIoTEdge_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotIoTEdgeSPRITE, e_stereo)
+!define CDSIotIoTEdge_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotIoTEdgeSPRITE, e_stereo)
+

@@ -1,0 +1,9 @@
+sprite $APScale02SPRITE [70x70/16z] xSm50O0m0011tAL_Mm80SzzVWBiR1-wxS-2-1mVyBImiB2oTjg-bqTO7N5XOM5X6YLPfsIIwj1OM5XOM5XOMbWS
+
+AzureEntityColoring(APScale02)
+!define APScale02(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Scale/APScale02_tbg.png, e_stereo)
+!define APScale02(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Scale/APScale02_tbg.png, e_stereo)
+AzureEntityColoring(APScale02_m)
+!define APScale02_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale02SPRITE, e_stereo)
+!define APScale02_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale02SPRITE, e_stereo)
+

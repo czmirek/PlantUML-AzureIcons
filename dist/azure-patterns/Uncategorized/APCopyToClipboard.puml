@@ -1,0 +1,12 @@
+sprite $APCopyToClipboardSPRITE [70x70/16z] {
+xTE5aGCn44HHQHbcJ_b7UuQYNcnLc-tv0JpX95ePZakGpYI1qPNKv2f3jLcD35Uwi5r96A9GXYjOd93X2cUumXb9uGnNECCLpd2bj7NfcfqROvvIfSCi2WfX
+cC8PhWpTLd_0v2XLsCfMkr4LP7G56Lsn1XXT2SZe2ZAwWeok02Ch2SSpoWfckeAzJcawo78KMlTQnHLNN7755UkWFbiXVRPYooP52P3sHgwuqdSq8uhGToad
+}
+
+AzureEntityColoring(APCopyToClipboard)
+!define APCopyToClipboard(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APCopyToClipboard_tbg.png, e_stereo)
+!define APCopyToClipboard(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APCopyToClipboard_tbg.png, e_stereo)
+AzureEntityColoring(APCopyToClipboard_m)
+!define APCopyToClipboard_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCopyToClipboardSPRITE, e_stereo)
+!define APCopyToClipboard_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCopyToClipboardSPRITE, e_stereo)
+

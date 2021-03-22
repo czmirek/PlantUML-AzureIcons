@@ -1,0 +1,15 @@
+sprite $APCalculatorInformationSPRITE [70x70/16z] {
+pPY7ZiGm24JZ2lR__--rQ7HYD-pO4LTGItqUm9N3jrnR4z4vLQIrcezzAttC1nkzx25aEYPbcJ7c2njBd6nqY4Xh8lOPZL2I2TEQRQprcvEuCxx_HLRSgc0a
+ghMwa6xy9d7hpdirOgdR-WAYwQ2M51W78iUIoObnOjAEHMicDZOxPMEGN6IgE4g86jjk6avCQ6n6UdYWJl_GgTb9gcawFrAVPAPB_jUhRAGKHyh4fqw4nTvS
+M_9rskOXR3Sk28MHGeo84JTytFA40YQ5Yu53vIu5V_UJnirFOJypfFSGwC3ZZ4ybdWiPbBcYizoad2gQ7nPEGOfR30KV4Gfv7qCP4HJ5V4ie9DKnb1YF_bEE
+_bFVZHcDCJC3PYb28RCKPan28JCccRq91NzZ9I4Kif9WLICKigfXXIKKiiAIrHuKijeJCQ1GARZPfQ1viYCZ5Ep8oEwGcK9Ap4wLxvh9CQY4xE13JXFH9vlz
+KrPMG09EV36dJtuIPenPRv_Aq_Efd5S8MZOg6gaG15Gh0Yed0LMSm8fIJ7Nh7G
+}
+
+AzureEntityColoring(APCalculatorInformation)
+!define APCalculatorInformation(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorInformation_tbg.png, e_stereo)
+!define APCalculatorInformation(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorInformation_tbg.png, e_stereo)
+AzureEntityColoring(APCalculatorInformation_m)
+!define APCalculatorInformation_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, e_stereo)
+!define APCalculatorInformation_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorInformationSPRITE, e_stereo)
+

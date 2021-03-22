@@ -1,0 +1,16 @@
+sprite $APKnowledgeMiningSPRITE [70x70/16z] {
+xPS94jiW34MrOPlS_y0jJFY3OhaEKVVspOQG_MBsG8EzKNgHj-EnwwX_E0frYg-5fKTxAqdjvIrdEPufpLXafBQCnNgf1x3iGAcZg3XWSRqhWOMkaOjyVLfi
+mQAbC3aCd_AsfNUJa4Chkl5DIqN7pp0JBLZmyG4BblwGBLX4pLHUB7pWKzwnY3tXcv5cUS9dYnZWq58QsWhNiuxDW8OMlEWi7hK9SQa5YyteXnOsnu-rv5k4
+mLtlNRmCJfQoVoLgqgXhUJmVMwvddIHMeq2IMjEitS7vdO5_qFw2HJZ3g5ez0oRTrX87hrdytCLGrvI5SPXcB9euOIDBuhHtBLgrO5dYlSeh5eudMbLwty8r
+cBfQDcDQuC3Pc02TckD0OpCKZ4OAAPQNdESBwm37ls9l2tDHDuiDvkD3NWu1dhPXkRKWP5ZEeTnQHg21HKTqPs54WSL-aAKqDDKYy67leY6n1J5_SwHFbcZM
+YT35hAEUWoN1RsN15GqauKOSWVkS-z_8Rf5fZ_nCO1VTMFvRfC5Xn3sYkoYFRTkiqiRyI_oI8o2Avt0hZxg7NC3-sgbJXzHcsK8BkYws8C9gNBVu2BVoYm6_
+Rf6_tZngeQj-4KNvP64r7S4N
+}
+
+AzureEntityColoring(APKnowledgeMining)
+!define APKnowledgeMining(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APKnowledgeMining_tbg.png, e_stereo)
+!define APKnowledgeMining(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APKnowledgeMining_tbg.png, e_stereo)
+AzureEntityColoring(APKnowledgeMining_m)
+!define APKnowledgeMining_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKnowledgeMiningSPRITE, e_stereo)
+!define APKnowledgeMining_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKnowledgeMiningSPRITE, e_stereo)
+

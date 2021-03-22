@@ -1,0 +1,12 @@
+sprite $APLaptopSPRITE [70x70/16z] {
+xSo54SGm30H0EQEWuVglzdaedBEVjGKi_fenKbJL4IePKH3quvSOTelBYyfk-lEBBRROOeijjX1KHbeGsb7IWDAC4xOP9x4x93wQKUBa4FTeo6JSZ1As6ILq
+uqO9rLJjAA6QDW18JcWk0GW9G2SPEZoaa27XmgC0hoX0fK6sHl2bZ3a3
+}
+
+AzureEntityColoring(APLaptop)
+!define APLaptop(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLaptop_tbg.png, e_stereo)
+!define APLaptop(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLaptop_tbg.png, e_stereo)
+AzureEntityColoring(APLaptop_m)
+!define APLaptop_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLaptopSPRITE, e_stereo)
+!define APLaptop_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLaptopSPRITE, e_stereo)
+

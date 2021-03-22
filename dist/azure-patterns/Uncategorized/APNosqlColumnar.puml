@@ -1,0 +1,15 @@
+sprite $APNosqlColumnarSPRITE [70x70/16z] {
+xPO54kGm30GZoy82__-t5xAyMgRZJ64lT4XHJPk-aFPDIvbk1o1Zfh20kBlU496v6tL2TNTE9B1QqBVKQnBrDReHRsIm4krK5elv7hYKiE-XXR3JAYs3MYFl
+aN8Uz4YSs1gSIO9gQmEideSzijosGJIJ1ScfnIyiaYmmI7PdM3X0Bopa4KX7ftHzr1gchtB0qltavAGWR6sI-65EUYfbHKl7qxYysR9h1AOhgUiV3JS23SaW
+tjy0926yDVyaJ0Ch2vKWf9M-yJR-FPR3GkhAC5qDYfcKJi3gGfas2sXVMIbfJL5w8HGsiawpHJtjmHJoqtKAdMGbEzbrrNiOpbEynwOvyl6kWpkxZh-qwzu_
+5ntqvdqfYV3q6KrtdX7UUKRoS5uapuiDIPwN6QkOq7HhTbNJx9hWE5KngSTc-4SjSCC2REwtTXsfkzPEPIRZ8DcfjJw2ZdTwdUpAjCzgq4kzhgGU0dzah-FV
+qElycLx7ZtgT92S_tUjgwdMGUvtbNjTNrisLQJY6RfmqR2Izrx5mlTthX21m8GogEnsRuNTPZbxtk3CSlIvoz3hwfthT3m
+}
+
+AzureEntityColoring(APNosqlColumnar)
+!define APNosqlColumnar(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APNosqlColumnar_tbg.png, e_stereo)
+!define APNosqlColumnar(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APNosqlColumnar_tbg.png, e_stereo)
+AzureEntityColoring(APNosqlColumnar_m)
+!define APNosqlColumnar_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNosqlColumnarSPRITE, e_stereo)
+!define APNosqlColumnar_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNosqlColumnarSPRITE, e_stereo)
+

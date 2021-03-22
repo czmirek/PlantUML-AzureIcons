@@ -1,0 +1,13 @@
+sprite $APLockSPRITE [70x70/16z] {
+xT45RWKn34LH1nfEtlvtsqYUigFlAOZg8ngy8RmWWKzz362CdXm9yEPOUHfuPyJlL28tf8w-aY18Doi5RDMorGLMRbKgFsk1Bg7nawglNCkPdjxnanUbhWIU
+27t2qmdQoheYOcRfAhoUIOB9Qz9KU2gE19udewb4Fb9HmHOrbSfJ4JbiLLCP03eTT013Ky6MwI1ZKrG2B_qWOlEFA_5jMqwd59KLElhpYbMiOfLmINnpWYsz
+tUYPI6hn_rQiOXMhMCKgLh5A2ce9Zvbd
+}
+
+AzureEntityColoring(APLock)
+!define APLock(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLock_tbg.png, e_stereo)
+!define APLock(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLock_tbg.png, e_stereo)
+AzureEntityColoring(APLock_m)
+!define APLock_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLockSPRITE, e_stereo)
+!define APLock_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLockSPRITE, e_stereo)
+

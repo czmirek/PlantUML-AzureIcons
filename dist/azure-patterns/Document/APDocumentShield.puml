@@ -1,0 +1,12 @@
+sprite $APDocumentShieldSPRITE [70x70/16z] {
+xT45pWH124JXaMA4-z_tryZAMo6fI6zu1_YwWUc_BT_gN2Uig4WUHHv57YKiYiAYA2oAmg98iqNHR54qMnGj5aMBGG7cNIMkMq2fjmsax5XHEOKDhEIEZNpf
+0_Diz_mafPLMMcabWv38ed8686T10GOGLe01fA000mWgo03odi9CP5OKPY9B2ZEH9OMPBKiACrlM56RIeUH0IYkjjF8D
+}
+
+AzureEntityColoring(APDocumentShield)
+!define APDocumentShield(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Document/APDocumentShield_tbg.png, e_stereo)
+!define APDocumentShield(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Document/APDocumentShield_tbg.png, e_stereo)
+AzureEntityColoring(APDocumentShield_m)
+!define APDocumentShield_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocumentShieldSPRITE, e_stereo)
+!define APDocumentShield_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocumentShieldSPRITE, e_stereo)
+

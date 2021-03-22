@@ -1,0 +1,14 @@
+sprite $CDSStorageImportExportJobsSPRITE [70x70/16z] {
+xT9NOaCX34JHaGJ2plxtcpvfCiP2wSdzVELGyJc9cAb8GT3UdJNTDVnrLZIO8jUz4Mj894H2lJWJCbcajYZpK7wBnHVLriEiDXMMk6txEsE1o1yJYNMBywqg
+pHF931cPMX5XRWZfO8K9oTZAvPBrg7Y2aGa2P9WsGzPhTO3v55apBIue8cj6mZ57XCnwCdOEMJDHYSYQqOaYG88nAW79CEtqxif31EvRApZtiWssKlhXH5GE
+gtWKLb84Zus2uc1MK1h0V5iPU4x6hc9uaMugZbTPHea8qmrb8EPPfUDKwXbbA2P97vSfeolEfe_9VOq3lmh9skGmVh1olE_tAUDVOOTZJ93D8kB8PpM4MGrX
+LaEOrH4oHEgCevPTtUQePaHgMSTFwWO
+}
+
+AzureEntityColoring(CDSStorageImportExportJobs)
+!define CDSStorageImportExportJobs(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageImportExportJobs_tbg.png, e_stereo)
+!define CDSStorageImportExportJobs(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageImportExportJobs_tbg.png, e_stereo)
+AzureEntityColoring(CDSStorageImportExportJobs_m)
+!define CDSStorageImportExportJobs_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageImportExportJobsSPRITE, e_stereo)
+!define CDSStorageImportExportJobs_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageImportExportJobsSPRITE, e_stereo)
+

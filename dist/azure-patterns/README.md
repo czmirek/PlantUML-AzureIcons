@@ -4,11 +4,11 @@ See [README.md](README.md) for more info.
 
 ## Colored image 
 ```
-APSomeMacro(functionAlias, "Label", "Technology", "Optional description")
+APSomeMacro(functionAlias, "Label", "Technology", "Optional description", "Stereotype")
 ```
 ## Monochromatic sprite
 ```
-APSomeMacro_m(functionAlias, "Label", "Technology", "Optional description")
+APSomeMacro_m(functionAlias, "Label", "Technology", "Optional description", "Stereotype")
 ```
 ## Include all sprites
 

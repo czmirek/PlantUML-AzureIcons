@@ -1,0 +1,9 @@
+sprite $APBellSPRITE [70x70/16z] xSn70G0W400W6zW_hQk2dniGW7cD3o_8krWi5el5Oh5OB1QBnMAnM2mR
+
+AzureEntityColoring(APBell)
+!define APBell(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APBell_tbg.png, e_stereo)
+!define APBell(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APBell_tbg.png, e_stereo)
+AzureEntityColoring(APBell_m)
+!define APBell_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBellSPRITE, e_stereo)
+!define APBell_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBellSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APGeocodingSPRITE [70x70/16z] {
+xTTLSWDH34HHjVHu__iD6Dimf0b7vxUhhd58_YGSo06KWFOfSgBfG0xo85aEqXpzWafK10VJ5SoHMqyh7b5XK5AuKdGPwENzKbJUH2KggP8sIAlBxBUTfUAy
+ErtHEVYbzmpstCOAv2cBofcQxgZmNB6hqav3DtU5n-wlA4t5NU6jkokLDtnVvM4JRyLegkuAVoJuA-ZdnVsletVJTEVHY9IpVkoP8IhwdFtC9s7OmPERl5FP
+va0cXLS
+}
+
+AzureEntityColoring(APGeocoding)
+!define APGeocoding(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APGeocoding_tbg.png, e_stereo)
+!define APGeocoding(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APGeocoding_tbg.png, e_stereo)
+AzureEntityColoring(APGeocoding_m)
+!define APGeocoding_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeocodingSPRITE, e_stereo)
+!define APGeocoding_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeocodingSPRITE, e_stereo)
+

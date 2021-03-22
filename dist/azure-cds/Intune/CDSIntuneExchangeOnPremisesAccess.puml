@@ -1,0 +1,12 @@
+sprite $CDSIntuneExchangeOnPremisesAccessSPRITE [70x70/16z] {
+xPL50eGm40GZ4_t_V_4-uBqkJ9rgXS8YvekHI20d4Hifx775Hmhtb8h_jKeOs56oWcVdvkgXRwka3XmwLm_j-7H5db3H2iFz5QrW3TXJ7RlFhsZ5msSgKAAI
+AUwlQ2N8G9XhX98L319eHwU2RxMY5I2vGzo0p8TQmBTCXKBUKYaKFro9RY0-Li7G-PyAThNNLRIY5LVdH3yGwnndZecbdbAY-M9Q
+}
+
+AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, e_stereo)
+!define CDSIntuneExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneExchangeOnPremisesAccess_tbg.png, e_stereo)
+AzureEntityColoring(CDSIntuneExchangeOnPremisesAccess_m)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, e_stereo)
+!define CDSIntuneExchangeOnPremisesAccess_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneExchangeOnPremisesAccessSPRITE, e_stereo)
+

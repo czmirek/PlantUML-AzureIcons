@@ -1,0 +1,14 @@
+sprite $CDSDevopsAzureDevOpsSPRITE [70x70/16z] {
+xT1N4gGm34NHfsnw_mkUSaU2GT1cClVRTIm9NtJ5Z1CIDpf3STSJb1gVehXHlrBJJkKLzogzQwcF4tmHgyUqeskHMBGowXXYb60SiQmCiKQCro9YqSVBvX1f
+RjD_PeH5cYaJ8B6gQ3P11MfR2ky1CeMYtHZ85S-1ND4So1L9W5GP7yKtW5pnrnn0Xn8jvLBeJrBAizrA6KT_jt8fbu9p54YKclSeDVP-fKRMeOnZCrDXfYu5
+FBmg4Lv9OQAbCemZpDEXLIdXRgelCbFWGrg9o1IKOKUfGaUHWbPo30cqyoE8urN7QHIhqNFMN6Di9Cz_sBRlIjZCtjEAftTTBqOxQpGHGnfDBaUsF95WHroL
+KUoDk-PfLIQ9D-wQ5TgWurPpx4_GYApS52T4-1_w0G
+}
+
+AzureEntityColoring(CDSDevopsAzureDevOps)
+!define CDSDevopsAzureDevOps(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Devops/CDSDevopsAzureDevOps_tbg.png, e_stereo)
+!define CDSDevopsAzureDevOps(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Devops/CDSDevopsAzureDevOps_tbg.png, e_stereo)
+AzureEntityColoring(CDSDevopsAzureDevOps_m)
+!define CDSDevopsAzureDevOps_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDevopsAzureDevOpsSPRITE, e_stereo)
+!define CDSDevopsAzureDevOps_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDevopsAzureDevOpsSPRITE, e_stereo)
+

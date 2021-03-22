@@ -1,0 +1,13 @@
+sprite $APCode12SPRITE [70x70/16z] {
+xTHLOWGX50NHI3sx-zzlTDmRY0wdvRDQa8SxCJqFmJ0U1XOEU3XjJ2f8oK6IqSGbVLG2QwyGwM2P1f71ZuaXTCaqJMcMwbG6uDNLS5QYlHDijNvM6dkij9np
+93g_PnKfBMIfyhr6AKmBWPVAMF5I6cYXrUCJWDMBjLMma08-xhHMLczHIgEh0YuPz5QG65oP5JjLSIsLh4XTMqpiLw9hmzoigMPbi5hVNHB9KbzkcgOOuk5E
+JAy
+}
+
+AzureEntityColoring(APCode12)
+!define APCode12(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Code/APCode12_tbg.png, e_stereo)
+!define APCode12(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Code/APCode12_tbg.png, e_stereo)
+AzureEntityColoring(APCode12_m)
+!define APCode12_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCode12SPRITE, e_stereo)
+!define APCode12_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCode12SPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APMachineLearningSPRITE [70x70/16z] {
+xPRdmjiW34K10HBt_T-tmq69LKeiwExdyoVJ5t6OuPUHYf929nQ5WfC2fJo3eV3lJOdfeDgKcWvYMAFO57t_LwVSANVAdNAdt2dLfaZO8G68GP7DOknp2MWn
+B9E_wGC379Pf08KJKRzOLCl3aCcsMYjgMwrDtbThUxclDgGK7r_dNRMn2BuYjG9jKoqrdAaBQlbS5y1VqB0KND1HFhr2ogEmI7pyubLxq2eb4g3HIH73EMaA
+K4cWj6X_zQtA-FWRCGuuJgIzXvybarw-Xm4aXrgvR4OSQjFrNygLsgFNtCcJHOReK1lGuLcV-5BjcCBeP6qBsQ4sTzAOefDcNMrj7NfDcdgXrW7DLsKStBTE
+zKuQLMkO3rLiG9cgTQRCL-NYgIK0BwlrhKfLwwS2yaOjEcMw3QBfgfohjIdIEaCA3UNBgPFS8TCypf5YLgL3hKaPNMQVMigTxoyP6MwJwmYGpYcqUvbDPeGe
+hKFDc13imdQ9xY71a2klKoZyJ3u3
+}
+
+AzureEntityColoring(APMachineLearning)
+!define APMachineLearning(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Machinelearning/APMachineLearning_tbg.png, e_stereo)
+!define APMachineLearning(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Machinelearning/APMachineLearning_tbg.png, e_stereo)
+AzureEntityColoring(APMachineLearning_m)
+!define APMachineLearning_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMachineLearningSPRITE, e_stereo)
+!define APMachineLearning_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMachineLearningSPRITE, e_stereo)
+

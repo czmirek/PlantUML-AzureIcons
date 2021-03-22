@@ -1,0 +1,13 @@
+sprite $APUpdatesLightSPRITE [70x70/16z] {
+xPT5OiGm301jhx3_Vt0hoMsNCHpDQKuJD9Ks0AN208nQoGeCGOMl0PYpafMiC3fa6iY_webgroiLB4up1OV_rOBmfz9ruafMg3bWYWx_grZmJwNhhaR0wNk1
+WsEAWOs0hjSguE3fDwh5eQlVQE9ALeI3qxaE0tamrsr_1FXlNnryOsPWSEnh78e3ZsQfYIjPKN7qHuKSCGtqHBNhsaU01bShrzukNLjXjGIc4AonafN7IB2f
+Sq1MibBR09Hl
+}
+
+AzureEntityColoring(APUpdatesLight)
+!define APUpdatesLight(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APUpdatesLight_tbg.png, e_stereo)
+!define APUpdatesLight(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APUpdatesLight_tbg.png, e_stereo)
+AzureEntityColoring(APUpdatesLight_m)
+!define APUpdatesLight_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpdatesLightSPRITE, e_stereo)
+!define APUpdatesLight_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpdatesLightSPRITE, e_stereo)
+

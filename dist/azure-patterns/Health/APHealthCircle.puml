@@ -1,0 +1,14 @@
+sprite $APHealthCircleSPRITE [70x70/16z] {
+hTX75iGm20DGZ93kV-JPfp2oWzPvF-ujthCIHKeIMSWL-ydIBPLR1AYN4BQXDfQJ-XVcNuDgOZgK6JPTso0sixILPJIhaJGGa_6hurTAH_6xsE-fqc7AR5c_
+XQdZq2gANnWriGi3VGfEYeBRJm-AWWWy5ORRnSUzPTOkScTM17QHEuC8xY9tXH7V4Ibo0D7A0KI90KIePdIwY8hDw7GHiHcTDY8sezD0hD7f8qtP6yHUZM4W
+3kCZx1WRANMCXwYWZl4G0N8Og0rI1WFroL33c8WYs30cmlTlqaQ4YAMUWNSmOyDO2FllqaA4PhVtL-N9aqVeKwo-zDSrdOVJ9zMW3bFp9_XOEihCpMRubdNE
+vFJjyxId6EyfcQdX5mBVyGrxpS_HLvpv5wMPrwqV
+}
+
+AzureEntityColoring(APHealthCircle)
+!define APHealthCircle(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Health/APHealthCircle_tbg.png, e_stereo)
+!define APHealthCircle(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Health/APHealthCircle_tbg.png, e_stereo)
+AzureEntityColoring(APHealthCircle_m)
+!define APHealthCircle_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthCircleSPRITE, e_stereo)
+!define APHealthCircle_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthCircleSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APSpeech06SPRITE [70x70/16z] {
+rTQ5igCn28RX0b-4hDt_tUxK-2ia3REilID7-rIYFqu9_LWhX5ARKosogn3wcATDTXGnOrQZZqeR6s6jK1zRrQNY8JwpKDhOJgOAndxACqL7e3PHoWZ5lg8n
+fRaAHYpr5D4HJDuL6G-A5g3qSQu3A3hEDG1LXrLCEP37S4dF7iwL6t9cXjLCSH75fNPvg845bnp57vx-fdHFwQyAgQDilXQViGSSRwuE0xkl6FFWQ0MgshTj
+NEhbF73k65cKC5zidFRJr7MKlwRZ-qlANaSf-sx66L1opgFyip7_dBRGT4vePUVEuCSe_lM5lFjBlFz38MPnOgPjXGIBX9QAOqGTKnWRyGT5i9Ki5S5cib0O
+s_5K8GIYcI8891E548fyHH1AV0N1N8KHJ3n5NjupstGdiS4bFBPMw9Z7fqlsr0xZA_P7Ebur7_DCNCOKU0eV2daAKbuBPtmk_76Cn1yZ7p6544muO-vovZhA
+NzFn_ILphylVT-DdGDPvb7ysvf_JMmxJhzvVJ9WgFm4
+}
+
+AzureEntityColoring(APSpeech06)
+!define APSpeech06(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Speech/APSpeech06_tbg.png, e_stereo)
+!define APSpeech06(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Speech/APSpeech06_tbg.png, e_stereo)
+AzureEntityColoring(APSpeech06_m)
+!define APSpeech06_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeech06SPRITE, e_stereo)
+!define APSpeech06_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeech06SPRITE, e_stereo)
+

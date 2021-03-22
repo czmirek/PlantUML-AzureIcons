@@ -1,0 +1,13 @@
+sprite $APTrafficConeSPRITE [70x70/16z] {
+xT9NGaKX38JXj4F9_lThTzw4oDYztmh8yCk16xKNmeXN9kSiNhcSym2LKne1HXq4rBPWp5F0gMr1cMt1g8E0sXQKEGYSsXQKUGeOjIrGsu8o1u5Jsm9r41Yr
+BHmyXTrNtoA_azg2LCrSSAdnNEbIqtD9fK9pxPAAoBKX5ICtJFOiTvhijToPL2pWJ2pGgx6GoMH5CB70e681gyH29dDbpQHY0MTYWKx50ih40i740eEA1Oo9
+1Iuc5fXKBE2hMCXaeh-J_7NQPnuQKVdY-eThCYwKpsWV-XOPIL1v5QqVkbJ-fdi
+}
+
+AzureEntityColoring(APTrafficCone)
+!define APTrafficCone(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTrafficCone_tbg.png, e_stereo)
+!define APTrafficCone(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTrafficCone_tbg.png, e_stereo)
+AzureEntityColoring(APTrafficCone_m)
+!define APTrafficCone_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTrafficConeSPRITE, e_stereo)
+!define APTrafficCone_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTrafficConeSPRITE, e_stereo)
+

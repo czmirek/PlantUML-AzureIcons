@@ -1,0 +1,18 @@
+sprite $APHealthcareSPRITE [70x70/16z] {
+fPSDakiW38CZsu8szp_mcsOcDOf3wCxJ_Y_uGzY4mFOW2vBihP6DZktl0gc1vgJ_3H7D9sZ_WusvUnV-NEHpk_t0yOR_xzDiCaj8u6Dwq6QZHqIC7EUCKPlW
+F1I7xBS1_SAasxdy3a4dZpNakpAIug5PwrX0IErnpiX73bxx_cQ1p2i9FzFYcG_k7vcirrB6vMBe1uLZasJjMU7ReTULGaW55t8ENlnkFlqQmDPoZv3--9Xv
+tysdwVuGtmNJ0hKMviYgkDr1Wj3nEJRM44gRC9GJD_RDvQUaXyaRPBp1j8iLBgej5NIJ727Ic-15sbG73vGyOKu1YncEmN39yKnsMjT0LeSpPRDCWc9iFH_9
+8o8ZUSajdgpeC4nJhF_IRBPElpUJ1Wf5hSHx_-Y5ksfR9kEHmlqKHlIrwaoUyW_P_jLhIsLCKeIBFkQbxodNObTAbeZQVn_41ILTOj_7xGiZfJzGUb8o3xTU
+sWEbVIbnGtdjgPXHQetUwfq9UICXA1HTY7WbHCt4jDBhLOUNLAYk_3b5n0-dsvQgZnpY-o-tR591puQzNmTqooYkTuQpYYZsuR_lKdfEy8mSVAMf5QLBFw4a
+pd_o0XdUlEo4MEL5hBJYRFbMw-o4M47eqEw_ls5p9Cuzq1V7QhT2GSNutSb3JbyIB6OiCeXFfw1MSLkuXwDKEKZ3qTN869cI7ZsXIuRb0XesEtxOq7syB7Xi
+ApNzLIbsFhNF35D8olNYqlm1mh40clyFn3Sfy_hAM1yu6CHTq6uPjYcagca45GGdiIqXzUbnVcJcP6DWC6vvCwbYjemXrzNoEK8qNznP5lBSxcP2inM5SfwP
+si5_K59yv7ZF8yIACyaTIDkOQLd8I4VvNmlest8j1CcmGqwclxyBTcXLk7y
+}
+
+AzureEntityColoring(APHealthcare)
+!define APHealthcare(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Health/APHealthcare_tbg.png, e_stereo)
+!define APHealthcare(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Health/APHealthcare_tbg.png, e_stereo)
+AzureEntityColoring(APHealthcare_m)
+!define APHealthcare_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthcareSPRITE, e_stereo)
+!define APHealthcare_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthcareSPRITE, e_stereo)
+

@@ -1,0 +1,16 @@
+sprite $APGearTurnSPRITE [70x70/16z] {
+hTQ9Tk0W20LG5Wt8___lh5t2oIE7DBwPxkqD8hLI8wAq8HAwHGdTeeHkKKAtAA4Rb5SCov-CUC7ejCZHnyGH8FhCy81Pr8zu50ZtaHdl4VOToDg0Q9pZKuI9
+v24YPqBv-xCPOUVUSfOcEoFhTik_6tka2Yz8X9V8KSoeN93y7DpP9PJ204bFWkjXkWb_TVz-PBKv39D05lnY_JYuJwCgj5xwhBya_TdqicbsQSCObqPPjGqJ
+bSBV2gDYHh4WJyXGul4dJ3eIuqNXOF9vf32Oyg9XsbCKRuKc737v1x0oaI9dHP4oeE9dumFvVdiTz0aLkow7qxkVCQZOpnJhrY94qgm5TtUaeExETtk45K6_
+NregZEU5mG38I15m634-wOnoBOfhiUAqCzGOPUA_51F3jbXr9cldbAelUjMHp29S7VH4rP9c_vfazP6yk7t54QgByUuV4hkzknpto16f550CQhqMY5NhHRLe
+GAJkdq8ay3r9woK3vApeYaxp722HhkIjZPmNv4FXwT55220nvs4huWK2OpkGiG5nfduO6wiif5-BA-7q6J-4GDhCCfi3jwFF4CXpXhOmj8MXBGnjOMX7EfFs
+6m
+}
+
+AzureEntityColoring(APGearTurn)
+!define APGearTurn(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Gear/APGearTurn_tbg.png, e_stereo)
+!define APGearTurn(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Gear/APGearTurn_tbg.png, e_stereo)
+AzureEntityColoring(APGearTurn_m)
+!define APGearTurn_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGearTurnSPRITE, e_stereo)
+!define APGearTurn_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGearTurnSPRITE, e_stereo)
+

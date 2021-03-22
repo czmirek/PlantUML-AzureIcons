@@ -1,0 +1,12 @@
+sprite $APSapHanaLargeInstanceSPRITE [70x70/16z] {
+xTG53WGX30LGlB9s_zEkJMnSsXZvBqOCgBww0G0049keaRH8we147GXkmIthk8wqQxTG64d3BLpP7X5_xslclzJlgUe9GYDyxI-SHieeBxPRx8JK0Vbip5St
+0000FW
+}
+
+AzureEntityColoring(APSapHanaLargeInstance)
+!define APSapHanaLargeInstance(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSapHanaLargeInstance_tbg.png, e_stereo)
+!define APSapHanaLargeInstance(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSapHanaLargeInstance_tbg.png, e_stereo)
+AzureEntityColoring(APSapHanaLargeInstance_m)
+!define APSapHanaLargeInstance_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSapHanaLargeInstanceSPRITE, e_stereo)
+!define APSapHanaLargeInstance_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSapHanaLargeInstanceSPRITE, e_stereo)
+

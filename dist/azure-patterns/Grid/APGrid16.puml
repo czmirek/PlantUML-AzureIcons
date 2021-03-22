@@ -1,0 +1,12 @@
+sprite $APGrid16SPRITE [70x70/16z] {
+xPO5aWD124K_iXiFzpzjP9oYbEauhnnv8ws61fZzEGX0Y92F84JCzWu642Bi8mYH5fQobAKi6mS1217o4OI86HhmLfRQwyfIbhA4o6_iTHrq0nsflQw3j8FH
+aHeZG7H0LbXO9oHj8Lr0MGlh0ibQH9TaBVf65j45qkJlSjBYNmPf2-a4PIsBjn726Wk8HPZGKNjTtUiwobAMibm1
+}
+
+AzureEntityColoring(APGrid16)
+!define APGrid16(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Grid/APGrid16_tbg.png, e_stereo)
+!define APGrid16(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Grid/APGrid16_tbg.png, e_stereo)
+AzureEntityColoring(APGrid16_m)
+!define APGrid16_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid16SPRITE, e_stereo)
+!define APGrid16_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid16SPRITE, e_stereo)
+

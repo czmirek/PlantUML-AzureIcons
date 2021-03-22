@@ -1,0 +1,12 @@
+sprite $APSupportBlogGreySPRITE [70x70/16z] {
+xTQ30SKm04NHRvJxJrkxZPsyCy0jmZfG01aHl1yAtdFbTLFmugcWyXDsLSc4-Lxv2SEi8qFbyJuIcdLJvQss0doj_6QaofjaMrb-DQ525du55V5rz9YyubX7
+Hnht5vm1vYlgjsOYg0C5q08
+}
+
+AzureEntityColoring(APSupportBlogGrey)
+!define APSupportBlogGrey(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSupportBlogGrey_tbg.png, e_stereo)
+!define APSupportBlogGrey(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSupportBlogGrey_tbg.png, e_stereo)
+AzureEntityColoring(APSupportBlogGrey_m)
+!define APSupportBlogGrey_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSupportBlogGreySPRITE, e_stereo)
+!define APSupportBlogGrey_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSupportBlogGreySPRITE, e_stereo)
+

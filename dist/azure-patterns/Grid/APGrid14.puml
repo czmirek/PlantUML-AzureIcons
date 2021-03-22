@@ -1,0 +1,12 @@
+sprite $APGrid14SPRITE [70x70/16z] {
+xPWr0a9134Hd8hZS_xIuGsYGR_EQzTUiPuqli5wFQnnmTu2FLGGl-QDbLfD0H13sgkgSRyeYYonuns58MTLIYzNmFEHr5RLUUc2H9MliD8Ilgwn_9uFMYooo
+z6jFV-Ui6-nwaKMtFSoCkksrwbfbaUMBSQaj
+}
+
+AzureEntityColoring(APGrid14)
+!define APGrid14(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Grid/APGrid14_tbg.png, e_stereo)
+!define APGrid14(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Grid/APGrid14_tbg.png, e_stereo)
+AzureEntityColoring(APGrid14_m)
+!define APGrid14_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid14SPRITE, e_stereo)
+!define APGrid14_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid14SPRITE, e_stereo)
+

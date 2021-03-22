@@ -1,0 +1,16 @@
+sprite $APLocationServicesGlobeBlueSPRITE [70x70/16z] {
+lLY74kmW21HHaVp__xuInzl1moiXSpij1HOMk-aNe1C1_z94z3YXqblXxybAFvwWKhxYg7huKCcVSh0SB_0P3raERQKqcrgZzmLPFCRNPfdBXudeY5yVbPeV
+1-GLIUx3g3C9Ca4sadXQx5Nn2AMS4g-cTBepZF9h4ldlAyC76Bm2rSglIAfncJ34TPzDrX417dan03CFMmYskfMj0m1gqFJac41hDLKnbQcG_noec89rBn0-
+WwPOFUPRda41f9XDN7hIquor-U-njrLJjhnY1Lb9OlFFIogGe3Cn0E7L2XIRIhUlnMCfDdethtAIjebH91UEeK1W08ey8oWG5810aCe3_Qor6Ep-wQE7i6aI
+y-ut4g_lNazbqtuMUM6X4H5ToRAGpq9WCHqKtTgCZxG1njioM6JvqSOF7-eOo_w72p-aJgdrqrowOK7Je61NMFXsbhYYT8IhUrjB-xsElkrryH5mssYCpmpP
+cwNatImboonrtumPdxtlN4dYgvgtTU9FLrZ1QtIrltdd4Ty5nNTayTqXXtUgNXEGNjWrqsO7tmCxU2JypMc2DvC7JZRTFzbqd6mqNpbbpJRXxcPYQtD2TYS-
+cgVadg-VFgiUK7thITW7jVsft4_4HmxU48170xSL01KGWQ9G-XR4jNNHUOjJcO9tIkat-0i
+}
+
+AzureEntityColoring(APLocationServicesGlobeBlue)
+!define APLocationServicesGlobeBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLocationServicesGlobeBlue_tbg.png, e_stereo)
+!define APLocationServicesGlobeBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLocationServicesGlobeBlue_tbg.png, e_stereo)
+AzureEntityColoring(APLocationServicesGlobeBlue_m)
+!define APLocationServicesGlobeBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLocationServicesGlobeBlueSPRITE, e_stereo)
+!define APLocationServicesGlobeBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLocationServicesGlobeBlueSPRITE, e_stereo)
+

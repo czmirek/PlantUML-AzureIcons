@@ -1,0 +1,14 @@
+sprite $APAzureCliSPRITE [70x70/16z] {
+xT47RiKW48JXDJ2q1Vd-jusBf95UPqbFVbUrZoP_gF-MgKuYu4R13xH1HEoCU30x4x3LrXw1f9e15ArnbC5MMTTL0TqwB2qWyx9IgKGgP5vJqgOa8AjM75Z2
+88EZXAF8znY3nuMNbLmULP-LJqNxmve-YOgPkLIoYRbKN3Km5qgIBHj3HINvdhk9ePAaU-iMKr61wqQ6IiyYoSHSdf6uPc0k5DzjixbK5dGBGwMANnPftS9G
+wIb8t7uCpEMANgazKVPFzdiwmb0PgiqhPEmAcNc5Z5qXOrV8p2jax0gPUOKC5Jj3nShCAsIes1agSmmLEqDbYg4oqxTImhie2E-Y8BoBWj-c_CQMTqd-IF-z
+0G
+}
+
+AzureEntityColoring(APAzureCli)
+!define APAzureCli(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Azure/APAzureCli_tbg.png, e_stereo)
+!define APAzureCli(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Azure/APAzureCli_tbg.png, e_stereo)
+AzureEntityColoring(APAzureCli_m)
+!define APAzureCli_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureCliSPRITE, e_stereo)
+!define APAzureCli_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureCliSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APServersSyncSPRITE [70x70/16z] {
+xPU5ZiCm343jf8v1qF__sb5cbTK6ZkyTZ9zYh3P21yOnT60ShGDdbd-Bf64WQRJey4BQB9mjgOk5liDP95kupMB90sgoc31Bvwxxjr07nX4wyBqir87_hZkt
+Y3HQVDbneqN-hm7zyjA_HewAdID48OH89DMzon4caBJ68fC3ymrfiIN1H1hUDYcqH809jkY-R0dNG8-54gkOgJyH7XJktS3cQFNsffnbbgSbL5hOYqsc103H
+HTUoczyjPXgpBi5JOee55lPmU1sVebik5Zai4kfLJfSjwl54M25cUDMIav1l9_p9bOKviTeEm_lq21l4P6cXuG7fKONK1BPGTgyt9jiMUE85seGKTYnqO44p
+WYt1B1POeCYIR0jUZqYpvJ2xifjTNcNND16buqfJjgtGgT9dq3i3l1SGNRM87pviZs9OFesucKOgtGmyQT0bKhAbq2TONWuX00ZYrkAD6NEr22ARIqej405G
+p664OeiZgsjsdGNLJDA00BKMruGEtqbGUrW0OMsv0m
+}
+
+AzureEntityColoring(APServersSync)
+!define APServersSync(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Server/APServersSync_tbg.png, e_stereo)
+!define APServersSync(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Server/APServersSync_tbg.png, e_stereo)
+AzureEntityColoring(APServersSync_m)
+!define APServersSync_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServersSyncSPRITE, e_stereo)
+!define APServersSync_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServersSyncSPRITE, e_stereo)
+

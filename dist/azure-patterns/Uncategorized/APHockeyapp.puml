@@ -1,0 +1,15 @@
+sprite $APHockeyappSPRITE [70x70/16z] {
+xTP7ciCW30LWTUd-5quZduN8a81dwt_jel9SOC7bShaGiOWznC0UH9W8lY8MYoKcJF0758jD9ZXSmkCKpmkXni3Dv8NfZUN5p6EWxJfSgoJwFVxQFGE0na49
+bf76GO2o3OGjcCsHbyAsv2Wi_d-LQhUZI1g9O0ELRKV721QHrIuaUiwuq0jxzAG5fd1bWYbYzQWKdYG-kRNu8xmWjVU5noV9GPtc10U9aoJJay_r9iLs-WE-
+gsAFBSxmGDxIIiUOaIqMsJiHUcI-JbeiVZ0XU4699tZHCRX8B6RnmKoOS8olGEEpzp7GOVgkz_g-gVNErPuTaaLbchNtVQf5fP3cQtPtCtUFOluE83yP_iJv
+Mb_aIkt4X67udfplV1BH0Y7bDmwGnVnR3KBzDnKwqbBTB-I1HSqzmjsUjAoDhOzSoQyomW9apKNtj9OyHw9UqbBm63lXJ7xhRmmTmnyqjkYiNObbWZ2nd3ob
+bGLypGiZh28UVh-y_QN2gilbSha3
+}
+
+AzureEntityColoring(APHockeyapp)
+!define APHockeyapp(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APHockeyapp_tbg.png, e_stereo)
+!define APHockeyapp(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APHockeyapp_tbg.png, e_stereo)
+AzureEntityColoring(APHockeyapp_m)
+!define APHockeyapp_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHockeyappSPRITE, e_stereo)
+!define APHockeyapp_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHockeyappSPRITE, e_stereo)
+

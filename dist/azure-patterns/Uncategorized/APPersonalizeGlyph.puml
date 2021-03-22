@@ -1,0 +1,13 @@
+sprite $APPersonalizeGlyphSPRITE [70x70/16z] {
+xTY7aGGn24HHka75bVBFzmph_Ovwpki5y4kmPWnupXxXELZsStmKwUVozrHcXJQYVLzbLcQbPO7T1Bl9ipHxWF61fa3imCR5WGtpE71f7dacdbJu1ohwNif9
+nKPH7gYu_7KfBaSAwE4E-xacW0Iq16E766ru77C8NrljfnHNkFJNSY2VfFZ0JhGCupQeynINZrAWRgLG7gZO5IsBdtnNdXq9MPfbB-raBS-En5xoIiLNgT3l
+mxtAW5zOcPMNtCEVVBQVbNNURhq1
+}
+
+AzureEntityColoring(APPersonalizeGlyph)
+!define APPersonalizeGlyph(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPersonalizeGlyph_tbg.png, e_stereo)
+!define APPersonalizeGlyph(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPersonalizeGlyph_tbg.png, e_stereo)
+AzureEntityColoring(APPersonalizeGlyph_m)
+!define APPersonalizeGlyph_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPersonalizeGlyphSPRITE, e_stereo)
+!define APPersonalizeGlyph_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPersonalizeGlyphSPRITE, e_stereo)
+

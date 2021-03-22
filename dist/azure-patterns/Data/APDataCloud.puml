@@ -1,0 +1,16 @@
+sprite $APDataCloudSPRITE [70x70/16z] {
+xTS7ikCW381XKG82P7J_qwR8orkJmRAsrtzgsZU8DCmCSpuaR4GiTQA2AJXGOvwKa8YNzPQyJV6binQXlrGIyNKjgahiF4NKy1NH6qxXN47-g67qC1TkUB3I
+YUB6SxOimBBmiMjbhHIMQW2z6x6KLqhSrp4CrM79BvGc2m5JRbijXZ_LmPZdPtIYLB16Yi8ER4NM5F96v5oH4bpcaAyKxaaVoukXAnAb0Ei24hDDaGXJE5eX
+O17XMgcLtwDddT_3JL4GVE7BUdP0gl8iLPKe4PvTA5B8hI-4hSgsMnKfnepOw5L5p7401iNOVqNwhrXhgc8k54snvswQOkyNAm6nO0hVeiJ2e-A_Kl6DfOLZ
+LoA_bxvSISmQeoi-xNFGU8QNExV1M1HVU0hTU0HPSWObAHE4pi_gjL9uBYvssryf0sc8I7qSJTyUf-1K9SzRaRg7ETTPAl5SyUh1TPuOJvKcoFMnLoAtLWA_
+2eRJdTJTKidQHtbnGLQM2jdFhMaiUoXrFjE3BLatxQ_PH3mg2CRw_lcJoVZ0nA7OPyeWrlGf-oB5xS_cP-Fjfo_Ub_5iKI2n9FVBBdsHKdPbNCBAIELBHWg7
+YSPrGb8-kyeNwhOhaikzVVxOaVt2ZM5NHk7m41bMuqW-i4EPGvRGU47hrWfKtckeL8Yb12UAgsokm5AHCXlBe2ZWAnkY28eYJjvOhugXArA8PtcG38evvWS
+}
+
+AzureEntityColoring(APDataCloud)
+!define APDataCloud(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataCloud_tbg.png, e_stereo)
+!define APDataCloud(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataCloud_tbg.png, e_stereo)
+AzureEntityColoring(APDataCloud_m)
+!define APDataCloud_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataCloudSPRITE, e_stereo)
+!define APDataCloud_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataCloudSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APProcessSPRITE [70x70/16z] {
+xPU7aWGX24GR5D7z__-zVBE3k2iJBj-ht3NLAgaOlfm0VoCNeZDSW7DSwd4J1VIuIm7ak4i6JaWIuOJmDW3G4y82f96z5f6YBUIIy8p_jaf-9L865IyKf-U5
+m7C5Br3_dBnY_YXWU9cILvH0R8UNoOPPcWdlY7jG-4c2A_MsIuqa270ri-KkZ8NkJHAFYy1IVRdC2qRHKuUfbcbGBDIkyPN5f4rwUMIpe87dDC88ClbMZUVO
+nyOJD_49ZvUi9xNGHHWJvD155aWdeu0GWihjz1P2d3HCboPi9OcsTVr8mbwOEITcngdyGuJ3F0_jbd4CTXC-Z6z9-JqkQCjyFW9fQyeOyCy_BALacdyZZ1La
+55ApkGuXTTjJULC8pt1p6uc3x3TMuUvdGWChIVLAlxxdm0OW8wMvfT5JtVwZLY6_y7akXe72xWiFktsREkMKkvmK5nljj3T7g8VhnTPktLUxP7f4S0VNHrxX
+N2GHxa9P95Ed5ACSvH4
+}
+
+AzureEntityColoring(APProcess)
+!define APProcess(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APProcess_tbg.png, e_stereo)
+!define APProcess(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APProcess_tbg.png, e_stereo)
+AzureEntityColoring(APProcess_m)
+!define APProcess_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APProcessSPRITE, e_stereo)
+!define APProcess_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APProcessSPRITE, e_stereo)
+

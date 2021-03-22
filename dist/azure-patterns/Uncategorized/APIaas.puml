@@ -1,0 +1,15 @@
+sprite $APIaasSPRITE [70x70/16z] {
+xTHPkgmW34LXWRs34gWp_zdUQzzRgVQfrkDf_iy4yU_h_VfLdHKQpSTfxIfZFb-aLgNELy6eD9TAD2hfdKhPzeHIRbfkcyh3oWs0Rfb7bQ80wjUKDW3fPUMc
+TLDUtalkYHtosVV51omBxd75OP_s0-qxKm8EwhTRCsRZ6U5CAHb0Or7Sz2pydmZRbafjKTYk5gIietOJHOXfeaZNdn4Nn7X6vkt66E6cyTgUULzYcy2xzRR2
+4qeVIGG0tMoQsyhk5fLhfK_6TBYDQUSyh9IBBuDDCNob38hXYscTg6ZU8Ycol_Lc9PTj3J7bJCg-95WMdb8IjZsXAB6A53oko080fSkRbVqyCiL755qzYYmA
+LYL509oHA8jeKpHY7MMLioWgs1IVKDO8TuyYmQ0q2w7xROnFABkTxlBt5RsBYE6C4eRajE3iIfJpw8oAN4QZ4kKosCv8hYElbMHJAZbMKkuJqqHL5GwLPhgC
+1gMxIu5xXIaFrVSceg-6d0T71S6xpfvsHwvtYKMXDVw-tgzV_m
+}
+
+AzureEntityColoring(APIaas)
+!define APIaas(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APIaas_tbg.png, e_stereo)
+!define APIaas(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APIaas_tbg.png, e_stereo)
+AzureEntityColoring(APIaas_m)
+!define APIaas_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIaasSPRITE, e_stereo)
+!define APIaas_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIaasSPRITE, e_stereo)
+

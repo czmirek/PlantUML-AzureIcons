@@ -1,0 +1,12 @@
+sprite $APDownloadIconBlueSPRITE [70x70/16z] {
+xS-54SCm50HHMonT__M6Ss7wSlYsW3UpmuGfvPoR007mlOeKALAaI95IqqKbbtkH0gGBIWRo_G-8HmeHjF4-nZS0uLGXyYX3XOWR1WEpKz86CJ1KY1WOAWPa
+nG20fqB4n6oKICJ6h1GYLcO9434oZ8YP8M9dY7GpHEmCaJw6oA-bFAxblb0PtRM6xfIQ0m
+}
+
+AzureEntityColoring(APDownloadIconBlue)
+!define APDownloadIconBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDownloadIconBlue_tbg.png, e_stereo)
+!define APDownloadIconBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDownloadIconBlue_tbg.png, e_stereo)
+AzureEntityColoring(APDownloadIconBlue_m)
+!define APDownloadIconBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDownloadIconBlueSPRITE, e_stereo)
+!define APDownloadIconBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDownloadIconBlueSPRITE, e_stereo)
+

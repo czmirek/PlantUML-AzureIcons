@@ -1,0 +1,13 @@
+sprite $APCode08SPRITE [70x70/16z] {
+xTC53iCm44JHE9wbtF--PVIaNQaC_e92hAUOXZ-fLnyI7jPOLbWju-RhYDkggua1PHXMm7gEDxxANYcejoiewsdKKkfwHWLlonxIz6lrUZsVlUanNIlCcW46
+QcthPKAnII9NG0oFjrovm2XEqbIPPnndMQRCCe6cI1LcUB3c2ZEA9icKuwXZe5A5toP0HQhmuRf5OKPkc14nDwqkCuucJvHvHkcuv0epmMkRAymupoTNc0az
+J2Uceo9jkbQapOvdprMW5jDlrklrx24DVr9l2G
+}
+
+AzureEntityColoring(APCode08)
+!define APCode08(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Code/APCode08_tbg.png, e_stereo)
+!define APCode08(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Code/APCode08_tbg.png, e_stereo)
+AzureEntityColoring(APCode08_m)
+!define APCode08_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCode08SPRITE, e_stereo)
+!define APCode08_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCode08SPRITE, e_stereo)
+

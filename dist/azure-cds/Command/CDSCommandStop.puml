@@ -1,0 +1,9 @@
+sprite $CDSCommandStopSPRITE [70x70/16z] xSmt0O10400mzh_YtoqZCxqb0jAd8pRhHKwRvVsBnMAnM2mMYyLYiLWibexD-dJC
+
+AzureEntityColoring(CDSCommandStop)
+!define CDSCommandStop(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandStop_tbg.png, e_stereo)
+!define CDSCommandStop(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandStop_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandStop_m)
+!define CDSCommandStop_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandStopSPRITE, e_stereo)
+!define CDSCommandStop_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandStopSPRITE, e_stereo)
+

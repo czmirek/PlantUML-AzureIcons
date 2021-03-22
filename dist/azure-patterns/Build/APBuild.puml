@@ -1,0 +1,9 @@
+sprite $APBuildSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APBuild)
+!define APBuild(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Build/APBuild_tbg.png, e_stereo)
+!define APBuild(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Build/APBuild_tbg.png, e_stereo)
+AzureEntityColoring(APBuild_m)
+!define APBuild_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuildSPRITE, e_stereo)
+!define APBuild_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuildSPRITE, e_stereo)
+

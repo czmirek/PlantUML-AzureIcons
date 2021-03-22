@@ -1,0 +1,13 @@
+sprite $CDSOtherResourceExplorerSPRITE [70x70/16z] {
+xSy7ZWKn38BXjo7OS_yBR-yUn5XHsPB_09_WrcgtGwfuTrt9rA6j-3bUEOxZdCQgukTufJSdJNHDhmHzLWcs58zunIDU2HMlAq6VL_YR561TcUEnQHLlLASg
+eIF6Us2eYgACbpdHL-OepQx2SHROKOWXGaEPGuRh2W1XeAC81cq5g4PNgGxGLxuxm8g2LsHH0TwClYBRIcqh4x9vhkHPb4RMf99nwZ1JAQ9wYv5QaOKu8nGP
+zHcjw5kCT8fnn1cXgAWDh_YyiXMk8horskqU
+}
+
+AzureEntityColoring(CDSOtherResourceExplorer)
+!define CDSOtherResourceExplorer(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Other/CDSOtherResourceExplorer_tbg.png, e_stereo)
+!define CDSOtherResourceExplorer(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Other/CDSOtherResourceExplorer_tbg.png, e_stereo)
+AzureEntityColoring(CDSOtherResourceExplorer_m)
+!define CDSOtherResourceExplorer_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSOtherResourceExplorerSPRITE, e_stereo)
+!define CDSOtherResourceExplorer_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSOtherResourceExplorerSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APMarkupGreySPRITE [70x70/16z] {
+xTK53i8044N1UXlj_K-BmsA3E_iZ-AGFw_WdonKNhXncQuexryoLybwbco7zFK06SVK3WZAeQIuAQkipHzuoQEVGwZFvhOFYve8H0YM2GbamHl10LO01eY0m
+HXna9f1kSTr1iNw8Uu4W20mG1841WY0nG1na9X0iFZenG1141WY2o41141Km21821a50m20821W40G63821W42J4Z8EC1DCU1Wtuw081Wo0WO104X8o3ZFYi
+ffDS869Q1mKZ9Cxs3CBP7aCGfZd8yzg382o3CgXwRz3xD_x9SbC
+}
+
+AzureEntityColoring(APMarkupGrey)
+!define APMarkupGrey(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMarkupGrey_tbg.png, e_stereo)
+!define APMarkupGrey(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMarkupGrey_tbg.png, e_stereo)
+AzureEntityColoring(APMarkupGrey_m)
+!define APMarkupGrey_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMarkupGreySPRITE, e_stereo)
+!define APMarkupGrey_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMarkupGreySPRITE, e_stereo)
+

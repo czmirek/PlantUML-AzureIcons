@@ -1,0 +1,13 @@
+sprite $APPhoneWatchSyncSPRITE [70x70/16z] {
+xTO7SWCX38NXfu95TFy39-0GkJ8CR3gVUzb_Uy5Xs1l6FFL6CS-yCSpBtcJCqkGXAQQS_5e2I0G0Im5qtr8ib1pgec5L0A85eVkMFogcmKg5c56U2w3pjbSP
+Tqo5cLOguRzN97NGQCLxqdTMBDzLSWfvg98rtLMkJ4wB-3MPMYxN_q0nKHayOhhRCo_doYcYdKhI9_9vC8c5ib0XQsYsSktFL4JeW8eg__3ANjD4-05BTrVs
+jhltW5tPUy0-sxztI0j18LhHm3NcSAMZLVWDdT_5M-8A8vL17h9LYnNJQhMIgfLA-BvAiWvw1G
+}
+
+AzureEntityColoring(APPhoneWatchSync)
+!define APPhoneWatchSync(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Phone/APPhoneWatchSync_tbg.png, e_stereo)
+!define APPhoneWatchSync(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Phone/APPhoneWatchSync_tbg.png, e_stereo)
+AzureEntityColoring(APPhoneWatchSync_m)
+!define APPhoneWatchSync_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPhoneWatchSyncSPRITE, e_stereo)
+!define APPhoneWatchSync_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPhoneWatchSyncSPRITE, e_stereo)
+

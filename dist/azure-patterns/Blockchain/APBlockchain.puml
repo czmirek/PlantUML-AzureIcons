@@ -1,0 +1,18 @@
+sprite $APBlockchainSPRITE [70x70/16z] {
+rTQ7TXiX48LXxXJAfBt_ssQp7ZXC14PApt-A6_gsmPelwHVqvLSff6KTKezpMPOd9MTRLeUYMlT3NB4Zest7vA7ObibTiIsZGzapsfKzmqFPCzoLFGDNRaRB
+CkhAnUJTinoAoJeUYZLPDoigosWesmEbiuA_hF3FAqm0YBRA6CBlA0pId0N4MuN0MfH1MuKXpQugOwSGidsh4EqKiBtLYDOAGtr80QyLHZDFuVVWYbL5NI6o
+dj1Q8RPUXUQhQbV5pAIw8jPJ71M3HAMyAT3fG7nIQhyYZsrpBgVx4k_ky_T583_uZ13dYoxc2v_dYu_HFeQqP0LuKbB-VkxMB77kEXFM4QPrvCnX7VcO_Pg-
+gs5DgsQHe3YpVxyu4vIyKb8vAgcTbLIF2jfPIN9I4WxAowcLDFfF5FommhMoVrkiyOyfi2iUCxLEl6Y8irLILLaeP3VZY5aQYJIRAvUYTgKhnPbi5XLjaIbg
+HNtmHh5Y3uf5fafN33l55ef59fCZrl224fXGVKdPCwxaSbUNO_9nHqQtKkpTycd_WbknM2kbXP-VsGNv7FDyuilabESKj0aPBxRfvZsZ18QJnmDPA7Jr-9y4
+TNncDFyYAWomC86ZSkLCIQCsgK5XS3Epfg0dbOQWn0r11aVbyOemFRAW43Npc89IhKV9K_CuA64Nb36KWOIJWOquABiTMMARgfIkn0AyKSfyBcgXMehjLa3S
+-kcimDvDeyAedQTmToaltmnwnmyxUAflY43kpcyfhuPPHxbQAmH-JN56F09yI_QYWXRMD1ExiLNQf0H65ksKageh8Roar7uNMehnIV7Q-6ps1HJYvnHgLk6V
+KAI7YB0gA3_SBrE-0W
+}
+
+AzureEntityColoring(APBlockchain)
+!define APBlockchain(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Blockchain/APBlockchain_tbg.png, e_stereo)
+!define APBlockchain(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Blockchain/APBlockchain_tbg.png, e_stereo)
+AzureEntityColoring(APBlockchain_m)
+!define APBlockchain_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, e_stereo)
+!define APBlockchain_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlockchainSPRITE, e_stereo)
+

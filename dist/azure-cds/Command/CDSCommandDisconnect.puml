@@ -1,0 +1,15 @@
+sprite $CDSCommandDisconnectSPRITE [70x70/16z] {
+hTS9ikCW30HGoN8899Y-_sbdfQhd5vY8qUy3l6gRNS8fAMve1SACLI3C6FxajTK-bOgUh2AIzX7D-9BS4LmRo8cRNEf7qZSY9V_95K4kavwpekVOHLugpBEN
+yoC5awcbbLts4J8D0DvRYDrDt2E0yDyKvv85SCeq5u3gKQu_IjNxdXfbJlOCC4ObmlnTsn66NOBCWqg0uHX5cDPtkX3pTEt_PalcWEU335WnMZdEI-IE8TBK
+WQ39X242yo0mcJCTIHl8o7n0L1S8cJKYjTazGcQD500s87Ech10W4ramhpK28ZTC226pGD97XCnxZUHqy_-j4HRL9V8IcJCsz5iY8zCH1tFoWZPZ31v5UIqQ
+63SYcQV_o13nL7c8Z0oHXtp8WyjYP8pWEYzkQWFZGNYiL9ap2yHrPgS5ubV8F2MWyCaHKZfJTKE9Cesttm1J0TJLsdXxb78x46NZznvSRVi8Cp_-jHBnbwaw
+GVPVGCt-bNaMEtEC2oR1Zx1xJotPrDAx1H3clv42Xh_9cx_8TOX-TR9k80KyHOvIEt4b6bj8ZvxFyrJPIo8IIU8S3p5nH7u2
+}
+
+AzureEntityColoring(CDSCommandDisconnect)
+!define CDSCommandDisconnect(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandDisconnect_tbg.png, e_stereo)
+!define CDSCommandDisconnect(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandDisconnect_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandDisconnect_m)
+!define CDSCommandDisconnect_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandDisconnectSPRITE, e_stereo)
+!define CDSCommandDisconnect_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandDisconnectSPRITE, e_stereo)
+

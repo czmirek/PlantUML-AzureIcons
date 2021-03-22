@@ -1,0 +1,9 @@
+sprite $CDSCommandTableSPRITE [70x70/16z] xTIr5S0W543HkCl-swQBEmxlrXpWw_WLq6I_DSijLVHRvVCjTVfRFMg1whHyqSxvKPEtS0ktrATB8zsvEGhs2xTm2_k5_UBpBTp2VW4c
+
+AzureEntityColoring(CDSCommandTable)
+!define CDSCommandTable(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandTable_tbg.png, e_stereo)
+!define CDSCommandTable(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandTable_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandTable_m)
+!define CDSCommandTable_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandTableSPRITE, e_stereo)
+!define CDSCommandTable_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandTableSPRITE, e_stereo)
+

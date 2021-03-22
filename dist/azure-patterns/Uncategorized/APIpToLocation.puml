@@ -1,0 +1,16 @@
+sprite $APIpToLocationSPRITE [70x70/16z] {
+xPW7hkCm34GZQrZlVz_j7bZmbwo4wFiVMkhpaABhw_-YjQC3w4Vxs03B965olAqunFEEzRTYM4u8sPPehjZpIEIQUAwhUJwZJrsDt26MAzyZzuZ5iYCNk9c8
+sbdnLDDpZWbED9ZclPwuu8hDUzFc4iDlHCtqNvm_wgyilf2mZinGQkGkaNav013ZUp5sUBEUKq92vEydlh_l62Ka0Fp9Zb5ov8m0e3DpZ1PRTkLUxQd6vhmP
+etXlh-xv1_rNakz5IG7iClCjMEVv8OcSWjCImmPFYmwzNLayB-6DtQAR4xTJ4KUSbh4appdAxifb7OmMeIKdZBzF4z4p8Tt6wSy5mSOC7x9EVsekDojVVCPH
+V9mvDbBlLNB4skFXbXksKS8ebqMIN182Y3ZVZfBiUvOC202ro0mtOCo63GlJ34GIPa4-OhYWaHUEVKk6oUWWZIkzHxWx5OIpcmNYTP85d1OhM9GMALWwBKV1
+iZZkxcDqL4h2nT9Awqoi4eKSfIZ4Ab58YqeKWb8KueLPATJa3nVDfNi19AdS2SYx-t8n3PDKUkEjUgysBl77pOc-VnzSlnTkcZEK7Ta1ddSCTEpIHb4ONX_I
+Zj8pZsz-0W
+}
+
+AzureEntityColoring(APIpToLocation)
+!define APIpToLocation(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APIpToLocation_tbg.png, e_stereo)
+!define APIpToLocation(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APIpToLocation_tbg.png, e_stereo)
+AzureEntityColoring(APIpToLocation_m)
+!define APIpToLocation_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIpToLocationSPRITE, e_stereo)
+!define APIpToLocation_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIpToLocationSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APBuilding22SPRITE [70x70/16z] {
+xTS5rjmm30HWsG9Ri_utzxzjNrHGkN6LSkTHy0kOwJTClmNnSGU2OAg8oImopU4cmPGGqvFnKK4S9kfcm2WWQi40oUmhKyHW1g3E07LceCvC1-vWy2yn_ncw
+olndEf4I4LSOxqI6sKGAJ220YnIOH0fC8WKcaGAJIAPjCxSWz2bYTo03Sn_HJv3lKMYMaOZMaMGIQK8xQRqbayY4xY0oZDix9X7iC4q1r_wMIMIF4GTW7CnR
+n85DfXjE9jucaMr6FAuFPYQooRHWNBAZm5MczOyPwszt_JAZQ3H010rc09Dfcs6ifd1oSEpgCA5jfk5bCPxU0Olzpets6L_7cZYyJr1cbr4yZuLrE14L67yS
+nmDurXZ6EeurWHgZmR0ONMBaYypvRnfHZM77usNrAaFg0EWQu_v5XbfdkiIuQZ9xISPXKcQcsCcWnBZhoGoaiizC6S44KbWadim8fCWWa28p0oao2AJC2FsE
+UGK
+}
+
+AzureEntityColoring(APBuilding22)
+!define APBuilding22(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Build/APBuilding22_tbg.png, e_stereo)
+!define APBuilding22(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Build/APBuilding22_tbg.png, e_stereo)
+AzureEntityColoring(APBuilding22_m)
+!define APBuilding22_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuilding22SPRITE, e_stereo)
+!define APBuilding22_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuilding22SPRITE, e_stereo)
+

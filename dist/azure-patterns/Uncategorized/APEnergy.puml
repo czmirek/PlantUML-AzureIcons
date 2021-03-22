@@ -1,0 +1,13 @@
+sprite $APEnergySPRITE [70x70/16z] {
+fTC7YWGW40NHjitU_y1BsbJWX9ft0A6BRm2CSrNZPVlSp7XPEJUxnClQkMdnkdakLhnXctiepqMFDtHr3wtBAnbWienuHrNtq53tqFBtSFwquprDVMMQwYlJ
+DjEdL5-PkfeABNKFRVELgQfxQAZfqpBJfwAcJqrDdwQwXxQvXr9DdxhwohJKz6bVx_7pN-K_DV_L_gico-GZPlwZWPZ_xWrAlAZK7uqoXAQYa8f2gQ9GPHI5
+KHmyuXIKTH9b7PILBb5ybj0IKPoAA0wYE0MFE8coJaLP1sMTWYXEuX6d8eg3Hvo2iauYYiyI7qCKfo2AauZYL3pYeAnJT5dl2m
+}
+
+AzureEntityColoring(APEnergy)
+!define APEnergy(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APEnergy_tbg.png, e_stereo)
+!define APEnergy(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APEnergy_tbg.png, e_stereo)
+AzureEntityColoring(APEnergy_m)
+!define APEnergy_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEnergySPRITE, e_stereo)
+!define APEnergy_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEnergySPRITE, e_stereo)
+

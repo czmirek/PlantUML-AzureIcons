@@ -1,0 +1,113 @@
+sprite $APBookSPRITE [70x70/16z] {
+xSp55SKm30LHsMBrt-zdPeRapNhEfMLs9Q-zmcQfD5hteBAilKIHboZw4iN-GO421GeTrL-fPBn0yKQQJohH5sSyewIkJy-75TiztHzHZi_FAUr25vMR-mC5
+2XGeKA10WG852XHzYIAlK9IULxJJkYa
+}
+
+AzureEntityColoring(APBook)
+!define APBook(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBook_tbg.png, e_stereo)
+!define APBook(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBook_tbg.png, e_stereo)
+AzureEntityColoring(APBook_m)
+!define APBook_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookSPRITE, e_stereo)
+!define APBook_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookSPRITE, e_stereo)
+
+sprite $APBookAltSPRITE [70x70/16z] {
+xSo30SK050F0FDRj_jD-ssPkW1lcsZDAtrAt4tK2mygDoqJraAMrXopvDmiNBbmQxD57BlQ8HO6x5yM4rt7FOeBPqhRbpOiei5pQ9czSLhoTUTrYn-N9vGO_
+ld3XmeKB5ovSk73XOezO4lSlfM6vZ04
+}
+
+AzureEntityColoring(APBookAlt)
+!define APBookAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookAlt_tbg.png, e_stereo)
+!define APBookAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookAlt_tbg.png, e_stereo)
+AzureEntityColoring(APBookAlt_m)
+!define APBookAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookAltSPRITE, e_stereo)
+!define APBookAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookAltSPRITE, e_stereo)
+
+sprite $APBookAltDarkSPRITE [70x70/16z] {
+xSpL0SCm34LH9MRUVzeoSsKLy-wFKQUjotTAyQZrdIDg-nZAkYYYP2sY-5zGe4214ivxNabqbf5KhEjNtB3b-8fNoutAgKSnwurQldCLDT1UMSLGzhrRoU5w
+yQR2ILw10WKA52XGe4210iM9A5f2yNIi14PEqOb2h7RA7
+}
+
+AzureEntityColoring(APBookAltDark)
+!define APBookAltDark(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookAltDark_tbg.png, e_stereo)
+!define APBookAltDark(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookAltDark_tbg.png, e_stereo)
+AzureEntityColoring(APBookAltDark_m)
+!define APBookAltDark_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookAltDarkSPRITE, e_stereo)
+!define APBookAltDark_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookAltDarkSPRITE, e_stereo)
+
+sprite $APBookAltV2SPRITE [70x70/16z] {
+xSy52WH144FHrkfExd_VTIbaTwom8HyBzY3fLU6VUdDDFfgMaskdGg96A1mX2cEKSZf5YXGfKc012aWxh82txA02Fh932lZAzYi6jtShe0ixb3z9yKcH8aMA
+52bIf4Z94SfC0GhASGN3_Ra2
+}
+
+AzureEntityColoring(APBookAltV2)
+!define APBookAltV2(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookAltV2_tbg.png, e_stereo)
+!define APBookAltV2(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookAltV2_tbg.png, e_stereo)
+AzureEntityColoring(APBookAltV2_m)
+!define APBookAltV2_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookAltV2SPRITE, e_stereo)
+!define APBookAltV2_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookAltV2SPRITE, e_stereo)
+
+sprite $APBookBlueSPRITE [70x70/16z] {
+xTHL0SDG40NHJRFiNt05XFd17G7dSwZfs28F97F6u3dJKSNp1eNp3aLlKUoK0WMAoLg-Kr5UonvGe41nMyjxFmCKA52WG842nUrGiqee7snEKRv3uJiKAKZX
+MvJVBGhTez0z2WtZ8MIaXli3
+}
+
+AzureEntityColoring(APBookBlue)
+!define APBookBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookBlue_tbg.png, e_stereo)
+!define APBookBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookBlue_tbg.png, e_stereo)
+AzureEntityColoring(APBookBlue_m)
+!define APBookBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookBlueSPRITE, e_stereo)
+!define APBookBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookBlueSPRITE, e_stereo)
+
+sprite $APBookGreySPRITE [70x70/16z] {
+xTVLWGCn38JXEHbEdeFqtssoyBIis67z1NoBfbCVkYGN6bESnaRbIzbLfmXPhmXRACgkB8PqfeGU5bYQAxbJ19LA8PbHg_1IRA88DdE5cwMFLh8ifKObOQbN
+LZGjLJxwVz7DukVCBwwuueehhhWY8HagYqfM6fihNS-bgA4r9JNuHWneeEWJdVWY6frXd-8yBPrIf591PfVcgj485DgRAw8j523LAtqnVQkjF5EkQbJE
+}
+
+AzureEntityColoring(APBookGrey)
+!define APBookGrey(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookGrey_tbg.png, e_stereo)
+!define APBookGrey(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookGrey_tbg.png, e_stereo)
+AzureEntityColoring(APBookGrey_m)
+!define APBookGrey_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookGreySPRITE, e_stereo)
+!define APBookGrey_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookGreySPRITE, e_stereo)
+
+sprite $APBookmarkSPRITE [70x70/16z] {
+xTT9UiCW38RXNo0GMkN-f-qWDoGaajlYpkNRP8BtYSoAqmyAOqcl4xolz1A72YKl3AbVOrZSr2zMqbRT709IOEmgs2fdbDGfKgGyLKVbafIxn5EAFUL1AQbF
+YVlAPQri1GeeHapfswr8WJtZYa0PYnMRARz1QI8jL6maYXJRseTEeG8xpq2nhVz9oNHSoKsrqa6bwTOnHN-KKf3RKSNUW0yfbVggQOK8Lz6CulIFbQKiPIbB
+MSfIcjnMcRh2BBSrH_6JP2kgUZdALAD2ugH3JPneKFo8svd827AKwDx1m2755X5UKu8ZvZu2jOvavkgSzsvr_8-fwbmLFHBTIuBKeflX9GXHMIwdmnkHCL6s
+hPou6P8ncMXFC5yPhidJKH5LAOJzJZ-eHm
+}
+
+AzureEntityColoring(APBookmark)
+!define APBookmark(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookmark_tbg.png, e_stereo)
+!define APBookmark(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookmark_tbg.png, e_stereo)
+AzureEntityColoring(APBookmark_m)
+!define APBookmark_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, e_stereo)
+!define APBookmark_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookmarkSPRITE, e_stereo)
+
+sprite $APBookOpenSPRITE [70x70/16z] {
+xT5LOiGm34LHcQ6QlFsljco5iTpH-KpiQyAde8OnnfoT8M5yvjaG4aiLKHoziWNYH4Mm9J8Pk5WHEKAiLLppMk7cXaKTDtZ6hi483OJIZG8rqC3-YudOToA9
+mnMHyAeOkboHJ28wKE5dAnMFPtwb8lFanVXaHURzL4KhMj6ALhIY5QreHIjQqKhkHJUjk9XxwvKfZhPLR6QC7Ac84l4i5eWB5V6z5UV7KiL4JNxCJIhB0aDm
+e6Nh5P7mpXDThv1zmBEReMiL4O52TA02thBt-wkf9m
+}
+
+AzureEntityColoring(APBookOpen)
+!define APBookOpen(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookOpen_tbg.png, e_stereo)
+!define APBookOpen(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookOpen_tbg.png, e_stereo)
+AzureEntityColoring(APBookOpen_m)
+!define APBookOpen_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookOpenSPRITE, e_stereo)
+!define APBookOpen_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookOpenSPRITE, e_stereo)
+
+sprite $APBookOpenAltSPRITE [70x70/16z] {
+xSu7Si0W34HH5LO8fTt_jebjKjoKtldJONd3pIiQZQZ72giUTtar29tqi6grGdbzPoqsEPGsCNo_Ue1u8Xn5XAP4OBwUJEboPj1fnoAwpBoF45Mfj_vUmyhO
+pxXusBqYjAk_R3gFFS8B7OMegT8TG4lhMg9edPJJqPpHMJ8hsY8IXNH2b18b0jGYLwXEgrm9YHSevPygGndAK8OobDO-G660twyGG3z16SfGv5WHe2uP87oY
+I47rw5Kh_5I1nJQ7ybfHyzZbjYX93hvNr2D98izrKj2YboXfRZKn4YNfKnNanL936bEUjWbnfdScHPc-ffjND1hT0W
+}
+
+AzureEntityColoring(APBookOpenAlt)
+!define APBookOpenAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookOpenAlt_tbg.png, e_stereo)
+!define APBookOpenAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookOpenAlt_tbg.png, e_stereo)
+AzureEntityColoring(APBookOpenAlt_m)
+!define APBookOpenAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookOpenAltSPRITE, e_stereo)
+!define APBookOpenAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookOpenAltSPRITE, e_stereo)
+
+

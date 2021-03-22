@@ -1,0 +1,12 @@
+sprite $APCalculatorExpandSPRITE [70x70/16z] {
+xSoreK9H042nhxZiFotIfNq7Xvi1yZN9QW_KHMEPRyJI_RlqXAKdk3JPiUJaRysIao-Mdh3qXAKdB3rXwGbBJrnwuj8JbvwuzCIb9ouvqKib8nd9I7wlcena
+98kp_v9eVxRkYKjFN7hYqXENdhZqnAKdBZrnwObBJrnC-cBI5vA-x4ZwGjBqH2RT7bZLHMDP0F_JbYC
+}
+
+AzureEntityColoring(APCalculatorExpand)
+!define APCalculatorExpand(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorExpand_tbg.png, e_stereo)
+!define APCalculatorExpand(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorExpand_tbg.png, e_stereo)
+AzureEntityColoring(APCalculatorExpand_m)
+!define APCalculatorExpand_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorExpandSPRITE, e_stereo)
+!define APCalculatorExpand_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorExpandSPRITE, e_stereo)
+

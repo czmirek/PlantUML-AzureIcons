@@ -1,0 +1,16 @@
+sprite $CDSIotAzureMapsAccountsSPRITE [70x70/16z] {
+rPH9jYCn20GXcQhlV-0_wrbb2OnwvrXv36KYNj6Rm828cga8mFG_GEm9mQb2ROlYm645E7BKddF7UI-r5jALrEYHv5p3bWDTD7oSH4cADDqwJEYLalfAk7LJ
+i38AKMV_-EMoIgAViG8fmhQ7OboaHJiALx_fHW6gJP3UQ0NWwgZMlYc61LQ7CKynV4FVSFABKSXp1DzmTHZJ3-8fYb-gtyaeLFSPOL1LuYhAR64lAg6ACgX2
+exO8S0kZXKNAFeDNurLFm0pdWz7gYWGtNknTFjebZ1rRi5ZImSoMjSzI2OSMmmAdWqcdArX9JymiYWtCRAb5Oy6necw0nWQbBoGMbZvYlzSciK7e2yGpXZls
+67bi07rJzn6RTyXZXNwmeezwn3nqZGMZ7oJh8t_-AOmaOo7YRHInAVrZZMA1wPTRMHrD1hF6ri4u_J6NzQd9HWFRRCjQIMIAiMfKrq9h61-Ap2ERA8DeiRFG
+XFOrleaoYAj5kDljFTt0rTPS4w0xsjNC5g5dhAjvb3TQyUiGfmqSPvAWBNncOKhmapevrfKOLKXF8bJ3tcZ3z194xGXG2pqeKtl-RRcKZc2DPqKeqpcivXxZ
+WQ1Cxy4d
+}
+
+AzureEntityColoring(CDSIotAzureMapsAccounts)
+!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureMapsAccounts_tbg.png, e_stereo)
+!define CDSIotAzureMapsAccounts(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotAzureMapsAccounts_tbg.png, e_stereo)
+AzureEntityColoring(CDSIotAzureMapsAccounts_m)
+!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotAzureMapsAccountsSPRITE, e_stereo)
+!define CDSIotAzureMapsAccounts_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotAzureMapsAccountsSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APAzureCloudSPRITE [70x70/16z] {
+xT55Oi0m34JHaHNJbEv_sqP9cJlU5FI2cyJmR_wKb19-aPIIETRvW6DLvMOJYnedAXkM3BB6pQ2pIH96iaFcasH3uyuXAWo6oTtGzsJNu3nKI3O6G-TXGZ9v
+xYfFMktAK60yIRMDeJ_yJglT6VpnLQdj3ECnbbHxF1tS9gNQzVdOHgdsV36qAxNRgv7hzslR6xlGlrtRoW7tIcr3hHsArpvv4ckRrpSOVgDqywUab6u1
+}
+
+AzureEntityColoring(APAzureCloud)
+!define APAzureCloud(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Azure/APAzureCloud_tbg.png, e_stereo)
+!define APAzureCloud(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Azure/APAzureCloud_tbg.png, e_stereo)
+AzureEntityColoring(APAzureCloud_m)
+!define APAzureCloud_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureCloudSPRITE, e_stereo)
+!define APAzureCloud_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureCloudSPRITE, e_stereo)
+

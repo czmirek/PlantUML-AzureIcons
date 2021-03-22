@@ -1,0 +1,12 @@
+sprite $APDevopsAdvancedWorkflowsSPRITE [70x70/16z] {
+xPO54eDG30KZyEt-zwtWxixRyPtf5asWvG00030sHHe-quOcOKEADdocxUIArn_SyFh3pwZuu9WwO1Vyz8gwpWp_jCweS5ScaNCgr959rPnAyfkuhkEaExaY
+oTtXkEdZHAlGAOGAvrSe0nLKJdbsJuGDzuXvKyeqrbGofJQTcDjFx-qtoVPRBNWLaMRevv8Dkysst_ZBOpu0002-
+}
+
+AzureEntityColoring(APDevopsAdvancedWorkflows)
+!define APDevopsAdvancedWorkflows(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsAdvancedWorkflows_tbg.png, e_stereo)
+!define APDevopsAdvancedWorkflows(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsAdvancedWorkflows_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsAdvancedWorkflows_m)
+!define APDevopsAdvancedWorkflows_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsAdvancedWorkflowsSPRITE, e_stereo)
+!define APDevopsAdvancedWorkflows_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsAdvancedWorkflowsSPRITE, e_stereo)
+

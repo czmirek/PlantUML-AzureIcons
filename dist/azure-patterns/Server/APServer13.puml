@@ -1,0 +1,16 @@
+sprite $APServer13SPRITE [70x70/16z] {
+xTS7jkmW20RWXuYWh-r_jRV_noWXu-JsmcbJFn58-__h1UB_soW_oe_2_08AvynEEO60WN8A0GFbD99zBkSHAESHAEUHDILbAVeGHIJ5IAnmiJQ55HwGM07H
+WYZvAUY2GgM5KSKXK9onYCIAj1N4v4X9DXTKLKLKrGQajSgXCcv69GqhI4VkG_SLiYt1uR0PygGT9TND_dT740YYibCuD82WEzANawvCY5A8eCNQ43mexBAC
+4VGI31GWg5WFOhaFF_OR1WfXfsKGCZ8l7V5JaQ3O3i8WEcB3o39gyAGKZx0rZw1_4sCF2Zk4j1icG5pvCqg3N8Q9pYYJveJkP2w-U0NiGrsujbRdkbMPMymw
+Dz8Utg3JP2sDFQpvO4ug6AeopEw4A4q8Gi0SdgKKnuT7i3oOIC5I72CuWTY1mfSHRBh4YkuWfJLJSPlIVGMZKaP4CNsyES9HkQYw523ZySvXZn0ZOi8fiHWA
+Xl1AZ0Zr7C4iAuHZntMOrnKWoNUuKgZ4Y6CqoYNUZlSbhakSYOzGEOzu9KO49ufLnICuG6r5YH5SJMb1YH4eQLdXZZZbYXsnGr0NNLJ0kDHPcvNhEitfipnz
+_YW_oYq
+}
+
+AzureEntityColoring(APServer13)
+!define APServer13(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Server/APServer13_tbg.png, e_stereo)
+!define APServer13(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Server/APServer13_tbg.png, e_stereo)
+AzureEntityColoring(APServer13_m)
+!define APServer13_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer13SPRITE, e_stereo)
+!define APServer13_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer13SPRITE, e_stereo)
+

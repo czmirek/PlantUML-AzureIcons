@@ -1,0 +1,13 @@
+sprite $APShapesBrowerSPRITE [70x70/16z] {
+xTC53iCm44JHE9wbtF--PVIaNQaC_e92hAUOXZ-fLnyI7jPOLbWju-RhYDkggua1PHXMm7gEDxxANYcejoiewsdKKkfwHWLlonxIz6lrUZsVlUanNIlCcW46
+QcthPKAnII9NG0oFjrovm2XEqbIPPnndMQRCCe6cI1LcUB3c2ZEA9icKuwXZe5A5toP0HQhmuRf5OKPkc14nDwqkCuucJvHvHkcuv0epmMkRAymupoTNc0az
+J2Uceo9jkbQapOvdprMW5jDlrklrx24DVr9l2G
+}
+
+AzureEntityColoring(APShapesBrower)
+!define APShapesBrower(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APShapesBrower_tbg.png, e_stereo)
+!define APShapesBrower(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APShapesBrower_tbg.png, e_stereo)
+AzureEntityColoring(APShapesBrower_m)
+!define APShapesBrower_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShapesBrowerSPRITE, e_stereo)
+!define APShapesBrower_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShapesBrowerSPRITE, e_stereo)
+

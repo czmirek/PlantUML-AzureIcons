@@ -1,0 +1,14 @@
+sprite $APAlertBlueSPRITE [70x70/16z] {
+xTP5OiGm44JHG3LKxd_VeDaMzeJrD-PdIIj1RX3ywGRv3rI6CXGNM5WX05XK4Rp5cE9uJq8ACMKHHJ77ViMnfDqA1MlUgoYsiKyXTccV8dZBtASniKSnlEVB
+cNGen561jIjoLi1MnJ1bctDfL8Wh1TQcwBK2jYYEXA8D2f5IuFMAfXMmLY4oYjOgabF0EiMGLQHA8OwAdkwK5S4kCHFiOran59EYGbHa9KM1uem0vXN7CR-w
+gLc5ECNBkvvJ5AVqyYwOLXpLQLAXe3wc54T3dbFYOo7gi_JgqkGrtMQxV6xiTpSDPIXtgIvulxzhpXD8W9cGCCC92J0J4c8c9CPCI8YPa5ZtFY5HPaA2J0No
+0W
+}
+
+AzureEntityColoring(APAlertBlue)
+!define APAlertBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Alert/APAlertBlue_tbg.png, e_stereo)
+!define APAlertBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Alert/APAlertBlue_tbg.png, e_stereo)
+AzureEntityColoring(APAlertBlue_m)
+!define APAlertBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAlertBlueSPRITE, e_stereo)
+!define APAlertBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAlertBlueSPRITE, e_stereo)
+

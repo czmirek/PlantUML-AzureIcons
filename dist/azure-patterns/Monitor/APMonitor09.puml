@@ -1,0 +1,9 @@
+sprite $APMonitor09SPRITE [70x70/16z] xSn50eH030NH6Tp__K-BEnjSgtRTIPv-EoGPEoHPExI7WeA2OkwGzDkXUodkfFpRSXSb1UFyN762HQ4qeQ2WeA2WeA2WeA2WsEEiN37jHIa3
+
+AzureEntityColoring(APMonitor09)
+!define APMonitor09(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Monitor/APMonitor09_tbg.png, e_stereo)
+!define APMonitor09(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Monitor/APMonitor09_tbg.png, e_stereo)
+AzureEntityColoring(APMonitor09_m)
+!define APMonitor09_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitor09SPRITE, e_stereo)
+!define APMonitor09_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitor09SPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APGeometry12SPRITE [70x70/16z] {
+rPS7hW8n34JjSVhzxqidsjba5U5VLZmrwiCPaoRVYcA6V4XkC_1b5bKbIybRrXQ5XHVebjrt5XRj1hy5WN1OoE6riCCCWDd75ki2g10VMBhZgN1PzEqG4OU5
+9Ie_iL0XNWjrrMin6etJ0gh4Qo79iIN5BNkBKR3EzKKf5A_5Q3nUIxWZ2opEK6uGnCjOYX-b1da1DSYB3GFoncAdM713Xt3X_-NHui_IRraq-ZIBXW0LhwMZ
+tgbttZ_LqTTp9x02Fmqtb7Qd9lF74clhPCWQcyHI6X4yIwpMjYCvIdbMaan5OCydYt0mPflQZO8UqU9mFz-EzI7PLlk8UDbb6pTVyiRX5LaUbsfl2WKL5n9m
+KEs6C976E9MO467o3MFpMY9n4gKUMX18GfOaEmuiQYHPP02oiADBFEag-B8qgzx6yrlSNCJDGiVqyCXNkPGkFhpxpOUKZgQ4BHmy1N8lrEfsDeR5M7WEjFgS
+64Yqm82lVtDubQhvFe5uHkiTwImqH18VQUEeGRmWlUeftU53OO3AULm1
+}
+
+AzureEntityColoring(APGeometry12)
+!define APGeometry12(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Geometry/APGeometry12_tbg.png, e_stereo)
+!define APGeometry12(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Geometry/APGeometry12_tbg.png, e_stereo)
+AzureEntityColoring(APGeometry12_m)
+!define APGeometry12_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeometry12SPRITE, e_stereo)
+!define APGeometry12_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeometry12SPRITE, e_stereo)
+

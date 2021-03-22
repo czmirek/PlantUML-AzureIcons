@@ -1,0 +1,9 @@
+sprite $APBarChartTwoFilledSPRITE [70x70/16z] xSm53a8n50NHkkr_lzWDKVWQgSn4gk-OwpNbZ5f1GK6f6lKBAIWeJVc551IKfjpo2WeAIb1s20K5nQbxYlsE3goWe7XbNXNr_fJL_-qJ
+
+AzureEntityColoring(APBarChartTwoFilled)
+!define APBarChartTwoFilled(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarChartTwoFilled_tbg.png, e_stereo)
+!define APBarChartTwoFilled(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarChartTwoFilled_tbg.png, e_stereo)
+AzureEntityColoring(APBarChartTwoFilled_m)
+!define APBarChartTwoFilled_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, e_stereo)
+!define APBarChartTwoFilled_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, e_stereo)
+

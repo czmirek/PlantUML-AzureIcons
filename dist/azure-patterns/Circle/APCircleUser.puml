@@ -1,0 +1,17 @@
+sprite $APCircleUserSPRITE [70x70/16z] {
+lPS9SYmn24C1OsDy__l-pPF84qfTtNzxsTCk6Ob0PUG_q9g8vepHcyfpj6qL5z6roN1vo5o72XWcJ_3rgnXxgO3Pxdbn5H5TiLNqfGAotL9fi0ILao60OQwV
+bjHDTERwGffSi2znVra2QXxhn8NITwtc9YBrkZRkkPghxs9OPeTE22Lt6aAnk26ZkLIkyIjJhUqlk89XoIDklcLC047dUb4FcxlAJM9jKkiLxYOtcOY6P7C7
+pRLH0Rm8xH4nghhLTfixMMM3xWCl0VjF6hE_QUHPe9GDQyN6Y2SxI_6QJLidanGpFZgykV03J_MIV3DKsxJUwMLqJtNVi6Ro6UuVbc2eFLTH15ODSKV4aa95
+vMwwOE118x5its1AmR5cIYoac2OikG4LFhauIkADqYAsrLm0-FIgh4MR5Z-FTHLGcfHLXSE3-yigJHXc1Z_CaLofjF4n_fVfNgfOB92TTXegpdOkI6L_TPW0
+9SaTPECJO50X8dJt1cO3JI9sY2bi1hhhR06wgHh2HJ343_SqiBrWgTvoNOo-2tifPYnAMM9JDbQAoKLfA0LzFYmDnm5E_r9l8WPtxua-sW8i68CgYedpX0Qd
+lvjE0PqiLquWbRgccn3OVqTrhkxBE1-i-pAzD0oUoXDk1tweJAXSePElhNDsqeNJiuWG6Vv2rPFi6c1vwBXMBpvN5I7PGCW4M9zl3rKe6kkT6T6zznx9rior
+SJ1NmQL0ok4g0suu5aI5Q70TgX8g3_2vgafsbQUq7WcLET3uvzWlLFu7tm4
+}
+
+AzureEntityColoring(APCircleUser)
+!define APCircleUser(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Circle/APCircleUser_tbg.png, e_stereo)
+!define APCircleUser(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Circle/APCircleUser_tbg.png, e_stereo)
+AzureEntityColoring(APCircleUser_m)
+!define APCircleUser_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCircleUserSPRITE, e_stereo)
+!define APCircleUser_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCircleUserSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APSplitArrowBulletSPRITE [70x70/16z] {
+xPS7KaKX40GNYJkc-v_Mx1XNX37x-m1THTVmmlalvS21Yb6IgG20Bke0T546QTcsSQ3MeOegCCoIA4e0afagwa0pCr6K0JUoBN8WcqaYzZLDnBxFHKxHKj_d
+vBOWObz5nBwQY7q5KT0t57dBaxwIY7rLqM1VGSI-YeXzLL47l2yn_5vK7_KLu2aAzd5Q1j3h2gqxRXWrRTPDPTp7FJ8Z3UZsNdB7BVtPOdnXTRXbvDqRa9hp
+XRnv6_amTlOCbpll6Hsz06CMWpr31b3UKZ36ygk4CPwDAuHZYNksP9klWBpmVkHO5dlEnvBZSStRCiQaPpYM-BBEuLZYoxfseFYoalbO7bzMzNlNQrA_lLtu
+zWvwVii_IUEulf_pNyg10vS
+}
+
+AzureEntityColoring(APSplitArrowBullet)
+!define APSplitArrowBullet(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSplitArrowBullet_tbg.png, e_stereo)
+!define APSplitArrowBullet(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSplitArrowBullet_tbg.png, e_stereo)
+AzureEntityColoring(APSplitArrowBullet_m)
+!define APSplitArrowBullet_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSplitArrowBulletSPRITE, e_stereo)
+!define APSplitArrowBullet_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSplitArrowBulletSPRITE, e_stereo)
+

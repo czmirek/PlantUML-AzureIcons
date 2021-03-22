@@ -1,0 +1,12 @@
+sprite $APScalabilitySPRITE [70x70/16z] {
+xSp50SDG50CmVthW_VSjNShCYJM00CCBDBwYIRBYMKOoyJnMp7dHegMzPEdbRZ-nQD4osctgZorQjDYuP3gBbl1JxCxbjBXpgJZ1VdJHeaMB5YtUDakl9tYC
+Gtqdt17q0YIVDl2qo8RdZG8i0G
+}
+
+AzureEntityColoring(APScalability)
+!define APScalability(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APScalability_tbg.png, e_stereo)
+!define APScalability(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APScalability_tbg.png, e_stereo)
+AzureEntityColoring(APScalability_m)
+!define APScalability_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScalabilitySPRITE, e_stereo)
+!define APScalability_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScalabilitySPRITE, e_stereo)
+

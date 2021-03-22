@@ -1,0 +1,13 @@
+sprite $APTwoToneCloudsSPRITE [70x70/16z] {
+xTQ5aGHH20HGu2la7_1ToVhIq-isBu0kR4I-osgbLlwPgLpDwfuhWqezKlIcEhRifaAsocqXMvU5u1YbGX0hrAojaanoMdcm7vwYKdWtJWLVKBsGeOPug26U
+WWtTrbAzt3kbwDTrzB1Ds-qf2YjfVNg4pz7W9mPdZDZoVfn3XdIFVPx5M0L67F5sVZf42Ae6lrZQ6Br7BCPetb2RaUjdMZAY4LICPHtDmFgPyIQL0AFkISwb
+nP9vxc2IVhZ1QF8HYMMjztOKSjHK2uxtqxyGs-h1wf9hGIkIga6RajBWgQHcqEmkBQdaHf1S40zE4qGdkoAi4-KCMLRQW9hA5rYj_W
+}
+
+AzureEntityColoring(APTwoToneClouds)
+!define APTwoToneClouds(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTwoToneClouds_tbg.png, e_stereo)
+!define APTwoToneClouds(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTwoToneClouds_tbg.png, e_stereo)
+AzureEntityColoring(APTwoToneClouds_m)
+!define APTwoToneClouds_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwoToneCloudsSPRITE, e_stereo)
+!define APTwoToneClouds_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwoToneCloudsSPRITE, e_stereo)
+

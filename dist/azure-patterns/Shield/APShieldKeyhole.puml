@@ -1,0 +1,14 @@
+sprite $APShieldKeyholeSPRITE [70x70/16z] {
+xTS5WYGX38NX1uJOslrFkyBQIAg6T7fylWFyfTYtgy0xr0brmtoYYlmdGGtxOeJBTVM_j5Tkv3_69SZyDgDwO-66VMsQnum7jlIfVaf6mw7v2wllCE4v1mBY
+IVAabO_AH-MZ8inIhTYadsQnmhH8hKA_pN9byG0Zm1wOjF1s9RvhMjG3SxlYUXXnGc1uI8Z4GmE1dgrqHB8LX3HNKOGuLs64Hguo46gvIaDCCXN10V84mX7p
+ROP3xDiOXvflQpZ6rLjPMlbMbkbR9ivPyWF5Xc_eU0YNdsVHvCeQQ-Qd55lwQSOQofaLgMNYIFxTA5AQ9aPFQYmOrGwmYpIKpvywS35INsIWf0rcQdXtlbt5
+3m
+}
+
+AzureEntityColoring(APShieldKeyhole)
+!define APShieldKeyhole(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Shield/APShieldKeyhole_tbg.png, e_stereo)
+!define APShieldKeyhole(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Shield/APShieldKeyhole_tbg.png, e_stereo)
+AzureEntityColoring(APShieldKeyhole_m)
+!define APShieldKeyhole_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldKeyholeSPRITE, e_stereo)
+!define APShieldKeyhole_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldKeyholeSPRITE, e_stereo)
+

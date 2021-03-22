@@ -1,0 +1,9 @@
+sprite $APManagedServiceSPRITE [70x70/16z] xS470G0W40GW6rp_jiRu1QIHTmO00000QUG3
+
+AzureEntityColoring(APManagedService)
+!define APManagedService(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APManagedService_tbg.png, e_stereo)
+!define APManagedService(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APManagedService_tbg.png, e_stereo)
+AzureEntityColoring(APManagedService_m)
+!define APManagedService_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManagedServiceSPRITE, e_stereo)
+!define APManagedService_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManagedServiceSPRITE, e_stereo)
+

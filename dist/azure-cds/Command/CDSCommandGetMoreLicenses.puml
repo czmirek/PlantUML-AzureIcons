@@ -1,0 +1,12 @@
+sprite $CDSCommandGetMoreLicensesSPRITE [70x70/16z] {
+xTY50OD004DHtBdiFsqzTSzLoH_WuPpWYqhEbLcvh7JDNVNNbIAvg-hTYXKhLl8-Wf83lQ8G8ICe0SkwkvNpvI2ZA4aMiAoLb1sZAMGQJKdI4SjgJI5JISgE
+qHGovP5IF5e06If2fQQmudkKCihTrPxqGEJ3RnsH-lDV8_yC7_zB4UbY_RtraUJZengP_Wj6U_O1nOeLAyAgt7iUtzaS
+}
+
+AzureEntityColoring(CDSCommandGetMoreLicenses)
+!define CDSCommandGetMoreLicenses(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandGetMoreLicenses_tbg.png, e_stereo)
+!define CDSCommandGetMoreLicenses(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandGetMoreLicenses_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandGetMoreLicenses_m)
+!define CDSCommandGetMoreLicenses_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandGetMoreLicensesSPRITE, e_stereo)
+!define CDSCommandGetMoreLicenses_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandGetMoreLicensesSPRITE, e_stereo)
+

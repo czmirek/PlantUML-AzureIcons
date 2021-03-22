@@ -1,0 +1,12 @@
+sprite $APNewsletterSPRITE [70x70/16z] {
+xPL5kiCm4CPYjdN_-pvi_t9hs1H6wtmQZqAyDePX64RTHd2VPYay87QT9NAFvZetSesRv84kcHk4hYvkDylVc-FA8ulshhUoRf7wq88klf6rq6MXAB9GLj_e
+j81NvBEi2RejcXpufpgTRiHo6ZcfLAz5A7BpoZfkKMHbdR0egKBFMlJMkCgqHP4ZJ5iKkR1ieJPMBEAbBLlg8NxMNysF49Z0C0p3-0O
+}
+
+AzureEntityColoring(APNewsletter)
+!define APNewsletter(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APNewsletter_tbg.png, e_stereo)
+!define APNewsletter(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APNewsletter_tbg.png, e_stereo)
+AzureEntityColoring(APNewsletter_m)
+!define APNewsletter_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNewsletterSPRITE, e_stereo)
+!define APNewsletter_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNewsletterSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $CDSWebNotificationHubsSPRITE [70x70/16z] {
+xTA5UKD130JX5Tphl-Hy2cqOF6RxBs0E9DsEku0qig2SIc5dLhbNKlbLfVydfEZtTgieYbT6ySh83vNy7pqBLmGu8wHS4Sy8IbU8t6-b26yTSSMLXRrMEe5z
+LaRnocXOSGPN1gfOvRFw5rVUPMgdVR7EqQWoKCLGnOfLxBmgzyg6JMNHo9fAmKYd7iNFShFMpcAHYhKhHBf2n7A5Q5U8T0M-gYIkTDlk7W
+}
+
+AzureEntityColoring(CDSWebNotificationHubs)
+!define CDSWebNotificationHubs(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubs_tbg.png, e_stereo)
+!define CDSWebNotificationHubs(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebNotificationHubs_tbg.png, e_stereo)
+AzureEntityColoring(CDSWebNotificationHubs_m)
+!define CDSWebNotificationHubs_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebNotificationHubsSPRITE, e_stereo)
+!define CDSWebNotificationHubs_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebNotificationHubsSPRITE, e_stereo)
+

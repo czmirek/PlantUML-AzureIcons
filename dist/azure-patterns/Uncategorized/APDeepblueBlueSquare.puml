@@ -1,0 +1,9 @@
+sprite $APDeepblueBlueSquareSPRITE [70x70/16z] xTIr0G0X0C305tp_WMbnwP1aW2iZJes8v6HbnRgvTbTGK51GK51GZ8WocoieA2WgojpwEZcPk2_o
+
+AzureEntityColoring(APDeepblueBlueSquare)
+!define APDeepblueBlueSquare(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDeepblueBlueSquare_tbg.png, e_stereo)
+!define APDeepblueBlueSquare(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDeepblueBlueSquare_tbg.png, e_stereo)
+AzureEntityColoring(APDeepblueBlueSquare_m)
+!define APDeepblueBlueSquare_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeepblueBlueSquareSPRITE, e_stereo)
+!define APDeepblueBlueSquare_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeepblueBlueSquareSPRITE, e_stereo)
+

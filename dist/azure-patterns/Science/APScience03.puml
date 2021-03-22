@@ -1,0 +1,13 @@
+sprite $APScience03SPRITE [70x70/16z] {
+xTW5TWGn30FGk04xklzzortKWDwwl7euz8V2vOioHWBIW7gxqe7-jvIxOgOePXm1wdwb0iOLod2bOa4fWp5SgUJKLQO1RG5H6FS5H6D4X3CSKS_X9sYCZXpE
+YqCPQkv0-3XS60JXp7m_hmOEcVrZNorAp76MsOgUEd6P8ICD924Y5IJgqzW4JrSKnr9iF_A0nGpfKH8U1YkfuW_YSQ7pM4cXQVsOTlWioo4NNLxYsugHYvAK
+KczzevhrTVK_dLhgyck0NXjpMeQyLYg_nTIPIEn9lh9Ngo7qi7czFKVGCuOlGnxVS4HdEA8p7D57gXpHHyqSqKVmHX1zDc44aMSs-YphFeUzAschEAHEVr6U
+}
+
+AzureEntityColoring(APScience03)
+!define APScience03(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Science/APScience03_tbg.png, e_stereo)
+!define APScience03(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Science/APScience03_tbg.png, e_stereo)
+AzureEntityColoring(APScience03_m)
+!define APScience03_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScience03SPRITE, e_stereo)
+!define APScience03_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScience03SPRITE, e_stereo)
+

@@ -1,0 +1,98 @@
+sprite $APBarGraphSPRITE [70x70/16z] {
+xTQr0SD040NHOuR-gpNlHcQnzAU05qyV9J5z24dD3L2KuVQYG8421Ogsb1cWk4I58GeKA52WA4sf0KfgL5g70aLpSe3IEFzHWGB5SrhSifwoBov8AauSADH7
+wGm
+}
+
+AzureEntityColoring(APBarGraph)
+!define APBarGraph(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarGraph_tbg.png, e_stereo)
+!define APBarGraph(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarGraph_tbg.png, e_stereo)
+AzureEntityColoring(APBarGraph_m)
+!define APBarGraph_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, e_stereo)
+!define APBarGraph_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphSPRITE, e_stereo)
+
+sprite $APBarGraphHumanSPRITE [70x70/16z] {
+xTI5WGKn24NH4IIy_ljTDqOPyjUv1PnuXbKJkOP4FqmffPHIIfbTqxOokyQrGgvvMo7Nz7EKKaeffHGcPk9EfU6frgEmuINZl69uozAAuaEQLU1AAWmNtruP
+9rTIcSaNtvUaql2XbbNOy9PnLY71Mq9fXTZSJ98AaOYg255EyVzBlpAEdGhhwxuePnKnVCWaex01FkFBYc0ZkQWeDjEuuX6VN504kqbOOSDk5bOK1sbGOHp6
+CKLncCOKms4MKcQSD4SKmaaKKGGdoMSfmqsw1m
+}
+
+AzureEntityColoring(APBarGraphHuman)
+!define APBarGraphHuman(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarGraphHuman_tbg.png, e_stereo)
+!define APBarGraphHuman(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarGraphHuman_tbg.png, e_stereo)
+AzureEntityColoring(APBarGraphHuman_m)
+!define APBarGraphHuman_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, e_stereo)
+!define APBarGraphHuman_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarGraphHumanSPRITE, e_stereo)
+
+sprite $APBargraphWithDollarSignSPRITE [70x70/16z] {
+xTC5OiH034DHIzQMuVwtRSUfapBOASzV2B_mzMrdqS7U7oJa-13-XeAU0ch9YR8IHbPLNEehr1wAHi3umQiA0bdlD6iAGtdZUU4ooazMC1JlAgPWs5IegAcO
+CgAXc2lpXcBG6efA14-cespNs9iA5WbDnVYsagElA1WAAmhuI459aOWxnHlAo5toPSpgoXRQIY0bnK2jEQoe14JVNkdky_8j2XWrbKEExgj4NwHCPIhW24tb
+ECQEVxCobQamGbF9hVwUCfMfJEK6
+}
+
+AzureEntityColoring(APBargraphWithDollarSign)
+!define APBargraphWithDollarSign(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBargraphWithDollarSign_tbg.png, e_stereo)
+!define APBargraphWithDollarSign(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBargraphWithDollarSign_tbg.png, e_stereo)
+AzureEntityColoring(APBargraphWithDollarSign_m)
+!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, e_stereo)
+!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, e_stereo)
+
+sprite $APBarChartSPRITE [70x70/16z] {
+xTS35WD144NHHfsUzj__QcDdRDIBTJC61XLGqJ15T8zwAAommegnrsYW4d7DRaHXXHMorsYWOk-_7Qom8lMjWGhXrYuLPQ-PWShzMQnHM655sLklP-PhYsdk
+pxPy5CGATQ-OvemlLbVteMqxLHIIg6uD2Yi1C4CL6P41EqnH2KaIu8SeEYFAomCG-oi4XFiWPIJPKp60-vWykfVYWE9hLb4FvVwpBzHqLzBlA1ImtHMfn4yr
+OtG6
+}
+
+AzureEntityColoring(APBarChart)
+!define APBarChart(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarChart_tbg.png, e_stereo)
+!define APBarChart(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarChart_tbg.png, e_stereo)
+AzureEntityColoring(APBarChart_m)
+!define APBarChart_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartSPRITE, e_stereo)
+!define APBarChart_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartSPRITE, e_stereo)
+
+sprite $APBarChartLastFilledSPRITE [70x70/16z] {
+xTO33i0m043HMlU_x-mjcFN_ZBwaOSMDIJrggs96dQwWeA2WeA2WeA1etoMtApPrgQiL51GKLRTFKSseRoee_QzlLwIrLkrKwZ7s6uhstilTYgq_tA_qCvB5
+HHUVVLdpfcvv_Q97YHm
+}
+
+AzureEntityColoring(APBarChartLastFilled)
+!define APBarChartLastFilled(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarChartLastFilled_tbg.png, e_stereo)
+!define APBarChartLastFilled(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarChartLastFilled_tbg.png, e_stereo)
+AzureEntityColoring(APBarChartLastFilled_m)
+!define APBarChartLastFilled_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, e_stereo)
+!define APBarChartLastFilled_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartLastFilledSPRITE, e_stereo)
+
+sprite $APBarChartTwoFilledSPRITE [70x70/16z] xSm53a8n50NHkkr_lzWDKVWQgSn4gk-OwpNbZ5f1GK6f6lKBAIWeJVc551IKfjpo2WeAIb1s20K5nQbxYlsE3goWe7XbNXNr_fJL_-qJ
+
+AzureEntityColoring(APBarChartTwoFilled)
+!define APBarChartTwoFilled(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarChartTwoFilled_tbg.png, e_stereo)
+!define APBarChartTwoFilled(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarChartTwoFilled_tbg.png, e_stereo)
+AzureEntityColoring(APBarChartTwoFilled_m)
+!define APBarChartTwoFilled_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, e_stereo)
+!define APBarChartTwoFilled_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarChartTwoFilledSPRITE, e_stereo)
+
+sprite $APBarsWithStarSPRITE [70x70/16z] {
+xTL50i8m04HHHj3xtnTtQWaEyrVLLsyMtKr6Wtgg4YLAb2XHm4SeyWCKsBnVaUsx5TWsxrNaJNSgy3RMAY3biqIYM96RGfdIpA3ylgW1ALAQcRAxsyoe-adh
+wapUgLpVsliLrYhmDjsdSBytxtf6idNogXNXJAnLS3MJKQsfAEXkc49tDrI94YLAb2Wh
+}
+
+AzureEntityColoring(APBarsWithStar)
+!define APBarsWithStar(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarsWithStar_tbg.png, e_stereo)
+!define APBarsWithStar(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarsWithStar_tbg.png, e_stereo)
+AzureEntityColoring(APBarsWithStar_m)
+!define APBarsWithStar_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarsWithStarSPRITE, e_stereo)
+!define APBarsWithStar_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarsWithStarSPRITE, e_stereo)
+
+sprite $APBarWithSearchSPRITE [70x70/16z] {
+xTG5SWCn44JH5daqS_y3Ptctm-bmebzWVcKX_a4v9xolTEinvLQWLptsRb2pkEGPKYsMkcqCb79CUSLKCdbGFI9wklwlYZTNOYhJ79asAmr7AQQq1IeuyuX8
+U7NyArQboSrW9KiZgZYxp4iswgNPDLuoFvzVyXStNQLfibShF2JVcDHZAZsff4pnAarPISZDOwhXIQN6jOwpv45r2Cfzn20eAt98NY0eUPqKb6Ozh9t6wnH6
+pWI544rXH5TkT3-g2emGLO4H8YZK7rKgzLUKeHHAL5AbFaiPob26CfIX36KeXNgLGidT0G
+}
+
+AzureEntityColoring(APBarWithSearch)
+!define APBarWithSearch(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBarWithSearch_tbg.png, e_stereo)
+!define APBarWithSearch(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBarWithSearch_tbg.png, e_stereo)
+AzureEntityColoring(APBarWithSearch_m)
+!define APBarWithSearch_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, e_stereo)
+!define APBarWithSearch_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBarWithSearchSPRITE, e_stereo)
+
+

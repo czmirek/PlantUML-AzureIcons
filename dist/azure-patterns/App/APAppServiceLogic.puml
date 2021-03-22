@@ -1,0 +1,14 @@
+sprite $APAppServiceLogicSPRITE [70x70/16z] {
+xPS5Skj044G7jllpp_rlcrghx0xC2iFHAn2_7JBeRWCd9tOX6aZR28bq7Jf8xh1qSFE0-os4JUHqr6mZ2NPoEcfzltHuOYAzzb1F3jF9toB7IMaNLl3hj_Xb
+5P1bcD3lXrX5Msb1vx15EmyvBT4vPX4xBENKxRRWjy1kYmNmu-VFdp-0i1qMqNJn2rboXSLdBKaovYtUzu9pos4seoIdHHoJhoJ0JjLevG4tS11AP0C5Mlee
+68uaUJCW94iVQ6eBv92oaok3aQHbtFAFQtfPIghgPbtGc3fILBVizCLUuI1HTBgQEjUALHNggRFAuYRgIxBOQrayi_NZpCBXGJBSbonECHmYOi6I5F4q6n6h
+BFM0YVpibjCI56wFY7MMUa05nUAdqQ_OC_AA3oomNK0MnRW91Q2mqZQZzn2r4BdP0NRY9T-oZh_nwNLgXqM_UtSRE3cv1m
+}
+
+AzureEntityColoring(APAppServiceLogic)
+!define APAppServiceLogic(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/App/APAppServiceLogic_tbg.png, e_stereo)
+!define APAppServiceLogic(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/App/APAppServiceLogic_tbg.png, e_stereo)
+AzureEntityColoring(APAppServiceLogic_m)
+!define APAppServiceLogic_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAppServiceLogicSPRITE, e_stereo)
+!define APAppServiceLogic_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAppServiceLogicSPRITE, e_stereo)
+

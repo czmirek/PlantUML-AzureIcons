@@ -1,0 +1,15 @@
+sprite $APDoubleTakeDrSPRITE [70x70/16z] {
+xTFL0jmW58JX0GumaBFC-xzjWRMwf3UL_2lnBww_jAkhgwkhqG8-ZJBCJCIhVY_U9ogUHT8azw7n4qgjxAmrVAxal1GWt5GGw8mmneaRbNdOLXAFWdkvPo3L
+chSISa8g9PcLl1HajI3vKABsjjnJPg9fkDfRoRtExrH2uvmWUqgMjcBogeoeuwLKH7KJZn7G5DCCQIef0sqg9FS8I01RAMfD0HXwAGR8JTJE93dYL49XNqhl
+3Q7l7afm5Ie2ygA2l9ICi1KVM9bPsWePmQamzOBvlIUvIpT4UJgKJMw-5BT3nSGg9bV0R2kT8UthWjfJRIcrkXN92I3TD2hGfIuMRrA3YU3GI7WfrdjbMqgO
+O6bz8LVHak4derP-b82PQ-Tk08pvvvNXCqcsbTjZgW4XXfzNY5cWb9PYMDcU0dvH0QhyhQ2fdb8WXRT2yPnooDvALpwdKFMfHEg6imhXUiHmMidxJgyam-zV
+bwnnJWaINWg6mYc5wc_bFVBBpsx4UsE-bLzxZn8-KUglAJkl0HyhHOwlfx-mgwkhgwiF
+}
+
+AzureEntityColoring(APDoubleTakeDr)
+!define APDoubleTakeDr(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDoubleTakeDr_tbg.png, e_stereo)
+!define APDoubleTakeDr(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDoubleTakeDr_tbg.png, e_stereo)
+AzureEntityColoring(APDoubleTakeDr_m)
+!define APDoubleTakeDr_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDoubleTakeDrSPRITE, e_stereo)
+!define APDoubleTakeDr_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDoubleTakeDrSPRITE, e_stereo)
+

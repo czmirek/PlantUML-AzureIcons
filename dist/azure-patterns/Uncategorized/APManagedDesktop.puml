@@ -1,0 +1,12 @@
+sprite $APManagedDesktopSPRITE [70x70/16z] {
+xSpL0G9H40F0bMVzDun3lY6BtMKA67kAYBHXlBxMg4ZGKCcQ9OaRA57Y5Kdsh4XwJpQ9VfPSOjxGl9oWeH8qL8A6Ij0W8Pf99PU6Ij0W8VYw2EC44h89uxdR
+hn4H4H4v0W
+}
+
+AzureEntityColoring(APManagedDesktop)
+!define APManagedDesktop(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APManagedDesktop_tbg.png, e_stereo)
+!define APManagedDesktop(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APManagedDesktop_tbg.png, e_stereo)
+AzureEntityColoring(APManagedDesktop_m)
+!define APManagedDesktop_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManagedDesktopSPRITE, e_stereo)
+!define APManagedDesktop_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManagedDesktopSPRITE, e_stereo)
+

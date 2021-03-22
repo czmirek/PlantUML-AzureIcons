@@ -1,0 +1,12 @@
+sprite $APMonitorChatSPRITE [70x70/16z] {
+xTP50iHG20DGIbAt-vzstEh6E5bzuzMb5eFKhhWo7bVY8e_RhR0eac29eiKXRBQ2OojSeg0u9BwraaPhbdBRBcujoZ7vhJLJ4QHPU6sbZTOBhf4hhhZYIe2X
+g3IYpR6cmi507WEUefiKzD8B5T100GqKq4013HJGG04D5D100GqKq4013HIbWQ8qKCWFLbnnnHNjLvG3GLzqqP_7q5RbJnLbE_WsPGy
+}
+
+AzureEntityColoring(APMonitorChat)
+!define APMonitorChat(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Monitor/APMonitorChat_tbg.png, e_stereo)
+!define APMonitorChat(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Monitor/APMonitorChat_tbg.png, e_stereo)
+AzureEntityColoring(APMonitorChat_m)
+!define APMonitorChat_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMonitorChatSPRITE, e_stereo)
+!define APMonitorChat_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMonitorChatSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APDataboxGatewaySPRITE [70x70/16z] {
+xTG7alCW38RXJwY0fkN-f_qhYSbWaLZRT_qSu9sHX7tv94wd4rPOQ_K_gWaXfvYFcYP2t7nY1pjalajmHD7ckogE8TaFKM8tkGpnNuHEZcU8xKPxgHpS3QdT
+w--Z-KGH4Pj9bAbLX30XswMqPIPLfiSUAG388u81MOo6IyqguSPMy4VrK46djg9zfWWlbYBWSJNcCOhdeQ7U7r-auG-sFO8jm_tQgqkPBJDzC-hhcIn0MmO0
+-uBrWPGdm-OB05_fPqQ4hzCrNs3j2mp8TJ7L5zGUUrofzepfIDcA-8g-OeKGuASgJLwZKejjcQAJvoOo3Dy_P_V2a24ZoGe06pAQgXW06JASgj3TpuvBQYAR
+VhoP2csF8byfwCJo5SODfok2GKbM2kv9ecA4YImhwyQ8M3JuOnOHgtyq_wjLOmmkdyJfTFeD
+}
+
+AzureEntityColoring(APDataboxGateway)
+!define APDataboxGateway(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataboxGateway_tbg.png, e_stereo)
+!define APDataboxGateway(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataboxGateway_tbg.png, e_stereo)
+AzureEntityColoring(APDataboxGateway_m)
+!define APDataboxGateway_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataboxGatewaySPRITE, e_stereo)
+!define APDataboxGateway_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataboxGatewaySPRITE, e_stereo)
+

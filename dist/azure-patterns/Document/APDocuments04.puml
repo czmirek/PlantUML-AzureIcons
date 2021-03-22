@@ -1,0 +1,12 @@
+sprite $APDocuments04SPRITE [70x70/16z] {
+xTI54OC040LHv3pMVxSPZw37uFmju8tlgvYXrvTIacWkQIgrHpPlA1IDyahfSoWKSoWoYwApA7Oz1OeDD4wXWNod2XGeF92VwWnGe4210WKA52ZAbAsX63NA
+AyfpA49pABmZXMPHgbcKOXwbc4SfwkdA6m
+}
+
+AzureEntityColoring(APDocuments04)
+!define APDocuments04(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Document/APDocuments04_tbg.png, e_stereo)
+!define APDocuments04(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Document/APDocuments04_tbg.png, e_stereo)
+AzureEntityColoring(APDocuments04_m)
+!define APDocuments04_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocuments04SPRITE, e_stereo)
+!define APDocuments04_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocuments04SPRITE, e_stereo)
+

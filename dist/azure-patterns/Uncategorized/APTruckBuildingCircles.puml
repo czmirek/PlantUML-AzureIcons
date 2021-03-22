@@ -1,0 +1,16 @@
+sprite $APTruckBuildingCirclesSPRITE [70x70/16z] {
+xPU7hXqn24Gfnk3v__zDpmXdRukLddVKFBUSRM2qycFGoC7WbSeGDOMOsoMqzGJ0VovWqGY06XrZs3LmdG36ruy0GBum02IF-At5z_LeXvS2KfhIXSunz1BQ
+MeS8SUz1M-2QWUl_YZUihrL8vDGdVSHwSQ3uoGI24hHll1Nz9QX8jKBV-WW0OApp3qWFklLHDei0MDzlCH4hJE7tjMYSTw_8zk3o28yXH4rxCFcxUSEq1tcw
+xn8FvPUhpG1VGFH2qnviFt00w-ltYJR9rhCEO32HQbCD04_60F1ab7zaiDOD-uIjPb60Vbhkdej6UX-gy7Pvw-x-mijJl_IKHUYJRcJuSRoXTk70ahWWznYP
+mU0pz5MB5tAhkkXJxOc5jSDvr3kWT-Dz2-VH0mikbbLa0UZTw0lP1zcrZvXYa0BGkd7Vk6RLO1WP-iXoq5DtB0VraadMkQNpeaLZeyuiXfs_o3AcSQqpj5ag
+IJr-He7zNQsQ9GTvKY-NTxKJotukTNekuk6zIAHPUXDVOkVq6VtP5kiSMz2n7sAPuJ_0WgewUjBO2CbuNdNFB1cPnvRE3x8StPUA19cZykGPPM1o-yb4n8b5
+V0qXKIeVq7p4-a2Bxm4
+}
+
+AzureEntityColoring(APTruckBuildingCircles)
+!define APTruckBuildingCircles(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTruckBuildingCircles_tbg.png, e_stereo)
+!define APTruckBuildingCircles(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTruckBuildingCircles_tbg.png, e_stereo)
+AzureEntityColoring(APTruckBuildingCircles_m)
+!define APTruckBuildingCircles_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTruckBuildingCirclesSPRITE, e_stereo)
+!define APTruckBuildingCircles_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTruckBuildingCirclesSPRITE, e_stereo)
+

@@ -1,0 +1,17 @@
+sprite $APMeterWithDialSPRITE [70x70/16z] {
+xPTNSYGn34ERGMdkVrzdcA9Hd5BlxmwSEpm1efAl_qcYQkvwNUfcgl9F2F_K3-LRAlSHYGAP73FCdIXtEM0mvPoZxapXQ-T6QehRCuQu5nII74EOKcFgFAOY
+FtnHEyzapoeXnX2E4vXWgBKFcGeu6yI4ARWLeQNDnwzcCtHTF4cOk8cVG0G8zwCv6co1qSGWZcwUZMgyN-sFGlrF6OHh0uo44TAKN4lA0xYi1pHSFo-eZzzh
+Iy9wdbBxnO1CItPdOFPcavK8z0DPJcN4dKyccqbvHkJFYluQwHtStBaDjM15xThkNn0ei8BM2lsu4PY9qR5RwKXUQS6gvaZ2LhIcA9iH18ArHfr26kWPsoBa
+loOQgWIxCsNuq1w8kjQPE2XIwXO4iYja-2jaYEIGR1H3CzUkZ-VpzXE6RQFeNyha0JA5YZssDpN_ZliX7eLmdDvCGc88FPLJThfIKg9TAduxeNIY77XvtYyM
+b4nUrBjK8pRJdjOeZvVE4-2IzWbQb3kDbpIG7MCtQy9CENRhUHII1JF5F3gRqmOpzPpczONNonPcEgylnLfdX1amOyLQT_4Mi8Gmwti4IBNkvhyN3FCIPyKU
+GFlHJx7zOlcdcLdlHtcV6-WMxXgJQc_aVNfgjQFDQnJxD9qPQiaovJD3SNwfPPzcwFnIdALgTLCwIvNdkbejDKlMzGX2xfMkrf0QKvozxs7uejo3nFy1Bxtq
+qZi
+}
+
+AzureEntityColoring(APMeterWithDial)
+!define APMeterWithDial(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMeterWithDial_tbg.png, e_stereo)
+!define APMeterWithDial(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMeterWithDial_tbg.png, e_stereo)
+AzureEntityColoring(APMeterWithDial_m)
+!define APMeterWithDial_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMeterWithDialSPRITE, e_stereo)
+!define APMeterWithDial_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMeterWithDialSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APBargraphWithDollarSignSPRITE [70x70/16z] {
+xTC5OiH034DHIzQMuVwtRSUfapBOASzV2B_mzMrdqS7U7oJa-13-XeAU0ch9YR8IHbPLNEehr1wAHi3umQiA0bdlD6iAGtdZUU4ooazMC1JlAgPWs5IegAcO
+CgAXc2lpXcBG6efA14-cespNs9iA5WbDnVYsagElA1WAAmhuI459aOWxnHlAo5toPSpgoXRQIY0bnK2jEQoe14JVNkdky_8j2XWrbKEExgj4NwHCPIhW24tb
+ECQEVxCobQamGbF9hVwUCfMfJEK6
+}
+
+AzureEntityColoring(APBargraphWithDollarSign)
+!define APBargraphWithDollarSign(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bar/APBargraphWithDollarSign_tbg.png, e_stereo)
+!define APBargraphWithDollarSign(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bar/APBargraphWithDollarSign_tbg.png, e_stereo)
+AzureEntityColoring(APBargraphWithDollarSign_m)
+!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, e_stereo)
+!define APBargraphWithDollarSign_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBargraphWithDollarSignSPRITE, e_stereo)
+

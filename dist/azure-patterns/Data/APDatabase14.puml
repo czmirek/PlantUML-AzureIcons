@@ -1,0 +1,15 @@
+sprite $APDatabase14SPRITE [70x70/16z] {
+xPXLWiCm30LDmf_S_xIbLt3PZhsyKwQ9KOgwX0aiYqnWMNm2lzkYQiCMAJjuqABbW8nP11QUOg7lq1Q3HSSi65uPNozc__jejYLDO5d21BwJvPFcwD-Y8Zfi
+uRA3RCmYCtC0_ReSO6CMDoPY_PnLfoN5i2DcqfKMer0JPOsbScGy9Ecr67u9X0EWFel6YoCbzPCcmnBwAE8Whu-xzMvDAorHVOSGxTl3iRQa1l23RAV99fUu
+Us3goW5OQFjsmCS9BiyT5io7r2lcf4tD5ZIbk4ljm2nBiqN37dEBeGRDIwqMEXwNmYtfs9YMo92FXmttY1iiRyzKqMWSzHR2foqHCy32uPxys49FBF4uBFS3
+KpeiuQa5RRclRFh7fI73OexKBTmZQ6bBjgTgqzpWhh0qRgE87zH0tMf1LnZJKHFnMPlbs1LpptT1AxTRq9LyziN3GpHtwVct8a9pz97JCOVechYRBQ8VNDWS
+BUctX9qacH-nCd06pt0eZTK1uiuf3bSJwcb6JQBnOogRBG
+}
+
+AzureEntityColoring(APDatabase14)
+!define APDatabase14(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDatabase14_tbg.png, e_stereo)
+!define APDatabase14(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDatabase14_tbg.png, e_stereo)
+AzureEntityColoring(APDatabase14_m)
+!define APDatabase14_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase14SPRITE, e_stereo)
+!define APDatabase14_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase14SPRITE, e_stereo)
+

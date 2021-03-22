@@ -1,0 +1,13 @@
+sprite $APEmailSPRITE [70x70/16z] {
+xT9LeeD044JH0SQjzx_QfqaDsd7l-nVXO4MVaYH9Kj9dbwXLdJehLscQxqubEayhXUua8z16eJ_Mw67WdgpEj2lsHncHTcLjeIWrfEOSRwH1gP4o_urfVhwc
+pEyrwor3v_4pd2juTt0O0xkOAt2mesBcXYdOA8ovWfep-Tx267yzL_W3x8pc56GoBdvoUHctoIf8DwSPMYb6uOV1puXNC4H-qho28M9YPoaO8YPsbW87nbaA
+kfSYYYYYU7r1dZuaIPAaRm
+}
+
+AzureEntityColoring(APEmail)
+!define APEmail(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APEmail_tbg.png, e_stereo)
+!define APEmail(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APEmail_tbg.png, e_stereo)
+AzureEntityColoring(APEmail_m)
+!define APEmail_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APEmailSPRITE, e_stereo)
+!define APEmail_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APEmailSPRITE, e_stereo)
+

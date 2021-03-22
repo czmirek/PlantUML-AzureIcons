@@ -1,0 +1,12 @@
+sprite $APBookBlueSPRITE [70x70/16z] {
+xTHL0SDG40NHJRFiNt05XFd17G7dSwZfs28F97F6u3dJKSNp1eNp3aLlKUoK0WMAoLg-Kr5UonvGe41nMyjxFmCKA52WG842nUrGiqee7snEKRv3uJiKAKZX
+MvJVBGhTez0z2WtZ8MIaXli3
+}
+
+AzureEntityColoring(APBookBlue)
+!define APBookBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookBlue_tbg.png, e_stereo)
+!define APBookBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookBlue_tbg.png, e_stereo)
+AzureEntityColoring(APBookBlue_m)
+!define APBookBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookBlueSPRITE, e_stereo)
+!define APBookBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookBlueSPRITE, e_stereo)
+

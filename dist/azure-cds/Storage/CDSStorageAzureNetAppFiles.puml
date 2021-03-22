@@ -1,0 +1,12 @@
+sprite $CDSStorageAzureNetAppFilesSPRITE [70x70/16z] {
+xTC5ieD0381XDeRS_xvFLogPb4pgpJUA_S3Av9CIK0ZyHMGDaj_A6hNKIj0hLxAI5GdxhN3OirR8IwrCRlUe81jmPwLifhAl0dO5NgP23TiLDjTB9tP5kBfb
+XQfB5VEFeA5jcEdFiWq4pUuArbEn2eGgMR7NYt9A_3kWdtBjW7X5szFAgN7VXwqNj2keLgI2ZgGXgFZWL2ULNh7Tey9kIYNWsIeaGVHRAO0XK2QNbBu1
+}
+
+AzureEntityColoring(CDSStorageAzureNetAppFiles)
+!define CDSStorageAzureNetAppFiles(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureNetAppFiles_tbg.png, e_stereo)
+!define CDSStorageAzureNetAppFiles(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageAzureNetAppFiles_tbg.png, e_stereo)
+AzureEntityColoring(CDSStorageAzureNetAppFiles_m)
+!define CDSStorageAzureNetAppFiles_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageAzureNetAppFilesSPRITE, e_stereo)
+!define CDSStorageAzureNetAppFiles_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageAzureNetAppFilesSPRITE, e_stereo)
+

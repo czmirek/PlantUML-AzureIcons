@@ -1,0 +1,14 @@
+sprite $APPillarBuildSPRITE [70x70/16z] {
+xTG7SYmn20HGGWiXVl3zJ-kSf-rTjbHvtW4eyXrraaTg3cBCh7Sv1mWtbHSEQjOt4vJB8mMNTP2WN7_C98e8K2uAQgmYrW2bFwVIIUR7rb8Jb6D75Ep9nK2D
+eWOe4t1yHk143DJefFBh0NHEGDJ1nAelLlou_o_Kd1cHxs8uOogtEPryn2kuTQYyiIIRplry0L7V9LfCH517YHOLNKK4MYIAMMYnB0ejjeeQwF0zKRPKv7kw
+ksNIUxPkomNik4Rw6Qn5vJQdavet86Q-cSFaXQ5ZP7qLyiJHCLPzbzhD1AkEGXGjinXlfy94ioj59Lf6SNjoCRGKDGKjMGp4kajtb2A2bgY3fVqxYaKEu9av
+6cQkUfCJykYEEZq
+}
+
+AzureEntityColoring(APPillarBuild)
+!define APPillarBuild(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPillarBuild_tbg.png, e_stereo)
+!define APPillarBuild(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPillarBuild_tbg.png, e_stereo)
+AzureEntityColoring(APPillarBuild_m)
+!define APPillarBuild_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPillarBuildSPRITE, e_stereo)
+!define APPillarBuild_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPillarBuildSPRITE, e_stereo)
+

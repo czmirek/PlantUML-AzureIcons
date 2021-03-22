@@ -1,0 +1,14 @@
+sprite $APAwardWinningSPRITE [70x70/16z] {
+xPQ7SlCm38C5alBG-x_lFx8JN70ktDr-dGbEF1i1QRPt0cYlG6JR2u0gxBsSg0EnqmZKFt0hXsD4LjM3QXXHWSADcWTrcn5vUOt3JP0g82C8RFMw3aOGP9Ec
+8lXQo2RDmGY4J46qdu3V_mYd_yKPj_-v6NImTQiOmUPMSO8jpgZOzsaPOvcwRWOT-rp7YPKzYutDC8qRfkOnZx6_J8u7iXciuu7LAD87qHrNYDcv8M9zyLJ0
+68oS3f4Rgw0HaM8gg3lYYK8TBjqLqu4xN7_IF1t4mn2SEeZfW2TJeSO3zMmwo8VXJAvOqs6X8XQTdBM8UJtuEcVR0QggTsF9v3pKrwm265N07Qwhk3k3hg9t
+1gwIULF5sXbmU3T8epDoPq3Y-2Tsx0oQoX0xWu3E_2xGh6eYJPM3xQWSR4ELmGP8DPRXIA7gO9CHf6uBDXl1giOmOejDFjg8pzl_Vm4
+}
+
+AzureEntityColoring(APAwardWinning)
+!define APAwardWinning(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APAwardWinning_tbg.png, e_stereo)
+!define APAwardWinning(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APAwardWinning_tbg.png, e_stereo)
+AzureEntityColoring(APAwardWinning_m)
+!define APAwardWinning_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAwardWinningSPRITE, e_stereo)
+!define APAwardWinning_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAwardWinningSPRITE, e_stereo)
+

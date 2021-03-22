@@ -1,0 +1,13 @@
+sprite $APBingNewsSearchApiSPRITE [70x70/16z] {
+xTC76eCm20NWXuWatF_0_OZTkyHk_WxtoqAyL4efYTsWtvRoUYchZeOR25qIiJ2X3rTpTMm7UamUB5xr_cYeNgPsfwXtg00O8YdS-h3fa_S-KdLrrvZ742B8
+pB1Hp1WHl3zkyI4573uuUcI4BD8NDglOq3Ol5AWwsxNFynfne5vyUSVjY-216aXffLk4HNtRSe_mNI4xXH3Y8KLj9kW80KXKXQah963n4EuFSPE7z1Ci8gMK
+LW
+}
+
+AzureEntityColoring(APBingNewsSearchApi)
+!define APBingNewsSearchApi(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bing/APBingNewsSearchApi_tbg.png, e_stereo)
+!define APBingNewsSearchApi(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bing/APBingNewsSearchApi_tbg.png, e_stereo)
+AzureEntityColoring(APBingNewsSearchApi_m)
+!define APBingNewsSearchApi_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBingNewsSearchApiSPRITE, e_stereo)
+!define APBingNewsSearchApi_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBingNewsSearchApiSPRITE, e_stereo)
+

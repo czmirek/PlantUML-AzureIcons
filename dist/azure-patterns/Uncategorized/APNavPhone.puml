@@ -1,0 +1,14 @@
+sprite $APNavPhoneSPRITE [70x70/16z] {
+xTU5WSCm38LXcPr4zjj_scFKaIlfkFy0Nvl4Y3yNVKtdGWUw6M40uE2004X6H30wnCumO6SwO6S2uC0qo5YX782idgvCU3mI89laeIITOaTeu5aZEOpS6KZL
+ONySEUewAKjuKY1jOkmhsrsKB4QjikcovpOnctK5-P7CQoRx_9dD_cTi6sIOBao12tEuC14kJF5XDdWiLs6uC0akJFPXgW-p2IPRLi_trfioWQ9Zv4Dt6rF5
+-g5YwlhWReBfkcMe2eOpNPSPE8N9a34_4EjC75Y8LmVE-_MrzSP-VOqCaUumsdHF90ixtckdnIBh45bc7I9BE-1numXDZiAPILDi-yHzev6-c7FhlUT8FpRy
+e2u1
+}
+
+AzureEntityColoring(APNavPhone)
+!define APNavPhone(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APNavPhone_tbg.png, e_stereo)
+!define APNavPhone(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APNavPhone_tbg.png, e_stereo)
+AzureEntityColoring(APNavPhone_m)
+!define APNavPhone_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNavPhoneSPRITE, e_stereo)
+!define APNavPhone_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNavPhoneSPRITE, e_stereo)
+

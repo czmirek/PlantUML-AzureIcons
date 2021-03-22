@@ -1,0 +1,14 @@
+sprite $APVideo07SPRITE [70x70/16z] {
+xTX5biD0303HI7PJ3Tt_j66E558FkxRH-p7Jnwn37r-aJ8ekiwT4LUKU9LNMvU62o9kVQfORIchiAwV3cKFvgf8vwMXnf79S5L-fu33IEAs9fsGkMizQFjLH
+5EnPqoVRIiLeNAyFLc8f2jx29AoIfIJSVwnOLKifhBDs4tQMKl6MMx1JGy5Lr5EwBqjyk_JVHqFuUF6FtVJWiJiRUfn7vgm-UavRi-FZrvTbnR_MDHEvVTsj
+9qVLoJ-K6_S0INKxU74FqDmsov7rZlkH-FSZNVNFxjE5HzFFK2Iri28P22f3WQWoLWWgaXe45Sr0L57uGygaJCgaI1Tb9hc3idM2ojO9Aridh6oTgB9rIb3P
+fkNVVAsOb0K
+}
+
+AzureEntityColoring(APVideo07)
+!define APVideo07(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Video/APVideo07_tbg.png, e_stereo)
+!define APVideo07(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Video/APVideo07_tbg.png, e_stereo)
+AzureEntityColoring(APVideo07_m)
+!define APVideo07_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVideo07SPRITE, e_stereo)
+!define APVideo07_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVideo07SPRITE, e_stereo)
+

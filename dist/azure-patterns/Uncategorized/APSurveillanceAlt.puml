@@ -1,0 +1,15 @@
+sprite $APSurveillanceAltSPRITE [70x70/16z] {
+xPK7TiKm20H17Uv_tpHl2Z_eMK-antE0zMWbCFrSSiyKfwjAPOh1-aHGg2e82Obg6neKoggZbDeb9DHLMtaa8iIgKi2-K5Nj20a8YMejO5C8tO9T8NGBDeNm
+RWTojeKgljXhH4WKp8HaGIWh20br1H4XDX4GAij2jjkO4BfT5XgkKDOvewuAeTizeS5Ej-j2nxSRWIHwYhHRbUD0ffY-a3FgRIqZaONhiX3UZ4ebmxgGzZPU
+EcToOPYUSYnNcf2mJ9RkBD44CofJvAXvhlB4YH0UOQO9sSwkZvG39X_srgslSdwW4o6ylNct5bz879NQdt0ED1DgJhTuhlwHG3QFsdHxcm8ubtVmsoaRNhSs
+nHSoKrOokfsdW6P2qjkn5to6pbFiJhBFyiXBRefzpSVWvvE7RbASVu8-WOPuCGMqP5DmPRIS0aOsAUjqDKZZO0heUJl5BDoncq94va-odKAKHpW5in9C0Qa7
+Km0taxB7nSN5nJq
+}
+
+AzureEntityColoring(APSurveillanceAlt)
+!define APSurveillanceAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSurveillanceAlt_tbg.png, e_stereo)
+!define APSurveillanceAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSurveillanceAlt_tbg.png, e_stereo)
+AzureEntityColoring(APSurveillanceAlt_m)
+!define APSurveillanceAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSurveillanceAltSPRITE, e_stereo)
+!define APSurveillanceAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSurveillanceAltSPRITE, e_stereo)
+

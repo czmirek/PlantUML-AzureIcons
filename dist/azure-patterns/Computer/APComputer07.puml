@@ -1,0 +1,15 @@
+sprite $APComputer07SPRITE [70x70/16z] {
+xTK7WgCm30LG95djRxl_RNVI4oDWdAqfVqhw0rd2-J7zXlnOLuXPjJ7JlGgh1wuItcXG4KELKFwqGfRO9zrLbLbKpK_F6Nr6OSC-im98ZhfkAcI70ygqKcdg
+kg9PlAauJCYoGb4PjMDBYYG0esapx02YLXH0K3LuSqSII2eK0-2BS-TTooY0b9cYNQrYEP-vwpKD0D8hb90hup9tfghk9-YgEaFCAoA-674Pcdxc_EfjQrS0
+EHPw9TxrU5dX1E2qrcFQLAIhlkmnRoZMdN8H1o2h2YNGfeqea1lNTCYq6KaQstTLpTsqqTsxDr-FRoZTev2ZYuuhUXnVte7SzcJAe6Ap3KqJW0uf0MIhP1rH
+14driqCLIVbsee6A1lDMTdah3j_j3uUnLu0VMk6F18AP6s3CR41ZPXfH60lHrrL8LGr0jYu1m5MLIgK-ZrhPXV-UifkLjgGOCu-iRgtiLlVX57BtM5B2tH-k
+qu_Vet7bmNfqcJhhSfcwbzszoJ-IoCCInUL6NlpRVXVrtSVfi1ZYJilAJm
+}
+
+AzureEntityColoring(APComputer07)
+!define APComputer07(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Computer/APComputer07_tbg.png, e_stereo)
+!define APComputer07(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Computer/APComputer07_tbg.png, e_stereo)
+AzureEntityColoring(APComputer07_m)
+!define APComputer07_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputer07SPRITE, e_stereo)
+!define APComputer07_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputer07SPRITE, e_stereo)
+

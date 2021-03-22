@@ -1,0 +1,13 @@
+sprite $APDevopsDeployCloudSPRITE [70x70/16z] {
+xPL7jkGW300jZ5BT_xwJ71xCJwPxgzfJWEBs3KLH54NHMfCt5Tq127r3r8ABx2y_9C5s-MFJ17ln9H1jEn1RrpHpTqrYY8R2lkHm3d8AgPCBaZt1LItHRKH0
+dxyahsXqsIOSykcdd1XFYywrOqyJqqP9Z5BnXo5MSfP0o7A85PybiqQWhLXEIHAJ9kWFB7ruif7DqJwcsD75w8gtVwUwZJ_Q5pBznTq6yhZglh8ew4e771mM
+qPE4MEv6E2oD6vE5XZG_E2r-SZWM-JgpPVbkfHL5KHJ5Rm
+}
+
+AzureEntityColoring(APDevopsDeployCloud)
+!define APDevopsDeployCloud(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsDeployCloud_tbg.png, e_stereo)
+!define APDevopsDeployCloud(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsDeployCloud_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsDeployCloud_m)
+!define APDevopsDeployCloud_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsDeployCloudSPRITE, e_stereo)
+!define APDevopsDeployCloud_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsDeployCloudSPRITE, e_stereo)
+

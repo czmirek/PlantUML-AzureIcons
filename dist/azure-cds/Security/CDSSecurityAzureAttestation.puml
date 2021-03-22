@@ -1,0 +1,15 @@
+sprite $CDSSecurityAzureAttestationSPRITE [70x70/16z] {
+nTU9ReCm3CPnExvu_nVUmQAm6VZgkfNsrxssFn6Je44Ful4LqmiDZMqMEdg6J691qa1y_lQxwTcpXlu8ljgbqAS64ij8ZdFLODiln4_5lgoIev6Cp6mkS5-8
+pUyj97TyRdAnZsmxYd1GJEZghYrW4H1QL59kLc72p4EliPDoZHptOzmm1KNfYDiA_OvhogcHDrAkfEGptb8iATnIb58jHVvPUV-AF26ZgE2ByPg29sFHL1oi
+fwu4qqgB2bwILHKut-Wh3WvHNGbqeEiAlrVHjoXMKgAdH5Ak4wo4WwDMpy03lfw2XqUzWHvaAhTfsfNtWs42yTrOykOaM1m9-D2mOh427zOL1UkjA_1Jnuh7
+JC7mwsMWjNy5N6ivVxoXPDmaXQsfT-VZVDu4tqNy7Idj1e_Om0iC-_mNds0SEmERGq79GmQC3J000IbamEWXWn7Cz10y6pmJj4Ml36Tw9lRaGAJEm6sFpzGV
+HAcJndBmASODTrzl-apTsDmZOhs8TXFV6_HYwYxqUboOo2S
+}
+
+AzureEntityColoring(CDSSecurityAzureAttestation)
+!define CDSSecurityAzureAttestation(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureAttestation_tbg.png, e_stereo)
+!define CDSSecurityAzureAttestation(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureAttestation_tbg.png, e_stereo)
+AzureEntityColoring(CDSSecurityAzureAttestation_m)
+!define CDSSecurityAzureAttestation_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityAzureAttestationSPRITE, e_stereo)
+!define CDSSecurityAzureAttestation_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityAzureAttestationSPRITE, e_stereo)
+

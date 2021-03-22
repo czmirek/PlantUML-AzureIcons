@@ -1,0 +1,13 @@
+sprite $APRelatedSlaSPRITE [70x70/16z] {
+xTY5OGKW30JGm-5g-qzRR_akHxxp1i0boTj64m2NAsiE61Bv8riqGXR87Bk8F_v8cLt3hy0ZLIvOR4NdJSRYr5QAoOm2kunVlXu9PN6BT7LnRNLfzEJseug7
+DKq-bHGmnbL-6sh7yq-4hl6VXogoAuUzkmrhAXV8hN2HlrGh-emiLrVVQVtKwJT0lusFOfhqYCm-EhIFL6sYPfi8ld01p3CRdRzincUJVJfsGSw4zQpSlaBm
+Nwtm6F2sqVG1
+}
+
+AzureEntityColoring(APRelatedSla)
+!define APRelatedSla(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APRelatedSla_tbg.png, e_stereo)
+!define APRelatedSla(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APRelatedSla_tbg.png, e_stereo)
+AzureEntityColoring(APRelatedSla_m)
+!define APRelatedSla_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRelatedSlaSPRITE, e_stereo)
+!define APRelatedSla_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRelatedSlaSPRITE, e_stereo)
+

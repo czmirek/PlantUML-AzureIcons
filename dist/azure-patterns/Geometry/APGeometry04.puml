@@ -1,0 +1,13 @@
+sprite $APGeometry04SPRITE [70x70/16z] {
+xTQ5GKKn44JHbRnO__qYWplinU4KC5dxOf_C8_9CXDSZijsIfQ1e3qGfW-PaauVINgyzWuU8un3X8L8OR6d4tbx1SJzIkRQ70fSYU2hYj249t93W5C5Z4QTZ
+aVZebFyKlkaFlzrihvGV-saKt90aRKWSRqYIbYAEIv4W2n99t8ya3f748P8uHEBvmR9oaltRbNGJ49HkWCSPjx_6Zpx7aOQqjQKRSEmhoyfo2wncxLlIQdpV
+Tj26PD3PohIQeBK8dukCBR8ShbgQbSLwq0zeQePLXBu19O_gz-ay7sSQq-d7MEQM-0ufOuinWKz4_1WZ3Je5
+}
+
+AzureEntityColoring(APGeometry04)
+!define APGeometry04(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Geometry/APGeometry04_tbg.png, e_stereo)
+!define APGeometry04(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Geometry/APGeometry04_tbg.png, e_stereo)
+AzureEntityColoring(APGeometry04_m)
+!define APGeometry04_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGeometry04SPRITE, e_stereo)
+!define APGeometry04_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGeometry04SPRITE, e_stereo)
+

@@ -1,0 +1,9 @@
+sprite $APTelephoneWhiteSPRITE [70x70/16z] xSn10G0G540n3Lx_jaAuu6y1LkjOlRjOB1QBnMAnM2mMYyLYiLWi6m
+
+AzureEntityColoring(APTelephoneWhite)
+!define APTelephoneWhite(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTelephoneWhite_tbg.png, e_stereo)
+!define APTelephoneWhite(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTelephoneWhite_tbg.png, e_stereo)
+AzureEntityColoring(APTelephoneWhite_m)
+!define APTelephoneWhite_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTelephoneWhiteSPRITE, e_stereo)
+!define APTelephoneWhite_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTelephoneWhiteSPRITE, e_stereo)
+

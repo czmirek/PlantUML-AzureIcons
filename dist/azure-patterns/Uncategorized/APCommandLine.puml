@@ -1,0 +1,12 @@
+sprite $APCommandLineSPRITE [70x70/16z] {
+xTV50OG034JHx2AH_ll5EICJV7u1x_vbxg-2z_VG32H2SQHFOMH8GGHdweWCHh_5aAdFPCZOlPXV2kFdC6HmvRu84Kj1v4f47u8GqTiZHF2Rm1bDkYoSqQJx
+n1cLfyN-vRge354frYLTBG
+}
+
+AzureEntityColoring(APCommandLine)
+!define APCommandLine(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APCommandLine_tbg.png, e_stereo)
+!define APCommandLine(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APCommandLine_tbg.png, e_stereo)
+AzureEntityColoring(APCommandLine_m)
+!define APCommandLine_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCommandLineSPRITE, e_stereo)
+!define APCommandLine_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCommandLineSPRITE, e_stereo)
+

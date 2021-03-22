@@ -1,0 +1,12 @@
+sprite $APSquaresClapperboardSPRITE [70x70/16z] {
+xTOt0eKm38DX-LNW_WTcLapl2FrZ4dyJ9NX8BlvKO56lXdhfANb5KOal5KkKl2Af52jNKj8xlKX1Ia_1Yy92XHDKSfBAbmhzl_sq5HGhL_dMMR5Y9T_Pfgpe
+V-lmffQkVAZ0efNrYXKhLl9zVSdADhK
+}
+
+AzureEntityColoring(APSquaresClapperboard)
+!define APSquaresClapperboard(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Squares/APSquaresClapperboard_tbg.png, e_stereo)
+!define APSquaresClapperboard(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Squares/APSquaresClapperboard_tbg.png, e_stereo)
+AzureEntityColoring(APSquaresClapperboard_m)
+!define APSquaresClapperboard_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresClapperboardSPRITE, e_stereo)
+!define APSquaresClapperboard_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresClapperboardSPRITE, e_stereo)
+

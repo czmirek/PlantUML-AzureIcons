@@ -1,0 +1,15 @@
+sprite $APOffice02SPRITE [70x70/16z] {
+vTI7TeCm38LX3JFV_tspb7DFh810TdV_xk6lHePI73EBC3ErngBb9PKy1Q5AEMMKtOHEfYLC-lQ1fCz0dBqOlPNOZaFSsRAu7z9EN1F1yGSCdxWn-DMXhRnn
+w6YCK5Z4g3l58DbbDFEeC1XnlDVZT7FZESGly5kXi_76PgflyN0GLmmGhMObwq7FN_C31fjHyBVTL3YdSBqCuqufs8mwCwTWeIDp2bRAomM9LoPhMTTbig3K
+0zLgNquXQxfvP3a5IoimhH0cYejhKGHhuNsJWi4e5EfG2d6FGf4IjAEGMcsANzoc-0Jfz0nFm3nOgwM2o5Nscj-cMmhwuOgGJ_w2meYWp6ATLhGWAEWtAl5S
+_l7zeWLzcJ98lpAjjyOjXGL1mV-wMbdig_daT7tOYJNrABTFbk7nKsvNXlidH7hxe6-AA8gVWD6MGqcV4VOoCz-d8qqAZWY755rHh8phC-rwZiRbiHFjVHeN
+N4wpWXyvHH6oNrqcwupYmw-YtwFqTmK
+}
+
+AzureEntityColoring(APOffice02)
+!define APOffice02(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Office/APOffice02_tbg.png, e_stereo)
+!define APOffice02(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Office/APOffice02_tbg.png, e_stereo)
+AzureEntityColoring(APOffice02_m)
+!define APOffice02_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOffice02SPRITE, e_stereo)
+!define APOffice02_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOffice02SPRITE, e_stereo)
+

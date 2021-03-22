@@ -1,0 +1,9 @@
+sprite $CDSCommandSubtractSPRITE [70x70/16z] xS6100000CCWXFlR7cJLuW00003W
+
+AzureEntityColoring(CDSCommandSubtract)
+!define CDSCommandSubtract(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandSubtract_tbg.png, e_stereo)
+!define CDSCommandSubtract(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandSubtract_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandSubtract_m)
+!define CDSCommandSubtract_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandSubtractSPRITE, e_stereo)
+!define CDSCommandSubtract_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandSubtractSPRITE, e_stereo)
+

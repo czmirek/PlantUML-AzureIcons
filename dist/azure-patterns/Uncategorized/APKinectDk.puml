@@ -1,0 +1,13 @@
+sprite $APKinectDkSPRITE [70x70/16z] {
+xTG5aeL030JGnc4IwFlVTgTmz_MyhsKT0GQ_c376c3ZDhygI26EXy9ugGo_dVMNRJwXziiVBcdOADjJLfEH58O2exSmDBZOa0AJvvyPAZXndHi0mpLfCLSSh
+T-M8cd7cs91JGofIUcv1Xv3ZcAfEgTpIl4NXI9gcuZ_A5j9XAulDR6uSGE4_Rf8YPrBqACMjaFcWSZ3HhHJdF_B-HC-tU-zAnt7i_6UOA7dbhekvsWmRUYQ4
+vQcdKPIx2a1MOafU4hzrIY5_uyHiPchSEhrZD8GF9EWaoflo02DXbj-GuXSpnXZp0G
+}
+
+AzureEntityColoring(APKinectDk)
+!define APKinectDk(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APKinectDk_tbg.png, e_stereo)
+!define APKinectDk(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APKinectDk_tbg.png, e_stereo)
+AzureEntityColoring(APKinectDk_m)
+!define APKinectDk_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKinectDkSPRITE, e_stereo)
+!define APKinectDk_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKinectDkSPRITE, e_stereo)
+

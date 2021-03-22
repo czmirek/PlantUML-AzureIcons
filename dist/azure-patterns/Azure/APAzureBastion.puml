@@ -1,0 +1,14 @@
+sprite $APAzureBastionSPRITE [70x70/16z] {
+rPS9SiKm24E_8HZ3_U_RlLKNk_bONJMxmxnH8iEG2oFnTBsGEYBlr2b6ytoK4H2DV5RRXdX2iicGI9vY-LgnPsIyWGpU21Agvmk5RESB-NQ-K2YVRthxai_A
+6ndoxKQQCFaYnr0cNxXMAbzPzAYNyktprvOtaEFyOaunKilN5Y4KBzgOJnuhzk-Opnv7lWnc5Fit5fXup5Uzt7F-wlXu_aAZZEcpHyvXTCfUOXO3mBA4qOHq
+Pj8e30uPZ1Onbf3iOpeeCSK8WO79e30TXqnd0jCOZEEGmOnzZErZ961cIlSY9buVjq1dbZ2se1SmUA4ofdb_gaTfkS4rdWeq0uN5pdGK88WYHWC5RUdsf1Vy
+TCS_dyGIroxvVNtvhB1RTvGjZSHnvHJIYP7IRdsC7FR9dm-Cr6J4RZqrOl_To16yaUPVR2Ha4q8OWGWZq44OWPmmCXiHZ7Jn_rNFENeZ8RS
+}
+
+AzureEntityColoring(APAzureBastion)
+!define APAzureBastion(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Azure/APAzureBastion_tbg.png, e_stereo)
+!define APAzureBastion(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Azure/APAzureBastion_tbg.png, e_stereo)
+AzureEntityColoring(APAzureBastion_m)
+!define APAzureBastion_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureBastionSPRITE, e_stereo)
+!define APAzureBastion_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureBastionSPRITE, e_stereo)
+

@@ -1,0 +1,9 @@
+sprite $APCheckmark08SPRITE [70x70/16z] xS470G0W40GW6rp_jiRu1MITDm000000QUG3
+
+AzureEntityColoring(APCheckmark08)
+!define APCheckmark08(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Check/APCheckmark08_tbg.png, e_stereo)
+!define APCheckmark08(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Check/APCheckmark08_tbg.png, e_stereo)
+AzureEntityColoring(APCheckmark08_m)
+!define APCheckmark08_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCheckmark08SPRITE, e_stereo)
+!define APCheckmark08_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCheckmark08SPRITE, e_stereo)
+

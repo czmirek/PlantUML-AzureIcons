@@ -1,0 +1,12 @@
+sprite $APPortalAltSPRITE [70x70/16z] {
+xTP50eDG34LHN69l_wkjkxT9FMU6NHm-dY-bbEnnsAB7VNQbgmxGS3YdkrvfYmFK7yvf7PMiP2KhNHbHwT44L1fW2BWk0AHsLnGpe_TRnvWpvtTNiSHNAdrx
+W7OnLlJUwt9wjnPHKVPK33D2CvwA0c3oLdWLyLK8GW4L9KV5-xUF6tbyVoKh7oAbD0K
+}
+
+AzureEntityColoring(APPortalAlt)
+!define APPortalAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPortalAlt_tbg.png, e_stereo)
+!define APPortalAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPortalAlt_tbg.png, e_stereo)
+AzureEntityColoring(APPortalAlt_m)
+!define APPortalAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPortalAltSPRITE, e_stereo)
+!define APPortalAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPortalAltSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APPillarFutureSPRITE [70x70/16z] {
+xTC56jim38PXI_fD6jt_j0KtplHq8TdZxIk4t_2NBr_2OLHAEEv1d2f5DKyhKHzXKc5zLYULhAqufR0kqOoIkn8d5D9UdL2WQpAk55rBuuf-hGmhegPX9Qf9
+HfMiflXh5RNbxwlyLuf3-JEUbwAcv5CiOfCX9UbRDA14VQ-IMs7zjknMYcu4fmBTgZgLefk9Is7TBhkKg3kvbAmxiKUfkbFqAFhxAKbx9Gqh4ZfJ9PH1HLQk
+RLo650bMQOnVQUjpqLQYnhYLzFWde2kGvtJrAGrX034NhINX4JqPbq8DCNKcU9Gjf35U1JsHTSoj29ROZ9DNWL4OI-9KQ5E1K-5jXJmAiMmhp7HLwO9HR799
+0ROKsmK5vmfE5RgYqBv2BRcY2BNU5RlnkM8vep3WKMoyAenn1RmeXACa1C5Hz58OK_5B4KmbBmMJVPzZ-PxN9M0gyxoCnrsPOTY-ZImOI1v6K-u
+}
+
+AzureEntityColoring(APPillarFuture)
+!define APPillarFuture(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPillarFuture_tbg.png, e_stereo)
+!define APPillarFuture(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPillarFuture_tbg.png, e_stereo)
+AzureEntityColoring(APPillarFuture_m)
+!define APPillarFuture_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPillarFutureSPRITE, e_stereo)
+!define APPillarFuture_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPillarFutureSPRITE, e_stereo)
+

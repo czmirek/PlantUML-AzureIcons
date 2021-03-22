@@ -1,0 +1,13 @@
+sprite $APManageSPRITE [70x70/16z] {
+xTLNReKm44RXQVRhtVzgqvCZHmOn0wdNPm4VugVuDcqbtaxd86Sg8AlLgd_g1vN-UvJ-UvIUKiAlK5Hq7w4zHCJEAYPFnGJ9A05IKa3yA38gFeoYhQ84LxSC
+CYhSX3DALc7GmFFjOgh0oCUR4hQTpnJkX6MJ2inRhQx0H5tXnJ_wCQDC6CiYA33Q2ihHUb69AnGJ7v2IulphYWeV4qX1uMCgA_ocG19AZAzmAoacCNpSXn0K
+RYA6PGiAFrkMtMsYmB1i_iy0mx851OPbqmeBisn1WM7Pmaa2eqV_22WJ9YvG8ecWRDT_ZzA_KMbUHoZ4pokXjschHm
+}
+
+AzureEntityColoring(APManage)
+!define APManage(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APManage_tbg.png, e_stereo)
+!define APManage(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APManage_tbg.png, e_stereo)
+AzureEntityColoring(APManage_m)
+!define APManage_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APManageSPRITE, e_stereo)
+!define APManage_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APManageSPRITE, e_stereo)
+

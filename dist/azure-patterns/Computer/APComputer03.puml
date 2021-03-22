@@ -1,0 +1,12 @@
+sprite $APComputer03SPRITE [70x70/16z] {
+xSp5WKDH34FHcKIMOUF-kmqpC-b-V7Jwxmvr-pW3Pn_pWncu-j3CQbNt-EK0nfyOVx8EH02RMxSLhfRYa6ApFJoif86pdLQ72i37dmHuGBcym4PlhKYH8aMA
+52bIf4YH8YLZFHyhjvVtKAH8aUAtn-w_E_G1YfGH
+}
+
+AzureEntityColoring(APComputer03)
+!define APComputer03(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Computer/APComputer03_tbg.png, e_stereo)
+!define APComputer03(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Computer/APComputer03_tbg.png, e_stereo)
+AzureEntityColoring(APComputer03_m)
+!define APComputer03_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputer03SPRITE, e_stereo)
+!define APComputer03_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputer03SPRITE, e_stereo)
+

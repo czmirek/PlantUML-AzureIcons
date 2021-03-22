@@ -1,0 +1,13 @@
+sprite $APFlowChartSPRITE [70x70/16z] {
+xPO54i8m50M_nRZ_WQ7UDvaVtBCuszbw6tBeT3e1uCgpcj0v-0088P8F0-6kIbZ-ptnxnJQHRwhmy2ex4swfg105K3TLJ2Y1uiihmJQaWD8hAZfZPfn1oKrh
+n1JltovyUkrDllbuIM1kgk014-uu0tXUcc9tdOsaCPSKc2v2hQ6WyL4LvkigFA8cFB1S-Kve7VAL0OCMcn52QkLNnCoPjb9-XV4dK2ctehP3QKPaU4ErS-sA
+RUiYvAZ1LHNp45-Pj2kwK5TqxvwpHf0LV-jAQ-lY7mJuggwmTqo0aZCLOeW0hA3yoe2ecGhLeF8hltYjymaZCRdZkX3rXyPrVLpNntLzN9UoEwxpwNIE
+}
+
+AzureEntityColoring(APFlowChart)
+!define APFlowChart(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFlowChart_tbg.png, e_stereo)
+!define APFlowChart(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFlowChart_tbg.png, e_stereo)
+AzureEntityColoring(APFlowChart_m)
+!define APFlowChart_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFlowChartSPRITE, e_stereo)
+!define APFlowChart_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFlowChartSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APSmallLargeSquareCircleSPRITE [70x70/16z] {
+xTC5WW0X28LXTAJU_U-xtQiCR8VV0NuJIbEi_PhAhhH-Ab7fuvGbAxkoAxkoAxkYDg6tWaf2frj_eR8hky8YAiBlgR0vRhdo6oliUChuBHN5IrAkDCDhMgqu
+PhHMCSn9fS9OSCvN6fOiNr6iSRg2W6Oh1mAUhGWYdAmO8fAiE2AQhA1UgU_bI-z5FwGo41d9IaF0afNuOZHT6T40v2hnPhYVQNIlOq6fui2KKGrZmXiL3RnY
+ZSeEmtD2WLp7fT5RDLPpkCb1PPS
+}
+
+AzureEntityColoring(APSmallLargeSquareCircle)
+!define APSmallLargeSquareCircle(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSmallLargeSquareCircle_tbg.png, e_stereo)
+!define APSmallLargeSquareCircle(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSmallLargeSquareCircle_tbg.png, e_stereo)
+AzureEntityColoring(APSmallLargeSquareCircle_m)
+!define APSmallLargeSquareCircle_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSmallLargeSquareCircleSPRITE, e_stereo)
+!define APSmallLargeSquareCircle_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSmallLargeSquareCircleSPRITE, e_stereo)
+

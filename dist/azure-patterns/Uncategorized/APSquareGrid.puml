@@ -1,0 +1,9 @@
+sprite $APSquareGridSPRITE [70x70/16z] xTRL0KCn241HY8Vz1sv_dxlVCq0KinS3KE9CnKOacIb_S9NSe2AQ6-QjOWrEn5d3iQkm2gkmoloSVbwLqWRvSmtpLWaDsddTHwt2Agp2AbtCTJNFLEt50Fm
+
+AzureEntityColoring(APSquareGrid)
+!define APSquareGrid(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareGrid_tbg.png, e_stereo)
+!define APSquareGrid(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareGrid_tbg.png, e_stereo)
+AzureEntityColoring(APSquareGrid_m)
+!define APSquareGrid_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareGridSPRITE, e_stereo)
+!define APSquareGrid_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareGridSPRITE, e_stereo)
+

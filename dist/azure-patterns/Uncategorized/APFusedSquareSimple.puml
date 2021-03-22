@@ -1,0 +1,9 @@
+sprite $APFusedSquareSimpleSPRITE [70x70/16z] xSmf0G0m40EmVMZ-1P-4eh94G7xsijPYiLWi5el5Oka306
+
+AzureEntityColoring(APFusedSquareSimple)
+!define APFusedSquareSimple(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFusedSquareSimple_tbg.png, e_stereo)
+!define APFusedSquareSimple(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFusedSquareSimple_tbg.png, e_stereo)
+AzureEntityColoring(APFusedSquareSimple_m)
+!define APFusedSquareSimple_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFusedSquareSimpleSPRITE, e_stereo)
+!define APFusedSquareSimple_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFusedSquareSimpleSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APFallingGridSPRITE [70x70/16z] {
+xTOt5W9130JHRedxdndImgDeNgEVhQjan-bFh09hvW8TMIdUScJ5CAoOTogoue9XfNdhf8eeik86pIgYo8eAFAo88Yiow226vxS-lvIrrcrbArifi2GNwERp
+It4QwkcPGGsML0rPusKhMzdA5G
+}
+
+AzureEntityColoring(APFallingGrid)
+!define APFallingGrid(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFallingGrid_tbg.png, e_stereo)
+!define APFallingGrid(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFallingGrid_tbg.png, e_stereo)
+AzureEntityColoring(APFallingGrid_m)
+!define APFallingGrid_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFallingGridSPRITE, e_stereo)
+!define APFallingGrid_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFallingGridSPRITE, e_stereo)
+

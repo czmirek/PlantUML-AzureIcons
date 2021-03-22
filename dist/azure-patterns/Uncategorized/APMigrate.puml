@@ -1,0 +1,14 @@
+sprite $APMigrateSPRITE [70x70/16z] {
+xPO5hiD034G3ovl4zp_jByCK5iPVs3nnuKcJoFR8JxEpa_mqw0aYYn-rbbbEB4ufskH2Lec2tCbE5-bEjdGa956YA4V20YB3HRB3w9z5MpH4f3mScVmAehax
+qd1X2Y0AxI9pYNHZ1j4QMYT4ZYHuL65x5lcf9nA8ufC8HgqQ2J4eScDF91J9ZVge9OY4c8IYxnOhHypthr5aIv7YKC1c7BMlaRQXZ4EHwOW4Z2wNH-sYhsEJ
+54Oj2mUEcXC26BN_isHUCQkVRfZrRneKjq0Lnwk2cG1K66eQKQ7U3CcejrJvQjhQnaH5Hw0P5DbgBmagoe7mgX6T9hrVMA9VoTkr9xgUWUQ1nv1lGLnr5MG5
+HKSWh0SK4JOVomQRZyJ0vcE9iBPO0YXOvAVPsJa
+}
+
+AzureEntityColoring(APMigrate)
+!define APMigrate(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMigrate_tbg.png, e_stereo)
+!define APMigrate(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMigrate_tbg.png, e_stereo)
+AzureEntityColoring(APMigrate_m)
+!define APMigrate_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMigrateSPRITE, e_stereo)
+!define APMigrate_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMigrateSPRITE, e_stereo)
+

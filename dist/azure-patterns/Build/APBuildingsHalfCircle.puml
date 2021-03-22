@@ -1,0 +1,15 @@
+sprite $APBuildingsHalfCircleSPRITE [70x70/16z] {
+tPG7sgqm24G3awBkVx-lUkTJB2JuztDxuSYWIRf1L07a341LKW15jW1Z9g72eX9pM201HyoZkGDr6ibzG0OR0O2XTc3gLH8HjR_walEU5Ru67Ra5ZWRMuNjm
+9z7kQm7NFqboaAi3ohdUJvMsT4jiVZXVTchq94_gvbY2tM2rE2YFl6rVTv9K5eUo3o1iZjP-2nDWBqrZbiHcjauTjUYsaAqCMKmbZUCMPIG64cEPst_cpLjZ
+4JPW0z7Iqd_QvktUmbhGfm4B8_6D12niGQWBM1X9i4QBMTPgVRr6B1mCyljPxFNomhE8jPnZBMBEJSXY4ILriTX4GeobBTVOwTPCz6jRoe4MiAG3vVjRf95o
+iXWwBRgGHelX6rX-zfak136BdUv7MMghHHzQolzBUPBZT9M8jmBcPKNySsIXfUwwZbgcl-yK2mkZbfc5uUakJoqSRaDPPG6BcMvnzxfhIvvMoVHiDVw_VkhJ
+DLqOvyqjxS1aLe1lwU5RM7u3
+}
+
+AzureEntityColoring(APBuildingsHalfCircle)
+!define APBuildingsHalfCircle(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Build/APBuildingsHalfCircle_tbg.png, e_stereo)
+!define APBuildingsHalfCircle(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Build/APBuildingsHalfCircle_tbg.png, e_stereo)
+AzureEntityColoring(APBuildingsHalfCircle_m)
+!define APBuildingsHalfCircle_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBuildingsHalfCircleSPRITE, e_stereo)
+!define APBuildingsHalfCircle_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBuildingsHalfCircleSPRITE, e_stereo)
+

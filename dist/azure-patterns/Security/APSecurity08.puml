@@ -1,0 +1,14 @@
+sprite $APSecurity08SPRITE [70x70/16z] {
+xTW7Sk0m34FHbGIP0ZRb_gTDxudfXlJy0xpnk9Fd_moTVvJIsd6bXXJrc592Dqrblr933qNTfs3eMQDjLagdNiLUDYW5ePa2PPLI-r3Qw3LNQWzgHGpKMGNQ
+4FwKFsKcEXHE1eNennN2e106XJ0eX44X30fXK0Y3GXWKmg0G1eLmA77NhH9txRrtEvv4Xq8P5CgWK0PboA2434h8e8GCIiYWX0nAoA2434h8eF1R_taqRQYz
+LhOV398_-4gjYZMT0yhGYaPPcYP2Yqqh9XieZrWr7rMkEYMvaf-Ss33nJPgfPnFVofF3jd66hKmkSAxa9sTQDmdd9mSxPtlCNE14oK_EA4Us5UFLAKcK_EIm
+7TxYGAo6NL3ziBtK9G
+}
+
+AzureEntityColoring(APSecurity08)
+!define APSecurity08(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Security/APSecurity08_tbg.png, e_stereo)
+!define APSecurity08(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Security/APSecurity08_tbg.png, e_stereo)
+AzureEntityColoring(APSecurity08_m)
+!define APSecurity08_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSecurity08SPRITE, e_stereo)
+!define APSecurity08_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSecurity08SPRITE, e_stereo)
+

@@ -1,0 +1,9 @@
+sprite $APLearnSPRITE [70x70/16z] xS4n0G0030AWDR1_svNG3yWGLm80002G8Hu
+
+AzureEntityColoring(APLearn)
+!define APLearn(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLearn_tbg.png, e_stereo)
+!define APLearn(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLearn_tbg.png, e_stereo)
+AzureEntityColoring(APLearn_m)
+!define APLearn_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLearnSPRITE, e_stereo)
+!define APLearn_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLearnSPRITE, e_stereo)
+

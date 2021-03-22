@@ -1,0 +1,12 @@
+sprite $APDevopsWebHooksSPRITE [70x70/16z] {
+xT3L0G9038FXNaxIxhymlE84btm3_9Lu0ZCpitbI4ofr4fJAmb5BgymuQhwZmdaKjSeft_SNlU8A48FtLb07Y-WLr1RKoc4ayo2ZLbWWKNbVfI78WBhB8J8q
+bTmtz0efL2G_M07YbvYPsGO
+}
+
+AzureEntityColoring(APDevopsWebHooks)
+!define APDevopsWebHooks(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsWebHooks_tbg.png, e_stereo)
+!define APDevopsWebHooks(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsWebHooks_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsWebHooks_m)
+!define APDevopsWebHooks_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsWebHooksSPRITE, e_stereo)
+!define APDevopsWebHooks_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsWebHooksSPRITE, e_stereo)
+

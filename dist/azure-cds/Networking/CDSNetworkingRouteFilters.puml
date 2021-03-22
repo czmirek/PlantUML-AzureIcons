@@ -1,0 +1,14 @@
+sprite $CDSNetworkingRouteFiltersSPRITE [70x70/16z] {
+xTH7WkKW38JXaaNK_Uyxqu7YHJbtvjyu0DzEuBiq6esci3OLU8Mq8NYbBSbtKo9xfWHjXGKbMMjwLAxaCAEGMLPqHY5pN54xg10vhAWTLuYe7b680BfVkI20
+2cIN4korAcZrjyGcQKt9BJU4MLKg6yf4g9ZfagB2kaA42fdiXvxcbXKYNJ7TeUIhYf7Pg3nDJr5CJr7g6KgLGmeHR5Hol8x8EYLqfGgk8ZAdfCWoirk6o4Mv
+caOVjbk6Nrr9w8LPvPhXUrSYUkeYMftxPPCooJkZU2c1RLKWbGDORBz29XGxea2C7L6WJvJIIkY5uZM1ZADazEA2Wk8g9OPMp0jACbTPZags4nI9BSMbl4rn
+YXkG32_HjBOW-EwDHgF_
+}
+
+AzureEntityColoring(CDSNetworkingRouteFilters)
+!define CDSNetworkingRouteFilters(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingRouteFilters_tbg.png, e_stereo)
+!define CDSNetworkingRouteFilters(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Networking/CDSNetworkingRouteFilters_tbg.png, e_stereo)
+AzureEntityColoring(CDSNetworkingRouteFilters_m)
+!define CDSNetworkingRouteFilters_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSNetworkingRouteFiltersSPRITE, e_stereo)
+!define CDSNetworkingRouteFilters_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSNetworkingRouteFiltersSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $CDSComputeVirtualMachineSPRITE [70x70/16z] {
+xSzLiXr138FXjkI6oVxtc-IY1njy6FvdrLUb8ASNGaod5qCwHpYBecTHU5lbhSGpA162fiDSBL4-OihLM3LKVjBaLIB4GdGfYMAPCwQOOJ6DAScG7aOF510R
+0wgZ2ZOErQE0N1e-1I3iZ5Cn1_fJzYa0XTfKocu95kTAsQsj2C1J5H41p74fyX4-eqF9tuOf05sAh1HmN97VO75CAN5NYQLFiRXHRDjMB9XYRuQLal2hC9LA
+EbNJRoKsPbEzGW5O9fzYPSsJvL2igoZn0PItykSCYMWyBCzByIYLK0bbdWP7PrEOv_4Pb3JFg-X2KQSI5qhqAil4XI0keqlHTHw46uN3XXXYKOO8y2ZqGc0z
+z7sn_0pOBBIJTg6pT_y
+}
+
+AzureEntityColoring(CDSComputeVirtualMachine)
+!define CDSComputeVirtualMachine(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, e_stereo)
+!define CDSComputeVirtualMachine(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Compute/CDSComputeVirtualMachine_tbg.png, e_stereo)
+AzureEntityColoring(CDSComputeVirtualMachine_m)
+!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, e_stereo)
+!define CDSComputeVirtualMachine_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSComputeVirtualMachineSPRITE, e_stereo)
+

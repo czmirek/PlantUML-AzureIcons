@@ -1,0 +1,12 @@
+sprite $APAlertExclamationSPRITE [70x70/16z] {
+xTU50SCm44DHNqEwxBzlKMMkNDOVu0LDCQbGT6E5klSfLX8i5GKjWnKhLgnOiMB5oYCx3-_h05qPsdc3e10X8oZPiX_PO-fFnFeQRvTCB_zr2QJFHynAETSm
+7eLoVuEAa14HXZqaYiWGqHWYCfDHf41434J4G4GhRa1c
+}
+
+AzureEntityColoring(APAlertExclamation)
+!define APAlertExclamation(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Alert/APAlertExclamation_tbg.png, e_stereo)
+!define APAlertExclamation(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Alert/APAlertExclamation_tbg.png, e_stereo)
+AzureEntityColoring(APAlertExclamation_m)
+!define APAlertExclamation_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAlertExclamationSPRITE, e_stereo)
+!define APAlertExclamation_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAlertExclamationSPRITE, e_stereo)
+

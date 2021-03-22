@@ -1,0 +1,12 @@
+sprite $APDevopsLanguagePlatformSPRITE [70x70/16z] {
+xTI56GGX34JXa8_P7DD_l-Usxfw_W8SZP-ISSq7pP10mnzQjc7pf1YfsfwChl1jVmLtOmBxavv9GfhttfGfwdr6oeaHCi2-sS8LFs4H5dyBw-vBiwpAyaZEm
+eiX8VCL1bJib9MU35QyqMx8ID8-CcXDa059bb80xCgl_-7jk4KPKx2lAoJddt0q
+}
+
+AzureEntityColoring(APDevopsLanguagePlatform)
+!define APDevopsLanguagePlatform(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsLanguagePlatform_tbg.png, e_stereo)
+!define APDevopsLanguagePlatform(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsLanguagePlatform_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsLanguagePlatform_m)
+!define APDevopsLanguagePlatform_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsLanguagePlatformSPRITE, e_stereo)
+!define APDevopsLanguagePlatform_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsLanguagePlatformSPRITE, e_stereo)
+

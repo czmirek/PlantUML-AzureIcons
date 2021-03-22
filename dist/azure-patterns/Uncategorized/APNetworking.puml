@@ -1,0 +1,16 @@
+sprite $APNetworkingSPRITE [70x70/16z] {
+xPLNaYCX50JxcLuZU__Jhj-AU4fL2CNCpvZyfPLGG8dhGUG6Md0iMbpVjQLVnR9tFc79TfQkS1OwlAMxLYnHRIt_XlAXvU-7vSxetq3GqWWJOtTJQAcjxGbn
+Sp8v1gzNRfjY0SsoJMHPycYb3osCHJqjBN0jQml1CB4BrwFi6xY-F0XOH3MHOy722yeDyPPnVeY5qRflsN4gmJ0YTsFXX2teTnQ6zvssbiPX6ajsmu9ErxRI
+wHndz4s4JbUnIh0UyLMmqoCMm3-GQIDZCSnwf_bjq4yBvmptvq9B2VwaIY3Ct5r_iKZPDhO8nX8CGmirYkL76nRCXaud3c27nNtS0eSEoo2C1L6DHHMnbhdj
+zotZXiE26vpE0WyjMk-qXC33YDTUa-1LOndRbIxT22sCnUVRMrn_-Vz4nhvmuhtoB_SkPGhVnfnN0XjYEyrO1w5ywnR5EWZKqLl0GM38MJgViOJlT2vRggq5
+M-WisUqiU6wS9Rgz9KAnQ64JobZuIjEYaiqpMdf5uNZKHiRojVOMn7ArfiN5yc7yQyzONmNCzhNdp0U1bAv7Y3Ki26CjanWMXLcty4E5MRFuDZvl-RIasCWk
+C8JN_iLSVm8
+}
+
+AzureEntityColoring(APNetworking)
+!define APNetworking(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APNetworking_tbg.png, e_stereo)
+!define APNetworking(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APNetworking_tbg.png, e_stereo)
+AzureEntityColoring(APNetworking_m)
+!define APNetworking_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, e_stereo)
+!define APNetworking_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNetworkingSPRITE, e_stereo)
+

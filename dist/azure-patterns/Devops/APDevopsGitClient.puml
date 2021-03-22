@@ -1,0 +1,13 @@
+sprite $APDevopsGitClientSPRITE [70x70/16z] {
+xTLLWeH038JXIbhh_WTUwreVJLxpZm_muO1BLLLLLLKdsG5iBiiWXx7DRN6aewSO8KWmGYQGP3gvs5ECffpimnACjiaawM5620R9WI3pYS2bH1WXv-iERc8_
+YBxxP1_QDlx1h8UKePMGeaty-R-HzfWoVocVctW-fJZ5I76IxUarGXSZ1JvQR2U9iSbbiJqjHf_iKKICb33ooTZYiZWYvXH6n6GHCLb4J1h9tqbKEmS_DkTb
+fAggggfU0G
+}
+
+AzureEntityColoring(APDevopsGitClient)
+!define APDevopsGitClient(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsGitClient_tbg.png, e_stereo)
+!define APDevopsGitClient(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsGitClient_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsGitClient_m)
+!define APDevopsGitClient_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsGitClientSPRITE, e_stereo)
+!define APDevopsGitClient_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsGitClientSPRITE, e_stereo)
+

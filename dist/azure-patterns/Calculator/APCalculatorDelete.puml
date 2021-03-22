@@ -1,0 +1,12 @@
+sprite $APCalculatorDeleteSPRITE [70x70/16z] {
+xTO5SWCn38LXnJIM8_lT_xPLc1Ra3XNqXM7_PS05VQe3BqQbJtX17nWVUBfIiA3CLevOS9oj202fJmI0VATIwKdzPPNuxbJX-8HFbVWE1YwfhgyjcJG0FIcy
+UAnSYyTgXrUyylmXGQNRW9QALxpY5QzunIjUyOfNM4IAlaPHaOYAllAVkSRqIYEJjbwfK6G2nSkL32NLGA3oSeKw9dHQgKHCY6iLoZ3Bj5gX0myO33xGI-KB
+}
+
+AzureEntityColoring(APCalculatorDelete)
+!define APCalculatorDelete(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorDelete_tbg.png, e_stereo)
+!define APCalculatorDelete(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorDelete_tbg.png, e_stereo)
+AzureEntityColoring(APCalculatorDelete_m)
+!define APCalculatorDelete_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, e_stereo)
+!define APCalculatorDelete_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorDeleteSPRITE, e_stereo)
+

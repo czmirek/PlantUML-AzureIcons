@@ -1,0 +1,15 @@
+sprite $APFhirCloudSPRITE [70x70/16z] {
+xTLPUkim20LWE209sF-2hytNgeFaNYlAe_ysSt84UABtUJmOODgYrIDv5NeDCgBpmhICMmmABLAF2GEjA751wRuQbtGbP3z6ua-WEzZZJqO4LHLUcUp8FX-L
+hddSvcMrb3ddtLAIWoOGQRCQZLL6enhB6Wqirid5SBtegKPJZrCjdi_pWsB_wOb_Z0mXrF8riuTI2-FPGOAh5BI3znJq53Gh8BiuVR7MLbLwYiTfafB7TPct
+LAExawBn0oLut4vnDr2Rf63S8Hc76a98t5COu67VvEcnuqnyA274YNeASOQCAIN659WVpexyyACZmx27zr8Mfbj-Zy1pAeifpcp3aQGnMDnVDCUoccBC_hEX
+UItuID6Fsi_NXIsC9SEv_Ju042FtyT6jl-4sdkrYZr9giQDDheORfrtTgcG_fj1tOl621lf5sbAGjoBqHey7dp3Y4_qbVoQYDua0-1K9qHS9KyUzYaM2wJW0
+KVbqsSo9QG4dUgF7uny
+}
+
+AzureEntityColoring(APFhirCloud)
+!define APFhirCloud(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFhirCloud_tbg.png, e_stereo)
+!define APFhirCloud(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFhirCloud_tbg.png, e_stereo)
+AzureEntityColoring(APFhirCloud_m)
+!define APFhirCloud_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFhirCloudSPRITE, e_stereo)
+!define APFhirCloud_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFhirCloudSPRITE, e_stereo)
+

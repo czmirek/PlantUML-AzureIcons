@@ -1,0 +1,15 @@
+sprite $APFunction15SPRITE [70x70/16z] {
+xPHBiYmX24HHGONzx_T-Sq8ezMo9DxfzHjtroJWcfVGVA9Cf3vjfhvHasZT9eMeW9JJCffhbX8gP2SlC2V6tmJSZ8wHcdN-v4qAtok1E2DqE1hT2w1PS2x5R
+q4wed7MhdNVqOo5yjpg47uMa_ADRC24KDJJQKxSW9IG6KaAudHDg1Ww4UYY4RdD2w3OfX6uZ8JuJGl2hGWDtwzBjkH3cFXi1XjqBGlAReUosKTSp8LzA9yUn
+a610VezV22b-21VQKbnE3CuYsbE_btpSKAKzxiECGSlHWjmCGZ3oHdkQ_wO2b0CLiDafyNhYRi6pa30_TxlI5w6vBWZRiaGf48gxNLEeDDvHsuYwzIbXDwYn
+YCRT-fH023L2g5LS35E0O0hE7KBpsxVXOfY2YqCOe4Q0VwNI9aNMYxgen0m3VHc_e24wJi4nx5D-HrQFKu1AyIdWF0Nqcax1mgvJtBcjUfbIY0Gvu3A5gCry
+2d9oAQ2EP0ee_VMK-ekxLdwl5VgZl7dpvXC
+}
+
+AzureEntityColoring(APFunction15)
+!define APFunction15(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Function/APFunction15_tbg.png, e_stereo)
+!define APFunction15(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Function/APFunction15_tbg.png, e_stereo)
+AzureEntityColoring(APFunction15_m)
+!define APFunction15_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFunction15SPRITE, e_stereo)
+!define APFunction15_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFunction15SPRITE, e_stereo)
+

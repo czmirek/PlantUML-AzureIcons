@@ -1,0 +1,13 @@
+sprite $APSpeakerRecognitionSPRITE [70x70/16z] {
+xT0tGaGn48DX7CP1zpymko-EEYCop5Uf-XrUlam88IJhXOR2W9vf23hGQ2WgW7BSv3540myZkQ70PhYXL-06iVKNFRZXZSKFJnCFvWP5WBNRv3vweK4HvQCY
+4f459Nr413EzEv81bv7_fBaCHPGCHVGCHUHCfeYQ0KMq34Vq34UiTwEncA78n4DxZF76EvhR5Pjo3uLXO-VeKgMSbKmLxJBL3KbgmAGX6K2X8R29KOun7qFJ
+Uw7ncuGGmYi
+}
+
+AzureEntityColoring(APSpeakerRecognition)
+!define APSpeakerRecognition(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSpeakerRecognition_tbg.png, e_stereo)
+!define APSpeakerRecognition(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSpeakerRecognition_tbg.png, e_stereo)
+AzureEntityColoring(APSpeakerRecognition_m)
+!define APSpeakerRecognition_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeakerRecognitionSPRITE, e_stereo)
+!define APSpeakerRecognition_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeakerRecognitionSPRITE, e_stereo)
+

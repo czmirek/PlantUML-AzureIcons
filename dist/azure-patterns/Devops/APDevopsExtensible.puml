@@ -1,0 +1,12 @@
+sprite $APDevopsExtensibleSPRITE [70x70/16z] {
+xPO50W8n30If9jd__nTtJnSd0-TtKsypUHH140H1gYALbMJ374sSHQ2r6ZgN5TWy6mL6MGfaSG16lsyB-iRIbXIlfM79shAc-ItI5jJbnH8Ri9n-8jziIRcZ
+7TzIdoN9IODayxPHCYne9nANfP-EFl4FIC597yN9BTR2buYetTqjkgLrO3IcSjhhYiPe96OfOiOaPczY9Q5MDNw5FL-j_Z4b7n1vx0Y280Xc
+}
+
+AzureEntityColoring(APDevopsExtensible)
+!define APDevopsExtensible(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsExtensible_tbg.png, e_stereo)
+!define APDevopsExtensible(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsExtensible_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsExtensible_m)
+!define APDevopsExtensible_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsExtensibleSPRITE, e_stereo)
+!define APDevopsExtensible_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsExtensibleSPRITE, e_stereo)
+

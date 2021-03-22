@@ -1,0 +1,15 @@
+sprite $CDSBlockchainAzureTokenServiceSPRITE [70x70/16z] {
+xTDPjY8X48JXX8m8BFQ_u7RaD7L9H7pguNzn_WwXbiKbj-zpajc-A_CUqZS6-6fxLW9RsxESfv1sn_JvzfXznnc6l3g6qv0sncpDSYw4l3qcdXMFsPz5S3qm
+K2Gi6wKgLCH5vwWJPSt1rPWhr_1sJ5rGfWvKwueodtNKHIK-3YwrhYaj16EMb7ZMKNSKAHYpghJG_RgxYeWsPazfJcTiAYhrhr7-A_-LeuW0FEUqgno5-AsS
+TfI2SzufM564GTrn4WCbG0B6yaYvb2ALSZbgFJ3EhS_LHwB5KX1ary9Pn6BsezmShEOso2E4eJ8CupdK696DInH6YeQ8BCh7YkWd0veeAL0adfwPAZvWrE8r
+lKAiC3ZCe1GheYyoc2bICAgFW5kOhj4ThUTzycHSip3g7k7tG8bjs3Cyix2iduLNG1oM5TWa3vZWEbfrA8v_DdjJTZm5v3kAtd6d0YKgFJntVn68hwCujGYe
+1Vkeh67sOJumcEpJ4dJAhRNhq6sxbFrUF-KN
+}
+
+AzureEntityColoring(CDSBlockchainAzureTokenService)
+!define CDSBlockchainAzureTokenService(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainAzureTokenService_tbg.png, e_stereo)
+!define CDSBlockchainAzureTokenService(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Blockchain/CDSBlockchainAzureTokenService_tbg.png, e_stereo)
+AzureEntityColoring(CDSBlockchainAzureTokenService_m)
+!define CDSBlockchainAzureTokenService_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSBlockchainAzureTokenServiceSPRITE, e_stereo)
+!define CDSBlockchainAzureTokenService_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSBlockchainAzureTokenServiceSPRITE, e_stereo)
+

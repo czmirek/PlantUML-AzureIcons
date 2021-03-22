@@ -1,0 +1,9 @@
+sprite $APLeftArrowSPRITE [70x70/16z] xT150S1G3C3GCOD_jnEmswTI8k0LNYKHKLUj_XmA8FUxba0saFzZVI5B7GHaLeo0F5TkPncbp4LT4mPcCSB0h1wPpGbJ_ZVNq4dqAec8FW
+
+AzureEntityColoring(APLeftArrow)
+!define APLeftArrow(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLeftArrow_tbg.png, e_stereo)
+!define APLeftArrow(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLeftArrow_tbg.png, e_stereo)
+AzureEntityColoring(APLeftArrow_m)
+!define APLeftArrow_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLeftArrowSPRITE, e_stereo)
+!define APLeftArrow_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLeftArrowSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APBackwardSPRITE [70x70/16z] {
+xTN7aIGn4CNGP6bD_xtT8mx9GEnenM_0QpPAnKzONr_Vi8Pj7Vu7cUeUigF-Zx9LKyfT_qSvgobJhV-X37SrPQsgy5Ec71N5ag0qaw1O4fJcEL4iYIbhJOea
+kL0QIHOKIJ87Iavobo4fESap1ae-vn6Hb9paAe6IawoX2Z-5afDCaPMSP0cKLf90qIGewPndX2aaQIaaKOKaBOKagf0aAoGPmXIID1MIc39GFoaasK8LahGK
+ado64iFpXd_4od_NVSkL7lnAizdlkbFkEec3mc7b2I3EzPQdaHtwPk2mhiIYRwbowLkAZO--CNTzOx9owzjxzhStE_HBCZxw9M6hVDM8ixZ2TnYbTLWKYOEI
+jhZ2pgP271JTXYA7HT4ukrn9LRZXJOaLHLTEKs92yMscn72ZwERTh-GGtsnzVNt_
+}
+
+AzureEntityColoring(APBackward)
+!define APBackward(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APBackward_tbg.png, e_stereo)
+!define APBackward(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APBackward_tbg.png, e_stereo)
+AzureEntityColoring(APBackward_m)
+!define APBackward_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBackwardSPRITE, e_stereo)
+!define APBackward_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBackwardSPRITE, e_stereo)
+

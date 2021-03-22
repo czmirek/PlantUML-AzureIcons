@@ -1,0 +1,14 @@
+sprite $CDSIntegrationAzureStorSimpleDeviceManagersSPRITE [70x70/16z] {
+xT95bW0n20JGmidS_xxZHjhfRVzrNY41JGzwXpjOpR-PCbhOlD96XgyGN4BcgxJRI6Mja7uCUUmmdEEnIt26nW72COeZrcsbOXoAejKCYyS9X6riSPBid5eK
+hP4iBl3UfSrwDp8Jmb8q6FV7sTwnH1Vtvja-7CqR1DyYxo1yuhp5jmOAqtyipipaEMCKahi27s8xPNVa-ZmNbF0FMUwpajBbPQAkADjjmplBcQAmCobozuy2
+7t9C68MCVOuFDYOPHOvzYWyqxY6KPdeStt8KOKKUjVADHo5NjklufUsKn3zbDIP5Z1qq5MnXL9HZYsdnzp092xerkbPHpcr9Oxmi3QtYvKCQOHEBgasqCbCH
+miEy87IGLu8MhnWjLE7B8yP_IUZWKIbQHYLe8IvmrkCD
+}
+
+AzureEntityColoring(CDSIntegrationAzureStorSimpleDeviceManagers)
+!define CDSIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureStorSimpleDeviceManagers_tbg.png, e_stereo)
+!define CDSIntegrationAzureStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Integration/CDSIntegrationAzureStorSimpleDeviceManagers_tbg.png, e_stereo)
+AzureEntityColoring(CDSIntegrationAzureStorSimpleDeviceManagers_m)
+!define CDSIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntegrationAzureStorSimpleDeviceManagersSPRITE, e_stereo)
+!define CDSIntegrationAzureStorSimpleDeviceManagers_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntegrationAzureStorSimpleDeviceManagersSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APCharts25SPRITE [70x70/16z] {
+xSp70SGm24HH51YG-YzudNssHvlv2d1wSg4eIeKlIQa3aZe5jrhLNAUrsNL45wNrZehUVLdrfkAROfIYmFG3Egs6UalXcnJdcvJE1re9fMsHIbt2C2MKK489
+nMsgiKgMAVjC9HIeWbUoIFv-vGIKKrnjW6AYh88yGb4X5AAlK4B9obVaIb7q
+}
+
+AzureEntityColoring(APCharts25)
+!define APCharts25(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Charts/APCharts25_tbg.png, e_stereo)
+!define APCharts25(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Charts/APCharts25_tbg.png, e_stereo)
+AzureEntityColoring(APCharts25_m)
+!define APCharts25_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts25SPRITE, e_stereo)
+!define APCharts25_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts25SPRITE, e_stereo)
+

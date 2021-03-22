@@ -1,0 +1,12 @@
+sprite $APUiInterface10SPRITE [70x70/16z] {
+xPNL0OO060BXxp3stzO5iB6vno_EbXe6QfVb_HFWfgetgEhROuabbbYURm6egeIgFdr_XljJ0AegeQfttttXJG0Cht9FVqpVtJLWkRkUAp9OOeabbXtzCJsf
+vlll2fADEqkIsqC0gYgXgZU39PPOOacIR90aIP86
+}
+
+AzureEntityColoring(APUiInterface10)
+!define APUiInterface10(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Ui/APUiInterface10_tbg.png, e_stereo)
+!define APUiInterface10(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Ui/APUiInterface10_tbg.png, e_stereo)
+AzureEntityColoring(APUiInterface10_m)
+!define APUiInterface10_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUiInterface10SPRITE, e_stereo)
+!define APUiInterface10_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUiInterface10SPRITE, e_stereo)
+

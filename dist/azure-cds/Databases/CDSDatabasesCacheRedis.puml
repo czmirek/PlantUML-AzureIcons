@@ -1,0 +1,14 @@
+sprite $CDSDatabasesCacheRedisSPRITE [70x70/16z] {
+xTG5aWKX30HGGXIu_tqNXdoNoRhnobQwaXuZlT6omCdR8Z3aarCk7Dd-ZNG9jrWiuWcaUz0paSZOGlUDNV68B-8JNnIFoBncbaiyhrg3aMQmoNXSvJiwQz58
+QqPm3rbhySXGP0vtI5BQS8hKGEIEgqXxMoImwFkxh2xLR4JCwXkxg626Cnb5Nzb5oGysT7wsaSQx6Fh1TWaH0D22NKhkuOTdKYwnBWmFfums7EjYnwED1n7X
+mOU01U-BpZl9SexdoPOr-enQPN_8s15s_dlcsgBFg7Kc25TGpAEnBlw7OYg2dOXQyN-4kpp-ijxIvTBlwIBlxI9fuFgUBfNJ15pUsgKmf1CWiTTECI58Tq0U
+zFaKpPkqWvzFuRHhJLbJrXHwFeLIJ7asHLCKrqTJ2gTNG2drHX5ChmN8ecgrCrNX3Eb3BCiB
+}
+
+AzureEntityColoring(CDSDatabasesCacheRedis)
+!define CDSDatabasesCacheRedis(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesCacheRedis_tbg.png, e_stereo)
+!define CDSDatabasesCacheRedis(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Databases/CDSDatabasesCacheRedis_tbg.png, e_stereo)
+AzureEntityColoring(CDSDatabasesCacheRedis_m)
+!define CDSDatabasesCacheRedis_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSDatabasesCacheRedisSPRITE, e_stereo)
+!define CDSDatabasesCacheRedis_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSDatabasesCacheRedisSPRITE, e_stereo)
+

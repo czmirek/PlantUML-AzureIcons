@@ -1,0 +1,14 @@
+sprite $CDSAnalyticsLogAnalyticsWorkspacesSPRITE [70x70/16z] {
+xTDNOiCW44NHDmt8_ZSS4VTH0Osmqtn_r8yQu1T6BA8Yp8HWB7QVIa2gX4yfQiGTilKuXlW4NR7PSOQibGIGqBUnrCweWKZgoR0PfRuKMsdgZ4AFujFWesYj
+ws6s47U2O2tUeLZeXRoI8Y-Kp9_1GnHf_6SvRJGKVQh2knHRKIIVEYdvCKCjttgvGZLTLBHVGKsUgCWGXJ75ujghBC-ydOeDKMI8WfQYcEAxbwzhwL7HTQMS
+EYcbXfhMjPDIpcMSidN5UEgqmJNxKhXsKQIjj4iOe6ICK7Y4eeWewmWikteLnd4b4uuh2ZILZ-sS4L6A2UQnk03IbKIOyFDgVnVEBXcYw8kKD4OfBe2Bw-yg
+R-Mjs105bXu3ABa4lwTF
+}
+
+AzureEntityColoring(CDSAnalyticsLogAnalyticsWorkspaces)
+!define CDSAnalyticsLogAnalyticsWorkspaces(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsLogAnalyticsWorkspaces_tbg.png, e_stereo)
+!define CDSAnalyticsLogAnalyticsWorkspaces(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Analytics/CDSAnalyticsLogAnalyticsWorkspaces_tbg.png, e_stereo)
+AzureEntityColoring(CDSAnalyticsLogAnalyticsWorkspaces_m)
+!define CDSAnalyticsLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSAnalyticsLogAnalyticsWorkspacesSPRITE, e_stereo)
+!define CDSAnalyticsLogAnalyticsWorkspaces_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSAnalyticsLogAnalyticsWorkspacesSPRITE, e_stereo)
+

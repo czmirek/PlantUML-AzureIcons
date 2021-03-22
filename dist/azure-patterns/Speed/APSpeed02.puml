@@ -1,0 +1,13 @@
+sprite $APSpeed02SPRITE [70x70/16z] {
+xPHBJWKm3CISf5_kVs3ML2yIJOSTFe1LJwJonyHNnZP-pKWjxU8jEvEi2uahUkYA7bOYcToWw24KFGn53rlGazqvkA8fUfWVUxX4qKCeUXYA7hQW1_iW6TpI
+afxdEplNA7e8HGzTqSCMz62A7bhIytRd3k-pB2gueeUkw64bFUKxhpd3VrAuSsydVl_DxNOIXJlFieJUnvXphhNtE2rKE2Mci3WL_1obH2Wa29O5ovQjp-8K
+2OK4mRBWYQGSH9taFDKxEtLSC0g4GaAoR6qMGn3aF26HMB9ivSuy4iUoDIGIEvOj1mNF799o4EzuCzu9Hq3mppS
+}
+
+AzureEntityColoring(APSpeed02)
+!define APSpeed02(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Speed/APSpeed02_tbg.png, e_stereo)
+!define APSpeed02(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Speed/APSpeed02_tbg.png, e_stereo)
+AzureEntityColoring(APSpeed02_m)
+!define APSpeed02_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeed02SPRITE, e_stereo)
+!define APSpeed02_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeed02SPRITE, e_stereo)
+

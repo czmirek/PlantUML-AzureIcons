@@ -1,0 +1,14 @@
+sprite $APBeakerSPRITE [70x70/16z] {
+xPH5WWCn40F7RFT5_t_jCiloj9UfZWkLPDGL74Im5UrWy3SixOfX4tfhhMWBKsr2F8YliVnR_Yt_bdzBimbfqv9iHj-qT9kIjYpPvemjop11sR1KKupWjWJJ
+DBUbsOBej2HRqPsMOKkoor9ipV1Omh0JgiDIxPHmQebsJZkrT7EGJYpPF0ooyCezhaYK4raANUSyiX4Mba13gk3hmj9KjVpiehGaEd3zHTZ9Ghzb-AQoi6Gw
+XUK35fPnSvO2RgrEBPKIqPJdVmlih4plcooDBbjpDsSY2wtiMPiiGw-irouF5XsGFoU0ffFed00IItHE07t8LpnWG0VapmcG0Mden00Ha3kdScEXA2Gw9q07
+vCy9q07vSm8Y1RI_Dj1evUsr4t3pqSghkPa9wFPcCb3jpGGW37iZvUPUwfiyFTyLy4RUpN89
+}
+
+AzureEntityColoring(APBeaker)
+!define APBeaker(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APBeaker_tbg.png, e_stereo)
+!define APBeaker(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APBeaker_tbg.png, e_stereo)
+AzureEntityColoring(APBeaker_m)
+!define APBeaker_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBeakerSPRITE, e_stereo)
+!define APBeaker_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBeakerSPRITE, e_stereo)
+

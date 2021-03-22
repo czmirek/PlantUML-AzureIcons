@@ -1,0 +1,14 @@
+sprite $CDSIntuneSecurityBaselinesSPRITE [70x70/16z] {
+xTVfji8m20JW1f9Gy_xlwoxbzgHpAUxB_FSxX4dL3g-TH9pB8KmfR70noJ67ZfyzvZnGO91yCZIHSTWOPXxsEubowI77PFeN8k9pAMeeOfAPcH8w1YOijQpa
+RaetAvLodQ94NC58HOgJs0SfpZbMA60GXu8Dju8tub8mubKmOPK4583u5K3u5T3CjOeI8KNdk5fH8gXWHFnANJHahmm-1HXOiGH4fEGbXMmp6Ac5bvJaEinP
+eM4f6SrnpAHm9zDYviJO_14zKfsbhSYemzn0ILShEiprof3dohWYrToyQYEq9kOn-8F457icsIUgQ4zoXQAhaKdXl4xHkaKcXLlR4970UbInZ5LAQus9y5LH
+fJUDdGKfTXRBNBSNNV4rJLlcEaNVIYvAu4IQFLEFszsqCT2qhIhUj3tLrFG6AQ9ABtngccDxqP3cavJhzp9rDCOx6gwwBvghxgwc_npzxaiYVzBmKja1
+}
+
+AzureEntityColoring(CDSIntuneSecurityBaselines)
+!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSecurityBaselines_tbg.png, e_stereo)
+!define CDSIntuneSecurityBaselines(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneSecurityBaselines_tbg.png, e_stereo)
+AzureEntityColoring(CDSIntuneSecurityBaselines_m)
+!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneSecurityBaselinesSPRITE, e_stereo)
+!define CDSIntuneSecurityBaselines_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneSecurityBaselinesSPRITE, e_stereo)
+

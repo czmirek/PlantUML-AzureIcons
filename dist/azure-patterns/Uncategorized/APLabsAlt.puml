@@ -1,0 +1,13 @@
+sprite $APLabsAltSPRITE [70x70/16z] {
+xTS5ZWCn44JHDZHKtV--ovuUoz4onrzSZbwOHAHngSZR-cLAzU1KkBodpgag_q0nFOhdbA9B9HNjH_wSKhbK_wQI5KwfoDzLjlBSQxqGdZsdFFVwAlH-f7z8
+MJ-FcyX_LRRYUkJlLopNJrEsifMjR6KhMzdALkopbKZ5BogHgmrbkJnOnZ_DEAt35k9izrGASU8nPbBpfdEiGPliB8whLUIDzCH16wiI0mz2JbK-7HaOUHF7
+gY3AwIfXJokhd5EI283JGSkrvLf10W6IAdCDVCZBT1lZSOtfEei_hcYor1smTcdrPMq6U9UZMm
+}
+
+AzureEntityColoring(APLabsAlt)
+!define APLabsAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLabsAlt_tbg.png, e_stereo)
+!define APLabsAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLabsAlt_tbg.png, e_stereo)
+AzureEntityColoring(APLabsAlt_m)
+!define APLabsAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLabsAltSPRITE, e_stereo)
+!define APLabsAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLabsAltSPRITE, e_stereo)
+

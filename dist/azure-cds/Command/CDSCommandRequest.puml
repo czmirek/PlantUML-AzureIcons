@@ -1,0 +1,12 @@
+sprite $CDSCommandRequestSPRITE [70x70/16z] {
+xT4t0e0W44HHEXEmzx-jbkQPhKZpIuL7CbSnlDUf4fcG4WDJBOeKALBYqG8Kij6LERhwK5PpDPP2lSDQco95YfHh4VmRGucF5l0FlWF-rvqYHOeKAP4f0uMi
+JsK7
+}
+
+AzureEntityColoring(CDSCommandRequest)
+!define CDSCommandRequest(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandRequest_tbg.png, e_stereo)
+!define CDSCommandRequest(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandRequest_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandRequest_m)
+!define CDSCommandRequest_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandRequestSPRITE, e_stereo)
+!define CDSCommandRequest_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandRequestSPRITE, e_stereo)
+

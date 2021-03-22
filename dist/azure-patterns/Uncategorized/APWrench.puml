@@ -1,0 +1,15 @@
+sprite $APWrenchSPRITE [70x70/16z] {
+xTD7jiCW38LXOO4ZCE7kVxSFFp5mBsYQVvBgx-XGw4M3bvm1v2nCVN4iM2P3Xv6nAxvrHXmcZbuKqIgJrE8NBUv08bFBlqT6_9S6eXQ_HzeZdeuHTlIaZDft
+E4CWz231d3j5W85kS_h81O94joNKFbS8C3mQfLmZY8zsELmZ0DqqeNQ7mDDrkdeNY4TD7fouS84mPG2PBlFBUGlcneqe3nMtcMNzLkwNDnmkxXAXpxtYKQCj
+CouGaeSARva5eaf-k4ThPcbFzqhSdGPU8xfpwHx1I7k6rzC-HTOCh__ZtY7A55xV-To1h4hw7nlYKIj6H5Sws12NswhO9odEX0Z-Omio5aN2UsGKpuw8VKIB
+En1i-Zex0h4ZY8wiI0gEkf74VewqNeIE-Y4_v8Tu8w8Lr3v69A0s6H5T5MT4AEieDeHG4okYYXLHnOhekbWHIgWv8wBd9HeGhQmlW7GXxHvbHtF3z1xH4jIH
+KTHGf9FH5B4paJeB1MXzFVKNKWQGOw2k_W
+}
+
+AzureEntityColoring(APWrench)
+!define APWrench(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APWrench_tbg.png, e_stereo)
+!define APWrench(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APWrench_tbg.png, e_stereo)
+AzureEntityColoring(APWrench_m)
+!define APWrench_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWrenchSPRITE, e_stereo)
+!define APWrench_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWrenchSPRITE, e_stereo)
+

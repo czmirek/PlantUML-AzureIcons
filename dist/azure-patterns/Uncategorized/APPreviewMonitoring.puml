@@ -1,0 +1,13 @@
+sprite $APPreviewMonitoringSPRITE [70x70/16z] {
+xTI5SSKm54JHVRJsuE-_se17GRCt7Dq2ZbYt7nJW8PNX05AhI1PSHyWC5PbIb2hAIeil2eMwqfN3TQKGr1K3KAhY08oY4W1Geb8DkQ1KlK62LvI4rSlEmdb5
+IG0sszcpIW60l-piAMNEL4EkAOrfEtjPOQ7b51G6feoIqfYIbCOKLOMEeAuml_AlwqfNkb9Jaj8I4Bg6jEmZa81FXeGa09XxB5MpCXPoR6NZhC3vXfbYE1_V
+8mC-GY645KcAZVgAODJFo7DSgXoxHTKKEQp7Qc6bufdi5oXvMRdzeEu1
+}
+
+AzureEntityColoring(APPreviewMonitoring)
+!define APPreviewMonitoring(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPreviewMonitoring_tbg.png, e_stereo)
+!define APPreviewMonitoring(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPreviewMonitoring_tbg.png, e_stereo)
+AzureEntityColoring(APPreviewMonitoring_m)
+!define APPreviewMonitoring_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPreviewMonitoringSPRITE, e_stereo)
+!define APPreviewMonitoring_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPreviewMonitoringSPRITE, e_stereo)
+

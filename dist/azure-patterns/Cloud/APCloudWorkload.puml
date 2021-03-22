@@ -1,0 +1,12 @@
+sprite $APCloudWorkloadSPRITE [70x70/16z] {
+xTVL0S90383Xd4NG_QV57KwIlW3DFy1NFTl2KxWO2k6fxQyghb2kHF-bk29SINmSLNC5Suo9fYaSu5JW2Gh1BJOh4k1MI1bjIeRdWbYK02z5Ym9laLwXTwMe
+5KxmeOWgHQ0IQnIiAKMZ58sYlnTKlTtu6OdQButbBQH_c-jSeLBfptP1hZ1LOZ_P_C6NTiLFDguK6ghK5NlRFG
+}
+
+AzureEntityColoring(APCloudWorkload)
+!define APCloudWorkload(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Cloud/APCloudWorkload_tbg.png, e_stereo)
+!define APCloudWorkload(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Cloud/APCloudWorkload_tbg.png, e_stereo)
+AzureEntityColoring(APCloudWorkload_m)
+!define APCloudWorkload_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, e_stereo)
+!define APCloudWorkload_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudWorkloadSPRITE, e_stereo)
+

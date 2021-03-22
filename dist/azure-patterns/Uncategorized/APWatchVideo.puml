@@ -1,0 +1,12 @@
+sprite $APWatchVideoSPRITE [70x70/16z] {
+xTQ54SKW54HH77Oi_LVxDQCC7cTl0ISAlENm64CovjH01cjM3AGkgwYE8aMX8pM9eaHzqofw4yN3RA80LcwX04vkeCHEkn8IJfjYXKquROf8E8rAmcbNp0QA
+6NyYwHB6uLywCZPU0SUlHdlsBXL71PmPjfl8dZUfRZJ19sFBuJ7s1W
+}
+
+AzureEntityColoring(APWatchVideo)
+!define APWatchVideo(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APWatchVideo_tbg.png, e_stereo)
+!define APWatchVideo(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APWatchVideo_tbg.png, e_stereo)
+AzureEntityColoring(APWatchVideo_m)
+!define APWatchVideo_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWatchVideoSPRITE, e_stereo)
+!define APWatchVideo_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWatchVideoSPRITE, e_stereo)
+

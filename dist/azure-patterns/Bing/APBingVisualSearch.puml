@@ -1,0 +1,13 @@
+sprite $APBingVisualSearchSPRITE [70x70/16z] {
+xTO5SiGm38NX9zcof7V_-vOsD5JFAENwMuRyOS3CiYoBseDEVXUyn_XWaz_rIogEkLfbLKG5Swee4DncJZA7uWODRWRA6aatxIF9G96GgOztJXfgWYddUmeg
+bEpdT2KD5Pt4oHce67ISZ4I5qt7gvKhWP8pgSX4SWWCLGlersL1YfE51auwQJj9bwwMWfF71WsIsSYJ4SYkX7dbxDRScDoCFtnb1F29t3NmpjOOvC_c6C-og
+_BohGz47cVoElsnPbcS
+}
+
+AzureEntityColoring(APBingVisualSearch)
+!define APBingVisualSearch(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bing/APBingVisualSearch_tbg.png, e_stereo)
+!define APBingVisualSearch(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bing/APBingVisualSearch_tbg.png, e_stereo)
+AzureEntityColoring(APBingVisualSearch_m)
+!define APBingVisualSearch_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBingVisualSearchSPRITE, e_stereo)
+!define APBingVisualSearch_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBingVisualSearchSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $CDSStorageStorSimpleDataManagersSPRITE [70x70/16z] {
+xPO7Sfn0400dx4J-_rw5gNL0nHe6dEsMxexOrMIWpNyGaIQ8U6TzOXuVO2PiA8Z7aeicf7721G-ES_XKm-C2_DXIm0aqTiXax21OmhiT8seUEznKTf93b-FK
+aAZ50ZTXX0833eX4cB2OBnm44un3Ys_vTIE9g9dDjSrKThk3jsrXsJObk0J5jhQy4UUd5CfMB2r52E7wAXsHUSMIxvWmuluY7n9PVCiIsoHFQBGi-1rR_hUO
+Y3vlGG1utEBmXjrk2QsV0Mzm3LhqMmXGCnKAYJG2YcuBmni8apd8tHQ10wJRad10D5jc38lGBgNROcMPDi5vmBijNEPqAPcNizsYbP02iwAID3ejob1amYGD
+2jRBBH_NhPWvG6Sj3Kkh9G8cwVqM7r182XGw1zXwnwYs1MEUBXbpj7rDp_N2B3FuoRaBg3MCDUBtpjs2wFvr5D_bcXvm07TRgDRwi5bwunYHPGR26-YPHg0t
+dW7sPSka1kFXyyY_nxCHdp-dtSp_wVSNwreS3k2kPS0HrhCu7ECTYyEAaLSjEM0DIbwnfC89R7c22rnXg2yDoj00MRvoXPiE9eG_W5S
+}
+
+AzureEntityColoring(CDSStorageStorSimpleDataManagers)
+!define CDSStorageStorSimpleDataManagers(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorSimpleDataManagers_tbg.png, e_stereo)
+!define CDSStorageStorSimpleDataManagers(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageStorSimpleDataManagers_tbg.png, e_stereo)
+AzureEntityColoring(CDSStorageStorSimpleDataManagers_m)
+!define CDSStorageStorSimpleDataManagers_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageStorSimpleDataManagersSPRITE, e_stereo)
+!define CDSStorageStorSimpleDataManagers_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageStorSimpleDataManagersSPRITE, e_stereo)
+

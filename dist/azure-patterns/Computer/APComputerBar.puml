@@ -1,0 +1,12 @@
+sprite $APComputerBarSPRITE [70x70/16z] {
+xTQr0GGn34HHax3_VeycEQRbjLwaw1iYfTqfe_0zKXh479KsYAwX4XM2OHLoe3rMea8ET3igqB2Amn-Lg933Y9MeH2KgKG62Z-CMjw2ec0nYlaVq6Z-WLz9B
+kTshwGyFbJ9A9M-yKWR_2o93BvDBRS-KBpgDB-GzXffUKF-1RA72-WDAepi2
+}
+
+AzureEntityColoring(APComputerBar)
+!define APComputerBar(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Computer/APComputerBar_tbg.png, e_stereo)
+!define APComputerBar(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Computer/APComputerBar_tbg.png, e_stereo)
+AzureEntityColoring(APComputerBar_m)
+!define APComputerBar_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APComputerBarSPRITE, e_stereo)
+!define APComputerBar_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APComputerBarSPRITE, e_stereo)
+

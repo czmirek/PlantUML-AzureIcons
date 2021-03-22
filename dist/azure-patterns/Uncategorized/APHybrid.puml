@@ -1,0 +1,15 @@
+sprite $APHybridSPRITE [70x70/16z] {
+hTW5cgCX48HXMh1Qk_zfLnXDql1tPUSxmFiW4U1N-O9-9HKHqR-9FA-8-aUcyeGYvWyffImZJ1b5VPja5V5JcbF4prb6KR_iMb5FTAM8Px8BnNFfKJ5F9WT5
+FTr1yNowLTI9jeepwKOHfzeenYaIA-xrfPoYaV96r2nb3uere5NIkLEq0qlX7BbH6bPrHJZwIP61Wr9pYasyD6fSHZ6yrMib7NjJ39GIZqNngRhjGfavfHwL
+Xa39Cx8KmqsDLSfIPg0GZ2t5SDke7ADB6RYBLEIVOW2OASM_THtuhodfKYQumOJ_0OB7Eg7eKXn1n63AKZg2PbgHWuAULAm4IcfEqVa5O9deB0MQYSvre9de
+Z0cQYSwx7Vj6wBmXWK8C9xe7L1oR3qvu9r5SrMyX2-z7I3HwUssC-AxMGUMnOg2IM2aJHADib0eYtIZKO7hPAePqibVosrJBGP79B6sifESqvQ2a6RryhJ1o
+9B5IZ4HYfUZ4eI7PzvTERd6i51q8wyAz1LamdYRyYvBuPsXsasVVfTJgIWCXLFu
+}
+
+AzureEntityColoring(APHybrid)
+!define APHybrid(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APHybrid_tbg.png, e_stereo)
+!define APHybrid(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APHybrid_tbg.png, e_stereo)
+AzureEntityColoring(APHybrid_m)
+!define APHybrid_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHybridSPRITE, e_stereo)
+!define APHybrid_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHybridSPRITE, e_stereo)
+

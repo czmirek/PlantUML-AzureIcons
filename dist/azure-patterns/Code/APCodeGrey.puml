@@ -1,0 +1,14 @@
+sprite $APCodeGreySPRITE [70x70/16z] {
+xTS7TyCW30HW2P2iD_l__sr3SXb7XnxOtRqsY_5boC-6frDYHqIwy0sLMXPIHwN8GifFLTIyNcQvgVIOjsd58w9XqaOD4uh6AIuYBJ0G3HCA9fc8rFv4hmrJ
+2cOhlacxDqpNgE1HbHhAxp_gV2dV-VnYRI7sJMhqhvHQTB_I8jf-nT6xf9WW6yvHJUSL3x-VCCzgR3gh-ENKYfCtpf9W4eKHnr0yCs9IXH6f-51WKeKHAZGn
+kS88vbOX9bU0RCFXGaoke1fu-skX4TrGkKGXXXH2SeKP59gHN6462YEvmWmAJKYkCADqk3YGL656Xq8xa4H9powB2WgzMz5Z57FxlweXb7A4KiFtAnNdlMK5
+29X51GYO9OKHCBbI2qM138mckyyXVaMgHpI_CXv3SaKx8bqvpzObfJDLBeguYsIAl1qeR-TuvL_vLsfh9LUU0G
+}
+
+AzureEntityColoring(APCodeGrey)
+!define APCodeGrey(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Code/APCodeGrey_tbg.png, e_stereo)
+!define APCodeGrey(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Code/APCodeGrey_tbg.png, e_stereo)
+AzureEntityColoring(APCodeGrey_m)
+!define APCodeGrey_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCodeGreySPRITE, e_stereo)
+!define APCodeGrey_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCodeGreySPRITE, e_stereo)
+

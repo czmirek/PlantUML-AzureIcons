@@ -1,0 +1,12 @@
+sprite $APReduceSPRITE [70x70/16z] {
+xTG53WGX40NH0Nhq_lTT--jMdN6h6Ff235CXwzIIb91wK4BTf6wAa0OOKeGGmqhLgDJnBS2WmWmhpB3232lCiC8CAr41Gugf39Ws2ZEiCCCACwmmmmeph333
+2ZD-XPbu2HHaD0U565QOOOKPLfmCAyoWucPOOGOKB-DH0dyKNPG7qq4HqqrHeUgggAg3aifRNPIykTUxiYiXVicdK4jLacPnOygkL2fsKngLPgJiogxioX4
+}
+
+AzureEntityColoring(APReduce)
+!define APReduce(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APReduce_tbg.png, e_stereo)
+!define APReduce(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APReduce_tbg.png, e_stereo)
+AzureEntityColoring(APReduce_m)
+!define APReduce_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APReduceSPRITE, e_stereo)
+!define APReduce_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APReduceSPRITE, e_stereo)
+

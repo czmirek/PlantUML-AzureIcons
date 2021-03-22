@@ -1,0 +1,9 @@
+sprite $APCharts17SPRITE [70x70/16z] xSo35S0m0431sjX_slAnHfn_0rmV2D2_MQep5YqiKNplVecJUsOlB2miBEbEjBfPRiJ1Ijx2miB24gtIdLTBTQ8mUs5XOM69xeMtInuye6HXoK-aRvOH
+
+AzureEntityColoring(APCharts17)
+!define APCharts17(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Charts/APCharts17_tbg.png, e_stereo)
+!define APCharts17(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Charts/APCharts17_tbg.png, e_stereo)
+AzureEntityColoring(APCharts17_m)
+!define APCharts17_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts17SPRITE, e_stereo)
+!define APCharts17_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts17SPRITE, e_stereo)
+

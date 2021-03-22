@@ -1,0 +1,12 @@
+sprite $APDownloadsAltSPRITE [70x70/16z] {
+xTG53a8n60JXvzBxtnTdS2gBirEBVcdih-xMX6rD9VHnYXKhLgnOiMAbdPiRIZEtoKW8UmPbZmIOE0A3iaS2J1o1GG61YICmA20mSGK61GGbWsbGsXCaZq79
+G62evoMG38OoVWAZ8J0Q0gCXC1e2eo4m8WAZ8p0W2WCYC21I33wH0T4O4D9oRYIbyF6vdfIg3se9
+}
+
+AzureEntityColoring(APDownloadsAlt)
+!define APDownloadsAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDownloadsAlt_tbg.png, e_stereo)
+!define APDownloadsAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDownloadsAlt_tbg.png, e_stereo)
+AzureEntityColoring(APDownloadsAlt_m)
+!define APDownloadsAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDownloadsAltSPRITE, e_stereo)
+!define APDownloadsAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDownloadsAltSPRITE, e_stereo)
+

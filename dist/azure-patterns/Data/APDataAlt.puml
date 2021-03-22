@@ -1,0 +1,15 @@
+sprite $APDataAltSPRITE [70x70/16z] {
+xPU9jiCW24GZe2J-_mU_euTC5AjltqDNlNQwC1RSlZxkk8C8JpbfuZS14Zadzrn2RJI0VGHw0XPXh6rbHh03Y8a0O36NOIol8AWumBqALL2a18krQDOtJhrA
+Ag1oxLNY1LgLM14Mpu40s6TzlmhzEHLsAWcfS3bIFFWSsGCMIyuvKIpPTtuPWLo02uWBYtfmpBnx1CQk2BjDEHKF260pG5iGBhH6tFEHpa4GwG563H20FnyX
+l0sm84_LDdm-fnRm0aZ9HGqapopgWG9i1WB0RbFm0Fuo0M2nESXKHGdIK0aEQ0l8xayLywuzG0KpSAekG7Pp7wfogzX0XXmPO2Iq0U90BdbdbiT-4G3lEk8M
+v2ejrxuui9XwK-i273Q9pPLAUQZXGBG23i0E4D664C7J9GWE_E7kC6fMcO7u28W1kghQuPf0L-xs032KEyRSCQ-m7eWllNsrvxgrncglhAxQ0oHKUtXprddy
+aExmxWxnYx-nWqVse_SB3Wrfz4i0U4btg3FlfikxYyCKzuUfi03Cr_bDLJ7oG1eGiBq1lZhkkEC9
+}
+
+AzureEntityColoring(APDataAlt)
+!define APDataAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataAlt_tbg.png, e_stereo)
+!define APDataAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataAlt_tbg.png, e_stereo)
+AzureEntityColoring(APDataAlt_m)
+!define APDataAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataAltSPRITE, e_stereo)
+!define APDataAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataAltSPRITE, e_stereo)
+

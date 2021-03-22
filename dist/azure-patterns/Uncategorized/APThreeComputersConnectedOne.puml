@@ -1,0 +1,13 @@
+sprite $APThreeComputersConnectedOneSPRITE [70x70/16z] {
+xTO5OWCn34HHWqOmzxzl6Mrj8Gp-RSZmmb2Es6grwXYhEoZ6iRQBul8jFRUY2X6OxgM4MwY6MUoX84HW0H7JtHLr4GbxLcoVsw8Qfi_7s5qHkAk8kkCCp_H5
+AY1ZYEH_bMxlkTj7PUUwp6DBMKhTg4lTA5FatzLKQMbzSpnN_lUuj3ChIrbAdJxhyJAEQRo-e3QEuyNacFtqkmxvyaQLRxdzzDq8GhuLnr0CgQAMAuvCCGOI
+HKdBb61WLenaO5BqvV6RbNXPFYhgpd0V5RW7tNLKpEDb-VouqDF7nPa-Bg29NBW2f0gGAW8S_5L7SlxzXe9qlBIDvPRLIxUiKZUMtqchHm
+}
+
+AzureEntityColoring(APThreeComputersConnectedOne)
+!define APThreeComputersConnectedOne(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APThreeComputersConnectedOne_tbg.png, e_stereo)
+!define APThreeComputersConnectedOne(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APThreeComputersConnectedOne_tbg.png, e_stereo)
+AzureEntityColoring(APThreeComputersConnectedOne_m)
+!define APThreeComputersConnectedOne_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APThreeComputersConnectedOneSPRITE, e_stereo)
+!define APThreeComputersConnectedOne_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APThreeComputersConnectedOneSPRITE, e_stereo)
+

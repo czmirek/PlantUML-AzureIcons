@@ -1,0 +1,13 @@
+sprite $CDSIntuneDeviceComplianceSPRITE [70x70/16z] {
+xSnLOW0n24LHWaxtl-3wgumGgpVtBm4E_RJOl26bFFEcE5VyVSBFxNJfKWnvdvBKfwYaMPEYfTA7AFo5YdsMifI8g2eHqQeiPIbBMSfIz8SeCgtmVOzAETQi
+i2TPgoAUjPHzHZgl617fJd6-J2uHiZa5o5jbsxO-1SYK0cHA0JAd0EbNbFV8WA94PO_qAqnWW8meO80CAM2032fWW0mfO80CAs3C4oLKhb97XKWzKTBS4QjF
+AQX7CIBYQKNnEwsKNYNsIWYpzIeIDqcfOlJJkWC
+}
+
+AzureEntityColoring(CDSIntuneDeviceCompliance)
+!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceCompliance_tbg.png, e_stereo)
+!define CDSIntuneDeviceCompliance(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneDeviceCompliance_tbg.png, e_stereo)
+AzureEntityColoring(CDSIntuneDeviceCompliance_m)
+!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneDeviceComplianceSPRITE, e_stereo)
+!define CDSIntuneDeviceCompliance_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneDeviceComplianceSPRITE, e_stereo)
+

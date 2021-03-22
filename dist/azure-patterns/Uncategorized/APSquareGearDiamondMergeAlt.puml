@@ -1,0 +1,14 @@
+sprite $APSquareGearDiamondMergeAltSPRITE [70x70/16z] {
+xTK5jW9134JHLD96xt-_Nv0ff3bCuVPmoKN6x4h1zpj7YRGVlifGyN7GbDQ7rTTLKZwioGhiiFfLlegmhwEYzVfAIi-WuF_YAVdopfbA923IiW1IdATusidd
+ArwEhRrXWjB9O3KTiT8aPSdm5s7oN578h4O9QigIWQydAPRQkbBPB20gosgNoeQ8VILdJLbWCmdZuggZ5hqlwdwDYCLoBU5TwTzT8bnV7F3b7GWAaOlMNI8W
+eNuN8fQI-uRmKDOwm9YRuNyy76PnqRuE_18FLmnuj-CHuZh_Rfol426ZAqJ8w0eHChf2X8ok426ZAqJ8w0eHChf2X8oW41amec8ZnMN5JY9K52PyKACoYobz
+s4d5HeYks0ZH5JBvU64p6RSB8t9HH2xAxS7z0W
+}
+
+AzureEntityColoring(APSquareGearDiamondMergeAlt)
+!define APSquareGearDiamondMergeAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareGearDiamondMergeAlt_tbg.png, e_stereo)
+!define APSquareGearDiamondMergeAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareGearDiamondMergeAlt_tbg.png, e_stereo)
+AzureEntityColoring(APSquareGearDiamondMergeAlt_m)
+!define APSquareGearDiamondMergeAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareGearDiamondMergeAltSPRITE, e_stereo)
+!define APSquareGearDiamondMergeAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareGearDiamondMergeAltSPRITE, e_stereo)
+

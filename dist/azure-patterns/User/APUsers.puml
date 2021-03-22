@@ -1,0 +1,9 @@
+sprite $APUsersSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APUsers)
+!define APUsers(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/User/APUsers_tbg.png, e_stereo)
+!define APUsers(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/User/APUsers_tbg.png, e_stereo)
+AzureEntityColoring(APUsers_m)
+!define APUsers_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsersSPRITE, e_stereo)
+!define APUsers_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsersSPRITE, e_stereo)
+

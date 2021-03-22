@@ -1,0 +1,15 @@
+sprite $CDSWebSearchServicesSPRITE [70x70/16z] {
+xTC7iYeX48NXqndtls2p208pu0itVfKC-0zD8JwPNxz8rFpCJEZTX7h91El8lB7S4UzYh30VK4mZtq1_5CamnxVPsfdyoTb8x2BiycYOHSMmHwFYzxjFN9OO
+Ew8YX8niTZEiKN16YPvVOamyAaxt__KPrUCAii63gkb9xURQ8TyUIQEX0DYU601lZkJzMq5Mek9fin43e5OfDaDpaU2ybKm0M5mfJKKYdqeXZzI6D4OLxLIa
+kGfN7FELPhdYBlwa4fQtiZnHcx4OaFPqzRw-7IhIW06m6WFmz8e1JYC1WDk1kWij3V7hoT1Wwm9F8uOBoGs_LlkxZkq8G9fl_t1-Zd4a8o5SZLRhEDAII7qU
+sn5JmXrP6WdljdFayaRvJFF2sP62ScII_8r8O3tISjYVHv8s5qdM8ua1xrOiBG10gUBh4UtymbOZ2LTngFbXYQB9h0lSqHza4fxyxGYXe7yqJaQstaYA1bci
+HGnz91PfQXVXWg_lrwyJ
+}
+
+AzureEntityColoring(CDSWebSearchServices)
+!define CDSWebSearchServices(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, e_stereo)
+!define CDSWebSearchServices(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebSearchServices_tbg.png, e_stereo)
+AzureEntityColoring(CDSWebSearchServices_m)
+!define CDSWebSearchServices_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, e_stereo)
+!define CDSWebSearchServices_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebSearchServicesSPRITE, e_stereo)
+

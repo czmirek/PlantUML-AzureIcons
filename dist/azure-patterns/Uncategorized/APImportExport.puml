@@ -1,0 +1,14 @@
+sprite $APImportExportSPRITE [70x70/16z] {
+xTC7hkCm30PXokGall-5jn7-iHQ4o5AKroV5_NEtL_QJCzyjSulRTFVzY1N8VfzN4iYM8FiIP5-2x9F82kM-GX6YbY1x34UZ9GXB4EQHUOKL2Xz7OOL2rjA6
+4NUFUKL8Ynb6ievIx6_UHiBLZ88GDQRKY1fIX7ZT0sLBfODaNQM7PDULyoNXDF2kqaRGC8lBYf10IiLqb1f1YfY-0aW9pegOdWA8WKeHqr40ZjEWzKud8iLR
+2a0nMRKYNefPfGYnP6WhE4ZHxgK84TDIr6bBZMy1H2AsNLBSikq_1GWJSaM98aPA0-afiLbMT7ODfAk4Yqd53yGPKCHOAaN8PIMpHiwe4gM1Z2knLKWmeOWH
+CgU4LyYS4fGEGlpjiG8aKuAXAWIslmXCAsGkP4RXA9XNUAOb24iGV0KIvd-Bvx9NzjDl
+}
+
+AzureEntityColoring(APImportExport)
+!define APImportExport(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APImportExport_tbg.png, e_stereo)
+!define APImportExport(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APImportExport_tbg.png, e_stereo)
+AzureEntityColoring(APImportExport_m)
+!define APImportExport_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APImportExportSPRITE, e_stereo)
+!define APImportExport_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APImportExportSPRITE, e_stereo)
+

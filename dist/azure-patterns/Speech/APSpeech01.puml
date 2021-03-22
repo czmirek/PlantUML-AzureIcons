@@ -1,0 +1,13 @@
+sprite $APSpeech01SPRITE [70x70/16z] {
+xTM5aGGn34JHDaewcloZFT0M3TgkFbx_0DvWbvS7FbkcSjHKL9HMD008sg6ed1VmKHJHXYBv8jpAESkrKlkKUgredw8NYgVdvHkYodtf4X7BNC1lKwpaN5d5
+V3jnKB5QLYLukQogDhQZ02_cTVKB5Vw9hlERIVJ_KakHkO3VfbW9G3P6CTMCZvAUPmr5LmV6QNgjr3wbNYlIfqZxj8-EH3bFUxvH-a2C_rzaBk0hbQd4RMaz
+pzZHic1RM27ewL9nX5S4jE88hmXenH5U4T2A8xmYO1L7QCKHNb60LnIiulqkPIfl
+}
+
+AzureEntityColoring(APSpeech01)
+!define APSpeech01(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Speech/APSpeech01_tbg.png, e_stereo)
+!define APSpeech01(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Speech/APSpeech01_tbg.png, e_stereo)
+AzureEntityColoring(APSpeech01_m)
+!define APSpeech01_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeech01SPRITE, e_stereo)
+!define APSpeech01_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeech01SPRITE, e_stereo)
+

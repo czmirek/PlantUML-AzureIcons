@@ -1,0 +1,37 @@
+sprite $APAudioMicrophoneSPRITE [70x70/16z] {
+xTS5hkCm543HE6P8x_vtEogyegc2eUyZ-l1qmyJ3ziGMAhBTdl1GhQXCGrRpbK9JcQvuElniXRCOFaJE9YjQ5ld10-YvYW5GjSeEOBweR5L_eB8ggx8ggx8g
+gx8gmanKPEJ_gwpAgbWPiRM8bOgbAvo_I03o_XdPCy3v7u6kzFWaAHyU7oM9fY8pEnsxBATGbP3tVpVuiDbblC9UTyoPFgWwz7OMPBnY0pZ9vqseaDlSISOh
+hek8sr042AsAuioD8euprQZ8_wFgDLIKPL4bwmhHQ5KjQ2CJtIT9OaeQF8yS4zpmgROd1j8-yspS_K7JuS-DGKNiviO3UFbD2hrAZP5RYlXdA_h60JZvxRlA
+6la5
+}
+
+AzureEntityColoring(APAudioMicrophone)
+!define APAudioMicrophone(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Audio/APAudioMicrophone_tbg.png, e_stereo)
+!define APAudioMicrophone(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Audio/APAudioMicrophone_tbg.png, e_stereo)
+AzureEntityColoring(APAudioMicrophone_m)
+!define APAudioMicrophone_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, e_stereo)
+!define APAudioMicrophone_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioMicrophoneSPRITE, e_stereo)
+
+sprite $APAudioPlaySPRITE [70x70/16z] {
+pPYt5OHG4CG6xw7_RY_xUeJt52nJWCu8rZqjU_xDGyWz60fP3OLSlQ6GnL38sHaAcHG5vuw2SqUvS2ueMN4kA1dkvbnGqktDkQ0a4yu59TtPd0jAik1SK3BW
+N52I3UU2aX7dWfBkQCu59PbnBYZfSIueoOfpGGdE1UNbt522Sq5vEHUKbtD1INyrvuBoSYue5DFLK98Tvu92CLqCXM9wTeAIBCrv0KNy8l7l2jFogVDlW7yR
+VMNmLQguObAzYpi9VeixB7wB9m_y5aza-2sOLCNKB2PuiKs8pKPjMTKR7tu_iWbFNxaGB5-vdApr5oL_tVe1
+}
+
+AzureEntityColoring(APAudioPlay)
+!define APAudioPlay(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Audio/APAudioPlay_tbg.png, e_stereo)
+!define APAudioPlay(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Audio/APAudioPlay_tbg.png, e_stereo)
+AzureEntityColoring(APAudioPlay_m)
+!define APAudioPlay_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioPlaySPRITE, e_stereo)
+!define APAudioPlay_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioPlaySPRITE, e_stereo)
+
+sprite $APAudioStopSPRITE [70x70/16z] xSmn0G00100m3VHlImRujW3BRyI2fLai5el5Oh5OB1QBnMBvHW4
+
+AzureEntityColoring(APAudioStop)
+!define APAudioStop(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Audio/APAudioStop_tbg.png, e_stereo)
+!define APAudioStop(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Audio/APAudioStop_tbg.png, e_stereo)
+AzureEntityColoring(APAudioStop_m)
+!define APAudioStop_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAudioStopSPRITE, e_stereo)
+!define APAudioStop_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAudioStopSPRITE, e_stereo)
+
+

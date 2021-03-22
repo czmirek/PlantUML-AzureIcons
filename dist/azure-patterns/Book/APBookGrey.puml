@@ -1,0 +1,12 @@
+sprite $APBookGreySPRITE [70x70/16z] {
+xTVLWGCn38JXEHbEdeFqtssoyBIis67z1NoBfbCVkYGN6bESnaRbIzbLfmXPhmXRACgkB8PqfeGU5bYQAxbJ19LA8PbHg_1IRA88DdE5cwMFLh8ifKObOQbN
+LZGjLJxwVz7DukVCBwwuueehhhWY8HagYqfM6fihNS-bgA4r9JNuHWneeEWJdVWY6frXd-8yBPrIf591PfVcgj485DgRAw8j523LAtqnVQkjF5EkQbJE
+}
+
+AzureEntityColoring(APBookGrey)
+!define APBookGrey(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookGrey_tbg.png, e_stereo)
+!define APBookGrey(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookGrey_tbg.png, e_stereo)
+AzureEntityColoring(APBookGrey_m)
+!define APBookGrey_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookGreySPRITE, e_stereo)
+!define APBookGrey_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookGreySPRITE, e_stereo)
+

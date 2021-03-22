@@ -1,0 +1,12 @@
+sprite $APDevopsProjectInsightsSPRITE [70x70/16z] {
+xTG54i9050HH1lcrzxymthZEuanZPRmaQuDVAQMKKcj_eaWFK5IbRaNLMibNGAfW70L4YozR0Ld-T2ZYMMJSYxI7BD9z2bCBugqwfXR4L1P_dhGIYA5m1omI
+J-4nU2fFsPbQ44C1OROz1QGda5v5dtvYHhdGIvNFBwMKqWm
+}
+
+AzureEntityColoring(APDevopsProjectInsights)
+!define APDevopsProjectInsights(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsProjectInsights_tbg.png, e_stereo)
+!define APDevopsProjectInsights(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsProjectInsights_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsProjectInsights_m)
+!define APDevopsProjectInsights_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsProjectInsightsSPRITE, e_stereo)
+!define APDevopsProjectInsights_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsProjectInsightsSPRITE, e_stereo)
+

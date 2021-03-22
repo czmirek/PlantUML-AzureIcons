@@ -1,0 +1,12 @@
+sprite $APDistributeSPRITE [70x70/16z] {
+xTJL0GCW34NH0B7z5wuBabBtTmQuFn4AUKHfudygmXMzjPAfmgYWWigRhZ62oa7s5HgWWagE55_9eJZYL_gdIgQByDzMK6dkhkIT-S5AVQE9LkvUR_tTYkIA
+p2ibLxIkyAtBSAYWWWegfXMRLxHcl_kbD4IHf16cas09
+}
+
+AzureEntityColoring(APDistribute)
+!define APDistribute(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDistribute_tbg.png, e_stereo)
+!define APDistribute(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDistribute_tbg.png, e_stereo)
+AzureEntityColoring(APDistribute_m)
+!define APDistribute_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDistributeSPRITE, e_stereo)
+!define APDistribute_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDistributeSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APAzureMonitorSPRITE [70x70/16z] {
+xTI7aSL020DGm6nG_mLVTjO5bilVhm1cP4ihF-cYfRfa6G0qIUfuL2IbufccywGpTSnSXXNC4faKiqocXgr9XZXsUYxFh2Rov39Dc6KoTPoLUFKP6wX-EbC7
+LwBLvpIOXsjZUQhkZ_fGzUtO7Hsfliq9WvaQkH8UmdGkceTBeuUg-EaAQgpwynKSM7ZAbLpfyUgJAoZXwejeSDn6bsF1SVUFNe47fsmoXSQju5SyDEu6ngM0
+SQ4Sb0iuvNcuAk0gpmDE0MvYrG_hh2fnbKqvpjwhFd-zUIQUXxtUN27LZr-17QeIICGpDOnpLlqu9NdYAiapMXf3afD0eny6EONyel55UWVNP-rPdPKNxYeh
+DJDz8K6No-KU
+}
+
+AzureEntityColoring(APAzureMonitor)
+!define APAzureMonitor(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Azure/APAzureMonitor_tbg.png, e_stereo)
+!define APAzureMonitor(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Azure/APAzureMonitor_tbg.png, e_stereo)
+AzureEntityColoring(APAzureMonitor_m)
+!define APAzureMonitor_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAzureMonitorSPRITE, e_stereo)
+!define APAzureMonitor_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAzureMonitorSPRITE, e_stereo)
+

@@ -1,0 +1,16 @@
+sprite $APSharepointServerSPRITE [70x70/16z] {
+xTI7Tfmm48NXEqrbulB-Rnk19mKarWZIuz_UtTFuK3jw_UFx262TZx4hb_cUdX8sMJaiMHdcJwrqTYWvbL6VdfPyevIv0cbrIavprRzLCM6xhGXQSazHmbjw
+NJ76ryYkAIROn7P14NJ9l4Beiscb7unCpyYiVQHR5fjJb7Hn217fOgZEAiIw_7wRZAd8jD9Q9o4ncMPSKbgoJCjY85UKIByPDnJYcCn0gUcqGaD5XHd0PSKQ
+G6YnNbFQBw55Ohcu-xGI0B6buj6y0h1Qhhu9q4abUn-YWHAPd54iPpbG8kDt5VQM7IcHyXd5TqgNAPzGg5CwHnP5xP5Ik5EwRFr7A3MfMTqekRfqohXG2g4L
+eWEf5WCLbob5i5MYuXHAOrefZuid0NClTQ-GPwP5YPuEUbCAGjifAEwUaSfQVNgiE41re8Wl6PLMzgVt505WlL9yAOCifLAF2wKI0EaKNwiOnULReRZhQ8zo
+Z6NOIF44o4w9nUApIbsVvNwFQisCimfbpuEng1kEubx1_kmIMkG5Hr7k5K4hUGGgxXbIdGu8iL8wfPLptTqCrUiU8LsohaVtIoRieZJkn5rtJwde8XttG16S
+Rgn0p0WJ4LikdN8jLijtbOWaXeNxiIRiUltZ--Wp
+}
+
+AzureEntityColoring(APSharepointServer)
+!define APSharepointServer(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSharepointServer_tbg.png, e_stereo)
+!define APSharepointServer(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSharepointServer_tbg.png, e_stereo)
+AzureEntityColoring(APSharepointServer_m)
+!define APSharepointServer_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSharepointServerSPRITE, e_stereo)
+!define APSharepointServer_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSharepointServerSPRITE, e_stereo)
+

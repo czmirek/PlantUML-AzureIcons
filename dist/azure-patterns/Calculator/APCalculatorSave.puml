@@ -1,0 +1,12 @@
+sprite $APCalculatorSaveSPRITE [70x70/16z] {
+xT053iCm38LXfoItylBkVzhnziPpwweY_-B05v2lPHsMP-Mc8D9qHLh0z1nGrPC1avwhC3v8RvSoyQH09-SibLIUIoMLL59fFOs_5MyRA9s_yaLPq3fAAgcK
+zbUDK-dmAzrQCVsIGt7yzMfAAatRbhYYGBUv8W3Qk3AI2IWoaGaeP08AcO129gAG6SAA36Sce90nCw3QgGhOKvnYe49cThmTwtUOMHtbUza1
+}
+
+AzureEntityColoring(APCalculatorSave)
+!define APCalculatorSave(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorSave_tbg.png, e_stereo)
+!define APCalculatorSave(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calculator/APCalculatorSave_tbg.png, e_stereo)
+AzureEntityColoring(APCalculatorSave_m)
+!define APCalculatorSave_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalculatorSaveSPRITE, e_stereo)
+!define APCalculatorSave_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalculatorSaveSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APSpellcheckApiSPRITE [70x70/16z] {
+xS-53SG05CFGmqBs7xZY24lvPNk09_briuY8tYL8trGWqhy2wK10G2PhcWf4QlAThymO2HWZ0MCaO8maZ968CP8mCX8mHWB6ICGOELVqd-pxcawJjOLAVdIj
+Y8W6
+}
+
+AzureEntityColoring(APSpellcheckApi)
+!define APSpellcheckApi(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSpellcheckApi_tbg.png, e_stereo)
+!define APSpellcheckApi(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSpellcheckApi_tbg.png, e_stereo)
+AzureEntityColoring(APSpellcheckApi_m)
+!define APSpellcheckApi_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpellcheckApiSPRITE, e_stereo)
+!define APSpellcheckApi_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpellcheckApiSPRITE, e_stereo)
+

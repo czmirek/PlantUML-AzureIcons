@@ -1,0 +1,9 @@
+sprite $APBlueSquaresRectangleAltSPRITE [70x70/16z] xTOr0S100C30ClaNtBNmp908k3c3lajVRGeA2WhAE7tQFnqcohHesl8gA2WeA2WeA2Zs5zJ37Swl9aTbUJLNhg2WeDm
+
+AzureEntityColoring(APBlueSquaresRectangleAlt)
+!define APBlueSquaresRectangleAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Bluesquare/APBlueSquaresRectangleAlt_tbg.png, e_stereo)
+!define APBlueSquaresRectangleAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Bluesquare/APBlueSquaresRectangleAlt_tbg.png, e_stereo)
+AzureEntityColoring(APBlueSquaresRectangleAlt_m)
+!define APBlueSquaresRectangleAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueSquaresRectangleAltSPRITE, e_stereo)
+!define APBlueSquaresRectangleAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueSquaresRectangleAltSPRITE, e_stereo)
+

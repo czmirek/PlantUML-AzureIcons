@@ -1,0 +1,15 @@
+sprite $APAutoSignalSPRITE [70x70/16z] {
+xTPdOkGW38PXIQ3sRRl_RJTWZ5EdRmrl2lhrpBZx1psW7t-RifIbi0ZVgHHBjBpUhaXW5kL6fQBdZfxTf702MRcFfSryWzAOu3bxyetxXPylVC-HrW3IxZnV
+7BsuJ-5419BlKuWBaV3_S3LALVCzrSBNAzNnfhHoZIA6lOZm_Z_HCxbG4SUMM-q1VL3FUMcVKqhiHjsBEMjqHpvKM8ggEKQXTHQ8EHjQBkyhZ9TvFV93cJiz
+J8NVA8ANXHy5Siw9vxcflFmkDnTMU2Y4lV30XNbWP9kYs58c8TB4sPI9PHvIRugWbopPbihdc1IEjXWDHfuK7UDOuOpJrR9pWz6f6FT3g05Kmwc24ccg3jZc
+-LHA8CTvbe9JgI9rd3-4Law54hwVeOHJbVrCr3wtdXIE5ugUKoI7Ke4w5QBgjtuNYQcqX7pkboWubHL0nnua0EwbAQD4RXSBivoAAO1-YQ4IK-zG9D6hT2xE
+uzoVoimJ6KmNf9aPvRzynrpAKfQobAKivIS
+}
+
+AzureEntityColoring(APAutoSignal)
+!define APAutoSignal(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APAutoSignal_tbg.png, e_stereo)
+!define APAutoSignal(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APAutoSignal_tbg.png, e_stereo)
+AzureEntityColoring(APAutoSignal_m)
+!define APAutoSignal_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, e_stereo)
+!define APAutoSignal_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutoSignalSPRITE, e_stereo)
+

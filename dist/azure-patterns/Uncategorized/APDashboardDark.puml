@@ -1,0 +1,9 @@
+sprite $APDashboardDarkSPRITE [70x70/16z] xSmn0a0m341H073_wy8ACA5zVskJlEuZIKfsKxMjsFnVDcnh5sLuLAWAXKAXK2WK2eL2eL0c
+
+AzureEntityColoring(APDashboardDark)
+!define APDashboardDark(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDashboardDark_tbg.png, e_stereo)
+!define APDashboardDark(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDashboardDark_tbg.png, e_stereo)
+AzureEntityColoring(APDashboardDark_m)
+!define APDashboardDark_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDashboardDarkSPRITE, e_stereo)
+!define APDashboardDark_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDashboardDarkSPRITE, e_stereo)
+

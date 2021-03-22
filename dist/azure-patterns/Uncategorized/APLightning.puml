@@ -1,0 +1,14 @@
+sprite $APLightningSPRITE [70x70/16z] {
+ZT07geH068H1Dvkz_sbVsFmp5dGJrPdYm-snRc-N3Jk_ZxnVMLc0p5sW92bMyXGfIfdxiZjyfgAKGtbrg2bMQifGt_KrnKgUOYLFiPAdMCbJhEGfkUAKNCbJ
+hEGfLl8KAtcAbJp5IatfkxAXf5Z9Kwo4ARdYb539KwpaALRo52irfKDAg3XbcVTsQnIdS5FRuXGZZU8K8wtoJhbLvJetUo5GIWftUIEDeXGZK90214gMSdqZ
+K90210fIW42vfwmPOkMA521GxdzbhZiLvFP6g5otTWjAhAmxoWKbL902HCembwtt521MceyrfIz8gFGb1GWKf021WXGWK90210fJ1Y1IQeeHAqW18WKfHgpK
+52DMQWgGJAafu_tBA01AJJ5YfKqnOgMa00cKaW8aLUufG0Abf009bVkx6KYit5FEG6BbdW8aLkufqmGaKSeR897I0y6W0C6Wz40YvHS
+}
+
+AzureEntityColoring(APLightning)
+!define APLightning(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLightning_tbg.png, e_stereo)
+!define APLightning(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLightning_tbg.png, e_stereo)
+AzureEntityColoring(APLightning_m)
+!define APLightning_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLightningSPRITE, e_stereo)
+!define APLightning_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLightningSPRITE, e_stereo)
+

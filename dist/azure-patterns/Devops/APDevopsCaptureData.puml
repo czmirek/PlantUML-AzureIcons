@@ -1,0 +1,13 @@
+sprite $APDevopsCaptureDataSPRITE [70x70/16z] {
+xT57keCm40DWUPf6zpzm2kQLPGoxVFxfJO25RxDjsxQPVjcD5BRuegRXXf01fi07TifEgPbIkCF4OuDRg1dWIPOFNEBpLunYYsh71QDxpAm12YDKbmeA_3IK
+FF82guQEJ-d2QI1whBVi05nZHdWRq7cjvIJUeiLvj8Pgqi5c0Y79uMojjlmMe4GWfPvPYothhL0y3ejs_1WNMpvmZkulvbhBfp4wyCjaQosV0ZuBZtV8Oj7K
+gGTA0L3l48xbOPaAYEvi1PK3IqR-Znb9gSlmJRPjsxOd
+}
+
+AzureEntityColoring(APDevopsCaptureData)
+!define APDevopsCaptureData(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsCaptureData_tbg.png, e_stereo)
+!define APDevopsCaptureData(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsCaptureData_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsCaptureData_m)
+!define APDevopsCaptureData_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsCaptureDataSPRITE, e_stereo)
+!define APDevopsCaptureData_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsCaptureDataSPRITE, e_stereo)
+

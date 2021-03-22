@@ -1,0 +1,14 @@
+sprite $APContentModeratorSPRITE [70x70/16z] {
+xTO5RZGn38PXEnv3lllVzuTIlBAwdgmgR1xXq1jOfD_aE8xnWLyEg0UMi6ix9JPHXV9E8_1kkhkg-fgLZRr6N8CI_foUCTrWxmcYQXW0JA4E1u3uzZus031g
+J01AYRXB6KQR2Z07PLgUCS3RYbDJ6QUoAgSINKNkL50hpPbg_aZ5WT4yuu1GKHvgAW2ugGWGjLBlw3U6drQitvPwqr0TTK4T1cQpSKuz1_JvYeLw0vXCYvey
+BZZe3d-uCG1S-GN2e3ju0feVW-VrEDrpOQrzF5HYRNtFqzP4MeFbzVGYPKGvHOGspFnpd296ExZyqdBiHTP--De4NTajdlwiI60jSSyr0I1K3FyvqsiCNqBe
+PQopQTmqr8Hfst4Snry
+}
+
+AzureEntityColoring(APContentModerator)
+!define APContentModerator(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APContentModerator_tbg.png, e_stereo)
+!define APContentModerator(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APContentModerator_tbg.png, e_stereo)
+AzureEntityColoring(APContentModerator_m)
+!define APContentModerator_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APContentModeratorSPRITE, e_stereo)
+!define APContentModerator_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APContentModeratorSPRITE, e_stereo)
+

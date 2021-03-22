@@ -1,0 +1,15 @@
+sprite $APSearchBarGraphSPRITE [70x70/16z] {
+xPS7akmm20K9Yjp_lZykfRBAyBGvzeR9BGp8PYX0_aBFG6kt1qOh_2H5iurH-R6EONUqntXaM4GzbbHB68VX3CjHml0mHCEIUIsBYh18QJFGmCCPbnQH5kSu
+bin26zmESrFppf1f3qoE9R92Hgdl1yTJS0ML0XGdRsbc7eeNihHMizoKD1JFN3SRT4FnHhYtzBL8Pg6HPORN6hb5iWvM3mLPQ2JvzSvaQAd-pdY5Jj0YIPMy
+LpOB_o5OiCR9bSqYfPIWcZq8yyKiV62fq48lOf5Nj-2yU8tqtD9ml-mMLUMRjmOBZC3ovqQs7QV9xX1eyHsNxUcAB3opqzJqKnsmr2GjAz2MMtXUkZogjKbg
+QU2Ar2yZYlo1_ComRijrhQ1zexoTlwV1-MrTgPb29fYxoj7ieUPC9Kf6Zt4w67RP7DKZNKs5KhCFKzg6EUSQ5_NwXzvN6ESQ3DQKPslmo5lnSEVK6JWw4p7G
+08yN7siMseElHvi68hNsFcRllLvQ6Mim7r_pe_dH_6WQ0R06Ix06I8urM8BX-k_cDm
+}
+
+AzureEntityColoring(APSearchBarGraph)
+!define APSearchBarGraph(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSearchBarGraph_tbg.png, e_stereo)
+!define APSearchBarGraph(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSearchBarGraph_tbg.png, e_stereo)
+AzureEntityColoring(APSearchBarGraph_m)
+!define APSearchBarGraph_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSearchBarGraphSPRITE, e_stereo)
+!define APSearchBarGraph_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSearchBarGraphSPRITE, e_stereo)
+

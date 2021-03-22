@@ -1,0 +1,9 @@
+sprite $APCharts09SPRITE [70x70/16z] xTR50O0m0C10t6N_RVdYKBTaW4EgQwQXzOTIVHQUWeA2WjAUwaxzKlBX8sqA2WeA2WeA2afMdsfFfN6lEtvp8QaCXqfd2WeAolUQBZzRDm
+
+AzureEntityColoring(APCharts09)
+!define APCharts09(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Charts/APCharts09_tbg.png, e_stereo)
+!define APCharts09(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Charts/APCharts09_tbg.png, e_stereo)
+AzureEntityColoring(APCharts09_m)
+!define APCharts09_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts09SPRITE, e_stereo)
+!define APCharts09_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts09SPRITE, e_stereo)
+

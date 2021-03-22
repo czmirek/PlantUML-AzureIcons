@@ -1,0 +1,13 @@
+sprite $APUprightArrowAltSPRITE [70x70/16z] {
+xTM5RGH050FHlmoX_hkDE60vqkGOfe0dMF37KGgfRTxzA4_bgUJsPyiegBwFe8mD58XiY00585oP6oW0mKhwZIoZC2Ihmf4KM4bB4L4mCbCOXI5OoO9460KY
+gd145OgCu4fHX2jb2s8KXd2b_aPwE0KXN6cAO4KNemLGF88LHMfmPIY25KLA0CKZL55abU2AVlO158y0nIDOIG0HnICfWEAt2oWUOOhVBb_xbbyCWy3PkMw4
+RnT7zhKWEZj7HRYY26SKuHMtNPpHsU6CH_ZbBN5WUHc4CXWvVXz7wHC
+}
+
+AzureEntityColoring(APUprightArrowAlt)
+!define APUprightArrowAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APUprightArrowAlt_tbg.png, e_stereo)
+!define APUprightArrowAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APUprightArrowAlt_tbg.png, e_stereo)
+AzureEntityColoring(APUprightArrowAlt_m)
+!define APUprightArrowAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUprightArrowAltSPRITE, e_stereo)
+!define APUprightArrowAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUprightArrowAltSPRITE, e_stereo)
+

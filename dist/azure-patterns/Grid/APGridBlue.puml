@@ -1,0 +1,9 @@
+sprite $APGridBlueSPRITE [70x70/16z] xTMr0S0m4C10C-q_SEfFQGRT06fLwdWdx5AXGeLAhECbTHqd-Jg_IAcpIuKA5Igc2xKHqyLTRwH2XOgluoHr7I_5EdUzaGeLAXy
+
+AzureEntityColoring(APGridBlue)
+!define APGridBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Grid/APGridBlue_tbg.png, e_stereo)
+!define APGridBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Grid/APGridBlue_tbg.png, e_stereo)
+AzureEntityColoring(APGridBlue_m)
+!define APGridBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGridBlueSPRITE, e_stereo)
+!define APGridBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGridBlueSPRITE, e_stereo)
+

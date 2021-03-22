@@ -1,0 +1,16 @@
+sprite $APNode11SPRITE [70x70/16z] {
+tPO7jjiW44MP3kn_mGcHFnPF1klWzElUxXaD-6dIPrZKiFGXLXkVQkh1VsJ9jH6VITYQ9bDAITrjKwAIY9iZHQkfqARa0TKVs4UIf8SbFf8aEInvJm97vCeR
+4lWhP1PLtf1qI8tRWwWAxKaw4m-hVKTu9Lbxo7BjX81awU4l3qSTAKPh2TJR6ktrIj6BH2E7pZnMwai29CkiapgZcDpA5vIWXkzPK8AQz8Jd5YfrIJvjYtdM
+vVe6-rf98UfP9-PwacXzHw5MXd9ggEapwrAdrBV4QOUpCcGTb397qa6tODPbg3xSp0CiYXQ1niDww07ivGmMp3g51dH63LXwrZsQFjHUz8aD5aPB8WzvR28U
+BQOdnaykbYJwt8nZ4y_OJKlpG6jdbgmyipJc5iMF-9wbh8w83u_adELYoTE-EFQ5vUjDGqlK4wudHl-ZZUKe6YqsnYCiT8SWwy0YzNLd7FDkRkarTeh3uHpu
+s80OB2IjSY17b6aodBBEG_lPZBYkmM67cTk3zyb3kHTvDwHm2kePIFTBMKraziv2KqlSFvLekaBNZxYi99vUuPUkgowgYSdKncQAuzPKuulf3oJJ5XU1gMqb
+QL1S9GPJsrl9TR0hJZYrhIKTyNmOeezGu14FbxLa3VSOjLq9PDsM1CCU99kMBGc6VTwMODQncQ3aFYpFh2kwAS5as09JwezRS5BTns4FRo8zw_uqtm
+}
+
+AzureEntityColoring(APNode11)
+!define APNode11(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Node/APNode11_tbg.png, e_stereo)
+!define APNode11(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Node/APNode11_tbg.png, e_stereo)
+AzureEntityColoring(APNode11_m)
+!define APNode11_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNode11SPRITE, e_stereo)
+!define APNode11_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNode11SPRITE, e_stereo)
+

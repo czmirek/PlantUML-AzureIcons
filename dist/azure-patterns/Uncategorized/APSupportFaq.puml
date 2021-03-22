@@ -1,0 +1,15 @@
+sprite $APSupportFaqSPRITE [70x70/16z] {
+pTPNjYKX34DH6onh_YFk70lG5HtV-QwrAv7YN4wWFmUWHjmtqKkuWyP2t4EZLHYkeKF6Yn8jCftPPbCWQBkAKtqJOblsPNy4OLyWbVjXI6wOLpy3AqAM-NTm
+U5P-RdhZ9EDhjK78jBviRc_4xra39NOAVmXY0ietugUMTxBc2_O8svc2-NmKFXlEz1a_8LnhQpL0pUL1reT1st4RxjO37X8lv2FCYnVYiL8lXFmndkiOxafF
+KPQxWr4qgbNmb8cMfQKKMZOj1VrsbFOLrRzGA1GVCHL8n5O4Grif2CHMvXI8hOmKXgra2CHLEW82CPMAc08nbOm8WPZAzgnrgzHcX-MrCjRTdjTAYxEMh-Ho
+2kAzWkN8Hjuh-JXjaKffRiFZf4fzfvAFygaw88nl3Sfd_HIu2ndVcwS1fnd4izTNz8PvjeutmQWqSizqx2jUL75gqcx6kK6p4RAotqPNhg5BK8GCiwpcjgwC
+ctBsGio5S1gpq4rse-O8qNi
+}
+
+AzureEntityColoring(APSupportFaq)
+!define APSupportFaq(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSupportFaq_tbg.png, e_stereo)
+!define APSupportFaq(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSupportFaq_tbg.png, e_stereo)
+AzureEntityColoring(APSupportFaq_m)
+!define APSupportFaq_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSupportFaqSPRITE, e_stereo)
+!define APSupportFaq_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSupportFaqSPRITE, e_stereo)
+

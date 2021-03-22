@@ -1,0 +1,14 @@
+sprite $APFunction18SPRITE [70x70/16z] {
+pTG5iYn120NHIr6Q-z_lTtb6J32CdGMKaTswn8P9TSwKwc39LRN1VQjemH1BDGU6m5NXW6ipgeiSYTAL9e1hK3YB7m2N0xrqaDF-tEfA0s3zkzLr361AkxA8
+7DZI1fRfMXqOMd0gmJMW6HohVeQjmLI97KQ3eHe_o-ghoBOjbifQOqjr7Tt2SDs2wQaie8pM0qq9tWDUMUK_9RIG7ihy0YlCvx_ssgkylaFWA64Js4fO19OI
+1e6fX4vWAC49k1ACGBl9AdQBO8vITfnBFPYbb4az5sd4kTI3SQMqE9TwCAOSlgIa4qLNpsuhQKNHrOCPIkhmMLUIHz7LipCbMP1BFPYZj1taKWvcAMq6_wXo
+TaDf7kHI3gOfpJBHVGS
+}
+
+AzureEntityColoring(APFunction18)
+!define APFunction18(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Function/APFunction18_tbg.png, e_stereo)
+!define APFunction18(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Function/APFunction18_tbg.png, e_stereo)
+AzureEntityColoring(APFunction18_m)
+!define APFunction18_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFunction18SPRITE, e_stereo)
+!define APFunction18_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFunction18SPRITE, e_stereo)
+

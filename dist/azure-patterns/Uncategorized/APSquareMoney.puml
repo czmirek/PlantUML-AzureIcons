@@ -1,0 +1,13 @@
+sprite $APSquareMoneySPRITE [70x70/16z] {
+xTR7TSL034FH3K0GSkg_Mn_bsPfq_lCAk0eJtyQM3_GsziULgKnbAbCnwRwIGFuInGAKRYaYZgYgOcAeg1X0N-5dACAQ4aXdj1IT8stL5AwAJsMjh6HNYLMX
+cugmnXYKnaWt5UCiigoC3EYoibYtex8oEiZUBdNcdfA1DJMLPMEYgtXLM56iMydokoGexufZLLHJ03028B7cgZAcfQ-0IqcnCAJEEWeIeF8VdVQZqhy5pTlX
+LAOobQcy0m
+}
+
+AzureEntityColoring(APSquareMoney)
+!define APSquareMoney(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareMoney_tbg.png, e_stereo)
+!define APSquareMoney(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareMoney_tbg.png, e_stereo)
+AzureEntityColoring(APSquareMoney_m)
+!define APSquareMoney_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareMoneySPRITE, e_stereo)
+!define APSquareMoney_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareMoneySPRITE, e_stereo)
+

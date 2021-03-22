@@ -1,0 +1,13 @@
+sprite $APShieldUnlockAltSPRITE [70x70/16z] {
+xTO5TWCn48DXZyov_u6xuw9Axihb-7zGpFUi3OPfG5WEwSZM38jf51SS38CSPGi7UOed7iX01Zcm3n9f4kpa8OGZiJ2NVecobL9RhNbDgVqowaLNiXjtLKbX
+n1bHSQJxDIbjC99I7CbFlfSKFueZ8pzDKPJZTer_KXIkqoHLyKa_fsIgQqg-SBzOsKhhwuhVj2uhZK1LwUkALrDk-_6obR_uAMWhEASWl9wTGIoyMLJdS53N
+SAQkuIogQxYehk6Whk5CNiF5AQ8p26U3UaaucwoHLY6eWTR86QtHYuIiC1RMGvXt0m
+}
+
+AzureEntityColoring(APShieldUnlockAlt)
+!define APShieldUnlockAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Shield/APShieldUnlockAlt_tbg.png, e_stereo)
+!define APShieldUnlockAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Shield/APShieldUnlockAlt_tbg.png, e_stereo)
+AzureEntityColoring(APShieldUnlockAlt_m)
+!define APShieldUnlockAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APShieldUnlockAltSPRITE, e_stereo)
+!define APShieldUnlockAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APShieldUnlockAltSPRITE, e_stereo)
+

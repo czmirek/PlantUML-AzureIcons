@@ -1,0 +1,14 @@
+sprite $APUsers25SPRITE [70x70/16z] {
+xPVLjWCX302n9C2r___QIXxOhAU4wvt7wM5gYtsu0NoCgeJQ0CUi3KmchCsVhs1aqihWP58pUnLA3AmCJGQ4-VE_hhtYwKRET2CwnXCZJ9oC5oPdDcqUfUWU
+GuxILvuLdqxmdrUHpvY-0cBK_wm0s2jORfwC5QeCcIhGNh5KsafFbWgfAtAjs_qikAn4CUfq7fNA533DHgmC6kSqv58oZ5aPh1L08WHR1KRykiWH1ayg-yyB
+L07iFo_7pswHbT8v0x3EeBvAdbToNwNKENqLMl1jg_Upui8DW733wojUZ9ApiH5F-D8JsREYkGUiZMQjSu_UKk0dLpmJ5KPMj7VOjQ7z2WOcAGoE-Lt-VCM5
+XdUCndXXk69cLEKA
+}
+
+AzureEntityColoring(APUsers25)
+!define APUsers25(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/User/APUsers25_tbg.png, e_stereo)
+!define APUsers25(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/User/APUsers25_tbg.png, e_stereo)
+AzureEntityColoring(APUsers25_m)
+!define APUsers25_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUsers25SPRITE, e_stereo)
+!define APUsers25_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUsers25SPRITE, e_stereo)
+

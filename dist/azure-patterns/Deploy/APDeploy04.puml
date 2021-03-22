@@ -1,0 +1,14 @@
+sprite $APDeploy04SPRITE [70x70/16z] {
+xPU5hWGX34Ll1Thr___Qvw_PPeHrvSIdoGdKmknm0NRTqYqJT0jPOX2NObQuPU5b0XdovG_r78l4zmMTRbai0pl9mW3gVaHEiIZ_7YMeHrZe7rMc5F4ZBBg7
+vD0H5lv7bP4YTcfUV3zIJgrHIQSyiL_IOGfEjb1e32TRub8BRSrq-S6i_801R9KFtI-gqo71Wrf8IbN66AHcIXDhqDr--B942nbXG8s5bk3X77biBKQ6OW4u
+DInr6JWc6zJcBPBcAaxntrU1868ZbZXAEWmB08llwJ32GukFBX5H0L9amHmn7bYMYQA1K7FNjS-YCsUHG_EYCtcHIzI8n_h5Jk-NyTwbqtitJcuOOd7JXgKn
+qs8chPb-oLqND2u_Y4jnx--w_gvhdUNHtdNzNHTW01Vbz_g7xPPF
+}
+
+AzureEntityColoring(APDeploy04)
+!define APDeploy04(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Deploy/APDeploy04_tbg.png, e_stereo)
+!define APDeploy04(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Deploy/APDeploy04_tbg.png, e_stereo)
+AzureEntityColoring(APDeploy04_m)
+!define APDeploy04_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDeploy04SPRITE, e_stereo)
+!define APDeploy04_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDeploy04SPRITE, e_stereo)
+

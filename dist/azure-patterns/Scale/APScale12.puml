@@ -1,0 +1,13 @@
+sprite $APScale12SPRITE [70x70/16z] {
+xPDNWiCW30KDgA1t__jkXoZUPf3JCtzfWqR4o-sZ1fZ671bVK412m0uQEDAiHE7Gq2YTfwLHuR1PIu8ZBxDOuA8xkeUan7DwJrb2g4i9zbXCagwdXwwjH-wc
+f-xHmn-IkajFlbHFvW-4otHFOgO3KgTwQ8qOU7WG-euEIWhz28Sa7PcLiCnCutV2MWrlc59dguNThJICcpXja-G-2DweMkk7HiQQsjSLWF1XgFR-jc5QpiVv
+ZGhOo6RSJfZ8QtGWINgFa8C13Cp2_MmwGhgsRBPm3t0M_TrY2AFNPI4EKnRF4sPEOKa2aE_Mae_OAiXl502KtqZh9s2ZXk7HQxBijPSrptzT65NDozNn2W
+}
+
+AzureEntityColoring(APScale12)
+!define APScale12(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Scale/APScale12_tbg.png, e_stereo)
+!define APScale12(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Scale/APScale12_tbg.png, e_stereo)
+AzureEntityColoring(APScale12_m)
+!define APScale12_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APScale12SPRITE, e_stereo)
+!define APScale12_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APScale12SPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APCloud08SPRITE [70x70/16z] {
+xTE5WGKn24LHaddeMl_LhhjcWFL_2hXHpluSkZPcqg1xuf7cSXEQ7YK-ho9HDeaioeosQB19D12B1XR_XIipm5ovDsKyK8yCOpoLsO_Y1Ib42Xa3wXd7lSBT
+2DvYmW1OFN6ULsXYAvaxmX9PE53vK8erNBYMrNTdBDAMYhHKkEDs8IqLLlDubGjs4L_uSQdtTg0XmqZWDyvJsumYHPCJz9JqLkedgjzkrqlNDsFj4t3BkJYD
+jznqcNbyhmFUNiKxA_DL-oe7tXBHQA0S3NXubFaWHDb6H195GbU6He4EkZF1APXqxUpFkG
+}
+
+AzureEntityColoring(APCloud08)
+!define APCloud08(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Cloud/APCloud08_tbg.png, e_stereo)
+!define APCloud08(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Cloud/APCloud08_tbg.png, e_stereo)
+AzureEntityColoring(APCloud08_m)
+!define APCloud08_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloud08SPRITE, e_stereo)
+!define APCloud08_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloud08SPRITE, e_stereo)
+

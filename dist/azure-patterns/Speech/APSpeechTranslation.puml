@@ -1,0 +1,13 @@
+sprite $APSpeechTranslationSPRITE [70x70/16z] {
+xPG5ZiCm44K_Z6rnxt_RNKTJvZgBzGlJqv2o-LOcaybaWgj8E8SBU9ZsYKOjQdRp-Mtg6KjfH2jZbipeuRfGkgnMb0jFBag8l3l8k2LZmRXbJQBL4vhGKQkt
+EOmbuioRbefRvEErBSp0H9rOI08wgMQ_bHQAEulXHMGQvA55mRGODXWXzjF2j71lgQNIAjqY1mzZsSMcvPoMkjLNOYbsjnZopf9Hq10COx4Qfk92NGIHqVT2
+n656TZVGtK9p2QOhpVLwjFwyr3YXfgN5BSgHXJeZd-Wsp8n-3SGlOVplgLfzbX6bvomHQXoE9Mgf62TIilbM9fF9PF81
+}
+
+AzureEntityColoring(APSpeechTranslation)
+!define APSpeechTranslation(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Speech/APSpeechTranslation_tbg.png, e_stereo)
+!define APSpeechTranslation(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Speech/APSpeechTranslation_tbg.png, e_stereo)
+AzureEntityColoring(APSpeechTranslation_m)
+!define APSpeechTranslation_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, e_stereo)
+!define APSpeechTranslation_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSpeechTranslationSPRITE, e_stereo)
+

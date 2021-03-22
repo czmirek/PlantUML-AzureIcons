@@ -1,0 +1,9 @@
+sprite $APGithubIconWhiteSPRITE [70x70/16z] xS6100000CEW-rCVPDNY00000E
+
+AzureEntityColoring(APGithubIconWhite)
+!define APGithubIconWhite(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APGithubIconWhite_tbg.png, e_stereo)
+!define APGithubIconWhite(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APGithubIconWhite_tbg.png, e_stereo)
+AzureEntityColoring(APGithubIconWhite_m)
+!define APGithubIconWhite_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGithubIconWhiteSPRITE, e_stereo)
+!define APGithubIconWhite_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGithubIconWhiteSPRITE, e_stereo)
+

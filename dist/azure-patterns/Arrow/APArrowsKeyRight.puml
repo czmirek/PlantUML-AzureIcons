@@ -1,0 +1,14 @@
+sprite $APArrowsKeyRightSPRITE [70x70/16z] {
+xPW5ikD034Ix1Hwu_u6t5EPunjhFhy3yKX4Pi04Y0rgEnN8ibcCn9bWE6j4Ds56ZjXscM8mf5icm218iaf4ZmJQO8G4p962613GYmR9IyWUjrDvhSSKqKlg9
+EklnVaN53ELuTJciDKvAcX61xhSmoXAN5UA8jjZ6618I1yumD8uXwlqlMuWn0Xy5CsAZeqcsH-eocY31BH6PqR0ySey0F2vL_nJBytzKopDgFnFRpwBxkWca
+dpbNc3_Az39YOQpoGU9qm788mNri6uOiZFNbheqKps4vWmCQ5rKvdnBRFZTW-c82KBtjf5l7xfJaFDxEE2RnisSXvX5VIYck-1hyGQPOZC2NULBDqD1E6iuZ
+Tj0alTbalMKb82aMVfatOMPacb_cQmM_p5SS940S-GS
+}
+
+AzureEntityColoring(APArrowsKeyRight)
+!define APArrowsKeyRight(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Arrow/APArrowsKeyRight_tbg.png, e_stereo)
+!define APArrowsKeyRight(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Arrow/APArrowsKeyRight_tbg.png, e_stereo)
+AzureEntityColoring(APArrowsKeyRight_m)
+!define APArrowsKeyRight_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowsKeyRightSPRITE, e_stereo)
+!define APArrowsKeyRight_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowsKeyRightSPRITE, e_stereo)
+

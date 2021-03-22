@@ -1,0 +1,12 @@
+sprite $APCalender04SPRITE [70x70/16z] {
+xTO53eKm54JHgKlaxN-rtuLAhC6PYzi94KGmGt80XOgQ8H4xGn_5_6TcL360iXQ0jHhGWue6y5ACLO0QlnTjdy1dTKIP8H4tGo9vXewaK8csAFRsU1Ib_IfK
+g519eIZrzaHNT8rt7Of2pW55yR775krOeKA5Id95iNcpfSUUK7J1lqCgcA7BA5Jk
+}
+
+AzureEntityColoring(APCalender04)
+!define APCalender04(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Calender/APCalender04_tbg.png, e_stereo)
+!define APCalender04(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Calender/APCalender04_tbg.png, e_stereo)
+AzureEntityColoring(APCalender04_m)
+!define APCalender04_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCalender04SPRITE, e_stereo)
+!define APCalender04_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCalender04SPRITE, e_stereo)
+

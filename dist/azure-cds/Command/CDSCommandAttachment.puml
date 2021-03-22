@@ -1,0 +1,14 @@
+sprite $CDSCommandAttachmentSPRITE [70x70/16z] {
+xTW5bi9048JXYWqzZDJzRxj1wcrmEgpl_C-HZtJZuPMmhnyjCySmu3G-aPJEgFAmLXah5rctIfbuMbwZTCVxxghSjLcXR3bN1kpg8dTrRgK_7I9mpjnAuDm0
+g2pKfIIIMxmtQYINaac6yvV8w5Lq9wWYThMYnTWFKuOyzx8oKlrIPJIpyB9Y93EQqfIcDAKfJMbAKvhIb01Wep-q-iyNwEZaeQDPF3auZv8mLqbLDTdJYYR1
+TBedwCgdwhKOH1wBq5fwFXcAHi2OTwKH6h20JwR_lijqOE5v1LKpASrJ_USPKWUeBd7Nv56qrj0TZQ0bknGKlKwIMTBhfi2f8FAY2BU2gVAaEi6jx0frOGJ0
+gwWXvaAM70VWdl86
+}
+
+AzureEntityColoring(CDSCommandAttachment)
+!define CDSCommandAttachment(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandAttachment_tbg.png, e_stereo)
+!define CDSCommandAttachment(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandAttachment_tbg.png, e_stereo)
+AzureEntityColoring(CDSCommandAttachment_m)
+!define CDSCommandAttachment_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandAttachmentSPRITE, e_stereo)
+!define CDSCommandAttachment_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandAttachmentSPRITE, e_stereo)
+

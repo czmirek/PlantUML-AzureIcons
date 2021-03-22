@@ -1,0 +1,16 @@
+sprite $APResources02SPRITE [70x70/16z] {
+rTO54jjG38JX5Jo3IlS_RIdH9Dwfjk2X_c7mPuOlmFs-i68_kgtapyBkASXdVaknPWA_RrMmmam2EZ-gDbB-cbbLTOAKOQRKX5H5AufnEI5LErgHp63OKJyp
+gQ0Lmozx8WjIqKi6smCvSLLu_bskfgX7SLKiYObKi-GFP0ShnAHGUgaS8CNpofXG6jd1Yj7_dHKmiXO0LcY04CfhasK5RqEOvtiAOIMUZ4TI2c75anhcQBiW
+h2058n1IV6O8ISmASkw2R52A3KGqGmWhaZ54PWYa5SKOy8CXH2b0CEA00M708aGeC6TaE-sdFo3pUThT3F50ekeaH2fSF96ger-aCZ7HHyP38bg1OJsKHamf
+S_iLIVydvQZg712dIgLOlJfDC5BPwihOS4gGIjIb0mCZbLLLD4j8OhIorbO3GenGZYhE0KGI8vMTX7FVen5YPcKZ8m0qGWmfCtA0aMPOOOINAZmRwLYHIAtf
+346AH0hGJ2iIEI0OKaQaTloMOIMgk0N5a38X6o0PKWIYcLO8uOMYcMXbH0w0i-JyfMX4Coz58venj68IqOoZbKCWWY75Ja9EWs06XHX2D6Ej4ACHlY15AyGG
+eXbhXHX2z4mPMY66a2cF30T8QIRm5x7IJE26qen2j4Bzzyet
+}
+
+AzureEntityColoring(APResources02)
+!define APResources02(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Resources/APResources02_tbg.png, e_stereo)
+!define APResources02(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Resources/APResources02_tbg.png, e_stereo)
+AzureEntityColoring(APResources02_m)
+!define APResources02_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResources02SPRITE, e_stereo)
+!define APResources02_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResources02SPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APDevopsPackageTypesSPRITE [70x70/16z] {
+xTJ50S0W04DH2Bx_m7LtrxnRxTS0SG8Y8Y8pIgweX55OKx4OPDTLpCYR_g1o_ZzoFdZNa-uSgQnuT1Gl-fGAAt25VPLGUC0RoTRYjlEDiFDPaDdtB1ezUdrb
+oDeAp228Cn0H4SK
+}
+
+AzureEntityColoring(APDevopsPackageTypes)
+!define APDevopsPackageTypes(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Devops/APDevopsPackageTypes_tbg.png, e_stereo)
+!define APDevopsPackageTypes(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Devops/APDevopsPackageTypes_tbg.png, e_stereo)
+AzureEntityColoring(APDevopsPackageTypes_m)
+!define APDevopsPackageTypes_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevopsPackageTypesSPRITE, e_stereo)
+!define APDevopsPackageTypes_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevopsPackageTypesSPRITE, e_stereo)
+

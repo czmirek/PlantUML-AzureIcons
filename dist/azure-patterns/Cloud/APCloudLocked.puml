@@ -1,0 +1,13 @@
+sprite $APCloudLockedSPRITE [70x70/16z] {
+xT85SeCX48RXbG-ft_-spPBCmFukZBKyrTYB_dH1_yCm38C0KF9OLErfbUCHuvzgADC1UAg3CYQKfZIab29uFgv_mcDgXRVtbyWh5GMsCvpV6-hdhouwKoFF
+YUIKdfdW1kVDIDqRcyaRo4XkPgCrGbYbvPT4cmVJIx0aKy7CL8ERoiV8r4oa2UonpG0LTO7a2VOyjZP3gTAoCuvYp-Cp2Ms6op4vEB8jqLrqcbNuK6KkTQym
+oSqAAyozYW3tAueE5K6F2dfK-4hb3QAvhSYLIg27VBT29dQffBlx0lkWEoEzSaOnH7_ItEM-a7If47Ue654Sib4vJlvSXTEIG7F3C0m_NVm2
+}
+
+AzureEntityColoring(APCloudLocked)
+!define APCloudLocked(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Cloud/APCloudLocked_tbg.png, e_stereo)
+!define APCloudLocked(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Cloud/APCloudLocked_tbg.png, e_stereo)
+AzureEntityColoring(APCloudLocked_m)
+!define APCloudLocked_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloudLockedSPRITE, e_stereo)
+!define APCloudLocked_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloudLockedSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APWebappFirewallSPRITE [70x70/16z] {
+xPQ7hkGm24LfbxJ__zyLMonm_Bp9wsNET2GV4mFAq7L4rSnKXEcvi7b2doEIqC0paBjfm3K-l89R-MWiYHNY7KgNCGz0IGCLfe3lI0BxbnQ4RYCrVJMXPw3U
+6AndqGjMJfPU8ufhHymb5_2u1vdcM6uIf3JW2T0KTY8Qz8PwHUQfX0LPCjQ0PdXOj4f41XgU5vd3bNEs49uqDk_QM2rbB7secLXEcp3IrdBjahZVH6hdY4CL
+uohLHLQjILFLDfqW7bfgqUOMwqyDdf4Snio2Bf3Xd3DcLuH9BdJPufJnftEnQOsa_ivOxYATzWkwtCQTXjbKzwCie_k8MMn0JuE-AHbU0LeZTt3xPh5V1Cm0
+ZOYQZp0cF9jSTJoRN2xuad5WspCBi1VmTqMf5fOr4ukEp08S1S3Ne6b0Bx4WpSBpBKR4pCGljJG-t08pazJd6M0fd0B0OB0LpwJygyBpoUUo7W6m79aTvmDR
+ZyngNyloi3oRR54y5w7WyXnveVs-ETDheStq-raUbl_U6vT2kpT-tjxzbsT_FiiiC3xTyqpt8tmAl8_bOScLtZBhlKeR_g18Z09cg6Yo_08
+}
+
+AzureEntityColoring(APWebappFirewall)
+!define APWebappFirewall(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Webapp/APWebappFirewall_tbg.png, e_stereo)
+!define APWebappFirewall(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Webapp/APWebappFirewall_tbg.png, e_stereo)
+AzureEntityColoring(APWebappFirewall_m)
+!define APWebappFirewall_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, e_stereo)
+!define APWebappFirewall_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APWebappFirewallSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APGraphArrowSPRITE [70x70/16z] {
+xSvL4aCn58BXa2j9plxtMozrfLx-P-ORqYVdN5-Oe0p1h2ooWiewGGbsesB5IkxPVOgLZcL1wTaHnOeLZ0zHOeV93FCfGqh8R3uSs48X8uGW8oewWzXXnd9N
+DNQO5b8Z5Qb2HQf__nSYL6GavVlgYIY1Y1A8A8684eWeOOquvwO
+}
+
+AzureEntityColoring(APGraphArrow)
+!define APGraphArrow(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Graph/APGraphArrow_tbg.png, e_stereo)
+!define APGraphArrow(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Graph/APGraphArrow_tbg.png, e_stereo)
+AzureEntityColoring(APGraphArrow_m)
+!define APGraphArrow_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, e_stereo)
+!define APGraphArrow_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGraphArrowSPRITE, e_stereo)
+

@@ -1,0 +1,16 @@
+sprite $CDSManageServiceCatalogMADSPRITE [70x70/16z] {
+xTS7TkCm38HX00DWQDx_m1k1iUBslAJJo_-QnFAv5yaNpGzzfGDDhaDVxQ1NY3qDfytdhNTS8dheFMGbzEut4CfIUdsphVSchrM2PFfyTbl9jUBLIlL-of_o
+fmJYrKgOgY9UfGHqX5SehdiMZoc1J3STeSxN5TJUuU3vt1SLrv5dEkBaV449qxquFxTfvVHfzNCLQyyBXb42ZY-v5NbFEH5KenoSQebwiHr-L-6UYbYIoJ96
+pgs0cREQKKIGvCcpYes5FHKhYe3SdR4LzeY2A6SO4GygAfeaou2jAhOhusbcUkts9OMXko9IktV5avDA9EEsuidCIGK2qlr5mLPmCnmnhOWuUQMG0Imfei7K
+4yM7iIkSKaH9nb7n6dz8SP1UIfBfgueQF98GTJ9P1bQKg62cvgaYLfiSE2hE_ojdWvho59Z0KV7aVQLjfPo6415hCPG6PDkRLyJ3FLg6bx8RYugeLU6Rmb0H
+MrJqv2GHwRA52ONki1T6PUHCI1LjGXc5dlwyH8O_os2RLneXDxASV7Rt_1g9TjQCqbBbB6zjLQdysJ4J0zk2ij1jvR3MRONVNC7hbN7jxAzK2kdsIiKsnEKL
+IbN8wvH289V5gv6AVQs3oHVj7m
+}
+
+AzureEntityColoring(CDSManageServiceCatalogMAD)
+!define CDSManageServiceCatalogMAD(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageServiceCatalogMAD_tbg.png, e_stereo)
+!define CDSManageServiceCatalogMAD(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageServiceCatalogMAD_tbg.png, e_stereo)
+AzureEntityColoring(CDSManageServiceCatalogMAD_m)
+!define CDSManageServiceCatalogMAD_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageServiceCatalogMADSPRITE, e_stereo)
+!define CDSManageServiceCatalogMAD_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageServiceCatalogMADSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APFormRecognizerSPRITE [70x70/16z] {
+xTO7Skim38JX1K4GuDx_lYvuLMAAgFI4d-kqVwoL6zxFiYoByo4wNV7HTCQ94KbzbGhrLIhKLwbGNbWfDvLbkZ8g7rKfEwSgXJlsAgz5FcgNHmXcAvA3vXCp
+yvjcTcPTXRNWLjEP2ioiWF-9LjKy66Lsb-0VBa0gGPkiD3BrYdyQsrobCktEi54FLYH8gZ0Pjg8VhVYDekUk-KxEaozv9xGZbUqm2kHHEMd8knPJ5UMD39LA
+cQcWanr3fR0SswNvJKCZ7IFQiGgJo2CLdJeYU5RCJA1c1Na7bhbA8STTT6RTv2yzqqaO-oCIwkG_3uUnOii3ppBV4FXkoyQ24uAwYIXESRe0IQChJggTOLQj
+zUoTfXuatGHVph8ionK
+}
+
+AzureEntityColoring(APFormRecognizer)
+!define APFormRecognizer(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APFormRecognizer_tbg.png, e_stereo)
+!define APFormRecognizer(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APFormRecognizer_tbg.png, e_stereo)
+AzureEntityColoring(APFormRecognizer_m)
+!define APFormRecognizer_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APFormRecognizerSPRITE, e_stereo)
+!define APFormRecognizer_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APFormRecognizerSPRITE, e_stereo)
+

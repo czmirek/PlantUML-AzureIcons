@@ -1,0 +1,12 @@
+sprite $APUpdatesDarkSPRITE [70x70/16z] {
+xTKr0eL040FGBtZc_jT5qk0GjCghKgtlJ5hTG1ZaF2jk4HqpGqObCuKKnyeFPLskA5OZAdfv58yI9I56RFc18oEeFo0g0YCDRguKxkZcKJoAmjHdh_-0vOiH
+xkZcKJoAp41gEz1xm7B1qcxw_b4yodbcrW
+}
+
+AzureEntityColoring(APUpdatesDark)
+!define APUpdatesDark(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APUpdatesDark_tbg.png, e_stereo)
+!define APUpdatesDark(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APUpdatesDark_tbg.png, e_stereo)
+AzureEntityColoring(APUpdatesDark_m)
+!define APUpdatesDark_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APUpdatesDarkSPRITE, e_stereo)
+!define APUpdatesDark_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APUpdatesDarkSPRITE, e_stereo)
+

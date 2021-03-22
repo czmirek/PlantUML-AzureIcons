@@ -1,0 +1,13 @@
+sprite $APSlasSPRITE [70x70/16z] {
+xT77jGGX34JHai7KQlAFzbl6EnhfpAfl00ya7S9sknq-HjJStIHGyCQJvbYXbJUgOYEfvBqgsCBvX65UvLCLipfVQC78q36ZSOWCLNYsl6BX19bQIdGcunGD
+V-NvPzIzk1kKa-G-KRcPuveqBcXtwro2Iyv54ll9O3WHBYiuwHaLOqQbSvrZ40Oe1cU0O6WCG4QbAmR6zAhHolbGZEj0Orn1PG8n9YXWWeR6110c06hAhT4P
+LG48enG9cO9_FRYLmTOx3JYpoXNDS4DqCy6VGzXkj_i6
+}
+
+AzureEntityColoring(APSlas)
+!define APSlas(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSlas_tbg.png, e_stereo)
+!define APSlas(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSlas_tbg.png, e_stereo)
+AzureEntityColoring(APSlas_m)
+!define APSlas_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSlasSPRITE, e_stereo)
+!define APSlas_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSlasSPRITE, e_stereo)
+

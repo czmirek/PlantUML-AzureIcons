@@ -1,0 +1,12 @@
+sprite $CDSIntuneClientAppsSPRITE [70x70/16z] {
+xT130WHH40JHB3JlV-0nOsnKB7FnFdIqojlzGh8McHGONSlQUvJstvHIEZHJkCuKhhSefPGIo2IxTDK7PWphqT5E_gvpzIE_UvrIIXvJyjbAZsOArvd2zTkL
+KafnP0VNwMXSzO4bSicuckHS7_kx0vefN6SArzzJIYcbEQOqVwMC-ysK4SqKZ6ibXjkL8NIqQW8
+}
+
+AzureEntityColoring(CDSIntuneClientApps)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, e_stereo)
+!define CDSIntuneClientApps(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Intune/CDSIntuneClientApps_tbg.png, e_stereo)
+AzureEntityColoring(CDSIntuneClientApps_m)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, e_stereo)
+!define CDSIntuneClientApps_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIntuneClientAppsSPRITE, e_stereo)
+

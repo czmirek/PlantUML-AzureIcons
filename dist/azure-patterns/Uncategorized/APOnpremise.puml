@@ -1,0 +1,14 @@
+sprite $APOnpremiseSPRITE [70x70/16z] {
+xPY5qYiX34R3iWJB-p_l7UIh2rdkxvpQ6cUciGeLDZV2JY-nRX1wXHjbUo4nmnRx1oq-DFnvCpZ7sEJ_RrcMPM7VURp9Nzz7oy98XYf7Nrzrox8i31vlhldo
+WkdeVdocbyLmeaRamnOd8h59H6IVi5IDBniyOv4OenJib0LO_QVQW6M0Ol7vof8thSNNPVM9hRMSwcO9a55OedGyDHW7UDp2Pmb0ZDAunGMfP3eJuLL4DzIW
+E3fZyOQ6BOYleGi4NQ2mr3ZG9Ga7fYpvW2NSMSg1JMU9WZ20lIPj9ttLfQkmG3nioNTLvz5DogghHDFM14q70CwIKvP2OCiU3aKtWll9OAnLH1S8E6Tvra87
+BTodTtfW8Pt5OIfisd-K02h6v6kBvjyjGyR7lkBw4_OV
+}
+
+AzureEntityColoring(APOnpremise)
+!define APOnpremise(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APOnpremise_tbg.png, e_stereo)
+!define APOnpremise(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APOnpremise_tbg.png, e_stereo)
+AzureEntityColoring(APOnpremise_m)
+!define APOnpremise_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APOnpremiseSPRITE, e_stereo)
+!define APOnpremise_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APOnpremiseSPRITE, e_stereo)
+

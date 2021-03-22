@@ -1,0 +1,13 @@
+sprite $APStorageQueuesSPRITE [70x70/16z] {
+xT95OiLG5CFGqCsJzx_WCduCg5pDVKRkFhB_-d5xqqDZtmtpzdXkD13QTgJnceAW82W82eA2e20e25j-RrGdKf1Ia5AGHsLk1pqCsa5rZt3Ogz8EEqdFTqZb
+iDLAVHk59YX4K8YW444XWa84XGWACPGOIWmbXX93mL28e1118O9232M6qWob3AKCfGob32M64aF1K8YW444XWa84XGWA4HGYA4HGo4xbeTgHWfI2b8Fq0b9z
+rmztZNiQkZFzTmi
+}
+
+AzureEntityColoring(APStorageQueues)
+!define APStorageQueues(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Storage/APStorageQueues_tbg.png, e_stereo)
+!define APStorageQueues(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Storage/APStorageQueues_tbg.png, e_stereo)
+AzureEntityColoring(APStorageQueues_m)
+!define APStorageQueues_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APStorageQueuesSPRITE, e_stereo)
+!define APStorageQueues_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APStorageQueuesSPRITE, e_stereo)
+

@@ -1,0 +1,15 @@
+sprite $APClockBlueAltSPRITE [70x70/16z] {
+hPXNaiGm24J1Ma3o_U-x6MSQoQN-7hqYZ4aKYukerVLRrLGAqxYAjlMYfcKGiGRg1vMw0jKkpkACcBDa3DQrGyhOcMj8pKp4pAw1Hcx9oV1J9BdeoLK98VMO
+LNvozs1gJI5DGcjRWgbtQx7N5K4g9sdSVnb3b5BfZWdiBDIXyknxoI7vxxa12CGqFZWQGVZZLm2Zv5gYm3e5XNYvvATI5oLuvSRn68Kz32Ue4A20Vt4zcj9e
+b4BD8xE7ISOfSaYAcu8es9ZT8Nr3qIs-vWd259GcSwigGGgkZirnYYc9IrpSjLSKVot_D4n90YFcoNf58UzQ7kLtbF_dTGQbhXCeBdbBaG7AabEmHux17cNH
+TGoEha4ABH3Z58F_kXpp7n1nIeu1Nm3w6dEClqQL8STuPG1LAiTubK8LCyTunKJLEyTuzGuwIOm9Eea3fGiJThMzm-QOiCFktJx7W6w_JnuP1amUO0h2ybV1
+H0Q49ZAotRZH8TFcJAgpf-Rt4_oKRMBYPZD_onhV-6PldtWJPh09ZstbAgAzMxcBRUsGyQHhnVpBoVWLPw4H5RjVbApGkBY8-NNBy7Nh2m
+}
+
+AzureEntityColoring(APClockBlueAlt)
+!define APClockBlueAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Clock/APClockBlueAlt_tbg.png, e_stereo)
+!define APClockBlueAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Clock/APClockBlueAlt_tbg.png, e_stereo)
+AzureEntityColoring(APClockBlueAlt_m)
+!define APClockBlueAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APClockBlueAltSPRITE, e_stereo)
+!define APClockBlueAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APClockBlueAltSPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APTwitterAltSPRITE [70x70/16z] {
+xP79TKH120DH4S3a7wrtM_vhB_HjfiwyGeB7a_0Y1X3a1oZc8GqHXkX6kKMMwpVfK1374Vb1V9FPqgGnR58fMnho6Znphr679CY6fY4X_mzDz45afZQhD1B5
+uAdhLie6nrswATJ-aHcqw28o6ZYBRkRKQ-4-C-fgH7iTwhQq1rkDJ4v2RAXRaccDjZcWR9ad34iiAbdgbOWLOHGhmiIMIY6ZGg6g9ewKeXZLeXZcRciIg4TH
+vSrcuYhrC5frshechg7Knr2H6DMEOYGA4iC2YLOaeIxHx7UCo1RpVp4KIcmSLS_qNmoA7aIxIq64OXm1tpP0tOR7a_3Y7G
+}
+
+AzureEntityColoring(APTwitterAlt)
+!define APTwitterAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTwitterAlt_tbg.png, e_stereo)
+!define APTwitterAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTwitterAlt_tbg.png, e_stereo)
+AzureEntityColoring(APTwitterAlt_m)
+!define APTwitterAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTwitterAltSPRITE, e_stereo)
+!define APTwitterAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTwitterAltSPRITE, e_stereo)
+

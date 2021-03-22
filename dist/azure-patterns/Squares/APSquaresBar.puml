@@ -1,0 +1,9 @@
+sprite $APSquaresBarSPRITE [70x70/16z] xTQr0G0X0CNGKsp_WQbnQR1aW8TK_ohtbLjDGK51GNb-B-drroY_AIJdKb1GK51GK51GoYleX7NeFRbJyRv_SGK51SK2
+
+AzureEntityColoring(APSquaresBar)
+!define APSquaresBar(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Squares/APSquaresBar_tbg.png, e_stereo)
+!define APSquaresBar(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Squares/APSquaresBar_tbg.png, e_stereo)
+AzureEntityColoring(APSquaresBar_m)
+!define APSquaresBar_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresBarSPRITE, e_stereo)
+!define APSquaresBar_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresBarSPRITE, e_stereo)
+

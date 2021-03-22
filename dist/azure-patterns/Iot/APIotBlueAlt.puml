@@ -1,0 +1,15 @@
+sprite $APIotBlueAltSPRITE [70x70/16z] {
+nTW7agmm38HXIpBn_lVTCAbVe9T_cTILAV6HiUMsavYMPSfsNs9PlxB4VKfVJ-dtAUDP6UzJ1g3G-x9cko_rnIoT7pKpsbRcXTTN_qfofM_LHpybg9BzbEsj
+IPNQh8zx5ENO5SNcZIcgb2cFpCXUJAbUxiqudMWHfLG662aS4UCL8PoHmX4nHX726IaUuOmK8PoHuX7EI1726Ia6OOmKWp16Ya4u4-CK1g6C_e46GOnY498_
+bPq3ZjDOu5p2xZwqbkjt1dSgIlavnNAT58HHTYufrbE6URMP_rP-gkJAyaFbi9wlxDWLjJCzjDdFJ-fFn9ISJkLKM-Of1dXVOl-bhdjUNI5rGmupfpspleZK
+Z-80el-BOH0YnJ04aM8OWaWn34Aa60OXKWo34IbYEE8KCHoHmXaXJX734IcS4U8LCHoHmfciIY5E4PDL0QRae0-e1diItareQztNsUGR-YFR8QOko2YiMutu
+RIVSSBhlodboFINVkrh15RwAy_OL9RwwzGa
+}
+
+AzureEntityColoring(APIotBlueAlt)
+!define APIotBlueAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Iot/APIotBlueAlt_tbg.png, e_stereo)
+!define APIotBlueAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Iot/APIotBlueAlt_tbg.png, e_stereo)
+AzureEntityColoring(APIotBlueAlt_m)
+!define APIotBlueAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, e_stereo)
+!define APIotBlueAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APIotBlueAltSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APBusinessIntelligenceSPRITE [70x70/16z] {
+tTC7bcGX34DHR8bYzh_XwLWvFFU7Zbh0FR8n3I9bPaIRY_R9c5SOOkMOd53GOMNAaTsxhLk9aX3oFjhAo3OeIZP0EJ9Wi2BTHsnIc4cZmeoC2ZCsAhnYiyAC
+MU7p4okycZGgN2RC2fSnAxpWD2jSngnm6PaLBkD99R2ALHp9hF18OLPu9CyhkKHHYoMALYZXdwFadrEqHjb1_ZtEQA-PL7PBbBv4yH95RqfVecXEYLOQYHzw
+Nl5UwJDAxfKaXGVYaUZcS2HMr8fbu1CTOr1mjrm6gXJBmDqMo-037PCRb76imZDL43uQU9_YQk0R5XdOR941fBWR-ZxNSKaPsHudGTa_CQM3CjIkmmuOi9vh
+PVHi7qeSeJtXR5iYlyusTjrAskWJ
+}
+
+AzureEntityColoring(APBusinessIntelligence)
+!define APBusinessIntelligence(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APBusinessIntelligence_tbg.png, e_stereo)
+!define APBusinessIntelligence(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APBusinessIntelligence_tbg.png, e_stereo)
+AzureEntityColoring(APBusinessIntelligence_m)
+!define APBusinessIntelligence_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBusinessIntelligenceSPRITE, e_stereo)
+!define APBusinessIntelligence_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBusinessIntelligenceSPRITE, e_stereo)
+

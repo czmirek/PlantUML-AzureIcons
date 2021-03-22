@@ -1,0 +1,12 @@
+sprite $APBookAltSPRITE [70x70/16z] {
+xSo30SK050F0FDRj_jD-ssPkW1lcsZDAtrAt4tK2mygDoqJraAMrXopvDmiNBbmQxD57BlQ8HO6x5yM4rt7FOeBPqhRbpOiei5pQ9czSLhoTUTrYn-N9vGO_
+ld3XmeKB5ovSk73XOezO4lSlfM6vZ04
+}
+
+AzureEntityColoring(APBookAlt)
+!define APBookAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Book/APBookAlt_tbg.png, e_stereo)
+!define APBookAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Book/APBookAlt_tbg.png, e_stereo)
+AzureEntityColoring(APBookAlt_m)
+!define APBookAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBookAltSPRITE, e_stereo)
+!define APBookAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBookAltSPRITE, e_stereo)
+

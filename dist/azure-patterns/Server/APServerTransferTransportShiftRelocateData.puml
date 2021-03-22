@@ -1,0 +1,12 @@
+sprite $APServerTransferTransportShiftRelocateDataSPRITE [70x70/16z] {
+xTJ7OKD128JXMO8Vq7-_jdMIk2YECdy1t-PLHcACz9xAA3-KiWZbcoj1KJPFXcAU36N749GTGr3sJ5Vy_AmnJR5ByoGeEuQXM32KA88IZ3CAnds98YXH12MA
+e4GHb23zc9-l22LyNDal502lrWAMjGI0MkjLb5566SNyC0KWtW80QIq0wzF_kkrK2u2UIB9Ej5FiHFegoYYZZF87
+}
+
+AzureEntityColoring(APServerTransferTransportShiftRelocateData)
+!define APServerTransferTransportShiftRelocateData(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Server/APServerTransferTransportShiftRelocateData_tbg.png, e_stereo)
+!define APServerTransferTransportShiftRelocateData(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Server/APServerTransferTransportShiftRelocateData_tbg.png, e_stereo)
+AzureEntityColoring(APServerTransferTransportShiftRelocateData_m)
+!define APServerTransferTransportShiftRelocateData_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerTransferTransportShiftRelocateDataSPRITE, e_stereo)
+!define APServerTransferTransportShiftRelocateData_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerTransferTransportShiftRelocateDataSPRITE, e_stereo)
+

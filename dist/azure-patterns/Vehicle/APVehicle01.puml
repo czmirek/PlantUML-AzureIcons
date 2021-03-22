@@ -1,0 +1,13 @@
+sprite $APVehicle01SPRITE [70x70/16z] {
+xTU5WSC034DHMGeVxJzjKSVabC6_JAzXUC41UhaOfPHIIk7iVbAckOsNhvGIc_PLcctYlehZlegBFHN7lHG6vQ7PHm4GChEN0gmPxQcOuTvAh9_lhM0pPVPK
+F4exAtARvtilTUTMIYcbRwbsp2kALVoiZ48m47rM8K8YufD2TAlxWHXo2j6iXxj7V51QU20YSWhawG2-AvI_qM78ACBh55HibNuLsicXxV-hamAJQo69FZhi
+tfHaxyewAutV793iROm-AXZUtiprDdK_AJ5u-B9vJhyfZgqmAohgREAFIYcbb2K
+}
+
+AzureEntityColoring(APVehicle01)
+!define APVehicle01(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Vehicle/APVehicle01_tbg.png, e_stereo)
+!define APVehicle01(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Vehicle/APVehicle01_tbg.png, e_stereo)
+AzureEntityColoring(APVehicle01_m)
+!define APVehicle01_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APVehicle01SPRITE, e_stereo)
+!define APVehicle01_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APVehicle01SPRITE, e_stereo)
+

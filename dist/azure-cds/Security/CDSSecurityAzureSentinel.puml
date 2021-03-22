@@ -1,0 +1,15 @@
+sprite $CDSSecurityAzureSentinelSPRITE [70x70/16z] {
+rTP9UlCW381XpVBzB_mFIiW3Cc4mgxpB1dy6sMq3luBKhc1Ay93uLN5vr7XT-_BgCUoo_mdJ3_iVKjZ2NXfjnt6ZOJ7GB4QzE6PaZyDq-VyyZwucbjXrQYJl
+prM52I7pgt2t8VUhK6XXUQosf3pyUyLja_SgjkqNAoh2H2oYgnMtH1WhB4ygGfXGwlYqeeGTfAc2muhW5x9HOVoAbokC0pof58n3xCMe8ZWX2nKZh16BSFgH
+pIjShnT_aph4quesW_IFPkGwgt1Q6tAV9nLBIqqOaSNI3MnSaJQY2E5r6M4XumetjnFua6QZFAvWGUvkKB5wCpIiMBDdR5OqvxLk1L8bba4ZFauLo9N8M7rm
+XORMOul8lUBlpKXGBxDjv-iguRqLXqIZqhZj9Ubyd-5SwSqbLnWIl78cFwDxv4B8F5Vo-tAl6Dn8hkHtD-b_MyIhGwlXtq5ZiD2544dywX3em6iJTEbUHA4B
+ZxSIP2SYy8slHmp2uPaGlkFL2C68dWsbiAEX5EZpY0ESPnpXE1EHqqn4JZCvCiuSHiOFt62F7KJ6Rx72FiuHXYVGqrmVigFJt4_5S09ZEuPmYFnY-2L_0G
+}
+
+AzureEntityColoring(CDSSecurityAzureSentinel)
+!define CDSSecurityAzureSentinel(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureSentinel_tbg.png, e_stereo)
+!define CDSSecurityAzureSentinel(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityAzureSentinel_tbg.png, e_stereo)
+AzureEntityColoring(CDSSecurityAzureSentinel_m)
+!define CDSSecurityAzureSentinel_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityAzureSentinelSPRITE, e_stereo)
+!define CDSSecurityAzureSentinel_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityAzureSentinelSPRITE, e_stereo)
+

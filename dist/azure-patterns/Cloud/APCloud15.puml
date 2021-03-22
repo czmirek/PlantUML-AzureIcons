@@ -1,0 +1,12 @@
+sprite $APCloud15SPRITE [70x70/16z] {
+xTQ30GH144JHHfsLVxHdQzJ7hH_0MmmNbaWoMYp6YRHMeK957UjScnJ7FczGS9Q8rYcuphLSCTncnGhkfOMAubvUg1Zk5gFehxwBuM6Qh-19sOf-XPB-8izN
+z37IfNsNIj0jI1BzdZ9Ev28sJlHEXGeLAbIeKA52PP18HRINQB42
+}
+
+AzureEntityColoring(APCloud15)
+!define APCloud15(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Cloud/APCloud15_tbg.png, e_stereo)
+!define APCloud15(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Cloud/APCloud15_tbg.png, e_stereo)
+AzureEntityColoring(APCloud15_m)
+!define APCloud15_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCloud15SPRITE, e_stereo)
+!define APCloud15_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCloud15SPRITE, e_stereo)
+

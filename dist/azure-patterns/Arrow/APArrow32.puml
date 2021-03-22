@@ -1,0 +1,15 @@
+sprite $APArrow32SPRITE [70x70/16z] {
+xPK5akjG30H5fdV_-oxC3rWPbMlr0qNkeiMEsp2Mpt1oOYhF4n7s4Wiqprl2dxS0bIQQYAJHUNcapesIoybP1x5AWSUHPXbC265nQD5rC5hskEs8AouLyuzb
+gNgCj4VtpCPDof-P9Op_M3QbVz7Aei9Sn0kQg8SjBWNJB41_cpptXB2bbeoBHUAtYNeowbPBOBaqxRwnncCtNVwHcj3JaC12JTHpB865cj3Ja2GBcgpLCmso
+e6d5eOHr9Dc2oPX48xmX8OiDDDdVUcAmvM97atOaR45JzqZOOlnmrzXo0PPr-aVicXPfCFQu_ABLO1t34WahcevXYKUa4UvPV3-rQFA-nVCqOOJR5d-O9ZJD
+JOlJr6gdAKl4qGCwJLc27Xgilrb2SayUh4UijaH-Yz5WPPQniGSIwjarJVN1P_O_IJrr4ooi3k4UQY8BFHtSmuF5bh6g0FD4r6zbt0XsnyU5pI09nWucdd6S
+1KO0DINopYffN2hiu5WQ62ZFIn--HizRPdaEr8GyoTEd12nZKNcU_tISd7m3
+}
+
+AzureEntityColoring(APArrow32)
+!define APArrow32(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Arrow/APArrow32_tbg.png, e_stereo)
+!define APArrow32(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Arrow/APArrow32_tbg.png, e_stereo)
+AzureEntityColoring(APArrow32_m)
+!define APArrow32_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow32SPRITE, e_stereo)
+!define APArrow32_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow32SPRITE, e_stereo)
+

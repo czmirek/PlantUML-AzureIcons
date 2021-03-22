@@ -1,0 +1,14 @@
+sprite $APGamingSPRITE [70x70/16z] {
+xTO5RiKm30PWEp7V_xxZ5PpKUiigxYT-y2js46xtU3owQ8GAuVnRLWzJHYYWUFpIFaHKt-x8uqIeRVbTB7q9Sn8JffzYmh48AHGnPKZD8EknG23nMD6BUbPh
+mbZ4QIXh70vYfqp4MhM94O0ddQ4zc-aBNySeVEAnCxQ5qCRhLhJuqSRU2csadjqsh1bEGwa7m-TLwaD1HWTMRf_zsvuBKZhG69YmHRWm-x1aEAgnv6r35-lN
+uiM-_FuymRpaX3PyjMaq4ifdGhrUBb9qs4DUpH3Epn0VwtHX8XQF2Mi0QFFq-3SwBELrUbWjwoorV55gxg86SOEESGDkKJ3b7wAsb6BSuApnLPBsotD-fkay
+XMD24QuqVpMbGyMgb3gaZj4-3QdvaDAc9rSDSmpZ_65Jmvm2DW-fzRoF98Kin3W05Y65dkurAHfRG3lVr5Ois0gVdxrTmxJ3do5h62FSuV5ul0C
+}
+
+AzureEntityColoring(APGaming)
+!define APGaming(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APGaming_tbg.png, e_stereo)
+!define APGaming(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APGaming_tbg.png, e_stereo)
+AzureEntityColoring(APGaming_m)
+!define APGaming_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGamingSPRITE, e_stereo)
+!define APGaming_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGamingSPRITE, e_stereo)
+

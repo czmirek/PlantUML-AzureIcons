@@ -1,0 +1,13 @@
+sprite $APKeySPRITE [70x70/16z] {
+pTI9LGH154BH3qp-ARihitPpcbBd1N1hhza9e4XC5VNL5CcXGHmRnB52o88vtmyUPNms1NEz21rXRiwN1nWzLCpaY9K71vuWtbt8CKKSZSIC4GU0SXcZ91P8
+_CAfiDa8IcEW48zA9iCbYd85mLmUbgweFoGqYejNXDagt5tEPeWKpau852F53dE2q20E3UBG80uDuj0W3WtYq20E9MAcHymOwPKfbDDfYM9cZQ8rYjOeg1GZ
+lOAf52EzmbOnqolY4vqqdsPVECzpNuGbYl149wr__UkMVD_yO8mKZ96UcIeQgPcfev4cpcwl
+}
+
+AzureEntityColoring(APKey)
+!define APKey(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APKey_tbg.png, e_stereo)
+!define APKey(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APKey_tbg.png, e_stereo)
+AzureEntityColoring(APKey_m)
+!define APKey_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APKeySPRITE, e_stereo)
+!define APKey_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APKeySPRITE, e_stereo)
+

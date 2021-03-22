@@ -1,0 +1,14 @@
+sprite $APBranchingArrowsSPRITE [70x70/16z] {
+xTO5TiGm40JHiM2jvVkVDfnKt0z6hyDG1_W6uJNUeMkkzEOh88S3ZAkqmm76K41W30K4nb10X4aLHM0C1GJ6Ka1WvXKGhUPAZYYJA_L02OEI8Z2vGkFmsDWY
+8-OLcDOF3_KL95MKwV6in3qpbda5fWTAZCD-iUPkl5PYNUoT0OL-ajBVGzaTXg-070x3La1W30K4nbCwozPNTh8lMWf83LlfWbWAo7wLnhJI3rcv8eYfzCFN
+AQNuNmJIMl7_BiY6aP4UNLfH186PdtM2mA08aobB4qPNepAgABEWoDkKJ546XRTP8r6KcTynrwR19Bjtei3a9qckj6MhH0j7QSjM2KkfOIcAM8eYqyfksLP0
+_9l7ia4CHH5BKSHNAeYXm80O2Wo8ey20-4g0VFrzzr_vL_okjm
+}
+
+AzureEntityColoring(APBranchingArrows)
+!define APBranchingArrows(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APBranchingArrows_tbg.png, e_stereo)
+!define APBranchingArrows(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APBranchingArrows_tbg.png, e_stereo)
+AzureEntityColoring(APBranchingArrows_m)
+!define APBranchingArrows_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBranchingArrowsSPRITE, e_stereo)
+!define APBranchingArrows_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBranchingArrowsSPRITE, e_stereo)
+

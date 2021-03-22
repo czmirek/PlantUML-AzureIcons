@@ -1,0 +1,14 @@
+sprite $APPublicCloudSPRITE [70x70/16z] {
+xTNNRWCW341HFCXh_lzl2qheLP1ZQ3EUkDs38-DqN5_kT3gLvqcll9QCNaBe9KJrtypza9ZNbcl7hDVCRMFazPwP4z0EefNy8TjmGCYdZ6ldetYck5djsNAK
+J65ZqUbWimdIaq2X727F4Asz2yQaKAROG9QA9io-OibYl2CeoyN4eIoOjL8JXJA5KL8cLsnRyKJHHDdVYtnPqPBKbSlBYg5ugaZ9SfIKAMN58A3zKL4E1cjc
+BOj2PMQM_zzzdAknqlVl8a-GeKXjpQDGHwfAAm1kIZ1Cj5uB_eKBXSDCYCjl0S8NbBF1GwIJ0Z4vLXykTNixJ9s62H1MmwtOysspqp0WqJGCWJ4UdgN2Re10
+JAPofGYdeq4eKNfYpD04lxZ6tnqZf7R_hz00DQ7yKXWaYyggrnLw2Q6N54gDwykTJgSV
+}
+
+AzureEntityColoring(APPublicCloud)
+!define APPublicCloud(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPublicCloud_tbg.png, e_stereo)
+!define APPublicCloud(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPublicCloud_tbg.png, e_stereo)
+AzureEntityColoring(APPublicCloud_m)
+!define APPublicCloud_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPublicCloudSPRITE, e_stereo)
+!define APPublicCloud_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPublicCloudSPRITE, e_stereo)
+

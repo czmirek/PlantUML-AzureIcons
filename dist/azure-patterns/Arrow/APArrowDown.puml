@@ -1,0 +1,14 @@
+sprite $APArrowDownSPRITE [70x70/16z] {
+xTY5oiD044NXkaRU_sdZkS2SmDtVfJDuitmh1sqxpku3Cm7lKr8vFuOv_x2IIYgff99AAgaSYXKjftAwNz-YNE_73UKohBwKALeEvV8OvrIgdARbbwZixzFl
+XpBbC2s-xwEY3oMAjWoA3dahKMwwVb3qD5UlNFKeLFJLADeD2awwhU3cL12A2YjGuH8gt8WAGq71fQamb1G6eCACLBW75PmP2kzBXUy7XMzFXIsZ8jufFBWK
+vjbM64fAU7QZ89GKoLPXA2aXZr4GQbP27gCmrAm8BL8OQbQOnoiAfK4Ueo2KHdcCmb0Qv34AGp6FLnYAURp2KCpZ5OPY7gym5FDuXQ6OnoiCXJnUuHoFt_Kl
+JWy
+}
+
+AzureEntityColoring(APArrowDown)
+!define APArrowDown(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Arrow/APArrowDown_tbg.png, e_stereo)
+!define APArrowDown(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Arrow/APArrowDown_tbg.png, e_stereo)
+AzureEntityColoring(APArrowDown_m)
+!define APArrowDown_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrowDownSPRITE, e_stereo)
+!define APArrowDown_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrowDownSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APTruckSignalSPRITE [70x70/16z] {
+xTTLOeL038NXSvAHaFtljmAvTPcPrCltSWNuSSEIaqXH8J9AzuCrmQAw-GDzhMF-HCKq7WlIgugKTlneQulIYA2sLe5jn0DjAG8GZmYMiNQpfaZHpNUTI30F
+5SbCD_U6d0g05T_erESfdl5vvUTNpehicAlK4eJ9Ib0cAq6IbI2f2acDJAO2uEWmMG7sJBg2SaFI5PORwGhsxxbAR1bPhcZOlozNxkKhOQLoLiwAjMPJ5HLI
+D2eFdsVPnoi2205vKAaGSpT17QqSesu5SbSngEyKDbPHrFWElLGADzzjB6CLqWFbKX7re39MGV6WB3Tmgqu_xjSN7Y3KWsAGUX3SksoNwRSLUo6j62RRiJlm
+4BjPv-HRNA_uPqxN
+}
+
+AzureEntityColoring(APTruckSignal)
+!define APTruckSignal(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTruckSignal_tbg.png, e_stereo)
+!define APTruckSignal(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTruckSignal_tbg.png, e_stereo)
+AzureEntityColoring(APTruckSignal_m)
+!define APTruckSignal_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTruckSignalSPRITE, e_stereo)
+!define APTruckSignal_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTruckSignalSPRITE, e_stereo)
+

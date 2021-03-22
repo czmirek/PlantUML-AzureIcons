@@ -1,0 +1,9 @@
+sprite $APSvg1SPRITE [70x70/16z] xSwr0S0m44FHSChRVzg0DO6P_ki5rYm0073BUieIflqMMbPPDedyiikmBRHO1W00u0K
+
+AzureEntityColoring(APSvg1)
+!define APSvg1(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSvg1_tbg.png, e_stereo)
+!define APSvg1(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSvg1_tbg.png, e_stereo)
+AzureEntityColoring(APSvg1_m)
+!define APSvg1_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSvg1SPRITE, e_stereo)
+!define APSvg1_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSvg1SPRITE, e_stereo)
+

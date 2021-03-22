@@ -1,0 +1,14 @@
+sprite $APMeterSPRITE [70x70/16z] {
+xTG94c8n28JX1fANvVxtTLU88o9JK-laEy1VJLpWur9RRxYOxQZ2o9DZtjmhD-EGNABF6wqy7P9lQ4KrpZQqakkGDfRAwWY6ZBdeJN1Hsrky4tnr6hqG3Ags
+D0IUPXAY2HCoKoiSD5uDE5wT3lWPNUkfDk9dEaKVenyvZaUc8jGU4M6iYliby4af18lrkvI8NC0QKpEPI94FNnJ6pwZSyNfFVilT-vIE44Ffc6KAnP4YVzwq
+JgbnP7rEiMFe7Xc_H6nc7LDrIXpHZ8uXN7Gx9OuKUdzWreEET4J7w46IZkZBa1wKZzYJzA1aH4-IvxCKE8X5n8iyy-3llqCf1daZdu_hH8eRMP_tQuMTY2et
+9FLAy54O0TzGy4-aa10Ub4V_le9O_6qH_3KAfcGpX4ZyEJ7-SzksRTksdG4
+}
+
+AzureEntityColoring(APMeter)
+!define APMeter(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMeter_tbg.png, e_stereo)
+!define APMeter(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMeter_tbg.png, e_stereo)
+AzureEntityColoring(APMeter_m)
+!define APMeter_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMeterSPRITE, e_stereo)
+!define APMeter_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMeterSPRITE, e_stereo)
+

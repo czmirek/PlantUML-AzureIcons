@@ -1,0 +1,9 @@
+sprite $APSquaresOneLightSPRITE [70x70/16z] xT074O1034N1JuPfvrymAA1tzWdOb3PN9Lq_ryiK2eL2eL0ebFaoLdFbGIsww93lLflhRGg5Gg5GA1JA
+
+AzureEntityColoring(APSquaresOneLight)
+!define APSquaresOneLight(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Squares/APSquaresOneLight_tbg.png, e_stereo)
+!define APSquaresOneLight(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Squares/APSquaresOneLight_tbg.png, e_stereo)
+AzureEntityColoring(APSquaresOneLight_m)
+!define APSquaresOneLight_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquaresOneLightSPRITE, e_stereo)
+!define APSquaresOneLight_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquaresOneLightSPRITE, e_stereo)
+

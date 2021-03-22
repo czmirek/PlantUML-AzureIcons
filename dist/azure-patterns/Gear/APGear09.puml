@@ -1,0 +1,14 @@
+sprite $APGear09SPRITE [70x70/16z] {
+xPZLOiKm34C7iXNh9V__jODoCtJ6kpcNeQUDx6Az-WJg7x0Co_KdK2i-WSLY-vFrMamgG4Y0IzvfSIa0IGPAxBHOY00VLHRX_RbyD5tx16hL9_0VBCDYWFqB
+IsYcF5hAzcNEKk2FpswOC7yKE29bAG0y71lBHukSvGLARaG9oMH9Q8gI5iUCinHk7z8rch2orRjdH3PBsYyyPGbCn9DlbAyqTO39IfEqRP96R2JVPy7A2r__
+Y2MQm1EM9iesy7oDlEcWzDg8Tixiw1Tvq_5bqsOiiMsRfa--vPsoY5WmTyC2kxOCBQvqBYzgSltIcAQFp2uBjsqJjYD8p-R2gS2qIS6fvFInjzyWoVzmH3Oi
+_0J65OAKPLZk0G
+}
+
+AzureEntityColoring(APGear09)
+!define APGear09(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Gear/APGear09_tbg.png, e_stereo)
+!define APGear09(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Gear/APGear09_tbg.png, e_stereo)
+AzureEntityColoring(APGear09_m)
+!define APGear09_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGear09SPRITE, e_stereo)
+!define APGear09_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGear09SPRITE, e_stereo)
+

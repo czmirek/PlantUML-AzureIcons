@@ -1,0 +1,13 @@
+sprite $CDSWebCDNProfilesSPRITE [70x70/16z] {
+xT7POSGm24NHnwxqNt3sUF0ku_dAw1Hm9G0lQXW68i8jhEO_b574vXdN6vdXClKDL8zaN8tKVoE-2_qyTXbwQHnWzA58gfyXYqCunnPdvFmsSKvnpAA7OOLa
+ej5f7T69HI_60kiaBZ3U-Ol79Kv8U6yffODhPDLRHLB-3RU2m8Ar2WE8asWb4CjQ3TipAlgKYhDbqKe2eCJBbKpgbQoL6EQqLJ1-4Vze5VX1tcwmZQs-NTNI
+EkgPnrPkL1GJ4dtmIcIDedidWWFIzPyGd67HGyBufuPX-
+}
+
+AzureEntityColoring(CDSWebCDNProfiles)
+!define CDSWebCDNProfiles(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, e_stereo)
+!define CDSWebCDNProfiles(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Web/CDSWebCDNProfiles_tbg.png, e_stereo)
+AzureEntityColoring(CDSWebCDNProfiles_m)
+!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, e_stereo)
+!define CDSWebCDNProfiles_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSWebCDNProfilesSPRITE, e_stereo)
+

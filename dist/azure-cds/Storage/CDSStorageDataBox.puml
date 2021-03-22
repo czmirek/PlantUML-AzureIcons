@@ -1,0 +1,14 @@
+sprite $CDSStorageDataBoxSPRITE [70x70/16z] {
+xTI5OHX134JH4HxqtszYFjR8ZB-0jxpua4JLJ5NnyYpogJ312zB8NVviHmx62npBYnJzF2zpT8iiyZxoUiQJPE19qWIqv7dhZ5y_cHmQEQf4pTqZA5KGvai4
+qYl3bxWJECtyM1GCdyXI4eKWb162z1XNxFAguR9KWZItE0MFgTTbwn8xQwYAuqNXapcMlQbuZ6K1G9mtrXbWpal20Dv82UCTHO2Q6T126ACTX3B1aOU6GacE
+D9Y18Ys68IrcK8vm9k6N6VR9T5x0IOgxfYg34CKQ2e3NAm72j1JX7ozNoAVPKqOyz2f5y9YzN54igLzMAgDWqukKn3ufbVcaKN6MHJILQHnSKAR0aivtOPsW
+4rFmfPG_nUuLlGlFJ-Pza-3v6KVw34Sumn6USQJFS8Gp7E4PGThCo16UuMFw3m
+}
+
+AzureEntityColoring(CDSStorageDataBox)
+!define CDSStorageDataBox(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataBox_tbg.png, e_stereo)
+!define CDSStorageDataBox(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataBox_tbg.png, e_stereo)
+AzureEntityColoring(CDSStorageDataBox_m)
+!define CDSStorageDataBox_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageDataBoxSPRITE, e_stereo)
+!define CDSStorageDataBox_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageDataBoxSPRITE, e_stereo)
+

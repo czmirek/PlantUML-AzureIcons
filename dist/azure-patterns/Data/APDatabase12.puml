@@ -1,0 +1,9 @@
+sprite $APDatabase12SPRITE [70x70/16z] xTYd0S0m0CH0fVTa_sdJEpQp7WdT03yHODDK7KkW-5S6sRyAIEuYEpPDxR4KgdyLKFohWlGkycFnA2egAYegAYegAYegAYegAYegWNwf1G
+
+AzureEntityColoring(APDatabase12)
+!define APDatabase12(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDatabase12_tbg.png, e_stereo)
+!define APDatabase12(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDatabase12_tbg.png, e_stereo)
+AzureEntityColoring(APDatabase12_m)
+!define APDatabase12_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase12SPRITE, e_stereo)
+!define APDatabase12_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase12SPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APData04SPRITE [70x70/16z] {
+xTO52WCn44RX5wstzxzjiKnOTvyFvuU7h2G_Pl3xtOG1Z4qCG1wfZ2QAt-_nJ2nWVM81di9KHfl78HMjQ6MkTvSPdB7YXG72Cua0UGI8CeRYk4L5AreXg_uP
+MiRJVzDXElbxJx9iHIi-J7UTir4h3s6foAEXfELUL_OKCrQqeXKdg6eThJZ_dy66n57XPBGjbUgDBAlSo3QkQ4KhVm
+}
+
+AzureEntityColoring(APData04)
+!define APData04(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APData04_tbg.png, e_stereo)
+!define APData04(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APData04_tbg.png, e_stereo)
+AzureEntityColoring(APData04_m)
+!define APData04_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APData04SPRITE, e_stereo)
+!define APData04_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APData04SPRITE, e_stereo)
+

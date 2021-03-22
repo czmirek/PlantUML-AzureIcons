@@ -1,0 +1,16 @@
+sprite $APGearKeyholeSPRITE [70x70/16z] {
+xPW75kCW34HZ2zNxttShYMoXONlV_vhhPo02y_BOm_e1UdmJ6X_WtzVots9VRX6vdXr3B5ueqrrFI1AH6hAek9pNZ8GaBmrxjEXvwIW1oTIG1qIF72rg9LCZ
+iSF7b7GQYy_68orVhm4If74L7kzXLeEIlSPbN65r9C4Qax4WZYN9aS_eQB5y0C-0qfa6-MGMYednW6HBmEBF-qK2DD9AE2OyjcXCZbqK6P_0Dc76l6VZK_0c
+ZA7-CAC-3LGhDOfwbk0Inc27Ri-pHojNrALvmzSscnk2Ai-RolUuOCqT1iCYDNV2wu-jPMjXpQDnnve6z2DK6YoZWkv9YOajih4mi83KNsdvzYpxSR6liWoB
+6u9pCl47v7aE6_Hc2ZX_v4HLLrjq7h3g4kzcdG39U2RVpSPa3flhQEsqNncIT3UbzBchbBGB8FwoMHl6v_Dj50BVDB1EWOkxBubsSqbAFhXzvUODZrLj9GhQ
+UF1QlRxM4FUMCqjiNHoaIkm1uFgEfyMgz_pSNP3KsSuM80hOaRcMrKxg-LwIdlltA4zJ0oMVZtoR93LOWdJD0mptb_JWlUDyjUZhDaXodXwA9Pp1Kr8rDCiO
+U6I-Q2bfD9GLA5uLDl8zIqb5w3wlMErbaAbuegla_py4_osKMuiTRm4
+}
+
+AzureEntityColoring(APGearKeyhole)
+!define APGearKeyhole(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Gear/APGearKeyhole_tbg.png, e_stereo)
+!define APGearKeyhole(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Gear/APGearKeyhole_tbg.png, e_stereo)
+AzureEntityColoring(APGearKeyhole_m)
+!define APGearKeyhole_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGearKeyholeSPRITE, e_stereo)
+!define APGearKeyhole_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGearKeyholeSPRITE, e_stereo)
+

@@ -1,0 +1,16 @@
+sprite $CDSManageAdvisorSPRITE [70x70/16z] {
+xTO5skGW30PW80RX_lVTxPJIIOqXw_B-BlCzaLfm-2y187s5c69m0ZB04H61JfAt3Wld-aAwaRmX5dX3B724k9jAD10-GIFWtR4LdQLOu2t56XprI1-94rKu
+Meeq0Rs5MDuGonV2fJ0Hgt9hASNvOvvohIfIQott8wOXhHk-MpZI4yvPIksqgCgndF6EruJC142SrwIBbUEu6ILese_duOn7KX0wp2Q5qaSBOgsAy4whokdG
+GNwoJ8N0e6NXtAqz4J_GPR1mi8nOURCMmwCK1dWi9WvJf3LaOArL3YtnQ2vmeZNpZhvV2art1BOZRfjsJ5SFAJ2zQMafPjMpHntQHJCE3hjMZe9HgWhpyU2D
+motbGp_Ax-8dPvAzCc2fXnGAgpX8MSWhXwGkr9RI97wGLVChIRMkNzGUSntA4qAgdJ3B6mxDA8OHNzEGTfoOb1ZUmLCfY5GA8ubMiIafM8db1cvu8yq-sM4v
+V9k2uHAmdD5r2cESUPh23N47ASp1Bkqnio4HkuZcD9u1s0NWBdfBmH2vGsyfOAvdpjbYCjSpTAP4So52vrpCXPwycrv-S8RiCUPk7CEir8SR0lb2zct7rx3T
+8IrchQk5U6FsMrSANj1IGWjnIjlN57vtNm
+}
+
+AzureEntityColoring(CDSManageAdvisor)
+!define CDSManageAdvisor(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageAdvisor_tbg.png, e_stereo)
+!define CDSManageAdvisor(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageAdvisor_tbg.png, e_stereo)
+AzureEntityColoring(CDSManageAdvisor_m)
+!define CDSManageAdvisor_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageAdvisorSPRITE, e_stereo)
+!define CDSManageAdvisor_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageAdvisorSPRITE, e_stereo)
+

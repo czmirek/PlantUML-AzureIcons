@@ -1,0 +1,19 @@
+sprite $APLinuxSPRITE [70x70/16z] {
+dTS7bhGg443XWeAYIFVjVxVlCEdljiKP-plPSCsY_tsGdM2rmsYkSkvp_SjARFpeySrAdZoOwQsASX3VgKmE-XkLp8jylz9vKUzNE76xefpGknNZnsoDJ-Lk
+fK197Q07aJZVhQnL1X3-7M2xNmaI94CLSLkzzofYX00c1b7ytKh3P5KQs9kLJ71wDIjrW4f_gw9Od5QIbcHzIk3D2Ythb-pztKhJVrAQ0EF-UKb9l-MYZUN-
+DKh-dN5J7IpnPgKnqbfRavMagJfBkLc1NYqL-sXuaSWoxbKoLB6YYtiGaS5YjohjOmMjNcg9iXIMUQUYWCeIvKlaGxrH6S3cHMn_hZXGTsy__MCbdmyRV9hX
+JvLuSXeNvrF_KsK0kBo8C5ZA7oe5vlcWt9Z6adwj9EYJjXd_UmMOlrO6E2Gvqy0xGFcbKi0dGqufO2pniX8ciq2MSmrg0wYN5T_lofA1p18kAW4mCDaPO0F0
+Boe5Ue4WEmMy0CoBoWHhLDaAq3ABRYi9K33P6pHbATkA0m62x3ckB6rR6O3qAHSo-RSAGFGcrz9asLKYGDOgUphf5ijLHG6QgEnDW6aw6PSLakmPdthUdvT4
+huCPPQTsljZ-IlUYgerfSiwQycLWcqfrNHgq86T6qiO7D-j-Ml6c7zBS_0o5yJcJOQggGrygmMVLBxxv_z2cgiazwuVYnugDalJ7EC-OwwCq3XKTIHyOI_ob
+eYCyLyfX_lbdQJ5zukMvueVvcKKEckcJDFHoNzJFnjYUz5aUJvNiUj1cKpcOUkJbiQ9TzNLl3rBJepIUzgNgKHxXKAb5ZwnVdTt5-rCc3T9BPCJ7oj0JOvRl
+JiW3nh7HMvJ72dgY0DtDp3jBFJQEpr7F-Yhnp1_djV4w7iLHxIMKzvKqokbeRzwO_UaoEBsMf2AYgPHIwqCaNto_nEopfSsb3YCT8flAaaTpKyrrH7bcNvco
+8fUL9PRMUZDvOSFDVDGWcyhV17EtrJXM_WS
+}
+
+AzureEntityColoring(APLinux)
+!define APLinux(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APLinux_tbg.png, e_stereo)
+!define APLinux(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APLinux_tbg.png, e_stereo)
+AzureEntityColoring(APLinux_m)
+!define APLinux_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APLinuxSPRITE, e_stereo)
+!define APLinux_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APLinuxSPRITE, e_stereo)
+

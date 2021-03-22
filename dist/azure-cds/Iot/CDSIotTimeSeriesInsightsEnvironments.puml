@@ -1,0 +1,15 @@
+sprite $CDSIotTimeSeriesInsightsEnvironmentsSPRITE [70x70/16z] {
+lPNdmkim24D18hp_6z_HvPOQsSaTvyytIEGJqM4ATu0a0NUxX3CAE9k4QF2B6HNySSP-JcnmGOGKEciHmiV4mKqTZ-D5-CvSXz2RIxYAyNB1yYXN8G6J84PC
+UqROad5fDw5jm19JGs1RO1f34I9ZE6cMjWs_6muLeYkEgXTsYbf2TEk7Mqiz6-tp13UU2Hz_sHUCS1Dyo7GglleWuTln52eH6mLJgK1zgjKklFkAM7seYNkB
+YhvaZSS3sXz0_NMuh_BdCeo1NGMdlvaTP2Nky5CcfX2ZWHdm3ncAhtz6osjOdh92bUAlErqvwnIEAjYLCiRiLTvag4FC73FyVIz4t6alrA1iunfUtF_VUq7B
+k5s7Mo5-Ooq3UM_U26lfcusyKNvLoxP24V2yGMlfIc7Uk8-E3HdqAiU8r38rP7fV3hCvqn3FEoNqi7r64QZ_23j1V1sDbDM8KXB5hlnFWvpffsXOD9lDlt76
+9BqRX2s9_aZcWyDDuaUAPJ27ZXQH6qM-e5omRX0v24pcaGENZpm8-XWvHyIoF6RXk945sd830YcYTOI8WeVm41bo6tfp6l2e5h1BEC28209kYfy
+}
+
+AzureEntityColoring(CDSIotTimeSeriesInsightsEnvironments)
+!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEnvironments_tbg.png, e_stereo)
+!define CDSIotTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Iot/CDSIotTimeSeriesInsightsEnvironments_tbg.png, e_stereo)
+AzureEntityColoring(CDSIotTimeSeriesInsightsEnvironments_m)
+!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEnvironmentsSPRITE, e_stereo)
+!define CDSIotTimeSeriesInsightsEnvironments_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSIotTimeSeriesInsightsEnvironmentsSPRITE, e_stereo)
+

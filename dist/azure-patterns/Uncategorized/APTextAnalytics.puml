@@ -1,0 +1,9 @@
+sprite $APTextAnalyticsSPRITE [70x70/16z] xTLL0S1G34FHHqN_WYTXpFS8o4yXvVK00DNczJAdvJovAANAl5OsGfjNNx0lHr_0-M0vorwGiXUEwG1QxN00W0a
+
+AzureEntityColoring(APTextAnalytics)
+!define APTextAnalytics(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTextAnalytics_tbg.png, e_stereo)
+!define APTextAnalytics(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTextAnalytics_tbg.png, e_stereo)
+AzureEntityColoring(APTextAnalytics_m)
+!define APTextAnalytics_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTextAnalyticsSPRITE, e_stereo)
+!define APTextAnalytics_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTextAnalyticsSPRITE, e_stereo)
+

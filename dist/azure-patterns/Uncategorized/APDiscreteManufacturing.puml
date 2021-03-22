@@ -1,0 +1,12 @@
+sprite $APDiscreteManufacturingSPRITE [70x70/16z] {
+xTAr0GL124NH4HZhlzylBElknebUT1Em9RKSb3QlICKO8DOOjORDAahTiY8LgG0EqXChQP2LIWUfE2JbT4ig2AISk6Kb-47ZbIckM1c-qVJA0AaCtIW02RLv
+U4KgFbEVB7eIQ_CblniozSbY8B4shtvfgMnpwPD-LohHiv3QWcTZ5QyOfZQZs4ihKj74O04CizXc3SEgBm
+}
+
+AzureEntityColoring(APDiscreteManufacturing)
+!define APDiscreteManufacturing(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDiscreteManufacturing_tbg.png, e_stereo)
+!define APDiscreteManufacturing(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDiscreteManufacturing_tbg.png, e_stereo)
+AzureEntityColoring(APDiscreteManufacturing_m)
+!define APDiscreteManufacturing_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDiscreteManufacturingSPRITE, e_stereo)
+!define APDiscreteManufacturing_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDiscreteManufacturingSPRITE, e_stereo)
+

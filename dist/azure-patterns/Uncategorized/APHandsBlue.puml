@@ -1,0 +1,15 @@
+sprite $APHandsBlueSPRITE [70x70/16z] {
+xTM5SZKX38PXui0llV-hhKkOZvvG7JllUENPXS3ipRPhxGDTOtLNRaj4pDJEip4V6vhTvmuXxlEreFQKw6joWiZC3NvSZ2xH8PAPX2IcGe0111X0i33z6ACx
+HBLWpf22EKCgfaPSjM1EaPgfaPgfaPoNZDH8p8gXKIEF0uCaAVq0UQWZmwy8do5xvbKnG08GO61d0fIXkJudCBYaCI--JFurCW8AC80W8sb5M7TzA5O46Lvs
+5nkz0u4CuQ73AaRUkqNTr4RDu1NeSE3YCXExZnFZgHq50yW3CpA2BuD5HZAJ4VLPCGd9J4Qqmvo1QQd49CGjNw1zicKIOYURqtSA0L9DQgS88je_l3605CgW
+dIA8MBZl87_ObOJa4fB1GAMJIKl1zaf6tbqMjGiHDqJK2kLit5gU55GGiM8wPvCAIz-rc3DA94zgyHmkJ_asB1bP9cKD-iWUExnB5IEY3jEf8aGq9XpxAW74
+ftXeWqecPsD6-tWip0ioP_jKikviV57n-WRMy-Q7yGnfq4TUXbiJj-9DAeRRboDglzVDjcjt
+}
+
+AzureEntityColoring(APHandsBlue)
+!define APHandsBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APHandsBlue_tbg.png, e_stereo)
+!define APHandsBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APHandsBlue_tbg.png, e_stereo)
+AzureEntityColoring(APHandsBlue_m)
+!define APHandsBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHandsBlueSPRITE, e_stereo)
+!define APHandsBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHandsBlueSPRITE, e_stereo)
+

@@ -1,0 +1,12 @@
+sprite $APArrow33SPRITE [70x70/16z] {
+xSpLjSDG4CLGmoMx_tuVWq8d4pEClhLsjKXUmuOYRS_IS8NbuGehmnLMcYVLGh6NTg4KMvrMOZ15XKPCNqgAfhwK4kELalj17LDnfHki40bvg48aX3nG8G96
+AHe1Cr0f8O0Pe001OrQ8i3HC8KB6hX0XenMDaD6AHiXeHIDaj494C5eX8XYj496CLhI6TtB55LTSYLcL0alvh-gLwi3g2hdYYYlMMcPMl7S
+}
+
+AzureEntityColoring(APArrow33)
+!define APArrow33(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Arrow/APArrow33_tbg.png, e_stereo)
+!define APArrow33(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Arrow/APArrow33_tbg.png, e_stereo)
+AzureEntityColoring(APArrow33_m)
+!define APArrow33_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APArrow33SPRITE, e_stereo)
+!define APArrow33_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APArrow33SPRITE, e_stereo)
+

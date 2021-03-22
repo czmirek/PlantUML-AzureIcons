@@ -1,0 +1,54 @@
+sprite $APGetStartedSPRITE [70x70/16z] {
+hTRNjOG030DHI-P_-wzsSqOlZ445t3Da3glLvzfIVUuGzhkYlixQfBYVqrnv8QyYhAW_jtYY-0jPbXPNlbCkwrqKKKKffQ2IKx0IKwYYb88Lhn4NLa9AOKKX
+XIiEALm9AKp91zJ55OUhp9MKmfMGmXLzAowcv9JQG_54KKZXYaCALy9Lveg-58qKXnIkX1IkAAHmnI45AU60N5W91rHxA1ug8MMheg6YTwHhg3YaS2MaS4Mh
+2wJhcEBk-2V6b8vA5rAKKuefZeYW4bDKJ552N51nHAWIKhgmelkS4FxF4DuCN35yCsGb8DElVK2GSaTScvNqTk7VwO0m9I2px_Ior5nvfMYh4X2kk3jTO_vj
+J0Z_DjPc9I1SKK2uujOEIa2ueeHmfR1o0W
+}
+
+AzureEntityColoring(APGetStarted)
+!define APGetStarted(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted_tbg.png, e_stereo)
+!define APGetStarted(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted_tbg.png, e_stereo)
+AzureEntityColoring(APGetStarted_m)
+!define APGetStarted_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGetStartedSPRITE, e_stereo)
+!define APGetStarted_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGetStartedSPRITE, e_stereo)
+
+sprite $APGetStarted01SPRITE [70x70/16z] {
+xTG7SiKm20HGcXhtFt1-ryXeI6ISxdU0dGKL23YT4ECHB5S44InFWK8Y7OMQHDkGZ0BpHCkWRD0XAHnPI_TzNI2obuxj6SL7uk-wkpO6l-bDTqXomUzdd33b
+Sf4_ld0abWicX8TKzQNmygick92cWuBBFmD1LOF1nMAafbPQ-1RS6AJ4v3OP9PsupzaoEZiPPNKavsSPLNLKVnv_fYuxLPmopb0aZgoUDZrbVwIMYsx8R21_
+f09a5Xn9wVfQNCLFmKDIQ2cbqWK0NSYi2w1Lk_RiyJ8K0aVLhLPAIK3befepcgCXnTcByuicxKoAbVrf_9IkUasiEXoFswRfElljwGvY1zeXmGOVaeAw0y5M
+qMKL36mxZYWUqnYcf2mGM7KwlG4
+}
+
+AzureEntityColoring(APGetStarted01)
+!define APGetStarted01(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted01_tbg.png, e_stereo)
+!define APGetStarted01(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted01_tbg.png, e_stereo)
+AzureEntityColoring(APGetStarted01_m)
+!define APGetStarted01_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGetStarted01SPRITE, e_stereo)
+!define APGetStarted01_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGetStarted01SPRITE, e_stereo)
+
+sprite $APGetStarted02SPRITE [70x70/16z] {
+xTHLSiGm48JX7Xxh_lSDKmUdAhohl_pyMOp_scudzka4KFzqUgDKH8LdVKg9LRdAUyLd5C-u_YBzCygdKy3pqpaGwzC5i9MjRAL0tTEvNYzDePP3HUqremMt
+ISqKlC8a7ikPyf9fFArc2knWHV4q6IeGOX9S3XLc79mD5MOKd0uLPXISJ1HYFZCMPXoS3nLc6bnD5MOCFA6fmio1f_LSOQOPcIlC78RRh1SfhShbkiwLytLR
+Xwb5d-wxkvMjR4Nqqmb-ljtk4W
+}
+
+AzureEntityColoring(APGetStarted02)
+!define APGetStarted02(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted02_tbg.png, e_stereo)
+!define APGetStarted02(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted02_tbg.png, e_stereo)
+AzureEntityColoring(APGetStarted02_m)
+!define APGetStarted02_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGetStarted02SPRITE, e_stereo)
+!define APGetStarted02_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGetStarted02SPRITE, e_stereo)
+
+sprite $APGetStarted03SPRITE [70x70/16z] {
+xSo5RGDH042nd-Hu_u4hBDTwPOe7yFWiq_nAv-UM_NYb-Gyjr-MwsAgb9rvwugKdNdhYnGcMdc3fILvwicBfoS3I4omrMGQMdc3f2PQUOEa9bfvuwOcNddZf
+YHSdNdhYfITUUkB5YPUUUEc9bvvuSP8M9_FeYnClFV7I4ozE-kAaBqxwuiIB4rdlJ4mg9DCrkIRFE3FfpUwaDqvwuwGtJdfp6T0Q9DrfH_Aht
+}
+
+AzureEntityColoring(APGetStarted03)
+!define APGetStarted03(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted03_tbg.png, e_stereo)
+!define APGetStarted03(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Getstarted/APGetStarted03_tbg.png, e_stereo)
+AzureEntityColoring(APGetStarted03_m)
+!define APGetStarted03_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGetStarted03SPRITE, e_stereo)
+!define APGetStarted03_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGetStarted03SPRITE, e_stereo)
+
+

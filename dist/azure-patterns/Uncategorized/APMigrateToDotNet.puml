@@ -1,0 +1,15 @@
+sprite $APMigrateToDotNetSPRITE [70x70/16z] {
+xTP7OYiX48JX8dPJzx-liz7mmbGRiVI_ioLzX8a8bsiVV6jOozWhVGgpddSC_fNzr9d6cYN4ouF_QHH4AxofnH7DQ4HKeKk3gWoPKpQWQWpKrNgeqsioXd8r
+bGEJQTJfdN466v45vUzPeP66ZypmLRvVKdqei8lIxAqnpAp0p9na3MnBpZcDXsANYqXlZ3qKHxbLBAImezyf7bDOuClkhie8AYFbPNV3IhygTBHbHNiA6tnd
+N-ggCAUT8rq-rp4LnwUIybjrAkhkIzABa_rhRTQCzFPH__n7uAAs4rSZwf4x0uxSfT1txvZrtucf750w3YW39vHyGgdOKpI2SYcWLAZqN4RHY5HwqiYIxRsf
+rZNaja2ZBuP2ofVoLghTFkfr8JI2gTma4Q444QreH2XXH2iQqOf6jA8HeGGHhMX4At4ahhJlwWm_Zr_vCmYE83Y2u0Y25Mad5DzN7enpNvcCSr-PZFDfXUvy
+KfdzAhDN
+}
+
+AzureEntityColoring(APMigrateToDotNet)
+!define APMigrateToDotNet(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMigrateToDotNet_tbg.png, e_stereo)
+!define APMigrateToDotNet(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMigrateToDotNet_tbg.png, e_stereo)
+AzureEntityColoring(APMigrateToDotNet_m)
+!define APMigrateToDotNet_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMigrateToDotNetSPRITE, e_stereo)
+!define APMigrateToDotNet_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMigrateToDotNetSPRITE, e_stereo)
+

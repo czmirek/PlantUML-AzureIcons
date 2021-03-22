@@ -1,0 +1,14 @@
+sprite $APTrophySPRITE [70x70/16z] {
+xPO5hiGm34HdxENxt_UpeuqRLPcKFZt1ef-fXBMXAH1jxAHWlzvY_ew95fQu3qwVk6pn2Ami52tnxjboMcmXtf0jiP6ms8eMI1QiQOaT-HABFraylkh7ayNA
+LoPQOXmHgriCqyC4sgghM2OVXYn8lM5mHNamOyDDpL4ShfN8Doft7wm3GsdQSPVYIWbIIrR-dA_RIakC_n9Pm-ujULHYA9I1E3kB8UXXIvfFjtMLmbDJ4htq
+h2d-P6X0__obfvzSIFPmVjkHo8WP61EUanZHW_gee3u-40hqzefLE7KG0rZ7H5GDCOejamJBsiaZTYnYQIdL0m2MOJ_Kyc_vjtXO3ZqRew4evkYhb9yAY_fP
+fF7p6vThnUNjAuV2zT7cihU5vENMva9IdMaR_ZWBRHvinYi
+}
+
+AzureEntityColoring(APTrophy)
+!define APTrophy(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APTrophy_tbg.png, e_stereo)
+!define APTrophy(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APTrophy_tbg.png, e_stereo)
+AzureEntityColoring(APTrophy_m)
+!define APTrophy_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTrophySPRITE, e_stereo)
+!define APTrophy_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTrophySPRITE, e_stereo)
+

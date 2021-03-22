@@ -1,0 +1,12 @@
+sprite $APDevsecopsSPRITE [70x70/16z] {
+xTA54GD134DHW_flEJIOMLRWIA-0ls3RraH4H2JmalvvuuNjEDu4rKYyi1sFo4HTHaosC934TsnMKKKLLUm_bVXAnMr6ei-cE5CfCTzI2kOgfTchy3zZyv8P
+SubwJsbY-UcliLNUZ_0POtWdmcRIQ4M4ayMoKQBu4auYx0hk
+}
+
+AzureEntityColoring(APDevsecops)
+!define APDevsecops(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APDevsecops_tbg.png, e_stereo)
+!define APDevsecops(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APDevsecops_tbg.png, e_stereo)
+AzureEntityColoring(APDevsecops_m)
+!define APDevsecops_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDevsecopsSPRITE, e_stereo)
+!define APDevsecops_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDevsecopsSPRITE, e_stereo)
+

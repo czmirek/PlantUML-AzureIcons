@@ -1,0 +1,12 @@
+sprite $APInputSPRITE [70x70/16z] {
+xTS53iCm58FXCDp_m6DsfSnxoz2_iFILoJsSKY6o1OUbp9RUeqX9SLmQAj6DYzCKAL9AtrPD2ZBBohWA32WiWmhB61NNJWmgD5ECYWS6bLo7xPKB1fNIxwvO
+bNtvAOetA80iA3uCgtiacCvqEY8M9G822e5Ob008A1o22eT4mnCJ44Q1KK5lDIdplbJPvYjIx7-VR4gj0G
+}
+
+AzureEntityColoring(APInput)
+!define APInput(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APInput_tbg.png, e_stereo)
+!define APInput(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APInput_tbg.png, e_stereo)
+AzureEntityColoring(APInput_m)
+!define APInput_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APInputSPRITE, e_stereo)
+!define APInput_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APInputSPRITE, e_stereo)
+

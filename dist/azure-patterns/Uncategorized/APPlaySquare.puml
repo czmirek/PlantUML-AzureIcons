@@ -1,0 +1,12 @@
+sprite $APPlaySquareSPRITE [70x70/16z] {
+xTW50S0W04JHFrpwzrq87Eu2F5pPAYuqnW74sfXueo95YXGfKdBkeIH25mNNHS7a7Wg4BWgkYuB9FHG8NHHS5mMJ-oYxj2ZiCj9kbnLWyYuxGnY-O-eyaY95
+YXGfdNvnjieF
+}
+
+AzureEntityColoring(APPlaySquare)
+!define APPlaySquare(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APPlaySquare_tbg.png, e_stereo)
+!define APPlaySquare(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APPlaySquare_tbg.png, e_stereo)
+AzureEntityColoring(APPlaySquare_m)
+!define APPlaySquare_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPlaySquareSPRITE, e_stereo)
+!define APPlaySquare_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPlaySquareSPRITE, e_stereo)
+

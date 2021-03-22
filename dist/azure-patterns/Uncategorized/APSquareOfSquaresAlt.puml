@@ -1,0 +1,13 @@
+sprite $APSquareOfSquaresAltSPRITE [70x70/16z] {
+xPO5RiLG30HdRR_I_UzRRgoLfJB_jy9inXE6AyiviBmA26yMSExLRx5ioxPioxbb0UcLGDuaiBpYtsLP4WYl1F8cWFJgVzqlsx8jsn8M0V8Au6NeNoQogb9q
+TD_4gw1Uk4_sH3r6nyHJq-PZJ01r9Edrhj6pa2zLz4WJnvPC7DL97waUCN6y0Ca10UvDW7m12WTY00NWZSRUPGrBJCkBqEViImo0byuByxmmHiZXrGiGX8y0
+Z3l8833nE542d4YxtISqxzMaapRnIaWAuL58uCqBqB_A_6kkb_wQQ_url_Wz4kZ5xz5liMpBjcpB3G
+}
+
+AzureEntityColoring(APSquareOfSquaresAlt)
+!define APSquareOfSquaresAlt(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareOfSquaresAlt_tbg.png, e_stereo)
+!define APSquareOfSquaresAlt(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APSquareOfSquaresAlt_tbg.png, e_stereo)
+AzureEntityColoring(APSquareOfSquaresAlt_m)
+!define APSquareOfSquaresAlt_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APSquareOfSquaresAltSPRITE, e_stereo)
+!define APSquareOfSquaresAlt_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APSquareOfSquaresAltSPRITE, e_stereo)
+

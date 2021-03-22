@@ -1,0 +1,15 @@
+sprite $CDSManageRecoveryServicesVaultsSPRITE [70x70/16z] {
+xTNNUYiX30JWaL3pUV_tFPtDwWEyeEGo_utxC98RFkSRSMlC1DGrjKwecc69LdBO1bmDoLfzcdfCymN6FlOLmpxr9S4k6bzBrgzIlKe3wNLr0wjvrbzgsvjX
+yr4lO9iZYIyGFcBu_AqnOI9qrdiTXKWFI37QJZwlWa7VZUv-NeqnyVInsVgesyCtYYDnN8YPUqZSC4OQoLLOF7uJ_4OsEIZpk9DRHhzD7jcuVUe7kFtHA1UK
+7fBGV2sc7nf1evEqjsMPrZFkuk8j9dJiuZgAXTL-oNN6uwrX8fqxIccw4gyrHyAwPAyrHQBTMPasL2cK2ToHQgcCuCAY3_nnjwpTyKX1QPHY2c-6TDDnjfjq
+7gyVsMsnQWVoNnGkOaSQPjWE2IRKJYa6P4bng6O516HY1Vgmbc8PA-4lIP4lcKYHYLSOikOL2cHU8K2cNa10nbw0WLO7oYmEEMOypX2IMfk61OrzZ2Nss6E4
+TrZzzIIiuHdnEuH3ttu1
+}
+
+AzureEntityColoring(CDSManageRecoveryServicesVaults)
+!define CDSManageRecoveryServicesVaults(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Manage/CDSManageRecoveryServicesVaults_tbg.png, e_stereo)
+!define CDSManageRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Manage/CDSManageRecoveryServicesVaults_tbg.png, e_stereo)
+AzureEntityColoring(CDSManageRecoveryServicesVaults_m)
+!define CDSManageRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSManageRecoveryServicesVaultsSPRITE, e_stereo)
+!define CDSManageRecoveryServicesVaults_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSManageRecoveryServicesVaultsSPRITE, e_stereo)
+

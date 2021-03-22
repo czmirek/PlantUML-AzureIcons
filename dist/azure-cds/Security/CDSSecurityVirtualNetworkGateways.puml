@@ -1,0 +1,15 @@
+sprite $CDSSecurityVirtualNetworkGatewaysSPRITE [70x70/16z] {
+xTK7hkmW38NXs3uci_yLFn8n615J_Fej_-rbFggKuwF40hq2-6S94ctxEKYq3nGrIBqaXh3wIH09C87bn1cTnPi8T1h5DqMOY5Yq2T7rmBqz59iA-xz6Q2hS
+wO79q7182PosZ4VKsbAP3CXHnL_yzisZsNWILZ2x1BnxMoGmH72ulwk8hMYjV2lVIjBxRQ2KlquLOhQvi9EMmCmqC2IOwmWGGW1F0No6sJTyHNs6ZyDXC5M0
+9-8mM2deaIS3h1MWGte6KqLHtemfzuAPMsEkMDrqn490KVWA45BCQHM45KMl0445rJ45EQ68mjmmp1KvOif1CASO6TbLXAxieOmMoT7TIk77irtaENHSILeK
+tbV0LzGWkORXk-tTDIEdXGcUqHivJuZapwam8GN5o4d-I_vIfYCHfI9LgTDPACapJCbfK374b5mAADKmfQPh9TNguFSrHCEcbMA6HUy_dhLDvMoZYjHqGpcx
+g2BMKZaVKKKi7IgEyRhVqlMvAuqKPEIrtQc-GleA1Jh-otu
+}
+
+AzureEntityColoring(CDSSecurityVirtualNetworkGateways)
+!define CDSSecurityVirtualNetworkGateways(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Security/CDSSecurityVirtualNetworkGateways_tbg.png, e_stereo)
+!define CDSSecurityVirtualNetworkGateways(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Security/CDSSecurityVirtualNetworkGateways_tbg.png, e_stereo)
+AzureEntityColoring(CDSSecurityVirtualNetworkGateways_m)
+!define CDSSecurityVirtualNetworkGateways_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSSecurityVirtualNetworkGatewaysSPRITE, e_stereo)
+!define CDSSecurityVirtualNetworkGateways_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSSecurityVirtualNetworkGatewaysSPRITE, e_stereo)
+

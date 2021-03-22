@@ -1,0 +1,13 @@
+sprite $APHealth02SPRITE [70x70/16z] {
+xTY5USKm34LXMH6Nzj-spAsl0yNdCy3_1KrNT41NM5cM_GfxbVC-fNdTPMsxmbvFEMzJ9EfLiQnMccQzAxMjK9fuVP9B6r9Oexg5SbzXzQo1qeK_LQHM9BzR
+cSfKCcxAlKh8JT5NfZ8LVyZa9lE7rYhoONzPqSVa9dtiEzxHLAQIUbF-hxbnAijEPVt5U6S5ppby9Hs5MemOoMWtuHY9HaZ13qVXpWO_d5n6Tra1xmOhDrdd
+1GC5FvmKGWf-ECc45Fnml15IyCFHZNjxUVU2WO8UJZJ22deujlFan3elU5mXgMJQhH0m1XNwDkKQ
+}
+
+AzureEntityColoring(APHealth02)
+!define APHealth02(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Health/APHealth02_tbg.png, e_stereo)
+!define APHealth02(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Health/APHealth02_tbg.png, e_stereo)
+AzureEntityColoring(APHealth02_m)
+!define APHealth02_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealth02SPRITE, e_stereo)
+!define APHealth02_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealth02SPRITE, e_stereo)
+

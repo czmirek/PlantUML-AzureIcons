@@ -1,0 +1,14 @@
+sprite $APPricing11SPRITE [70x70/16z] {
+xTH7SiCm38LXiAAatV-sKPi8pnMIi_Bmt_CRzXyAb26wwYUY98FUHHaAG-cSaWpA_wuCPIWPEgiOLDvT6SfGXZ8KuLPhBQtBCoMRJtT59sAlwobbCZ3Mmuhs
+UbNJWugsUYivfW22J5pnos63HSKLhgYuUbI1zImtHHohKONzHEQysuCA334LO_MpqvYYS2JBlZIdS4pXAmNgCQM38fE2nPJYhiUsjL0YeWRHv3PVtHHuoG8E
+1TeKVCdQNrGgcqxCwqeLs1kx4-vkThkxAkoL5bEItnJkRFCMkmsFANJrZF2Lj-VLISdx0BdwFWj5cXIghiPuwr9OoVT_gK9XXGfC1gSILwX2YCILT1l955Vk
+CecEALFb988AfN9kDQXCJluZO1uX1KfJTBYVNm
+}
+
+AzureEntityColoring(APPricing11)
+!define APPricing11(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Pricing/APPricing11_tbg.png, e_stereo)
+!define APPricing11(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Pricing/APPricing11_tbg.png, e_stereo)
+AzureEntityColoring(APPricing11_m)
+!define APPricing11_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APPricing11SPRITE, e_stereo)
+!define APPricing11_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APPricing11SPRITE, e_stereo)
+

@@ -1,0 +1,13 @@
+sprite $APNavFeaturedSPRITE [70x70/16z] {
+hTOvbiKW30LH0Hx0DhpzxxR3FzCwLbNEJPYaZ-oZOc_fFOUIAw4qGaaYb8eeWr0s4Kedb5M4qWcbY51EGiaYb4OeIOHI4MKGoYP26OIoYb0weHGHoaaeMOJI
+22M9K2gYY50sH1dIewk-jZkLLREQK-cQbNtAebcd-PHJinQVaZMhcqzfchNvbAHfvbEgPbMdecd9fsoQTPXFQTTRUgxSdElAspO3odPNoNeqZ51gOFP-b0Zb
+C48fzvN7cii8PIMKOOIo8qeAAUEnpN6b4CfbCQK_jZcg30igrsEReqeYb6PHvPIK2UMqi7982w4CYojDEw8OeJH2gPbGYlsh_04
+}
+
+AzureEntityColoring(APNavFeatured)
+!define APNavFeatured(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APNavFeatured_tbg.png, e_stereo)
+!define APNavFeatured(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APNavFeatured_tbg.png, e_stereo)
+AzureEntityColoring(APNavFeatured_m)
+!define APNavFeatured_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APNavFeaturedSPRITE, e_stereo)
+!define APNavFeatured_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APNavFeaturedSPRITE, e_stereo)
+

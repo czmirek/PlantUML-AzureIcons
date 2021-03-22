@@ -1,0 +1,14 @@
+sprite $APRamSPRITE [70x70/16z] {
+xPU7Rkim34LfEbTK-5xR___R2k3jT2KmMovwCCYiOsqgBrT1Va8zQ2aYivPQf6Yf1ofaRWk0uW40_hG2g1G2yA00w5ZyD2Qth6RcxlMGexYxcQr223Y0IGk_
+ZdrOpCVOFYoBgfveKTL5jfne4NAvvJez-lKp_MUXPTQrUxbb1TOM544f1L6yZ6zqBG1KY4KHfLnPFJz6JeUZEvM5fUpeVcoXkZj3RP4XPM7UvruMLIri-1Ps
+JbKF7Glhj0U3WfvOTLDP01WjjY4iYN5fW1RVG4jYfkzZOO_6beWZ2t-pOL8BPtfiuUctnNZMvUUeXv1fBDpy0qim_d_amGIMN8zuWgC5xc0B5Y6fVIG39hDy
+Z4iFZWjaGFhSjNjOs2DSrADKXLKXUx4eWEfUUUpn5bS-xdMB91dVfNPbURaAhm
+}
+
+AzureEntityColoring(APRam)
+!define APRam(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APRam_tbg.png, e_stereo)
+!define APRam(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APRam_tbg.png, e_stereo)
+AzureEntityColoring(APRam_m)
+!define APRam_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APRamSPRITE, e_stereo)
+!define APRam_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APRamSPRITE, e_stereo)
+

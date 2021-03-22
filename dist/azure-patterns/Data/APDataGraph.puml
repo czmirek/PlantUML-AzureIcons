@@ -1,0 +1,13 @@
+sprite $APDataGraphSPRITE [70x70/16z] {
+xPHLsiCm30H5gvHx_zF-u6IJCdCzXVM3D35ypl9gAfNAQ783A7aL4bUHhSNbAlpk5lKRMDmTqbE6VhubIYj1ymTiWtqMHretolIDkU3KkO2rgYAcQvO1FMA9
+o2XrPKOsM6oLr9Oz5jFo5rooxR4ScWkNa0hbtBeHrfPZ-or0qs-2TnPDoKqB3kvk2jVXOAL6ruI1r9vTSub6jd3usWPnk7zVz6Ll8waMTzVDK01MBdZ-XRgx
+z64bZblQ0eYW555sbOL1Iuv6euCMBcNJCeI8ZDhORs7xCorily8o6etYUWlxNjLIBJnfsnNn5xOMl4TtUh_W0kn5tvYmgy3ajHZVHBAycagbyWi
+}
+
+AzureEntityColoring(APDataGraph)
+!define APDataGraph(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Data/APDataGraph_tbg.png, e_stereo)
+!define APDataGraph(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Data/APDataGraph_tbg.png, e_stereo)
+AzureEntityColoring(APDataGraph_m)
+!define APDataGraph_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDataGraphSPRITE, e_stereo)
+!define APDataGraph_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDataGraphSPRITE, e_stereo)
+

@@ -1,0 +1,14 @@
+sprite $APMlflowSPRITE [70x70/16z] {
+xPG7bXiX44Ih0tGfSl_RUkW1Poivx_8Lo7zGeKVx3rai5ei5RcD1EdwIu8RXvoXak0j-3ZBmqoXPy2fn32HEAZgls8xjXAIIMGffhrk2TVuoUSrYd1YSn6iM
+vqHGMN4RZK0zdKAWXzFHf-MhSBDVpIqxn5s_AE2j7Th6kRPEcPOlmasRbuvaHshhB6gtj2Cls_ULlBRhPvPWP6daBb5peCoJLv8rbTOj1EJQcW4rlwTb_ajA
+jqdVXdIrZSEh96ECRXO7SCgLberXKT8-7RWLHKTtGSrXChVobGNJycsuNcI4b9P0fIi9P-2MPOQhf7wr5oUx0LdOJSkNuMfnx6vBIz21NWHkMiWwmys90gqe
+kv8RgIJzfaN710GBXgwZm-AZ1pSjDiETHoM5P9NFho-RJvBzHZJFgTbGq_qv-26gCahS9lxwRJcnpF7d2FBdjoBSSFmieegdQFyXYyLYiVW
+}
+
+AzureEntityColoring(APMlflow)
+!define APMlflow(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Uncategorized/APMlflow_tbg.png, e_stereo)
+!define APMlflow(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Uncategorized/APMlflow_tbg.png, e_stereo)
+AzureEntityColoring(APMlflow_m)
+!define APMlflow_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMlflowSPRITE, e_stereo)
+!define APMlflow_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMlflowSPRITE, e_stereo)
+

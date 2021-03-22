@@ -1,0 +1,14 @@
+sprite $APHealthWarningSPRITE [70x70/16z] {
+xPC7RaD120NDKfwwxt_Qz6Jr3TW8qfDHSntnPzdp1_BFgSS_2qPp2m0RInG0UFmyJmmjXYTa966yC0bCUCL6QT_WQTfXO6pwWGK7Q99s6DXm0VTNPHWO7kck
+ol4jDT9wYpRJqd6qDRk5rWdiLgqJM5CBg7CBrwMb7ZZOruEtX7WBOLDTbTnI3wmtBA1Yseq6bafWYooCJIKm8xVK0wDYuLhQJMX1xPGtUuNgWIsnA81oO4RL
+OeMqeQKQME2Xv4cHfmqmVGGUJK-vJ1vu8KIO1H5nOCj_IWQW59WH4IVB0oD2hZRJOjfrVL9ofzonM2Kj83U-vo1jFlD2Gf0sm2YIn845ESfYo26NjeErBb0U
+60Ds6PxDyekXDgSdpX_8F_S
+}
+
+AzureEntityColoring(APHealthWarning)
+!define APHealthWarning(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Health/APHealthWarning_tbg.png, e_stereo)
+!define APHealthWarning(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Health/APHealthWarning_tbg.png, e_stereo)
+AzureEntityColoring(APHealthWarning_m)
+!define APHealthWarning_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealthWarningSPRITE, e_stereo)
+!define APHealthWarning_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealthWarningSPRITE, e_stereo)
+

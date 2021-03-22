@@ -4,11 +4,11 @@ See [README.md](README.md) for more info.
 
 ## Colored image 
 ```
-CDSAzureComputeFunctionApps(functionAlias, "Label", "Technology", "Optional description")
+CDSAzureComputeFunctionApps(functionAlias, "Label", "Technology", "Optional description", "Stereotype")
 ```
 ## Monochromatic sprite
 ```
-CDSAzureComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional description")
+CDSAzureComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional description", "Stereotype")
 ```
 ## Include all sprites
 

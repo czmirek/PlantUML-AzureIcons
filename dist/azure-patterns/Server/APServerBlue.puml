@@ -1,0 +1,13 @@
+sprite $APServerBlueSPRITE [70x70/16z] {
+xPTdZiOm20NTC33Rxd_RbNE5nvOloaZvEsxmHBvknmXah0KL5d3JE9RpQVnRo-YwnO0OeiMv699bmXup2SdYHBjSecMV-uMXMEpQnHRtqW4FCEsD9WTNwwMR
+-whlWCUIeL6LkxD1Yi2wyKiFcrsrz01oYfQioDrz13tatBM2t8qIooPxQ-g9Ua80KypT132vwgQj_YHcjINHMIsBSZTSuzOlFNVeauTn2Cqo8Sp12YRLJHOa
+vf3dNJ-N8reMs5Y9QsyK7B8N_DbursktFubPRYd9kjNGoTvCfxSYlcx7Dm
+}
+
+AzureEntityColoring(APServerBlue)
+!define APServerBlue(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Server/APServerBlue_tbg.png, e_stereo)
+!define APServerBlue(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Server/APServerBlue_tbg.png, e_stereo)
+AzureEntityColoring(APServerBlue_m)
+!define APServerBlue_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServerBlueSPRITE, e_stereo)
+!define APServerBlue_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServerBlueSPRITE, e_stereo)
+

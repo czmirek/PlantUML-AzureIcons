@@ -1,0 +1,12 @@
+sprite $APDocumentationLearnMoreSPRITE [70x70/16z] {
+xSp5WSG030ImCUUN_gizN0upMGMeF1smJcEc04rEVa0c7pyc9dUJa-TYe_YVbyN7M7p99PTSSiabbrnooIMNgVHXwZ8zaHaI4rIFuG2mYDQo2gqZZ1PIL106
+uqeI6A6o-2oBRhP8PJ4Cnb5K33wig16CRYo_LCsZaQdyQmpT1l1pB-NfV0C
+}
+
+AzureEntityColoring(APDocumentationLearnMore)
+!define APDocumentationLearnMore(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/Document/APDocumentationLearnMore_tbg.png, e_stereo)
+!define APDocumentationLearnMore(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/Document/APDocumentationLearnMore_tbg.png, e_stereo)
+AzureEntityColoring(APDocumentationLearnMore_m)
+!define APDocumentationLearnMore_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDocumentationLearnMoreSPRITE, e_stereo)
+!define APDocumentationLearnMore_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDocumentationLearnMoreSPRITE, e_stereo)
+

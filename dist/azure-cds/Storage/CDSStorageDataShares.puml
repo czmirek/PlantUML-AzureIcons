@@ -1,0 +1,15 @@
+sprite $CDSStorageDataSharesSPRITE [70x70/16z] {
+xPS5Tkim50Nrw9hslzwsaUDx58NrFlzE6J9dJ8Bod_ADN98KjBohK5KpynqpKtr7j2lCM-ZIEnx-id6Ot-UMnt32fPMeFyHwZGJEM5FYJz3E4a2OgbCpOd4W
+zXS3e8MQmFJ5l2pB_FKLYFQ8b9OggIZWzJTIKKTzTS-4CAbe5BuKDCOkt49sB6vePhZApagB0T8SNBLiiv1wlgQTUWBbmBVjeUKBg3p6bwsnA63z4LKMlo_I
+QTssrb80TCBjpBfED14rh5_q5ZikaXu-IiuiCohJp5_HGWA0cmUEgyMMHz3IQW1AsFAU1JjUAWCjV0JuJ8osy50IBNmQ4orCIRGm9TN2b6oB0oZf5WwJcHPZ
+IgA5AOCj2mvAeeKMBx-vXUSb69EvHfg-Hen9jp0c_nnvkeLtRtvyiNGBO_BZhgLQ6AEcacifs0dDj0WEF7TUGaKCW6Nc8sUJZBO0mKE3ZxNqgyF15WEa-NwW
+vSxgS7cvnPhhRDqfqbTRbaA2CNwS8bzVQfcxROrqawtCprkuy6O2mfqBkufEZoKB7Qq6b12VxYbcQ254d0_Z9UgOBrpp1DSoY5RAFyKtdm
+}
+
+AzureEntityColoring(CDSStorageDataShares)
+!define CDSStorageDataShares(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataShares_tbg.png, e_stereo)
+!define CDSStorageDataShares(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Storage/CDSStorageDataShares_tbg.png, e_stereo)
+AzureEntityColoring(CDSStorageDataShares_m)
+!define CDSStorageDataShares_m(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSStorageDataSharesSPRITE, e_stereo)
+!define CDSStorageDataShares_m(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSStorageDataSharesSPRITE, e_stereo)
+
