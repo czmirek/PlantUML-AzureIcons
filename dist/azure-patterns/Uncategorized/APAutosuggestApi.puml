@@ -1,9 +1,0 @@
-sprite $APAutosuggestApiSPRITE [70x70/16z] xSp30S1G00MmMliFt0bgV2NNXoeg001qVNUgrLTxvcMkZatB4jsB5o_BU6mvV3dZlPVq0R02
-
-AzureEntityColoring(APAutosuggestApi)
-!define APAutosuggestApi(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APAutosuggestApi_tbg.png, Autosuggesti)
-!define APAutosuggestApi(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APAutosuggestApi_tbg.png, Autosuggesti)
-AzureEntityColoring(APAutosuggestApi_m)
-!define APAutosuggestApi_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APAutosuggestApiSPRITE, Autosuggesti)
-!define APAutosuggestApi_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APAutosuggestApiSPRITE, Autosuggesti)
-

@@ -1,9 +1,0 @@
-sprite $APTextAnalyticsSPRITE [70x70/16z] xTLL0S1G34FHHqN_WYTXpFS8o4yXvVK00DNczJAdvJovAANAl5OsGfjNNx0lHr_0-M0vorwGiXUEwG1QxN00W0a
-
-AzureEntityColoring(APTextAnalytics)
-!define APTextAnalytics(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APTextAnalytics_tbg.png, TextAnalytics)
-!define APTextAnalytics(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APTextAnalytics_tbg.png, TextAnalytics)
-AzureEntityColoring(APTextAnalytics_m)
-!define APTextAnalytics_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APTextAnalyticsSPRITE, TextAnalytics)
-!define APTextAnalytics_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APTextAnalyticsSPRITE, TextAnalytics)
-

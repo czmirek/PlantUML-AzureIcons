@@ -38,7 +38,7 @@ This is the default to use, it loads the png image from the internet.
 
 Macro:
 ```
-CDSComputeFunctionApps(functionAlias, "Label", "Technology", "Optional Description")
+CDSComputeFunctionApps(functionAlias, "Label", "Technology", "Optional Description", "Stereotype")
 ```
 Render:
 
@@ -51,7 +51,7 @@ This uses generated monochromatic sprites if you wish to use these instead of im
 
 Macro:
 ```
-CDSComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional Description")
+CDSComputeFunctionApps_m(functionAlias, "Label", "Technology", "Optional Description", "Stereotype")
 ```
 ![img](docs/monochromfunction.png)
 

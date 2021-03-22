@@ -1,9 +1,0 @@
-sprite $APResourcesBlueSPRITE [70x70/16z] xSp75OD004F13P9J__tQ1gvaz3ZzAM3Af7gNNbQrpovFPHPb5aSMERB8aKMEB79aaIEBN1EBN1EBL2EBMcHHYopg2yinhniM5XOM5XOM5XOM5XOM5fQe7m
-
-AzureEntityColoring(APResourcesBlue)
-!define APResourcesBlue(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APResourcesBlue_tbg.png, ResourcesBlue)
-!define APResourcesBlue(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APResourcesBlue_tbg.png, ResourcesBlue)
-AzureEntityColoring(APResourcesBlue_m)
-!define APResourcesBlue_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APResourcesBlueSPRITE, ResourcesBlue)
-!define APResourcesBlue_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APResourcesBlueSPRITE, ResourcesBlue)
-

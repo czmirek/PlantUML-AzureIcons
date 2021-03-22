@@ -1,9 +1,0 @@
-sprite $CDSCommandTableSPRITE [70x70/16z] xTIr5S0W543HkCl-swQBEmxlrXpWw_WLq6I_DSijLVHRvVCjTVfRFMg1whHyqSxvKPEtS0ktrATB8zsvEGhs2xTm2_k5_UBpBTp2VW4c
-
-AzureEntityColoring(CDSCommandTable)
-!define CDSCommandTable(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandTable_tbg.png, CommandTable)
-!define CDSCommandTable(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandTable_tbg.png, CommandTable)
-AzureEntityColoring(CDSCommandTable_m)
-!define CDSCommandTable_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandTableSPRITE, CommandTable)
-!define CDSCommandTable_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandTableSPRITE, CommandTable)
-

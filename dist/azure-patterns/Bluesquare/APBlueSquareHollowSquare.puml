@@ -1,9 +1,0 @@
-sprite $APBlueSquareHollowSquareSPRITE [70x70/16z] xT750S0m3C30CiF-qnQ_nJ180rnYUquKDC_bzugxvhdxN6jNGL5pwJGHA7DQGK51GKdBCqcbExEXeA3KPzbTtvJY9HSK51GK51IKxA7yiz9q3_cZeAm
-
-AzureEntityColoring(APBlueSquareHollowSquare)
-!define APBlueSquareHollowSquare(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APBlueSquareHollowSquare_tbg.png, BlueSquareHollowSquare)
-!define APBlueSquareHollowSquare(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APBlueSquareHollowSquare_tbg.png, BlueSquareHollowSquare)
-AzureEntityColoring(APBlueSquareHollowSquare_m)
-!define APBlueSquareHollowSquare_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APBlueSquareHollowSquareSPRITE, BlueSquareHollowSquare)
-!define APBlueSquareHollowSquare_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APBlueSquareHollowSquareSPRITE, BlueSquareHollowSquare)
-

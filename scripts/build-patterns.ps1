@@ -58,16 +58,15 @@ Get-ChildItem $iconPath | ForEach-Object -Parallel {
         $sprite = ((java -jar "lib/plantuml.jar" -encodesprite 16z "$($pngWbgPath)") | Out-String) -replace "`r", ""
         $sprite = $sprite -replace "$($serviceId)_wbg", "$($spriteId)"
         
-        $stereo = $serviceId -replace "AP", ""
-        $sourcePath = "IMAGE_SOURCE/azure-patterns/$($pngTbg)"
+        $sourcePath = "IMAGE_SOURCE/azure-patterns/$($category)/$($pngTbg)"
         $puml = $sprite
         $puml += "AzureEntityColoring($($coloredMacro))`n"
-        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, $($sourcePath), $($stereo))`n"
-        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), $($stereo))`n"
+        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_stereo) AzureImage(e_alias, e_label, e_techn, $($sourcePath), e_stereo)`n"
+        $puml += "!define $($coloredMacro)(e_alias, e_label, e_techn, e_descr, e_stereo) AzureImage(e_alias, e_label, e_techn, e_descr, $($sourcePath), e_stereo)`n"
         
         $puml += "AzureEntityColoring($($monochromaticMacro))`n"
-        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), $($stereo))`n"
-        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), $($stereo))`n`n"
+        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_stereo) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, $($spriteId), e_stereo)`n"
+        $puml += "!define $($monochromaticMacro)(e_alias, e_label, e_techn, e_descr, e_stereo) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, $($spriteId), e_stereo)`n`n"
 
         $puml | Out-File $pumlOutput -NoNewLine   
     }
@@ -128,10 +127,10 @@ See [README.md](README.md) for more info.
 
 ## Colored image 
 ```
-APSomeMacro(functionAlias, "Label", "Technology", "Optional description")
+APSomeMacro(functionAlias, "Label", "Technology", "Optional description", "Stereotype")
 ```
 ## Monochromatic sprite
 ```
-APSomeMacro_m(functionAlias, "Label", "Technology", "Optional description")
+APSomeMacro_m(functionAlias, "Label", "Technology", "Optional description", "Stereotype")
 ```
 ' + $list | Out-File "dist/azure-patterns/README.md" -NoNewLine

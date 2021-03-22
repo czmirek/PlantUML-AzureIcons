@@ -1,9 +1,0 @@
-sprite $APDatabase09SPRITE [70x70/16z] xTQr0S0m30NHC2T__srJgpN3tG2liYLf292qkxIj9kbowLXC8HGK59JLfSKc3G4gIrbDs-wIj9YEowNm2WeAohAwLFgiuwv3GK7PNTfgcdNSTIWeA87-z0y
-
-AzureEntityColoring(APDatabase09)
-!define APDatabase09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APDatabase09_tbg.png, Database09)
-!define APDatabase09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APDatabase09_tbg.png, Database09)
-AzureEntityColoring(APDatabase09_m)
-!define APDatabase09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APDatabase09SPRITE, Database09)
-!define APDatabase09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APDatabase09SPRITE, Database09)
-

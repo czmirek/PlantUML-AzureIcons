@@ -1,9 +1,0 @@
-sprite $APHealth03SPRITE [70x70/16z] xTO33i100031i_x_txf1RUx4nGP7yGDIpP1Y0Pzck4zLgFYHDo-jKF4zCLNYcZVfcu1ZfhWr5Kk5oeJGQYkXbLOmepvGeNBOV64rKjdbiTS_m1v2348E
-
-AzureEntityColoring(APHealth03)
-!define APHealth03(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APHealth03_tbg.png, Health03)
-!define APHealth03(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APHealth03_tbg.png, Health03)
-AzureEntityColoring(APHealth03_m)
-!define APHealth03_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APHealth03SPRITE, Health03)
-!define APHealth03_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APHealth03SPRITE, Health03)
-

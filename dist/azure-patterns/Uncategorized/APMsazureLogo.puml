@@ -1,9 +1,0 @@
-sprite $APMsazureLogoSPRITE [70x70/16z] xSyf4i0m30F0t0dB_tzRmx9UhBFBRKdx1W205KOV8NtmloyZjDfxRv-_b1e-Bwej-7AsRm00E
-
-AzureEntityColoring(APMsazureLogo)
-!define APMsazureLogo(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APMsazureLogo_tbg.png, MsazureLogo)
-!define APMsazureLogo(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APMsazureLogo_tbg.png, MsazureLogo)
-AzureEntityColoring(APMsazureLogo_m)
-!define APMsazureLogo_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APMsazureLogoSPRITE, MsazureLogo)
-!define APMsazureLogo_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APMsazureLogoSPRITE, MsazureLogo)
-

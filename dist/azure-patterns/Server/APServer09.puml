@@ -1,9 +1,0 @@
-sprite $APServer09SPRITE [70x70/16z] xTYt0SGW5C1GETlil-ybCZNTIHNn3V2PqdB5WBHQu8Yh3RPnTNHVjXXhY05fjS8LLmSSu-gY_RB7blzHL5HKL5HKL5HKL5HKL5HKL5JcpANU
-
-AzureEntityColoring(APServer09)
-!define APServer09(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APServer09_tbg.png, Server09)
-!define APServer09(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APServer09_tbg.png, Server09)
-AzureEntityColoring(APServer09_m)
-!define APServer09_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APServer09SPRITE, Server09)
-!define APServer09_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APServer09SPRITE, Server09)
-

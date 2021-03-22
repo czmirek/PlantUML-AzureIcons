@@ -1,9 +1,0 @@
-sprite $APGrid23SPRITE [70x70/16z] xTRL0O0m30RX7tVOVrisGEfoDy3N9a-vvA3hcbvgfQP_wRhMbpgfJKb1GK51GK51GP63OYl_xxhffK_RxTQN0YeeA2WeA2WeA3S
-
-AzureEntityColoring(APGrid23)
-!define APGrid23(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APGrid23_tbg.png, Grid23)
-!define APGrid23(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APGrid23_tbg.png, Grid23)
-AzureEntityColoring(APGrid23_m)
-!define APGrid23_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APGrid23SPRITE, Grid23)
-!define APGrid23_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APGrid23SPRITE, Grid23)
-

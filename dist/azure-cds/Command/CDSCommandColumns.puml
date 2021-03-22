@@ -1,9 +1,0 @@
-sprite $CDSCommandColumnsSPRITE [70x70/16z] xTQr0O0m54NHXpliFotU8T4kz_JnV5aS0K2lMv_QBEslIhUg_QLW0CfVkMvv-OjSzoxExIeOW3YT1xdE5W1i
-
-AzureEntityColoring(CDSCommandColumns)
-!define CDSCommandColumns(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-cds/Command/CDSCommandColumns_tbg.png, CommandColumns)
-!define CDSCommandColumns(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-cds/Command/CDSCommandColumns_tbg.png, CommandColumns)
-AzureEntityColoring(CDSCommandColumns_m)
-!define CDSCommandColumns_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDSCommandColumnsSPRITE, CommandColumns)
-!define CDSCommandColumns_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDSCommandColumnsSPRITE, CommandColumns)
-

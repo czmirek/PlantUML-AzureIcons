@@ -1,9 +1,0 @@
-sprite $APCharts11SPRITE [70x70/16z] xTV50O0m341Ht6N_RRdYKBV_1tYtDicQQMXTAmtvgA2WeDIjKFMzqWn2DUuK51GK51GKbBu-r4igrI5t2WeAIdEeJ_MlgsgX0hluK4eDhHi
-
-AzureEntityColoring(APCharts11)
-!define APCharts11(e_alias, e_label, e_techn) AzureImage(e_alias, e_label, e_techn, IMAGE_SOURCE/azure-patterns/APCharts11_tbg.png, Charts11)
-!define APCharts11(e_alias, e_label, e_techn, e_descr) AzureImage(e_alias, e_label, e_techn, e_descr, IMAGE_SOURCE/azure-patterns/APCharts11_tbg.png, Charts11)
-AzureEntityColoring(APCharts11_m)
-!define APCharts11_m(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, APCharts11SPRITE, Charts11)
-!define APCharts11_m(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, APCharts11SPRITE, Charts11)
-
